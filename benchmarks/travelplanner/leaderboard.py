@@ -40,6 +40,11 @@ def _table_body_lines(path: Path) -> List[str]:
     return lines
 
 
+def _placeholder_row(metric_keys: List[str]) -> str:
+    column_count = 4 + len(metric_keys) + 1
+    return "| " + " | ".join(["-"] * column_count) + " |"
+
+
 def _sync_travelplanner_readme() -> None:
     LEADERBOARD_DIR.mkdir(parents=True, exist_ok=True)
     main_lines = _table_body_lines(LEADERBOARD_PATH)
@@ -48,11 +53,12 @@ def _sync_travelplanner_readme() -> None:
     content: List[str] = ["# TravelPlanner Leaderboards", ""]
 
     content.append("## Main Leaderboard")
-    content.append("")
     if main_lines:
         content.extend(main_lines)
     else:
-        content.append("_No submissions yet._")
+        header = build_header(DEFAULT_METRIC_KEYS)
+        content.extend(header[2:])
+        content.append(_placeholder_row(DEFAULT_METRIC_KEYS))
     content.append("")
 
     content.append("## Mini Leaderboard")
@@ -60,7 +66,9 @@ def _sync_travelplanner_readme() -> None:
     if mini_lines:
         content.extend(mini_lines)
     else:
-        content.append("_No submissions yet._")
+        header = build_header(DEFAULT_METRIC_KEYS)
+        content.extend(header[2:])
+        content.append(_placeholder_row(DEFAULT_METRIC_KEYS))
     content.append("")
 
     READ_ME_PATH.write_text("\n".join(content), encoding="utf-8")
@@ -75,7 +83,7 @@ def build_header(metric_keys: List[str], title: str = "# TravelPlanner Leaderboa
         *metric_keys,
         "Results",
     ])
-    separator = "| " + " | ".join(["---"] * (3 + len(metric_keys) + 1)) + " |"
+    separator = "| " + " | ".join(["---"] * (4 + len(metric_keys) + 1)) + " |"
     return [
         title,
         "",
@@ -143,9 +151,10 @@ def _build_row(
     result_label: str | None = None,
 ) -> str:
     metric_values = [_format_metric(metrics.get(key)) for key in metric_keys]
+    display = "파일 보기"
     link_text = results_path if not result_label else f"{results_path}({result_label})"
     columns = " | ".join(
-        [str(rank), provider, model, updated, *metric_values, f"[{link_text}]({results_path})"]
+        [str(rank), provider, model, updated, *metric_values, f"[{display}]({results_path})"]
     )
     return f"| {columns} |"
 
@@ -250,7 +259,7 @@ def update_leaderboard(
             "model": model_display,
             "updated": updated,
             "metrics": metrics,
-            "results_path": _rel_path(run_dir),
+            "results_path": _rel_path(run_dir, leaderboard_path.parent.resolve()),
             "result_label": result_label,
         }
     )
@@ -258,7 +267,7 @@ def update_leaderboard(
     sorted_entries = _sort_entries(entries, metric_keys)
 
     output_lines = header.copy()
-    output_lines.append("")
+
     for rank, entry in enumerate(sorted_entries, start=1):
         output_lines.append(
             _build_row(
@@ -273,12 +282,19 @@ def update_leaderboard(
             )
         )
 
+    if not sorted_entries:
+        output_lines.append(_placeholder_row(metric_keys))
+
     leaderboard_path.write_text("\n".join(output_lines) + "\n", encoding="utf-8")
 
     if leaderboard_path.resolve() in {LEADERBOARD_PATH.resolve(), MINI_LEADERBOARD_PATH.resolve()}:
         _sync_travelplanner_readme()
-def _rel_path(path: Path) -> str:
+import os
+
+
+def _rel_path(path: Path, base: Path | None = None) -> str:
+    base = base or Path.cwd()
     try:
-        return path.relative_to(Path.cwd()).as_posix()
-    except ValueError:
+        return os.path.relpath(path, base).replace("\\", "/")
+    except Exception:
         return path.as_posix()
