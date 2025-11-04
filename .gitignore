@@ -23,6 +23,7 @@ __pycache__/
 
 # Project data & artifacts
 data/
+benchmarks/travelplanner/official/database/
 external/
 github_download/
 
