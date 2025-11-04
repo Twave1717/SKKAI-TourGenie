@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Knoxville\", \"transportation\": \"Flight Number: F0152199, from Atlanta to Knoxville, Departure Time: 19:27, Arrival Time: 20:16, Price: 32\", \"breakfast\": \"Peppers & Pipes, Knoxville; Cost: 86\", \"lunch\": \"Rama Vaishnav Bhojnalaya, Knoxville; Cost: 46\", \"dinner\": \"TcozY, Knoxville; Cost: 85\", \"attraction\": \"Zoo Knoxville, Knoxville;Augusta Quarry, Knoxville;\", \"accommodation\": \"Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)\"}, {\"days\": 2, \"current_city\": \"Knoxville\", \"transportation\": \"Taxi in Knoxville; Cost: 50\", \"breakfast\": \"Sky On 57, Knoxville; Cost: 150\", \"lunch\": \"TcozY, Knoxville; Cost: 85\", \"dinner\": \"Anand Sweets, Knoxville; Cost: 45\", \"attraction\": \"Augusta Quarry, Knoxville;Charles Krutch Park, Knoxville;\", \"accommodation\": \"Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)\"}, {\"days\": 3, \"current_city\": \"Knoxville\", \"transportation\": \"Flight from Knoxville to Atlanta\", \"breakfast\": \"The Indian Kaffe Express, Knoxville; Cost: 71\", \"lunch\": \"Anand Sweets, Knoxville; Cost: 45\", \"dinner\": \"Cafe Arabelle, Knoxville; Cost: 29\", \"attraction\": \"Charles Krutch Park, Knoxville;Chilhowee Park & Exposition Center, Knoxville;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Knoxville",
+                "transportation": "Flight Number: F0152199, from Atlanta to Knoxville, Departure Time: 19:27, Arrival Time: 20:16, Price: 32",
+                "breakfast": "Peppers & Pipes, Knoxville; Cost: 86",
+                "lunch": "Rama Vaishnav Bhojnalaya, Knoxville; Cost: 46",
+                "dinner": "TcozY, Knoxville; Cost: 85",
+                "attraction": "Zoo Knoxville, Knoxville;Augusta Quarry, Knoxville;",
+                "accommodation": "Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)"
+            },
+            {
+                "days": 2,
+                "current_city": "Knoxville",
+                "transportation": "Taxi in Knoxville; Cost: 50",
+                "breakfast": "Sky On 57, Knoxville; Cost: 150",
+                "lunch": "TcozY, Knoxville; Cost: 85",
+                "dinner": "Anand Sweets, Knoxville; Cost: 45",
+                "attraction": "Augusta Quarry, Knoxville;Charles Krutch Park, Knoxville;",
+                "accommodation": "Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)"
+            },
+            {
+                "days": 3,
+                "current_city": "Knoxville",
+                "transportation": "Flight from Knoxville to Atlanta",
+                "breakfast": "The Indian Kaffe Express, Knoxville; Cost: 71",
+                "lunch": "Anand Sweets, Knoxville; Cost: 45",
+                "dinner": "Cafe Arabelle, Knoxville; Cost: 29",
+                "attraction": "Charles Krutch Park, Knoxville;Chilhowee Park & Exposition Center, Knoxville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

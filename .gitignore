@@ -1,0 +1,31 @@
+# Python / venv
+__pycache__/
+.venv/
+.pytest_cache/
+.python-version
+
+# OS
+.DS_Store
+*.zip
+
+# Environment
+.env
+.python-version
+.plan
+
+# Logs & temp artifacts (keep results/ under version control)
+*.log
+**/*_logs/
+**/official_tmp/
+!results/**/*.log
+!results/**/*_logs/
+!results/**/official_tmp/
+
+# Project data & artifacts
+data/
+external/
+github_download/
+
+# Editors
+.vscode/
+.idea/

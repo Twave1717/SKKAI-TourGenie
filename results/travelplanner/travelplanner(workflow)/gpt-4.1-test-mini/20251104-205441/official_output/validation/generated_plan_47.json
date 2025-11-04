@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 14, 2022  \nCurrent City: from Washington to Los Angeles  \nTransportation: Flight Number: F3743452, from Washington to Los Angeles, Departure Time: 09:07, Arrival Time: 11:35  \nBreakfast: Palmshore, Los Angeles (American, Fast Food)  \nAttraction: Hollywood Walk of Fame, Los Angeles  \nLunch: Village - The House of Food, Los Angeles (Chinese, Pizza, Cafe)  \nAttraction: Griffith Observatory, Los Angeles  \nDinner: Elan - The Lodhi, Los Angeles (Italian, Seafood, Desserts)  \nAccommodation: Lovely studio, Los Angeles (Entire home/apt, visitor-friendly, 1 night minimum, max occupancy 3)  \n\nDay 2: March 15, 2022  \nCurrent City: Los Angeles  \nTransportation: -  \nBreakfast: Palmshore, Los Angeles (American, Fast Food)  \nAttraction: Santa Monica Pier, Los Angeles  \nLunch: Punjabi Tandoori Tikka, Los Angeles (Italian, Mexican, Pizza)  \nAttraction: The Getty, Los Angeles  \nDinner: Domino's Pizza, Los Angeles (Mexican, American, Pizza)  \nAccommodation: Lovely studio, Los Angeles  \n\nDay 3: March 16, 2022  \nCurrent City: from Los Angeles to San Francisco  \nTransportation: Self-driving, from Los Angeles to San Francisco, Duration: 5 hours 56 mins, Distance: 614 km, Cost: $30  \nBreakfast: Village - The House of Food, Los Angeles (Chinese, Pizza, Cafe)  \nAttraction: Universal Studios Hollywood, Los Angeles (morning)  \nLunch: The Hangout by 1861, Los Angeles (Pizza, Seafood)  \nAttraction: - (Travel to San Francisco in afternoon)  \nDinner: Bonne Bouche, San Francisco (Chinese, American, Cafe)  \nAccommodation: spacious pretty east harlem apt., San Francisco (Entire home/apt, visitor-friendly, 1 night minimum, max occupancy 3)  \n\nDay 4: March 17, 2022  \nCurrent City: San Francisco  \nTransportation: -  \nBreakfast: Bonne Bouche, San Francisco (Chinese, American, Cafe)  \nAttraction: Golden Gate Bridge, San Francisco  \nLunch: Cafe All-Inn, San Francisco (American, Desserts, Seafood)  \nAttraction: PIER 39, San Francisco  \nDinner: The Chic, San Francisco (Chinese, Indian, Cafe)  \nAccommodation: spacious pretty east harlem apt., San Francisco  \n\nDay 5: March 18, 2022  \nCurrent City: from San Francisco to Washington  \nTransportation: Flight Number: F3907821, from San Francisco to Washington, Departure Time: 22:55, Arrival Time: 06:57 (overnight)  \nBreakfast: Bonne Bouche, San Francisco (Chinese, American, Cafe)  \nAttraction: San Francisco Museum of Modern Art, San Francisco  \nLunch: Moets Oh! Bao, San Francisco (American, Pizza, Desserts)  \nDinner: Sudarshan, San Francisco (Italian, Mediterranean)  \nAccommodation: -  \n\n---\n\n**Budget Summary (approximate):**  \n- Flights: $487 (Washington→LA) + $551 (SF→Washington) = $1,038  \n- Self-driving: $30  \n- Accommodations: $117/night (Lovely studio, LA) × 2 + $470/night (spacious pretty east harlem apt., SF) × 2 = $234 + $940 = $1,174  \n- Meals: Average $60/meal × 3 meals × 5 days × 2 people ≈ $1,800  \n- Total: $1,038 (flights) + $30 (car) + $1,174 (accommodation) + $1,800 (meals) = $4,042  \n- Remaining for attractions, parking, and miscellaneous: ~$558 (within $4,600 budget)  \n\n**All accommodations are non-shared, visitor-friendly, and meet minimum night requirements. All restaurants match cuisine preferences.**",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to Los Angeles",
+                "transportation": "Flight Number: F3743452, from Washington to Los Angeles, Departure Time: 09:07, Arrival Time: 11:35",
+                "breakfast": "Palmshore, Los Angeles",
+                "attraction": "Hollywood Walk of Fame, Los Angeles;Griffith Observatory, Los Angeles;",
+                "lunch": "Village - The House of Food, Los Angeles",
+                "dinner": "Elan - The Lodhi, Los Angeles",
+                "accommodation": "Lovely studio, Los Angeles"
+            },
+            {
+                "days": 2,
+                "current_city": "Los Angeles",
+                "transportation": "-",
+                "breakfast": "Palmshore, Los Angeles",
+                "attraction": "Santa Monica Pier, Los Angeles;The Getty, Los Angeles;",
+                "lunch": "Punjabi Tandoori Tikka, Los Angeles",
+                "dinner": "Domino's Pizza, Los Angeles",
+                "accommodation": "Lovely studio, Los Angeles"
+            },
+            {
+                "days": 3,
+                "current_city": "from Los Angeles to San Francisco",
+                "transportation": "Self-driving, from Los Angeles to San Francisco, Duration: 5 hours 56 mins, Distance: 614 km, Cost: 30",
+                "breakfast": "Village - The House of Food, Los Angeles",
+                "attraction": "Universal Studios Hollywood, Los Angeles;",
+                "lunch": "The Hangout by 1861, Los Angeles",
+                "dinner": "Bonne Bouche, San Francisco",
+                "accommodation": "spacious pretty east harlem apt., San Francisco"
+            },
+            {
+                "days": 4,
+                "current_city": "San Francisco",
+                "transportation": "-",
+                "breakfast": "Bonne Bouche, San Francisco",
+                "attraction": "Golden Gate Bridge, San Francisco;PIER 39, San Francisco;",
+                "lunch": "Cafe All-Inn, San Francisco",
+                "dinner": "The Chic, San Francisco",
+                "accommodation": "spacious pretty east harlem apt., San Francisco"
+            },
+            {
+                "days": 5,
+                "current_city": "from San Francisco to Washington",
+                "transportation": "Flight Number: F3907821, from San Francisco to Washington, Departure Time: 22:55, Arrival Time: 06:57",
+                "breakfast": "Bonne Bouche, San Francisco",
+                "attraction": "San Francisco Museum of Modern Art, San Francisco;",
+                "lunch": "Moets Oh! Bao, San Francisco",
+                "dinner": "Sudarshan, San Francisco",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

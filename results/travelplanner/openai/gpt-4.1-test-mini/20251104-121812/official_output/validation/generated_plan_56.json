@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Rochester\", \"transportation\": \"Flight Number: F0118637, from Pittsburgh to New York, Departure Time: 08:40, Arrival Time: 10:06, Price: 68\", \"breakfast\": \"Green Restaurant, New York; Cost: 74\", \"lunch\": \"Hungry Ullu, New York; Cost: 94\", \"dinner\": \"QD's Restaurant, New York; Cost: 93\", \"attraction\": \"The High Line, New York;Tiffany Street Clock, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 2, \"current_city\": \"Rochester\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Kamal Chat Bhandar, New York; Cost: 36\", \"lunch\": \"QD's Restaurant, New York; Cost: 93\", \"dinner\": \"Shree Rathnam, New York; Cost: 91\", \"attraction\": \"Tiffany Street Clock, New York;Times Square, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 3, \"current_city\": \"Niagara Falls\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Rambhog, New York; Cost: 95\", \"lunch\": \"Shree Rathnam, New York; Cost: 91\", \"dinner\": \"Sugary Affairs, New York; Cost: 55\", \"attraction\": \"Times Square, New York;Top of The Rock, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 4, \"current_city\": \"Niagara Falls\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"lunch\": \"Sugary Affairs, New York; Cost: 55\", \"dinner\": \"Amchur, New York; Cost: 67\", \"attraction\": \"Top of The Rock, New York;9/11 Memorial & Museum, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 5, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"The Best, New York; Cost: 79\", \"lunch\": \"Amchur, New York; Cost: 67\", \"dinner\": \"Domino's Pizza, New York; Cost: 86\", \"attraction\": \"9/11 Memorial & Museum, New York;Brooklyn Bridge, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 6, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17\", \"lunch\": \"Domino's Pizza, New York; Cost: 86\", \"dinner\": \"Golooji's Chat Waat, New York; Cost: 53\", \"attraction\": \"Brooklyn Bridge, New York;Central Park, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 7, \"current_city\": \"Pittsburgh\", \"transportation\": \"Flight from New York to Pittsburgh\", \"breakfast\": \"G Dot, New York; Cost: 75\", \"lunch\": \"Golooji's Chat Waat, New York; Cost: 53\", \"dinner\": \"Green Restaurant, New York; Cost: 74\", \"attraction\": \"Central Park, New York;Empire State Building, New York;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Rochester",
+                "transportation": "Flight Number: F0118637, from Pittsburgh to New York, Departure Time: 08:40, Arrival Time: 10:06, Price: 68",
+                "breakfast": "Green Restaurant, New York; Cost: 74",
+                "lunch": "Hungry Ullu, New York; Cost: 94",
+                "dinner": "QD's Restaurant, New York; Cost: 93",
+                "attraction": "The High Line, New York;Tiffany Street Clock, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 2,
+                "current_city": "Rochester",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Kamal Chat Bhandar, New York; Cost: 36",
+                "lunch": "QD's Restaurant, New York; Cost: 93",
+                "dinner": "Shree Rathnam, New York; Cost: 91",
+                "attraction": "Tiffany Street Clock, New York;Times Square, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 3,
+                "current_city": "Niagara Falls",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Rambhog, New York; Cost: 95",
+                "lunch": "Shree Rathnam, New York; Cost: 91",
+                "dinner": "Sugary Affairs, New York; Cost: 55",
+                "attraction": "Times Square, New York;Top of The Rock, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 4,
+                "current_city": "Niagara Falls",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Sir John Bakery Cafe, New York; Cost: 78",
+                "lunch": "Sugary Affairs, New York; Cost: 55",
+                "dinner": "Amchur, New York; Cost: 67",
+                "attraction": "Top of The Rock, New York;9/11 Memorial & Museum, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 5,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "The Best, New York; Cost: 79",
+                "lunch": "Amchur, New York; Cost: 67",
+                "dinner": "Domino's Pizza, New York; Cost: 86",
+                "attraction": "9/11 Memorial & Museum, New York;Brooklyn Bridge, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 6,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+                "lunch": "Domino's Pizza, New York; Cost: 86",
+                "dinner": "Golooji's Chat Waat, New York; Cost: 53",
+                "attraction": "Brooklyn Bridge, New York;Central Park, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 7,
+                "current_city": "Pittsburgh",
+                "transportation": "Flight from New York to Pittsburgh",
+                "breakfast": "G Dot, New York; Cost: 75",
+                "lunch": "Golooji's Chat Waat, New York; Cost: 53",
+                "dinner": "Green Restaurant, New York; Cost: 74",
+                "attraction": "Central Park, New York;Empire State Building, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

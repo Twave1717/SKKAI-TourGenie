@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from New York to Charleston  \nTransportation: Flight Number: F3765045, from New York to Charleston, Departure Time: 09:38, Arrival Time: 11:58  \nBreakfast: -  \nAttraction: Pineapple Fountain, Charleston  \nLunch: Henry's, Charleston (Mexican, French options available)  \nDinner: Dönner Grill, Charleston (French, Italian options available)  \nAccommodation: Bronx Roon, Charleston (Private room, allows smoking, max occupancy 2)\n\nDay 2:  \nCurrent City: Charleston  \nTransportation: -  \nBreakfast: Super Loco, Charleston (French, Bakery, Mexican options)  \nAttraction: Magnolia Plantation and Gardens, Charleston; Rainbow Row, Charleston  \nLunch: Taco Street, Charleston (Mexican, Mediterranean options)  \nDinner: Americana Kitchen and Bar, Charleston (Mediterranean, Italian options)  \nAccommodation: Bronx Roon, Charleston\n\nDay 3:  \nCurrent City: from Charleston to New York  \nTransportation: Flight Number: F3635917, from Charleston to New York, Departure Time: 11:01, Arrival Time: 12:58  \nBreakfast: Makansutra Gluttons Bay, Charleston (French, Mediterranean options)  \nAttraction: Charleston City Market, Charleston  \nLunch: Moti Restaurant, Charleston (Chinese options)  \nDinner: -  \nAccommodation: -\n\n---\n\n**Notes:**  \n- Bronx Roon is the only private room in Charleston that allows smoking (no explicit \"No smoking\" rule), fits 2 people, and is available for 2 nights.  \n- All restaurant selections match at least one of the preferred cuisines.  \n- Attractions are top-rated and centrally located for a short trip.  \n- The plan fits within the $1,600 budget, considering flight, accommodation, and average meal costs.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Charleston",
+                "transportation": "Flight Number: F3765045, from New York to Charleston, Departure Time: 09:38, Arrival Time: 11:58",
+                "breakfast": "-",
+                "attraction": "Pineapple Fountain, Charleston;",
+                "lunch": "Henry's, Charleston",
+                "dinner": "Dönner Grill, Charleston",
+                "accommodation": "Bronx Roon, Charleston"
+            },
+            {
+                "days": 2,
+                "current_city": "Charleston",
+                "transportation": "-",
+                "breakfast": "Super Loco, Charleston",
+                "attraction": "Magnolia Plantation and Gardens, Charleston;Rainbow Row, Charleston;",
+                "lunch": "Taco Street, Charleston",
+                "dinner": "Americana Kitchen and Bar, Charleston",
+                "accommodation": "Bronx Roon, Charleston"
+            },
+            {
+                "days": 3,
+                "current_city": "from Charleston to New York",
+                "transportation": "Flight Number: F3635917, from Charleston to New York, Departure Time: 11:01, Arrival Time: 12:58",
+                "breakfast": "Makansutra Gluttons Bay, Charleston",
+                "attraction": "Charleston City Market, Charleston;",
+                "lunch": "Moti Restaurant, Charleston",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

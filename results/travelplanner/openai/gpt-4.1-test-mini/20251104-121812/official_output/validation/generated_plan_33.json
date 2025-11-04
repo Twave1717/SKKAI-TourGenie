@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Salt Lake City → Twin Falls\", \"transportation\": \"Flight Number: F0604485, from Salt Lake City to Twin Falls, Departure Time: 10:59, Arrival Time: 11:53, Price: 49\", \"breakfast\": \"Kaushik Bakery, Twin Falls; Cost: 29\", \"lunch\": \"Meghraj Food Court, Twin Falls; Cost: 61\", \"dinner\": \"New Sethi's, Twin Falls; Cost: 10\", \"attraction\": \"Rock Creek Park, Twin Falls;Scenic View Perrine Coulee Waterfall, Twin Falls;\", \"accommodation\": \"Uptown Manhattan bright and lovely room, Twin Falls; Cost: 672 per night (~4032)\"}, {\"days\": 2, \"current_city\": \"Twin Falls\", \"transportation\": \"Taxi in Twin Falls; Cost: 50\", \"breakfast\": \"Mittal Fast Food, Twin Falls; Cost: 83\", \"lunch\": \"New Sethi's, Twin Falls; Cost: 10\", \"dinner\": \"Sri Balaji, Twin Falls; Cost: 12\", \"attraction\": \"Scenic View Perrine Coulee Waterfall, Twin Falls;Shoshone Falls Park, Twin Falls;\", \"accommodation\": \"Uptown Manhattan bright and lovely room, Twin Falls; Cost: 672 per night (~4032)\"}, {\"days\": 3, \"current_city\": \"Twin Falls → Salt Lake City\", \"transportation\": \"Flight from Twin Falls to Salt Lake City\", \"breakfast\": \"Sagar Bar-Be Que, Twin Falls; Cost: 14\", \"lunch\": \"Sri Balaji, Twin Falls; Cost: 12\", \"dinner\": \"The Amazing Buger's, Twin Falls; Cost: 22\", \"attraction\": \"Shoshone Falls Park, Twin Falls;Snake River Canyon Rim Trail, Twin Falls;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Salt Lake City → Twin Falls",
+                "transportation": "Flight Number: F0604485, from Salt Lake City to Twin Falls, Departure Time: 10:59, Arrival Time: 11:53, Price: 49",
+                "breakfast": "Kaushik Bakery, Twin Falls; Cost: 29",
+                "lunch": "Meghraj Food Court, Twin Falls; Cost: 61",
+                "dinner": "New Sethi's, Twin Falls; Cost: 10",
+                "attraction": "Rock Creek Park, Twin Falls;Scenic View Perrine Coulee Waterfall, Twin Falls;",
+                "accommodation": "Uptown Manhattan bright and lovely room, Twin Falls; Cost: 672 per night (~4032)"
+            },
+            {
+                "days": 2,
+                "current_city": "Twin Falls",
+                "transportation": "Taxi in Twin Falls; Cost: 50",
+                "breakfast": "Mittal Fast Food, Twin Falls; Cost: 83",
+                "lunch": "New Sethi's, Twin Falls; Cost: 10",
+                "dinner": "Sri Balaji, Twin Falls; Cost: 12",
+                "attraction": "Scenic View Perrine Coulee Waterfall, Twin Falls;Shoshone Falls Park, Twin Falls;",
+                "accommodation": "Uptown Manhattan bright and lovely room, Twin Falls; Cost: 672 per night (~4032)"
+            },
+            {
+                "days": 3,
+                "current_city": "Twin Falls → Salt Lake City",
+                "transportation": "Flight from Twin Falls to Salt Lake City",
+                "breakfast": "Sagar Bar-Be Que, Twin Falls; Cost: 14",
+                "lunch": "Sri Balaji, Twin Falls; Cost: 12",
+                "dinner": "The Amazing Buger's, Twin Falls; Cost: 22",
+                "attraction": "Shoshone Falls Park, Twin Falls;Snake River Canyon Rim Trail, Twin Falls;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

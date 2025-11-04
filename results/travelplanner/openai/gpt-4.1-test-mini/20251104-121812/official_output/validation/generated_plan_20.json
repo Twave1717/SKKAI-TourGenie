@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Key West\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 2, \"current_city\": \"Evansville\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 3, \"current_city\": \"Evansville\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 4, \"current_city\": \"South Bend\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"360 CHICAGO, Chicago;406 Adventures, Kalispell;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 5, \"current_city\": \"South Bend\", \"transportation\": \"Flight from Indiana to Key West\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Key West",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 2,
+                "current_city": "Evansville",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 3,
+                "current_city": "Evansville",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 4,
+                "current_city": "South Bend",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 5,
+                "current_city": "South Bend",
+                "transportation": "Flight from Indiana to Key West",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

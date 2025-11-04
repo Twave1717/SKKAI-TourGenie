@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Boston\", \"transportation\": \"Flight Number: F0268549, from Boston to San Juan, Departure Time: 23:48, Arrival Time: 03:23, Price: 431\", \"breakfast\": \"Cocoberry, San Juan; Cost: 41\", \"lunch\": \"Effingut Brewerkz, San Juan; Cost: 56\", \"dinner\": \"Gopal's 56, San Juan; Cost: 10\", \"attraction\": \"Museo de Arte de Puerto Rico, San Juan;Museo de las Américas, San Juan;\", \"accommodation\": \"FLUSHING APT!! BEST DEAL IN NYC!!!, San Juan; Cost: 135 per night (~405)\"}, {\"days\": 2, \"current_city\": \"San Juan\", \"transportation\": \"Taxi in San Juan; Cost: 50\", \"breakfast\": \"Frontier, San Juan; Cost: 16\", \"lunch\": \"Gopal's 56, San Juan; Cost: 10\", \"dinner\": \"Hookie Dookie, San Juan; Cost: 54\", \"attraction\": \"Museo de las Américas, San Juan;Museo del Mar, San Juan;\", \"accommodation\": \"Home away from home, San Juan; Cost: 323 per night (~969)\"}, {\"days\": 3, \"current_city\": \"San Juan\", \"transportation\": \"Flight from San Juan to Boston\", \"breakfast\": \"Gulshan Dhaba, San Juan; Cost: 40\", \"lunch\": \"Hookie Dookie, San Juan; Cost: 54\", \"dinner\": \"Maison Des Desserts, San Juan; Cost: 70\", \"attraction\": \"Museo del Mar, San Juan;Parque de las Palomas, San Juan;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Boston",
+                "transportation": "Flight Number: F0268549, from Boston to San Juan, Departure Time: 23:48, Arrival Time: 03:23, Price: 431",
+                "breakfast": "Cocoberry, San Juan; Cost: 41",
+                "lunch": "Effingut Brewerkz, San Juan; Cost: 56",
+                "dinner": "Gopal's 56, San Juan; Cost: 10",
+                "attraction": "Museo de Arte de Puerto Rico, San Juan;Museo de las Américas, San Juan;",
+                "accommodation": "FLUSHING APT!! BEST DEAL IN NYC!!!, San Juan; Cost: 135 per night (~405)"
+            },
+            {
+                "days": 2,
+                "current_city": "San Juan",
+                "transportation": "Taxi in San Juan; Cost: 50",
+                "breakfast": "Frontier, San Juan; Cost: 16",
+                "lunch": "Gopal's 56, San Juan; Cost: 10",
+                "dinner": "Hookie Dookie, San Juan; Cost: 54",
+                "attraction": "Museo de las Américas, San Juan;Museo del Mar, San Juan;",
+                "accommodation": "Home away from home, San Juan; Cost: 323 per night (~969)"
+            },
+            {
+                "days": 3,
+                "current_city": "San Juan",
+                "transportation": "Flight from San Juan to Boston",
+                "breakfast": "Gulshan Dhaba, San Juan; Cost: 40",
+                "lunch": "Hookie Dookie, San Juan; Cost: 54",
+                "dinner": "Maison Des Desserts, San Juan; Cost: 70",
+                "attraction": "Museo del Mar, San Juan;Parque de las Palomas, San Juan;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

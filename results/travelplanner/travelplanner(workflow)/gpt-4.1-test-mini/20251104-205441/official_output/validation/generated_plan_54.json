@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 14, 2022  \nCurrent City: from Tulsa to Kansas City  \nTransportation: Self-driving, from Tulsa to Kansas City, Duration: 3 hours 59 mins, Distance: 436 km, Cost: $21  \nBreakfast: -  \nAttraction: Science City, Kansas City  \nLunch: Eddie's Patisserie, Kansas City  \nAttraction: The Nelson-Atkins Museum of Art, Kansas City  \nDinner: Antebellum, Kansas City  \nAccommodation: Private Room on the Upper West Side, Kansas City (Price: $90/night, Private room, Max occupancy: 2, Minimum nights: 2)\n\nDay 2: March 15, 2022  \nCurrent City: Kansas City  \nTransportation: -  \nBreakfast: Boombox Brewstreet, Kansas City  \nAttraction: National WWI Museum and Memorial, Kansas City  \nLunch: MoMo Cafe, Kansas City  \nAttraction: Union Station Kansas City, Kansas City  \nDinner: Queens Café, Kansas City  \nAccommodation: Private Room on the Upper West Side, Kansas City\n\nDay 3: March 16, 2022  \nCurrent City: from Kansas City to Branson  \nTransportation: Self-driving, from Kansas City to Branson, Duration: 3 hours 16 mins, Distance: 337 km, Cost: $16  \nBreakfast: Downside Up, Kansas City  \nAttraction: Arabia Steamboat Museum, Kansas City  \nLunch: Star Buffet, Kansas City  \nAttraction: - (Travel to Branson in afternoon)  \nDinner: Esquina Mocoté, Branson  \nAccommodation: Comfortable & independent apartment in Queens NY, Branson (Price: $803/night, Entire home/apt, Max occupancy: 8, Minimum nights: 1)\n\nDay 4: March 17, 2022  \nCurrent City: Branson  \nTransportation: -  \nBreakfast: Sheroes Hangout, Branson  \nAttraction: TITANIC Museum Attraction, Branson  \nLunch: Udaipuri, Branson  \nAttraction: Silver Dollar City, Branson  \nDinner: That Place, Branson  \nAccommodation: Comfortable & independent apartment in Queens NY, Branson\n\nDay 5: March 18, 2022  \nCurrent City: from Branson to St. Louis  \nTransportation: Self-driving, from Branson to St. Louis, Duration: 3 hours 49 mins, Distance: 405 km, Cost: $20  \nBreakfast: Cafe Du Rendezvous, Branson  \nAttraction: The Butterfly Palace & Rainforest Adventure, Branson  \nLunch: Masala Library, Branson  \nAttraction: - (Travel to St. Louis in afternoon)  \nDinner: El Super Burrito, St. Louis  \nAccommodation: Kan house, St. Louis (Price: $749/night, Private room, Max occupancy: 2, Minimum nights: 1)\n\nDay 6: March 19, 2022  \nCurrent City: St. Louis  \nTransportation: -  \nBreakfast: Starbucks, St. Louis  \nAttraction: The Gateway Arch, St. Louis  \nLunch: The Latitude - Radisson Blu, St. Louis  \nAttraction: Saint Louis Zoo, St. Louis  \nDinner: The Tea Place by Manjushree, St. Louis  \nAccommodation: Kan house, St. Louis\n\nDay 7: March 20, 2022  \nCurrent City: St. Louis  \nTransportation: -  \nBreakfast: Burger King, St. Louis  \nAttraction: Missouri Botanical Garden, St. Louis  \nLunch: Startup Cafe, St. Louis  \nAttraction: City Museum, St. Louis  \nDinner: Spaghetti Kitchen, St. Louis  \nAccommodation: -\n\n---\n\n**Budget Breakdown (Estimated):**  \n- Transportation (self-driving): $21 (Tulsa-KC) + $16 (KC-Branson) + $20 (Branson-St. Louis) = $57  \n- Accommodation:  \n  - Kansas City: $90 x 2 = $180  \n  - Branson: $803 x 2 = $1,606  \n  - St. Louis: $749 x 2 = $1,498  \n  - **Total Accommodation:** $3,284  \n- Meals: Estimated $100/day for 2 people x 7 days = $700  \n- Total Estimated: $57 (transport) + $3,284 (accommodation) + $700 (meals) = $4,041  \n- Remaining budget can be used for attraction tickets, parking, and incidental expenses.\n\n**Note:** All accommodation choices are private rooms or entire apartments suitable for two people, and all restaurants and attractions are selected from the provided data. The plan ensures a comfortable pace and covers top attractions in each city.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Tulsa to Kansas City",
+                "transportation": "Self-driving, from Tulsa to Kansas City, Duration: 3 hours 59 mins, Distance: 436 km, Cost: 21",
+                "breakfast": "-",
+                "attraction": "Science City, Kansas City;The Nelson-Atkins Museum of Art, Kansas City;",
+                "lunch": "Eddie's Patisserie, Kansas City",
+                "dinner": "Antebellum, Kansas City",
+                "accommodation": "Private Room on the Upper West Side, Kansas City"
+            },
+            {
+                "days": 2,
+                "current_city": "Kansas City",
+                "transportation": "-",
+                "breakfast": "Boombox Brewstreet, Kansas City",
+                "attraction": "National WWI Museum and Memorial, Kansas City;Union Station Kansas City, Kansas City;",
+                "lunch": "MoMo Cafe, Kansas City",
+                "dinner": "Queens Café, Kansas City",
+                "accommodation": "Private Room on the Upper West Side, Kansas City"
+            },
+            {
+                "days": 3,
+                "current_city": "from Kansas City to Branson",
+                "transportation": "Self-driving, from Kansas City to Branson, Duration: 3 hours 16 mins, Distance: 337 km, Cost: 16",
+                "breakfast": "Downside Up, Kansas City",
+                "attraction": "Arabia Steamboat Museum, Kansas City;",
+                "lunch": "Star Buffet, Kansas City",
+                "dinner": "Esquina Mocoté, Branson",
+                "accommodation": "Comfortable & independent apartment in Queens NY, Branson"
+            },
+            {
+                "days": 4,
+                "current_city": "Branson",
+                "transportation": "-",
+                "breakfast": "Sheroes Hangout, Branson",
+                "attraction": "TITANIC Museum Attraction, Branson;Silver Dollar City, Branson;",
+                "lunch": "Udaipuri, Branson",
+                "dinner": "That Place, Branson",
+                "accommodation": "Comfortable & independent apartment in Queens NY, Branson"
+            },
+            {
+                "days": 5,
+                "current_city": "from Branson to St. Louis",
+                "transportation": "Self-driving, from Branson to St. Louis, Duration: 3 hours 49 mins, Distance: 405 km, Cost: 20",
+                "breakfast": "Cafe Du Rendezvous, Branson",
+                "attraction": "The Butterfly Palace & Rainforest Adventure, Branson;",
+                "lunch": "Masala Library, Branson",
+                "dinner": "El Super Burrito, St. Louis",
+                "accommodation": "Kan house, St. Louis"
+            },
+            {
+                "days": 6,
+                "current_city": "St. Louis",
+                "transportation": "-",
+                "breakfast": "Starbucks, St. Louis",
+                "attraction": "The Gateway Arch, St. Louis;Saint Louis Zoo, St. Louis;",
+                "lunch": "The Latitude - Radisson Blu, St. Louis",
+                "dinner": "The Tea Place by Manjushree, St. Louis",
+                "accommodation": "Kan house, St. Louis"
+            },
+            {
+                "days": 7,
+                "current_city": "St. Louis",
+                "transportation": "-",
+                "breakfast": "Burger King, St. Louis",
+                "attraction": "Missouri Botanical Garden, St. Louis;City Museum, St. Louis;",
+                "lunch": "Startup Cafe, St. Louis",
+                "dinner": "Spaghetti Kitchen, St. Louis",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

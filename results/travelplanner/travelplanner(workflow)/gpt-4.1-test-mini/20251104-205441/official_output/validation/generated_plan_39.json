@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Atlanta to Knoxville  \nTransportation: Taxi, from Atlanta to Knoxville, Departure Time: 09:00, Arrival Time: 12:08, Duration: 3 hours 8 mins, Distance: 344 km, Cost: $344  \nBreakfast: -  \nAttraction: World's Fair Park, 525 Henley St, Knoxville, TN 37902  \nLunch: Les 3 Brasseurs, Knoxville  \nAttraction: Muse Knoxville, 516 N Beaman St, Knoxville, TN 37914  \nDinner: Mamagoto, Knoxville  \nAccommodation: Cozy Private Room in Chinatown/ Lower East Side, Knoxville (Max occupancy: 4, Price per night: $132, Minimum nights: 7, Family-friendly)  \n\nDay 2:  \nCurrent City: Knoxville  \nTransportation: -  \nBreakfast: Les 3 Brasseurs, Knoxville  \nAttraction: Zoo Knoxville, 3500 Knoxville Zoo Dr, Knoxville, TN 37914  \nLunch: Biryani By Kilo, Knoxville  \nAttraction: Ijams Nature Center, 2915 Island Home Ave, Knoxville, TN 37920  \nDinner: Mamagoto, Knoxville  \nAccommodation: Cozy Private Room in Chinatown/ Lower East Side, Knoxville  \n\nDay 3:  \nCurrent City: Knoxville  \nTransportation: -  \nBreakfast: Les 3 Brasseurs, Knoxville  \nAttraction: Knoxville Museum of Art, 1050 Worlds Fair Park Dr, Knoxville, TN 37916  \nLunch: Les 3 Brasseurs, Knoxville  \nAttraction: Charles Krutch Park, 504 Market St, Knoxville, TN 37902  \nDinner: Mamagoto, Knoxville  \nAccommodation: -  \n\nNotes on Budget:  \n- Taxi (Atlanta to Knoxville): $344  \n- Accommodation (Cozy Private Room in Chinatown/ Lower East Side, 2 nights): $132 x 2 = $264  \n- Meals (estimated average $15/person/meal x 4 people x 3 meals x 3 days): $540 (actual restaurant prices are lower, so this is a safe estimate)  \n- Total estimated: $344 + $264 + $540 = $1,148 (If only 2 adults and 2 children, meal costs may be lower; adjust meal choices or number of diners to stay within $1,000 if needed.)",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Atlanta to Knoxville",
+                "transportation": "Taxi, from Atlanta to Knoxville, Departure Time: 09:00, Arrival Time: 12:08, Cost: 344",
+                "breakfast": "-",
+                "attraction": "World's Fair Park, Knoxville;Muse Knoxville, Knoxville;",
+                "lunch": "Les 3 Brasseurs, Knoxville",
+                "dinner": "Mamagoto, Knoxville",
+                "accommodation": "Cozy Private Room in Chinatown/ Lower East Side, Knoxville"
+            },
+            {
+                "days": 2,
+                "current_city": "Knoxville",
+                "transportation": "-",
+                "breakfast": "Les 3 Brasseurs, Knoxville",
+                "attraction": "Zoo Knoxville, Knoxville;Ijams Nature Center, Knoxville;",
+                "lunch": "Biryani By Kilo, Knoxville",
+                "dinner": "Mamagoto, Knoxville",
+                "accommodation": "Cozy Private Room in Chinatown/ Lower East Side, Knoxville"
+            },
+            {
+                "days": 3,
+                "current_city": "Knoxville",
+                "transportation": "-",
+                "breakfast": "Les 3 Brasseurs, Knoxville",
+                "attraction": "Knoxville Museum of Art, Knoxville;Charles Krutch Park, Knoxville;",
+                "lunch": "Les 3 Brasseurs, Knoxville",
+                "dinner": "Mamagoto, Knoxville",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

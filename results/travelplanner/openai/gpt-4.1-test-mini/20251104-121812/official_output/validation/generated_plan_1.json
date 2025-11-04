@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Washington → Myrtle Beach\", \"transportation\": \"Flight Number: F0000673, from Washington to Myrtle Beach, Departure Time: 12:35, Arrival Time: 14:06, Price: 180\", \"breakfast\": \"Allure, Myrtle Beach; Cost: 71\", \"lunch\": \"Bikaner Restaurant, Myrtle Beach; Cost: 96\", \"dinner\": \"Caravan Resto Bar, Myrtle Beach; Cost: 57\", \"attraction\": \"Broadway at the Beach, Myrtle Beach;Dinopark, Myrtle Beach;\", \"accommodation\": \"Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)\"}, {\"days\": 2, \"current_city\": \"Myrtle Beach\", \"transportation\": \"Taxi in Myrtle Beach; Cost: 50\", \"breakfast\": \"Bread & Pasta, Myrtle Beach; Cost: 37\", \"lunch\": \"Caravan Resto Bar, Myrtle Beach; Cost: 57\", \"dinner\": \"Dimsum Vs Sushi, Myrtle Beach; Cost: 83\", \"attraction\": \"Dinopark, Myrtle Beach;Family Kingdom Amusement Park, Myrtle Beach;\", \"accommodation\": \"Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)\"}, {\"days\": 3, \"current_city\": \"Myrtle Beach → Washington\", \"transportation\": \"Flight from Myrtle Beach to Washington\", \"breakfast\": \"Catfish Charlie's, Myrtle Beach; Cost: 14\", \"lunch\": \"Dimsum Vs Sushi, Myrtle Beach; Cost: 83\", \"dinner\": \"First Eat, Myrtle Beach; Cost: 21\", \"attraction\": \"Family Kingdom Amusement Park, Myrtle Beach;Free Fall Thrill Park, Myrtle Beach;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Washington → Myrtle Beach",
+                "transportation": "Flight Number: F0000673, from Washington to Myrtle Beach, Departure Time: 12:35, Arrival Time: 14:06, Price: 180",
+                "breakfast": "Allure, Myrtle Beach; Cost: 71",
+                "lunch": "Bikaner Restaurant, Myrtle Beach; Cost: 96",
+                "dinner": "Caravan Resto Bar, Myrtle Beach; Cost: 57",
+                "attraction": "Broadway at the Beach, Myrtle Beach;Dinopark, Myrtle Beach;",
+                "accommodation": "Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)"
+            },
+            {
+                "days": 2,
+                "current_city": "Myrtle Beach",
+                "transportation": "Taxi in Myrtle Beach; Cost: 50",
+                "breakfast": "Bread & Pasta, Myrtle Beach; Cost: 37",
+                "lunch": "Caravan Resto Bar, Myrtle Beach; Cost: 57",
+                "dinner": "Dimsum Vs Sushi, Myrtle Beach; Cost: 83",
+                "attraction": "Dinopark, Myrtle Beach;Family Kingdom Amusement Park, Myrtle Beach;",
+                "accommodation": "Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)"
+            },
+            {
+                "days": 3,
+                "current_city": "Myrtle Beach → Washington",
+                "transportation": "Flight from Myrtle Beach to Washington",
+                "breakfast": "Catfish Charlie's, Myrtle Beach; Cost: 14",
+                "lunch": "Dimsum Vs Sushi, Myrtle Beach; Cost: 83",
+                "dinner": "First Eat, Myrtle Beach; Cost: 21",
+                "attraction": "Family Kingdom Amusement Park, Myrtle Beach;Free Fall Thrill Park, Myrtle Beach;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

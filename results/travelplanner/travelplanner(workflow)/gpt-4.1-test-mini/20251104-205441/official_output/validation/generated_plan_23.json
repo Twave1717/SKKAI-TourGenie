@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 7, 2022  \nCurrent City: from Kona to San Francisco  \nTransportation: Flight Number: F3893335, from Kona to San Francisco, Departure Time: 14:06, Arrival Time: 21:18  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: Coffee & Chai Co., San Francisco  \nAccommodation: Room in Down town Brooklyn Parkslop, San Francisco\n\nDay 2: March 8, 2022  \nCurrent City: San Francisco  \nTransportation: -  \nBreakfast: Bonne Bouche, San Francisco  \nAttraction: Golden Gate Bridge; Golden Gate Park, San Francisco  \nLunch: The Chic, San Francisco  \nDinner: Cafe All-Inn, San Francisco  \nAccommodation: Room in Down town Brooklyn Parkslop, San Francisco\n\nDay 3: March 9, 2022  \nCurrent City: San Francisco  \nTransportation: -  \nBreakfast: Coffee & Chai Co., San Francisco  \nAttraction: PIER 39; Coit Tower, San Francisco  \nLunch: Moets Oh! Bao, San Francisco  \nDinner: Sudarshan, San Francisco  \nAccommodation: Room in Down town Brooklyn Parkslop, San Francisco\n\nDay 4: March 10, 2022  \nCurrent City: from San Francisco to Los Angeles  \nTransportation: Self-driving, from San Francisco to Los Angeles, duration: 5 hours 53 mins, distance: 615 km, cost: $30  \nBreakfast: Aggarwal Sweet and Restaurant, San Francisco  \nAttraction: Union Square, San Francisco (morning)  \nLunch: Ustad Moinuddin Kebab, San Francisco  \nDinner: Palmshore, Los Angeles  \nAccommodation: Best Nest., Los Angeles\n\nDay 5: March 11, 2022  \nCurrent City: Los Angeles  \nTransportation: -  \nBreakfast: Choco Kraft, Los Angeles  \nAttraction: Hollywood Walk of Fame; Griffith Observatory, Los Angeles  \nLunch: The Hangout by 1861, Los Angeles  \nDinner: Elan - The Lodhi, Los Angeles  \nAccommodation: Best Nest., Los Angeles\n\nDay 6: March 12, 2022  \nCurrent City: from Los Angeles to San Diego  \nTransportation: Self-driving, from Los Angeles to San Diego, duration: 1 hour 57 mins, distance: 193 km, cost: $9  \nBreakfast: Shree Manakamna Fast Food, Los Angeles  \nAttraction: Santa Monica Pier, Los Angeles (morning)  \nLunch: Angels in my Kitchen, Los Angeles  \nDinner: Burger King, San Diego  \nAccommodation: Spacious Room in Large 2 Bedroom Prewar Apartment, San Diego\n\nDay 7: March 13, 2022  \nCurrent City: San Diego  \nTransportation: -  \nBreakfast: Jetha Lal Ka Dhabha, San Diego  \nAttraction: Balboa Park; San Diego Zoo, San Diego  \nLunch: Bun Intended, San Diego  \nDinner: Harry's Bar + Cafe, San Diego  \nAccommodation: -\n\n---\n\n**Notes:**  \n- All accommodations selected meet the solo traveler's needs and minimum stay requirements.  \n- All transportation and activities are scheduled to allow for reasonable travel and rest times.  \n- Meals are chosen from available restaurants in each city.  \n- Attractions are varied and cover major highlights in each city.  \n- The plan fits within the $5,800 budget, considering the lowest accommodation and transportation costs.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Kona to San Francisco",
+                "transportation": "Flight Number: F3893335, from Kona to San Francisco, Departure Time: 14:06, Arrival Time: 21:18",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "Coffee & Chai Co., San Francisco",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 2,
+                "current_city": "San Francisco",
+                "transportation": "-",
+                "breakfast": "Bonne Bouche, San Francisco",
+                "attraction": "Golden Gate Bridge, San Francisco;Golden Gate Park, San Francisco;",
+                "lunch": "The Chic, San Francisco",
+                "dinner": "Cafe All-Inn, San Francisco",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 3,
+                "current_city": "San Francisco",
+                "transportation": "-",
+                "breakfast": "Coffee & Chai Co., San Francisco",
+                "attraction": "PIER 39, San Francisco;Coit Tower, San Francisco;",
+                "lunch": "Moets Oh! Bao, San Francisco",
+                "dinner": "Sudarshan, San Francisco",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 4,
+                "current_city": "from San Francisco to Los Angeles",
+                "transportation": "Self-driving, from San Francisco to Los Angeles, duration: 5 hours 53 mins, distance: 615 km, Cost: 30",
+                "breakfast": "Aggarwal Sweet and Restaurant, San Francisco",
+                "attraction": "Union Square, San Francisco;",
+                "lunch": "Ustad Moinuddin Kebab, San Francisco",
+                "dinner": "Palmshore, Los Angeles",
+                "accommodation": "Best Nest., Los Angeles"
+            },
+            {
+                "days": 5,
+                "current_city": "Los Angeles",
+                "transportation": "-",
+                "breakfast": "Choco Kraft, Los Angeles",
+                "attraction": "Hollywood Walk of Fame, Los Angeles;Griffith Observatory, Los Angeles;",
+                "lunch": "The Hangout by 1861, Los Angeles",
+                "dinner": "Elan - The Lodhi, Los Angeles",
+                "accommodation": "Best Nest., Los Angeles"
+            },
+            {
+                "days": 6,
+                "current_city": "from Los Angeles to San Diego",
+                "transportation": "Self-driving, from Los Angeles to San Diego, duration: 1 hour 57 mins, distance: 193 km, Cost: 9",
+                "breakfast": "Shree Manakamna Fast Food, Los Angeles",
+                "attraction": "Santa Monica Pier, Los Angeles;",
+                "lunch": "Angels in my Kitchen, Los Angeles",
+                "dinner": "Burger King, San Diego",
+                "accommodation": "Spacious Room in Large 2 Bedroom Prewar Apartment, San Diego"
+            },
+            {
+                "days": 7,
+                "current_city": "San Diego",
+                "transportation": "-",
+                "breakfast": "Jetha Lal Ka Dhabha, San Diego",
+                "attraction": "Balboa Park, San Diego;San Diego Zoo, San Diego;",
+                "lunch": "Bun Intended, San Diego",
+                "dinner": "Harry's Bar + Cafe, San Diego",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Kansas City\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 2, \"current_city\": \"Kansas City\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 3, \"current_city\": \"Cape Girardeau\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 4, \"current_city\": \"Cape Girardeau\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 5, \"current_city\": \"St. Louis\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Ace of Clubs House, Texarkana;Acid Ball, Bellingham;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 6, \"current_city\": \"St. Louis\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Acid Ball, Bellingham;Acropolis, Helena;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 7, \"current_city\": \"Tulsa\", \"transportation\": \"Flight from Missouri to Tulsa\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Kansas City",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 2,
+                "current_city": "Kansas City",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 3,
+                "current_city": "Cape Girardeau",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 4,
+                "current_city": "Cape Girardeau",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 5,
+                "current_city": "St. Louis",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 6,
+                "current_city": "St. Louis",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 7,
+                "current_city": "Tulsa",
+                "transportation": "Flight from Missouri to Tulsa",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

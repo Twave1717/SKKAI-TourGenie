@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Detroit → San Diego\", \"transportation\": \"Flight Number: F0318383, from Detroit to San Diego, Departure Time: 20:56, Arrival Time: 22:39, Price: 541\", \"breakfast\": \"Burgrill, San Diego; Cost: 54\", \"lunch\": \"Chawlas 2, San Diego; Cost: 67\", \"dinner\": \"Dragon Way, San Diego; Cost: 77\", \"attraction\": \"Martin Luther King Jr Promenade, San Diego;Mission Bay Park, San Diego;\", \"accommodation\": \"Luxury 4BR Home, Spacious & Central to Trains, San Diego; Cost: 392 per night (~1176)\"}, {\"days\": 2, \"current_city\": \"San Diego\", \"transportation\": \"Taxi in San Diego; Cost: 50\", \"breakfast\": \"Chawlas 2, San Diego; Cost: 91\", \"lunch\": \"Dragon Way, San Diego; Cost: 77\", \"dinner\": \"Harry's Bar + Cafe, San Diego; Cost: 55\", \"attraction\": \"Mission Bay Park, San Diego;Mission Beach Boardwalk | Ocean Front Walk, San Diego;\", \"accommodation\": \"Luxury 4BR Home, Spacious & Central to Trains, San Diego; Cost: 392 per night (~1176)\"}, {\"days\": 3, \"current_city\": \"San Diego → Detroit\", \"transportation\": \"Flight from San Diego to Detroit\", \"breakfast\": \"Duggal Snacks, San Diego; Cost: 82\", \"lunch\": \"Harry's Bar + Cafe, San Diego; Cost: 55\", \"dinner\": \"Meraki, San Diego; Cost: 51\", \"attraction\": \"Mission Beach Boardwalk | Ocean Front Walk, San Diego;Old Town San Diego, San Diego;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Detroit → San Diego",
+                "transportation": "Flight Number: F0318383, from Detroit to San Diego, Departure Time: 20:56, Arrival Time: 22:39, Price: 541",
+                "breakfast": "Burgrill, San Diego; Cost: 54",
+                "lunch": "Chawlas 2, San Diego; Cost: 67",
+                "dinner": "Dragon Way, San Diego; Cost: 77",
+                "attraction": "Martin Luther King Jr Promenade, San Diego;Mission Bay Park, San Diego;",
+                "accommodation": "Luxury 4BR Home, Spacious & Central to Trains, San Diego; Cost: 392 per night (~1176)"
+            },
+            {
+                "days": 2,
+                "current_city": "San Diego",
+                "transportation": "Taxi in San Diego; Cost: 50",
+                "breakfast": "Chawlas 2, San Diego; Cost: 91",
+                "lunch": "Dragon Way, San Diego; Cost: 77",
+                "dinner": "Harry's Bar + Cafe, San Diego; Cost: 55",
+                "attraction": "Mission Bay Park, San Diego;Mission Beach Boardwalk | Ocean Front Walk, San Diego;",
+                "accommodation": "Luxury 4BR Home, Spacious & Central to Trains, San Diego; Cost: 392 per night (~1176)"
+            },
+            {
+                "days": 3,
+                "current_city": "San Diego → Detroit",
+                "transportation": "Flight from San Diego to Detroit",
+                "breakfast": "Duggal Snacks, San Diego; Cost: 82",
+                "lunch": "Harry's Bar + Cafe, San Diego; Cost: 55",
+                "dinner": "Meraki, San Diego; Cost: 51",
+                "attraction": "Mission Beach Boardwalk | Ocean Front Walk, San Diego;Old Town San Diego, San Diego;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

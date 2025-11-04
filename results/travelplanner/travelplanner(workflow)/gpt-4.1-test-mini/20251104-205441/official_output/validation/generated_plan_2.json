@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Oakland to Tucson  \nTransportation: Flight Number: F4002752, from Oakland to Tucson, Departure Time: 15:07, Arrival Time: 17:00  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: Villa Tevere, Tucson  \nAccommodation: Private room with private bathroom, Tucson  \n\nDay 2:  \nCurrent City: Tucson  \nTransportation: -  \nBreakfast: Mocha, Tucson  \nAttraction: Pima Air & Space Museum, Tucson; Tucson Botanical Gardens, Tucson  \nLunch: Pirates of Grill, Tucson  \nDinner: La Plage, Tucson  \nAccommodation: Private room with private bathroom, Tucson  \n\nDay 3:  \nCurrent City: Tucson  \nTransportation: -  \nBreakfast: Bakers Oven, Tucson  \nAttraction: San Xavier del Bac Mission, Tucson  \nLunch: Canteen Till I Die, Tucson  \nDinner: Channi Pishori Chicken, Tucson  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Oakland to Tucson",
+                "transportation": "Flight Number: F4002752, from Oakland to Tucson, Departure Time: 15:07, Arrival Time: 17:00",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "Villa Tevere, Tucson",
+                "accommodation": "Private room with private bathroom, Tucson"
+            },
+            {
+                "days": 2,
+                "current_city": "Tucson",
+                "transportation": "-",
+                "breakfast": "Mocha, Tucson",
+                "attraction": "Pima Air & Space Museum, Tucson;Tucson Botanical Gardens, Tucson;",
+                "lunch": "Pirates of Grill, Tucson",
+                "dinner": "La Plage, Tucson",
+                "accommodation": "Private room with private bathroom, Tucson"
+            },
+            {
+                "days": 3,
+                "current_city": "Tucson",
+                "transportation": "-",
+                "breakfast": "Bakers Oven, Tucson",
+                "attraction": "San Xavier del Bac Mission, Tucson;",
+                "lunch": "Canteen Till I Die, Tucson",
+                "dinner": "Channi Pishori Chicken, Tucson",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

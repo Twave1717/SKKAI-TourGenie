@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Jacksonville to Detroit  \nTransportation: Flight Number: F3553781, from Jacksonville to Detroit, Departure Time: 12:10, Arrival Time: 14:15  \nBreakfast: N. Iqbal Restaurant, Jacksonville  \nAttraction: -  \nLunch: Southern Bliss Bakery, Detroit  \nAttraction: Detroit Institute of Arts, Detroit  \nDinner: BMG - All Day Dining, Detroit  \nAccommodation: Lovely, charming and clean bedroom in Manhattan., Detroit  \n\nDay 2:  \nCurrent City: Detroit  \nTransportation: -  \nBreakfast: N. Iqbal Restaurant, Detroit  \nAttraction: Motown Museum, Detroit; Campus Martius Park, Detroit  \nLunch: A Dong Restaurant, Detroit  \nAttraction: Detroit Historical Museum, Detroit  \nDinner: Bistro Flamme Bois, Detroit  \nAccommodation: Lovely, charming and clean bedroom in Manhattan., Detroit  \n\nDay 3:  \nCurrent City: from Detroit to Grand Rapids  \nTransportation: Self-driving, from Detroit to Grand Rapids, Duration: 2 hours 22 mins, Distance: 254 km, Cost: $12  \nBreakfast: Rehmatullah's Hotel, Detroit  \nAttraction: -  \nLunch: Paribar, Grand Rapids  \nAttraction: Grand Rapids Art Museum, Grand Rapids  \nDinner: Exotic Thai Restaurant, Grand Rapids  \nAccommodation: Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids  \n\nDay 4:  \nCurrent City: Grand Rapids  \nTransportation: -  \nBreakfast: Hobing Korean Dessert Cafe, Grand Rapids  \nAttraction: Frederik Meijer Gardens & Sculpture Park, Grand Rapids; The Gerald R. Ford Presidential Museum, Grand Rapids  \nLunch: Chef Lee's Peking Restaurant, Grand Rapids  \nAttraction: John Ball Zoo, Grand Rapids  \nDinner: Kesar Da Dhabha, Grand Rapids  \nAccommodation: Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids  \n\nDay 5:  \nCurrent City: Grand Rapids  \nTransportation: -  \nBreakfast: Swagath, Grand Rapids  \nAttraction: Grand Rapids Public Museum, Grand Rapids  \nLunch: Domino's Pizza, Grand Rapids  \nAttraction: The Blue Bridge, Grand Rapids  \nDinner: Ju Ju's Cafe, Grand Rapids  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Jacksonville to Detroit",
+                "transportation": "Flight Number: F3553781, from Jacksonville to Detroit, Departure Time: 12:10, Arrival Time: 14:15",
+                "breakfast": "N. Iqbal Restaurant, Jacksonville",
+                "attraction": "Detroit Institute of Arts, Detroit;",
+                "lunch": "Southern Bliss Bakery, Detroit",
+                "dinner": "BMG - All Day Dining, Detroit",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "-",
+                "breakfast": "N. Iqbal Restaurant, Detroit",
+                "attraction": "Motown Museum, Detroit;Campus Martius Park, Detroit;Detroit Historical Museum, Detroit;",
+                "lunch": "A Dong Restaurant, Detroit",
+                "dinner": "Bistro Flamme Bois, Detroit",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit"
+            },
+            {
+                "days": 3,
+                "current_city": "from Detroit to Grand Rapids",
+                "transportation": "Self-driving, from Detroit to Grand Rapids, Duration: 2 hours 22 mins, Distance: 254 km, Cost: 12",
+                "breakfast": "Rehmatullah's Hotel, Detroit",
+                "attraction": "Grand Rapids Art Museum, Grand Rapids;",
+                "lunch": "Paribar, Grand Rapids",
+                "dinner": "Exotic Thai Restaurant, Grand Rapids",
+                "accommodation": "Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids"
+            },
+            {
+                "days": 4,
+                "current_city": "Grand Rapids",
+                "transportation": "-",
+                "breakfast": "Hobing Korean Dessert Cafe, Grand Rapids",
+                "attraction": "Frederik Meijer Gardens & Sculpture Park, Grand Rapids;The Gerald R. Ford Presidential Museum, Grand Rapids;John Ball Zoo, Grand Rapids;",
+                "lunch": "Chef Lee's Peking Restaurant, Grand Rapids",
+                "dinner": "Kesar Da Dhabha, Grand Rapids",
+                "accommodation": "Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids"
+            },
+            {
+                "days": 5,
+                "current_city": "Grand Rapids",
+                "transportation": "-",
+                "breakfast": "Swagath, Grand Rapids",
+                "attraction": "Grand Rapids Public Museum, Grand Rapids;The Blue Bridge, Grand Rapids;",
+                "lunch": "Domino's Pizza, Grand Rapids",
+                "dinner": "Ju Ju's Cafe, Grand Rapids",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

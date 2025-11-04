@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from New York to Reno  \nTransportation: Flight Number: F3767722, from New York to Reno, Departure Time: 21:02, Arrival Time: 00:07 (+1 day)  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: Entire suite with breathtaking views of NYC, Reno\n\nDay 2:  \nCurrent City: Reno  \nTransportation: -  \nBreakfast: Kanha Sweets, Reno  \nAttraction: The Discovery, Reno  \nLunch: Leme Light, Reno  \nAttraction: Nevada Museum of Art, Reno  \nDinner: Olive Bistro, Reno  \nAccommodation: Entire suite with breathtaking views of NYC, Reno\n\nDay 3:  \nCurrent City: Reno  \nTransportation: -  \nBreakfast: Queens Cakes, Reno  \nAttraction: National Automobile Museum, Reno  \nLunch: Perch Wine & Coffee Bar, Reno  \nAttraction: Idlewild Park, Reno  \nDinner: Mustake Multicuisine Restaurant, Reno  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Reno",
+                "transportation": "Flight Number: F3767722, from New York to Reno, Departure Time: 21:02, Arrival Time: 00:07 (+1 day)",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "accommodation": "Entire suite with breathtaking views of NYC, Reno"
+            },
+            {
+                "days": 2,
+                "current_city": "Reno",
+                "transportation": "-",
+                "breakfast": "Kanha Sweets, Reno",
+                "attraction": "The Discovery, Reno;Nevada Museum of Art, Reno;",
+                "lunch": "Leme Light, Reno",
+                "dinner": "Olive Bistro, Reno",
+                "accommodation": "Entire suite with breathtaking views of NYC, Reno"
+            },
+            {
+                "days": 3,
+                "current_city": "Reno",
+                "transportation": "-",
+                "breakfast": "Queens Cakes, Reno",
+                "attraction": "National Automobile Museum, Reno;Idlewild Park, Reno;",
+                "lunch": "Perch Wine & Coffee Bar, Reno",
+                "dinner": "Mustake Multicuisine Restaurant, Reno",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

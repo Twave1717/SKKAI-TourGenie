@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Denver to Bozeman  \nTransportation: Flight Number: F3826809, from Denver to Bozeman, Departure Time: 07:58, Arrival Time: 10:17  \nBreakfast: Jiquitaia, Bozeman  \nAttraction: Museum of the Rockies, Bozeman  \nLunch: Saravana Bhavan, Bozeman  \nAttraction: Bozeman Sculpture Park, Bozeman  \nDinner: Side Wok, Bozeman  \nAccommodation: Convenient / Spacious 1BR in Union Square, Bozeman  \n\nDay 2:  \nCurrent City: Bozeman  \nTransportation: -  \nBreakfast: Snack Junction, Bozeman  \nAttraction: Gallatin History Museum, Bozeman; Peets Hill/Burke Park, Bozeman  \nLunch: The Manhattan FISH MARKET, Bozeman  \nAttraction: Montana Science Center, Bozeman  \nDinner: Zaroob, Bozeman  \nAccommodation: Convenient / Spacious 1BR in Union Square, Bozeman  \n\nDay 3:  \nCurrent City: Bozeman  \nTransportation: -  \nBreakfast: Behrouz Biryani, Bozeman  \nAttraction: American Computer & Robotics Museum, Bozeman  \nLunch: Jiquitaia, Bozeman  \nAttraction: Glen Lake Rotary Park, Bozeman  \nDinner: Kukkuu Da Dhaba, Bozeman  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Bozeman",
+                "transportation": "Flight Number: F3826809, from Denver to Bozeman, Departure Time: 07:58, Arrival Time: 10:17",
+                "breakfast": "Jiquitaia, Bozeman",
+                "attraction": "Museum of the Rockies, Bozeman;Bozeman Sculpture Park, Bozeman;",
+                "lunch": "Saravana Bhavan, Bozeman",
+                "dinner": "Side Wok, Bozeman",
+                "accommodation": "Convenient / Spacious 1BR in Union Square, Bozeman"
+            },
+            {
+                "days": 2,
+                "current_city": "Bozeman",
+                "transportation": "-",
+                "breakfast": "Snack Junction, Bozeman",
+                "attraction": "Gallatin History Museum, Bozeman;Peets Hill/Burke Park, Bozeman;Montana Science Center, Bozeman;",
+                "lunch": "The Manhattan FISH MARKET, Bozeman",
+                "dinner": "Zaroob, Bozeman",
+                "accommodation": "Convenient / Spacious 1BR in Union Square, Bozeman"
+            },
+            {
+                "days": 3,
+                "current_city": "Bozeman",
+                "transportation": "-",
+                "breakfast": "Behrouz Biryani, Bozeman",
+                "attraction": "American Computer & Robotics Museum, Bozeman;Glen Lake Rotary Park, Bozeman;",
+                "lunch": "Jiquitaia, Bozeman",
+                "dinner": "Kukkuu Da Dhaba, Bozeman",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Charlotte to Milwaukee  \nTransportation: Self-driving, from Charlotte to Milwaukee, Duration: 13 hours 1 min, Distance: 1,370 km, Cost: $68  \nBreakfast: -  \nLunch: Subway, Milwaukee  \nAttraction: - (Travel day)  \nDinner: Cool Basil, Milwaukee  \nAccommodation: Affordable bedroom in the East Village!, Milwaukee (Private room, max occupancy 2, child-friendly, $184/night, minimum 2 nights)  \n\nDay 2:  \nCurrent City: Milwaukee  \nTransportation: -  \nBreakfast: Shankar Sweets, Milwaukee  \nAttraction: Milwaukee County Zoo; Discovery World, Milwaukee  \nLunch: The Pack King, Milwaukee  \nDinner: Doughlicious, Milwaukee  \nAccommodation: Affordable bedroom in the East Village!, Milwaukee  \n\nDay 3:  \nCurrent City: from Milwaukee to Madison  \nTransportation: Self-driving, from Milwaukee to Madison, Duration: 1 hour 20 mins, Distance: 128 km, Cost: $6  \nBreakfast: Ramesh Vaishno Dhaba, Milwaukee  \nAttraction: Milwaukee Art Museum (morning, before departure)  \nLunch: Subway, Madison  \nAttraction: Madison Children's Museum, Madison  \nDinner: 99 North Restaurant, Madison  \nAccommodation: Room in two bedroom apartment, Madison (Private room, max occupancy 2, child-friendly, $159/night, minimum 1 night)  \n\nDay 4:  \nCurrent City: Madison  \nTransportation: -  \nBreakfast: Food Scouts, Madison  \nAttraction: Olbrich Botanical Gardens; Wisconsin State Capitol, Madison  \nLunch: Barbeque Nation, Madison  \nDinner: The Vault Cafe, Madison  \nAccommodation: Room in two bedroom apartment, Madison  \n\nDay 5:  \nCurrent City: from Madison to Charlotte  \nTransportation: Self-driving, from Madison to Charlotte (reverse route; estimated duration: ~14 hours, Distance: ~1,500 km, Cost: ~$74)  \nBreakfast: Chini Bowl, Madison  \nAttraction: - (Travel day)  \nLunch: Privee', Madison (before departure)  \nDinner: -  \nAccommodation: -  \n\n---\n\n**Budget Estimate:**  \n- Transportation: $68 (Charlotte→Milwaukee) + $6 (Milwaukee→Madison) + $74 (Madison→Charlotte) = $148  \n- Accommodation:  \n  - Milwaukee: $184/night × 2 nights = $368  \n  - Madison: $159/night × 2 nights = $318  \n  - Total Accommodation: $686  \n- Meals: Estimated $60/day × 5 days = $300  \n- Attractions: Most museums/parks have modest entry fees; estimate $30/day × 4 days = $120  \n- Total Estimated Cost: $148 (transport) + $686 (accommodation) + $300 (meals) + $120 (attractions) = $1,254  \n\n**Total is well under $2,500.**",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Charlotte to Milwaukee",
+                "transportation": "Self-driving, from Charlotte to Milwaukee, Duration: 13 hours 1 min, Distance: 1,370 km, Cost: 68",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "Subway, Milwaukee",
+                "dinner": "Cool Basil, Milwaukee",
+                "accommodation": "Affordable bedroom in the East Village!, Milwaukee"
+            },
+            {
+                "days": 2,
+                "current_city": "Milwaukee",
+                "transportation": "-",
+                "breakfast": "Shankar Sweets, Milwaukee",
+                "attraction": "Milwaukee County Zoo, Milwaukee;Discovery World, Milwaukee;",
+                "lunch": "The Pack King, Milwaukee",
+                "dinner": "Doughlicious, Milwaukee",
+                "accommodation": "Affordable bedroom in the East Village!, Milwaukee"
+            },
+            {
+                "days": 3,
+                "current_city": "from Milwaukee to Madison",
+                "transportation": "Self-driving, from Milwaukee to Madison, Duration: 1 hour 20 mins, Distance: 128 km, Cost: 6",
+                "breakfast": "Ramesh Vaishno Dhaba, Milwaukee",
+                "attraction": "Milwaukee Art Museum, Milwaukee;Madison Children's Museum, Madison;",
+                "lunch": "Subway, Madison",
+                "dinner": "99 North Restaurant, Madison",
+                "accommodation": "Room in two bedroom apartment, Madison"
+            },
+            {
+                "days": 4,
+                "current_city": "Madison",
+                "transportation": "-",
+                "breakfast": "Food Scouts, Madison",
+                "attraction": "Olbrich Botanical Gardens, Madison;Wisconsin State Capitol, Madison;",
+                "lunch": "Barbeque Nation, Madison",
+                "dinner": "The Vault Cafe, Madison",
+                "accommodation": "Room in two bedroom apartment, Madison"
+            },
+            {
+                "days": 5,
+                "current_city": "from Madison to Charlotte",
+                "transportation": "Self-driving, from Madison to Charlotte, estimated duration: ~14 hours, Distance: ~1,500 km, Cost: 74",
+                "breakfast": "Chini Bowl, Madison",
+                "attraction": "-",
+                "lunch": "Privee', Madison",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

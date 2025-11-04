@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 9, 2022  \nCurrent City: from Chattanooga to Atlanta  \nTransportation: Self-driving, from Chattanooga to Atlanta (Assume similar to Atlanta-Augusta route: ~2 hours 15 mins, ~210 km, cost: $11)  \nBreakfast: -  \nAttraction: Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA 30309  \nLunch: Saffron, Atlanta  \nAttraction: World of Coca-Cola, 121 Baker St NW, Atlanta, GA 30313  \nDinner: Baba Au Rhum, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta (Private room, $874/night, no visitor restrictions, max 2 guests, min 1 night)\n\nDay 2: March 10, 2022  \nCurrent City: Atlanta  \nTransportation: -  \nBreakfast: Adda, Atlanta  \nAttraction: Georgia Aquarium, 225 Baker St NW, Atlanta, GA 30313  \nLunch: Daawat-e-Kashmir, Atlanta  \nAttraction: Martin Luther King, Jr. National Historical Park, 450 Auburn Ave NE, Atlanta, GA 30312  \nDinner: Pizza Central, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta\n\nDay 3: March 11, 2022  \nCurrent City: Atlanta  \nTransportation: -  \nBreakfast: Asian Bistro, Atlanta  \nAttraction: Piedmont Park, Atlanta, GA 30309  \nLunch: Sizzler's Ranch, Atlanta  \nAttraction: High Museum of Art, 1280 Peachtree St NE, Atlanta, GA 30309  \nDinner: Chaina Ram Sindhi Confectioners, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta\n\nDay 4: March 12, 2022  \nCurrent City: from Atlanta to Augusta  \nTransportation: Self-driving, from Atlanta to Augusta, duration: 2 hours 13 mins, distance: 233 km, cost: $11  \nBreakfast: Sethi's Restaurant & Barbeque, Atlanta  \nAttraction: Augusta Riverwalk, 10th St, Augusta, GA 30901  \nLunch: B Merrell's, Augusta  \nAttraction: Augusta Museum of History, 560 Reynolds St, Augusta, GA 30901  \nDinner: The Flying Saucer Cafe, Augusta  \nAccommodation: Planta Baja Studio, Augusta (Entire home/apt, $637/night, no visitor restrictions, max 4 guests, min 1 night)\n\nDay 5: March 13, 2022  \nCurrent City: Augusta  \nTransportation: -  \nBreakfast: Haldiram's, Augusta  \nAttraction: Phinizy Swamp Nature Park, 1858 Lock and Dam Rd, Augusta, GA 30906  \nLunch: Vinny Vanucchi's, Augusta  \nAttraction: Morris Museum of Art, 1 10th St 2nd Floor, Augusta, GA 30901  \nDinner: Senorita's, Augusta  \nAccommodation: Planta Baja Studio, Augusta\n\nDay 6: March 14, 2022  \nCurrent City: from Augusta to Savannah  \nTransportation: Self-driving, from Augusta to Savannah, duration: 2 hours 27 mins, distance: 196 km, cost: $9  \nBreakfast: Karari Kurry, Augusta  \nAttraction: Forsyth Park, Savannah, GA 31401  \nLunch: Sr. Sol 1, Savannah  \nAttraction: Savannah Historic District, 301 Martin Luther King Jr Blvd, Savannah, GA 31401  \nDinner: Federal Delicatessen, Savannah  \nAccommodation: Family and Friendly Room, Savannah (Private room, $569/night, no visitor restrictions, max 2 guests, min 1 night)\n\nDay 7: March 15, 2022  \nCurrent City: Savannah  \nTransportation: -  \nBreakfast: Manohar Dairy And Restaurant, Savannah  \nAttraction: Wormsloe State Historic Site, 7601 Skidaway Rd, Savannah, GA 31406  \nLunch: UrbanCrave, Savannah  \nAttraction: Savannah's Waterfront, 1 W River St, Savannah, GA 31401  \nDinner: The Buffet Wagon, Savannah  \nAccommodation: -\n\n---\n\n**Budget Calculation (approximate, for 2 people):**  \n- Accommodation:  \n  - Atlanta: $874 x 3 = $2,622  \n  - Augusta: $637 x 2 = $1,274  \n  - Savannah: $569 x 1 = $569  \n  - Total: $4,465\n\n- Transportation (self-driving):  \n  - Chattanooga-Atlanta: $11  \n  - Atlanta-Augusta: $11  \n  - Augusta-Savannah: $9  \n  - Local driving (estimate): $54 (6 days x $9)  \n  - Total: $85\n\n- Dining (average $40/person/day x 2 x 7): $560\n\n- Attractions (most are free or low cost, estimate $25/person/day x 2 x 7): $350\n\n- Total Estimated: $4,465 + $85 + $560 + $350 = $5,460\n\n**Total is within the $6,900 budget.**",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chattanooga to Atlanta",
+                "transportation": "Self-driving, from Chattanooga to Atlanta, Duration: 2 hours 15 mins, Distance: 210 km, Cost: 11",
+                "breakfast": "-",
+                "attraction": "Atlanta Botanical Garden, Atlanta;World of Coca-Cola, Atlanta;",
+                "lunch": "Saffron, Atlanta",
+                "dinner": "Baba Au Rhum, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Adda, Atlanta",
+                "attraction": "Georgia Aquarium, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;",
+                "lunch": "Daawat-e-Kashmir, Atlanta",
+                "dinner": "Pizza Central, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Asian Bistro, Atlanta",
+                "attraction": "Piedmont Park, Atlanta;High Museum of Art, Atlanta;",
+                "lunch": "Sizzler's Ranch, Atlanta",
+                "dinner": "Chaina Ram Sindhi Confectioners, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 4,
+                "current_city": "from Atlanta to Augusta",
+                "transportation": "Self-driving, from Atlanta to Augusta, Duration: 2 hours 13 mins, Distance: 233 km, Cost: 11",
+                "breakfast": "Sethi's Restaurant & Barbeque, Atlanta",
+                "attraction": "Augusta Riverwalk, Augusta;Augusta Museum of History, Augusta;",
+                "lunch": "B Merrell's, Augusta",
+                "dinner": "The Flying Saucer Cafe, Augusta",
+                "accommodation": "Planta Baja Studio, Augusta"
+            },
+            {
+                "days": 5,
+                "current_city": "Augusta",
+                "transportation": "-",
+                "breakfast": "Haldiram's, Augusta",
+                "attraction": "Phinizy Swamp Nature Park, Augusta;Morris Museum of Art, Augusta;",
+                "lunch": "Vinny Vanucchi's, Augusta",
+                "dinner": "Senorita's, Augusta",
+                "accommodation": "Planta Baja Studio, Augusta"
+            },
+            {
+                "days": 6,
+                "current_city": "from Augusta to Savannah",
+                "transportation": "Self-driving, from Augusta to Savannah, Duration: 2 hours 27 mins, Distance: 196 km, Cost: 9",
+                "breakfast": "Karari Kurry, Augusta",
+                "attraction": "Forsyth Park, Savannah;Savannah Historic District, Savannah;",
+                "lunch": "Sr. Sol 1, Savannah",
+                "dinner": "Federal Delicatessen, Savannah",
+                "accommodation": "Family and Friendly Room, Savannah"
+            },
+            {
+                "days": 7,
+                "current_city": "Savannah",
+                "transportation": "-",
+                "breakfast": "Manohar Dairy And Restaurant, Savannah",
+                "attraction": "Wormsloe State Historic Site, Savannah;Savannah's Waterfront, Savannah;",
+                "lunch": "UrbanCrave, Savannah",
+                "dinner": "The Buffet Wagon, Savannah",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

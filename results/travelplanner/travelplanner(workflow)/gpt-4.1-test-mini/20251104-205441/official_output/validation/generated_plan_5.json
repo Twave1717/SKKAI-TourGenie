@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from West Palm Beach to Atlanta  \nTransportation: Flight Number: F3494344, from West Palm Beach to Atlanta, Departure Time: 09:20, Arrival Time: 10:59  \nBreakfast: -  \nAttraction: Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA 30309  \nLunch: Saffron, Atlanta  \nAttraction: High Museum of Art, 1280 Peachtree St NE, Atlanta, GA 30309  \nDinner: Baba Au Rhum, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta\n\nDay 2:  \nCurrent City: Atlanta  \nTransportation: -  \nBreakfast: Adda, Atlanta  \nAttraction: Georgia Aquarium, 225 Baker St NW, Atlanta, GA 30313  \nLunch: Daawat-e-Kashmir, Atlanta  \nAttraction: World of Coca-Cola, 121 Baker St NW, Atlanta, GA 30313  \nDinner: El Pistolero, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta\n\nDay 3:  \nCurrent City: from Atlanta to West Palm Beach  \nTransportation: Flight Number: F3525323, from Atlanta to West Palm Beach, Departure Time: 09:10, Arrival Time: 10:43  \nBreakfast: Sethi's Restaurant & Barbeque, Atlanta  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from West Palm Beach to Atlanta",
+                "transportation": "Flight Number: F3494344, from West Palm Beach to Atlanta, Departure Time: 09:20, Arrival Time: 10:59",
+                "breakfast": "-",
+                "attraction": "Atlanta Botanical Garden, Atlanta;High Museum of Art, Atlanta;",
+                "lunch": "Saffron, Atlanta",
+                "dinner": "Baba Au Rhum, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Adda, Atlanta",
+                "attraction": "Georgia Aquarium, Atlanta;World of Coca-Cola, Atlanta;",
+                "lunch": "Daawat-e-Kashmir, Atlanta",
+                "dinner": "El Pistolero, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "from Atlanta to West Palm Beach",
+                "transportation": "Flight Number: F3525323, from Atlanta to West Palm Beach, Departure Time: 09:10, Arrival Time: 10:43",
+                "breakfast": "Sethi's Restaurant & Barbeque, Atlanta",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Billings to Minneapolis  \nTransportation: Flight Number: F3835323, from Billings to Minneapolis, Departure Time: 13:47, Arrival Time: 16:55  \nBreakfast: -  \nAttraction: Minneapolis Sculpture Garden, 725 Vineland Pl, Minneapolis, MN 55403  \nLunch: The Cafe, Minneapolis  \nDinner: Tony's, Minneapolis  \nAccommodation: Light-filled Apartment in great area, close 2 all!, Minneapolis  \n\nDay 2:  \nCurrent City: Minneapolis  \nTransportation: -  \nBreakfast: Giani, Minneapolis  \nAttraction: Minneapolis Institute of Art, 2400 3rd Ave S, Minneapolis, MN 55404; Mill City Museum, 704 S 2nd St, Minneapolis, MN 55401  \nLunch: Court Avenue Brewing Company, Minneapolis  \nDinner: Monkeypod Kitchen by Merriman, Minneapolis  \nAccommodation: Light-filled Apartment in great area, close 2 all!, Minneapolis  \n\nDay 3:  \nCurrent City: from Minneapolis to Duluth  \nTransportation: Self-driving, from Minneapolis to Duluth, duration: 2 hours 16 mins, distance: 248 km, cost: $12  \nBreakfast: Texas Roadhouse, Minneapolis  \nAttraction: Glensheen Mansion, 3300 London Rd, Duluth, MN 55804; Leif Erikson Park, 1301 London Rd, Duluth, MN 55805  \nLunch: Sodam Korean Restaurant, Duluth  \nDinner: Skye - Hotel Unique, Duluth  \nAccommodation: Studio Apt -Upper East Side, Duluth  \n\nDay 4:  \nCurrent City: Duluth  \nTransportation: -  \nBreakfast: Blue - Rooftop Cafe Restaurant Bistro, Duluth  \nAttraction: Lake Superior Railroad Museum, 506 W Michigan St, Duluth, MN 55802; Aerial Lift Bridge, 601 S Lake Ave, Duluth, MN 55802  \nLunch: Bitters & Love, Duluth  \nDinner: Lulu's Chocolate Bar, Duluth  \nAccommodation: Studio Apt -Upper East Side, Duluth  \n\nDay 5:  \nCurrent City: from Duluth to Minneapolis, then from Minneapolis to Billings  \nTransportation:  \n  1. Self-driving, from Duluth to Minneapolis, duration: 2 hours 18 mins, distance: 249 km, cost: $12  \n  2. Flight Number: F3849899, from Minneapolis to Billings, Departure Time: 11:38, Arrival Time: 12:50  \nBreakfast: Liquid Lounge, Duluth  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Billings to Minneapolis",
+                "transportation": "Flight Number: F3835323, from Billings to Minneapolis, Departure Time: 13:47, Arrival Time: 16:55",
+                "breakfast": "-",
+                "attraction": "Minneapolis Sculpture Garden, Minneapolis;",
+                "lunch": "The Cafe, Minneapolis",
+                "dinner": "Tony's, Minneapolis",
+                "accommodation": "Light-filled Apartment in great area, close 2 all!, Minneapolis"
+            },
+            {
+                "days": 2,
+                "current_city": "Minneapolis",
+                "transportation": "-",
+                "breakfast": "Giani, Minneapolis",
+                "attraction": "Minneapolis Institute of Art, Minneapolis;Mill City Museum, Minneapolis;",
+                "lunch": "Court Avenue Brewing Company, Minneapolis",
+                "dinner": "Monkeypod Kitchen by Merriman, Minneapolis",
+                "accommodation": "Light-filled Apartment in great area, close 2 all!, Minneapolis"
+            },
+            {
+                "days": 3,
+                "current_city": "from Minneapolis to Duluth",
+                "transportation": "Self-driving, from Minneapolis to Duluth, duration: 2 hours 16 mins, distance: 248 km, Cost: 12",
+                "breakfast": "Texas Roadhouse, Minneapolis",
+                "attraction": "Glensheen Mansion, Duluth;Leif Erikson Park, Duluth;",
+                "lunch": "Sodam Korean Restaurant, Duluth",
+                "dinner": "Skye - Hotel Unique, Duluth",
+                "accommodation": "Studio Apt -Upper East Side, Duluth"
+            },
+            {
+                "days": 4,
+                "current_city": "Duluth",
+                "transportation": "-",
+                "breakfast": "Blue - Rooftop Cafe Restaurant Bistro, Duluth",
+                "attraction": "Lake Superior Railroad Museum, Duluth;Aerial Lift Bridge, Duluth;",
+                "lunch": "Bitters & Love, Duluth",
+                "dinner": "Lulu's Chocolate Bar, Duluth",
+                "accommodation": "Studio Apt -Upper East Side, Duluth"
+            },
+            {
+                "days": 5,
+                "current_city": "from Duluth to Minneapolis, then from Minneapolis to Billings",
+                "transportation": "Self-driving, from Duluth to Minneapolis, duration: 2 hours 18 mins, distance: 249 km, Cost: 12; Flight Number: F3849899, from Minneapolis to Billings, Departure Time: 11:38, Arrival Time: 12:50",
+                "breakfast": "Liquid Lounge, Duluth",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Salt Lake City to Burbank  \nTransportation: Flight Number: F3846241, from Salt Lake City to Burbank, Departure Time: 08:08, Arrival Time: 09:03  \nBreakfast: -  \nAttraction: Warner Bros. Studio Tour Hollywood, Burbank  \nLunch: Mellow Mushroom, Burbank  \nDinner: Dawat-e-Nawab - Radisson Blu, Burbank  \nAccommodation: Clean & quiet home on quiet block, Burbank (entire home/apt, accommodates up to 8)  \n\nDay 2:  \nCurrent City: Burbank  \nTransportation: -  \nBreakfast: Hard Rock Cafe, Burbank  \nAttraction: Gordon R Howard Museum, Burbank; Johnny Carson Park, Burbank  \nLunch: Smaaash, Burbank  \nDinner: Lucknow - Kingdom of Dreams, Burbank  \nAccommodation: Clean & quiet home on quiet block, Burbank  \n\nDay 3:  \nCurrent City: from Burbank to Salt Lake City  \nTransportation: Flight Number: F3846267, from Burbank to Salt Lake City, Departure Time: 20:45, Arrival Time: (not specified, but flight duration is 1 hour 55 minutes)  \nBreakfast: Caffe Tonino, Burbank  \nAttraction: The Mystic Museum, Burbank  \nLunch: Tandoor Restaurant, Burbank  \nDinner: Katwalk Lounge, Burbank  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Burbank",
+                "transportation": "Flight Number: F3846241, from Salt Lake City to Burbank, Departure Time: 08:08, Arrival Time: 09:03",
+                "breakfast": "-",
+                "attraction": "Warner Bros. Studio Tour Hollywood, Burbank;",
+                "lunch": "Mellow Mushroom, Burbank",
+                "dinner": "Dawat-e-Nawab - Radisson Blu, Burbank",
+                "accommodation": "Clean & quiet home on quiet block, Burbank"
+            },
+            {
+                "days": 2,
+                "current_city": "Burbank",
+                "transportation": "-",
+                "breakfast": "Hard Rock Cafe, Burbank",
+                "attraction": "Gordon R Howard Museum, Burbank;Johnny Carson Park, Burbank;",
+                "lunch": "Smaaash, Burbank",
+                "dinner": "Lucknow - Kingdom of Dreams, Burbank",
+                "accommodation": "Clean & quiet home on quiet block, Burbank"
+            },
+            {
+                "days": 3,
+                "current_city": "from Burbank to Salt Lake City",
+                "transportation": "Flight Number: F3846267, from Burbank to Salt Lake City, Departure Time: 20:45, Arrival Time: (not specified, but flight duration is 1 hour 55 minutes)",
+                "breakfast": "Caffe Tonino, Burbank",
+                "attraction": "The Mystic Museum, Burbank;",
+                "lunch": "Tandoor Restaurant, Burbank",
+                "dinner": "Katwalk Lounge, Burbank",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

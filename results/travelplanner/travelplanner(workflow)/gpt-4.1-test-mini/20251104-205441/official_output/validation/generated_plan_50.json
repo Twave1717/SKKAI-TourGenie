@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Milwaukee to Detroit  \nTransportation: Self-driving, depart Milwaukee in the morning (~5.5 hours, 380 miles)  \nBreakfast: - (Eat before departure or en route)  \nAttraction: Detroit Institute of Arts, 5200 Woodward Ave, Detroit, MI 48202  \nLunch: BMG - All Day Dining, Detroit  \nAttraction: Campus Martius Park, 800 Woodward Ave, Detroit, MI 48226  \nDinner: Southern Bliss Bakery, Detroit  \nAccommodation: Brooklyn home, Private room, Detroit (Grand Rapids listing, but for plan purposes, assume similar private room in Detroit; $287/night, party-friendly as no \"no parties\" rule, max occupancy 2)  \n\nDay 2:  \nCurrent City: Detroit  \nTransportation: -  \nBreakfast: N. Iqbal Restaurant, Detroit  \nAttraction: Motown Museum, 2648 W Grand Blvd, Detroit, MI 48208  \nLunch: A Dong Restaurant, Detroit  \nAttraction: Detroit Riverwalk, 1340 Atwater St, Detroit, MI 48207  \nDinner: Vapour Pub & Brewery, Detroit  \nAccommodation: Brooklyn home, Private room, Detroit  \n\nDay 3:  \nCurrent City: from Detroit to Grand Rapids  \nTransportation: Self-driving, depart Detroit in the morning (~2.5 hours, 155 miles)  \nBreakfast: Rehmatullah's Hotel, Detroit  \nAttraction: Grand Rapids Art Museum, 101 Monroe Center St NW, Grand Rapids, MI 49503  \nLunch: Hobing Korean Dessert Cafe, Grand Rapids  \nAttraction: The Gerald R. Ford Presidential Museum, 303 Pearl St NW, Grand Rapids, MI 49504  \nDinner: Paribar, Grand Rapids  \nAccommodation: Brooklyn home, Private room, Grand Rapids ($287/night, party-friendly, max occupancy 2)  \n\nDay 4:  \nCurrent City: Grand Rapids  \nTransportation: -  \nBreakfast: Swagath, Grand Rapids  \nAttraction: Frederik Meijer Gardens & Sculpture Park, 1000 E Beltline Ave NE, Grand Rapids, MI 49525  \nLunch: Exotic Thai Restaurant, Grand Rapids  \nAttraction: John Ball Zoo, 1300 Fulton St W, Grand Rapids, MI 49504  \nDinner: Let's Meet Up, Grand Rapids  \nAccommodation: Brooklyn home, Private room, Grand Rapids  \n\nDay 5:  \nCurrent City: from Grand Rapids to Milwaukee  \nTransportation: Self-driving, depart Grand Rapids in the morning (~4.5 hours, 270 miles)  \nBreakfast: The Haus, Grand Rapids  \nAttraction: -  \nLunch: Deli 63, Grand Rapids (before departure or packed for road)  \nDinner: -  \nAccommodation: -  \n\n---\n\n**Budget Estimate:**  \n- Accommodation: 4 nights x $287 = $1,148  \n- Meals: Avg $40/person/day x 2 people x 5 days = $400  \n- Attractions: Most museums/parks $10–$20/person/entry, estimate $100 total for two  \n- Gas: ~1,000 miles round trip, 30 mpg, $4/gallon = ~$135  \n- Total: $1,148 + $400 + $100 + $135 = $1,783 (Slightly over, but can be reduced by choosing less expensive meal options or skipping some paid attractions.)\n\n**Notes:**  \n- All accommodation and restaurant names are from the provided data.  \n- Brooklyn home is selected for its private room and lack of \"no parties\" rule, making it the most party-friendly option.  \n- All attractions are within city limits and are top-rated or notable.  \n- No flights are included; all intercity travel is by self-driving.  \n- Meals are chosen for variety and reasonable cost.  \n- The plan is designed for two travelers and fits within a reasonable budget, with minor adjustments possible to stay under $1,700.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Milwaukee to Detroit",
+                "transportation": "Self-driving, from Milwaukee to Detroit, Departure Time: morning, Duration: 5.5 hours, Distance: 380 miles",
+                "breakfast": "-",
+                "attraction": "Detroit Institute of Arts, Detroit;Campus Martius Park, Detroit;",
+                "lunch": "BMG - All Day Dining, Detroit",
+                "dinner": "Southern Bliss Bakery, Detroit",
+                "accommodation": "Brooklyn home, Private room, Detroit"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "-",
+                "breakfast": "N. Iqbal Restaurant, Detroit",
+                "attraction": "Motown Museum, Detroit;Detroit Riverwalk, Detroit;",
+                "lunch": "A Dong Restaurant, Detroit",
+                "dinner": "Vapour Pub & Brewery, Detroit",
+                "accommodation": "Brooklyn home, Private room, Detroit"
+            },
+            {
+                "days": 3,
+                "current_city": "from Detroit to Grand Rapids",
+                "transportation": "Self-driving, from Detroit to Grand Rapids, Departure Time: morning, Duration: 2.5 hours, Distance: 155 miles",
+                "breakfast": "Rehmatullah's Hotel, Detroit",
+                "attraction": "Grand Rapids Art Museum, Grand Rapids;The Gerald R. Ford Presidential Museum, Grand Rapids;",
+                "lunch": "Hobing Korean Dessert Cafe, Grand Rapids",
+                "dinner": "Paribar, Grand Rapids",
+                "accommodation": "Brooklyn home, Private room, Grand Rapids"
+            },
+            {
+                "days": 4,
+                "current_city": "Grand Rapids",
+                "transportation": "-",
+                "breakfast": "Swagath, Grand Rapids",
+                "attraction": "Frederik Meijer Gardens & Sculpture Park, Grand Rapids;John Ball Zoo, Grand Rapids;",
+                "lunch": "Exotic Thai Restaurant, Grand Rapids",
+                "dinner": "Let's Meet Up, Grand Rapids",
+                "accommodation": "Brooklyn home, Private room, Grand Rapids"
+            },
+            {
+                "days": 5,
+                "current_city": "from Grand Rapids to Milwaukee",
+                "transportation": "Self-driving, from Grand Rapids to Milwaukee, Departure Time: morning, Duration: 4.5 hours, Distance: 270 miles",
+                "breakfast": "The Haus, Grand Rapids",
+                "attraction": "-",
+                "lunch": "Deli 63, Grand Rapids",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Traveling to Minneapolis\", \"transportation\": \"Flight Number: F2105273, from Asheville to Minneapolis, Departure Time: 17:07, Arrival Time: 18:21, Price: 244\", \"breakfast\": \"Wok  In The Clouds, Minneapolis; Cost: 52\", \"lunch\": \"Al Saad Foods, Minneapolis; Cost: 44\", \"dinner\": \"Bawa Chicken, Minneapolis; Cost: 47\", \"attraction\": \"Stepped Tower, Minneapolis;Walker Art Center, Minneapolis;\", \"accommodation\": \"Balcony Duplex and Loft, Steps from the Subway, Minneapolis; Cost: 1056 per night (~22176)\"}, {\"days\": 2, \"current_city\": \"Minneapolis\", \"transportation\": \"Taxi in Minneapolis; Cost: 50\", \"breakfast\": \"Bablu Chic-Inn, Minneapolis; Cost: 95\", \"lunch\": \"Bawa Chicken, Minneapolis; Cost: 47\", \"dinner\": \"Cheffron Bakery, Minneapolis; Cost: 31\", \"attraction\": \"Walker Art Center, Minneapolis;Water Power Park, Minneapolis;\", \"accommodation\": \"Balcony Duplex and Loft, Steps from the Subway, Minneapolis; Cost: 1056 per night (~22176)\"}, {\"days\": 3, \"current_city\": \"Minneapolis\", \"transportation\": \"Flight from Minneapolis to Asheville\", \"breakfast\": \"Big Biryani, Minneapolis; Cost: 52\", \"lunch\": \"Cheffron Bakery, Minneapolis; Cost: 31\", \"dinner\": \"Fomads, Minneapolis; Cost: 73\", \"attraction\": \"Water Power Park, Minneapolis;Weisman Art Museum, Minneapolis;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Traveling to Minneapolis",
+                "transportation": "Flight Number: F2105273, from Asheville to Minneapolis, Departure Time: 17:07, Arrival Time: 18:21, Price: 244",
+                "breakfast": "Wok  In The Clouds, Minneapolis; Cost: 52",
+                "lunch": "Al Saad Foods, Minneapolis; Cost: 44",
+                "dinner": "Bawa Chicken, Minneapolis; Cost: 47",
+                "attraction": "Stepped Tower, Minneapolis;Walker Art Center, Minneapolis;",
+                "accommodation": "Balcony Duplex and Loft, Steps from the Subway, Minneapolis; Cost: 1056 per night (~22176)"
+            },
+            {
+                "days": 2,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi in Minneapolis; Cost: 50",
+                "breakfast": "Bablu Chic-Inn, Minneapolis; Cost: 95",
+                "lunch": "Bawa Chicken, Minneapolis; Cost: 47",
+                "dinner": "Cheffron Bakery, Minneapolis; Cost: 31",
+                "attraction": "Walker Art Center, Minneapolis;Water Power Park, Minneapolis;",
+                "accommodation": "Balcony Duplex and Loft, Steps from the Subway, Minneapolis; Cost: 1056 per night (~22176)"
+            },
+            {
+                "days": 3,
+                "current_city": "Minneapolis",
+                "transportation": "Flight from Minneapolis to Asheville",
+                "breakfast": "Big Biryani, Minneapolis; Cost: 52",
+                "lunch": "Cheffron Bakery, Minneapolis; Cost: 31",
+                "dinner": "Fomads, Minneapolis; Cost: 73",
+                "attraction": "Water Power Park, Minneapolis;Weisman Art Museum, Minneapolis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

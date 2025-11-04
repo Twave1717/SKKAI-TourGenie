@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Knoxville to Miami  \nTransportation: Flight Number: F3609509, from Knoxville to Miami, Departure Time: 05:56, Arrival Time: 07:57  \nBreakfast: Clocked, Miami  \nAttraction: Bayfront Park, Miami  \nLunch: Shorts Burger and Shine, Miami  \nAttraction: Pérez Art Museum Miami, Miami  \nDinner: AB's - Absolute Barbecues, Miami  \nAccommodation: Charming 1BD Astoria Penthouse, Miami  \n\nDay 2:  \nCurrent City: Miami  \nTransportation: -  \nBreakfast: Papouli's Mediterranean Cafe & Market, Miami  \nAttraction: Jungle Island, Miami  \nLunch: Anjlika, Miami  \nAttraction: Wynwood Walls, Miami  \nDinner: Biryani Mahal, Miami  \nAccommodation: Charming 1BD Astoria Penthouse, Miami  \n\nDay 3:  \nCurrent City: from Miami to Orlando  \nTransportation: Self-driving, from Miami to Orlando, duration: 3 hours 27 mins, distance: 380 km, cost: $19  \nBreakfast: AB's Absolute Barbecues, Miami  \nAttraction: Maurice A. Ferré Park, Miami  \nLunch: Spices & Sauces, Miami  \nAttraction: Bayside Marketplace, Miami  \nDinner: Bite N Sip, Orlando  \nAccommodation: Room in Upper East Side!, Orlando  \n\nDay 4:  \nCurrent City: Orlando  \nTransportation: -  \nBreakfast: Hotel New Tamil Nadu, Orlando  \nAttraction: Universal Orlando Resort, Orlando  \nLunch: Khana Khazana, Orlando  \nAttraction: The Wheel at ICON Park, Orlando  \nDinner: Spice Hut, Orlando  \nAccommodation: Room in Upper East Side!, Orlando  \n\nDay 5:  \nCurrent City: from Orlando to Atlanta (end of plan at departure)  \nTransportation: Flight Number: F3497083, from Orlando to Atlanta, Departure Time: 12:20, Arrival Time: 14:18  \nBreakfast: Crust N Cakes, Orlando  \nAttraction: SeaWorld Orlando, Orlando  \nLunch: Turquoise Villa, Orlando  \nDinner: -  \nAccommodation: -  \n\nNotes on Budget and Commonsense:  \n- Accommodation in Miami: Charming 1BD Astoria Penthouse ($806/night, 2 nights = $1,612)  \n- Accommodation in Orlando: Room in Upper East Side! ($885/night, 2 nights = $1,770)  \n- Flights: Knoxville to Miami ($322 x 2 = $644), Orlando to Atlanta ($96 x 2 = $192)  \n- Self-driving Miami to Orlando: $19  \n- Estimated total for accommodation and transportation: $1,612 + $1,770 + $644 + $192 + $19 = $4,237  \n- To stay within the $3,900 budget, consider switching to a more affordable Miami accommodation, e.g., \"HELLO BROOKLYN\" PARK SIDE VIEW NEWLY RENO APT. ($789/night, 2 nights = $1,578), or \"Simple and clean bedroom with good view and light\" ($669/night, but max occupancy 2, so possible). For Orlando, \"Private room in Jackson Heights Apartment 2+\" ($1,081/night) is more expensive, so \"Room in Upper East Side!\" is the best fit.  \n- Restaurant choices focus on Chinese and Mediterranean cuisines as requested.  \n- Attractions are top-rated and centrally located for efficient travel.  \n- All details are derived from the provided data and align with commonsense travel logistics.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Knoxville to Miami",
+                "transportation": "Flight Number: F3609509, from Knoxville to Miami, Departure Time: 05:56, Arrival Time: 07:57",
+                "breakfast": "Clocked, Miami",
+                "attraction": "Bayfront Park, Miami;Pérez Art Museum Miami, Miami;",
+                "lunch": "Shorts Burger and Shine, Miami",
+                "dinner": "AB's - Absolute Barbecues, Miami",
+                "accommodation": "Charming 1BD Astoria Penthouse, Miami"
+            },
+            {
+                "days": 2,
+                "current_city": "Miami",
+                "transportation": "-",
+                "breakfast": "Papouli's Mediterranean Cafe & Market, Miami",
+                "attraction": "Jungle Island, Miami;Wynwood Walls, Miami;",
+                "lunch": "Anjlika, Miami",
+                "dinner": "Biryani Mahal, Miami",
+                "accommodation": "Charming 1BD Astoria Penthouse, Miami"
+            },
+            {
+                "days": 3,
+                "current_city": "from Miami to Orlando",
+                "transportation": "Self-driving, from Miami to Orlando, duration: 3 hours 27 mins, distance: 380 km, Cost: 19",
+                "breakfast": "AB's Absolute Barbecues, Miami",
+                "attraction": "Maurice A. Ferré Park, Miami;Bayside Marketplace, Miami;",
+                "lunch": "Spices & Sauces, Miami",
+                "dinner": "Bite N Sip, Orlando",
+                "accommodation": "Room in Upper East Side!, Orlando"
+            },
+            {
+                "days": 4,
+                "current_city": "Orlando",
+                "transportation": "-",
+                "breakfast": "Hotel New Tamil Nadu, Orlando",
+                "attraction": "Universal Orlando Resort, Orlando;The Wheel at ICON Park, Orlando;",
+                "lunch": "Khana Khazana, Orlando",
+                "dinner": "Spice Hut, Orlando",
+                "accommodation": "Room in Upper East Side!, Orlando"
+            },
+            {
+                "days": 5,
+                "current_city": "from Orlando to Atlanta",
+                "transportation": "Flight Number: F3497083, from Orlando to Atlanta, Departure Time: 12:20, Arrival Time: 14:18",
+                "breakfast": "Crust N Cakes, Orlando",
+                "attraction": "SeaWorld Orlando, Orlando;",
+                "lunch": "Turquoise Villa, Orlando",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

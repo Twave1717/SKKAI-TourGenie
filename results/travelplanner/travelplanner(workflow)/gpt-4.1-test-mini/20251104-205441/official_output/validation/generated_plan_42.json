@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Miami to Houston  \nTransportation: Flight Number: F3880086, from Miami to Houston, Departure Time: 13:56, Arrival Time: 15:29  \nBreakfast: Vinayaka Mylari, Houston  \nAttraction: Matchbox, Houston  \nLunch: The BrewMaster - The Mix Fine Dine, Houston  \nDinner: Pebble Street, Houston  \nAccommodation: Superhost 3 bedroom DISCOUNT, Houston  \n\nDay 2:  \nCurrent City: Houston  \nTransportation: -  \nBreakfast: Jalapenos, Houston  \nAttraction: Bhola Dhaba, Houston  \nLunch: Royal Mart, Houston  \nDinner: Sheetla Dhaba, Houston  \nAccommodation: Superhost 3 bedroom DISCOUNT, Houston  \n\nDay 3:  \nCurrent City: from Houston to Austin  \nTransportation: Self-driving, from Houston to Austin, Duration: 2 hours 31 mins, Distance: 266 km, Cost: $13  \nBreakfast: Chawla's宊, Houston  \nAttraction: The Kasbah, Austin  \nLunch: Tandoori Nights, Austin  \nDinner: Cake o' Cuisine, Austin  \nAccommodation: Beautiful 3 bedroom apartment in East Williamsburg, Austin  \n\nDay 4:  \nCurrent City: Austin  \nTransportation: -  \nBreakfast: Wildflour Cafe + Bakery, Austin  \nAttraction: The Blue Door Cafe, Austin  \nLunch: Bikanervala, Austin  \nDinner: Green Chick Chop, Austin  \nAccommodation: Beautiful 3 bedroom apartment in East Williamsburg, Austin  \n\nDay 5:  \nCurrent City: from Austin to Miami  \nTransportation: Flight Number: F3712305, from Austin to Miami, Departure Time: 07:22, Arrival Time: 10:50  \nBreakfast: Moksha, Austin  \nAttraction: Talaga Sampireun, Austin  \nLunch: Goldy Da Dhaba, Austin  \nDinner: -  \nAccommodation: -  \n\nBudget Summary (approximate major costs for 3 people):  \n- Flights: Miami-Houston ($197 x 3 = $591), Austin-Miami ($503 x 3 = $1,509) = $2,100  \n- Self-driving: $13  \n- Accommodation:  \n  - Houston: Superhost 3 bedroom DISCOUNT ($746 x 2 nights = $1,492)  \n  - Austin: Beautiful 3 bedroom apartment in East Williamsburg ($1,169 x 2 nights = $2,338)  \n- Estimated meals and attractions: ~$100 per person per day x 3 x 5 = $1,500  \n- Total: ~$7,443  \n\nThis plan fits within the $8,500 budget and provides a comfortable, enjoyable trip with Indian/Mediterranean dining and top-rated attractions.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Miami to Houston",
+                "transportation": "Flight Number: F3880086, from Miami to Houston, Departure Time: 13:56, Arrival Time: 15:29",
+                "breakfast": "Vinayaka Mylari, Houston",
+                "attraction": "Matchbox, Houston;",
+                "lunch": "The BrewMaster - The Mix Fine Dine, Houston",
+                "dinner": "Pebble Street, Houston",
+                "accommodation": "Superhost 3 bedroom DISCOUNT, Houston"
+            },
+            {
+                "days": 2,
+                "current_city": "Houston",
+                "transportation": "-",
+                "breakfast": "Jalapenos, Houston",
+                "attraction": "Bhola Dhaba, Houston;",
+                "lunch": "Royal Mart, Houston",
+                "dinner": "Sheetla Dhaba, Houston",
+                "accommodation": "Superhost 3 bedroom DISCOUNT, Houston"
+            },
+            {
+                "days": 3,
+                "current_city": "from Houston to Austin",
+                "transportation": "Self-driving, from Houston to Austin, Duration: 2 hours 31 mins, Distance: 266 km, Cost: 13",
+                "breakfast": "Chawla's宊, Houston",
+                "attraction": "The Kasbah, Austin;",
+                "lunch": "Tandoori Nights, Austin",
+                "dinner": "Cake o' Cuisine, Austin",
+                "accommodation": "Beautiful 3 bedroom apartment in East Williamsburg, Austin"
+            },
+            {
+                "days": 4,
+                "current_city": "Austin",
+                "transportation": "-",
+                "breakfast": "Wildflour Cafe + Bakery, Austin",
+                "attraction": "The Blue Door Cafe, Austin;",
+                "lunch": "Bikanervala, Austin",
+                "dinner": "Green Chick Chop, Austin",
+                "accommodation": "Beautiful 3 bedroom apartment in East Williamsburg, Austin"
+            },
+            {
+                "days": 5,
+                "current_city": "from Austin to Miami",
+                "transportation": "Flight Number: F3712305, from Austin to Miami, Departure Time: 07:22, Arrival Time: 10:50",
+                "breakfast": "Moksha, Austin",
+                "attraction": "Talaga Sampireun, Austin;",
+                "lunch": "Goldy Da Dhaba, Austin",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

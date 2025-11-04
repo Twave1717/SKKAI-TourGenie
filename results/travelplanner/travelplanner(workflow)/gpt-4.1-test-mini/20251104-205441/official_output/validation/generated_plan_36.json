@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Asheville to Minneapolis  \nTransportation: Self-driving, from Asheville to Minneapolis, Departure: 06:00, Arrival: 21:47, Duration: 15 hours 47 mins, Distance: 1,711 km, Cost: $85  \nBreakfast: - (on the road; recommend packing or stopping en route)  \nAttraction: - (travel day)  \nLunch: - (on the road; recommend packing or stopping en route)  \nDinner: The Cafe, Minneapolis (Indian, Mediterranean; Avg. cost: $14, highly rated)  \nAccommodation: Light-filled Apartment in great area, close 2 all! (Entire home/apt, pet-friendly, $343/night, max occupancy 5, minimum 1 night, Minneapolis)  \n\nDay 2:  \nCurrent City: Minneapolis  \nTransportation: -  \nBreakfast: The Cafe, Minneapolis  \nAttraction: Minneapolis Sculpture Garden; Minneapolis Institute of Art  \nLunch: Monkeypod Kitchen by Merriman, Minneapolis (Indian, Mediterranean; Avg. cost: $50)  \nAttraction: Mill City Museum; Gold Medal Park  \nDinner: Texas Roadhouse, Minneapolis (American, BBQ, Desserts; Avg. cost: $22)  \nAccommodation: Light-filled Apartment in great area, close 2 all! (Entire home/apt, pet-friendly, $343/night, Minneapolis)  \n\nDay 3:  \nCurrent City: from Minneapolis to Asheville  \nTransportation: Self-driving, from Minneapolis to Asheville, Departure: 07:00, Arrival: 22:47, Duration: 15 hours 47 mins, Distance: 1,711 km, Cost: $85  \nBreakfast: The Cafe, Minneapolis  \nAttraction: - (travel day)  \nLunch: Texas Roadhouse, Minneapolis  \nDinner: - (on the road; recommend packing or stopping en route)  \nAccommodation: -  \n\nBudget Summary (for 3 people):  \n- Transportation (self-driving, round trip): $85 x 2 = $170  \n- Accommodation (2 nights): $343 x 2 = $686  \n- Meals (approximate, 3 days):  \n  - The Cafe: $14 x 3 x 2 = $84  \n  - Monkeypod Kitchen by Merriman: $50 x 3 = $150  \n  - Texas Roadhouse: $22 x 3 x 2 = $132  \n  - Total meals: $366  \n- Attractions: Most are public or low-cost museums/parks; estimate $60 for entry fees  \n- Miscellaneous (fuel, parking, snacks): $200  \n- Total Estimated Cost: $170 (transport) + $686 (accommodation) + $366 (meals) + $60 (attractions) + $200 (misc) = $1,482  \n\nThis plan is well within the $2,300 budget.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Asheville to Minneapolis",
+                "transportation": "Self-driving, from Asheville to Minneapolis, Departure: 06:00, Arrival: 21:47, Duration: 15 hours 47 mins, Distance: 1,711 km, Cost: 85",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "The Cafe, Minneapolis",
+                "accommodation": "Light-filled Apartment in great area, close 2 all!, Minneapolis"
+            },
+            {
+                "days": 2,
+                "current_city": "Minneapolis",
+                "transportation": "-",
+                "breakfast": "The Cafe, Minneapolis",
+                "attraction": "Minneapolis Sculpture Garden, Minneapolis;Minneapolis Institute of Art, Minneapolis;Mill City Museum, Minneapolis;Gold Medal Park, Minneapolis;",
+                "lunch": "Monkeypod Kitchen by Merriman, Minneapolis",
+                "dinner": "Texas Roadhouse, Minneapolis",
+                "accommodation": "Light-filled Apartment in great area, close 2 all!, Minneapolis"
+            },
+            {
+                "days": 3,
+                "current_city": "from Minneapolis to Asheville",
+                "transportation": "Self-driving, from Minneapolis to Asheville, Departure: 07:00, Arrival: 22:47, Duration: 15 hours 47 mins, Distance: 1,711 km, Cost: 85",
+                "breakfast": "The Cafe, Minneapolis",
+                "attraction": "-",
+                "lunch": "Texas Roadhouse, Minneapolis",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

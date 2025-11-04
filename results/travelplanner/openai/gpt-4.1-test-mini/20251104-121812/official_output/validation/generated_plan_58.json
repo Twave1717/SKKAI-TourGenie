@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Augusta\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Ace of Clubs House, Texarkana;Acid Ball, Bellingham;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 2, \"current_city\": \"Augusta\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Acid Ball, Bellingham;Acropolis, Helena;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 3, \"current_city\": \"Decatur\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 4, \"current_city\": \"Decatur\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Action City, Eau Claire;Action Stations, Portsmouth;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 5, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Action Stations, Portsmouth;Adado Riverfront Park, Lansing;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 6, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 7, \"current_city\": \"Chattanooga\", \"transportation\": \"Flight from Georgia to Chattanooga\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Augusta",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 2,
+                "current_city": "Augusta",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 3,
+                "current_city": "Decatur",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 4,
+                "current_city": "Decatur",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 5,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 6,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 7,
+                "current_city": "Chattanooga",
+                "transportation": "Flight from Georgia to Chattanooga",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

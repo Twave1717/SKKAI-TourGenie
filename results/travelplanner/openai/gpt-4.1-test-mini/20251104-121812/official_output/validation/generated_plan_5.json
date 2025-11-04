@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"West Palm Beach → Atlanta\", \"transportation\": \"Flight Number: F0024217, from West Palm Beach to Atlanta, Departure Time: 12:06, Arrival Time: 13:42, Price: 213\", \"breakfast\": \"Baba Au Rhum, Atlanta; Cost: 27\", \"lunch\": \"Beliram Degchiwala, Atlanta; Cost: 14\", \"dinner\": \"Bunty Dhaba, Atlanta; Cost: 99\", \"attraction\": \"Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;\", \"accommodation\": \"Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Bengali Sweet House, Atlanta; Cost: 39\", \"lunch\": \"Bunty Dhaba, Atlanta; Cost: 99\", \"dinner\": \"Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34\", \"attraction\": \"Folk Art Park, Atlanta;Fox Theatre, Atlanta;\", \"accommodation\": \"Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)\"}, {\"days\": 3, \"current_city\": \"Atlanta → West Palm Beach\", \"transportation\": \"Flight from Atlanta to West Palm Beach\", \"breakfast\": \"Caboose X Cafe & Lounge, Atlanta; Cost: 23\", \"lunch\": \"Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34\", \"dinner\": \"China Hot, Atlanta; Cost: 13\", \"attraction\": \"Fox Theatre, Atlanta;Georgia Aquarium, Atlanta;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "West Palm Beach → Atlanta",
+                "transportation": "Flight Number: F0024217, from West Palm Beach to Atlanta, Departure Time: 12:06, Arrival Time: 13:42, Price: 213",
+                "breakfast": "Baba Au Rhum, Atlanta; Cost: 27",
+                "lunch": "Beliram Degchiwala, Atlanta; Cost: 14",
+                "dinner": "Bunty Dhaba, Atlanta; Cost: 99",
+                "attraction": "Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;",
+                "accommodation": "Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Bengali Sweet House, Atlanta; Cost: 39",
+                "lunch": "Bunty Dhaba, Atlanta; Cost: 99",
+                "dinner": "Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34",
+                "attraction": "Folk Art Park, Atlanta;Fox Theatre, Atlanta;",
+                "accommodation": "Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta → West Palm Beach",
+                "transportation": "Flight from Atlanta to West Palm Beach",
+                "breakfast": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+                "lunch": "Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34",
+                "dinner": "China Hot, Atlanta; Cost: 13",
+                "attraction": "Fox Theatre, Atlanta;Georgia Aquarium, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

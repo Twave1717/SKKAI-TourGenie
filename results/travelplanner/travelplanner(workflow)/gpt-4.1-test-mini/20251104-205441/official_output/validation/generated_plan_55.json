@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 9, 2022  \nCurrent City: from Monterey to Dallas  \nTransportation: Flight Number: F4046679, from Monterey to Dallas, Departure Time: 14:02, Arrival Time: 19:18  \nBreakfast: -  \nLunch: -  \nDinner: L'Opera (French, Bakery, BBQ, Fast Food, Seafood), Dallas  \nAttraction: -  \nAccommodation: Chic Union Square One Bedroom, Dallas (entire home/apt, max occupancy 5, review rate 5.0)\n\nDay 2: March 10, 2022  \nCurrent City: Dallas  \nTransportation: -  \nBreakfast: Drifters Cafe (Tea, French, Mexican, Cafe, Seafood), Dallas  \nAttraction: The Dallas World Aquarium; Reunion Tower, Dallas  \nLunch: Delhicacy (Chinese, Desserts, Mexican, Bakery, Seafood), Dallas  \nDinner: Yanki Sizzlers (Cafe, French, Tea, Mediterranean), Dallas  \nAccommodation: Chic Union Square One Bedroom, Dallas\n\nDay 3: March 11, 2022  \nCurrent City: Dallas  \nTransportation: -  \nBreakfast: Bikaner Sweets (Tea, French, Bakery, Cafe, Seafood), Dallas  \nAttraction: Dallas Museum of Art; Klyde Warren Park, Dallas  \nLunch: Wheelyz (Chinese, Pizza, Bakery, BBQ, Mediterranean), Dallas  \nDinner: Subs n Shakes (French, Bakery, Mediterranean, Seafood), Dallas  \nAccommodation: Chic Union Square One Bedroom, Dallas\n\nDay 4: March 12, 2022  \nCurrent City: from Dallas to Houston  \nTransportation: Self-driving, from Dallas to Houston, duration: 3 hours 29 mins, distance: 385 km, cost: $19  \nBreakfast: Uma Foodies' Hut (French, Bakery, Seafood), Dallas  \nAttraction: -  \nLunch: Aim Cafe And Restaurant (Tea, French, BBQ), Dallas  \nDinner: The BrewMaster - The Mix Fine Dine (French, Indian, Cafe, Seafood), Houston  \nAccommodation: Superhost 3 bedroom DISCOUNT, Houston (entire home/apt, max occupancy 5, review rate 4.0)\n\nDay 5: March 13, 2022  \nCurrent City: Houston  \nTransportation: -  \nBreakfast: Vinayaka Mylari (Fast Food, French, Cafe, Italian), Houston  \nAttraction: Space Center Houston; Houston Museum of Natural Science, Houston  \nLunch: Jalapenos (Desserts, Tea, Cafe, Chinese, Seafood), Houston  \nDinner: Vrinda Vaishno Dhaba (French, Bakery, Fast Food, Cafe, Seafood), Houston  \nAccommodation: Superhost 3 bedroom DISCOUNT, Houston\n\nDay 6: March 14, 2022  \nCurrent City: from Houston to San Antonio  \nTransportation: Self-driving, from Houston to San Antonio, duration: 2 hours 56 mins, distance: 317 km, cost: $15  \nBreakfast: Chawla's宊 (Chinese, Desserts, Bakery, Cafe, Mediterranean), Houston  \nAttraction: -  \nLunch: Cyber Adda 24 (Chinese, Pizza, Bakery), Houston  \nDinner: Cafe Le Rue @ The Landings (French, Mexican, Cafe, Seafood), San Antonio  \nAccommodation: Large apt in prime carol gardens, San Antonio (entire home/apt, max occupancy 10, review rate 2.0)\n\nDay 7: March 15, 2022  \nCurrent City: San Antonio  \nTransportation: -  \nBreakfast: DEL - Roseate House (Fast Food, French, Mexican, Seafood), San Antonio  \nAttraction: The Alamo; San Antonio River Walk, San Antonio  \nLunch: Barbeque Nation (Tea, Cafe, Fast Food, Chinese, American), San Antonio  \nDinner: Pita Pit (Pizza, French, Bakery, Cafe, Mediterranean), San Antonio  \nAccommodation: -\n\n---\n\n**Notes:**  \n- All accommodations selected can host 4 people and have no minimum stay longer than the group’s needs.  \n- All restaurants chosen serve French or Chinese cuisine as requested.  \n- Attractions are top-rated and varied in each city.  \n- Transportation between cities is by flight (Monterey to Dallas) and self-driving (Dallas to Houston, Houston to San Antonio) as per available data.  \n- The plan ends after the last night in San Antonio, as per instructions.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Monterey to Dallas",
+                "transportation": "Flight Number: F4046679, from Monterey to Dallas, Departure Time: 14:02, Arrival Time: 19:18",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "L'Opera, Dallas",
+                "accommodation": "Chic Union Square One Bedroom, Dallas"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "-",
+                "breakfast": "Drifters Cafe, Dallas",
+                "attraction": "The Dallas World Aquarium, Dallas;Reunion Tower, Dallas;",
+                "lunch": "Delhicacy, Dallas",
+                "dinner": "Yanki Sizzlers, Dallas",
+                "accommodation": "Chic Union Square One Bedroom, Dallas"
+            },
+            {
+                "days": 3,
+                "current_city": "Dallas",
+                "transportation": "-",
+                "breakfast": "Bikaner Sweets, Dallas",
+                "attraction": "Dallas Museum of Art, Dallas;Klyde Warren Park, Dallas;",
+                "lunch": "Wheelyz, Dallas",
+                "dinner": "Subs n Shakes, Dallas",
+                "accommodation": "Chic Union Square One Bedroom, Dallas"
+            },
+            {
+                "days": 4,
+                "current_city": "from Dallas to Houston",
+                "transportation": "Self-driving, from Dallas to Houston, duration: 3 hours 29 mins, distance: 385 km, Cost: 19",
+                "breakfast": "Uma Foodies' Hut, Dallas",
+                "attraction": "-",
+                "lunch": "Aim Cafe And Restaurant, Dallas",
+                "dinner": "The BrewMaster - The Mix Fine Dine, Houston",
+                "accommodation": "Superhost 3 bedroom DISCOUNT, Houston"
+            },
+            {
+                "days": 5,
+                "current_city": "Houston",
+                "transportation": "-",
+                "breakfast": "Vinayaka Mylari, Houston",
+                "attraction": "Space Center Houston, Houston;Houston Museum of Natural Science, Houston;",
+                "lunch": "Jalapenos, Houston",
+                "dinner": "Vrinda Vaishno Dhaba, Houston",
+                "accommodation": "Superhost 3 bedroom DISCOUNT, Houston"
+            },
+            {
+                "days": 6,
+                "current_city": "from Houston to San Antonio",
+                "transportation": "Self-driving, from Houston to San Antonio, duration: 2 hours 56 mins, distance: 317 km, Cost: 15",
+                "breakfast": "Chawla's宊, Houston",
+                "attraction": "-",
+                "lunch": "Cyber Adda 24, Houston",
+                "dinner": "Cafe Le Rue @ The Landings, San Antonio",
+                "accommodation": "Large apt in prime carol gardens, San Antonio"
+            },
+            {
+                "days": 7,
+                "current_city": "San Antonio",
+                "transportation": "-",
+                "breakfast": "DEL - Roseate House, San Antonio",
+                "attraction": "The Alamo, San Antonio;San Antonio River Walk, San Antonio;",
+                "lunch": "Barbeque Nation, San Antonio",
+                "dinner": "Pita Pit, San Antonio",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

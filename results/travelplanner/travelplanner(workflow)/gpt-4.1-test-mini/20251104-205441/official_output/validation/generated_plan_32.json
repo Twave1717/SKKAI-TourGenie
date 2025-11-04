@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Day 1:  \nCurrent City: from Milwaukee to New York  \nTransportation: Flight Number: F3649645, from Milwaukee to New York, Departure Time: 10:50, Arrival Time: 14:22  \nBreakfast: Green Chick Chop, Milwaukee  \nAttraction: -  \nLunch: Baltazar, New York  \nDinner: Lord of the Drinks Forum, New York  \nAccommodation: Beautiful and big 1BR sublet close by Central Park, New York  \n\nDay 2:  \nCurrent City: New York  \nTransportation: -  \nBreakfast: Sir John Bakery Cafe, New York  \nAttraction: Central Park, New York; Top of The Rock, New York; Times Square, New York  \nLunch: QD's Restaurant, New York  \nDinner: Seasons 52 Fresh Grill, New York  \nAccommodation: Beautiful and big 1BR sublet close by Central Park, New York  \n\nDay 3:  \nCurrent City: from New York to Milwaukee  \nTransportation: Flight Number: F3643145, from New York to Milwaukee, Departure Time: 18:36, Arrival Time: 21:58  \nBreakfast: Sugary Affairs, New York  \nAttraction: The High Line, New York  \nLunch: Aryan's Rajasthani Pyaz Ki Kachori, New York  \nDinner: Goosebumps, New York  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Milwaukee to New York",
+                "transportation": "Flight Number: F3649645, from Milwaukee to New York, Departure Time: 10:50, Arrival Time: 14:22",
+                "breakfast": "Green Chick Chop, Milwaukee",
+                "attraction": "-",
+                "lunch": "Baltazar, New York",
+                "dinner": "Lord of the Drinks Forum, New York",
+                "accommodation": "Beautiful and big 1BR sublet close by Central Park, New York"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "-",
+                "breakfast": "Sir John Bakery Cafe, New York",
+                "attraction": "Central Park, New York;Top of The Rock, New York;Times Square, New York;",
+                "lunch": "QD's Restaurant, New York",
+                "dinner": "Seasons 52 Fresh Grill, New York",
+                "accommodation": "Beautiful and big 1BR sublet close by Central Park, New York"
+            },
+            {
+                "days": 3,
+                "current_city": "from New York to Milwaukee",
+                "transportation": "Flight Number: F3643145, from New York to Milwaukee, Departure Time: 18:36, Arrival Time: 21:58",
+                "breakfast": "Sugary Affairs, New York",
+                "attraction": "The High Line, New York;",
+                "lunch": "Aryan's Rajasthani Pyaz Ki Kachori, New York",
+                "dinner": "Goosebumps, New York",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

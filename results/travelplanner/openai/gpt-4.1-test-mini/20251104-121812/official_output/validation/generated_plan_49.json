@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Charlotte\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 2, \"current_city\": \"Milwaukee\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 3, \"current_city\": \"Milwaukee to Marquette\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 4, \"current_city\": \"Marquette\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 5, \"current_city\": \"Marquette to Charlotte\", \"transportation\": \"Flight from Wisconsin to Charlotte\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Charlotte",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 2,
+                "current_city": "Milwaukee",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 3,
+                "current_city": "Milwaukee to Marquette",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 4,
+                "current_city": "Marquette",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 5,
+                "current_city": "Marquette to Charlotte",
+                "transportation": "Flight from Wisconsin to Charlotte",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

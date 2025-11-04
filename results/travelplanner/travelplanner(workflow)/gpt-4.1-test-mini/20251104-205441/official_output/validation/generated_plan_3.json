@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Buffalo to Atlanta  \nTransportation: Flight Number: F3555201, from Buffalo to Atlanta, Departure Time: 12:44, Arrival Time: 14:33  \nBreakfast: -  \nAttraction: Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA 30309  \nLunch: Saffron, Atlanta  \nDinner: Baba Au Rhum, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta  \n\nDay 2:  \nCurrent City: Atlanta  \nTransportation: -  \nBreakfast: Adda, Atlanta  \nAttraction: Georgia Aquarium, 225 Baker St NW, Atlanta, GA 30313; World of Coca-Cola, 121 Baker St NW, Atlanta, GA 30313  \nLunch: Daawat-e-Kashmir, Atlanta  \nDinner: El Pistolero, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta  \n\nDay 3:  \nCurrent City: from Atlanta to Buffalo  \nTransportation: Flight Number: F3502694, from Atlanta to Buffalo, Departure Time: 15:47, Arrival Time: 17:42  \nBreakfast: Asian Bistro, Atlanta  \nAttraction: Martin Luther King, Jr. National Historical Park, 450 Auburn Ave NE, Atlanta, GA 30312  \nLunch: Sethi's Restaurant & Barbeque, Atlanta  \nDinner: -  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Buffalo to Atlanta",
+                "transportation": "Flight Number: F3555201, from Buffalo to Atlanta, Departure Time: 12:44, Arrival Time: 14:33",
+                "breakfast": "-",
+                "attraction": "Atlanta Botanical Garden, Atlanta;",
+                "lunch": "Saffron, Atlanta",
+                "dinner": "Baba Au Rhum, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Adda, Atlanta",
+                "attraction": "Georgia Aquarium, Atlanta;World of Coca-Cola, Atlanta;",
+                "lunch": "Daawat-e-Kashmir, Atlanta",
+                "dinner": "El Pistolero, Atlanta",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "from Atlanta to Buffalo",
+                "transportation": "Flight Number: F3502694, from Atlanta to Buffalo, Departure Time: 15:47, Arrival Time: 17:42",
+                "breakfast": "Asian Bistro, Atlanta",
+                "attraction": "Martin Luther King, Jr. National Historical Park, Atlanta;",
+                "lunch": "Sethi's Restaurant & Barbeque, Atlanta",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

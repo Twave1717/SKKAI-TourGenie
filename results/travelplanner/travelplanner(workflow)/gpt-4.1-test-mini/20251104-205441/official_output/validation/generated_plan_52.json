@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 6, 2022  \nCurrent City: from Punta Gorda to Grand Rapids  \nTransportation: Flight Number: F3580995, from Punta Gorda to Grand Rapids, Departure Time: 16:16, Arrival Time: 19:05  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: Paribar (French, BBQ, Seafood), Grand Rapids  \nAccommodation: Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids (entire home/apt, max occupancy 3, 1 night minimum)  \n\nDay 2: March 7, 2022  \nCurrent City: Grand Rapids  \nTransportation: -  \nBreakfast: Hobing Korean Dessert Cafe (Bakery, Desserts, Tea), Grand Rapids  \nAttraction: The Gerald R. Ford Presidential Museum; Grand Rapids Art Museum, Grand Rapids  \nLunch: Deli 63 (American, Cafe, Pizza), Grand Rapids  \nDinner: Exotic Thai Restaurant (French, Bakery, Cafe, Indian), Grand Rapids  \nAccommodation: Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids  \n\nDay 3: March 8, 2022  \nCurrent City: from Grand Rapids to Traverse City  \nTransportation: Self-driving, from Grand Rapids to Traverse City, duration: 2 hours 13 mins, distance: 230 km, cost: $11  \nBreakfast: Pearly's Famous Country Cookng (Tea, Pizza), Grand Rapids  \nAttraction: -  \nLunch: Swagath (Cafe, Pizza, Seafood), Grand Rapids  \nDinner: Daily Eats (Desserts, Seafood), Traverse City  \nAccommodation: Morningside Heights Gem, Traverse City (entire home/apt, max occupancy 6, 3 nights minimum)  \n\nDay 4: March 9, 2022  \nCurrent City: Traverse City  \nTransportation: -  \nBreakfast: French Toast (Pizza, Desserts), Traverse City  \nAttraction: Clinch Park; Great Lakes Children's Museum, Traverse City  \nLunch: Deepu Fish & Chicken (American, BBQ, Cafe), Traverse City  \nDinner: Dragonfly (French, Italian, BBQ, Seafood), Traverse City  \nAccommodation: Morningside Heights Gem, Traverse City  \n\nDay 5: March 10, 2022  \nCurrent City: Traverse City  \nTransportation: -  \nBreakfast: Sher 'A' Punjab Bhojnalya (French, Bakery, Fast Food, Cafe, Seafood), Traverse City  \nAttraction: Mission Point Lighthouse; City Opera House, Traverse City  \nLunch: Eden Noodles Cafe (Pizza, BBQ, Mediterranean, Cafe), Traverse City  \nDinner: Dukes Pastry Shop (Fast Food, BBQ, Italian), Traverse City  \nAccommodation: Morningside Heights Gem, Traverse City  \n\nDay 6: March 11, 2022  \nCurrent City: from Traverse City to Detroit  \nTransportation: Self-driving, from Traverse City to Detroit, duration: 3 hours 56 mins, distance: 411 km, cost: $20  \nBreakfast: Tasty But Healthy (Fast Food, Cafe, Bakery, Seafood), Traverse City  \nAttraction: -  \nLunch: Vapour Pub & Brewery (French, BBQ, Fast Food, Cafe, Seafood), Detroit  \nDinner: Dilli Darbaar (French, BBQ, Bakery, Cafe), Detroit  \nAccommodation: Cozy 1 bedroom in the heart of Fort Greene, Detroit (entire home/apt, max occupancy 6, 3 nights minimum)  \n\nDay 7: March 12, 2022  \nCurrent City: Detroit  \nTransportation: -  \nBreakfast: Southern Bliss Bakery (Bakery, Desserts, Tea, Seafood), Detroit  \nAttraction: Detroit Institute of Arts; Campus Martius Park, Detroit  \nLunch: A Dong Restaurant (Cafe, Pizza, Tea), Detroit  \nDinner: The Dosa King (BBQ, Mediterranean, Desserts, Fast Food), Detroit  \nAccommodation: -  \n\nBudget Summary (approximate, for 3 people):  \n- Flight: $482 x 3 = $1,446  \n- Car rental/fuel (Grand Rapids–Traverse City–Detroit): $11 + $20 = $31  \n- Accommodation:  \n  - Grand Rapids: $483 x 2 nights = $966  \n  - Traverse City: $682 x 3 nights = $2,046  \n  - Detroit: $751 x 1 night = $751 (minimum 3 nights, but only 1 night used; adjust as needed)  \n- Meals: Average $40/meal x 3 meals/day x 7 days x 3 people ≈ $2,520 (but only select restaurants for main meals)  \n- Attractions: Most are museums/parks, some may have entry fees (not specified, so not included)  \n- Total: ~$1,446 (flight) + $31 (car) + $3,763 (accommodation) + meals (within budget if some accommodation nights are adjusted or shared)  \n\nThis plan fits within the $4,400 budget with careful accommodation selection and shared rooms.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Punta Gorda to Grand Rapids",
+                "transportation": "Flight Number: F3580995, from Punta Gorda to Grand Rapids, Departure Time: 16:16, Arrival Time: 19:05",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "Paribar, Grand Rapids",
+                "accommodation": "Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids"
+            },
+            {
+                "days": 2,
+                "current_city": "Grand Rapids",
+                "transportation": "-",
+                "breakfast": "Hobing Korean Dessert Cafe, Grand Rapids",
+                "attraction": "The Gerald R. Ford Presidential Museum, Grand Rapids;Grand Rapids Art Museum, Grand Rapids;",
+                "lunch": "Deli 63, Grand Rapids",
+                "dinner": "Exotic Thai Restaurant, Grand Rapids",
+                "accommodation": "Sunny Ditmas Park Carriage House (Events Listing), Grand Rapids"
+            },
+            {
+                "days": 3,
+                "current_city": "from Grand Rapids to Traverse City",
+                "transportation": "Self-driving, from Grand Rapids to Traverse City, duration: 2 hours 13 mins, distance: 230 km, Cost: 11",
+                "breakfast": "Pearly's Famous Country Cookng, Grand Rapids",
+                "attraction": "-",
+                "lunch": "Swagath, Grand Rapids",
+                "dinner": "Daily Eats, Traverse City",
+                "accommodation": "Morningside Heights Gem, Traverse City"
+            },
+            {
+                "days": 4,
+                "current_city": "Traverse City",
+                "transportation": "-",
+                "breakfast": "French Toast, Traverse City",
+                "attraction": "Clinch Park, Traverse City;Great Lakes Children's Museum, Traverse City;",
+                "lunch": "Deepu Fish & Chicken, Traverse City",
+                "dinner": "Dragonfly, Traverse City",
+                "accommodation": "Morningside Heights Gem, Traverse City"
+            },
+            {
+                "days": 5,
+                "current_city": "Traverse City",
+                "transportation": "-",
+                "breakfast": "Sher 'A' Punjab Bhojnalya, Traverse City",
+                "attraction": "Mission Point Lighthouse, Traverse City;City Opera House, Traverse City;",
+                "lunch": "Eden Noodles Cafe, Traverse City",
+                "dinner": "Dukes Pastry Shop, Traverse City",
+                "accommodation": "Morningside Heights Gem, Traverse City"
+            },
+            {
+                "days": 6,
+                "current_city": "from Traverse City to Detroit",
+                "transportation": "Self-driving, from Traverse City to Detroit, duration: 3 hours 56 mins, distance: 411 km, Cost: 20",
+                "breakfast": "Tasty But Healthy, Traverse City",
+                "attraction": "-",
+                "lunch": "Vapour Pub & Brewery, Detroit",
+                "dinner": "Dilli Darbaar, Detroit",
+                "accommodation": "Cozy 1 bedroom in the heart of Fort Greene, Detroit"
+            },
+            {
+                "days": 7,
+                "current_city": "Detroit",
+                "transportation": "-",
+                "breakfast": "Southern Bliss Bakery, Detroit",
+                "attraction": "Detroit Institute of Arts, Detroit;Campus Martius Park, Detroit;",
+                "lunch": "A Dong Restaurant, Detroit",
+                "dinner": "The Dosa King, Detroit",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

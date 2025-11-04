@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1: March 10, 2022  \nCurrent City: from Key West to Chicago to Indianapolis  \nTransportation:  \n- Flight Number: F4072559, from Key West to Chicago, Departure Time: 15:40, Arrival Time: 18:19  \n- Flight Number: F3607305, from Chicago to Indianapolis, Departure Time: 18:01, Arrival Time: 20:40  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: Rudy's Tacos, Indianapolis  \nAccommodation: Cozy place., Indianapolis\n\nDay 2: March 11, 2022  \nCurrent City: Indianapolis  \nTransportation: -  \nBreakfast: FoodByMom, Indianapolis  \nAttraction: The Children's Museum of Indianapolis, Indianapolis  \nLunch: St. Anthony's, Indianapolis  \nAttraction: White River State Park, Indianapolis  \nDinner: Aromas, Indianapolis  \nAccommodation: Cozy place., Indianapolis\n\nDay 3: March 12, 2022  \nCurrent City: from Indianapolis to Fort Wayne  \nTransportation: Self-driving, from Indianapolis to Fort Wayne, duration: 2 hours 5 mins, distance: 201 km  \nBreakfast: Sona Pure Veg Paradise, Indianapolis  \nAttraction: Indiana State Museum, Indianapolis  \nLunch: Om Sweets & Snacks, Indianapolis  \nAttraction: -  \nDinner: Yellow Mirchi - Hotel City Park, Fort Wayne  \nAccommodation: Wonderful Williamsburg, Fort Wayne\n\nDay 4: March 13, 2022  \nCurrent City: Fort Wayne  \nTransportation: -  \nBreakfast: Cafe Coffee Day, Fort Wayne  \nAttraction: Fort Wayne Museum of Art, Fort Wayne  \nLunch: Bukhara - ITC Maurya, Fort Wayne  \nAttraction: Science Central, Fort Wayne  \nDinner: The Barbeque Company, Fort Wayne  \nAccommodation: Wonderful Williamsburg, Fort Wayne\n\nDay 5: March 14, 2022  \nCurrent City: from Fort Wayne to Chicago to Key West  \nTransportation:  \n- Flight Number: F3728777, from Fort Wayne to Chicago, Departure Time: 14:00, Arrival Time: 14:02  \n- Flight Number: F3676854, from Chicago to Key West, Departure Time: 08:21, Arrival Time: 12:15  \nBreakfast: Barista, Fort Wayne  \nAttraction: Promenade Park, Fort Wayne  \nLunch: Clemency- The Restaurant & Cafe, Fort Wayne  \nDinner: -  \nAccommodation: -\n\n---\n\nNotes:  \n- All transportation, accommodation, attractions, and restaurants are selected from the provided data.  \n- Accommodation choices are for 1 night each, matching minimum night requirements and occupancy.  \n- Meals and attractions are distributed to provide a balanced experience in each city.  \n- No activities are planned after returning to Key West.  \n- The plan fits within a reasonable budget, using affordable options where possible.",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Key West to Chicago to Indianapolis",
+                "transportation": "Flight Number: F4072559, from Key West to Chicago, Departure Time: 15:40, Arrival Time: 18:19; Flight Number: F3607305, from Chicago to Indianapolis, Departure Time: 18:01, Arrival Time: 20:40",
+                "breakfast": "-",
+                "attraction": "-",
+                "lunch": "-",
+                "dinner": "Rudy's Tacos, Indianapolis",
+                "accommodation": "Cozy place., Indianapolis"
+            },
+            {
+                "days": 2,
+                "current_city": "Indianapolis",
+                "transportation": "-",
+                "breakfast": "FoodByMom, Indianapolis",
+                "attraction": "The Children's Museum of Indianapolis, Indianapolis;White River State Park, Indianapolis;",
+                "lunch": "St. Anthony's, Indianapolis",
+                "dinner": "Aromas, Indianapolis",
+                "accommodation": "Cozy place., Indianapolis"
+            },
+            {
+                "days": 3,
+                "current_city": "from Indianapolis to Fort Wayne",
+                "transportation": "Self-driving, from Indianapolis to Fort Wayne, duration: 2 hours 5 mins, distance: 201 km",
+                "breakfast": "Sona Pure Veg Paradise, Indianapolis",
+                "attraction": "Indiana State Museum, Indianapolis;",
+                "lunch": "Om Sweets & Snacks, Indianapolis",
+                "dinner": "Yellow Mirchi - Hotel City Park, Fort Wayne",
+                "accommodation": "Wonderful Williamsburg, Fort Wayne"
+            },
+            {
+                "days": 4,
+                "current_city": "Fort Wayne",
+                "transportation": "-",
+                "breakfast": "Cafe Coffee Day, Fort Wayne",
+                "attraction": "Fort Wayne Museum of Art, Fort Wayne;Science Central, Fort Wayne;",
+                "lunch": "Bukhara - ITC Maurya, Fort Wayne",
+                "dinner": "The Barbeque Company, Fort Wayne",
+                "accommodation": "Wonderful Williamsburg, Fort Wayne"
+            },
+            {
+                "days": 5,
+                "current_city": "from Fort Wayne to Chicago to Key West",
+                "transportation": "Flight Number: F3728777, from Fort Wayne to Chicago, Departure Time: 14:00, Arrival Time: 14:02; Flight Number: F3676854, from Chicago to Key West, Departure Time: 08:21, Arrival Time: 12:15",
+                "breakfast": "Barista, Fort Wayne",
+                "attraction": "Promenade Park, Fort Wayne;",
+                "lunch": "Clemency- The Restaurant & Cafe, Fort Wayne",
+                "dinner": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
