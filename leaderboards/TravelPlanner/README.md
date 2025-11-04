@@ -2,11 +2,15 @@
 
 ## Main Leaderboard
 
+현재 Main 리더보드에는 등록된 기록이 없습니다.
+
 | Rank | Provider | Model | Updated | Delivery Rate | Commonsense Constraint Micro Pass Rate | Commonsense Constraint Macro Pass Rate | Hard Constraint Micro Pass Rate | Hard Constraint Macro Pass Rate | Final Pass Rate | Results |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | – | – | – | – | – | – | – | – | – | – | – |
 
 ## Mini Leaderboard
+
+아래 순위는 test-mini 결과를 기준으로 정렬됩니다.
 
 | Rank | Provider | Model | Updated | Delivery Rate | Commonsense Constraint Micro Pass Rate | Commonsense Constraint Macro Pass Rate | Hard Constraint Micro Pass Rate | Hard Constraint Macro Pass Rate | Final Pass Rate | Results |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
