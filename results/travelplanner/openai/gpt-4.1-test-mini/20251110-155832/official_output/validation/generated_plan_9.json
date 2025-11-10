@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Sarasota → Philadelphia\", \"transportation\": \"Flight Number: F0218715, from Sarasota to Philadelphia, Departure Time: 14:36, Arrival Time: 17:09, Price: 289\", \"breakfast\": \"Pizza Hut, Philadelphia; Cost: 61\", \"lunch\": \"Domino's Pizza, Philadelphia; Cost: 96\", \"dinner\": \"Marukame Udon, Philadelphia; Cost: 100\", \"attraction\": \"Liberty Bell, Philadelphia;Museum of the American Revolution, Philadelphia;\", \"accommodation\": \"Top floor of an amazing duplex, Philadelphia; Cost: 509 per night (~1527)\"}, {\"days\": 2, \"current_city\": \"Philadelphia\", \"transportation\": \"Taxi in Philadelphia; Cost: 50\", \"breakfast\": \"Red Mesa Cantina, Philadelphia; Cost: 36\", \"lunch\": \"Hippopotamus - Museum Hotel, Philadelphia; Cost: 61\", \"dinner\": \"Muncheezz, Philadelphia; Cost: 17\", \"attraction\": \"Museum of the American Revolution, Philadelphia;Penn Museum, Philadelphia;\", \"accommodation\": \"2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)\"}, {\"days\": 3, \"current_city\": \"Philadelphia\", \"transportation\": \"Flight from Philadelphia to Sarasota\", \"breakfast\": \"Tandoori Mystery, Philadelphia; Cost: 91\", \"lunch\": \"Marukame Udon, Philadelphia; Cost: 100\", \"dinner\": \"Pizza Hut Delivery, Philadelphia; Cost: 76\", \"attraction\": \"Penn Museum, Philadelphia;Philadelphia Museum of Art, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Sarasota → Philadelphia",
+                "transportation": "Flight Number: F0218715, from Sarasota to Philadelphia, Departure Time: 14:36, Arrival Time: 17:09, Price: 289",
+                "breakfast": "Pizza Hut, Philadelphia; Cost: 61",
+                "lunch": "Domino's Pizza, Philadelphia; Cost: 96",
+                "dinner": "Marukame Udon, Philadelphia; Cost: 100",
+                "attraction": "Liberty Bell, Philadelphia;Museum of the American Revolution, Philadelphia;",
+                "accommodation": "Top floor of an amazing duplex, Philadelphia; Cost: 509 per night (~1527)"
+            },
+            {
+                "days": 2,
+                "current_city": "Philadelphia",
+                "transportation": "Taxi in Philadelphia; Cost: 50",
+                "breakfast": "Red Mesa Cantina, Philadelphia; Cost: 36",
+                "lunch": "Hippopotamus - Museum Hotel, Philadelphia; Cost: 61",
+                "dinner": "Muncheezz, Philadelphia; Cost: 17",
+                "attraction": "Museum of the American Revolution, Philadelphia;Penn Museum, Philadelphia;",
+                "accommodation": "2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)"
+            },
+            {
+                "days": 3,
+                "current_city": "Philadelphia",
+                "transportation": "Flight from Philadelphia to Sarasota",
+                "breakfast": "Tandoori Mystery, Philadelphia; Cost: 91",
+                "lunch": "Marukame Udon, Philadelphia; Cost: 100",
+                "dinner": "Pizza Hut Delivery, Philadelphia; Cost: 76",
+                "attraction": "Penn Museum, Philadelphia;Philadelphia Museum of Art, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

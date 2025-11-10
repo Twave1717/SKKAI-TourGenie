@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Ithaca → Newark\", \"transportation\": \"Flight Number: F0576952, from Ithaca to Newark, Departure Time: 06:51, Arrival Time: 08:40, Price: 76\", \"breakfast\": \"Dilli Darbar Chicken Point, Newark; Cost: 87\", \"lunch\": \"All About Food, Newark; Cost: 47\", \"dinner\": \"Bernardo's, Newark; Cost: 84\", \"attraction\": \"Veterans Memorial Park, Newark;Weequahic Park, Newark;\", \"accommodation\": \"Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)\"}, {\"days\": 2, \"current_city\": \"Newark\", \"transportation\": \"Taxi in Newark; Cost: 50\", \"breakfast\": \"Harmann Restaurant, Newark; Cost: 57\", \"lunch\": \"Apni Rasoi, Newark; Cost: 42\", \"dinner\": \"Creamy Creation, Newark; Cost: 44\", \"attraction\": \"Weequahic Park, Newark;Weequahic Park, Newark;\", \"accommodation\": \"Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)\"}, {\"days\": 3, \"current_city\": \"Newark → Ithaca\", \"transportation\": \"Flight from Newark to Ithaca\", \"breakfast\": \"Joshi Eating House, Newark; Cost: 52\", \"lunch\": \"Bernardo's, Newark; Cost: 84\", \"dinner\": \"Drifters Cafe, Newark; Cost: 24\", \"attraction\": \"Weequahic Park, Newark;Alice Ransom Dreyfuss Memorial Garden, Newark;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Ithaca → Newark",
+                "transportation": "Flight Number: F0576952, from Ithaca to Newark, Departure Time: 06:51, Arrival Time: 08:40, Price: 76",
+                "breakfast": "Dilli Darbar Chicken Point, Newark; Cost: 87",
+                "lunch": "All About Food, Newark; Cost: 47",
+                "dinner": "Bernardo's, Newark; Cost: 84",
+                "attraction": "Veterans Memorial Park, Newark;Weequahic Park, Newark;",
+                "accommodation": "Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)"
+            },
+            {
+                "days": 2,
+                "current_city": "Newark",
+                "transportation": "Taxi in Newark; Cost: 50",
+                "breakfast": "Harmann Restaurant, Newark; Cost: 57",
+                "lunch": "Apni Rasoi, Newark; Cost: 42",
+                "dinner": "Creamy Creation, Newark; Cost: 44",
+                "attraction": "Weequahic Park, Newark;Weequahic Park, Newark;",
+                "accommodation": "Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)"
+            },
+            {
+                "days": 3,
+                "current_city": "Newark → Ithaca",
+                "transportation": "Flight from Newark to Ithaca",
+                "breakfast": "Joshi Eating House, Newark; Cost: 52",
+                "lunch": "Bernardo's, Newark; Cost: 84",
+                "dinner": "Drifters Cafe, Newark; Cost: 24",
+                "attraction": "Weequahic Park, Newark;Alice Ransom Dreyfuss Memorial Garden, Newark;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

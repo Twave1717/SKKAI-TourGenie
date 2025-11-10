@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Nashville → Detroit\", \"transportation\": \"Flight Number: F0073358, from Nashville to Detroit, Departure Time: 08:23, Arrival Time: 10:44, Price: 225\", \"breakfast\": \"Southern Bliss Bakery, Detroit; Cost: 28\", \"lunch\": \"Dilli Darbaar, Detroit; Cost: 60\", \"dinner\": \"N. Iqbal Restaurant, Detroit; Cost: 11\", \"attraction\": \"Museum of Contemporary Art Detroit, Detroit;Spirit of Detroit Plaza, Detroit;\", \"accommodation\": \"Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~207)\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"Turquoise Turkish Ice-cream, Detroit; Cost: 79\", \"lunch\": \"Knights Chaska, Detroit; Cost: 29\", \"dinner\": \"Rehmatullah's Hotel, Detroit; Cost: 28\", \"attraction\": \"Spirit of Detroit Plaza, Detroit;Beacon Park, Detroit;\", \"accommodation\": \"Modern Luxury Loft  3bd  Williamsburg, Detroit; Cost: 980 per night (~2940)\"}, {\"days\": 3, \"current_city\": \"Detroit → Nashville\", \"transportation\": \"Flight from Detroit to Nashville\", \"breakfast\": \"Zabardast Indian Kitchen, Detroit; Cost: 76\", \"lunch\": \"N. Iqbal Restaurant, Detroit; Cost: 11\", \"dinner\": \"Taksim, Detroit; Cost: 65\", \"attraction\": \"Beacon Park, Detroit;Belle Isle Aquarium, Detroit;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Nashville → Detroit",
+                "transportation": "Flight Number: F0073358, from Nashville to Detroit, Departure Time: 08:23, Arrival Time: 10:44, Price: 225",
+                "breakfast": "Southern Bliss Bakery, Detroit; Cost: 28",
+                "lunch": "Dilli Darbaar, Detroit; Cost: 60",
+                "dinner": "N. Iqbal Restaurant, Detroit; Cost: 11",
+                "attraction": "Museum of Contemporary Art Detroit, Detroit;Spirit of Detroit Plaza, Detroit;",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~207)"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "Turquoise Turkish Ice-cream, Detroit; Cost: 79",
+                "lunch": "Knights Chaska, Detroit; Cost: 29",
+                "dinner": "Rehmatullah's Hotel, Detroit; Cost: 28",
+                "attraction": "Spirit of Detroit Plaza, Detroit;Beacon Park, Detroit;",
+                "accommodation": "Modern Luxury Loft  3bd  Williamsburg, Detroit; Cost: 980 per night (~2940)"
+            },
+            {
+                "days": 3,
+                "current_city": "Detroit → Nashville",
+                "transportation": "Flight from Detroit to Nashville",
+                "breakfast": "Zabardast Indian Kitchen, Detroit; Cost: 76",
+                "lunch": "N. Iqbal Restaurant, Detroit; Cost: 11",
+                "dinner": "Taksim, Detroit; Cost: 65",
+                "attraction": "Beacon Park, Detroit;Belle Isle Aquarium, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

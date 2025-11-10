@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Orlando\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 2, \"current_city\": \"Orlando\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"'Yertle the Turtle' Statue, Abilene;-, Juneau;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 3, \"current_city\": \"Fort Myers\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"-, Juneau;1000 Steps Beach, Santa Barbara;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 4, \"current_city\": \"Fort Myers\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 5, \"current_city\": \"St. Louis\", \"transportation\": \"Flight from Florida to St. Louis\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"11th &11th Park, Minot;12th Armored Division Memorial, Abilene;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Orlando",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 2,
+                "current_city": "Orlando",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "'Yertle the Turtle' Statue, Abilene;-, Juneau;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 3,
+                "current_city": "Fort Myers",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 4,
+                "current_city": "Fort Myers",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 5,
+                "current_city": "St. Louis",
+                "transportation": "Flight from Florida to St. Louis",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

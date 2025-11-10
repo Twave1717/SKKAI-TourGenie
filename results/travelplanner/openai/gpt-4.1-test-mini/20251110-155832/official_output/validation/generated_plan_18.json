@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Washington → Norfolk\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 2, \"current_city\": \"Norfolk\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 3, \"current_city\": \"Norfolk → Lynchburg\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 4, \"current_city\": \"Lynchburg\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 5, \"current_city\": \"Lynchburg → Washington\", \"transportation\": \"Flight from Virginia to Washington\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Washington → Norfolk",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 2,
+                "current_city": "Norfolk",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 3,
+                "current_city": "Norfolk → Lynchburg",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 4,
+                "current_city": "Lynchburg",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 5,
+                "current_city": "Lynchburg → Washington",
+                "transportation": "Flight from Virginia to Washington",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Oakland → Tucson\", \"transportation\": \"Flight Number: F0638982, from Oakland to Tucson, Departure Time: 14:40, Arrival Time: 17:28, Price: 201\", \"breakfast\": \"Magic Spice Wok, Tucson; Cost: 31\", \"lunch\": \"Canteen Till I Die, Tucson; Cost: 24\", \"dinner\": \"Delhi Foods, Tucson; Cost: 25\", \"attraction\": \"Children's Museum Tucson, Tucson;Flandrau Science Center and Planetarium, Tucson;\", \"accommodation\": \"Cozy place to stay 7 minutes from Manhattan..., Tucson; Cost: 912 per night (~2736)\"}, {\"days\": 2, \"current_city\": \"Tucson\", \"transportation\": \"Taxi in Tucson; Cost: 50\", \"breakfast\": \"Ooh Lala !, Tucson; Cost: 70\", \"lunch\": \"Chutneez Restaurant Lounge & Bar, Tucson; Cost: 86\", \"dinner\": \"Giani's, Tucson; Cost: 63\", \"attraction\": \"Flandrau Science Center and Planetarium, Tucson;Fort Lowell Museum, Tucson;\", \"accommodation\": \"Cozy place to stay 7 minutes from Manhattan..., Tucson; Cost: 912 per night (~2736)\"}, {\"days\": 3, \"current_city\": \"Tucson → Oakland\", \"transportation\": \"Flight from Tucson to Oakland\", \"breakfast\": \"Punjabi Zaika, Tucson; Cost: 34\", \"lunch\": \"Delhi Foods, Tucson; Cost: 25\", \"dinner\": \"Mocha, Tucson; Cost: 53\", \"attraction\": \"Fort Lowell Museum, Tucson;International Wildlife Museum, Tucson;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Oakland → Tucson",
+                "transportation": "Flight Number: F0638982, from Oakland to Tucson, Departure Time: 14:40, Arrival Time: 17:28, Price: 201",
+                "breakfast": "Magic Spice Wok, Tucson; Cost: 31",
+                "lunch": "Canteen Till I Die, Tucson; Cost: 24",
+                "dinner": "Delhi Foods, Tucson; Cost: 25",
+                "attraction": "Children's Museum Tucson, Tucson;Flandrau Science Center and Planetarium, Tucson;",
+                "accommodation": "Cozy place to stay 7 minutes from Manhattan..., Tucson; Cost: 912 per night (~2736)"
+            },
+            {
+                "days": 2,
+                "current_city": "Tucson",
+                "transportation": "Taxi in Tucson; Cost: 50",
+                "breakfast": "Ooh Lala !, Tucson; Cost: 70",
+                "lunch": "Chutneez Restaurant Lounge & Bar, Tucson; Cost: 86",
+                "dinner": "Giani's, Tucson; Cost: 63",
+                "attraction": "Flandrau Science Center and Planetarium, Tucson;Fort Lowell Museum, Tucson;",
+                "accommodation": "Cozy place to stay 7 minutes from Manhattan..., Tucson; Cost: 912 per night (~2736)"
+            },
+            {
+                "days": 3,
+                "current_city": "Tucson → Oakland",
+                "transportation": "Flight from Tucson to Oakland",
+                "breakfast": "Punjabi Zaika, Tucson; Cost: 34",
+                "lunch": "Delhi Foods, Tucson; Cost: 25",
+                "dinner": "Mocha, Tucson; Cost: 53",
+                "attraction": "Fort Lowell Museum, Tucson;International Wildlife Museum, Tucson;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

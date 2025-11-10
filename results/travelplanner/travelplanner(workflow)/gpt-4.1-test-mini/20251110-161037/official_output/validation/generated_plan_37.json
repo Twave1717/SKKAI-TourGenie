@@ -1,0 +1,7 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Ithaca to Newark  \nTransportation: Flight Number: F3924332, from Ithaca to Newark, Departure Time: 05:59, Arrival Time: 07:41  \nBreakfast: Drifters Cafe, Newark  \nAttraction: The Newark Museum of Art, Newark  \nLunch: Artistry, Newark  \nAttraction: Military Park, Newark  \nDinner: Bernardo's, Newark  \nAccommodation: 1 Bedroom in UWS Manhattan, Newark  \n\nDay 2:  \nCurrent City: Newark  \nTransportation: -  \nBreakfast: Harmann Restaurant, Newark  \nAttraction: Branch Brook Park, Newark  \nLunch: Anaicha's Food Joint, Newark  \nAttraction: New Jersey Historical Society, Newark  \nDinner: Cafe Bethak, Newark  \nAccommodation: 1 Bedroom in UWS Manhattan, Newark  \n\nDay 3:  \nCurrent City: from Newark to Ithaca  \nTransportation: Flight Number: F3923348, from Newark to Ithaca, Departure Time: 17:44, Arrival Time: 18:46  \nBreakfast: Mirage Restro Bar, Newark  \nAttraction: Paul Robeson Galleries, Rutgers University - Newark, Newark  \nLunch: Mogambo Khush Hua, Newark  \nDinner: -  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": []
+    }
+]

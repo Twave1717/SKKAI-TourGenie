@@ -1,0 +1,7 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:\nCurrent City: from Ontario to Honolulu\nTransportation: Flight Number: F3584294, from Ontario to Honolulu, Departure Time: 10:11, Arrival Time: 14:46\nBreakfast: - (in transit)\nAttraction: Iolani Palace, Honolulu\nLunch: Bait El Khetyar, Honolulu\nDinner: Nimtho, Honolulu\nAccommodation: Union Square Industrial Loft Apartment - 1 Bedroom, Honolulu\n\nDay 2:\nCurrent City: Honolulu\nTransportation: -\nBreakfast: Crystal Restaurant, Honolulu\nAttraction: Waikīkī Beach, Honolulu; Bishop Museum, Honolulu\nLunch: Cafe Beverly, Honolulu\nDinner: Dishoom, Honolulu\nAccommodation: Union Square Industrial Loft Apartment - 1 Bedroom, Honolulu\n\nDay 3:\nCurrent City: from Honolulu to Ontario\nTransportation: Flight Number: F3584327, from Honolulu to Ontario, Departure Time: 14:35, Arrival Time: 22:02\nBreakfast: Dunkin' Donuts, Honolulu\nAttraction: Honolulu Museum of Art (HoMA), Honolulu\nLunch: Stop My Starvation, Honolulu\nDinner: - (in transit)\nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": []
+    }
+]

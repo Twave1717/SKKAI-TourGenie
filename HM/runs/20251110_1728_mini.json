@@ -1,0 +1,3370 @@
+{
+  "team": "HM",
+  "workflow": "hm-baseline",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "split": "validation",
+  "result_label": "test-mini",
+  "predictions": [
+    {
+      "idx": 1,
+      "query": "Please create a travel plan for me where I'll be departing from Washington and heading to Myrtle Beach for a 3-day trip from March 13th to March 15th, 2022. Can you help me keep this journey within a budget of $1,400?",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Washington → Myrtle Beach",
+          "transportation": "Flight Number: F0000673, from Washington to Myrtle Beach, Departure Time: 12:35, Arrival Time: 14:06, Price: 180",
+          "breakfast": "First Eat, Myrtle Beach; Cost: 21",
+          "lunch": "Allure, Myrtle Beach; Cost: 71",
+          "dinner": "Catfish Charlie's, Myrtle Beach; Cost: 14",
+          "attraction": "Broadway at the Beach, Myrtle Beach;Dinopark, Myrtle Beach;",
+          "accommodation": "Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)"
+        },
+        {
+          "days": 2,
+          "current_city": "Myrtle Beach",
+          "transportation": "Taxi in Myrtle Beach; Cost: 50",
+          "breakfast": "La Pino'z Pizza, Myrtle Beach; Cost: 14",
+          "lunch": "Bread & Pasta, Myrtle Beach; Cost: 37",
+          "dinner": "Eat Street Express, Myrtle Beach; Cost: 100",
+          "attraction": "Dinopark, Myrtle Beach;Family Kingdom Amusement Park, Myrtle Beach;",
+          "accommodation": "Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)"
+        },
+        {
+          "days": 3,
+          "current_city": "Myrtle Beach → Washington",
+          "transportation": "Flight from Myrtle Beach to Washington",
+          "breakfast": "Negi Restaurant, Myrtle Beach; Cost: 46",
+          "lunch": "Catfish Charlie's, Myrtle Beach; Cost: 14",
+          "dinner": "GBar - The Grand New Delhi, Myrtle Beach; Cost: 88",
+          "attraction": "Family Kingdom Amusement Park, Myrtle Beach;Free Fall Thrill Park, Myrtle Beach;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "query": "Please draw up a 3-day travel itinerary for one person, beginning in Oakland and heading to Tucson from March 15th to March 17th, 2022, with a budget of $1,400.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Oakland → Tucson",
+          "transportation": "Flight Number: F0638982, from Oakland to Tucson, Departure Time: 14:40, Arrival Time: 17:28, Price: 201",
+          "breakfast": "Magic Spice Wok, Tucson; Cost: 31",
+          "lunch": "Canteen Till I Die, Tucson; Cost: 24",
+          "dinner": "Delhi Foods, Tucson; Cost: 25",
+          "attraction": "Children's Museum Tucson, Tucson;Flandrau Science Center and Planetarium, Tucson;",
+          "accommodation": "Cozy place to stay 7 minutes from Manhattan..., Tucson; Cost: 912 per night (~2736)"
+        },
+        {
+          "days": 2,
+          "current_city": "Tucson",
+          "transportation": "Taxi in Tucson; Cost: 50",
+          "breakfast": "Ooh Lala !, Tucson; Cost: 70",
+          "lunch": "Chutneez Restaurant Lounge & Bar, Tucson; Cost: 86",
+          "dinner": "Giani's, Tucson; Cost: 63",
+          "attraction": "Flandrau Science Center and Planetarium, Tucson;Fort Lowell Museum, Tucson;",
+          "accommodation": "Cozy place to stay 7 minutes from Manhattan..., Tucson; Cost: 912 per night (~2736)"
+        },
+        {
+          "days": 3,
+          "current_city": "Tucson → Oakland",
+          "transportation": "Flight from Tucson to Oakland",
+          "breakfast": "Punjabi Zaika, Tucson; Cost: 34",
+          "lunch": "Delhi Foods, Tucson; Cost: 25",
+          "dinner": "Mocha, Tucson; Cost: 53",
+          "attraction": "Fort Lowell Museum, Tucson;International Wildlife Museum, Tucson;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "query": "Can you help me with a travel plan departing from Buffalo to Atlanta for a duration of 3 days, specifically from March 2nd to March 4th, 2022? I plan to travel alone and my planned budget for the trip is around $1,100.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Buffalo → Atlanta",
+          "transportation": "Flight Number: F0294655, from Buffalo to Atlanta, Departure Time: 19:07, Arrival Time: 21:07, Price: 199",
+          "breakfast": "Chawla Snacks, Atlanta; Cost: 48",
+          "lunch": "Arriba - Mexican Grill & Tequileria, Atlanta; Cost: 99",
+          "dinner": "Bimbos, Atlanta; Cost: 13",
+          "attraction": "Children's Museum of Atlanta, Atlanta;Delta Flight Museum, Atlanta;",
+          "accommodation": "Charming Carroll Gardens 2 BR, Atlanta; Cost: 576 per night (~1728)"
+        },
+        {
+          "days": 2,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Atlanta; Cost: 50",
+          "breakfast": "Chocadoodledoo, Atlanta; Cost: 24",
+          "lunch": "Barkat, Atlanta; Cost: 78",
+          "dinner": "Chai Thela, Atlanta; Cost: 82",
+          "attraction": "Delta Flight Museum, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;",
+          "accommodation": "FABULOUS SUNNY BEDROOM IN HARLEM, Atlanta; Cost: 587 per night (~11740)"
+        },
+        {
+          "days": 3,
+          "current_city": "Atlanta → Buffalo",
+          "transportation": "Flight from Atlanta to Buffalo",
+          "breakfast": "El Pistolero, Atlanta; Cost: 90",
+          "lunch": "Bimbos, Atlanta; Cost: 13",
+          "dinner": "Chef Style, Atlanta; Cost: 59",
+          "attraction": "Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "query": "Could you arrange a 3-day solo trip for me starting from Ontario and heading to Honolulu spanning from March 4th to March 6th, 2022, with a total budget of $3,200?",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Ontario → Honolulu",
+          "transportation": "Flight Number: F0380970, from Ontario to Honolulu, Departure Time: 09:27, Arrival Time: 12:29, Price: 1067",
+          "breakfast": "Hot & Hot, Honolulu; Cost: 97",
+          "lunch": "Cafe Beverly, Honolulu; Cost: 43",
+          "dinner": "Dishoom, Honolulu; Cost: 63",
+          "attraction": "Duke Paoa Kahanamoku Statue, Honolulu;Fort DeRussy Beach Park, Honolulu;",
+          "accommodation": "Central Williamsburg Fab Large Room, Honolulu; Cost: 764 per night (~2292)"
+        },
+        {
+          "days": 2,
+          "current_city": "Honolulu",
+          "transportation": "Taxi in Honolulu; Cost: 50",
+          "breakfast": "Momo Milk, Honolulu; Cost: 57",
+          "lunch": "Chinese Hut Fast Food, Honolulu; Cost: 55",
+          "dinner": "Evergreen Sweet House, Honolulu; Cost: 18",
+          "attraction": "Fort DeRussy Beach Park, Honolulu;Foster Botanical Garden, Honolulu;",
+          "accommodation": "Cozy and home feeling, 1-bedroom apt near subway, Honolulu; Cost: 969 per night (~2907)"
+        },
+        {
+          "days": 3,
+          "current_city": "Honolulu → Ontario",
+          "transportation": "Flight from Honolulu to Ontario",
+          "breakfast": "Pind Balluchi, Honolulu; Cost: 92",
+          "lunch": "Dishoom, Honolulu; Cost: 63",
+          "dinner": "KFC, Honolulu; Cost: 94",
+          "attraction": "Foster Botanical Garden, Honolulu;Honolulu Museum of Art (HoMA), Honolulu;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "query": "Please assist me in devising a travel plan that departs from West Palm Beach and heads to Atlanta, lasting 3 days from March 13th, 2022 to March 15th, 2022. It should accommodate 1 person and adhere to a budget of $900.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "West Palm Beach → Atlanta",
+          "transportation": "Flight Number: F0024217, from West Palm Beach to Atlanta, Departure Time: 12:06, Arrival Time: 13:42, Price: 213",
+          "breakfast": "China Hot, Atlanta; Cost: 13",
+          "lunch": "Baba Au Rhum, Atlanta; Cost: 27",
+          "dinner": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+          "attraction": "Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;",
+          "accommodation": "Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)"
+        },
+        {
+          "days": 2,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Atlanta; Cost: 50",
+          "breakfast": "Deepika Khaitan's Cakes, Atlanta; Cost: 41",
+          "lunch": "Bengali Sweet House, Atlanta; Cost: 39",
+          "dinner": "Chawla Snacks, Atlanta; Cost: 48",
+          "attraction": "Folk Art Park, Atlanta;Fox Theatre, Atlanta;",
+          "accommodation": "Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)"
+        },
+        {
+          "days": 3,
+          "current_city": "Atlanta → West Palm Beach",
+          "transportation": "Flight from Atlanta to West Palm Beach",
+          "breakfast": "Jagram Dhaba, Atlanta; Cost: 69",
+          "lunch": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+          "dinner": "Chocadoodledoo, Atlanta; Cost: 24",
+          "attraction": "Fox Theatre, Atlanta;Georgia Aquarium, Atlanta;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "query": "Please assist in crafting a travel plan for a solo traveller, journeying from Detroit to San Diego for 3 days, from March 5th to March 7th, 2022. The travel plan should accommodate a total budget of $3,000.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Detroit → San Diego",
+          "transportation": "Flight Number: F0318383, from Detroit to San Diego, Departure Time: 20:56, Arrival Time: 22:39, Price: 541",
+          "breakfast": "Meraki, San Diego; Cost: 51",
+          "lunch": "Burgrill, San Diego; Cost: 54",
+          "dinner": "Duggal Snacks, San Diego; Cost: 82",
+          "attraction": "Martin Luther King Jr Promenade, San Diego;Mission Bay Park, San Diego;",
+          "accommodation": "Luxury 4BR Home, Spacious & Central to Trains, San Diego; Cost: 392 per night (~1176)"
+        },
+        {
+          "days": 2,
+          "current_city": "San Diego",
+          "transportation": "Taxi in San Diego; Cost: 50",
+          "breakfast": "Open Yard, San Diego; Cost: 33",
+          "lunch": "Chawlas 2, San Diego; Cost: 91",
+          "dinner": "Hum Sabki Rasoi, San Diego; Cost: 63",
+          "attraction": "Mission Bay Park, San Diego;Mission Beach Boardwalk | Ocean Front Walk, San Diego;",
+          "accommodation": "Luxury 4BR Home, Spacious & Central to Trains, San Diego; Cost: 392 per night (~1176)"
+        },
+        {
+          "days": 3,
+          "current_city": "San Diego → Detroit",
+          "transportation": "Flight from San Diego to Detroit",
+          "breakfast": "Armaan's Restaurant, San Diego; Cost: 29",
+          "lunch": "Duggal Snacks, San Diego; Cost: 82",
+          "dinner": "Midnight Bites, San Diego; Cost: 63",
+          "attraction": "Mission Beach Boardwalk | Ocean Front Walk, San Diego;Old Town San Diego, San Diego;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "query": "Please create a travel plan for a 3-day trip from Missoula to Dallas scheduled from March 23rd to March 25th, 2022. The budget for this trip is set at $1,900.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Missoula → Dallas",
+          "transportation": "Flight Number: F0185336, from Missoula to Dallas, Departure Time: 13:27, Arrival Time: 17:56, Price: 544",
+          "breakfast": "Delhicacy, Dallas; Cost: 67",
+          "lunch": "Bikaner Sweets, Dallas; Cost: 33",
+          "dinner": "Cake Knighter, Dallas; Cost: 95",
+          "attraction": "John F. Kennedy Memorial Plaza, Dallas;Klyde Warren Park, Dallas;",
+          "accommodation": "Chic Union Square One Bedroom, Dallas; Cost: 1096 per night (~3288)"
+        },
+        {
+          "days": 2,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Dallas; Cost: 50",
+          "breakfast": "Drifters Cafe, Dallas; Cost: 21",
+          "lunch": "Cafe Gatherings, Dallas; Cost: 17",
+          "dinner": "Coconuts Fish Cafe, Dallas; Cost: 38",
+          "attraction": "Klyde Warren Park, Dallas;Leonhardt Lagoon Nature Walk, Dallas;",
+          "accommodation": "Chic Union Square One Bedroom, Dallas; Cost: 1096 per night (~3288)"
+        },
+        {
+          "days": 3,
+          "current_city": "Dallas → Missoula",
+          "transportation": "Flight from Dallas to Missoula",
+          "breakfast": "Food N Shakes, Dallas; Cost: 23",
+          "lunch": "Cake Knighter, Dallas; Cost: 95",
+          "dinner": "Dem Karak韄y, Dallas; Cost: 44",
+          "attraction": "Leonhardt Lagoon Nature Walk, Dallas;Nasher Sculpture Center, Dallas;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "query": "Could you arrange a 3-day travel from Boston to San Juan, Puerto Rico, for one person between March 28th and March 30th, 2022? The budget for this trip is set to $1,400.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "from Boston to San Juan",
+          "transportation": "Flight Number: F0268549, from Boston to San Juan, Departure Time: 23:48, Arrival Time: 03:23, Price: 431",
+          "breakfast": "Maison Des Desserts, San Juan; Cost: 70",
+          "lunch": "Cocoberry, San Juan; Cost: 41",
+          "dinner": "Gulshan Dhaba, San Juan; Cost: 40",
+          "attraction": "Museo de Arte de Puerto Rico, San Juan;Museo de las Américas, San Juan;",
+          "accommodation": "FLUSHING APT!! BEST DEAL IN NYC!!!, San Juan; Cost: 135 per night (~405)"
+        },
+        {
+          "days": 2,
+          "current_city": "San Juan",
+          "transportation": "Taxi in San Juan; Cost: 50",
+          "breakfast": "Mitthu Tikki Wala, San Juan; Cost: 38",
+          "lunch": "Frontier, San Juan; Cost: 16",
+          "dinner": "Hyderabad House, San Juan; Cost: 43",
+          "attraction": "Museo de las Américas, San Juan;Museo del Mar, San Juan;",
+          "accommodation": "Home away from home, San Juan; Cost: 323 per night (~969)"
+        },
+        {
+          "days": 3,
+          "current_city": "San Juan",
+          "transportation": "Flight from San Juan to Boston",
+          "breakfast": "Paul's Homemade, San Juan; Cost: 54",
+          "lunch": "Gulshan Dhaba, San Juan; Cost: 40",
+          "dinner": "Manchanda Bakery, San Juan; Cost: 76",
+          "attraction": "Museo del Mar, San Juan;Parque de las Palomas, San Juan;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "query": "Can you help me plan a trip that begins in Sarasota and ends in Philadelphia? The trip should span over 3 days, from March 2nd to March 4th, 2022, and adhere to a budget of $2,100.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Sarasota → Philadelphia",
+          "transportation": "Flight Number: F0218715, from Sarasota to Philadelphia, Departure Time: 14:36, Arrival Time: 17:09, Price: 289",
+          "breakfast": "Pizza Hut, Philadelphia; Cost: 61",
+          "lunch": "Domino's Pizza, Philadelphia; Cost: 96",
+          "dinner": "Marukame Udon, Philadelphia; Cost: 100",
+          "attraction": "Liberty Bell, Philadelphia;Museum of the American Revolution, Philadelphia;",
+          "accommodation": "Top floor of an amazing duplex, Philadelphia; Cost: 509 per night (~1527)"
+        },
+        {
+          "days": 2,
+          "current_city": "Philadelphia",
+          "transportation": "Taxi in Philadelphia; Cost: 50",
+          "breakfast": "Red Mesa Cantina, Philadelphia; Cost: 36",
+          "lunch": "Hippopotamus - Museum Hotel, Philadelphia; Cost: 61",
+          "dinner": "Muncheezz, Philadelphia; Cost: 17",
+          "attraction": "Museum of the American Revolution, Philadelphia;Penn Museum, Philadelphia;",
+          "accommodation": "2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)"
+        },
+        {
+          "days": 3,
+          "current_city": "Philadelphia",
+          "transportation": "Flight from Philadelphia to Sarasota",
+          "breakfast": "Tandoori Mystery, Philadelphia; Cost: 91",
+          "lunch": "Marukame Udon, Philadelphia; Cost: 100",
+          "dinner": "Pizza Hut Delivery, Philadelphia; Cost: 76",
+          "attraction": "Penn Museum, Philadelphia;Philadelphia Museum of Art, Philadelphia;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "query": "Could you help me create a travel plan starting from Minneapolis to St. Louis, spanning 3 days from March 15th to March 17th, 2022? The budget is set at $1,000.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Minneapolis → St. Louis",
+          "transportation": "Flight Number: F0050348, from Minneapolis to St. Louis, Departure Time: 11:21, Arrival Time: 12:34, Price: 150",
+          "breakfast": "The Latitude - Radisson Blu, St. Louis; Cost: 18",
+          "lunch": "M Cr砺me, St. Louis; Cost: 42",
+          "dinner": "Starbucks, St. Louis; Cost: 92",
+          "attraction": "Museum of Westward Expansion, St. Louis;Saint Louis Art Museum, St. Louis;",
+          "accommodation": "Pet & Tony's Residence, St. Louis; Cost: 271 per night (~813)"
+        },
+        {
+          "days": 2,
+          "current_city": "St. Louis",
+          "transportation": "Taxi in St. Louis; Cost: 50",
+          "breakfast": "Wai Yu Mun Ching, St. Louis; Cost: 89",
+          "lunch": "Om Sweets, St. Louis; Cost: 24",
+          "dinner": "Teddy Boy, St. Louis; Cost: 56",
+          "attraction": "Saint Louis Art Museum, St. Louis;Saint Louis Science Center, St. Louis;",
+          "accommodation": "Private room in large, central Nolita penthouse!, St. Louis; Cost: 342 per night (~1026)"
+        },
+        {
+          "days": 3,
+          "current_city": "St. Louis → Minneapolis",
+          "transportation": "Flight from St. Louis to Minneapolis",
+          "breakfast": "Aroma, St. Louis; Cost: 90",
+          "lunch": "Starbucks, St. Louis; Cost: 92",
+          "dinner": "The Tea Place by Manjushree, St. Louis; Cost: 86",
+          "attraction": "Saint Louis Science Center, St. Louis;Saint Louis Zoo, St. Louis;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "query": "Could you help create a travel itinerary for a solo trip departing from St. Louis and covering 2 cities in Florida over the course of 5 days, from March 15th to March 19th, 2022? The travel budget is set at $2,900.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Orlando",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 2,
+          "current_city": "Orlando",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "'Yertle the Turtle' Statue, Abilene;-, Juneau;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 3,
+          "current_city": "Fort Myers",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 4,
+          "current_city": "Fort Myers",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 5,
+          "current_city": "St. Louis",
+          "transportation": "Flight from Florida to St. Louis",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "query": "Can you help craft a 5-day travel plan that starts in Colorado Springs and takes in 2 cities in Illinois from March 5th to March 9th, 2022? Single traveler with an overall budget of $1,900.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Colorado Springs",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "'Yertle the Turtle' Statue, Abilene;-, Juneau;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 2,
+          "current_city": "Moline",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 3,
+          "current_city": "Moline to Rockford",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 4,
+          "current_city": "Rockford",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 5,
+          "current_city": "Rockford to Colorado Springs",
+          "transportation": "Flight from Illinois to Colorado Springs",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "query": "Could you create a 5-day travel plan for one person departing from Little Rock and visiting 2 cities in Texas from March 14th to March 18th, 2022? The budget for this trip is set at $3,900.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Dallas",
+          "transportation": "Flight from Texas to Little Rock",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "query": "Could you arrange a 5-day trip for one person, starting from Latrobe and covering two cities in South Carolina from the dates of March 2nd to March 6th, 2022? My budget is set at $4,200.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Latrobe → Myrtle Beach",
+          "transportation": "Taxi in South Carolina; Cost: 50",
+          "breakfast": "Restaurant, South Carolina",
+          "lunch": "Restaurant, South Carolina",
+          "dinner": "Restaurant, South Carolina",
+          "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+          "accommodation": "Accommodation, South Carolina"
+        },
+        {
+          "days": 2,
+          "current_city": "Myrtle Beach",
+          "transportation": "Taxi in South Carolina; Cost: 50",
+          "breakfast": "Restaurant, South Carolina",
+          "lunch": "Restaurant, South Carolina",
+          "dinner": "Restaurant, South Carolina",
+          "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+          "accommodation": "Accommodation, South Carolina"
+        },
+        {
+          "days": 3,
+          "current_city": "Myrtle Beach → Greenville",
+          "transportation": "Taxi in South Carolina; Cost: 50",
+          "breakfast": "Restaurant, South Carolina",
+          "lunch": "Restaurant, South Carolina",
+          "dinner": "Restaurant, South Carolina",
+          "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+          "accommodation": "Accommodation, South Carolina"
+        },
+        {
+          "days": 4,
+          "current_city": "Greenville",
+          "transportation": "Taxi in South Carolina; Cost: 50",
+          "breakfast": "Restaurant, South Carolina",
+          "lunch": "Restaurant, South Carolina",
+          "dinner": "Restaurant, South Carolina",
+          "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+          "accommodation": "Accommodation, South Carolina"
+        },
+        {
+          "days": 5,
+          "current_city": "Greenville → Latrobe",
+          "transportation": "Flight from South Carolina to Latrobe",
+          "breakfast": "Restaurant, South Carolina",
+          "lunch": "Restaurant, South Carolina",
+          "dinner": "Restaurant, South Carolina",
+          "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "query": "Can you create a 5-day travel itinerary for a solo trip starting from Jacksonville and visiting 2 cities in Michigan? The trip should be from March 25th to March 29th, 2022, and I have a budget of $4,600.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Detroit",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 2,
+          "current_city": "Detroit",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 3,
+          "current_city": "Detroit to Lansing",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 4,
+          "current_city": "Lansing",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 5,
+          "current_city": "Lansing to Jacksonville",
+          "transportation": "Flight from Michigan to Jacksonville",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "query": "Could you construct a 5-day travel itinerary for a solo traveler starting in Orlando and visiting 2 cities in Illinois, spanning the dates from March 2nd to March 6th, 2022? The budget for the trip is set to $2,700.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Orlando to Belleville",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 2,
+          "current_city": "Belleville",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 3,
+          "current_city": "Belleville to Chicago",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 4,
+          "current_city": "Chicago",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 5,
+          "current_city": "Chicago to Orlando",
+          "transportation": "Flight from Illinois to Orlando",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 17,
+      "query": "Can you create a 5-day travel plan for me that begins in Billings and includes visits to 2 cities in Minnesota? The journey should take place from March 6th to March 10th, 2022, with a budget of $4,000.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Billings",
+          "transportation": "Taxi in Minnesota; Cost: 50",
+          "breakfast": "Restaurant, Minnesota",
+          "lunch": "Restaurant, Minnesota",
+          "dinner": "Restaurant, Minnesota",
+          "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+          "accommodation": "Accommodation, Minnesota"
+        },
+        {
+          "days": 2,
+          "current_city": "Minneapolis",
+          "transportation": "Taxi in Minnesota; Cost: 50",
+          "breakfast": "Restaurant, Minnesota",
+          "lunch": "Restaurant, Minnesota",
+          "dinner": "Restaurant, Minnesota",
+          "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+          "accommodation": "Accommodation, Minnesota"
+        },
+        {
+          "days": 3,
+          "current_city": "Minneapolis to Bemidji",
+          "transportation": "Taxi in Minnesota; Cost: 50",
+          "breakfast": "Restaurant, Minnesota",
+          "lunch": "Restaurant, Minnesota",
+          "dinner": "Restaurant, Minnesota",
+          "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+          "accommodation": "Accommodation, Minnesota"
+        },
+        {
+          "days": 4,
+          "current_city": "Bemidji",
+          "transportation": "Taxi in Minnesota; Cost: 50",
+          "breakfast": "Restaurant, Minnesota",
+          "lunch": "Restaurant, Minnesota",
+          "dinner": "Restaurant, Minnesota",
+          "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+          "accommodation": "Accommodation, Minnesota"
+        },
+        {
+          "days": 5,
+          "current_city": "Bemidji to Billings",
+          "transportation": "Flight from Minnesota to Billings",
+          "breakfast": "Restaurant, Minnesota",
+          "lunch": "Restaurant, Minnesota",
+          "dinner": "Restaurant, Minnesota",
+          "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "query": "Could you create a 5-day travel plan for me, beginning in Washington, visiting 2 cities in Virginia from March 15th to March 19th, 2022? I have a budget of $2,200 for this trip.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Washington → Norfolk",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 2,
+          "current_city": "Norfolk",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 3,
+          "current_city": "Norfolk → Lynchburg",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 4,
+          "current_city": "Lynchburg",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 5,
+          "current_city": "Lynchburg → Washington",
+          "transportation": "Flight from Virginia to Washington",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "query": "Can you assist in crafting a travel schedule departing from Richmond and traveling to 2 cities in Tennessee? The journey will last 5 days, starting on March 5th and concluding on March 9th, 2022. The travel budget is set at $2,600.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Nashville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 2,
+          "current_city": "Nashville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 3,
+          "current_city": "Knoxville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 4,
+          "current_city": "Knoxville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 5,
+          "current_city": "Richmond",
+          "transportation": "Flight from Tennessee to Richmond",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "query": "Can you help me devise a travel plan that begins in Key West and covers 2 cities in Indiana? The travel dates are from March 10th to March 14th, 2022, and the budget for the trip is $2,000.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Key West",
+          "transportation": "Taxi in Indiana; Cost: 50",
+          "breakfast": "Restaurant, Indiana",
+          "lunch": "Restaurant, Indiana",
+          "dinner": "Restaurant, Indiana",
+          "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+          "accommodation": "Accommodation, Indiana"
+        },
+        {
+          "days": 2,
+          "current_city": "Evansville",
+          "transportation": "Taxi in Indiana; Cost: 50",
+          "breakfast": "Restaurant, Indiana",
+          "lunch": "Restaurant, Indiana",
+          "dinner": "Restaurant, Indiana",
+          "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+          "accommodation": "Accommodation, Indiana"
+        },
+        {
+          "days": 3,
+          "current_city": "Evansville to South Bend",
+          "transportation": "Taxi in Indiana; Cost: 50",
+          "breakfast": "Restaurant, Indiana",
+          "lunch": "Restaurant, Indiana",
+          "dinner": "Restaurant, Indiana",
+          "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+          "accommodation": "Accommodation, Indiana"
+        },
+        {
+          "days": 4,
+          "current_city": "South Bend",
+          "transportation": "Taxi in Indiana; Cost: 50",
+          "breakfast": "Restaurant, Indiana",
+          "lunch": "Restaurant, Indiana",
+          "dinner": "Restaurant, Indiana",
+          "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+          "accommodation": "Accommodation, Indiana"
+        },
+        {
+          "days": 5,
+          "current_city": "South Bend to Key West",
+          "transportation": "Flight from Indiana to Key West",
+          "breakfast": "Restaurant, Indiana",
+          "lunch": "Restaurant, Indiana",
+          "dinner": "Restaurant, Indiana",
+          "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "query": "Can you help construct a travel plan that begins in Philadelphia and includes visits to 3 different cities in Virginia? The trip duration is for 7 days, from March 15th to March 21st, 2022, with a total budget of $1,800.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Philadelphia",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 2,
+          "current_city": "Richmond",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 3,
+          "current_city": "Richmond to Petersburg",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 4,
+          "current_city": "Petersburg",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 5,
+          "current_city": "Petersburg to Charlottesville",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 6,
+          "current_city": "Charlottesville",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 7,
+          "current_city": "Charlottesville to Philadelphia",
+          "transportation": "Flight from Virginia to Philadelphia",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "query": "Could you construct a week-long travel plan for me, beginning in Bakersfield and heading to Texas? This journey spans from March 2nd to March 8th, 2022, and I am aiming to explore 3 unique cities. I have set aside a budget of $6,100 for this trip.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Bakersfield",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "El Paso",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "El Paso to Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Amarillo to Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 6,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 7,
+          "current_city": "Dallas to Bakersfield",
+          "transportation": "Flight from Texas to Bakersfield",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "query": "Could you help me arrange a 7-day solo travel itinerary from Kona to California with a budget of $5,800, intending to visit 3 distinct cities in California from March 7th to March 13th, 2022?",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "San Diego",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 2,
+          "current_city": "San Diego",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 3,
+          "current_city": "San Diego",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 4,
+          "current_city": "Redding",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 5,
+          "current_city": "Redding",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 6,
+          "current_city": "San Jose",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 7,
+          "current_city": "San Jose",
+          "transportation": "Flight from California to Kona",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 24,
+      "query": "Can you assist in devising a 7-day trip for one person, commencing in Medford and involving visits to 3 distinct cities in Colorado from March 23rd to March 29th, 2022? The budget for this trip is set at $2,400.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Grand Junction",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 2,
+          "current_city": "Grand Junction",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 3,
+          "current_city": "Grand Junction",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 4,
+          "current_city": "Durango",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 5,
+          "current_city": "Durango",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 6,
+          "current_city": "Gunnison",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 7,
+          "current_city": "Gunnison",
+          "transportation": "Flight from Colorado to Medford",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "query": "Could you help me design a one-week travel itinerary departing from Devils Lake and heading to Colorado, covering a total of 3 cities? The travel dates are set between March 22nd and March 28th, 2022. This trip is for a single person with a budget of $3,500.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Alamosa",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 2,
+          "current_city": "Alamosa",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 3,
+          "current_city": "Alamosa",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 4,
+          "current_city": "Grand Junction",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 5,
+          "current_city": "Grand Junction",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 6,
+          "current_city": "Gunnison",
+          "transportation": "Taxi in Colorado; Cost: 50",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "Accommodation, Colorado"
+        },
+        {
+          "days": 7,
+          "current_city": "Gunnison",
+          "transportation": "Flight from Colorado to Devils Lake",
+          "breakfast": "Restaurant, Colorado",
+          "lunch": "Restaurant, Colorado",
+          "dinner": "Restaurant, Colorado",
+          "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "query": "Please help me craft a 7-day travel plan for one person departing from Charlotte in North Carolina, visiting 3 cities in Pennsylvania. The travel dates are from March 6th to March 12th, 2022. The allocated budget for this trip is $5,100.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Pittsburgh",
+          "transportation": "Taxi in Pennsylvania; Cost: 50",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+          "accommodation": "Accommodation, Pennsylvania"
+        },
+        {
+          "days": 2,
+          "current_city": "Pittsburgh",
+          "transportation": "Taxi in Pennsylvania; Cost: 50",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "Accommodation, Pennsylvania"
+        },
+        {
+          "days": 3,
+          "current_city": "Pittsburgh",
+          "transportation": "Taxi in Pennsylvania; Cost: 50",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "Accommodation, Pennsylvania"
+        },
+        {
+          "days": 4,
+          "current_city": "Erie",
+          "transportation": "Taxi in Pennsylvania; Cost: 50",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "Accommodation, Pennsylvania"
+        },
+        {
+          "days": 5,
+          "current_city": "Erie",
+          "transportation": "Taxi in Pennsylvania; Cost: 50",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "Accommodation, Pennsylvania"
+        },
+        {
+          "days": 6,
+          "current_city": "Philadelphia",
+          "transportation": "Taxi in Pennsylvania; Cost: 50",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+          "accommodation": "Accommodation, Pennsylvania"
+        },
+        {
+          "days": 7,
+          "current_city": "Philadelphia",
+          "transportation": "Flight from Pennsylvania to Charlotte",
+          "breakfast": "Restaurant, Pennsylvania",
+          "lunch": "Restaurant, Pennsylvania",
+          "dinner": "Restaurant, Pennsylvania",
+          "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "query": "Could you assist me in creating a travel plan from Palm Springs to Texas that spans 7 days, visiting 3 cities from March 13th to March 19th, 2022? I have set aside a budget of $8,100 for this trip.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Austin",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Austin",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 6,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 7,
+          "current_city": "Dallas",
+          "transportation": "Flight from Texas to Palm Springs",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 28,
+      "query": "I require a travel itinerary for a seven-day trip beginning on March 2nd and ending on March 8th, 2022. The trip will begin in Philadelphia and involve visiting 3 cities in Virginia. The available budget for the trip is $2,900.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Richmond",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 2,
+          "current_city": "Richmond",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 3,
+          "current_city": "Richmond → Jamestown",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 4,
+          "current_city": "Jamestown",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 5,
+          "current_city": "Jamestown → Charlottesville",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 6,
+          "current_city": "Charlottesville",
+          "transportation": "Taxi in Virginia; Cost: 50",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+          "accommodation": "Accommodation, Virginia"
+        },
+        {
+          "days": 7,
+          "current_city": "Charlottesville → Philadelphia",
+          "transportation": "Flight from Virginia to Philadelphia",
+          "breakfast": "Restaurant, Virginia",
+          "lunch": "Restaurant, Virginia",
+          "dinner": "Restaurant, Virginia",
+          "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 29,
+      "query": "Could you formulate a travel itinerary for me? I'm planning a solo trip from Dallas to Nebraska for 7 days, from March 7th to March 13th, 2022. During this trip, I wish to visit 3 different cities within Nebraska. My budget for this trip is $5,600.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Grand Island",
+          "transportation": "Taxi in Nebraska; Cost: 50",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+          "accommodation": "Accommodation, Nebraska"
+        },
+        {
+          "days": 2,
+          "current_city": "Grand Island",
+          "transportation": "Taxi in Nebraska; Cost: 50",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "Accommodation, Nebraska"
+        },
+        {
+          "days": 3,
+          "current_city": "North Platte",
+          "transportation": "Taxi in Nebraska; Cost: 50",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+          "accommodation": "Accommodation, Nebraska"
+        },
+        {
+          "days": 4,
+          "current_city": "North Platte",
+          "transportation": "Taxi in Nebraska; Cost: 50",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+          "accommodation": "Accommodation, Nebraska"
+        },
+        {
+          "days": 5,
+          "current_city": "Omaha",
+          "transportation": "Taxi in Nebraska; Cost: 50",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+          "accommodation": "Accommodation, Nebraska"
+        },
+        {
+          "days": 6,
+          "current_city": "Omaha",
+          "transportation": "Taxi in Nebraska; Cost: 50",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+          "accommodation": "Accommodation, Nebraska"
+        },
+        {
+          "days": 7,
+          "current_city": "Dallas",
+          "transportation": "Flight from Nebraska to Dallas",
+          "breakfast": "Restaurant, Nebraska",
+          "lunch": "Restaurant, Nebraska",
+          "dinner": "Restaurant, Nebraska",
+          "attraction": "A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 30,
+      "query": "Can you devise a week-long travel plan for a solo traveler? The trip takes off from Columbus and involves visiting 3 distinct cities in Texas from March 1st to March 7th, 2022. The budget for this venture is set at $4,200.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 6,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 7,
+          "current_city": "Houston",
+          "transportation": "Flight from Texas to Columbus",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 31,
+      "query": "Could you construct a 3-day travel plan, starting in New York and ending in Reno, for 4 people, including children under 10, from March 14th to March 16th, 2022? Our budget for this trip is set at $11,300. We require accommodations suitable for children under 10.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "New York",
+          "transportation": "Flight Number: F0820596, from New York to Reno, Departure Time: 20:46, Arrival Time: 23:32, Price: 641",
+          "breakfast": "Gopal's Restaurant & Caterer's, Reno; Cost: 56",
+          "lunch": "Spooky Sky, Reno; Cost: 34",
+          "dinner": "Baked! Cakes & Desserts, Reno; Cost: 43",
+          "attraction": "Nevada Museum of Art, Reno;Rancho San Rafael Nature Trail, Reno;",
+          "accommodation": "A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)"
+        },
+        {
+          "days": 2,
+          "current_city": "Reno",
+          "transportation": "Taxi in Reno; Cost: 50",
+          "breakfast": "K Lab, Reno; Cost: 54",
+          "lunch": "Uncle Xpress, Reno; Cost: 17",
+          "dinner": "Cafe Cook, Reno; Cost: 100",
+          "attraction": "Rancho San Rafael Nature Trail, Reno;Rancho San Rafael Regional Park, Reno;",
+          "accommodation": "A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)"
+        },
+        {
+          "days": 3,
+          "current_city": "Reno",
+          "transportation": "Flight from Reno to New York",
+          "breakfast": "Khalsa Dhaba, Reno; Cost: 100",
+          "lunch": "Baked! Cakes & Desserts, Reno; Cost: 43",
+          "dinner": "Indian Gourmet, Reno; Cost: 16",
+          "attraction": "Rancho San Rafael Regional Park, Reno;Raymond L Smith Truckee River Walk, Reno;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 32,
+      "query": "Please create a 3-day travel plan for two people, starting from Milwaukee and heading to New York. We are planning to visit from March 24th to March 26th, 2022. We have a budget of $1,900 and prefer to have non-shared rooms for our accommodations.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Milwaukee → New York",
+          "transportation": "Flight Number: F0152476, from Milwaukee to New York, Departure Time: 17:47, Arrival Time: 20:49, Price: 224",
+          "breakfast": "Sugar Rush, New York; Cost: 89",
+          "lunch": "Green Chick Chop, New York; Cost: 26",
+          "dinner": "QD's Restaurant, New York; Cost: 93",
+          "attraction": "Statue of Liberty, New York;Tenement Museum, New York;",
+          "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~756)"
+        },
+        {
+          "days": 2,
+          "current_city": "New York",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "736 A.D., New York; Cost: 99",
+          "lunch": "Hungry Ullu, New York; Cost: 94",
+          "dinner": "Shree Rathnam, New York; Cost: 91",
+          "attraction": "Tenement Museum, New York;The Battery, New York;",
+          "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~756)"
+        },
+        {
+          "days": 3,
+          "current_city": "New York → Milwaukee",
+          "transportation": "Flight from New York to Milwaukee",
+          "breakfast": "Baltazar, New York; Cost: 46",
+          "lunch": "QD's Restaurant, New York; Cost: 93",
+          "dinner": "Sugary Affairs, New York; Cost: 55",
+          "attraction": "The Battery, New York;The Channel Gardens, New York;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 33,
+      "query": "Can you help me put together a 3-day travel plan for 2 people, departing from Salt Lake City and heading to Twin Falls, taking place from March 25th to March 27th, 2022? Our budget is $1,600. Regarding dining options, we are interested in enjoying both Chinese and Mexican meals.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Salt Lake City → Twin Falls",
+          "transportation": "Flight Number: F0604485, from Salt Lake City to Twin Falls, Departure Time: 10:59, Arrival Time: 11:53, Price: 49",
+          "breakfast": "The Amazing Buger's, Twin Falls; Cost: 22",
+          "lunch": "Kaushik Bakery, Twin Falls; Cost: 29",
+          "dinner": "Sagar Bar-Be Que, Twin Falls; Cost: 14",
+          "attraction": "Rock Creek Park, Twin Falls;Scenic View Perrine Coulee Waterfall, Twin Falls;",
+          "accommodation": "Uptown Manhattan bright and lovely room, Twin Falls; Cost: 672 per night (~4032)"
+        },
+        {
+          "days": 2,
+          "current_city": "Twin Falls",
+          "transportation": "Taxi in Twin Falls; Cost: 50",
+          "breakfast": "Yummy Rasoi, Twin Falls; Cost: 29",
+          "lunch": "Mittal Fast Food, Twin Falls; Cost: 83",
+          "dinner": "Subway, Twin Falls; Cost: 77",
+          "attraction": "Scenic View Perrine Coulee Waterfall, Twin Falls;Shoshone Falls Park, Twin Falls;",
+          "accommodation": "Uptown Manhattan bright and lovely room, Twin Falls; Cost: 672 per night (~4032)"
+        },
+        {
+          "days": 3,
+          "current_city": "Twin Falls → Salt Lake City",
+          "transportation": "Flight from Twin Falls to Salt Lake City",
+          "breakfast": "Cake Point, Twin Falls; Cost: 100",
+          "lunch": "Sagar Bar-Be Que, Twin Falls; Cost: 14",
+          "dinner": "The Bake Studio, Twin Falls; Cost: 23",
+          "attraction": "Shoshone Falls Park, Twin Falls;Snake River Canyon Rim Trail, Twin Falls;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 34,
+      "query": "Please plan a 3-day trip for a group of 7 people from Salt Lake City to Burbank, with the journey taking place from March 12th to March 14th, 2022. During our time in Burbank, we wish to visit a solitary city. Our new budget is $7,600 for the trip. For accommodations, we would like to have entire rooms.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Salt Lake City → Burbank",
+          "transportation": "Flight Number: F0476861, from Salt Lake City to Burbank, Departure Time: 11:16, Arrival Time: 12:13, Price: 265",
+          "breakfast": "Jai Hind Dairy, Burbank; Cost: 59",
+          "lunch": "Caffe Tonino, Burbank; Cost: 28",
+          "dinner": "Deepak Vaishno Dhaba, Burbank; Cost: 32",
+          "attraction": "Universal Studios Hollywood, Burbank;Vickroy Park, Burbank;",
+          "accommodation": "Sunny Room w/ Private Bath in Williamsburg!, Burbank; Cost: 507 per night (~1521)"
+        },
+        {
+          "days": 2,
+          "current_city": "Burbank",
+          "transportation": "Taxi in Burbank; Cost: 50",
+          "breakfast": "Katwalk Lounge, Burbank; Cost: 90",
+          "lunch": "Chick Fish Point, Burbank; Cost: 70",
+          "dinner": "Hard Rock Cafe, Burbank; Cost: 33",
+          "attraction": "Vickroy Park, Burbank;Visit Burbank, Burbank;",
+          "accommodation": "Sunny Room w/ Private Bath in Williamsburg!, Burbank; Cost: 507 per night (~1521)"
+        },
+        {
+          "days": 3,
+          "current_city": "Burbank → Salt Lake City",
+          "transportation": "Flight from Burbank to Salt Lake City",
+          "breakfast": "Nalwa's Hotspot, Burbank; Cost: 63",
+          "lunch": "Deepak Vaishno Dhaba, Burbank; Cost: 32",
+          "dinner": "KB's Kulfi & Icecream, Burbank; Cost: 10",
+          "attraction": "Visit Burbank, Burbank;Warner Bros. Studio Tour Hollywood, Burbank;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 35,
+      "query": "Can you curate a travel plan spanning 3 days from March 17th to March 19th, 2022, for a group of 8, departing from Denver and heading to Bozeman? Our budget is set at $7,000. Regarding our culinary preferences, we enjoy American and Indian cuisines.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Denver to Bozeman",
+          "transportation": "Flight Number: F0035930, from Denver to Bozeman, Departure Time: 15:29, Arrival Time: 17:17, Price: 156",
+          "breakfast": "Saravana Bhavan, Bozeman; Cost: 38",
+          "lunch": "Green Vally Chiiness Food, Bozeman; Cost: 74",
+          "dinner": "Kukkuu Da Dhaba, Bozeman; Cost: 58",
+          "attraction": "Peets Hill/Burke Park, Bozeman;Snowfill Recreation Area, Bozeman;",
+          "accommodation": "Two Bedrooms with Dedicated Bath, Bozeman; Cost: 615 per night (~1845)"
+        },
+        {
+          "days": 2,
+          "current_city": "Bozeman",
+          "transportation": "Taxi in Bozeman; Cost: 50",
+          "breakfast": "Shri Bhujia Bhandar, Bozeman; Cost: 87",
+          "lunch": "Italize, Bozeman; Cost: 24",
+          "dinner": "Oh Buoy, Bozeman; Cost: 79",
+          "attraction": "Snowfill Recreation Area, Bozeman;The Extreme History Project, Bozeman;",
+          "accommodation": "Two Bedrooms with Dedicated Bath, Bozeman; Cost: 615 per night (~1845)"
+        },
+        {
+          "days": 3,
+          "current_city": "Bozeman to Denver",
+          "transportation": "Flight from Bozeman to Denver",
+          "breakfast": "Sweta Restaurant, Bozeman; Cost: 48",
+          "lunch": "Kukkuu Da Dhaba, Bozeman; Cost: 58",
+          "dinner": "Shalimar Food, Bozeman; Cost: 81",
+          "attraction": "The Extreme History Project, Bozeman;The Story Mansion and Story Park, Bozeman;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 36,
+      "query": "I need to organize a 3-day trip for a group of 3, departing from Asheville and arriving in Minneapolis. We will be traveling from March 7th to March 9th, 2022, with a total budget of $2,300. We require accommodations that allow pets and provide entire rooms. Regarding meals, our group enjoys a variety of cuisines, including Indian, Chinese, Mediterranean, and American.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Asheville to Minneapolis",
+          "transportation": "Flight Number: F2105273, from Asheville to Minneapolis, Departure Time: 17:07, Arrival Time: 18:21, Price: 244",
+          "breakfast": "Fomads, Minneapolis; Cost: 73",
+          "lunch": "Wok  In The Clouds, Minneapolis; Cost: 52",
+          "dinner": "Big Biryani, Minneapolis; Cost: 52",
+          "attraction": "Stepped Tower, Minneapolis;Walker Art Center, Minneapolis;",
+          "accommodation": "Balcony Duplex and Loft, Steps from the Subway, Minneapolis; Cost: 1056 per night (~22176)"
+        },
+        {
+          "days": 2,
+          "current_city": "Minneapolis",
+          "transportation": "Taxi in Minneapolis; Cost: 50",
+          "breakfast": "Goli Vada Pav No. 1, Minneapolis; Cost: 41",
+          "lunch": "Bablu Chic-Inn, Minneapolis; Cost: 95",
+          "dinner": "Court Avenue Brewing Company, Minneapolis; Cost: 31",
+          "attraction": "Walker Art Center, Minneapolis;Water Power Park, Minneapolis;",
+          "accommodation": "Balcony Duplex and Loft, Steps from the Subway, Minneapolis; Cost: 1056 per night (~22176)"
+        },
+        {
+          "days": 3,
+          "current_city": "Minneapolis to Asheville",
+          "transportation": "Flight from Minneapolis to Asheville",
+          "breakfast": "Lajawab Chicken & Fish Fry, Minneapolis; Cost: 42",
+          "lunch": "Big Biryani, Minneapolis; Cost: 52",
+          "dinner": "FreshMenu, Minneapolis; Cost: 88",
+          "attraction": "Water Power Park, Minneapolis;Weisman Art Museum, Minneapolis;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 37,
+      "query": "Can you design a 3-day travel itinerary for 2 people, departing from Ithaca and heading to Newark from March 18th to March 20th, 2022? Our budget is set at $1,200, and we require our accommodations to be entire rooms and visitor-friendly. Please note that we prefer not to drive ourselves during this trip.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Ithaca → Newark",
+          "transportation": "Flight Number: F0576952, from Ithaca to Newark, Departure Time: 06:51, Arrival Time: 08:40, Price: 76",
+          "breakfast": "Dilli Darbar Chicken Point, Newark; Cost: 87",
+          "lunch": "All About Food, Newark; Cost: 47",
+          "dinner": "Bernardo's, Newark; Cost: 84",
+          "attraction": "Veterans Memorial Park, Newark;Weequahic Park, Newark;",
+          "accommodation": "Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)"
+        },
+        {
+          "days": 2,
+          "current_city": "Newark",
+          "transportation": "Taxi in Newark; Cost: 50",
+          "breakfast": "Harmann Restaurant, Newark; Cost: 57",
+          "lunch": "Apni Rasoi, Newark; Cost: 42",
+          "dinner": "Creamy Creation, Newark; Cost: 44",
+          "attraction": "Weequahic Park, Newark;Weequahic Park, Newark;",
+          "accommodation": "Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)"
+        },
+        {
+          "days": 3,
+          "current_city": "Newark → Ithaca",
+          "transportation": "Flight from Newark to Ithaca",
+          "breakfast": "Joshi Eating House, Newark; Cost: 52",
+          "lunch": "Bernardo's, Newark; Cost: 84",
+          "dinner": "Drifters Cafe, Newark; Cost: 24",
+          "attraction": "Weequahic Park, Newark;Alice Ransom Dreyfuss Memorial Garden, Newark;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 38,
+      "query": "Could you assist in creating a 3-day travel plan for a duo, starting from Nashville and going to Detroit from March 15th to March 17th, 2022? Our budget is set at $2,200. We require accommodations that permit smoking and are looking for rooms that are not shared. We would prefer not to drive ourselves during this trip.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Nashville → Detroit",
+          "transportation": "Flight Number: F0073358, from Nashville to Detroit, Departure Time: 08:23, Arrival Time: 10:44, Price: 225",
+          "breakfast": "Southern Bliss Bakery, Detroit; Cost: 28",
+          "lunch": "Dilli Darbaar, Detroit; Cost: 60",
+          "dinner": "N. Iqbal Restaurant, Detroit; Cost: 11",
+          "attraction": "Museum of Contemporary Art Detroit, Detroit;Spirit of Detroit Plaza, Detroit;",
+          "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~207)"
+        },
+        {
+          "days": 2,
+          "current_city": "Detroit",
+          "transportation": "Taxi in Detroit; Cost: 50",
+          "breakfast": "Turquoise Turkish Ice-cream, Detroit; Cost: 79",
+          "lunch": "Knights Chaska, Detroit; Cost: 29",
+          "dinner": "Rehmatullah's Hotel, Detroit; Cost: 28",
+          "attraction": "Spirit of Detroit Plaza, Detroit;Beacon Park, Detroit;",
+          "accommodation": "Modern Luxury Loft  3bd  Williamsburg, Detroit; Cost: 980 per night (~2940)"
+        },
+        {
+          "days": 3,
+          "current_city": "Detroit → Nashville",
+          "transportation": "Flight from Detroit to Nashville",
+          "breakfast": "Zabardast Indian Kitchen, Detroit; Cost: 76",
+          "lunch": "N. Iqbal Restaurant, Detroit; Cost: 11",
+          "dinner": "Taksim, Detroit; Cost: 65",
+          "attraction": "Beacon Park, Detroit;Belle Isle Aquarium, Detroit;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 39,
+      "query": "Can you assist in creating a travel plan that commences in Atlanta, heading to Knoxville for a duration of 3 days, from March 29th to March 31st, 2022. For our accommodations, we are aiming for private rooms that accommodate children under the age of 10. Please note that we'll not be engaging in any self-driving. Overall, we are hoping to stay within a budget of $1,000.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Atlanta",
+          "transportation": "Flight Number: F0152199, from Atlanta to Knoxville, Departure Time: 19:27, Arrival Time: 20:16, Price: 32",
+          "breakfast": "Cafe Arabelle, Knoxville; Cost: 29",
+          "lunch": "Peppers & Pipes, Knoxville; Cost: 86",
+          "dinner": "The Indian Kaffe Express, Knoxville; Cost: 71",
+          "attraction": "Zoo Knoxville, Knoxville;Augusta Quarry, Knoxville;",
+          "accommodation": "Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)"
+        },
+        {
+          "days": 2,
+          "current_city": "Knoxville",
+          "transportation": "Taxi in Knoxville; Cost: 50",
+          "breakfast": "Chaat Corner, Knoxville; Cost: 67",
+          "lunch": "Sky On 57, Knoxville; Cost: 150",
+          "dinner": "Biryani By Kilo, Knoxville; Cost: 17",
+          "attraction": "Augusta Quarry, Knoxville;Charles Krutch Park, Knoxville;",
+          "accommodation": "Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)"
+        },
+        {
+          "days": 3,
+          "current_city": "Knoxville",
+          "transportation": "Flight from Knoxville to Atlanta",
+          "breakfast": "Coalition Cafe, Knoxville; Cost: 35",
+          "lunch": "The Indian Kaffe Express, Knoxville; Cost: 71",
+          "dinner": "Cafe Coffee Day, Knoxville; Cost: 82",
+          "attraction": "Charles Krutch Park, Knoxville;Chilhowee Park & Exposition Center, Knoxville;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 40,
+      "query": "Can you please generate a 3-day travel plan for 2 people departing from New York and traveling to Charleston from March 19th to March 21st, 2022? Our budget is set at $1,600. We require accommodations that allow smoking and should not be shared rooms. We have a preference for French, Mediterranean, Mexican, and Chinese cuisines during our trip.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Charleston",
+          "transportation": "Flight Number: F0145661, from New York to Charleston, Departure Time: 07:55, Arrival Time: 10:07, Price: 150",
+          "breakfast": "That's Y Food, Charleston; Cost: 57",
+          "lunch": "Sagar Ratna, Charleston; Cost: 84",
+          "dinner": "Spinns Resto-Bar, Charleston; Cost: 16",
+          "attraction": "Aiken-Rhett House Museum, Charleston;Boone Hall Plantation & Gardens, Charleston;",
+          "accommodation": "2 Bedroom Apartment in Prime Midtown West, Charleston; Cost: 1121 per night (~3363)"
+        },
+        {
+          "days": 2,
+          "current_city": "Charleston",
+          "transportation": "Taxi in Charleston; Cost: 50",
+          "breakfast": "The Corporate Kitchen, Charleston; Cost: 48",
+          "lunch": "Shanghai Nights, Charleston; Cost: 47",
+          "dinner": "Taco Street, Charleston; Cost: 59",
+          "attraction": "Boone Hall Plantation & Gardens, Charleston;Charles Towne Landing State Historic Site, Charleston;",
+          "accommodation": "2 Bedroom Apartment in Prime Midtown West, Charleston; Cost: 1121 per night (~3363)"
+        },
+        {
+          "days": 3,
+          "current_city": "Charleston",
+          "transportation": "Flight from Charleston to New York",
+          "breakfast": "The Living Room - The Westin Sohna Resort & Spa, Charleston; Cost: 26",
+          "lunch": "Spinns Resto-Bar, Charleston; Cost: 16",
+          "dinner": "The Baker's Bar  ... Bakery & Cafe, Charleston; Cost: 75",
+          "attraction": "Charles Towne Landing State Historic Site, Charleston;Charleston City Market, Charleston;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 41,
+      "query": "Could you tailor a 5-day travel plan for two people, departing from Knoxville and visiting 2 cities in Florida from March 20 to March 24, 2022? Our budget is set at $3,900. We'd love to explore local Chinese and Mediterranean cuisines during our stay.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Orlando",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 2,
+          "current_city": "Orlando",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 3,
+          "current_city": "Orlando → Miami",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 4,
+          "current_city": "Miami",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 5,
+          "current_city": "Miami → Knoxville",
+          "transportation": "Flight from Florida to Knoxville",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 42,
+      "query": "Could you create a 5-day travel itinerary for a group of 3, starting in Miami and visiting 2 cities in Texas from March 27th to March 31st, 2022? We have a budget of $8,500. Along the way, we would love to experience Indian and Mediterranean cuisine.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Miami to Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Dallas to Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Houston",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Houston to Miami",
+          "transportation": "Flight from Texas to Miami",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 43,
+      "query": "Can you assist with crafting a 5-day travel itinerary for 2 people, originating from Denver and featuring 2 cities in New York? The itinerary will run from March 18th to March 22nd, 2022. Mexican and Indian cuisine are our preferred choices of food. Considering the budget, we have set it to $6,300.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Buffalo",
+          "transportation": "Flight Number: F0040757, from Denver to New York, Departure Time: 16:38, Arrival Time: 22:05, Price: 776",
+          "breakfast": "Goosebumps, New York; Cost: 94",
+          "lunch": "Sugar Rush, New York; Cost: 89",
+          "dinner": "Baltazar, New York; Cost: 46",
+          "attraction": "Empire State Building, New York;Flatiron Building, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 2,
+          "current_city": "Buffalo",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Gurgaon Hights, New York; Cost: 46",
+          "lunch": "736 A.D., New York; Cost: 99",
+          "dinner": "Garam Masala Food Corner, New York; Cost: 40",
+          "attraction": "Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 3,
+          "current_city": "Buffalo → New York",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Lord of the Drinks Forum, New York; Cost: 71",
+          "lunch": "Baltazar, New York; Cost: 46",
+          "dinner": "Green Chick Chop, New York; Cost: 26",
+          "attraction": "MUSEUM OF ICE CREAM, New York;One World Observatory, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 4,
+          "current_city": "New York",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Seasons 52 Fresh Grill, New York; Cost: 30",
+          "lunch": "Garam Masala Food Corner, New York; Cost: 40",
+          "dinner": "Hungry Ullu, New York; Cost: 94",
+          "attraction": "One World Observatory, New York;Pier 46 at Hudson River Park, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 5,
+          "current_city": "New York → Denver",
+          "transportation": "Flight from New York to Denver",
+          "breakfast": "Sugar Rush, New York; Cost: 89",
+          "lunch": "Green Chick Chop, New York; Cost: 26",
+          "dinner": "QD's Restaurant, New York; Cost: 93",
+          "attraction": "Pier 46 at Hudson River Park, New York;Radio City Music Hall, New York;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 44,
+      "query": "Can you assist with a 5-day travel plan for two people, going from Greer to New York, covering 2 cities in the state from March 10th to March 14th, 2022? Our budget is set at $3,400. We require accommodations that could be private rooms.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Buffalo",
+          "transportation": "Flight Number: F0164240, from Greer to New York, Departure Time: 11:48, Arrival Time: 13:32, Price: 259",
+          "breakfast": "Green Chick Chop, New York; Cost: 26",
+          "lunch": "Sugary Affairs, New York; Cost: 55",
+          "dinner": "Domino's Pizza, New York; Cost: 86",
+          "attraction": "Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;",
+          "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+        },
+        {
+          "days": 2,
+          "current_city": "Buffalo",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Hungry Ullu, New York; Cost: 94",
+          "lunch": "Amchur, New York; Cost: 67",
+          "dinner": "Golooji's Chat Waat, New York; Cost: 53",
+          "attraction": "MUSEUM OF ICE CREAM, New York;One World Observatory, New York;",
+          "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+        },
+        {
+          "days": 3,
+          "current_city": "Niagara Falls",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "QD's Restaurant, New York; Cost: 93",
+          "lunch": "Domino's Pizza, New York; Cost: 86",
+          "dinner": "Green Restaurant, New York; Cost: 74",
+          "attraction": "One World Observatory, New York;Pier 46 at Hudson River Park, New York;",
+          "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+        },
+        {
+          "days": 4,
+          "current_city": "Niagara Falls",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Shree Rathnam, New York; Cost: 91",
+          "lunch": "Golooji's Chat Waat, New York; Cost: 53",
+          "dinner": "Kamal Chat Bhandar, New York; Cost: 36",
+          "attraction": "Pier 46 at Hudson River Park, New York;Radio City Music Hall, New York;",
+          "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+        },
+        {
+          "days": 5,
+          "current_city": "Niagara Falls",
+          "transportation": "Flight from New York to Greer",
+          "breakfast": "Sugary Affairs, New York; Cost: 55",
+          "lunch": "Green Restaurant, New York; Cost: 74",
+          "dinner": "Rambhog, New York; Cost: 95",
+          "attraction": "Radio City Music Hall, New York;RiseNY, New York;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 45,
+      "query": "Can you create a 5-day travel itinerary for me? We are a group of 8 starting from Salt Lake City and intend to visit 2 cities in Texas from March 14th to March 18th, 2022. Our budget has been updated to $12,000. We require our accommodations to have a visitors-friendly house rule.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Salt Lake City → Abilene",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Abilene",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Abilene → Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Amarillo → Salt Lake City",
+          "transportation": "Flight from Texas to Salt Lake City",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 46,
+      "query": "Could you assist with a 5-day travel plan for a duo beginning from Las Vegas and proceeding to visit 2 cities within Texas, from March 13th to March 17th, 2022? Our budget is now set at $3,700. We require accommodations that allow pets and should ideally be non-shared rooms. In regards to cuisine, we'd like to taste American, Indian, Mediterranean, and Mexican dishes throughout our journey.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Las Vegas → Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Amarillo → Lubbock",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Lubbock",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Lubbock → Las Vegas",
+          "transportation": "Flight from Texas to Las Vegas",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 47,
+      "query": "Could you create a 5-day travel itinerary for two people starting in Washington and visiting 2 cities in California from March 14th to March 18th, 2022? The budget for this trip is $4,600. We are food lovers with a preference for Chinese, Mexican, American, and Italian cuisines. As for our accommodations, we require non-shared rooms and places that welcome visitors. Transportation details are currently flexible.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Washington",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 2,
+          "current_city": "Los Angeles",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 3,
+          "current_city": "Los Angeles",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 4,
+          "current_city": "San Francisco",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 5,
+          "current_city": "San Francisco",
+          "transportation": "Flight from California to Washington",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 48,
+      "query": "Could you help me plan a 5-day journey for a group of 6, departing from Cleveland and visiting 2 cities in Florida from March 2nd to March 6th, 2022? Our budget is now $13,900, and we require pet-friendly accommodations that should ideally be entire rooms. We are planning on bringing our pets along, so the need for pet-friendly accommodations is crucial. We would also prefer not to self-drive.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Cleveland",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 2,
+          "current_city": "Fort Myers",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 3,
+          "current_city": "Fort Myers to Tampa",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 4,
+          "current_city": "Tampa",
+          "transportation": "Taxi in Florida; Cost: 50",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+          "accommodation": "Accommodation, Florida"
+        },
+        {
+          "days": 5,
+          "current_city": "Tampa to Cleveland",
+          "transportation": "Flight from Florida to Cleveland",
+          "breakfast": "Restaurant, Florida",
+          "lunch": "Restaurant, Florida",
+          "dinner": "Restaurant, Florida",
+          "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 49,
+      "query": "Could you suggest a 5-day travel itinerary for 2, leaving from Charlotte and visiting 2 cities in Wisconsin from March 18th to March 22nd, 2022? Our travel budget is set at $2,500. We will be traveling with children under 10, so our accommodations must be child-friendly and provide private rooms. Kindly ensure no flights are involved in the transportation planning.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Charlotte",
+          "transportation": "Taxi in Wisconsin; Cost: 50",
+          "breakfast": "Restaurant, Wisconsin",
+          "lunch": "Restaurant, Wisconsin",
+          "dinner": "Restaurant, Wisconsin",
+          "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, Wisconsin"
+        },
+        {
+          "days": 2,
+          "current_city": "Milwaukee",
+          "transportation": "Taxi in Wisconsin; Cost: 50",
+          "breakfast": "Restaurant, Wisconsin",
+          "lunch": "Restaurant, Wisconsin",
+          "dinner": "Restaurant, Wisconsin",
+          "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, Wisconsin"
+        },
+        {
+          "days": 3,
+          "current_city": "Milwaukee to Madison",
+          "transportation": "Taxi in Wisconsin; Cost: 50",
+          "breakfast": "Restaurant, Wisconsin",
+          "lunch": "Restaurant, Wisconsin",
+          "dinner": "Restaurant, Wisconsin",
+          "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+          "accommodation": "Accommodation, Wisconsin"
+        },
+        {
+          "days": 4,
+          "current_city": "Madison",
+          "transportation": "Taxi in Wisconsin; Cost: 50",
+          "breakfast": "Restaurant, Wisconsin",
+          "lunch": "Restaurant, Wisconsin",
+          "dinner": "Restaurant, Wisconsin",
+          "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+          "accommodation": "Accommodation, Wisconsin"
+        },
+        {
+          "days": 5,
+          "current_city": "Madison to Charlotte",
+          "transportation": "Flight from Wisconsin to Charlotte",
+          "breakfast": "Restaurant, Wisconsin",
+          "lunch": "Restaurant, Wisconsin",
+          "dinner": "Restaurant, Wisconsin",
+          "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 50,
+      "query": "Can you assist in crafting a travel itinerary for a pair of travelers originating from Milwaukee and visiting 2 cities in Michigan? The trip is 5 days long, spanning from March 21st to March 25th, 2022. Our budget is now set at $1,700, and we require accommodations that allow parties and provide private rooms. Moreover, we'd prefer if our transportation did not involve any flights.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Alpena",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 2,
+          "current_city": "Alpena",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 3,
+          "current_city": "Kalamazoo",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 4,
+          "current_city": "Kalamazoo",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 5,
+          "current_city": "Milwaukee",
+          "transportation": "Flight from Michigan to Milwaukee",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 51,
+      "query": "Can you create a one-week travel itinerary for two people departing from Myrtle Beach and covering three cities in Michigan between March 4th and March 10th, 2022? Our budget is set at $8,300. We would like to experience both French and American cuisines during our journey. We will require accommodations, though we have no specific house rules in mind.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "from Myrtle Beach to Michigan",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 2,
+          "current_city": "Michigan",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 3,
+          "current_city": "Michigan",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 4,
+          "current_city": "Michigan",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 5,
+          "current_city": "Michigan",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 6,
+          "current_city": "Michigan",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 7,
+          "current_city": "Michigan",
+          "transportation": "Flight from Michigan to Myrtle Beach",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 52,
+      "query": "I need assistance with planning a week-long trip for three people, starting from Punta Gorda and traveling to three different cities in Michigan. The trip dates are from March 6th to March 12th, 2022, and our new budget is set at $4,400. For dining, we'd like to try local American and French cuisines.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Punta Gorda → Pellston",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 2,
+          "current_city": "Pellston",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 3,
+          "current_city": "Pellston → Traverse City",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 4,
+          "current_city": "Traverse City",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 5,
+          "current_city": "Traverse City → Alpena",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 6,
+          "current_city": "Alpena",
+          "transportation": "Taxi in Michigan; Cost: 50",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+          "accommodation": "Accommodation, Michigan"
+        },
+        {
+          "days": 7,
+          "current_city": "Alpena → Punta Gorda",
+          "transportation": "Flight from Michigan to Punta Gorda",
+          "breakfast": "Restaurant, Michigan",
+          "lunch": "Restaurant, Michigan",
+          "dinner": "Restaurant, Michigan",
+          "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 53,
+      "query": "Could you help create a 7-day travel plan for a group of 3, departing from Greensboro and touring 3 different cities in Georgia from March 10th to March 16th, 2022? We have a new budget of $4,000 for this trip. We'd also appreciate if our accommodations have smoking areas.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 2,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 3,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 4,
+          "current_city": "Decatur",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 5,
+          "current_city": "Decatur",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 6,
+          "current_city": "Augusta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 7,
+          "current_city": "Augusta",
+          "transportation": "Flight from Georgia to Greensboro",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 54,
+      "query": "Can you help me create a one-week travel itinerary for two people, starting in Tulsa and visiting three different cities in Missouri from March 14th till March 20th, 2022? Our budget is $8,800 and we would like to have private rooms for our accommodations.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Kansas City",
+          "transportation": "Taxi in Missouri; Cost: 50",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+          "accommodation": "Accommodation, Missouri"
+        },
+        {
+          "days": 2,
+          "current_city": "Kansas City",
+          "transportation": "Taxi in Missouri; Cost: 50",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+          "accommodation": "Accommodation, Missouri"
+        },
+        {
+          "days": 3,
+          "current_city": "Kansas City → Cape Girardeau",
+          "transportation": "Taxi in Missouri; Cost: 50",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+          "accommodation": "Accommodation, Missouri"
+        },
+        {
+          "days": 4,
+          "current_city": "Cape Girardeau",
+          "transportation": "Taxi in Missouri; Cost: 50",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+          "accommodation": "Accommodation, Missouri"
+        },
+        {
+          "days": 5,
+          "current_city": "Cape Girardeau → St. Louis",
+          "transportation": "Taxi in Missouri; Cost: 50",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+          "accommodation": "Accommodation, Missouri"
+        },
+        {
+          "days": 6,
+          "current_city": "St. Louis",
+          "transportation": "Taxi in Missouri; Cost: 50",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+          "accommodation": "Accommodation, Missouri"
+        },
+        {
+          "days": 7,
+          "current_city": "St. Louis → Tulsa",
+          "transportation": "Flight from Missouri to Tulsa",
+          "breakfast": "Restaurant, Missouri",
+          "lunch": "Restaurant, Missouri",
+          "dinner": "Restaurant, Missouri",
+          "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 55,
+      "query": "Could you construct a 7-day travel itinerary for a group of 4, beginning in Monterey and exploring 3 cities in Texas from March 9th to March 15th, 2022? We've allocated a budget of $15,600 for this trip. Food-wise, we're particularly interested in trying out French and Chinese cuisines.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 2,
+          "current_city": "Dallas",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 3,
+          "current_city": "Dallas → Del Rio",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 4,
+          "current_city": "Del Rio",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 5,
+          "current_city": "Del Rio → Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 6,
+          "current_city": "Amarillo",
+          "transportation": "Taxi in Texas; Cost: 50",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+          "accommodation": "Accommodation, Texas"
+        },
+        {
+          "days": 7,
+          "current_city": "Amarillo → Monterey",
+          "transportation": "Flight from Texas to Monterey",
+          "breakfast": "Restaurant, Texas",
+          "lunch": "Restaurant, Texas",
+          "dinner": "Restaurant, Texas",
+          "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 56,
+      "query": "We're planning a week-long trip for two from Pittsburgh to New York with a budget of $5,300. We're set to travel from March 13th to March 19th, 2022, and plan to visit three different cities in New York. Please keep in mind that our lodgings must allow visitors. As for meals, we'd love to sample French, Italian, Chinese, and American cuisines. Also, note that we're planning to travel without taking any flights.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Rochester",
+          "transportation": "Flight Number: F0118637, from Pittsburgh to New York, Departure Time: 08:40, Arrival Time: 10:06, Price: 68",
+          "breakfast": "Sugary Affairs, New York; Cost: 55",
+          "lunch": "Green Restaurant, New York; Cost: 74",
+          "dinner": "Rambhog, New York; Cost: 95",
+          "attraction": "The High Line, New York;Tiffany Street Clock, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 2,
+          "current_city": "Rochester",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Amchur, New York; Cost: 67",
+          "lunch": "Kamal Chat Bhandar, New York; Cost: 36",
+          "dinner": "Sir John Bakery Cafe, New York; Cost: 78",
+          "attraction": "Tiffany Street Clock, New York;Times Square, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 3,
+          "current_city": "Niagara Falls",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Domino's Pizza, New York; Cost: 86",
+          "lunch": "Rambhog, New York; Cost: 95",
+          "dinner": "The Best, New York; Cost: 79",
+          "attraction": "Times Square, New York;Top of The Rock, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 4,
+          "current_city": "Niagara Falls",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Golooji's Chat Waat, New York; Cost: 53",
+          "lunch": "Sir John Bakery Cafe, New York; Cost: 78",
+          "dinner": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+          "attraction": "Top of The Rock, New York;9/11 Memorial & Museum, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 5,
+          "current_city": "New York",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Green Restaurant, New York; Cost: 74",
+          "lunch": "The Best, New York; Cost: 79",
+          "dinner": "G Dot, New York; Cost: 75",
+          "attraction": "9/11 Memorial & Museum, New York;Brooklyn Bridge, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 6,
+          "current_city": "New York",
+          "transportation": "Taxi in New York; Cost: 50",
+          "breakfast": "Kamal Chat Bhandar, New York; Cost: 36",
+          "lunch": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+          "dinner": "Goosebumps, New York; Cost: 94",
+          "attraction": "Brooklyn Bridge, New York;Central Park, New York;",
+          "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+        },
+        {
+          "days": 7,
+          "current_city": "Pittsburgh",
+          "transportation": "Flight from New York to Pittsburgh",
+          "breakfast": "Rambhog, New York; Cost: 95",
+          "lunch": "G Dot, New York; Cost: 75",
+          "dinner": "Gurgaon Hights, New York; Cost: 46",
+          "attraction": "Central Park, New York;Empire State Building, New York;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 57,
+      "query": "Could you design a one-week travel itinerary for two, departing from Houston and touring three cities in Tennessee from March 21st to March 27th, 2022? Our budget is now $8,200. We require accommodations that allow smoking and should ideally be private rooms. As for transportation, we would prefer not to self-drive.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Nashville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 2,
+          "current_city": "Nashville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 3,
+          "current_city": "Nashville → Knoxville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 4,
+          "current_city": "Knoxville",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 5,
+          "current_city": "Knoxville → Chattanooga",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 6,
+          "current_city": "Chattanooga",
+          "transportation": "Taxi in Tennessee; Cost: 50",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+          "accommodation": "Accommodation, Tennessee"
+        },
+        {
+          "days": 7,
+          "current_city": "Chattanooga → Houston",
+          "transportation": "Flight from Tennessee to Houston",
+          "breakfast": "Restaurant, Tennessee",
+          "lunch": "Restaurant, Tennessee",
+          "dinner": "Restaurant, Tennessee",
+          "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 58,
+      "query": "We're seeking a 7-day travel plan for two persons, starting from Chattanooga and covering three different cities in Georgia. The travel dates are set between March 9th to March 15th, 2022. Our new budget is $6,900. We require accommodations that are neither shared nor subject to visitor restrictions and should be private rooms. For transportation, we'd rather avoid air travel.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Augusta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 2,
+          "current_city": "Augusta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 3,
+          "current_city": "Decatur",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 4,
+          "current_city": "Decatur",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 5,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 6,
+          "current_city": "Atlanta",
+          "transportation": "Taxi in Georgia; Cost: 50",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+          "accommodation": "Accommodation, Georgia"
+        },
+        {
+          "days": 7,
+          "current_city": "Chattanooga",
+          "transportation": "Flight from Georgia to Chattanooga",
+          "breakfast": "Restaurant, Georgia",
+          "lunch": "Restaurant, Georgia",
+          "dinner": "Restaurant, Georgia",
+          "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 59,
+      "query": "Can you create a 7-day travel plan for a group of 5, departing from La Crosse and visiting 3 cities in Illinois? The travel dates are from March 18th to March 24th, 2022, and our budget is now set at $4,800. We require accommodations that are suitable for children under 10 and would like to book entire rooms. We prefer no flights for our mode of transportation.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Moline",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 2,
+          "current_city": "Moline",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 3,
+          "current_city": "Rockford",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 4,
+          "current_city": "Rockford",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 5,
+          "current_city": "Belleville",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 6,
+          "current_city": "Belleville",
+          "transportation": "Taxi in Illinois; Cost: 50",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+          "accommodation": "Accommodation, Illinois"
+        },
+        {
+          "days": 7,
+          "current_city": "La Crosse",
+          "transportation": "Flight from Illinois to La Crosse",
+          "breakfast": "Restaurant, Illinois",
+          "lunch": "Restaurant, Illinois",
+          "dinner": "Restaurant, Illinois",
+          "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+          "accommodation": "-"
+        }
+      ]
+    },
+    {
+      "idx": 60,
+      "query": "Could you generate a 7-day travel itinerary for 2 people? We would be leaving Salt Lake City and aim to visit 3 cities in California between March 25th and March 31st, 2022. We have a new budget of $4,600. When selecting accommodations, we require private rooms and it is important that smoking is permitted. As for transportation, we do not plan on self-driving.",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "San Diego",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 2,
+          "current_city": "San Diego",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 3,
+          "current_city": "San Diego → San Luis Obispo",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 4,
+          "current_city": "San Luis Obispo",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 5,
+          "current_city": "San Luis Obispo → Los Angeles",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 6,
+          "current_city": "Los Angeles",
+          "transportation": "Taxi in California; Cost: 50",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+          "accommodation": "Accommodation, California"
+        },
+        {
+          "days": 7,
+          "current_city": "Los Angeles → Salt Lake City",
+          "transportation": "Flight from California to Salt Lake City",
+          "breakfast": "Restaurant, California",
+          "lunch": "Restaurant, California",
+          "dinner": "Restaurant, California",
+          "attraction": "Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;",
+          "accommodation": "-"
+        }
+      ]
+    }
+  ]
+}

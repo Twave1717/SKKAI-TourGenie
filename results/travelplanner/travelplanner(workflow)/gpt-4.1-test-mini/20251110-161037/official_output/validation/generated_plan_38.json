@@ -1,0 +1,7 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Nashville to Detroit  \nTransportation: Flight Number: F3557342, from Nashville to Detroit, Departure Time: 10:52, Arrival Time: 13:17  \nBreakfast: N. Iqbal Restaurant, Nashville  \nAttraction: -  \nLunch: A Dong Restaurant, Detroit  \nTaxi: from Detroit Metropolitan Airport to Downtown Detroit  \nAttraction: Detroit Institute of Arts, Detroit  \nDinner: BMG - All Day Dining, Detroit  \nAccommodation: Lovely, charming and clean bedroom in Manhattan., Detroit (Private room, allows smoking, 1 night minimum, accommodates 2)\n\nDay 2:  \nCurrent City: Detroit  \nTransportation: -  \nBreakfast: Southern Bliss Bakery, Detroit  \nAttraction: Motown Museum, Detroit; Campus Martius Park, Detroit  \nLunch: Bistro Flamme Bois, Detroit  \nAttraction: Detroit Historical Museum, Detroit  \nDinner: Zabardast Indian Kitchen, Detroit  \nAccommodation: Lovely, charming and clean bedroom in Manhattan., Detroit\n\nDay 3:  \nCurrent City: from Detroit to Nashville  \nTransportation: Flight Number: F4000680, from Detroit to Nashville, Departure Time: 20:45, Arrival Time: 23:07  \nBreakfast: Cafe 6, Detroit  \nAttraction: Detroit Riverwalk, Detroit  \nLunch: Vapour Pub & Brewery, Detroit  \nDinner: Dilli Darbaar, Detroit  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": []
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"San Diego\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 2, \"current_city\": \"San Diego\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Action City, Eau Claire;Action Stations, Portsmouth;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 3, \"current_city\": \"San Diego → San Luis Obispo\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Action Stations, Portsmouth;Adado Riverfront Park, Lansing;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 4, \"current_city\": \"San Luis Obispo\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 5, \"current_city\": \"San Luis Obispo → Los Angeles\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 6, \"current_city\": \"Los Angeles\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 7, \"current_city\": \"Los Angeles → Salt Lake City\", \"transportation\": \"Flight from California to Salt Lake City\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "San Diego",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 2,
+                "current_city": "San Diego",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 3,
+                "current_city": "San Diego → San Luis Obispo",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 4,
+                "current_city": "San Luis Obispo",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 5,
+                "current_city": "San Luis Obispo → Los Angeles",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 6,
+                "current_city": "Los Angeles",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 7,
+                "current_city": "Los Angeles → Salt Lake City",
+                "transportation": "Flight from California to Salt Lake City",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

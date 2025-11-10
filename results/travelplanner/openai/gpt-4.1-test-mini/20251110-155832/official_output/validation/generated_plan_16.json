@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Orlando to Belleville\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 2, \"current_city\": \"Belleville\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 3, \"current_city\": \"Belleville to Chicago\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 4, \"current_city\": \"Chicago\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 5, \"current_city\": \"Chicago to Orlando\", \"transportation\": \"Flight from Illinois to Orlando\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Orlando to Belleville",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 2,
+                "current_city": "Belleville",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 3,
+                "current_city": "Belleville to Chicago",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 4,
+                "current_city": "Chicago",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 5,
+                "current_city": "Chicago to Orlando",
+                "transportation": "Flight from Illinois to Orlando",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
