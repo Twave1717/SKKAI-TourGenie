@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Islip to Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 2, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 3, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 4, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 5, \"current_city\": \"Pennsylvania\", \"transportation\": \"Flight from Pennsylvania to Islip\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Adventure City, Santa Ana;Adventure Hilton Head, Hilton Head;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Islip to Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 2,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 3,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 4,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 5,
+                "current_city": "Pennsylvania",
+                "transportation": "Flight from Pennsylvania to Islip",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Adventure City, Santa Ana;Adventure Hilton Head, Hilton Head;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

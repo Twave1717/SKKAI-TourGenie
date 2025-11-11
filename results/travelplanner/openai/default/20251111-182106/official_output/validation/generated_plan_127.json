@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Daytona Beach to Atlanta\", \"transportation\": \"Flight Number: F0300730, from Daytona Beach to Atlanta, Departure Time: 18:33, Arrival Time: 19:57, Price: 100\", \"breakfast\": \"Saut愆ed Stories, Atlanta; Cost: 36\", \"lunch\": \"Baba Au Rhum, Atlanta; Cost: 27\", \"dinner\": \"The Chinese & Thai Restaurant, Atlanta; Cost: 57\", \"attraction\": \"Krog Street Tunnel, Atlanta;LEGO Discovery Center Atlanta, Atlanta;\", \"accommodation\": \"Sunny, Friendly, Brooklyn Apartment, Atlanta; Cost: 874 per night (~2622)\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Shri Ram Restaurant, Atlanta; Cost: 55\", \"lunch\": \"Bengali Sweet House, Atlanta; Cost: 39\", \"dinner\": \"Ahata, Atlanta; Cost: 17\", \"attraction\": \"LEGO Discovery Center Atlanta, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;\", \"accommodation\": \"THE WHITE HOUSE BEDROOM 1, Atlanta; Cost: 654 per night (~1962)\"}, {\"days\": 3, \"current_city\": \"Atlanta\", \"transportation\": \"Flight from Atlanta to Daytona Beach\", \"breakfast\": \"Taste of Vishal, Atlanta; Cost: 13\", \"lunch\": \"Caboose X Cafe & Lounge, Atlanta; Cost: 23\", \"dinner\": \"Asian Bistro, Atlanta; Cost: 27\", \"attraction\": \"Martin Luther King, Jr. National Historical Park, Atlanta;Original Selfie Museum | Atlanta, Atlanta;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Daytona Beach to Atlanta",
+                "transportation": "Flight Number: F0300730, from Daytona Beach to Atlanta, Departure Time: 18:33, Arrival Time: 19:57, Price: 100",
+                "breakfast": "Saut愆ed Stories, Atlanta; Cost: 36",
+                "lunch": "Baba Au Rhum, Atlanta; Cost: 27",
+                "dinner": "The Chinese & Thai Restaurant, Atlanta; Cost: 57",
+                "attraction": "Krog Street Tunnel, Atlanta;LEGO Discovery Center Atlanta, Atlanta;",
+                "accommodation": "Sunny, Friendly, Brooklyn Apartment, Atlanta; Cost: 874 per night (~2622)"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Shri Ram Restaurant, Atlanta; Cost: 55",
+                "lunch": "Bengali Sweet House, Atlanta; Cost: 39",
+                "dinner": "Ahata, Atlanta; Cost: 17",
+                "attraction": "LEGO Discovery Center Atlanta, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;",
+                "accommodation": "THE WHITE HOUSE BEDROOM 1, Atlanta; Cost: 654 per night (~1962)"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta",
+                "transportation": "Flight from Atlanta to Daytona Beach",
+                "breakfast": "Taste of Vishal, Atlanta; Cost: 13",
+                "lunch": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+                "dinner": "Asian Bistro, Atlanta; Cost: 27",
+                "attraction": "Martin Luther King, Jr. National Historical Park, Atlanta;Original Selfie Museum | Atlanta, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

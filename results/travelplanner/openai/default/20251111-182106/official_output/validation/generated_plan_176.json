@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Chattanooga to Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 2, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 3, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 4, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 5, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 6, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Ager House, Eau Claire;Agingan Point, Saipan;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 7, \"current_city\": \"Georgia\", \"transportation\": \"Flight from Georgia to Chattanooga\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Agingan Point, Saipan;Agua Caliente Cultural Museum, Palm Springs;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chattanooga to Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 2,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 3,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 4,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 5,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 6,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Ager House, Eau Claire;Agingan Point, Saipan;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 7,
+                "current_city": "Georgia",
+                "transportation": "Flight from Georgia to Chattanooga",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Agingan Point, Saipan;Agua Caliente Cultural Museum, Palm Springs;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

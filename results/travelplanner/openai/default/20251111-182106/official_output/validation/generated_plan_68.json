@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Las Vegas to Santa Maria\", \"transportation\": \"Flight Number: F0912564, from Las Vegas to Santa Maria, Departure Time: 21:32, Arrival Time: 23:02, Price: 120\", \"breakfast\": \"Food Junkies, Santa Maria; Cost: 70\", \"lunch\": \"Raju Halwai, Santa Maria; Cost: 40\", \"dinner\": \"Moti Mahal Delux, Santa Maria; Cost: 94\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Boomers Santa Maria, Santa Maria;\", \"accommodation\": \"Crown Hts Beauty: Quiet and Cozy!, Santa Maria; Cost: 1054 per night (~7378)\"}, {\"days\": 2, \"current_city\": \"Santa Maria\", \"transportation\": \"Taxi in Santa Maria; Cost: 50\", \"breakfast\": \"Jungli Moon Dance Restaurant, Santa Maria; Cost: 70\", \"lunch\": \"The Anna, Santa Maria; Cost: 68\", \"dinner\": \"PappaRich, Santa Maria; Cost: 26\", \"attraction\": \"Boomers Santa Maria, Santa Maria;Costa de Oro Winery, Santa Maria;\", \"accommodation\": \"Crown Hts Beauty: Quiet and Cozy!, Santa Maria; Cost: 1054 per night (~7378)\"}, {\"days\": 3, \"current_city\": \"Santa Maria\", \"transportation\": \"Flight from Santa Maria to Las Vegas\", \"breakfast\": \"London Street Kitchen, Santa Maria; Cost: 90\", \"lunch\": \"The Drunk House, Santa Maria; Cost: 91\", \"dinner\": \"Punjabi Rasoi, Santa Maria; Cost: 11\", \"attraction\": \"Costa de Oro Winery, Santa Maria;Jim May Park, Santa Maria;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Las Vegas to Santa Maria",
+                "transportation": "Flight Number: F0912564, from Las Vegas to Santa Maria, Departure Time: 21:32, Arrival Time: 23:02, Price: 120",
+                "breakfast": "Food Junkies, Santa Maria; Cost: 70",
+                "lunch": "Raju Halwai, Santa Maria; Cost: 40",
+                "dinner": "Moti Mahal Delux, Santa Maria; Cost: 94",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Boomers Santa Maria, Santa Maria;",
+                "accommodation": "Crown Hts Beauty: Quiet and Cozy!, Santa Maria; Cost: 1054 per night (~7378)"
+            },
+            {
+                "days": 2,
+                "current_city": "Santa Maria",
+                "transportation": "Taxi in Santa Maria; Cost: 50",
+                "breakfast": "Jungli Moon Dance Restaurant, Santa Maria; Cost: 70",
+                "lunch": "The Anna, Santa Maria; Cost: 68",
+                "dinner": "PappaRich, Santa Maria; Cost: 26",
+                "attraction": "Boomers Santa Maria, Santa Maria;Costa de Oro Winery, Santa Maria;",
+                "accommodation": "Crown Hts Beauty: Quiet and Cozy!, Santa Maria; Cost: 1054 per night (~7378)"
+            },
+            {
+                "days": 3,
+                "current_city": "Santa Maria",
+                "transportation": "Flight from Santa Maria to Las Vegas",
+                "breakfast": "London Street Kitchen, Santa Maria; Cost: 90",
+                "lunch": "The Drunk House, Santa Maria; Cost: 91",
+                "dinner": "Punjabi Rasoi, Santa Maria; Cost: 11",
+                "attraction": "Costa de Oro Winery, Santa Maria;Jim May Park, Santa Maria;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

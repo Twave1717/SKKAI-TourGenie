@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Washington to Myrtle Beach\", \"transportation\": \"Flight Number: F0000673, from Washington to Myrtle Beach, Departure Time: 12:35, Arrival Time: 14:06, Price: 180\", \"breakfast\": \"Allure, Myrtle Beach; Cost: 71\", \"lunch\": \"La Pino'z Pizza, Myrtle Beach; Cost: 14\", \"dinner\": \"Dakshin Platter, Myrtle Beach; Cost: 56\", \"attraction\": \"Broadway at the Beach, Myrtle Beach;Dinopark, Myrtle Beach;\", \"accommodation\": \"Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)\"}, {\"days\": 2, \"current_city\": \"Myrtle Beach\", \"transportation\": \"Taxi in Myrtle Beach; Cost: 50\", \"breakfast\": \"Bread & Pasta, Myrtle Beach; Cost: 37\", \"lunch\": \"Negi Restaurant, Myrtle Beach; Cost: 46\", \"dinner\": \"Exotic India, Myrtle Beach; Cost: 81\", \"attraction\": \"Dinopark, Myrtle Beach;Family Kingdom Amusement Park, Myrtle Beach;\", \"accommodation\": \"Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)\"}, {\"days\": 3, \"current_city\": \"Myrtle Beach\", \"transportation\": \"Flight from Myrtle Beach to Washington\", \"breakfast\": \"Catfish Charlie's, Myrtle Beach; Cost: 14\", \"lunch\": \"Rasoi - The Indian Zaika, Myrtle Beach; Cost: 88\", \"dinner\": \"Kedarnath Prem Chand Halwai, Myrtle Beach; Cost: 61\", \"attraction\": \"Family Kingdom Amusement Park, Myrtle Beach;Free Fall Thrill Park, Myrtle Beach;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to Myrtle Beach",
+                "transportation": "Flight Number: F0000673, from Washington to Myrtle Beach, Departure Time: 12:35, Arrival Time: 14:06, Price: 180",
+                "breakfast": "Allure, Myrtle Beach; Cost: 71",
+                "lunch": "La Pino'z Pizza, Myrtle Beach; Cost: 14",
+                "dinner": "Dakshin Platter, Myrtle Beach; Cost: 56",
+                "attraction": "Broadway at the Beach, Myrtle Beach;Dinopark, Myrtle Beach;",
+                "accommodation": "Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)"
+            },
+            {
+                "days": 2,
+                "current_city": "Myrtle Beach",
+                "transportation": "Taxi in Myrtle Beach; Cost: 50",
+                "breakfast": "Bread & Pasta, Myrtle Beach; Cost: 37",
+                "lunch": "Negi Restaurant, Myrtle Beach; Cost: 46",
+                "dinner": "Exotic India, Myrtle Beach; Cost: 81",
+                "attraction": "Dinopark, Myrtle Beach;Family Kingdom Amusement Park, Myrtle Beach;",
+                "accommodation": "Adorable Polly Pocket-Sized Prospect Heights Space, Myrtle Beach; Cost: 397 per night (~1191)"
+            },
+            {
+                "days": 3,
+                "current_city": "Myrtle Beach",
+                "transportation": "Flight from Myrtle Beach to Washington",
+                "breakfast": "Catfish Charlie's, Myrtle Beach; Cost: 14",
+                "lunch": "Rasoi - The Indian Zaika, Myrtle Beach; Cost: 88",
+                "dinner": "Kedarnath Prem Chand Halwai, Myrtle Beach; Cost: 61",
+                "attraction": "Family Kingdom Amusement Park, Myrtle Beach;Free Fall Thrill Park, Myrtle Beach;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

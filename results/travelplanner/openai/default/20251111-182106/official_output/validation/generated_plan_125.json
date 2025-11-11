@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from New York to Charleston\", \"transportation\": \"Flight Number: F0136389, from New York to Charleston, Departure Time: 10:35, Arrival Time: 12:30, Price: 286\", \"breakfast\": \"Makansutra Gluttons Bay, Charleston; Cost: 84\", \"lunch\": \"Sethi's Food Corner, Charleston; Cost: 61\", \"dinner\": \"Pebble Street, Charleston; Cost: 37\", \"attraction\": \"Magnolia Plantation and Gardens, Charleston;McLeod Plantation Historic Site, Charleston;\", \"accommodation\": \"Cozy & Quiet 2 Bedroom / Heart of Lower Manhattan, Charleston; Cost: 791 per night (~2373)\"}, {\"days\": 2, \"current_city\": \"Charleston\", \"transportation\": \"Taxi in Charleston; Cost: 50\", \"breakfast\": \"Midnight Adda, Charleston; Cost: 47\", \"lunch\": \"Singh's Kitchen, Charleston; Cost: 32\", \"dinner\": \"Roka, Charleston; Cost: 84\", \"attraction\": \"McLeod Plantation Historic Site, Charleston;Middleton Place, Charleston;\", \"accommodation\": \"Cozy & Quiet 2 Bedroom / Heart of Lower Manhattan, Charleston; Cost: 791 per night (~2373)\"}, {\"days\": 3, \"current_city\": \"Charleston\", \"transportation\": \"Flight from Charleston to New York\", \"breakfast\": \"Nagpal's, Charleston; Cost: 10\", \"lunch\": \"Super Loco, Charleston; Cost: 76\", \"dinner\": \"Santushti, Charleston; Cost: 31\", \"attraction\": \"Middleton Place, Charleston;Nathaniel Russell House, Charleston;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Charleston",
+                "transportation": "Flight Number: F0136389, from New York to Charleston, Departure Time: 10:35, Arrival Time: 12:30, Price: 286",
+                "breakfast": "Makansutra Gluttons Bay, Charleston; Cost: 84",
+                "lunch": "Sethi's Food Corner, Charleston; Cost: 61",
+                "dinner": "Pebble Street, Charleston; Cost: 37",
+                "attraction": "Magnolia Plantation and Gardens, Charleston;McLeod Plantation Historic Site, Charleston;",
+                "accommodation": "Cozy & Quiet 2 Bedroom / Heart of Lower Manhattan, Charleston; Cost: 791 per night (~2373)"
+            },
+            {
+                "days": 2,
+                "current_city": "Charleston",
+                "transportation": "Taxi in Charleston; Cost: 50",
+                "breakfast": "Midnight Adda, Charleston; Cost: 47",
+                "lunch": "Singh's Kitchen, Charleston; Cost: 32",
+                "dinner": "Roka, Charleston; Cost: 84",
+                "attraction": "McLeod Plantation Historic Site, Charleston;Middleton Place, Charleston;",
+                "accommodation": "Cozy & Quiet 2 Bedroom / Heart of Lower Manhattan, Charleston; Cost: 791 per night (~2373)"
+            },
+            {
+                "days": 3,
+                "current_city": "Charleston",
+                "transportation": "Flight from Charleston to New York",
+                "breakfast": "Nagpal's, Charleston; Cost: 10",
+                "lunch": "Super Loco, Charleston; Cost: 76",
+                "dinner": "Santushti, Charleston; Cost: 31",
+                "attraction": "Middleton Place, Charleston;Nathaniel Russell House, Charleston;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

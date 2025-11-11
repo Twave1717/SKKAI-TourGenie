@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Minneapolis to Seattle\", \"transportation\": \"Flight Number: F0243745, from Minneapolis to Seattle, Departure Time: 15:29, Arrival Time: 17:14, Price: 380\", \"breakfast\": \"Foodizm, Seattle; Cost: 68\", \"lunch\": \"The Sassy Spoon, Seattle; Cost: 29\", \"dinner\": \"Munch Nation, Seattle; Cost: 55\", \"attraction\": \"Seattle Art Museum, Seattle;Seattle Center, Seattle;\", \"accommodation\": \"private spacious LES bedroom, Seattle; Cost: 325 per night (~975)\"}, {\"days\": 2, \"current_city\": \"Seattle\", \"transportation\": \"Taxi in Seattle; Cost: 50\", \"breakfast\": \"Goli Vada Pav No. 1, Seattle; Cost: 31\", \"lunch\": \"Wow! Momo, Seattle; Cost: 28\", \"dinner\": \"Tawa King, Seattle; Cost: 74\", \"attraction\": \"Seattle Center, Seattle;Sky View Observatory - Columbia Center, Seattle;\", \"accommodation\": \"private spacious LES bedroom, Seattle; Cost: 325 per night (~975)\"}, {\"days\": 3, \"current_city\": \"Seattle\", \"transportation\": \"Flight from Seattle to Minneapolis\", \"breakfast\": \"Mother Ringlet, Seattle; Cost: 63\", \"lunch\": \"Cafe Coffee Day, Seattle; Cost: 79\", \"dinner\": \"The Golden Dragon, Seattle; Cost: 15\", \"attraction\": \"Sky View Observatory - Columbia Center, Seattle;Smith Tower, Seattle;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Minneapolis to Seattle",
+                "transportation": "Flight Number: F0243745, from Minneapolis to Seattle, Departure Time: 15:29, Arrival Time: 17:14, Price: 380",
+                "breakfast": "Foodizm, Seattle; Cost: 68",
+                "lunch": "The Sassy Spoon, Seattle; Cost: 29",
+                "dinner": "Munch Nation, Seattle; Cost: 55",
+                "attraction": "Seattle Art Museum, Seattle;Seattle Center, Seattle;",
+                "accommodation": "private spacious LES bedroom, Seattle; Cost: 325 per night (~975)"
+            },
+            {
+                "days": 2,
+                "current_city": "Seattle",
+                "transportation": "Taxi in Seattle; Cost: 50",
+                "breakfast": "Goli Vada Pav No. 1, Seattle; Cost: 31",
+                "lunch": "Wow! Momo, Seattle; Cost: 28",
+                "dinner": "Tawa King, Seattle; Cost: 74",
+                "attraction": "Seattle Center, Seattle;Sky View Observatory - Columbia Center, Seattle;",
+                "accommodation": "private spacious LES bedroom, Seattle; Cost: 325 per night (~975)"
+            },
+            {
+                "days": 3,
+                "current_city": "Seattle",
+                "transportation": "Flight from Seattle to Minneapolis",
+                "breakfast": "Mother Ringlet, Seattle; Cost: 63",
+                "lunch": "Cafe Coffee Day, Seattle; Cost: 79",
+                "dinner": "The Golden Dragon, Seattle; Cost: 15",
+                "attraction": "Sky View Observatory - Columbia Center, Seattle;Smith Tower, Seattle;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

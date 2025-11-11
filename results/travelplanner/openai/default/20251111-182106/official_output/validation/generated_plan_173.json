@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Fort Lauderdale to Louisiana\", \"transportation\": \"Taxi in Louisiana; Cost: 50\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;\", \"accommodation\": \"Accommodation, Louisiana\"}, {\"days\": 2, \"current_city\": \"Louisiana\", \"transportation\": \"Taxi in Louisiana; Cost: 50\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;\", \"accommodation\": \"Accommodation, Louisiana\"}, {\"days\": 3, \"current_city\": \"Louisiana\", \"transportation\": \"Taxi in Louisiana; Cost: 50\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;\", \"accommodation\": \"Accommodation, Louisiana\"}, {\"days\": 4, \"current_city\": \"Louisiana\", \"transportation\": \"Taxi in Louisiana; Cost: 50\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"Accommodation, Louisiana\"}, {\"days\": 5, \"current_city\": \"Louisiana\", \"transportation\": \"Taxi in Louisiana; Cost: 50\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;\", \"accommodation\": \"Accommodation, Louisiana\"}, {\"days\": 6, \"current_city\": \"Louisiana\", \"transportation\": \"Taxi in Louisiana; Cost: 50\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;\", \"accommodation\": \"Accommodation, Louisiana\"}, {\"days\": 7, \"current_city\": \"Louisiana\", \"transportation\": \"Flight from Louisiana to Fort Lauderdale\", \"breakfast\": \"Restaurant, Louisiana\", \"lunch\": \"Restaurant, Louisiana\", \"dinner\": \"Restaurant, Louisiana\", \"attraction\": \"African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Fort Lauderdale to Louisiana",
+                "transportation": "Taxi in Louisiana; Cost: 50",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;",
+                "accommodation": "Accommodation, Louisiana"
+            },
+            {
+                "days": 2,
+                "current_city": "Louisiana",
+                "transportation": "Taxi in Louisiana; Cost: 50",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;",
+                "accommodation": "Accommodation, Louisiana"
+            },
+            {
+                "days": 3,
+                "current_city": "Louisiana",
+                "transportation": "Taxi in Louisiana; Cost: 50",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;",
+                "accommodation": "Accommodation, Louisiana"
+            },
+            {
+                "days": 4,
+                "current_city": "Louisiana",
+                "transportation": "Taxi in Louisiana; Cost: 50",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "Accommodation, Louisiana"
+            },
+            {
+                "days": 5,
+                "current_city": "Louisiana",
+                "transportation": "Taxi in Louisiana; Cost: 50",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;",
+                "accommodation": "Accommodation, Louisiana"
+            },
+            {
+                "days": 6,
+                "current_city": "Louisiana",
+                "transportation": "Taxi in Louisiana; Cost: 50",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;",
+                "accommodation": "Accommodation, Louisiana"
+            },
+            {
+                "days": 7,
+                "current_city": "Louisiana",
+                "transportation": "Flight from Louisiana to Fort Lauderdale",
+                "breakfast": "Restaurant, Louisiana",
+                "lunch": "Restaurant, Louisiana",
+                "dinner": "Restaurant, Louisiana",
+                "attraction": "African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

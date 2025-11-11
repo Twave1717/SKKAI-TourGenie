@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Dallas to Nebraska\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 2, \"current_city\": \"Nebraska\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 3, \"current_city\": \"Nebraska\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 4, \"current_city\": \"Nebraska\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 5, \"current_city\": \"Nebraska\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 6, \"current_city\": \"Nebraska\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 7, \"current_city\": \"Nebraska\", \"transportation\": \"Flight from Nebraska to Dallas\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Dallas to Nebraska",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 2,
+                "current_city": "Nebraska",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 3,
+                "current_city": "Nebraska",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 4,
+                "current_city": "Nebraska",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 5,
+                "current_city": "Nebraska",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 6,
+                "current_city": "Nebraska",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 7,
+                "current_city": "Nebraska",
+                "transportation": "Flight from Nebraska to Dallas",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

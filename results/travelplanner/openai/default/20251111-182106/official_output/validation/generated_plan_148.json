@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Minneapolis to Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 2, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 3, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 4, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 5, \"current_city\": \"Tennessee\", \"transportation\": \"Flight from Tennessee to Minneapolis\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Minneapolis to Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 2,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 3,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 4,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 5,
+                "current_city": "Tennessee",
+                "transportation": "Flight from Tennessee to Minneapolis",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

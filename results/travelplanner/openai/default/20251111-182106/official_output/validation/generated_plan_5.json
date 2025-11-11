@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from West Palm Beach to Atlanta\", \"transportation\": \"Flight Number: F0024217, from West Palm Beach to Atlanta, Departure Time: 12:06, Arrival Time: 13:42, Price: 213\", \"breakfast\": \"Baba Au Rhum, Atlanta; Cost: 27\", \"lunch\": \"Deepika Khaitan's Cakes, Atlanta; Cost: 41\", \"dinner\": \"Chai Thela, Atlanta; Cost: 82\", \"attraction\": \"Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;\", \"accommodation\": \"Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Bengali Sweet House, Atlanta; Cost: 39\", \"lunch\": \"Jagram Dhaba, Atlanta; Cost: 69\", \"dinner\": \"Chef Style, Atlanta; Cost: 59\", \"attraction\": \"Folk Art Park, Atlanta;Fox Theatre, Atlanta;\", \"accommodation\": \"Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)\"}, {\"days\": 3, \"current_city\": \"Atlanta\", \"transportation\": \"Flight from Atlanta to West Palm Beach\", \"breakfast\": \"Caboose X Cafe & Lounge, Atlanta; Cost: 23\", \"lunch\": \"Punjab Restaurant, Atlanta; Cost: 30\", \"dinner\": \"Daawat-e-Kashmir, Atlanta; Cost: 19\", \"attraction\": \"Fox Theatre, Atlanta;Georgia Aquarium, Atlanta;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from West Palm Beach to Atlanta",
+                "transportation": "Flight Number: F0024217, from West Palm Beach to Atlanta, Departure Time: 12:06, Arrival Time: 13:42, Price: 213",
+                "breakfast": "Baba Au Rhum, Atlanta; Cost: 27",
+                "lunch": "Deepika Khaitan's Cakes, Atlanta; Cost: 41",
+                "dinner": "Chai Thela, Atlanta; Cost: 82",
+                "attraction": "Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;",
+                "accommodation": "Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Bengali Sweet House, Atlanta; Cost: 39",
+                "lunch": "Jagram Dhaba, Atlanta; Cost: 69",
+                "dinner": "Chef Style, Atlanta; Cost: 59",
+                "attraction": "Folk Art Park, Atlanta;Fox Theatre, Atlanta;",
+                "accommodation": "Fantastic Room in Bushwick, Atlanta; Cost: 1069 per night (~3207)"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta",
+                "transportation": "Flight from Atlanta to West Palm Beach",
+                "breakfast": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+                "lunch": "Punjab Restaurant, Atlanta; Cost: 30",
+                "dinner": "Daawat-e-Kashmir, Atlanta; Cost: 19",
+                "attraction": "Fox Theatre, Atlanta;Georgia Aquarium, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Key West to Indiana\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 2, \"current_city\": \"Indiana\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 3, \"current_city\": \"Indiana\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 4, \"current_city\": \"Indiana\", \"transportation\": \"Taxi in Indiana; Cost: 50\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;\", \"accommodation\": \"Accommodation, Indiana\"}, {\"days\": 5, \"current_city\": \"Indiana\", \"transportation\": \"Flight from Indiana to Key West\", \"breakfast\": \"Restaurant, Indiana\", \"lunch\": \"Restaurant, Indiana\", \"dinner\": \"Restaurant, Indiana\", \"attraction\": \"A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Key West to Indiana",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 2,
+                "current_city": "Indiana",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 3,
+                "current_city": "Indiana",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 4,
+                "current_city": "Indiana",
+                "transportation": "Taxi in Indiana; Cost: 50",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+                "accommodation": "Accommodation, Indiana"
+            },
+            {
+                "days": 5,
+                "current_city": "Indiana",
+                "transportation": "Flight from Indiana to Key West",
+                "breakfast": "Restaurant, Indiana",
+                "lunch": "Restaurant, Indiana",
+                "dinner": "Restaurant, Indiana",
+                "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

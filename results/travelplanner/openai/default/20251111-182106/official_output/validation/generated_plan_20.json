@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Providence to Orlando\", \"transportation\": \"Flight Number: F0034191, from Providence to Orlando, Departure Time: 18:28, Arrival Time: 21:18, Price: 467\", \"breakfast\": \"Pizza Hut, Orlando; Cost: 35\", \"lunch\": \"Crust N Cakes, Orlando; Cost: 61\", \"dinner\": \"Vaango!, Orlando; Cost: 32\", \"attraction\": \"Crayola Experience Orlando, Orlando;Fun Spot America Theme Parks, Orlando;\", \"accommodation\": \"BKLYN Brownstone- Glam Getaway!, Orlando; Cost: 287 per night (~861)\"}, {\"days\": 2, \"current_city\": \"Orlando\", \"transportation\": \"Taxi in Orlando; Cost: 50\", \"breakfast\": \"Shivani Catering Services, Orlando; Cost: 75\", \"lunch\": \"Dips, Orlando; Cost: 56\", \"dinner\": \"Always Eat Green, Orlando; Cost: 98\", \"attraction\": \"Fun Spot America Theme Parks, Orlando;Gatorland, Orlando;\", \"accommodation\": \"BKLYN Brownstone- Glam Getaway!, Orlando; Cost: 287 per night (~861)\"}, {\"days\": 3, \"current_city\": \"Orlando\", \"transportation\": \"Flight from Orlando to Providence\", \"breakfast\": \"Turquoise Villa, Orlando; Cost: 55\", \"lunch\": \"Fuji Japanese Steakhouse, Orlando; Cost: 75\", \"dinner\": \"Chaayos, Orlando; Cost: 73\", \"attraction\": \"Gatorland, Orlando;Harry P Leu Gardens, Orlando;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Providence to Orlando",
+                "transportation": "Flight Number: F0034191, from Providence to Orlando, Departure Time: 18:28, Arrival Time: 21:18, Price: 467",
+                "breakfast": "Pizza Hut, Orlando; Cost: 35",
+                "lunch": "Crust N Cakes, Orlando; Cost: 61",
+                "dinner": "Vaango!, Orlando; Cost: 32",
+                "attraction": "Crayola Experience Orlando, Orlando;Fun Spot America Theme Parks, Orlando;",
+                "accommodation": "BKLYN Brownstone- Glam Getaway!, Orlando; Cost: 287 per night (~861)"
+            },
+            {
+                "days": 2,
+                "current_city": "Orlando",
+                "transportation": "Taxi in Orlando; Cost: 50",
+                "breakfast": "Shivani Catering Services, Orlando; Cost: 75",
+                "lunch": "Dips, Orlando; Cost: 56",
+                "dinner": "Always Eat Green, Orlando; Cost: 98",
+                "attraction": "Fun Spot America Theme Parks, Orlando;Gatorland, Orlando;",
+                "accommodation": "BKLYN Brownstone- Glam Getaway!, Orlando; Cost: 287 per night (~861)"
+            },
+            {
+                "days": 3,
+                "current_city": "Orlando",
+                "transportation": "Flight from Orlando to Providence",
+                "breakfast": "Turquoise Villa, Orlando; Cost: 55",
+                "lunch": "Fuji Japanese Steakhouse, Orlando; Cost: 75",
+                "dinner": "Chaayos, Orlando; Cost: 73",
+                "attraction": "Gatorland, Orlando;Harry P Leu Gardens, Orlando;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

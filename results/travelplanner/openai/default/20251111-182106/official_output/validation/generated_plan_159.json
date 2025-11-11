@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Chicago to North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Action Stations, Portsmouth;Adado Riverfront Park, Lansing;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 2, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 3, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 4, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 5, \"current_city\": \"North Carolina\", \"transportation\": \"Flight from North Carolina to Chicago\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chicago to North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 2,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 3,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 4,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 5,
+                "current_city": "North Carolina",
+                "transportation": "Flight from North Carolina to Chicago",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Fort Lauderdale to Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 2, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 3, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 4, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 5, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 6, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 7, \"current_city\": \"Georgia\", \"transportation\": \"Flight from Georgia to Fort Lauderdale\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Fort Lauderdale to Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 2,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 3,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 4,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 5,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 6,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 7,
+                "current_city": "Georgia",
+                "transportation": "Flight from Georgia to Fort Lauderdale",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

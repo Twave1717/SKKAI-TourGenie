@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Richmond to Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 2, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 3, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 4, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 5, \"current_city\": \"Tennessee\", \"transportation\": \"Flight from Tennessee to Richmond\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Richmond to Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 2,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 3,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 4,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 5,
+                "current_city": "Tennessee",
+                "transportation": "Flight from Tennessee to Richmond",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

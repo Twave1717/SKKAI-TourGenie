@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Charlotte to Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 2, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 3, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 4, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 5, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 6, \"current_city\": \"Pennsylvania\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 7, \"current_city\": \"Pennsylvania\", \"transportation\": \"Flight from Pennsylvania to Charlotte\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Charlotte to Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 2,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 3,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 4,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 5,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 6,
+                "current_city": "Pennsylvania",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 7,
+                "current_city": "Pennsylvania",
+                "transportation": "Flight from Pennsylvania to Charlotte",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

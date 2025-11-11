@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Newark to Ohio\", \"transportation\": \"Taxi in Ohio; Cost: 50\", \"breakfast\": \"Restaurant, Ohio\", \"lunch\": \"Restaurant, Ohio\", \"dinner\": \"Restaurant, Ohio\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"Accommodation, Ohio\"}, {\"days\": 2, \"current_city\": \"Ohio\", \"transportation\": \"Taxi in Ohio; Cost: 50\", \"breakfast\": \"Restaurant, Ohio\", \"lunch\": \"Restaurant, Ohio\", \"dinner\": \"Restaurant, Ohio\", \"attraction\": \"Action City, Eau Claire;Action Stations, Portsmouth;\", \"accommodation\": \"Accommodation, Ohio\"}, {\"days\": 3, \"current_city\": \"Ohio\", \"transportation\": \"Taxi in Ohio; Cost: 50\", \"breakfast\": \"Restaurant, Ohio\", \"lunch\": \"Restaurant, Ohio\", \"dinner\": \"Restaurant, Ohio\", \"attraction\": \"Action Stations, Portsmouth;Adado Riverfront Park, Lansing;\", \"accommodation\": \"Accommodation, Ohio\"}, {\"days\": 4, \"current_city\": \"Ohio\", \"transportation\": \"Taxi in Ohio; Cost: 50\", \"breakfast\": \"Restaurant, Ohio\", \"lunch\": \"Restaurant, Ohio\", \"dinner\": \"Restaurant, Ohio\", \"attraction\": \"Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;\", \"accommodation\": \"Accommodation, Ohio\"}, {\"days\": 5, \"current_city\": \"Ohio\", \"transportation\": \"Flight from Ohio to Newark\", \"breakfast\": \"Restaurant, Ohio\", \"lunch\": \"Restaurant, Ohio\", \"dinner\": \"Restaurant, Ohio\", \"attraction\": \"Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Newark to Ohio",
+                "transportation": "Taxi in Ohio; Cost: 50",
+                "breakfast": "Restaurant, Ohio",
+                "lunch": "Restaurant, Ohio",
+                "dinner": "Restaurant, Ohio",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "Accommodation, Ohio"
+            },
+            {
+                "days": 2,
+                "current_city": "Ohio",
+                "transportation": "Taxi in Ohio; Cost: 50",
+                "breakfast": "Restaurant, Ohio",
+                "lunch": "Restaurant, Ohio",
+                "dinner": "Restaurant, Ohio",
+                "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+                "accommodation": "Accommodation, Ohio"
+            },
+            {
+                "days": 3,
+                "current_city": "Ohio",
+                "transportation": "Taxi in Ohio; Cost: 50",
+                "breakfast": "Restaurant, Ohio",
+                "lunch": "Restaurant, Ohio",
+                "dinner": "Restaurant, Ohio",
+                "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+                "accommodation": "Accommodation, Ohio"
+            },
+            {
+                "days": 4,
+                "current_city": "Ohio",
+                "transportation": "Taxi in Ohio; Cost: 50",
+                "breakfast": "Restaurant, Ohio",
+                "lunch": "Restaurant, Ohio",
+                "dinner": "Restaurant, Ohio",
+                "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+                "accommodation": "Accommodation, Ohio"
+            },
+            {
+                "days": 5,
+                "current_city": "Ohio",
+                "transportation": "Flight from Ohio to Newark",
+                "breakfast": "Restaurant, Ohio",
+                "lunch": "Restaurant, Ohio",
+                "dinner": "Restaurant, Ohio",
+                "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Houston to Pensacola\", \"transportation\": \"Flight Number: F0104379, from Houston to Pensacola, Departure Time: 15:15, Arrival Time: 16:30, Price: 105\", \"breakfast\": \"Shree Balaji Bhojnalaya, Pensacola; Cost: 93\", \"lunch\": \"Ekim Burgers, Pensacola; Cost: 33\", \"dinner\": \"Bailey's Bar-B-Que, Pensacola; Cost: 13\", \"attraction\": \"Pensacola Lighthouse & Maritime Museum, Pensacola;Pensacola MESS Hall, Pensacola;\", \"accommodation\": \"Cozy 1-Bedroom Apartment 2 Blocks from the Subway, Pensacola; Cost: 339 per night (~1017)\"}, {\"days\": 2, \"current_city\": \"Pensacola\", \"transportation\": \"Taxi in Pensacola; Cost: 50\", \"breakfast\": \"South Indian Hut, Pensacola; Cost: 48\", \"lunch\": \"Fruitpro, Pensacola; Cost: 95\", \"dinner\": \"Chicago Pizza, Pensacola; Cost: 32\", \"attraction\": \"Pensacola MESS Hall, Pensacola;Pensacola Museum of Art, Pensacola;\", \"accommodation\": \"Cozy 1-Bedroom Apartment 2 Blocks from the Subway, Pensacola; Cost: 339 per night (~1017)\"}, {\"days\": 3, \"current_city\": \"Pensacola\", \"transportation\": \"Flight from Pensacola to Houston\", \"breakfast\": \"Watershed Cafe, Pensacola; Cost: 12\", \"lunch\": \"Jain Coffee House, Pensacola; Cost: 41\", \"dinner\": \"Eggspectation - Jaypee Siddharth, Pensacola; Cost: 25\", \"attraction\": \"Pensacola Museum of Art, Pensacola;Plaza De Luna Memorial Monument, Pensacola;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Houston to Pensacola",
+                "transportation": "Flight Number: F0104379, from Houston to Pensacola, Departure Time: 15:15, Arrival Time: 16:30, Price: 105",
+                "breakfast": "Shree Balaji Bhojnalaya, Pensacola; Cost: 93",
+                "lunch": "Ekim Burgers, Pensacola; Cost: 33",
+                "dinner": "Bailey's Bar-B-Que, Pensacola; Cost: 13",
+                "attraction": "Pensacola Lighthouse & Maritime Museum, Pensacola;Pensacola MESS Hall, Pensacola;",
+                "accommodation": "Cozy 1-Bedroom Apartment 2 Blocks from the Subway, Pensacola; Cost: 339 per night (~1017)"
+            },
+            {
+                "days": 2,
+                "current_city": "Pensacola",
+                "transportation": "Taxi in Pensacola; Cost: 50",
+                "breakfast": "South Indian Hut, Pensacola; Cost: 48",
+                "lunch": "Fruitpro, Pensacola; Cost: 95",
+                "dinner": "Chicago Pizza, Pensacola; Cost: 32",
+                "attraction": "Pensacola MESS Hall, Pensacola;Pensacola Museum of Art, Pensacola;",
+                "accommodation": "Cozy 1-Bedroom Apartment 2 Blocks from the Subway, Pensacola; Cost: 339 per night (~1017)"
+            },
+            {
+                "days": 3,
+                "current_city": "Pensacola",
+                "transportation": "Flight from Pensacola to Houston",
+                "breakfast": "Watershed Cafe, Pensacola; Cost: 12",
+                "lunch": "Jain Coffee House, Pensacola; Cost: 41",
+                "dinner": "Eggspectation - Jaypee Siddharth, Pensacola; Cost: 25",
+                "attraction": "Pensacola Museum of Art, Pensacola;Plaza De Luna Memorial Monument, Pensacola;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

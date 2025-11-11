@@ -8,6 +8,8 @@ from typing import Any, Dict, List, Optional
 import typer
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
 
+
+
 from benchmarks.travelplanner.eval_runner import (
     ensure_results_dir,
     example_to_query_record,
@@ -69,9 +71,9 @@ class SubmissionPayload(BaseModel):
     result_label: Optional[str] = None
     notes: Optional[str] = None
     predictions: List[SubmissionPrediction]
-
+    
     model_config = ConfigDict(extra="allow")
-
+    
     @field_validator("team", "workflow", "provider", "model", "split", mode="before")
     @classmethod
     def _strip_text(cls, value: str) -> str:

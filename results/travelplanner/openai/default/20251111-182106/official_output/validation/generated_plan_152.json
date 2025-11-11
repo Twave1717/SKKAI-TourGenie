@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Sun Valley to California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 2, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 3, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 4, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Ace of Clubs House, Texarkana;Acid Ball, Bellingham;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 5, \"current_city\": \"California\", \"transportation\": \"Flight from California to Sun Valley\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Acid Ball, Bellingham;Acropolis, Helena;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Sun Valley to California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 2,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 3,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 4,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 5,
+                "current_city": "California",
+                "transportation": "Flight from California to Sun Valley",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

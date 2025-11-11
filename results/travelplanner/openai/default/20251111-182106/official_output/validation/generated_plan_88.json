@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Syracuse to Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Ah-Nab-Awen Park, Grand Rapids;Ahukini Recreational Pier State Park, Lihue;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 2, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 3, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 4, \"current_city\": \"Georgia\", \"transportation\": \"Taxi in Georgia; Cost: 50\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;\", \"accommodation\": \"Accommodation, Georgia\"}, {\"days\": 5, \"current_city\": \"Georgia\", \"transportation\": \"Flight from Georgia to Syracuse\", \"breakfast\": \"Restaurant, Georgia\", \"lunch\": \"Restaurant, Georgia\", \"dinner\": \"Restaurant, Georgia\", \"attraction\": \"Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Syracuse to Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Ah-Nab-Awen Park, Grand Rapids;Ahukini Recreational Pier State Park, Lihue;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 2,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 3,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 4,
+                "current_city": "Georgia",
+                "transportation": "Taxi in Georgia; Cost: 50",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;",
+                "accommodation": "Accommodation, Georgia"
+            },
+            {
+                "days": 5,
+                "current_city": "Georgia",
+                "transportation": "Flight from Georgia to Syracuse",
+                "breakfast": "Restaurant, Georgia",
+                "lunch": "Restaurant, Georgia",
+                "dinner": "Restaurant, Georgia",
+                "attraction": "Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

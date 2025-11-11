@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Pittsburgh to Baltimore\", \"transportation\": \"Flight Number: F0017294, from Pittsburgh to Baltimore, Departure Time: 13:11, Arrival Time: 14:29, Price: 80\", \"breakfast\": \"G+, Baltimore; Cost: 33\", \"lunch\": \"Salt, Baltimore; Cost: 56\", \"dinner\": \"Mr. Dunderbak's Biergarten and Marketplatz, Baltimore; Cost: 74\", \"attraction\": \"Patterson Park, Baltimore;Pierce's Park, Baltimore;\", \"accommodation\": \"Manhattan Sunny Private Room, Baltimore; Cost: 650 per night (~3250)\"}, {\"days\": 2, \"current_city\": \"Baltimore\", \"transportation\": \"Taxi in Baltimore; Cost: 50\", \"breakfast\": \"JAL - A Jungle Restaurant, Baltimore; Cost: 46\", \"lunch\": \"Shree Ganesh M Cafe, Baltimore; Cost: 39\", \"dinner\": \"Rajshree, Baltimore; Cost: 13\", \"attraction\": \"Pierce's Park, Baltimore;Port Discovery Children's Museum, Baltimore;\", \"accommodation\": \"Manhattan Sunny Private Room, Baltimore; Cost: 650 per night (~3250)\"}, {\"days\": 3, \"current_city\": \"Baltimore\", \"transportation\": \"Flight from Baltimore to Pittsburgh\", \"breakfast\": \"Mocha Bar, Baltimore; Cost: 32\", \"lunch\": \"The Pirates Of China Town, Baltimore; Cost: 31\", \"dinner\": \"Sai Juice Point, Baltimore; Cost: 90\", \"attraction\": \"Port Discovery Children's Museum, Baltimore;The Baltimore Basilica, Baltimore;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Pittsburgh to Baltimore",
+                "transportation": "Flight Number: F0017294, from Pittsburgh to Baltimore, Departure Time: 13:11, Arrival Time: 14:29, Price: 80",
+                "breakfast": "G+, Baltimore; Cost: 33",
+                "lunch": "Salt, Baltimore; Cost: 56",
+                "dinner": "Mr. Dunderbak's Biergarten and Marketplatz, Baltimore; Cost: 74",
+                "attraction": "Patterson Park, Baltimore;Pierce's Park, Baltimore;",
+                "accommodation": "Manhattan Sunny Private Room, Baltimore; Cost: 650 per night (~3250)"
+            },
+            {
+                "days": 2,
+                "current_city": "Baltimore",
+                "transportation": "Taxi in Baltimore; Cost: 50",
+                "breakfast": "JAL - A Jungle Restaurant, Baltimore; Cost: 46",
+                "lunch": "Shree Ganesh M Cafe, Baltimore; Cost: 39",
+                "dinner": "Rajshree, Baltimore; Cost: 13",
+                "attraction": "Pierce's Park, Baltimore;Port Discovery Children's Museum, Baltimore;",
+                "accommodation": "Manhattan Sunny Private Room, Baltimore; Cost: 650 per night (~3250)"
+            },
+            {
+                "days": 3,
+                "current_city": "Baltimore",
+                "transportation": "Flight from Baltimore to Pittsburgh",
+                "breakfast": "Mocha Bar, Baltimore; Cost: 32",
+                "lunch": "The Pirates Of China Town, Baltimore; Cost: 31",
+                "dinner": "Sai Juice Point, Baltimore; Cost: 90",
+                "attraction": "Port Discovery Children's Museum, Baltimore;The Baltimore Basilica, Baltimore;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

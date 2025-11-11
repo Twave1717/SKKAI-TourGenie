@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Washington to Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 2, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 3, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 4, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 5, \"current_city\": \"Virginia\", \"transportation\": \"Flight from Virginia to Washington\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 2,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 3,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 4,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 5,
+                "current_city": "Virginia",
+                "transportation": "Flight from Virginia to Washington",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

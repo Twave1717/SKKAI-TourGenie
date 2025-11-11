@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Louis to Las Vegas\", \"transportation\": \"Flight Number: F0017933, from St. Louis to Las Vegas, Departure Time: 05:37, Arrival Time: 07:07, Price: 320\", \"breakfast\": \"Keventers, Las Vegas; Cost: 66\", \"lunch\": \"Barbeque Nation, Las Vegas; Cost: 88\", \"dinner\": \"Saara Veg, Las Vegas; Cost: 51\", \"attraction\": \"The Mob Museum, Las Vegas;The Neon Museum Las Vegas, Las Vegas;\", \"accommodation\": \"JFK Queens/House of Suedajoy#5(dis by flexibility, Las Vegas; Cost: 1003 per night (~3009)\"}, {\"days\": 2, \"current_city\": \"Las Vegas\", \"transportation\": \"Taxi in Las Vegas; Cost: 50\", \"breakfast\": \"New York Slice - Express, Las Vegas; Cost: 48\", \"lunch\": \"Cakes & Muffins, Las Vegas; Cost: 99\", \"dinner\": \"Sunita Dhaba, Las Vegas; Cost: 51\", \"attraction\": \"The Neon Museum Las Vegas, Las Vegas;Vegas Vic - Famous Neon Cowboy Sign, Las Vegas;\", \"accommodation\": \"Redford Room 1, Las Vegas; Cost: 1018 per night (~3054)\"}, {\"days\": 3, \"current_city\": \"Las Vegas\", \"transportation\": \"Flight from Las Vegas to St. Louis\", \"breakfast\": \"Rajender Di Punjabi Rasoi, Las Vegas; Cost: 94\", \"lunch\": \"Costa Coffee, Las Vegas; Cost: 84\", \"dinner\": \"Bake Your Dreamz, Las Vegas; Cost: 44\", \"attraction\": \"Vegas Vic - Famous Neon Cowboy Sign, Las Vegas;Welcome to Fabulous Las Vegas Sign, Las Vegas;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Louis to Las Vegas",
+                "transportation": "Flight Number: F0017933, from St. Louis to Las Vegas, Departure Time: 05:37, Arrival Time: 07:07, Price: 320",
+                "breakfast": "Keventers, Las Vegas; Cost: 66",
+                "lunch": "Barbeque Nation, Las Vegas; Cost: 88",
+                "dinner": "Saara Veg, Las Vegas; Cost: 51",
+                "attraction": "The Mob Museum, Las Vegas;The Neon Museum Las Vegas, Las Vegas;",
+                "accommodation": "JFK Queens/House of Suedajoy#5(dis by flexibility, Las Vegas; Cost: 1003 per night (~3009)"
+            },
+            {
+                "days": 2,
+                "current_city": "Las Vegas",
+                "transportation": "Taxi in Las Vegas; Cost: 50",
+                "breakfast": "New York Slice - Express, Las Vegas; Cost: 48",
+                "lunch": "Cakes & Muffins, Las Vegas; Cost: 99",
+                "dinner": "Sunita Dhaba, Las Vegas; Cost: 51",
+                "attraction": "The Neon Museum Las Vegas, Las Vegas;Vegas Vic - Famous Neon Cowboy Sign, Las Vegas;",
+                "accommodation": "Redford Room 1, Las Vegas; Cost: 1018 per night (~3054)"
+            },
+            {
+                "days": 3,
+                "current_city": "Las Vegas",
+                "transportation": "Flight from Las Vegas to St. Louis",
+                "breakfast": "Rajender Di Punjabi Rasoi, Las Vegas; Cost: 94",
+                "lunch": "Costa Coffee, Las Vegas; Cost: 84",
+                "dinner": "Bake Your Dreamz, Las Vegas; Cost: 44",
+                "attraction": "Vegas Vic - Famous Neon Cowboy Sign, Las Vegas;Welcome to Fabulous Las Vegas Sign, Las Vegas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

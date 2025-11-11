@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Boston to North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 2, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 3, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Ace of Clubs House, Texarkana;Acid Ball, Bellingham;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 4, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Acid Ball, Bellingham;Acropolis, Helena;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 5, \"current_city\": \"North Carolina\", \"transportation\": \"Flight from North Carolina to Boston\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Boston to North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 2,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 3,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 4,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 5,
+                "current_city": "North Carolina",
+                "transportation": "Flight from North Carolina to Boston",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

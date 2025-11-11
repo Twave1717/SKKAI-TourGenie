@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Atlanta to Knoxville\", \"transportation\": \"Flight Number: F0152187, from Atlanta to Knoxville, Departure Time: 19:39, Arrival Time: 20:39, Price: 36\", \"breakfast\": \"Cafe Arabelle, Knoxville; Cost: 29\", \"lunch\": \"Rama Vaishnav Bhojnalaya, Knoxville; Cost: 46\", \"dinner\": \"El Posto, Knoxville; Cost: 63\", \"attraction\": \"Knoxville Botanical Garden and Arboretum, Knoxville;Knoxville Museum of Art, Knoxville;\", \"accommodation\": \"Lg Quiet Artist Home -Ditmas Park -, Knoxville; Cost: 561 per night (~13464)\"}, {\"days\": 2, \"current_city\": \"Knoxville\", \"transportation\": \"Taxi in Knoxville; Cost: 50\", \"breakfast\": \"Chaat Corner, Knoxville; Cost: 67\", \"lunch\": \"TcozY, Knoxville; Cost: 85\", \"dinner\": \"Mamagoto, Knoxville; Cost: 14\", \"attraction\": \"Knoxville Museum of Art, Knoxville;Knoxville Sightseeing, Knoxville;\", \"accommodation\": \"Lg Quiet Artist Home -Ditmas Park -, Knoxville; Cost: 561 per night (~13464)\"}, {\"days\": 3, \"current_city\": \"Knoxville\", \"transportation\": \"Flight from Knoxville to Atlanta\", \"breakfast\": \"Coalition Cafe, Knoxville; Cost: 35\", \"lunch\": \"Anand Sweets, Knoxville; Cost: 45\", \"dinner\": \"Punjabi Flavour, Knoxville; Cost: 41\", \"attraction\": \"Knoxville Sightseeing, Knoxville;Knoxville Walking Tours, Knoxville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Atlanta to Knoxville",
+                "transportation": "Flight Number: F0152187, from Atlanta to Knoxville, Departure Time: 19:39, Arrival Time: 20:39, Price: 36",
+                "breakfast": "Cafe Arabelle, Knoxville; Cost: 29",
+                "lunch": "Rama Vaishnav Bhojnalaya, Knoxville; Cost: 46",
+                "dinner": "El Posto, Knoxville; Cost: 63",
+                "attraction": "Knoxville Botanical Garden and Arboretum, Knoxville;Knoxville Museum of Art, Knoxville;",
+                "accommodation": "Lg Quiet Artist Home -Ditmas Park -, Knoxville; Cost: 561 per night (~13464)"
+            },
+            {
+                "days": 2,
+                "current_city": "Knoxville",
+                "transportation": "Taxi in Knoxville; Cost: 50",
+                "breakfast": "Chaat Corner, Knoxville; Cost: 67",
+                "lunch": "TcozY, Knoxville; Cost: 85",
+                "dinner": "Mamagoto, Knoxville; Cost: 14",
+                "attraction": "Knoxville Museum of Art, Knoxville;Knoxville Sightseeing, Knoxville;",
+                "accommodation": "Lg Quiet Artist Home -Ditmas Park -, Knoxville; Cost: 561 per night (~13464)"
+            },
+            {
+                "days": 3,
+                "current_city": "Knoxville",
+                "transportation": "Flight from Knoxville to Atlanta",
+                "breakfast": "Coalition Cafe, Knoxville; Cost: 35",
+                "lunch": "Anand Sweets, Knoxville; Cost: 45",
+                "dinner": "Punjabi Flavour, Knoxville; Cost: 41",
+                "attraction": "Knoxville Sightseeing, Knoxville;Knoxville Walking Tours, Knoxville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

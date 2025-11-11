@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from San Jose to Portland\", \"transportation\": \"Flight Number: F0047634, from San Jose to Portland, Departure Time: 09:41, Arrival Time: 11:18, Price: 195\", \"breakfast\": \"Cactus Flower Cafe Navarre, Portland; Cost: 48\", \"lunch\": \"Peshawar Sweets Shop, Portland; Cost: 67\", \"dinner\": \"KFC, Portland; Cost: 82\", \"attraction\": \"The Freakybuttrue Peculiarium and Museum, Portland;The Grotto, Portland;\", \"accommodation\": \"3 bedroom brownstone bklyn backyard, Portland; Cost: 214 per night (~17120)\"}, {\"days\": 2, \"current_city\": \"Portland\", \"transportation\": \"Taxi in Portland; Cost: 50\", \"breakfast\": \"Desi Zaika, Portland; Cost: 18\", \"lunch\": \"Salad Days, Portland; Cost: 41\", \"dinner\": \"Momos Hi Momos, Portland; Cost: 86\", \"attraction\": \"The Grotto, Portland;The Wishing Tree, Portland;\", \"accommodation\": \"3 bedroom brownstone bklyn backyard, Portland; Cost: 214 per night (~17120)\"}, {\"days\": 3, \"current_city\": \"Portland\", \"transportation\": \"Flight from Portland to San Jose\", \"breakfast\": \"Jeet Chaat Bhandar, Portland; Cost: 77\", \"lunch\": \"The Coffee Bean & Tea Leaf, Portland; Cost: 24\", \"dinner\": \"Osaka, Portland; Cost: 42\", \"attraction\": \"The Wishing Tree, Portland;Washington Park, Portland;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from San Jose to Portland",
+                "transportation": "Flight Number: F0047634, from San Jose to Portland, Departure Time: 09:41, Arrival Time: 11:18, Price: 195",
+                "breakfast": "Cactus Flower Cafe Navarre, Portland; Cost: 48",
+                "lunch": "Peshawar Sweets Shop, Portland; Cost: 67",
+                "dinner": "KFC, Portland; Cost: 82",
+                "attraction": "The Freakybuttrue Peculiarium and Museum, Portland;The Grotto, Portland;",
+                "accommodation": "3 bedroom brownstone bklyn backyard, Portland; Cost: 214 per night (~17120)"
+            },
+            {
+                "days": 2,
+                "current_city": "Portland",
+                "transportation": "Taxi in Portland; Cost: 50",
+                "breakfast": "Desi Zaika, Portland; Cost: 18",
+                "lunch": "Salad Days, Portland; Cost: 41",
+                "dinner": "Momos Hi Momos, Portland; Cost: 86",
+                "attraction": "The Grotto, Portland;The Wishing Tree, Portland;",
+                "accommodation": "3 bedroom brownstone bklyn backyard, Portland; Cost: 214 per night (~17120)"
+            },
+            {
+                "days": 3,
+                "current_city": "Portland",
+                "transportation": "Flight from Portland to San Jose",
+                "breakfast": "Jeet Chaat Bhandar, Portland; Cost: 77",
+                "lunch": "The Coffee Bean & Tea Leaf, Portland; Cost: 24",
+                "dinner": "Osaka, Portland; Cost: 42",
+                "attraction": "The Wishing Tree, Portland;Washington Park, Portland;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

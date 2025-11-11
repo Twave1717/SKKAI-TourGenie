@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Latrobe to South Carolina\", \"transportation\": \"Taxi in South Carolina; Cost: 50\", \"breakfast\": \"Restaurant, South Carolina\", \"lunch\": \"Restaurant, South Carolina\", \"dinner\": \"Restaurant, South Carolina\", \"attraction\": \"406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;\", \"accommodation\": \"Accommodation, South Carolina\"}, {\"days\": 2, \"current_city\": \"South Carolina\", \"transportation\": \"Taxi in South Carolina; Cost: 50\", \"breakfast\": \"Restaurant, South Carolina\", \"lunch\": \"Restaurant, South Carolina\", \"dinner\": \"Restaurant, South Carolina\", \"attraction\": \"5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;\", \"accommodation\": \"Accommodation, South Carolina\"}, {\"days\": 3, \"current_city\": \"South Carolina\", \"transportation\": \"Taxi in South Carolina; Cost: 50\", \"breakfast\": \"Restaurant, South Carolina\", \"lunch\": \"Restaurant, South Carolina\", \"dinner\": \"Restaurant, South Carolina\", \"attraction\": \"77 Steps, Fort Wayne;9/11 Memorial, Erie;\", \"accommodation\": \"Accommodation, South Carolina\"}, {\"days\": 4, \"current_city\": \"South Carolina\", \"transportation\": \"Taxi in South Carolina; Cost: 50\", \"breakfast\": \"Restaurant, South Carolina\", \"lunch\": \"Restaurant, South Carolina\", \"dinner\": \"Restaurant, South Carolina\", \"attraction\": \"9/11 Memorial, Erie;9/11 Memorial & Museum, New York;\", \"accommodation\": \"Accommodation, South Carolina\"}, {\"days\": 5, \"current_city\": \"South Carolina\", \"transportation\": \"Flight from South Carolina to Latrobe\", \"breakfast\": \"Restaurant, South Carolina\", \"lunch\": \"Restaurant, South Carolina\", \"dinner\": \"Restaurant, South Carolina\", \"attraction\": \"9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Latrobe to South Carolina",
+                "transportation": "Taxi in South Carolina; Cost: 50",
+                "breakfast": "Restaurant, South Carolina",
+                "lunch": "Restaurant, South Carolina",
+                "dinner": "Restaurant, South Carolina",
+                "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+                "accommodation": "Accommodation, South Carolina"
+            },
+            {
+                "days": 2,
+                "current_city": "South Carolina",
+                "transportation": "Taxi in South Carolina; Cost: 50",
+                "breakfast": "Restaurant, South Carolina",
+                "lunch": "Restaurant, South Carolina",
+                "dinner": "Restaurant, South Carolina",
+                "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+                "accommodation": "Accommodation, South Carolina"
+            },
+            {
+                "days": 3,
+                "current_city": "South Carolina",
+                "transportation": "Taxi in South Carolina; Cost: 50",
+                "breakfast": "Restaurant, South Carolina",
+                "lunch": "Restaurant, South Carolina",
+                "dinner": "Restaurant, South Carolina",
+                "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+                "accommodation": "Accommodation, South Carolina"
+            },
+            {
+                "days": 4,
+                "current_city": "South Carolina",
+                "transportation": "Taxi in South Carolina; Cost: 50",
+                "breakfast": "Restaurant, South Carolina",
+                "lunch": "Restaurant, South Carolina",
+                "dinner": "Restaurant, South Carolina",
+                "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+                "accommodation": "Accommodation, South Carolina"
+            },
+            {
+                "days": 5,
+                "current_city": "South Carolina",
+                "transportation": "Flight from South Carolina to Latrobe",
+                "breakfast": "Restaurant, South Carolina",
+                "lunch": "Restaurant, South Carolina",
+                "dinner": "Restaurant, South Carolina",
+                "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

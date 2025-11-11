@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Valparaiso to Belleville\", \"transportation\": \"Flight Number: F1350101, from Valparaiso to Belleville, Departure Time: 06:53, Arrival Time: 08:29, Price: 136\", \"breakfast\": \"Romi da Dhaba, Belleville; Cost: 24\", \"lunch\": \"Bansal Foods, Belleville; Cost: 68\", \"dinner\": \"Twomato Foods, Belleville; Cost: 50\", \"attraction\": \"National Shrine of Our Lady of the Snows, Belleville;Old Brewery District Mural, Belleville;\", \"accommodation\": \"Near Yankee Stadium, Belleville; Cost: 73 per night (~219)\"}, {\"days\": 2, \"current_city\": \"Belleville\", \"transportation\": \"Taxi in Belleville; Cost: 50\", \"breakfast\": \"Summer Pavilion, Belleville; Cost: 150\", \"lunch\": \"Cafe Terazza, Belleville; Cost: 50\", \"dinner\": \"deliKitchen, Belleville; Cost: 64\", \"attraction\": \"Old Brewery District Mural, Belleville;Saint Clair County Orchard Trail, Belleville;\", \"accommodation\": \"One Bedroom in Central NYC location, Belleville; Cost: 800 per night (~2400)\"}, {\"days\": 3, \"current_city\": \"Belleville\", \"transportation\": \"Flight from Belleville to Valparaiso\", \"breakfast\": \"Tummyy Tull, Belleville; Cost: 46\", \"lunch\": \"Chocolate Temptation, Belleville; Cost: 16\", \"dinner\": \"Baking Bad, Belleville; Cost: 99\", \"attraction\": \"Saint Clair County Orchard Trail, Belleville;Schranz Memorial Park, Belleville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Valparaiso to Belleville",
+                "transportation": "Flight Number: F1350101, from Valparaiso to Belleville, Departure Time: 06:53, Arrival Time: 08:29, Price: 136",
+                "breakfast": "Romi da Dhaba, Belleville; Cost: 24",
+                "lunch": "Bansal Foods, Belleville; Cost: 68",
+                "dinner": "Twomato Foods, Belleville; Cost: 50",
+                "attraction": "National Shrine of Our Lady of the Snows, Belleville;Old Brewery District Mural, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville; Cost: 73 per night (~219)"
+            },
+            {
+                "days": 2,
+                "current_city": "Belleville",
+                "transportation": "Taxi in Belleville; Cost: 50",
+                "breakfast": "Summer Pavilion, Belleville; Cost: 150",
+                "lunch": "Cafe Terazza, Belleville; Cost: 50",
+                "dinner": "deliKitchen, Belleville; Cost: 64",
+                "attraction": "Old Brewery District Mural, Belleville;Saint Clair County Orchard Trail, Belleville;",
+                "accommodation": "One Bedroom in Central NYC location, Belleville; Cost: 800 per night (~2400)"
+            },
+            {
+                "days": 3,
+                "current_city": "Belleville",
+                "transportation": "Flight from Belleville to Valparaiso",
+                "breakfast": "Tummyy Tull, Belleville; Cost: 46",
+                "lunch": "Chocolate Temptation, Belleville; Cost: 16",
+                "dinner": "Baking Bad, Belleville; Cost: 99",
+                "attraction": "Saint Clair County Orchard Trail, Belleville;Schranz Memorial Park, Belleville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

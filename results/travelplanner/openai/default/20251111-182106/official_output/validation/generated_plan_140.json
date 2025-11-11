@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from El Paso to Phoenix\", \"transportation\": \"Flight Number: F0040923, from El Paso to Phoenix, Departure Time: 10:01, Arrival Time: 10:16, Price: 106\", \"breakfast\": \"Special Tea Point, Phoenix; Cost: 88\", \"lunch\": \"Kebab Xpress, Phoenix; Cost: 82\", \"dinner\": \"De Bone Chicken, Phoenix; Cost: 59\", \"attraction\": \"Butterfly Wonderland, Phoenix;Children’s Museum of Phoenix, Phoenix;\", \"accommodation\": \"Murray Hill, The Heart of Manhattan, Phoenix; Cost: 361 per night (~1083)\"}, {\"days\": 2, \"current_city\": \"Phoenix\", \"transportation\": \"Taxi in Phoenix; Cost: 50\", \"breakfast\": \"Vero Gusto, Phoenix; Cost: 13\", \"lunch\": \"Mocambo, Phoenix; Cost: 76\", \"dinner\": \"Doughlicious, Phoenix; Cost: 41\", \"attraction\": \"Children’s Museum of Phoenix, Phoenix;Desert Botanical Garden, Phoenix;\", \"accommodation\": \"Murray Hill, The Heart of Manhattan, Phoenix; Cost: 361 per night (~1083)\"}, {\"days\": 3, \"current_city\": \"Phoenix\", \"transportation\": \"Flight from Phoenix to El Paso\", \"breakfast\": \"Cafe Amigo, Phoenix; Cost: 24\", \"lunch\": \"Mutfi, Phoenix; Cost: 67\", \"dinner\": \"Jungle The Restaurant, Phoenix; Cost: 27\", \"attraction\": \"Desert Botanical Garden, Phoenix;Dobbins Lookout, Phoenix;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from El Paso to Phoenix",
+                "transportation": "Flight Number: F0040923, from El Paso to Phoenix, Departure Time: 10:01, Arrival Time: 10:16, Price: 106",
+                "breakfast": "Special Tea Point, Phoenix; Cost: 88",
+                "lunch": "Kebab Xpress, Phoenix; Cost: 82",
+                "dinner": "De Bone Chicken, Phoenix; Cost: 59",
+                "attraction": "Butterfly Wonderland, Phoenix;Children’s Museum of Phoenix, Phoenix;",
+                "accommodation": "Murray Hill, The Heart of Manhattan, Phoenix; Cost: 361 per night (~1083)"
+            },
+            {
+                "days": 2,
+                "current_city": "Phoenix",
+                "transportation": "Taxi in Phoenix; Cost: 50",
+                "breakfast": "Vero Gusto, Phoenix; Cost: 13",
+                "lunch": "Mocambo, Phoenix; Cost: 76",
+                "dinner": "Doughlicious, Phoenix; Cost: 41",
+                "attraction": "Children’s Museum of Phoenix, Phoenix;Desert Botanical Garden, Phoenix;",
+                "accommodation": "Murray Hill, The Heart of Manhattan, Phoenix; Cost: 361 per night (~1083)"
+            },
+            {
+                "days": 3,
+                "current_city": "Phoenix",
+                "transportation": "Flight from Phoenix to El Paso",
+                "breakfast": "Cafe Amigo, Phoenix; Cost: 24",
+                "lunch": "Mutfi, Phoenix; Cost: 67",
+                "dinner": "Jungle The Restaurant, Phoenix; Cost: 27",
+                "attraction": "Desert Botanical Garden, Phoenix;Dobbins Lookout, Phoenix;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Los Angeles to Detroit\", \"transportation\": \"Flight Number: F0299864, from Los Angeles to Detroit, Departure Time: 22:21, Arrival Time: 05:36, Price: 397\", \"breakfast\": \"Cafe And More, Detroit; Cost: 41\", \"lunch\": \"Sagar Ratna, Detroit; Cost: 55\", \"dinner\": \"Knights Chaska, Detroit; Cost: 29\", \"attraction\": \"Henry Ford Museum of American Innovation, Detroit;Historic Fort Wayne, Detroit;\", \"accommodation\": \"Brooklyn Brownstone, 3-Bdr & Garden, Detroit; Cost: 400 per night (~1200)\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"Desi Spice, Detroit; Cost: 16\", \"lunch\": \"The Dosa King, Detroit; Cost: 69\", \"dinner\": \"N. Iqbal Restaurant, Detroit; Cost: 11\", \"attraction\": \"Historic Fort Wayne, Detroit;Michigan Science Center, Detroit;\", \"accommodation\": \"Brooklyn Brownstone, 3-Bdr & Garden, Detroit; Cost: 400 per night (~1200)\"}, {\"days\": 3, \"current_city\": \"Detroit\", \"transportation\": \"Flight from Detroit to Los Angeles\", \"breakfast\": \"Frequent Bakes, Detroit; Cost: 50\", \"lunch\": \"Vapour Pub & Brewery, Detroit; Cost: 80\", \"dinner\": \"Rehmatullah's Hotel, Detroit; Cost: 28\", \"attraction\": \"Michigan Science Center, Detroit;Motown Museum, Detroit;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Los Angeles to Detroit",
+                "transportation": "Flight Number: F0299864, from Los Angeles to Detroit, Departure Time: 22:21, Arrival Time: 05:36, Price: 397",
+                "breakfast": "Cafe And More, Detroit; Cost: 41",
+                "lunch": "Sagar Ratna, Detroit; Cost: 55",
+                "dinner": "Knights Chaska, Detroit; Cost: 29",
+                "attraction": "Henry Ford Museum of American Innovation, Detroit;Historic Fort Wayne, Detroit;",
+                "accommodation": "Brooklyn Brownstone, 3-Bdr & Garden, Detroit; Cost: 400 per night (~1200)"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "Desi Spice, Detroit; Cost: 16",
+                "lunch": "The Dosa King, Detroit; Cost: 69",
+                "dinner": "N. Iqbal Restaurant, Detroit; Cost: 11",
+                "attraction": "Historic Fort Wayne, Detroit;Michigan Science Center, Detroit;",
+                "accommodation": "Brooklyn Brownstone, 3-Bdr & Garden, Detroit; Cost: 400 per night (~1200)"
+            },
+            {
+                "days": 3,
+                "current_city": "Detroit",
+                "transportation": "Flight from Detroit to Los Angeles",
+                "breakfast": "Frequent Bakes, Detroit; Cost: 50",
+                "lunch": "Vapour Pub & Brewery, Detroit; Cost: 80",
+                "dinner": "Rehmatullah's Hotel, Detroit; Cost: 28",
+                "attraction": "Michigan Science Center, Detroit;Motown Museum, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
