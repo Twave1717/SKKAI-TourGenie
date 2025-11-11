@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Buffalo → Atlanta\", \"transportation\": \"Flight Number: F0294655, from Buffalo to Atlanta, Departure Time: 19:07, Arrival Time: 21:07, Price: 199\", \"breakfast\": \"Bunty Dhaba, Atlanta; Cost: 99\", \"lunch\": \"Caboose X Cafe & Lounge, Atlanta; Cost: 23\", \"dinner\": \"Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34\", \"attraction\": \"Children's Museum of Atlanta, Atlanta;Delta Flight Museum, Atlanta;\", \"accommodation\": \"Charming Carroll Gardens 2 BR, Atlanta; Cost: 576 per night (~1728)\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34\", \"lunch\": \"Chawla Snacks, Atlanta; Cost: 48\", \"dinner\": \"China Hot, Atlanta; Cost: 13\", \"attraction\": \"Delta Flight Museum, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;\", \"accommodation\": \"FABULOUS SUNNY BEDROOM IN HARLEM, Atlanta; Cost: 587 per night (~11740)\"}, {\"days\": 3, \"current_city\": \"Atlanta → Buffalo\", \"transportation\": \"Flight from Atlanta to Buffalo\", \"breakfast\": \"China Hot, Atlanta; Cost: 13\", \"lunch\": \"Chocadoodledoo, Atlanta; Cost: 24\", \"dinner\": \"Deepika Khaitan's Cakes, Atlanta; Cost: 41\", \"attraction\": \"Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Buffalo → Atlanta",
+                "transportation": "Flight Number: F0294655, from Buffalo to Atlanta, Departure Time: 19:07, Arrival Time: 21:07, Price: 199",
+                "breakfast": "Bunty Dhaba, Atlanta; Cost: 99",
+                "lunch": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+                "dinner": "Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34",
+                "attraction": "Children's Museum of Atlanta, Atlanta;Delta Flight Museum, Atlanta;",
+                "accommodation": "Charming Carroll Gardens 2 BR, Atlanta; Cost: 576 per night (~1728)"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Chaina Ram Sindhi Confectioners, Atlanta; Cost: 34",
+                "lunch": "Chawla Snacks, Atlanta; Cost: 48",
+                "dinner": "China Hot, Atlanta; Cost: 13",
+                "attraction": "Delta Flight Museum, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;",
+                "accommodation": "FABULOUS SUNNY BEDROOM IN HARLEM, Atlanta; Cost: 587 per night (~11740)"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta → Buffalo",
+                "transportation": "Flight from Atlanta to Buffalo",
+                "breakfast": "China Hot, Atlanta; Cost: 13",
+                "lunch": "Chocadoodledoo, Atlanta; Cost: 24",
+                "dinner": "Deepika Khaitan's Cakes, Atlanta; Cost: 41",
+                "attraction": "Fernbank Museum | 3D Theater | Forest, Atlanta;Folk Art Park, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

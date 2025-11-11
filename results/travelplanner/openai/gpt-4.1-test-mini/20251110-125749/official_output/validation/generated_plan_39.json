@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Atlanta\", \"transportation\": \"Flight Number: F0152199, from Atlanta to Knoxville, Departure Time: 19:27, Arrival Time: 20:16, Price: 32\", \"breakfast\": \"Ali Baba & 41 Dishes, Knoxville; Cost: 70\", \"lunch\": \"Anand Sweets, Knoxville; Cost: 45\", \"dinner\": \"Burger Planet, Knoxville; Cost: 45\", \"attraction\": \"Zoo Knoxville, Knoxville;Augusta Quarry, Knoxville;\", \"accommodation\": \"Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)\"}, {\"days\": 2, \"current_city\": \"Knoxville\", \"transportation\": \"Taxi in Knoxville; Cost: 50\", \"breakfast\": \"Burger Planet, Knoxville; Cost: 45\", \"lunch\": \"Cafe Arabelle, Knoxville; Cost: 29\", \"dinner\": \"Cafe El Chico, Knoxville; Cost: 67\", \"attraction\": \"Augusta Quarry, Knoxville;Charles Krutch Park, Knoxville;\", \"accommodation\": \"Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)\"}, {\"days\": 3, \"current_city\": \"Knoxville\", \"transportation\": \"Flight from Knoxville to Atlanta\", \"breakfast\": \"Cafe El Chico, Knoxville; Cost: 67\", \"lunch\": \"Chaat Corner, Knoxville; Cost: 67\", \"dinner\": \"Chit Chat, Knoxville; Cost: 15\", \"attraction\": \"Charles Krutch Park, Knoxville;Chilhowee Park & Exposition Center, Knoxville;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Atlanta",
+                "transportation": "Flight Number: F0152199, from Atlanta to Knoxville, Departure Time: 19:27, Arrival Time: 20:16, Price: 32",
+                "breakfast": "Ali Baba & 41 Dishes, Knoxville; Cost: 70",
+                "lunch": "Anand Sweets, Knoxville; Cost: 45",
+                "dinner": "Burger Planet, Knoxville; Cost: 45",
+                "attraction": "Zoo Knoxville, Knoxville;Augusta Quarry, Knoxville;",
+                "accommodation": "Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)"
+            },
+            {
+                "days": 2,
+                "current_city": "Knoxville",
+                "transportation": "Taxi in Knoxville; Cost: 50",
+                "breakfast": "Burger Planet, Knoxville; Cost: 45",
+                "lunch": "Cafe Arabelle, Knoxville; Cost: 29",
+                "dinner": "Cafe El Chico, Knoxville; Cost: 67",
+                "attraction": "Augusta Quarry, Knoxville;Charles Krutch Park, Knoxville;",
+                "accommodation": "Brooklyn Sunny room 5 min to subway, Knoxville; Cost: 793 per night (~2379)"
+            },
+            {
+                "days": 3,
+                "current_city": "Knoxville",
+                "transportation": "Flight from Knoxville to Atlanta",
+                "breakfast": "Cafe El Chico, Knoxville; Cost: 67",
+                "lunch": "Chaat Corner, Knoxville; Cost: 67",
+                "dinner": "Chit Chat, Knoxville; Cost: 15",
+                "attraction": "Charles Krutch Park, Knoxville;Chilhowee Park & Exposition Center, Knoxville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

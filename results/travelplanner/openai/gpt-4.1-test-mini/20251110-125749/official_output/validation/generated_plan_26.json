@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Pittsburgh\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"77 Steps, Fort Wayne;9/11 Memorial, Erie;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 2, \"current_city\": \"Pittsburgh\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"9/11 Memorial, Erie;9/11 Memorial & Museum, New York;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 3, \"current_city\": \"Pittsburgh\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 4, \"current_city\": \"Erie\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 5, \"current_city\": \"Erie\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 6, \"current_city\": \"Philadelphia\", \"transportation\": \"Taxi in Pennsylvania; Cost: 50\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"Accommodation, Pennsylvania\"}, {\"days\": 7, \"current_city\": \"Philadelphia\", \"transportation\": \"Flight from Pennsylvania to Charlotte\", \"breakfast\": \"Restaurant, Pennsylvania\", \"lunch\": \"Restaurant, Pennsylvania\", \"dinner\": \"Restaurant, Pennsylvania\", \"attraction\": \"A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Pittsburgh",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 2,
+                "current_city": "Pittsburgh",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 3,
+                "current_city": "Pittsburgh",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 4,
+                "current_city": "Erie",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 5,
+                "current_city": "Erie",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 6,
+                "current_city": "Philadelphia",
+                "transportation": "Taxi in Pennsylvania; Cost: 50",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "Accommodation, Pennsylvania"
+            },
+            {
+                "days": 7,
+                "current_city": "Philadelphia",
+                "transportation": "Flight from Pennsylvania to Charlotte",
+                "breakfast": "Restaurant, Pennsylvania",
+                "lunch": "Restaurant, Pennsylvania",
+                "dinner": "Restaurant, Pennsylvania",
+                "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

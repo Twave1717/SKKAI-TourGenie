@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Nashville\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 2, \"current_city\": \"Nashville\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 3, \"current_city\": \"Knoxville\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 4, \"current_city\": \"Knoxville\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 5, \"current_city\": \"Richmond\", \"transportation\": \"Flight from Tennessee to Richmond\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"360 CHICAGO, Chicago;406 Adventures, Kalispell;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Nashville",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 2,
+                "current_city": "Nashville",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 3,
+                "current_city": "Knoxville",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 4,
+                "current_city": "Knoxville",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 5,
+                "current_city": "Richmond",
+                "transportation": "Flight from Tennessee to Richmond",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

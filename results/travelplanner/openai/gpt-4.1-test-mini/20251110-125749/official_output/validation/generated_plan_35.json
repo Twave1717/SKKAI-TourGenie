@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Denver → Bozeman\", \"transportation\": \"Flight Number: F0035930, from Denver to Bozeman, Departure Time: 15:29, Arrival Time: 17:17, Price: 156\", \"breakfast\": \"McGuire's Irish Pub & Brewery, Bozeman; Cost: 72\", \"lunch\": \"Mukesh Chic-Inn Hot & Spice, Bozeman; Cost: 71\", \"dinner\": \"Pepper Kitchen, Bozeman; Cost: 75\", \"attraction\": \"Peets Hill/Burke Park, Bozeman;Snowfill Recreation Area, Bozeman;\", \"accommodation\": \"Two Bedrooms with Dedicated Bath, Bozeman; Cost: 615 per night (~1845)\"}, {\"days\": 2, \"current_city\": \"Bozeman\", \"transportation\": \"Taxi in Bozeman; Cost: 50\", \"breakfast\": \"Pepper Kitchen, Bozeman; Cost: 75\", \"lunch\": \"Saravana Bhavan, Bozeman; Cost: 38\", \"dinner\": \"Shree Bhog Pure Veg Restaurant, Bozeman; Cost: 79\", \"attraction\": \"Snowfill Recreation Area, Bozeman;The Extreme History Project, Bozeman;\", \"accommodation\": \"Two Bedrooms with Dedicated Bath, Bozeman; Cost: 615 per night (~1845)\"}, {\"days\": 3, \"current_city\": \"Bozeman → Denver\", \"transportation\": \"Flight from Bozeman to Denver\", \"breakfast\": \"Shree Bhog Pure Veg Restaurant, Bozeman; Cost: 79\", \"lunch\": \"Shri Bhujia Bhandar, Bozeman; Cost: 87\", \"dinner\": \"Snack Junction, Bozeman; Cost: 98\", \"attraction\": \"The Extreme History Project, Bozeman;The Story Mansion and Story Park, Bozeman;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Denver → Bozeman",
+                "transportation": "Flight Number: F0035930, from Denver to Bozeman, Departure Time: 15:29, Arrival Time: 17:17, Price: 156",
+                "breakfast": "McGuire's Irish Pub & Brewery, Bozeman; Cost: 72",
+                "lunch": "Mukesh Chic-Inn Hot & Spice, Bozeman; Cost: 71",
+                "dinner": "Pepper Kitchen, Bozeman; Cost: 75",
+                "attraction": "Peets Hill/Burke Park, Bozeman;Snowfill Recreation Area, Bozeman;",
+                "accommodation": "Two Bedrooms with Dedicated Bath, Bozeman; Cost: 615 per night (~1845)"
+            },
+            {
+                "days": 2,
+                "current_city": "Bozeman",
+                "transportation": "Taxi in Bozeman; Cost: 50",
+                "breakfast": "Pepper Kitchen, Bozeman; Cost: 75",
+                "lunch": "Saravana Bhavan, Bozeman; Cost: 38",
+                "dinner": "Shree Bhog Pure Veg Restaurant, Bozeman; Cost: 79",
+                "attraction": "Snowfill Recreation Area, Bozeman;The Extreme History Project, Bozeman;",
+                "accommodation": "Two Bedrooms with Dedicated Bath, Bozeman; Cost: 615 per night (~1845)"
+            },
+            {
+                "days": 3,
+                "current_city": "Bozeman → Denver",
+                "transportation": "Flight from Bozeman to Denver",
+                "breakfast": "Shree Bhog Pure Veg Restaurant, Bozeman; Cost: 79",
+                "lunch": "Shri Bhujia Bhandar, Bozeman; Cost: 87",
+                "dinner": "Snack Junction, Bozeman; Cost: 98",
+                "attraction": "The Extreme History Project, Bozeman;The Story Mansion and Story Park, Bozeman;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
