@@ -1,0 +1,83 @@
+{
+  "team": "HM",
+  "workflow": "hm-baseline",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "split": "validation",
+  "result_label": "test-mini",
+  "notes": "예시를 위해 2개 샘플만 포함했습니다. 실제 리더보드 제출 시 전체 60/180개 예제가 필요합니다.",
+  "predictions": [
+    {
+      "id": "validation_00000",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Washington → Myrtle Beach",
+          "transportation": "Flight Number: F3792603, Departure 09:19, Arrival 10:59, $164",
+          "breakfast": "Allure, Myrtle Beach; Cost: 71",
+          "lunch": "Bikaner Restaurant, Myrtle Beach; Cost: 96",
+          "dinner": "Caravan Resto Bar, Myrtle Beach; Cost: 57",
+          "attraction": "Broadway at the Beach; Dinopark",
+          "accommodation": "Adorable Prospect Heights Space; $397/night"
+        },
+        {
+          "days": 2,
+          "current_city": "Myrtle Beach",
+          "transportation": "Taxi within Myrtle Beach; Cost: 50",
+          "breakfast": "Bread & Pasta; Cost: 37",
+          "lunch": "Caravan Resto Bar; Cost: 57",
+          "dinner": "Dimsum Vs Sushi; Cost: 83",
+          "attraction": "Family Kingdom Amusement Park; Free Fall Thrill Park",
+          "accommodation": "Adorable Prospect Heights Space; $397/night"
+        },
+        {
+          "days": 3,
+          "current_city": "Myrtle Beach → Washington",
+          "transportation": "Flight Number: F3926434, Departure 13:45, Arrival 15:02, $111",
+          "breakfast": "Catfish Charlie's; Cost: 14",
+          "lunch": "Dimsum Vs Sushi; Cost: 83",
+          "dinner": "First Eat; Cost: 21",
+          "attraction": "Free Fall Thrill Park; Boardwalk stroll",
+          "accommodation": "-"
+        }
+      ],
+      "raw_response": "Thought 1 ... (축약)"
+    },
+    {
+      "id": "validation_00001",
+      "plan": [
+        {
+          "days": 1,
+          "current_city": "Oakland → Tucson",
+          "transportation": "Flight Number: F3012341, Departure 07:35, Arrival 10:05, $210",
+          "breakfast": "Press Cafe; Cost: 32",
+          "lunch": "El Charro Café; Cost: 45",
+          "dinner": "Downtown Kitchen; Cost: 58",
+          "attraction": "Arizona-Sonora Desert Museum; Mission San Xavier del Bac",
+          "accommodation": "Adobe Star Casita; $189/night"
+        },
+        {
+          "days": 2,
+          "current_city": "Tucson",
+          "transportation": "Taxi day pass; Cost: 40",
+          "breakfast": "Cup Cafe; Cost: 28",
+          "lunch": "Seis Kitchen; Cost: 36",
+          "dinner": "Tucson Tamale Company; Cost: 30",
+          "attraction": "Sabino Canyon hike; 4th Avenue arts walk",
+          "accommodation": "Adobe Star Casita; $189/night"
+        },
+        {
+          "days": 3,
+          "current_city": "Tucson → Oakland",
+          "transportation": "Flight Number: F3099988, Departure 14:25, Arrival 16:55, $205",
+          "breakfast": "5 Points Market; Cost: 25",
+          "lunch": "Baja Cafe; Cost: 34",
+          "dinner": "Airport grab-and-go; Cost: 20",
+          "attraction": "Pima Air & Space Museum; Mercado San Agustin",
+          "accommodation": "-"
+        }
+      ],
+      "raw_response": "Thought 1 ... (축약)"
+    }
+  ]
+}
