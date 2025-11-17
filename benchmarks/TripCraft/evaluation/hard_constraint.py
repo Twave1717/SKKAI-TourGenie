@@ -1,3 +1,12 @@
+import os
+import sys
+from pathlib import Path
+
+EVAL_DIR = Path(__file__).resolve().parent
+TRIPCRAFT_ROOT = EVAL_DIR.parent
+if str(TRIPCRAFT_ROOT) not in sys.path:
+    sys.path.insert(0, str(TRIPCRAFT_ROOT))
+
 from utils.func import get_valid_name_city,extract_before_parenthesis,extract_numbers_from_filenames
 from tools.flights.apis import Flights
 from tools.accommodations.apis import Accommodations
@@ -9,13 +18,9 @@ import math
 import json
 import re
 import numpy as np
-import os
-import sys
 from tqdm import tqdm
 import argparse
 
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 flight = Flights()
@@ -391,4 +396,3 @@ def boolean_evaluation(query_data, tested_data):
             print(key)
             return False
     return True
-

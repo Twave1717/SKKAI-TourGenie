@@ -1,3 +1,12 @@
+import os
+import sys
+from pathlib import Path
+
+EVAL_DIR = Path(__file__).resolve().parent
+TRIPCRAFT_ROOT = EVAL_DIR.parent
+if str(TRIPCRAFT_ROOT) not in sys.path:
+    sys.path.insert(0, str(TRIPCRAFT_ROOT))
+
 from utils.func import get_valid_name_city,extract_before_parenthesis,extract_numbers_from_filenames
 from utils.path_config import get_db_path
 from tools.flights.apis import Flights
@@ -9,14 +18,10 @@ from tools.events.apis import Events
 import math
 import json
 import re   
-import os
-import sys
 from tqdm import tqdm
 import argparse
 import pandas as pd
 
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 flight = Flights()
 accommodation = Accommodations()

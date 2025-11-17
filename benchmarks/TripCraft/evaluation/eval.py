@@ -1,11 +1,18 @@
-import os, sys
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
+import argparse
+import json
+import os
+import sys
+from pathlib import Path
+
+from tqdm import tqdm
+
+EVAL_DIR = Path(__file__).resolve().parent
+TRIPCRAFT_ROOT = EVAL_DIR.parent
+if str(TRIPCRAFT_ROOT) not in sys.path:
+    sys.path.insert(0, str(TRIPCRAFT_ROOT))
+
 from commonsense_constraint import evaluation as commonsense_eval
 from hard_constraint import evaluation as hard_eval
-import json
-from tqdm import tqdm
-from datasets import load_dataset
-import argparse
 
 
 def load_line_json_data(filename):
@@ -57,6 +64,34 @@ def paper_term_mapping(commonsense_constraint_record, hard_constraint_record):
             remap_commonsense_constraint_record[level][day] = {mapping_dict[key] : val for key,val in commonsense_constraint_record[level][day].items()}
             remap_hard_constraint_record[level][day] = {mapping_dict[key] : val for key,val in hard_constraint_record[level][day].items()}
     return remap_commonsense_constraint_record, remap_hard_constraint_record
+
+
+EXPECTED_DENOMINATORS = {
+    "3d": {
+        "delivery": 230,
+        "commonsense_micro": 2300,
+        "commonsense_macro": 230,
+        "hard_micro": 521,
+        "hard_macro": 230,
+        "final": 230,
+    },
+    "5d": {
+        "delivery": 230,
+        "commonsense_micro": 2300,
+        "commonsense_macro": 230,
+        "hard_micro": 546,
+        "hard_macro": 230,
+        "final": 230,
+    },
+    "7d": {
+        "delivery": 227,
+        "commonsense_micro": 2270,
+        "commonsense_macro": 227,
+        "hard_micro": 484,
+        "hard_macro": 227,
+        "final": 227,
+    },
+}
 
 
 def eval_score(set_type: str, file_path: str):
@@ -195,39 +230,31 @@ def eval_score(set_type: str, file_path: str):
 
     remap_commonsense_constraint_record, remap_hard_constraint_record = paper_term_mapping(commonsenseConstraint_statistic_processed, hardConstraint_statistic_processed)
 
-    if set_type == '3d':
-        result['Delivery Rate'] = delivery_cnt / 230
-        result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / 2300
-        result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / 230
-        result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / 521  
-        result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / 230
-        result['Final Pass Rate'] = final_all_cnt / 230
+    totals = {
+        "delivery": max(1, len(query_data_list)),
+        "commonsense_micro": max(1, constraint_dis_record['commonsense']['total']),
+        "commonsense_macro": max(1, len(query_data_list)),
+        "hard_micro": max(1, constraint_dis_record['hard']['total']),
+        "hard_macro": max(1, len(query_data_list)),
+        "final": max(1, len(query_data_list)),
+    }
+    denominators = EXPECTED_DENOMINATORS.get(set_type.lower(), totals)
 
-    elif set_type == '5d':
-        result['Delivery Rate'] = delivery_cnt / 230
-        result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / 2300
-        result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / 230
-        result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / 546 
-        result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / 230
-        result['Final Pass Rate'] = final_all_cnt / 230
-
-    elif set_type == '7d':
-        result['Delivery Rate'] = delivery_cnt / 227
-        result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / 2270
-        result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / 227
-        result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / 484
-        result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / 227
-        result['Final Pass Rate'] = final_all_cnt / 227
+    result['Delivery Rate'] = delivery_cnt / denominators['delivery']
+    result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / denominators['commonsense_micro']
+    result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / denominators['commonsense_macro']
+    result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / denominators['hard_micro']
+    result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / denominators['hard_macro']
+    result['Final Pass Rate'] = final_all_cnt / denominators['final']
 
     return result, {"Commonsense Constraint":remap_commonsense_constraint_record, "Hard Constraint":remap_hard_constraint_record}
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--set_type", type=str, default="validation")
+    parser.add_argument("--set_type", type=str, default="custom")
     parser.add_argument("--evaluation_file_path", type=str, default="./")
     args = parser.parse_args()
-
     scores, detailed_scores = eval_score(args.set_type, file_path=args.evaluation_file_path)
 
     for key in scores:

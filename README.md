@@ -291,37 +291,32 @@ poetry run python benchmarks/tripcraft/eval_runner.py run \
 
 ### 3. Postprocess & 평가
 
-TripCraft는 자연어 플랜을 JSON으로 변환하는 과정을 거친 뒤 평가를 실행합니다. `benchmarks/TripCraft/postprocess/` 디렉터리의 GPT 파서를 그대로 사용할 수 있습니다.
+TripCraft는 자연어 플랜을 JSON으로 변환한 뒤 평가합니다. 전 과정은 TripCraft 전용 conda 환경에서 해결할 수 있도록 `scripts/tripcraft_postprocess.py` 와 `scripts/tripcraft_eval.py` 를 제공합니다.
 
 ```bash
-# 자연어 → JSON 변환 (예: postprocess/sample_evaluation_format.jsonl 스키마)
-cd benchmarks/TripCraft/postprocess
-python openai_request.py --gen_file ../output/.../generated_plan.json --save_path parsed.jsonl
-
-# 상식/하드 제약 평가
-cd ../evaluation
-python eval.py --set_type 3d --evaluation_file_path parsed.jsonl
-
-# 연속 지표 평가(시간/공간/순서/페르소나)
-python qualitative_metrics.py --gen_file parsed.jsonl --anno_file path/to/ground_truth.jsonl
+# TripCraft conda env (e.g., `conda activate tripcraft`)에서 실행
+python scripts/tripcraft_postprocess.py \
+  --input-root results/tripcraft/gpt41mini_test_mini \
+  --output-jsonl results/tripcraft/gpt41mini_test_mini.jsonl \
+  --csv-3day benchmarks/TripCraft/tripcraft/tripcraft_3day.csv \
+  --csv-5day benchmarks/TripCraft/tripcraft/tripcraft_5day.csv \
+  --csv-7day benchmarks/TripCraft/tripcraft/tripcraft_7day.csv \
+  --openai-model gpt-4.1-mini
 ```
 
-TripCraft 결과를 리더보드에 올리려면 TravelPlanner와 동일한 JSONL 스키마(`postprocess/sample_evaluation_format.jsonl`)로 변환한 뒤 아래 명령으로 평가하십시오.
+위 스크립트가 TripCraft 자연어 출력을 `postprocess/sample_evaluation_format.jsonl` 스키마로 변환합니다. 이어서 TripCraft 전용 평가/리더보드 스크립트를 실행하세요.
 
 ```bash
-poetry run python scripts/eval_submission.py \
-  --benchmark tripcraft \
-  --submission examples/tripcraft_submission_example.jsonl \
-  --tripcraft-provider openai \
-  --tripcraft-model gpt-4.1-mini \
-  --tripcraft-set-type 3d \
-  --result-label 3day
+python scripts/tripcraft_eval.py \
+  --submission results/tripcraft/gpt41mini_test_mini.jsonl \
+  --provider openai \
+  --model gpt-4.1-mini \
+  --workflow test-mini \
+  --result-label gpt41mini_test_mini
 ```
 
-- `--submission` 은 JSON Lines 파일 경로여야 합니다(각 줄에 TripCraft sample_evaluation_format과 같은 구조).
-- `--tripcraft-provider`, `--tripcraft-model` 은 리더보드에 표기될 Provider/Model 이름입니다. 필요하다면 `--tripcraft-workflow` 로 세부 실험명을 덧붙일 수 있습니다.
-- TripCraft 리더보드는 `leaderboards/TripCraft/main.md` 에 기록되며, TravelPlanner와 동일하게 `results/tripcraft/.../metrics.json` 링크가 함께 남습니다.
-- 각 지표(Delivery Rate, Commonsense/Hard Pass Rate, Hard Pass Rate, Final Pass Rate 등)는 TripCraft evaluator가 출력한 값을 그대로 사용합니다.
+- `tripcraft_eval.py` 는 TripCraft evaluator를 호출해 Delivery Rate/Commonsense/Hard/Final Pass Rate 등을 계산하고, 결과를 `results/tripcraft/<result-label>/metrics.json` 에 저장한 뒤 `leaderboards/TripCraft/main.md` 를 업데이트합니다.
+- TravelPlanner용 Poetry 환경이 필요하지 않으며 TripCraft conda 환경 하나만으로 “생성 → 후처리 → 평가 → 리더보드” 전체 파이프라인을 반복 실행할 수 있습니다.
 
 ## 다음 단계
 

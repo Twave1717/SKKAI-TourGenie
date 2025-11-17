@@ -1,0 +1,433 @@
+{
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "workflow": "test-mini",
+  "submission": "results/tripcraft/gpt41_test_mini.jsonl",
+  "timestamp": "2025-11-17T17:56:49.905226Z",
+  "overall": {
+    "Delivery Rate": 0.45,
+    "Commonsense Constraint Micro Pass Rate": 0.4641025641025641,
+    "Commonsense Constraint Macro Pass Rate": 0.0,
+    "Hard Constraint Micro Pass Rate": 0.425,
+    "Hard Constraint Macro Pass Rate": 0.18333333333333332,
+    "Final Pass Rate": 0.0
+  },
+  "per_day": {
+    "3": {
+      "Delivery Rate": 1.0,
+      "Commonsense Constraint Micro Pass Rate": 0.705,
+      "Commonsense Constraint Macro Pass Rate": 0.0,
+      "Hard Constraint Micro Pass Rate": 0.425,
+      "Hard Constraint Macro Pass Rate": 0.55,
+      "Final Pass Rate": 0.0
+    },
+    "5": {
+      "Delivery Rate": 0.35,
+      "Commonsense Constraint Micro Pass Rate": 0.21052631578947367,
+      "Commonsense Constraint Macro Pass Rate": 0.0,
+      "Hard Constraint Micro Pass Rate": 0.0,
+      "Hard Constraint Macro Pass Rate": 0.0,
+      "Final Pass Rate": 0.0
+    },
+    "7": {
+      "Delivery Rate": 0.0,
+      "Commonsense Constraint Micro Pass Rate": 0.0,
+      "Commonsense Constraint Macro Pass Rate": 0.0,
+      "Hard Constraint Micro Pass Rate": 0.0,
+      "Hard Constraint Macro Pass Rate": 0.0,
+      "Final Pass Rate": 0.0
+    }
+  },
+  "details": {
+    "Commonsense Constraint": {
+      "easy": {
+        "3": {
+          "Reasonable City Route": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Diverse Restaurants": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Diverse Attractions": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Non-conf. Transportation": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "No Reapeated Events": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Sufficient Time between meals": {
+            "true": 1,
+            "false": 9,
+            "total": 10
+          },
+          "PoI sequence starts and ends with accommodation": {
+            "true": 5,
+            "false": 5,
+            "total": 10
+          },
+          "Within Sandbox": {
+            "true": 8,
+            "false": 2,
+            "total": 10
+          },
+          "Within Current City": {
+            "true": 0,
+            "false": 10,
+            "total": 10
+          },
+          "Complete Information": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          }
+        },
+        "5": {
+          "Reasonable City Route": {
+            "true": 0,
+            "false": 1,
+            "total": 1
+          },
+          "Diverse Restaurants": {
+            "true": 1,
+            "false": 0,
+            "total": 1
+          },
+          "Diverse Attractions": {
+            "true": 1,
+            "false": 0,
+            "total": 1
+          },
+          "Non-conf. Transportation": {
+            "true": 1,
+            "false": 0,
+            "total": 1
+          },
+          "No Reapeated Events": {
+            "true": 1,
+            "false": 0,
+            "total": 1
+          },
+          "Sufficient Time between meals": {
+            "true": 0,
+            "false": 1,
+            "total": 1
+          },
+          "PoI sequence starts and ends with accommodation": {
+            "true": 1,
+            "false": 0,
+            "total": 1
+          },
+          "Within Sandbox": {
+            "true": 0,
+            "false": 1,
+            "total": 1
+          },
+          "Within Current City": {
+            "true": 0,
+            "false": 1,
+            "total": 1
+          },
+          "Complete Information": {
+            "true": 1,
+            "false": 0,
+            "total": 1
+          }
+        },
+        "7": {}
+      },
+      "medium": {
+        "3": {
+          "Reasonable City Route": {
+            "true": 4,
+            "false": 0,
+            "total": 4
+          },
+          "Diverse Restaurants": {
+            "true": 4,
+            "false": 0,
+            "total": 4
+          },
+          "Diverse Attractions": {
+            "true": 4,
+            "false": 0,
+            "total": 4
+          },
+          "Non-conf. Transportation": {
+            "true": 4,
+            "false": 0,
+            "total": 4
+          },
+          "No Reapeated Events": {
+            "true": 4,
+            "false": 0,
+            "total": 4
+          },
+          "Sufficient Time between meals": {
+            "true": 0,
+            "false": 4,
+            "total": 4
+          },
+          "PoI sequence starts and ends with accommodation": {
+            "true": 1,
+            "false": 3,
+            "total": 4
+          },
+          "Within Sandbox": {
+            "true": 2,
+            "false": 2,
+            "total": 4
+          },
+          "Within Current City": {
+            "true": 0,
+            "false": 4,
+            "total": 4
+          },
+          "Complete Information": {
+            "true": 4,
+            "false": 0,
+            "total": 4
+          }
+        },
+        "5": {
+          "Reasonable City Route": {
+            "true": 3,
+            "false": 3,
+            "total": 18
+          },
+          "Diverse Restaurants": {
+            "true": 6,
+            "false": 0,
+            "total": 18
+          },
+          "Diverse Attractions": {
+            "true": 6,
+            "false": 0,
+            "total": 18
+          },
+          "Non-conf. Transportation": {
+            "true": 5,
+            "false": 1,
+            "total": 18
+          },
+          "No Reapeated Events": {
+            "true": 6,
+            "false": 0,
+            "total": 18
+          },
+          "Sufficient Time between meals": {
+            "true": 0,
+            "false": 6,
+            "total": 18
+          },
+          "PoI sequence starts and ends with accommodation": {
+            "true": 2,
+            "false": 4,
+            "total": 18
+          },
+          "Within Sandbox": {
+            "true": 0,
+            "false": 6,
+            "total": 18
+          },
+          "Within Current City": {
+            "true": 0,
+            "false": 6,
+            "total": 18
+          },
+          "Complete Information": {
+            "true": 6,
+            "false": 0,
+            "total": 18
+          }
+        },
+        "7": {}
+      },
+      "hard": {
+        "3": {
+          "Reasonable City Route": {
+            "true": 6,
+            "false": 0,
+            "total": 6
+          },
+          "Diverse Restaurants": {
+            "true": 4,
+            "false": 2,
+            "total": 6
+          },
+          "Diverse Attractions": {
+            "true": 6,
+            "false": 0,
+            "total": 6
+          },
+          "Non-conf. Transportation": {
+            "true": 6,
+            "false": 0,
+            "total": 6
+          },
+          "No Reapeated Events": {
+            "true": 6,
+            "false": 0,
+            "total": 6
+          },
+          "Sufficient Time between meals": {
+            "true": 3,
+            "false": 3,
+            "total": 6
+          },
+          "PoI sequence starts and ends with accommodation": {
+            "true": 1,
+            "false": 5,
+            "total": 6
+          },
+          "Within Sandbox": {
+            "true": 2,
+            "false": 4,
+            "total": 6
+          },
+          "Within Current City": {
+            "true": 0,
+            "false": 6,
+            "total": 6
+          },
+          "Complete Information": {
+            "true": 6,
+            "false": 0,
+            "total": 6
+          }
+        },
+        "5": {},
+        "7": {}
+      }
+    },
+    "Hard Constraint": {
+      "easy": {
+        "3": {
+          "Cuisine": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Rule": {
+            "true": 0,
+            "false": 0
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Attraction Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Event Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Budget": {
+            "true": 8,
+            "false": 0,
+            "total": 10
+          }
+        },
+        "5": {},
+        "7": {}
+      },
+      "medium": {
+        "3": {
+          "Cuisine": {
+            "true": 2,
+            "false": 0,
+            "total": 2
+          },
+          "Room Rule": {
+            "true": 0,
+            "false": 0,
+            "total": 1
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Type": {
+            "true": 0,
+            "false": 0,
+            "total": 1
+          },
+          "Attraction Type": {
+            "true": 0,
+            "false": 0,
+            "total": 0
+          },
+          "Event Type": {
+            "true": 0,
+            "false": 0,
+            "total": 0
+          },
+          "Budget": {
+            "true": 2,
+            "false": 0,
+            "total": 4
+          }
+        },
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {
+          "Cuisine": {
+            "true": 0,
+            "false": 0,
+            "total": 4
+          },
+          "Room Rule": {
+            "true": 2,
+            "false": 0,
+            "total": 5
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0,
+            "total": 0
+          },
+          "Room Type": {
+            "true": 1,
+            "false": 0,
+            "total": 5
+          },
+          "Attraction Type": {
+            "true": 1,
+            "false": 0,
+            "total": 2
+          },
+          "Event Type": {
+            "true": 0,
+            "false": 0,
+            "total": 0
+          },
+          "Budget": {
+            "true": 1,
+            "false": 1,
+            "total": 6
+          }
+        },
+        "5": {},
+        "7": {}
+      }
+    }
+  }
+}
