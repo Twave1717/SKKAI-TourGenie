@@ -1,0 +1,7 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Jacksonville to Detroit  \nTransportation: Flight Number: F3553781, from Jacksonville to Detroit, Departure Time: 12:10, Arrival Time: 14:15  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -  \n\nDay 2:  \nCurrent City: Detroit  \nTransportation: -  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -  \n\nDay 3:  \nCurrent City: from Detroit to Grand Rapids  \nTransportation: Self-driving, from Detroit to Grand Rapids, duration: 2 hours 22 mins, distance: 254 km, cost: $12  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -  \n\nDay 4:  \nCurrent City: Grand Rapids  \nTransportation: -  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -  \n\nDay 5:  \nCurrent City: from Grand Rapids to Detroit to Jacksonville  \nTransportation: Self-driving, from Grand Rapids to Detroit, duration: 2 hours 22 mins, distance: 254 km, cost: $12  \nTransportation: Flight Number: F3553788, from Detroit to Jacksonville, Departure Time: 09:39, Arrival Time: 11:38  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: -  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": []
+    }
+]

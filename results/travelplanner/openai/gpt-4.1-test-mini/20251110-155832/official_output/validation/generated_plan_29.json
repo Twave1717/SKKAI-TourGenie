@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Grand Island\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 2, \"current_city\": \"Grand Island\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 3, \"current_city\": \"North Platte\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 4, \"current_city\": \"North Platte\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 5, \"current_city\": \"Omaha\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 6, \"current_city\": \"Omaha\", \"transportation\": \"Taxi in Nebraska; Cost: 50\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;\", \"accommodation\": \"Accommodation, Nebraska\"}, {\"days\": 7, \"current_city\": \"Dallas\", \"transportation\": \"Flight from Nebraska to Dallas\", \"breakfast\": \"Restaurant, Nebraska\", \"lunch\": \"Restaurant, Nebraska\", \"dinner\": \"Restaurant, Nebraska\", \"attraction\": \"A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Grand Island",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 2,
+                "current_city": "Grand Island",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 3,
+                "current_city": "North Platte",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 4,
+                "current_city": "North Platte",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 5,
+                "current_city": "Omaha",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 6,
+                "current_city": "Omaha",
+                "transportation": "Taxi in Nebraska; Cost: 50",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+                "accommodation": "Accommodation, Nebraska"
+            },
+            {
+                "days": 7,
+                "current_city": "Dallas",
+                "transportation": "Flight from Nebraska to Dallas",
+                "breakfast": "Restaurant, Nebraska",
+                "lunch": "Restaurant, Nebraska",
+                "dinner": "Restaurant, Nebraska",
+                "attraction": "A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

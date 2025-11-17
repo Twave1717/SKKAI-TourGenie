@@ -188,7 +188,7 @@ def main(
     scores, detailed_scores = official_eval_score(
         payload.split,
         submission_path,
-        query_data_list=query_records,
+        #query_data_list=query_records,
     )
     metrics = {key: scores.get(key) for key in DEFAULT_METRIC_KEYS}
 

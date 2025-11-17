@@ -1,0 +1,271 @@
+Thought 1: Thought 1: To begin, I need to identify two cities in Indiana to include in the travel plan.
+Action 1: Action 1: CitySearch[Indiana]
+Observation 1: ['Evansville', 'South Bend', 'Fort Wayne', 'Valparaiso', 'Indianapolis']
+
+Thought 2: Thought 2: I will select two cities in Indiana that are popular and offer a variety of attractions: Indianapolis (the state capital) and South Bend (home to Notre Dame University). Next, I need to find flights from Key West to Indianapolis for March 10th, 2022.
+Action 2: Action 2: FlightSearch[Key West, Indianapolis, 2022-03-10]
+Observation 2: There is no flight from Key West to Indianapolis on 2022-03-10.
+
+Thought 3: Thought 3: Since there are no direct flights from Key West to Indianapolis on March 10th, 2022, I should check for flights from Key West to South Bend as an alternative entry point into Indiana.
+Action 3: Action 3: FlightSearch[Key West, South Bend, 2022-03-10]
+Observation 3: There is no flight from Key West to South Bend on 2022-03-10.
+
+Thought 4: Thought 4: Since there are no direct flights from Key West to South Bend, I will proceed with the available flight options from Key West to Indianapolis. Next, I need to find accommodation options in Indianapolis for the night of March 10th, 2022.
+Action 4: Action 4: AccommodationSearch[Indianapolis]
+Observation 4: NAME  price       room type                                     house_rules  minimum nights  maximum occupancy  review rate number         city
+Bedroom (KING) & private bath - Brand New & Modern   60.0    Private room     No smoking & No children under 10 & No pets             1.0                  1                 1.0 Indianapolis
+                           Studio apartment in NYC 1048.0 Entire home/apt               No smoking & No children under 10             3.0                  2                 1.0 Indianapolis
+  A great experience in a fashionable neighborhood  447.0    Private room                           No visitors & No pets             4.0                  1                 3.0 Indianapolis
+        Large 1BR in the Heart of Hell's Kitchen!!  219.0 Entire home/apt                                     No visitors             4.0                  2                 1.0 Indianapolis
+           Spacious and bright 1 bedroom apartment  523.0 Entire home/apt                                      No smoking             7.0                  3                 4.0 Indianapolis
+            *Solo NY Explorer | Comfy, Quiet Space  439.0    Private room               No pets & No parties & No smoking             5.0                  2                 4.0 Indianapolis
+          Sun-Splashed Midtown 3BED Penthouse LOFT  155.0 Entire home/apt              No children under 10 & No visitors             6.0                  2                 5.0 Indianapolis
+                                       Cozy place.  149.0    Private room No children under 10 & No visitors & No smoking             1.0                  2                 3.0 Indianapolis
+                    Chic, Spacious Loft + Backyard  441.0 Entire home/apt                        No visitors & No parties             2.0                  3                 4.0 Indianapolis
+ Private room in super location in lower Manhattan  621.0    Private room               No pets & No smoking & No parties            14.0                  1                 5.0 Indianapolis
+                          An Amazing Creative Loft  703.0    Private room                                      No smoking             2.0                  1                 3.0 Indianapolis
+                 Carroll Gardens Modern Sunny Loft  860.0 Entire home/apt     No pets & No children under 10 & No parties             3.0                  2                 1.0 Indianapolis
+        A serene apartment to rejuvenate yourself.  503.0 Entire home/apt               No smoking & No pets & No parties             2.0                  4                 2.0 Indianapolis
+                   Spacious Studio ( W 48 street )  222.0 Entire home/apt                            No smoking & No pets            30.0                  3                 2.0 Indianapolis
+Lovely studio near Grand Central /You will love it  430.0 Entire home/apt                                         No pets            30.0                  3                 5.0 Indianapolis
+
+Thought 5: Thought 5: I need to save the accommodation options in Indianapolis to the Notebook for later use in the Planner tool.
+Action 5: Action 5: NotebookWrite[Indianapolis accommodation options]
+Observation 5: The information has been recorded in Notebook, and its index is 0.
+
+Thought 6: Thought 6: Now, I should gather information about attractions in Indianapolis to recommend activities for the stay there.
+Action 6: Action 6: AttractionSearch[Indianapolis]
+Observation 6: Name  Latitude  Longitude                                                Address          Phone                                                                                              Website         City
+  The Children's Museum of Indianapolis 39.810613 -86.157892        3000 N Meridian St, Indianapolis, IN 46208, USA (317) 334-4000                                                                     https://www.childrensmuseum.org/ Indianapolis
+                 White River State Park 39.766546 -86.170786       801 W Washington St, Indianapolis, IN 46204, USA (317) 233-2434                                                                 https://www.whiteriverstatepark.org/ Indianapolis
+                   Indiana State Museum 39.768392 -86.169501       650 W Washington St, Indianapolis, IN 46204, USA (317) 232-1637                                                                        http://www.indianamuseum.org/ Indianapolis
+                       Indianapolis Zoo 39.766787 -86.177048      1200 W Washington St, Indianapolis, IN 46222, USA (317) 630-2001                                                                      http://www.indianapoliszoo.com/ Indianapolis
+                              Catacombs 39.768733 -86.153420           222 E Market St, Indianapolis, IN 46204, USA (317) 639-4534       https://www.indianalandmarks.org/tours-events/ongoing-tours-events/city-market-catacombs-tour/ Indianapolis
+                       Eiteljorg Museum 39.768575 -86.167791       500 W Washington St, Indianapolis, IN 46204, USA (317) 636-9378                                                                            http://www.eiteljorg.org/ Indianapolis
+                       Eagle Creek Park 39.873789 -86.296203            7840 W 56th St, Indianapolis, IN 46254, USA (317) 327-7110                                                 https://www.indy.gov/activity/about-eagle-creek-park Indianapolis
+                              Newfields 39.825961 -86.185663        4000 N Michigan Rd, Indianapolis, IN 46208, USA (317) 923-1331                                                                   https://www.discovernewfields.org/ Indianapolis
+     Indianapolis Motor Speedway Museum 39.790315 -86.233661            4750 W 16th St, Indianapolis, IN 46222, USA (317) 492-6784                                                                               https://imsmuseum.org/ Indianapolis
+        Oldfields–Lilly House & Gardens 39.828376 -86.185480        4000 N Michigan Rd, Indianapolis, IN 46208, USA (317) 923-1331                             http://www.imamuseum.org/visit/oldfields-lilly-house-gardens/lilly-house Indianapolis
+    Benjamin Harrison Presidential Site 39.784072 -86.154487        1230 N Delaware St, Indianapolis, IN 46202, USA (317) 631-1888                                                            http://www.presidentbenjaminharrison.org/ Indianapolis
+          Indiana War Memorial & Museum 39.773361 -86.156951          55 E Michigan St, Indianapolis, IN 46204, USA (317) 232-7615                                                                 https://www.indianawarmemorials.org/ Indianapolis
+                          Central Canal 39.769346 -86.166300                Canal Walk, Indianapolis, IN 46204, USA        Unknown                                                                                              Unknown Indianapolis
+                          Holliday Park 39.870893 -86.163494       6363 Spring Mill Rd, Indianapolis, IN 46260, USA (317) 327-7180                                                                        https://www.hollidaypark.org/ Indianapolis
+                          Military Park 39.770590 -86.168701         601 W New York St, Indianapolis, IN 46204, USA (317) 233-2434                                                                 https://www.whiteriverstatepark.org/ Indianapolis
+                          Central Canal 39.767458 -86.170465                            Indianapolis, IN 46204, USA        Unknown                                                                                              Unknown Indianapolis
+         Indiana Medical History Museum 39.769886 -86.213300        3270 Kirkbride Way, Indianapolis, IN 46222, USA (317) 635-7329                                                                                 http://www.imhm.org/ Indianapolis
+                        Veal's Ice Tree 39.676150 -85.963446            6445 Mimosa Ln, Indianapolis, IN 46259, USA        Unknown                                                         http://vealsicetree.wixsite.com/vealsicetree Indianapolis
+           The Escape Room Indianapolis 39.764147 -86.158396 200 S Meridian St STE 220, Indianapolis, IN 46225, USA (317) 986-6542                                                                  https://www.escaperoomusa.com/indy/ Indianapolis
+Virginia B. Fairbanks Art & Nature Park 39.825996 -86.189427            1850 W 38th St, Indianapolis, IN 46228, USA (317) 923-1331 https://discovernewfields.org/do-and-see/places-to-go/virginia-b-fairbanks-art-nature-park-100-acres Indianapolis
+
+Thought 7: Thought 7: I should save the list of attractions in Indianapolis to the Notebook for use in the Planner tool.
+Action 7: Action 7: NotebookWrite[Indianapolis attractions]
+Observation 7: The information has been recorded in Notebook, and its index is 1.
+
+Thought 8: Thought 8: I should also collect dining options in Indianapolis to provide restaurant recommendations for the trip.
+Action 8: Action 8: RestaurantSearch[Indianapolis]
+Observation 8: Name  Average Cost                                               Cuisines  Aggregate Rating         City
+                 Rudy's Tacos            29                        Cafe, Mexican, Indian, Desserts               3.6 Indianapolis
+Shree Bikaner Misthan Bhandar            61                                       Cafe, Pizza, BBQ               3.1 Indianapolis
+                    FoodByMom            10                       French, Seafood, Cafe, Fast Food               3.6 Indianapolis
+                St. Anthony's            14                                    Tea, Pizza, Italian               3.8 Indianapolis
+                       Raasta            84                             Cafe, Pizza, Mediterranean               3.8 Indianapolis
+             Colonel's Kababz            40                         Cafe, Mediterranean, Fast Food               3.0 Indianapolis
+           Om Sweets & Snacks            53                      Fast Food, Tea, American, Seafood               3.5 Indianapolis
+                       Aromas            34                                        Bakery, Seafood               4.1 Indianapolis
+                     Alaturka            42                     Mexican, Bakery, Desserts, Italian               2.5 Indianapolis
+               Domino's Pizza            67                       Cafe, Mexican, Desserts, Seafood               2.5 Indianapolis
+                      Dada Ka            97                       Pizza, Bakery, BBQ, Cafe, Indian               0.0 Indianapolis
+       Sona Pure Veg Paradise            71                              Cafe, Desserts, Fast Food               3.8 Indianapolis
+                Kay's Chik-In            40                    Indian, Mediterranean, BBQ, Seafood               2.6 Indianapolis
+                Bangla Sweets            59                  Desserts, Tea, Pizza, Bakery, Chinese               3.3 Indianapolis
+                    Cocoberry            40                                  Mexican, BBQ, Seafood               3.1 Indianapolis
+               Hotel Delhi 43            84                Pizza, Mexican, BBQ, Fast Food, Seafood               0.0 Indianapolis
+               Dunkin' Donuts            44        Desserts, Bakery, BBQ, Fast Food, Mediterranean               3.4 Indianapolis
+            Pehalwan Da Hotel            72                            Tea, BBQ, Desserts, Seafood               3.1 Indianapolis
+               Domino's Pizza            44                 Tea, Cafe, Italian, Fast Food, Chinese               0.0 Indianapolis
+                   Yellowtail            28                                          BBQ, Desserts               3.1 Indianapolis
+           Colours of Biryani            32                      French, Mexican, Bakery, Desserts               0.0 Indianapolis
+                       Subway            48                                   Bakery, Mexican, BBQ               2.6 Indianapolis
+             Swaad Bar-Be-Que            94                                    Tea, Cafe, Desserts               3.2 Indianapolis
+              Standard Corner            65                   Chinese, American, Desserts, Seafood               3.6 Indianapolis
+          Smoke Trailer Grill            36 Tea, Pizza, Bakery, Fast Food, American, Mediterranean               0.0 Indianapolis
+                    Pizza Hut            64                                      Tea, BBQ, Italian               3.1 Indianapolis
+    Muradabadi Biryani Centre            54                     Chinese, Indian, Desserts, Seafood               2.9 Indianapolis
+                    Ever Bake            47                               Chinese, Pizza, Desserts               4.0 Indianapolis
+              Bombay Bhelpuri            92                     Tea, Pizza, BBQ, Fast Food, Indian               3.9 Indianapolis
+          Sanjay Chicken Shop            49                  Italian, French, BBQ, Fast Food, Cafe               0.0 Indianapolis
+            Nazeer Delicacies            25                               Tea, Bakery, Pizza, Cafe               3.3 Indianapolis
+           Sufiyan Restaurant            29                   Tea, Bakery, Mediterranean, Desserts               0.0 Indianapolis
+                  Big Wong XL            52                         Chinese, Bakery, BBQ, Desserts               3.9 Indianapolis
+                  Go! Biryani            97                                            Bakery, BBQ               3.5 Indianapolis
+         Meeting Point Corner            30                               French, Bakery, Desserts               2.8 Indianapolis
+                Golden Dragon            84                                            Bakery, BBQ               4.2 Indianapolis
+                      Frasers            36                          French, Bakery, Cafe, Italian               4.0 Indianapolis
+
+Thought 9: Thought 9: I need to save the restaurant options in Indianapolis to the Notebook for use in the Planner tool.
+Action 9: Action 9: NotebookWrite[Indianapolis restaurant options]
+Observation 9: The information has been recorded in Notebook, and its index is 2.
+
+Thought 10: Thought 10: Next, I need to determine the best way to travel from Indianapolis to South Bend, considering both distance and transportation options.
+Action 10: Action 10: GoogleDistanceMatrix[Indianapolis, South Bend, self-driving]
+Observation 10: self-driving, from Indianapolis to South Bend, duration: 2 hours 32 mins, distance: 237 km, cost: 11
+
+Thought 11: Thought 11: I should save the transportation details from Indianapolis to South Bend in the Notebook for the Planner tool to use when creating the itinerary.
+Action 11: Action 11: NotebookWrite[Driving from Indianapolis to South Bend]
+Observation 11: The information has been recorded in Notebook, and its index is 3.
+
+Thought 12: Thought 12: Now, I need to find accommodation options in South Bend for the nights following the arrival from Indianapolis.
+Action 12: Action 12: AccommodationSearch[South Bend]
+Observation 12: NAME  price       room type                                 house_rules  minimum nights  maximum occupancy  review rate number       city
+                   Just Right in Lovely Greenpoint  614.0    Private room                    No smoking & No visitors             7.0                  1                 5.0 South Bend
+       Clean + Simple Chelsea 2 Bedroom (sleeps 7)  341.0 Entire home/apt          No visitors & No pets & No smoking            30.0                  3                 5.0 South Bend
+                   Clean and Cozy Harlem Apartment  601.0 Entire home/apt                                  No smoking           128.0                  4                 3.0 South Bend
+AMAZING AAA Specious  Studio South Expo  Skylight!   71.0 Entire home/apt                    No smoking & No visitors            30.0                  3                 5.0 South Bend
+                         1 Bedroom in williamsburg  864.0 Entire home/apt                        No smoking & No pets             7.0                  6                 1.0 South Bend
+                         Whole West Village Studio  324.0 Entire home/apt No pets & No smoking & No children under 10             2.0                  3                 5.0 South Bend
+          Room in lovely loft with waterfront view  234.0    Private room                                  No parties            10.0                  2                 4.0 South Bend
+Elegant 3 BR in Victorian Home by Brooklyn College  503.0 Entire home/apt          No children under 10 & No visitors             4.0                  4                 1.0 South Bend
+     Convenient 1Bdr with Outdoor Space (sleeps 4)  825.0 Entire home/apt                    No visitors & No parties             2.0                  8                 2.0 South Bend
+      Private room/bathroom on the Upper West Side  155.0    Private room                                  No parties             1.0                  2                 4.0 South Bend
+                            Classy Brooklyn Studio  921.0 Entire home/apt                                 No visitors            15.0                  3                 1.0 South Bend
+
+Thought 13: Thought 13: I need to save the accommodation options in South Bend to the Notebook for later use in the Planner tool.
+Action 13: Action 13: NotebookWrite[South Bend accommodation options]
+Observation 13: The information has been recorded in Notebook, and its index is 4.
+
+Thought 14: Thought 14: I should gather information about attractions in South Bend to suggest activities during the stay there.
+Action 14: Action 14: AttractionSearch[South Bend]
+Observation 14: Name  Latitude  Longitude                                              Address          Phone                                                                 Website       City
+              Studebaker National Museum 41.674802 -86.262104             201 Chapin St, South Bend, IN 46601, USA (574) 235-9714                                        http://www.studebakermuseum.org/ South Bend
+                      The History Museum 41.674913 -86.262681       808 W Washington St, South Bend, IN 46601, USA (574) 235-9664                                            https://historymuseumsb.org/ South Bend
+                South Bend Museum of Art 41.676201 -86.248398 120 Doctor M.L.K. Jr Blvd, South Bend, IN 46601, USA (574) 235-9102                                            http://www.southbendart.org/ South Bend
+                          Potawatomi Zoo 41.669340 -86.217955       500 S Greenlawn Ave, South Bend, IN 46615, USA (574) 235-9800                                              https://potawatomizoo.org/ South Bend
+                      River Lights Plaza 41.676458 -86.245751          340 E Colfax Ave, South Bend, IN 46617, USA        Unknown                                                                 Unknown South Bend
+                      The Oliver Mansion 41.675791 -86.262078       808 W Washington St, South Bend, IN 46601, USA (574) 235-9664 http://historymuseumsb.org/see-do/historic-house#The%20Oliver%20Mansion South Bend
+             Kidsfirst Children's Museum 41.674841 -86.262568       808 W Washington St, South Bend, IN 46601, USA (574) 235-9664           http://historymuseumsb.org/see-do/kidsfirst-childrens-museum/ South Bend
+                      Kennedy Water Park 41.684066 -86.289625            756 Eclipse Pl, South Bend, IN 46628, USA (574) 235-9407                                  https://sbvpa.org/places/kennedy-park/ South Bend
+               Rum Village Nature Center 41.647449 -86.271025        2626 S Gertrude St, South Bend, IN 46614, USA (574) 235-9455                               http://sbvpa.org/places/rum-village-park/ South Bend
+         Children's Museum of South Bend 41.646786 -86.249314        2632 S Michigan St, South Bend, IN 46614, USA (574) 222-2044                                  http://childrensmuseumofsouthbend.org/ South Bend
+               St. Patrick's County Park 41.755191 -86.265569           50651 Laurel Rd, South Bend, IN 46637, USA (574) 277-4828                                 http://www.sjcparks.org/592/St-Patricks South Bend
+                         Potawatomi Park 41.668408 -86.219471      2105 E Mishawaka Ave, South Bend, IN 46615, USA (574) 299-4765                                http://sbvpa.org/places/potawatomi-park/ South Bend
+                              Seitz Park 41.676010 -86.245235               S Niles Ave, South Bend, IN 46617, USA (574) 299-4765                                      http://sbvpa.org/parks/seitz-park/ South Bend
+Snite Research Center in the Visual Arts 41.699588 -86.235699      100 Moose Krause Cir, Notre Dame, IN 46556, USA (574) 631-5466                                           http://sniteartmuseum.nd.edu/ South Bend
+           Island Park at Century Center 41.676627 -86.247524        120 S St Joseph St, South Bend, IN 46601, USA (574) 235-9711                                                                 Unknown South Bend
+        Kid's Kingdom at Potawatomi Park 41.666794 -86.216877              2000 Wall St, South Bend, IN 46615, USA        Unknown                                                                 Unknown South Bend
+                         The Kizer House 41.676604 -86.261724       803 W Washington St, South Bend, IN 46601, USA (574) 232-4534                                        http://www.indianalandmarks.org/ South Bend
+                          Birthday Chair 41.686622 -86.261075           821 Portage Ave, South Bend, IN 46616, USA        Unknown                                                                 Unknown South Bend
+          Park & Party - ND Tailgate Lot 41.697762 -86.225149       54746 Twyckenham Dr, South Bend, IN 46637, USA        Unknown                                                                 Unknown South Bend
+                 South Bend Welcome Sign 41.691111 -86.250682         1140 Hillcrest Rd, South Bend, IN 46617, USA        Unknown                                                                 Unknown South Bend
+
+Thought 15: Thought 15: I need to save the list of attractions in South Bend to the Notebook for use in the Planner tool.
+Action 15: Action 15: NotebookWrite[South Bend attractions]
+Observation 15: The information has been recorded in Notebook, and its index is 5.
+
+Thought 16: Thought 16: I should also collect dining options in South Bend to provide restaurant recommendations for the trip.
+Action 16: Action 16: RestaurantSearch[South Bend]
+Observation 16: Name  Average Cost                                         Cuisines  Aggregate Rating       City
+       Madaan Confectionery            62                          Tea, Cafe, BBQ, Seafood               0.0 South Bend
+           Krips Restaurant            59                    Tea, Mediterranean, Fast Food               3.5 South Bend
+                It潴籹 Sinful            26           Desserts, French, BBQ, Bakery, Seafood               3.5 South Bend
+                MOB Brewpub            67                     Cafe, Mexican, American, BBQ               4.7 South Bend
+             Roadhouse Cafe            24      Desserts, Pizza, Bakery, Fast Food, Chinese               4.1 South Bend
+         Stop My Starvation            56                     Tea, Mediterranean, Desserts               4.3 South Bend
+               Chocofairies            91                    Tea, Chinese, Pizza, Desserts               0.0 South Bend
+                  True Blue            53                Seafood, Mediterranean, Fast Food               3.3 South Bend
+                 Lotus Pond            83                            Tea, Seafood, Italian               4.2 South Bend
+          Cheers Lounge Bar            30              Desserts, Tea, Pizza, BBQ, American               2.8 South Bend
+           New Durga Corner            20                    BBQ, Chinese, Pizza, Desserts               3.2 South Bend
+                   Voda Bar            95                     Tea, Fast Food, BBQ, Seafood               3.2 South Bend
+            Cafe Coffee Day            81           Desserts, French, Bakery, Cafe, Indian               3.6 South Bend
+Our Story Bistro & Tea Room            10 Tea, Pizza, Italian, BBQ, Mediterranean, Seafood               3.9 South Bend
+                  Yo! China            95                          BBQ, American, Desserts               2.5 South Bend
+                      Swaad            10                           Tea, American, Seafood               2.7 South Bend
+                     Mughli            89                     Tea, Bakery, Mexican, Indian               4.5 South Bend
+
+Thought 17: Thought 17: Thought 17: I need to save the restaurant options in South Bend to the Notebook for use in the Planner tool.
+Action 17: Action 17: NotebookWrite[South Bend restaurant options]
+Observation 17: The information has been recorded in Notebook, and its index is 6.
+
+Thought 18: Thought 18: Now, I need to find flight options for returning from South Bend to Key West on March 14th, 2022, to complete the round trip.
+Action 18: Action 18: FlightSearch[South Bend, Key West, 2022-03-14]
+Observation 18: There is no flight from South Bend to Key West on 2022-03-14.
+
+Thought 19: Thought 19: Since there are no direct flights from South Bend to Key West on March 14th, 2022, I should check for flights from Indianapolis to Key West as an alternative for the return journey.
+Action 19: Action 19: FlightSearch[Indianapolis, Key West, 2022-03-14]
+Observation 19: There is no flight from Indianapolis to Key West on 2022-03-14.
+
+Thought 20: Thought 20: Since there are no direct flights from either South Bend or Indianapolis to Key West on March 14th, 2022, I should check for flights from Chicago (the nearest major airport to South Bend) to Key West as an alternative for the return journey.
+Action 20: Action 20: FlightSearch[Chicago, Key West, 2022-03-14]
+Observation 20: Flight Number  Price DepTime ArrTime  ActualElapsedTime FlightDate OriginCityName DestCityName  Distance
+     F3676854    410   08:21   12:15 2 hours 54 minutes 2022-03-14        Chicago     Key West    1251.0
+     F4073527    553   10:38   14:43  3 hours 5 minutes 2022-03-14        Chicago     Key West    1251.0
+
+Thought 21: Thought 21: I need to save the available flight options from Chicago to Key West on March 14th, 2022, in the Notebook for the Planner tool to use for the return journey.
+Action 21: Action 21: NotebookWrite[Flights from Chicago to Key West on 2022-03-14]
+Observation 21: The information has been recorded in Notebook, and its index is 7.
+
+Thought 22: Thought 22: Now that I have gathered transportation, accommodation, dining, and attraction information for Key West, Indianapolis, and South Bend, I am ready to input all the collected data into the Planner tool to generate a detailed travel plan within the specified budget and dates.
+Action 22: Action 22: Planner[Devise a travel plan that begins in Key West and covers Indianapolis and South Bend in Indiana, for March 10th to March 14th, 2022, with a budget of $2,000, using the transportation, accommodation, dining, and attraction information stored in the Notebook.]
+Observation 22: Travel Plan:
+
+Day 1:  
+Date: 2022-03-10  
+Current City: from Key West to Indianapolis  
+Transportation: - (No direct flight or train info provided; assumed arrival in Indianapolis on Day 1)  
+Breakfast: -  
+Attraction: -  
+Lunch: -  
+Dinner: St. Anthony's, Indianapolis  
+Accommodation: Bedroom (KING) & private bath - Brand New & Modern, Indianapolis
+
+Day 2:  
+Date: 2022-03-11  
+Current City: Indianapolis  
+Transportation: -  
+Breakfast: FoodByMom, Indianapolis  
+Attraction: The Children's Museum of Indianapolis; White River State Park, Indianapolis  
+Lunch: Aromas, Indianapolis  
+Dinner: Sona Pure Veg Paradise, Indianapolis  
+Accommodation: Bedroom (KING) & private bath - Brand New & Modern, Indianapolis
+
+Day 3:  
+Date: 2022-03-12  
+Current City: Indianapolis  
+Transportation: -  
+Breakfast: Frasers, Indianapolis  
+Attraction: Indianapolis Zoo; Indiana State Museum, Indianapolis  
+Lunch: Rudy's Tacos, Indianapolis  
+Dinner: Bombay Bhelpuri, Indianapolis  
+Accommodation: Bedroom (KING) & private bath - Brand New & Modern, Indianapolis
+
+Day 4:  
+Date: 2022-03-13  
+Current City: from Indianapolis to South Bend  
+Transportation: Self-driving, from Indianapolis to South Bend, Departure: 09:00, Arrival: 11:32, Duration: 2 hours 32 mins, Distance: 237 km, Cost: $11  
+Breakfast: Dunkin' Donuts, Indianapolis  
+Attraction: Studebaker National Museum, South Bend  
+Lunch: Roadhouse Cafe, South Bend  
+Dinner: Lotus Pond, South Bend  
+Accommodation: Private room/bathroom on the Upper West Side, South Bend
+
+Day 5:  
+Date: 2022-03-14  
+Current City: South Bend  
+Transportation: -  
+Breakfast: Cafe Coffee Day, South Bend  
+Attraction: The History Museum; River Lights Plaza, South Bend  
+Lunch: MOB Brewpub, South Bend  
+Dinner: Stop My Starvation, South Bend  
+Accommodation: -
+
+Budget Summary (approximate, for 1 person):  
+- Indianapolis accommodation (3 nights x $60): $180  
+- South Bend accommodation (1 night x $155): $155  
+- Self-driving (Indianapolis to South Bend): $11  
+- Meals (average $40/day x 5 days): $200  
+- Total: ~$546 (well within $2,000 budget; transportation to/from Key West not included due to lack of data)
+
+Notes:  
+- All accommodation, restaurant, and attraction choices are based on provided data and availability for 1 person.  
+- No direct transportation info from Key West to Indianapolis or from South Bend onward; plan assumes arrival in Indianapolis on Day 1 and ends in South Bend on Day 5.  
+- If traveling with more people, accommodation selection and costs may need adjustment.

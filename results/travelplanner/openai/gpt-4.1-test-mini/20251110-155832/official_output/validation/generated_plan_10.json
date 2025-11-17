@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Minneapolis → St. Louis\", \"transportation\": \"Flight Number: F0050348, from Minneapolis to St. Louis, Departure Time: 11:21, Arrival Time: 12:34, Price: 150\", \"breakfast\": \"The Latitude - Radisson Blu, St. Louis; Cost: 18\", \"lunch\": \"M Cr砺me, St. Louis; Cost: 42\", \"dinner\": \"Starbucks, St. Louis; Cost: 92\", \"attraction\": \"Museum of Westward Expansion, St. Louis;Saint Louis Art Museum, St. Louis;\", \"accommodation\": \"Pet & Tony's Residence, St. Louis; Cost: 271 per night (~813)\"}, {\"days\": 2, \"current_city\": \"St. Louis\", \"transportation\": \"Taxi in St. Louis; Cost: 50\", \"breakfast\": \"Wai Yu Mun Ching, St. Louis; Cost: 89\", \"lunch\": \"Om Sweets, St. Louis; Cost: 24\", \"dinner\": \"Teddy Boy, St. Louis; Cost: 56\", \"attraction\": \"Saint Louis Art Museum, St. Louis;Saint Louis Science Center, St. Louis;\", \"accommodation\": \"Private room in large, central Nolita penthouse!, St. Louis; Cost: 342 per night (~1026)\"}, {\"days\": 3, \"current_city\": \"St. Louis → Minneapolis\", \"transportation\": \"Flight from St. Louis to Minneapolis\", \"breakfast\": \"Aroma, St. Louis; Cost: 90\", \"lunch\": \"Starbucks, St. Louis; Cost: 92\", \"dinner\": \"The Tea Place by Manjushree, St. Louis; Cost: 86\", \"attraction\": \"Saint Louis Science Center, St. Louis;Saint Louis Zoo, St. Louis;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Minneapolis → St. Louis",
+                "transportation": "Flight Number: F0050348, from Minneapolis to St. Louis, Departure Time: 11:21, Arrival Time: 12:34, Price: 150",
+                "breakfast": "The Latitude - Radisson Blu, St. Louis; Cost: 18",
+                "lunch": "M Cr砺me, St. Louis; Cost: 42",
+                "dinner": "Starbucks, St. Louis; Cost: 92",
+                "attraction": "Museum of Westward Expansion, St. Louis;Saint Louis Art Museum, St. Louis;",
+                "accommodation": "Pet & Tony's Residence, St. Louis; Cost: 271 per night (~813)"
+            },
+            {
+                "days": 2,
+                "current_city": "St. Louis",
+                "transportation": "Taxi in St. Louis; Cost: 50",
+                "breakfast": "Wai Yu Mun Ching, St. Louis; Cost: 89",
+                "lunch": "Om Sweets, St. Louis; Cost: 24",
+                "dinner": "Teddy Boy, St. Louis; Cost: 56",
+                "attraction": "Saint Louis Art Museum, St. Louis;Saint Louis Science Center, St. Louis;",
+                "accommodation": "Private room in large, central Nolita penthouse!, St. Louis; Cost: 342 per night (~1026)"
+            },
+            {
+                "days": 3,
+                "current_city": "St. Louis → Minneapolis",
+                "transportation": "Flight from St. Louis to Minneapolis",
+                "breakfast": "Aroma, St. Louis; Cost: 90",
+                "lunch": "Starbucks, St. Louis; Cost: 92",
+                "dinner": "The Tea Place by Manjushree, St. Louis; Cost: 86",
+                "attraction": "Saint Louis Science Center, St. Louis;Saint Louis Zoo, St. Louis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

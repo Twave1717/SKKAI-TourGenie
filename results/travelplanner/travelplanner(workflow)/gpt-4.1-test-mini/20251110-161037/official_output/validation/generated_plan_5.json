@@ -1,0 +1,7 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Day 1:  \nCurrent City: from West Palm Beach to Atlanta  \nTransportation: Flight Number: F3496900, from West Palm Beach to Atlanta, Departure Time: 08:06, Arrival Time: 09:40  \nBreakfast: Saffron, Atlanta  \nAttraction: Atlanta Botanical Garden, Atlanta  \nLunch: Daawat-e-Kashmir, Atlanta  \nAttraction: High Museum of Art, Atlanta  \nDinner: Baba Au Rhum, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta  \n\nDay 2:  \nCurrent City: Atlanta  \nTransportation: -  \nBreakfast: Adda, Atlanta  \nAttraction: Georgia Aquarium, Atlanta; Centennial Olympic Park, Atlanta  \nLunch: Sethi's Restaurant & Barbeque, Atlanta  \nAttraction: World of Coca-Cola, Atlanta  \nDinner: El Pistolero, Atlanta  \nAccommodation: Sunny, Friendly, Brooklyn Apartment, Atlanta  \n\nDay 3:  \nCurrent City: from Atlanta to West Palm Beach  \nTransportation: Flight Number: F3494344, from Atlanta to West Palm Beach, Departure Time: 09:20, Arrival Time: 10:59  \nBreakfast: Asian Bistro, Atlanta  \nAttraction: Piedmont Park, Atlanta  \nLunch: Nawaab, Atlanta  \nDinner: -  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": []
+    }
+]

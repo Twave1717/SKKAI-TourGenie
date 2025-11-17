@@ -1,0 +1,7 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "Travel Plan:\n\nDay 1:  \nCurrent City: from Minneapolis to St. Louis  \nTransportation: Flight Number: F3491757, from Minneapolis to St. Louis, Departure Time: 21:30, Arrival Time: 22:50  \nBreakfast: -  \nAttraction: -  \nLunch: -  \nDinner: Burger King, St. Louis  \nAccommodation: Kan house, St. Louis  \n\nDay 2:  \nCurrent City: St. Louis  \nTransportation: -  \nBreakfast: Starbucks, St. Louis  \nAttraction: The Gateway Arch, St. Louis; Saint Louis Art Museum, St. Louis  \nLunch: El Super Burrito, St. Louis  \nDinner: The Latitude - Radisson Blu, St. Louis  \nAccommodation: Kan house, St. Louis  \n\nDay 3:  \nCurrent City: St. Louis  \nTransportation: -  \nBreakfast: Startup Cafe, St. Louis  \nAttraction: Forest Park, St. Louis; City Museum, St. Louis  \nLunch: Tingling Pepper, St. Louis  \nDinner: Spaghetti Kitchen, St. Louis  \nAccommodation: -",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": []
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Charleston\", \"transportation\": \"Flight Number: F0145661, from New York to Charleston, Departure Time: 07:55, Arrival Time: 10:07, Price: 150\", \"breakfast\": \"That's Y Food, Charleston; Cost: 57\", \"lunch\": \"Sagar Ratna, Charleston; Cost: 84\", \"dinner\": \"Spinns Resto-Bar, Charleston; Cost: 16\", \"attraction\": \"Aiken-Rhett House Museum, Charleston;Boone Hall Plantation & Gardens, Charleston;\", \"accommodation\": \"2 Bedroom Apartment in Prime Midtown West, Charleston; Cost: 1121 per night (~3363)\"}, {\"days\": 2, \"current_city\": \"Charleston\", \"transportation\": \"Taxi in Charleston; Cost: 50\", \"breakfast\": \"The Corporate Kitchen, Charleston; Cost: 48\", \"lunch\": \"Shanghai Nights, Charleston; Cost: 47\", \"dinner\": \"Taco Street, Charleston; Cost: 59\", \"attraction\": \"Boone Hall Plantation & Gardens, Charleston;Charles Towne Landing State Historic Site, Charleston;\", \"accommodation\": \"2 Bedroom Apartment in Prime Midtown West, Charleston; Cost: 1121 per night (~3363)\"}, {\"days\": 3, \"current_city\": \"Charleston\", \"transportation\": \"Flight from Charleston to New York\", \"breakfast\": \"The Living Room - The Westin Sohna Resort & Spa, Charleston; Cost: 26\", \"lunch\": \"Spinns Resto-Bar, Charleston; Cost: 16\", \"dinner\": \"The Baker's Bar  ... Bakery & Cafe, Charleston; Cost: 75\", \"attraction\": \"Charles Towne Landing State Historic Site, Charleston;Charleston City Market, Charleston;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Charleston",
+                "transportation": "Flight Number: F0145661, from New York to Charleston, Departure Time: 07:55, Arrival Time: 10:07, Price: 150",
+                "breakfast": "That's Y Food, Charleston; Cost: 57",
+                "lunch": "Sagar Ratna, Charleston; Cost: 84",
+                "dinner": "Spinns Resto-Bar, Charleston; Cost: 16",
+                "attraction": "Aiken-Rhett House Museum, Charleston;Boone Hall Plantation & Gardens, Charleston;",
+                "accommodation": "2 Bedroom Apartment in Prime Midtown West, Charleston; Cost: 1121 per night (~3363)"
+            },
+            {
+                "days": 2,
+                "current_city": "Charleston",
+                "transportation": "Taxi in Charleston; Cost: 50",
+                "breakfast": "The Corporate Kitchen, Charleston; Cost: 48",
+                "lunch": "Shanghai Nights, Charleston; Cost: 47",
+                "dinner": "Taco Street, Charleston; Cost: 59",
+                "attraction": "Boone Hall Plantation & Gardens, Charleston;Charles Towne Landing State Historic Site, Charleston;",
+                "accommodation": "2 Bedroom Apartment in Prime Midtown West, Charleston; Cost: 1121 per night (~3363)"
+            },
+            {
+                "days": 3,
+                "current_city": "Charleston",
+                "transportation": "Flight from Charleston to New York",
+                "breakfast": "The Living Room - The Westin Sohna Resort & Spa, Charleston; Cost: 26",
+                "lunch": "Spinns Resto-Bar, Charleston; Cost: 16",
+                "dinner": "The Baker's Bar  ... Bakery & Cafe, Charleston; Cost: 75",
+                "attraction": "Charles Towne Landing State Historic Site, Charleston;Charleston City Market, Charleston;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
