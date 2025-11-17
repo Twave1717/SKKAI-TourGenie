@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Spokane to San Francisco\", \"transportation\": \"Flight Number: F0483786, from Spokane to San Francisco, Departure Time: 15:19, Arrival Time: 17:30, Price: 310\", \"breakfast\": \"Pal Restaurant, San Francisco; Cost: 64\", \"lunch\": \"Bebbe Da Degh, San Francisco; Cost: 64\", \"dinner\": \"Tokyo Sushi, San Francisco; Cost: 18\", \"attraction\": \"The Walt Disney Family Museum, San Francisco;Twin Peaks, San Francisco;\", \"accommodation\": \"Great 1 Bedroom on Upper East, San Francisco; Cost: 484 per night (~1452)\"}, {\"days\": 2, \"current_city\": \"San Francisco\", \"transportation\": \"Taxi in San Francisco; Cost: 50\", \"breakfast\": \"Sudarshan, San Francisco; Cost: 53\", \"lunch\": \"Chauhan Vatika, San Francisco; Cost: 45\", \"dinner\": \"Zaika, San Francisco; Cost: 57\", \"attraction\": \"Twin Peaks, San Francisco;Union Square, San Francisco;\", \"accommodation\": \"Great 1 Bedroom on Upper East, San Francisco; Cost: 484 per night (~1452)\"}, {\"days\": 3, \"current_city\": \"San Francisco\", \"transportation\": \"Flight from San Francisco to Spokane\", \"breakfast\": \"The Chic, San Francisco; Cost: 92\", \"lunch\": \"Dilli 6, San Francisco; Cost: 63\", \"dinner\": \"Anupam Eating Point, San Francisco; Cost: 10\", \"attraction\": \"Union Square, San Francisco;de Young Museum, San Francisco;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Spokane to San Francisco",
+                "transportation": "Flight Number: F0483786, from Spokane to San Francisco, Departure Time: 15:19, Arrival Time: 17:30, Price: 310",
+                "breakfast": "Pal Restaurant, San Francisco; Cost: 64",
+                "lunch": "Bebbe Da Degh, San Francisco; Cost: 64",
+                "dinner": "Tokyo Sushi, San Francisco; Cost: 18",
+                "attraction": "The Walt Disney Family Museum, San Francisco;Twin Peaks, San Francisco;",
+                "accommodation": "Great 1 Bedroom on Upper East, San Francisco; Cost: 484 per night (~1452)"
+            },
+            {
+                "days": 2,
+                "current_city": "San Francisco",
+                "transportation": "Taxi in San Francisco; Cost: 50",
+                "breakfast": "Sudarshan, San Francisco; Cost: 53",
+                "lunch": "Chauhan Vatika, San Francisco; Cost: 45",
+                "dinner": "Zaika, San Francisco; Cost: 57",
+                "attraction": "Twin Peaks, San Francisco;Union Square, San Francisco;",
+                "accommodation": "Great 1 Bedroom on Upper East, San Francisco; Cost: 484 per night (~1452)"
+            },
+            {
+                "days": 3,
+                "current_city": "San Francisco",
+                "transportation": "Flight from San Francisco to Spokane",
+                "breakfast": "The Chic, San Francisco; Cost: 92",
+                "lunch": "Dilli 6, San Francisco; Cost: 63",
+                "dinner": "Anupam Eating Point, San Francisco; Cost: 10",
+                "attraction": "Union Square, San Francisco;de Young Museum, San Francisco;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

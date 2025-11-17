@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Houston to Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 2, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 3, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Adventure City, Santa Ana;Adventure Hilton Head, Hilton Head;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 4, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Adventure Hilton Head, Hilton Head;Adventure Island, Tampa;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 5, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 6, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 7, \"current_city\": \"Tennessee\", \"transportation\": \"Flight from Tennessee to Houston\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Houston to Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 2,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;Adventure City, Santa Ana;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 3,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Adventure City, Santa Ana;Adventure Hilton Head, Hilton Head;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 4,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Adventure Hilton Head, Hilton Head;Adventure Island, Tampa;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 5,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 6,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 7,
+                "current_city": "Tennessee",
+                "transportation": "Flight from Tennessee to Houston",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

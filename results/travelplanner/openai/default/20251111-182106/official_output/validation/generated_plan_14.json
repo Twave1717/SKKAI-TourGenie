@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Appleton\", \"transportation\": \"Flight Number: F0457092, from Denver to Appleton, Departure Time: 17:51, Arrival Time: 21:07, Price: 238\", \"breakfast\": \"Homely Delight, Appleton; Cost: 34\", \"lunch\": \"Southy, Appleton; Cost: 100\", \"dinner\": \"Peshawari Delux Restaurant, Appleton; Cost: 30\", \"attraction\": \"Pierce Park, Appleton;Plamann Park, Appleton;\", \"accommodation\": \"(B) Room for 2 - sharing bath, Appleton; Cost: 628 per night (~1884)\"}, {\"days\": 2, \"current_city\": \"Appleton\", \"transportation\": \"Taxi in Appleton; Cost: 50\", \"breakfast\": \"Mikata Japanese Steakhouse, Appleton; Cost: 72\", \"lunch\": \"The Kathis, Appleton; Cost: 15\", \"dinner\": \"Sardaar Ji Chaap & Rolls, Appleton; Cost: 39\", \"attraction\": \"Plamann Park, Appleton;Segway the Fox Tours-Appleton, Neenah, & Green Bay, Appleton;\", \"accommodation\": \"(B) Room for 2 - sharing bath, Appleton; Cost: 628 per night (~1884)\"}, {\"days\": 3, \"current_city\": \"Appleton\", \"transportation\": \"Flight from Appleton to Denver\", \"breakfast\": \"Parantha Gurus, Appleton; Cost: 49\", \"lunch\": \"Yaadgaar, Appleton; Cost: 26\", \"dinner\": \"Side Wok, Appleton; Cost: 15\", \"attraction\": \"Segway the Fox Tours-Appleton, Neenah, & Green Bay, Appleton;Telulah Park, Appleton;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Appleton",
+                "transportation": "Flight Number: F0457092, from Denver to Appleton, Departure Time: 17:51, Arrival Time: 21:07, Price: 238",
+                "breakfast": "Homely Delight, Appleton; Cost: 34",
+                "lunch": "Southy, Appleton; Cost: 100",
+                "dinner": "Peshawari Delux Restaurant, Appleton; Cost: 30",
+                "attraction": "Pierce Park, Appleton;Plamann Park, Appleton;",
+                "accommodation": "(B) Room for 2 - sharing bath, Appleton; Cost: 628 per night (~1884)"
+            },
+            {
+                "days": 2,
+                "current_city": "Appleton",
+                "transportation": "Taxi in Appleton; Cost: 50",
+                "breakfast": "Mikata Japanese Steakhouse, Appleton; Cost: 72",
+                "lunch": "The Kathis, Appleton; Cost: 15",
+                "dinner": "Sardaar Ji Chaap & Rolls, Appleton; Cost: 39",
+                "attraction": "Plamann Park, Appleton;Segway the Fox Tours-Appleton, Neenah, & Green Bay, Appleton;",
+                "accommodation": "(B) Room for 2 - sharing bath, Appleton; Cost: 628 per night (~1884)"
+            },
+            {
+                "days": 3,
+                "current_city": "Appleton",
+                "transportation": "Flight from Appleton to Denver",
+                "breakfast": "Parantha Gurus, Appleton; Cost: 49",
+                "lunch": "Yaadgaar, Appleton; Cost: 26",
+                "dinner": "Side Wok, Appleton; Cost: 15",
+                "attraction": "Segway the Fox Tours-Appleton, Neenah, & Green Bay, Appleton;Telulah Park, Appleton;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

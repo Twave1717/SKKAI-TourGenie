@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Dallas to Huntsville\", \"transportation\": \"Flight Number: F0406673, from Dallas to Huntsville, Departure Time: 21:34, Arrival Time: 23:13, Price: 225\", \"breakfast\": \"Lots of Food, Huntsville; Cost: 38\", \"lunch\": \"Frozen Grillz, Huntsville; Cost: 100\", \"dinner\": \"Bengali Restaurant, Huntsville; Cost: 62\", \"attraction\": \"Monte Sano State Park, Huntsville;Natural Well, Huntsville;\", \"accommodation\": \"Sunny East Village apartment, Huntsville; Cost: 1037 per night (~4148)\"}, {\"days\": 2, \"current_city\": \"Huntsville\", \"transportation\": \"Taxi in Huntsville; Cost: 50\", \"breakfast\": \"Nikashee, Huntsville; Cost: 85\", \"lunch\": \"Ikko, Huntsville; Cost: 14\", \"dinner\": \"Desee Dakshin Coastal Cafe, Huntsville; Cost: 96\", \"attraction\": \"Natural Well, Huntsville;North Alabama Railroad Museum, Huntsville;\", \"accommodation\": \"Sunny East Village apartment, Huntsville; Cost: 1037 per night (~4148)\"}, {\"days\": 3, \"current_city\": \"Huntsville\", \"transportation\": \"Flight from Huntsville to Dallas\", \"breakfast\": \"The Chickmunks Express, Huntsville; Cost: 54\", \"lunch\": \"Lots of Food, Huntsville; Cost: 38\", \"dinner\": \"El Vaquero Mexican Restaurant, Huntsville; Cost: 82\", \"attraction\": \"North Alabama Railroad Museum, Huntsville;Purdy Butterfly House, Huntsville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Dallas to Huntsville",
+                "transportation": "Flight Number: F0406673, from Dallas to Huntsville, Departure Time: 21:34, Arrival Time: 23:13, Price: 225",
+                "breakfast": "Lots of Food, Huntsville; Cost: 38",
+                "lunch": "Frozen Grillz, Huntsville; Cost: 100",
+                "dinner": "Bengali Restaurant, Huntsville; Cost: 62",
+                "attraction": "Monte Sano State Park, Huntsville;Natural Well, Huntsville;",
+                "accommodation": "Sunny East Village apartment, Huntsville; Cost: 1037 per night (~4148)"
+            },
+            {
+                "days": 2,
+                "current_city": "Huntsville",
+                "transportation": "Taxi in Huntsville; Cost: 50",
+                "breakfast": "Nikashee, Huntsville; Cost: 85",
+                "lunch": "Ikko, Huntsville; Cost: 14",
+                "dinner": "Desee Dakshin Coastal Cafe, Huntsville; Cost: 96",
+                "attraction": "Natural Well, Huntsville;North Alabama Railroad Museum, Huntsville;",
+                "accommodation": "Sunny East Village apartment, Huntsville; Cost: 1037 per night (~4148)"
+            },
+            {
+                "days": 3,
+                "current_city": "Huntsville",
+                "transportation": "Flight from Huntsville to Dallas",
+                "breakfast": "The Chickmunks Express, Huntsville; Cost: 54",
+                "lunch": "Lots of Food, Huntsville; Cost: 38",
+                "dinner": "El Vaquero Mexican Restaurant, Huntsville; Cost: 82",
+                "attraction": "North Alabama Railroad Museum, Huntsville;Purdy Butterfly House, Huntsville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

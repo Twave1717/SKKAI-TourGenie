@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Twin Falls\", \"transportation\": \"Flight Number: F1121380, from Salt Lake City to Twin Falls, Departure Time: 21:18, Arrival Time: 22:05, Price: 45\", \"breakfast\": \"Sagar Bar-Be Que, Twin Falls; Cost: 14\", \"lunch\": \"Fresc Co, Twin Falls; Cost: 60\", \"dinner\": \"Waterfront - Radisson Blu, Twin Falls; Cost: 72\", \"attraction\": \"Bridge View Point, Twin Falls;Centennial Waterfront Park, Twin Falls;\", \"accommodation\": \"Hamilton Heights, Twin Falls; Cost: 867 per night (~26010)\"}, {\"days\": 2, \"current_city\": \"Twin Falls\", \"transportation\": \"Taxi in Twin Falls; Cost: 50\", \"breakfast\": \"Subway, Twin Falls; Cost: 77\", \"lunch\": \"Harichatni.com, Twin Falls; Cost: 58\", \"dinner\": \"Bandstand, Twin Falls; Cost: 94\", \"attraction\": \"Centennial Waterfront Park, Twin Falls;Dierkes Lake Park, Twin Falls;\", \"accommodation\": \"Hamilton Heights, Twin Falls; Cost: 867 per night (~26010)\"}, {\"days\": 3, \"current_city\": \"Twin Falls\", \"transportation\": \"Flight from Twin Falls to Salt Lake City\", \"breakfast\": \"The Bake Studio, Twin Falls; Cost: 23\", \"lunch\": \"Meghraj Food Court, Twin Falls; Cost: 61\", \"dinner\": \"Food Fever, Twin Falls; Cost: 83\", \"attraction\": \"Dierkes Lake Park, Twin Falls;Drury Park, Twin Falls;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Twin Falls",
+                "transportation": "Flight Number: F1121380, from Salt Lake City to Twin Falls, Departure Time: 21:18, Arrival Time: 22:05, Price: 45",
+                "breakfast": "Sagar Bar-Be Que, Twin Falls; Cost: 14",
+                "lunch": "Fresc Co, Twin Falls; Cost: 60",
+                "dinner": "Waterfront - Radisson Blu, Twin Falls; Cost: 72",
+                "attraction": "Bridge View Point, Twin Falls;Centennial Waterfront Park, Twin Falls;",
+                "accommodation": "Hamilton Heights, Twin Falls; Cost: 867 per night (~26010)"
+            },
+            {
+                "days": 2,
+                "current_city": "Twin Falls",
+                "transportation": "Taxi in Twin Falls; Cost: 50",
+                "breakfast": "Subway, Twin Falls; Cost: 77",
+                "lunch": "Harichatni.com, Twin Falls; Cost: 58",
+                "dinner": "Bandstand, Twin Falls; Cost: 94",
+                "attraction": "Centennial Waterfront Park, Twin Falls;Dierkes Lake Park, Twin Falls;",
+                "accommodation": "Hamilton Heights, Twin Falls; Cost: 867 per night (~26010)"
+            },
+            {
+                "days": 3,
+                "current_city": "Twin Falls",
+                "transportation": "Flight from Twin Falls to Salt Lake City",
+                "breakfast": "The Bake Studio, Twin Falls; Cost: 23",
+                "lunch": "Meghraj Food Court, Twin Falls; Cost: 61",
+                "dinner": "Food Fever, Twin Falls; Cost: 83",
+                "attraction": "Dierkes Lake Park, Twin Falls;Drury Park, Twin Falls;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

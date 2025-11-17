@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Evansville to Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 2, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 3, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 4, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 5, \"current_city\": \"Texas\", \"transportation\": \"Flight from Texas to Evansville\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Evansville to Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 2,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 3,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 4,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 5,
+                "current_city": "Texas",
+                "transportation": "Flight from Texas to Evansville",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

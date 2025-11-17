@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Newark to Savannah\", \"transportation\": \"Flight Number: F0140118, from Newark to Savannah, Departure Time: 19:35, Arrival Time: 21:55, Price: 293\", \"breakfast\": \"Dhaba On Wheels, Savannah; Cost: 18\", \"lunch\": \"Aggarwal Sweets And Caterers, Savannah; Cost: 96\", \"dinner\": \"Pizza Day, Savannah; Cost: 27\", \"attraction\": \"Ralph Mark Gilbert Civil Rights Museum, Savannah;Savannah Children's Museum, Savannah;\", \"accommodation\": \"Cozy Room in Lower East Side- NYC, Savannah; Cost: 94 per night (~282)\"}, {\"days\": 2, \"current_city\": \"Savannah\", \"transportation\": \"Taxi in Savannah; Cost: 50\", \"breakfast\": \"Hwealthcafe, Savannah; Cost: 25\", \"lunch\": \"Bosphorous Turkish Cuisine, Savannah; Cost: 58\", \"dinner\": \"The Mad Teapot/The Wishing Chair, Savannah; Cost: 23\", \"attraction\": \"Savannah Children's Museum, Savannah;Savannah Historic District, Savannah;\", \"accommodation\": \"Cozy Room in Lower East Side- NYC, Savannah; Cost: 94 per night (~282)\"}, {\"days\": 3, \"current_city\": \"Savannah\", \"transportation\": \"Flight from Savannah to Newark\", \"breakfast\": \"New Raj Kachori Bhandar, Savannah; Cost: 12\", \"lunch\": \"Cooks Cafe - Jaypee Greens, Savannah; Cost: 74\", \"dinner\": \"Vdesi, Savannah; Cost: 81\", \"attraction\": \"Savannah Historic District, Savannah;Savannah History Museum, Savannah;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Newark to Savannah",
+                "transportation": "Flight Number: F0140118, from Newark to Savannah, Departure Time: 19:35, Arrival Time: 21:55, Price: 293",
+                "breakfast": "Dhaba On Wheels, Savannah; Cost: 18",
+                "lunch": "Aggarwal Sweets And Caterers, Savannah; Cost: 96",
+                "dinner": "Pizza Day, Savannah; Cost: 27",
+                "attraction": "Ralph Mark Gilbert Civil Rights Museum, Savannah;Savannah Children's Museum, Savannah;",
+                "accommodation": "Cozy Room in Lower East Side- NYC, Savannah; Cost: 94 per night (~282)"
+            },
+            {
+                "days": 2,
+                "current_city": "Savannah",
+                "transportation": "Taxi in Savannah; Cost: 50",
+                "breakfast": "Hwealthcafe, Savannah; Cost: 25",
+                "lunch": "Bosphorous Turkish Cuisine, Savannah; Cost: 58",
+                "dinner": "The Mad Teapot/The Wishing Chair, Savannah; Cost: 23",
+                "attraction": "Savannah Children's Museum, Savannah;Savannah Historic District, Savannah;",
+                "accommodation": "Cozy Room in Lower East Side- NYC, Savannah; Cost: 94 per night (~282)"
+            },
+            {
+                "days": 3,
+                "current_city": "Savannah",
+                "transportation": "Flight from Savannah to Newark",
+                "breakfast": "New Raj Kachori Bhandar, Savannah; Cost: 12",
+                "lunch": "Cooks Cafe - Jaypee Greens, Savannah; Cost: 74",
+                "dinner": "Vdesi, Savannah; Cost: 81",
+                "attraction": "Savannah Historic District, Savannah;Savannah History Museum, Savannah;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

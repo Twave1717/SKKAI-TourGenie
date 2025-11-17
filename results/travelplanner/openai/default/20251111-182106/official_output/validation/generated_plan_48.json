@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Philadelphia to Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 2, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 3, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 4, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 5, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 6, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 7, \"current_city\": \"Virginia\", \"transportation\": \"Flight from Virginia to Philadelphia\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Philadelphia to Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 2,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 3,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 4,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 5,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 6,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 7,
+                "current_city": "Virginia",
+                "transportation": "Flight from Virginia to Philadelphia",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

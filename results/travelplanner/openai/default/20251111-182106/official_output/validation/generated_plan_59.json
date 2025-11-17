@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Jacksonville to Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Acid Ball, Bellingham;Acropolis, Helena;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 2, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 3, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Action City, Eau Claire;Action Stations, Portsmouth;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 4, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Action Stations, Portsmouth;Adado Riverfront Park, Lansing;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 5, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 6, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 7, \"current_city\": \"Massachusetts\", \"transportation\": \"Flight from Massachusetts to Jacksonville\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Jacksonville to Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 2,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 3,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 4,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Action Stations, Portsmouth;Adado Riverfront Park, Lansing;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 5,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Adado Riverfront Park, Lansing;Adak National Forest and Pet Cemetery, Adak Island;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 6,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Adak National Forest and Pet Cemetery, Adak Island;Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 7,
+                "current_city": "Massachusetts",
+                "transportation": "Flight from Massachusetts to Jacksonville",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Adamson-Spalding Storybook Garden, Abilene;Administrative Offices of the Charlottesville Albemarle Convention & Visitors Bureau, Charlottesville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

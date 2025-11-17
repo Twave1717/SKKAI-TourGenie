@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Palm Springs\", \"transportation\": \"Flight Number: F0067156, from Denver to Palm Springs, Departure Time: 13:49, Arrival Time: 15:09, Price: 351\", \"breakfast\": \"Hao Ming, Palm Springs; Cost: 29\", \"lunch\": \"Rita Chinese Food, Palm Springs; Cost: 74\", \"dinner\": \"Kake Da Hotel, Palm Springs; Cost: 83\", \"attraction\": \"Walk of the Stars Palm Springs, Palm Springs;Wings, Palm Springs;\", \"accommodation\": \"Entire PVT 3BR townhouse apt, Brooklyn.❤️❤️❤️❤️❤️, Palm Springs; Cost: 499 per night (~13972)\"}, {\"days\": 2, \"current_city\": \"Palm Springs\", \"transportation\": \"Taxi in Palm Springs; Cost: 50\", \"breakfast\": \"Imperfecto, Palm Springs; Cost: 90\", \"lunch\": \"Sufiaana, Palm Springs; Cost: 48\", \"dinner\": \"Mittal Caterer, Palm Springs; Cost: 18\", \"attraction\": \"Wings, Palm Springs;Agua Caliente Cultural Museum, Palm Springs;\", \"accommodation\": \"Entire PVT 3BR townhouse apt, Brooklyn.❤️❤️❤️❤️❤️, Palm Springs; Cost: 499 per night (~13972)\"}, {\"days\": 3, \"current_city\": \"Palm Springs\", \"transportation\": \"Flight from Palm Springs to Denver\", \"breakfast\": \"Kahill's Steak-Fish Chophouse, Palm Springs; Cost: 38\", \"lunch\": \"The Golden Spoon, Palm Springs; Cost: 38\", \"dinner\": \"Pizza Man, Palm Springs; Cost: 55\", \"attraction\": \"Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Palm Springs",
+                "transportation": "Flight Number: F0067156, from Denver to Palm Springs, Departure Time: 13:49, Arrival Time: 15:09, Price: 351",
+                "breakfast": "Hao Ming, Palm Springs; Cost: 29",
+                "lunch": "Rita Chinese Food, Palm Springs; Cost: 74",
+                "dinner": "Kake Da Hotel, Palm Springs; Cost: 83",
+                "attraction": "Walk of the Stars Palm Springs, Palm Springs;Wings, Palm Springs;",
+                "accommodation": "Entire PVT 3BR townhouse apt, Brooklyn.❤️❤️❤️❤️❤️, Palm Springs; Cost: 499 per night (~13972)"
+            },
+            {
+                "days": 2,
+                "current_city": "Palm Springs",
+                "transportation": "Taxi in Palm Springs; Cost: 50",
+                "breakfast": "Imperfecto, Palm Springs; Cost: 90",
+                "lunch": "Sufiaana, Palm Springs; Cost: 48",
+                "dinner": "Mittal Caterer, Palm Springs; Cost: 18",
+                "attraction": "Wings, Palm Springs;Agua Caliente Cultural Museum, Palm Springs;",
+                "accommodation": "Entire PVT 3BR townhouse apt, Brooklyn.❤️❤️❤️❤️❤️, Palm Springs; Cost: 499 per night (~13972)"
+            },
+            {
+                "days": 3,
+                "current_city": "Palm Springs",
+                "transportation": "Flight from Palm Springs to Denver",
+                "breakfast": "Kahill's Steak-Fish Chophouse, Palm Springs; Cost: 38",
+                "lunch": "The Golden Spoon, Palm Springs; Cost: 38",
+                "dinner": "Pizza Man, Palm Springs; Cost: 55",
+                "attraction": "Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

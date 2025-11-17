@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Cincinnati to Philadelphia\", \"transportation\": \"Flight Number: F0233842, from Cincinnati to Philadelphia, Departure Time: 12:53, Arrival Time: 14:17, Price: 151\", \"breakfast\": \"Gurdas Ram Jalebi Wala, Philadelphia; Cost: 20\", \"lunch\": \"Subway, Philadelphia; Cost: 96\", \"dinner\": \"Muncheezz, Philadelphia; Cost: 17\", \"attraction\": \"African American Museum in Philadelphia, Philadelphia;Barnes Foundation, Philadelphia;\", \"accommodation\": \"2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)\"}, {\"days\": 2, \"current_city\": \"Philadelphia\", \"transportation\": \"Taxi in Philadelphia; Cost: 50\", \"breakfast\": \"Lajwab Bakery, Philadelphia; Cost: 54\", \"lunch\": \"Xpert Bakers, Philadelphia; Cost: 68\", \"dinner\": \"Pizza Hut Delivery, Philadelphia; Cost: 76\", \"attraction\": \"Barnes Foundation, Philadelphia;Benjamin Franklin Museum, Philadelphia;\", \"accommodation\": \"2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)\"}, {\"days\": 3, \"current_city\": \"Philadelphia\", \"transportation\": \"Flight from Philadelphia to Cincinnati\", \"breakfast\": \"Momozone, Philadelphia; Cost: 17\", \"lunch\": \"Baker Street, Philadelphia; Cost: 54\", \"dinner\": \"Rewari Sweets, Philadelphia; Cost: 91\", \"attraction\": \"Benjamin Franklin Museum, Philadelphia;Betsy Ross House, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Cincinnati to Philadelphia",
+                "transportation": "Flight Number: F0233842, from Cincinnati to Philadelphia, Departure Time: 12:53, Arrival Time: 14:17, Price: 151",
+                "breakfast": "Gurdas Ram Jalebi Wala, Philadelphia; Cost: 20",
+                "lunch": "Subway, Philadelphia; Cost: 96",
+                "dinner": "Muncheezz, Philadelphia; Cost: 17",
+                "attraction": "African American Museum in Philadelphia, Philadelphia;Barnes Foundation, Philadelphia;",
+                "accommodation": "2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)"
+            },
+            {
+                "days": 2,
+                "current_city": "Philadelphia",
+                "transportation": "Taxi in Philadelphia; Cost: 50",
+                "breakfast": "Lajwab Bakery, Philadelphia; Cost: 54",
+                "lunch": "Xpert Bakers, Philadelphia; Cost: 68",
+                "dinner": "Pizza Hut Delivery, Philadelphia; Cost: 76",
+                "attraction": "Barnes Foundation, Philadelphia;Benjamin Franklin Museum, Philadelphia;",
+                "accommodation": "2 BDRM PRESIDENTIAL LUXURY CONDO MIDTOWN 45  NYC *, Philadelphia; Cost: 609 per night (~1827)"
+            },
+            {
+                "days": 3,
+                "current_city": "Philadelphia",
+                "transportation": "Flight from Philadelphia to Cincinnati",
+                "breakfast": "Momozone, Philadelphia; Cost: 17",
+                "lunch": "Baker Street, Philadelphia; Cost: 54",
+                "dinner": "Rewari Sweets, Philadelphia; Cost: 91",
+                "attraction": "Benjamin Franklin Museum, Philadelphia;Betsy Ross House, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

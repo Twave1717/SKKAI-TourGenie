@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"New York\", \"transportation\": \"Flight Number: F0820596, from New York to Reno, Departure Time: 20:46, Arrival Time: 23:32, Price: 641\", \"breakfast\": \"Bats On Delivery, Reno; Cost: 60\", \"lunch\": \"Brooklyn Brothers, Reno; Cost: 30\", \"dinner\": \"Foodies Joint, Reno; Cost: 19\", \"attraction\": \"Nevada Museum of Art, Reno;Rancho San Rafael Nature Trail, Reno;\", \"accommodation\": \"A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)\"}, {\"days\": 2, \"current_city\": \"Reno\", \"transportation\": \"Taxi in Reno; Cost: 50\", \"breakfast\": \"Foodies Joint, Reno; Cost: 19\", \"lunch\": \"Gopal's Restaurant & Caterer's, Reno; Cost: 56\", \"dinner\": \"Just Cakez, Reno; Cost: 74\", \"attraction\": \"Rancho San Rafael Nature Trail, Reno;Rancho San Rafael Regional Park, Reno;\", \"accommodation\": \"A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)\"}, {\"days\": 3, \"current_city\": \"Reno\", \"transportation\": \"Flight from Reno to New York\", \"breakfast\": \"Just Cakez, Reno; Cost: 74\", \"lunch\": \"K Lab, Reno; Cost: 54\", \"dinner\": \"Khaao Peeyo, Reno; Cost: 24\", \"attraction\": \"Rancho San Rafael Regional Park, Reno;Raymond L Smith Truckee River Walk, Reno;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "New York",
+                "transportation": "Flight Number: F0820596, from New York to Reno, Departure Time: 20:46, Arrival Time: 23:32, Price: 641",
+                "breakfast": "Bats On Delivery, Reno; Cost: 60",
+                "lunch": "Brooklyn Brothers, Reno; Cost: 30",
+                "dinner": "Foodies Joint, Reno; Cost: 19",
+                "attraction": "Nevada Museum of Art, Reno;Rancho San Rafael Nature Trail, Reno;",
+                "accommodation": "A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)"
+            },
+            {
+                "days": 2,
+                "current_city": "Reno",
+                "transportation": "Taxi in Reno; Cost: 50",
+                "breakfast": "Foodies Joint, Reno; Cost: 19",
+                "lunch": "Gopal's Restaurant & Caterer's, Reno; Cost: 56",
+                "dinner": "Just Cakez, Reno; Cost: 74",
+                "attraction": "Rancho San Rafael Nature Trail, Reno;Rancho San Rafael Regional Park, Reno;",
+                "accommodation": "A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)"
+            },
+            {
+                "days": 3,
+                "current_city": "Reno",
+                "transportation": "Flight from Reno to New York",
+                "breakfast": "Just Cakez, Reno; Cost: 74",
+                "lunch": "K Lab, Reno; Cost: 54",
+                "dinner": "Khaao Peeyo, Reno; Cost: 24",
+                "attraction": "Rancho San Rafael Regional Park, Reno;Raymond L Smith Truckee River Walk, Reno;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

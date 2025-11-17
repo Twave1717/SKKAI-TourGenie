@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Billings to Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"9/11 Memorial, Erie;9/11 Memorial & Museum, New York;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 2, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 3, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 4, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 5, \"current_city\": \"Minnesota\", \"transportation\": \"Flight from Minnesota to Billings\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Billings to Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 2,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 3,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 4,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "A C Steere Park, Shreveport;A Carousel for Missoula, Missoula;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 5,
+                "current_city": "Minnesota",
+                "transportation": "Flight from Minnesota to Billings",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

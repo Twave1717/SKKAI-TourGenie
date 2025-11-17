@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Columbus to Newark\", \"transportation\": \"Flight Number: F0138697, from Columbus to Newark, Departure Time: 15:34, Arrival Time: 17:19, Price: 227\", \"breakfast\": \"All About Food, Newark; Cost: 47\", \"lunch\": \"Harmann Restaurant, Newark; Cost: 57\", \"dinner\": \"Cafe Bethak, Newark; Cost: 100\", \"attraction\": \"Veterans Memorial Park, Newark;Weequahic Park, Newark;\", \"accommodation\": \"Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)\"}, {\"days\": 2, \"current_city\": \"Newark\", \"transportation\": \"Taxi in Newark; Cost: 50\", \"breakfast\": \"Apni Rasoi, Newark; Cost: 42\", \"lunch\": \"Joshi Eating House, Newark; Cost: 52\", \"dinner\": \"Dev Burger, Newark; Cost: 31\", \"attraction\": \"Weequahic Park, Newark;Weequahic Park, Newark;\", \"accommodation\": \"Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)\"}, {\"days\": 3, \"current_city\": \"Newark\", \"transportation\": \"Flight from Newark to Columbus\", \"breakfast\": \"Bernardo's, Newark; Cost: 84\", \"lunch\": \"Mogambo Khush Hua, Newark; Cost: 39\", \"dinner\": \"Escape Terrace Bar Kitchen, Newark; Cost: 100\", \"attraction\": \"Weequahic Park, Newark;Alice Ransom Dreyfuss Memorial Garden, Newark;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Columbus to Newark",
+                "transportation": "Flight Number: F0138697, from Columbus to Newark, Departure Time: 15:34, Arrival Time: 17:19, Price: 227",
+                "breakfast": "All About Food, Newark; Cost: 47",
+                "lunch": "Harmann Restaurant, Newark; Cost: 57",
+                "dinner": "Cafe Bethak, Newark; Cost: 100",
+                "attraction": "Veterans Memorial Park, Newark;Weequahic Park, Newark;",
+                "accommodation": "Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)"
+            },
+            {
+                "days": 2,
+                "current_city": "Newark",
+                "transportation": "Taxi in Newark; Cost: 50",
+                "breakfast": "Apni Rasoi, Newark; Cost: 42",
+                "lunch": "Joshi Eating House, Newark; Cost: 52",
+                "dinner": "Dev Burger, Newark; Cost: 31",
+                "attraction": "Weequahic Park, Newark;Weequahic Park, Newark;",
+                "accommodation": "Large room near Times Square 31C4, Newark; Cost: 798 per night (~5586)"
+            },
+            {
+                "days": 3,
+                "current_city": "Newark",
+                "transportation": "Flight from Newark to Columbus",
+                "breakfast": "Bernardo's, Newark; Cost: 84",
+                "lunch": "Mogambo Khush Hua, Newark; Cost: 39",
+                "dinner": "Escape Terrace Bar Kitchen, Newark; Cost: 100",
+                "attraction": "Weequahic Park, Newark;Alice Ransom Dreyfuss Memorial Garden, Newark;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

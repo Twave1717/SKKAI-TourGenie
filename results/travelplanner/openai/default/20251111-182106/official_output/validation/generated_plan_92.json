@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from New Orleans to Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 2, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Air Zoo Aerospace & Science Museum, Kalamazoo;AirMaxx Trampoline Park & Warrior Course, St. Cloud;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 3, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AirMaxx Trampoline Park & Warrior Course, St. Cloud;Airborne & Special Operations Museum Foundation, Fayetteville;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 4, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Airborne & Special Operations Museum Foundation, Fayetteville;Airlie Gardens, Wilmington;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 5, \"current_city\": \"Florida\", \"transportation\": \"Flight from Florida to New Orleans\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Airlie Gardens, Wilmington;Airport Park, Lewiston;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New Orleans to Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 2,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Air Zoo Aerospace & Science Museum, Kalamazoo;AirMaxx Trampoline Park & Warrior Course, St. Cloud;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 3,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AirMaxx Trampoline Park & Warrior Course, St. Cloud;Airborne & Special Operations Museum Foundation, Fayetteville;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 4,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Airborne & Special Operations Museum Foundation, Fayetteville;Airlie Gardens, Wilmington;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 5,
+                "current_city": "Florida",
+                "transportation": "Flight from Florida to New Orleans",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Airlie Gardens, Wilmington;Airport Park, Lewiston;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

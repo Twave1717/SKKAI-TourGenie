@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Philadelphia to Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 2, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 3, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 4, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 5, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 6, \"current_city\": \"Virginia\", \"transportation\": \"Taxi in Virginia; Cost: 50\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;\", \"accommodation\": \"Accommodation, Virginia\"}, {\"days\": 7, \"current_city\": \"Virginia\", \"transportation\": \"Flight from Virginia to Philadelphia\", \"breakfast\": \"Restaurant, Virginia\", \"lunch\": \"Restaurant, Virginia\", \"dinner\": \"Restaurant, Virginia\", \"attraction\": \"Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Philadelphia to Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 2,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 3,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 4,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 5,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 6,
+                "current_city": "Virginia",
+                "transportation": "Taxi in Virginia; Cost: 50",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+                "accommodation": "Accommodation, Virginia"
+            },
+            {
+                "days": 7,
+                "current_city": "Virginia",
+                "transportation": "Flight from Virginia to Philadelphia",
+                "breakfast": "Restaurant, Virginia",
+                "lunch": "Restaurant, Virginia",
+                "dinner": "Restaurant, Virginia",
+                "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

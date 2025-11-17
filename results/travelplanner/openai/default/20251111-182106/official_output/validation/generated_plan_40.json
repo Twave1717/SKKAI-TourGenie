@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Sun Valley to California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"AJ Mine Gastineau Mill Tours, Juneau;AREA15, Las Vegas;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 2, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 3, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 4, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 5, \"current_city\": \"California\", \"transportation\": \"Flight from California to Sun Valley\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Sun Valley to California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "AJ Mine Gastineau Mill Tours, Juneau;AREA15, Las Vegas;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 2,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 3,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 4,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 5,
+                "current_city": "California",
+                "transportation": "Flight from California to Sun Valley",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Pittsburgh to Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 2, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 3, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 4, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 5, \"current_city\": \"Texas\", \"transportation\": \"Flight from Texas to Pittsburgh\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Air Zoo Aerospace & Science Museum, Kalamazoo;AirMaxx Trampoline Park & Warrior Course, St. Cloud;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Pittsburgh to Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 2,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 3,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 4,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 5,
+                "current_city": "Texas",
+                "transportation": "Flight from Texas to Pittsburgh",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Air Zoo Aerospace & Science Museum, Kalamazoo;AirMaxx Trampoline Park & Warrior Course, St. Cloud;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Washington\", \"transportation\": \"Flight Number: F0065856, from Denver to Washington, Departure Time: 19:24, Arrival Time: 00:26, Price: 606\", \"breakfast\": \"Shiv Dhaba, Washington; Cost: 61\", \"lunch\": \"Los Aztecas, Washington; Cost: 46\", \"dinner\": \"Cafe Coffee Day, Washington; Cost: 53\", \"attraction\": \"Sky View Observatory - Columbia Center, Washington;Smith Tower, Washington;\", \"accommodation\": \"Cozy One Bedroom Near Fort Tryon Park, Washington; Cost: 988 per night (~4940)\"}, {\"days\": 2, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"Amaze Dining, Washington; Cost: 92\", \"lunch\": \"Republic of Chicken, Washington; Cost: 91\", \"dinner\": \"Good Foods, Washington; Cost: 65\", \"attraction\": \"Smith Tower, Washington;Space Needle, Washington;\", \"accommodation\": \"Cozy One Bedroom Near Fort Tryon Park, Washington; Cost: 988 per night (~4940)\"}, {\"days\": 3, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"Biryani Point, Washington; Cost: 46\", \"lunch\": \"The Hangar, Washington; Cost: 74\", \"dinner\": \"Keventers, Washington; Cost: 46\", \"attraction\": \"Space Needle, Washington;The Gum Wall, Washington;\", \"accommodation\": \"Huge 2 Bedroom, Great Location, Express Metro, Washington; Cost: 745 per night (~3725)\"}, {\"days\": 4, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"Domino's Pizza, Washington; Cost: 94\", \"lunch\": \"Bikaner Sweet House, Washington; Cost: 61\", \"dinner\": \"Moradabadi Biryani, Washington; Cost: 12\", \"attraction\": \"The Gum Wall, Washington;The Seattle Great Wheel, Washington;\", \"accommodation\": \"Huge 2 Bedroom, Great Location, Express Metro, Washington; Cost: 745 per night (~3725)\"}, {\"days\": 5, \"current_city\": \"Washington\", \"transportation\": \"Flight from Washington to Denver\", \"breakfast\": \"Hemingway's Island Grill, Washington; Cost: 57\", \"lunch\": \"Chidya Ghar - Roseate House, Washington; Cost: 70\", \"dinner\": \"Thaaliwala, Washington; Cost: 88\", \"attraction\": \"The Seattle Great Wheel, Washington;Washington Park Arboretum, Washington;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Washington",
+                "transportation": "Flight Number: F0065856, from Denver to Washington, Departure Time: 19:24, Arrival Time: 00:26, Price: 606",
+                "breakfast": "Shiv Dhaba, Washington; Cost: 61",
+                "lunch": "Los Aztecas, Washington; Cost: 46",
+                "dinner": "Cafe Coffee Day, Washington; Cost: 53",
+                "attraction": "Sky View Observatory - Columbia Center, Washington;Smith Tower, Washington;",
+                "accommodation": "Cozy One Bedroom Near Fort Tryon Park, Washington; Cost: 988 per night (~4940)"
+            },
+            {
+                "days": 2,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "Amaze Dining, Washington; Cost: 92",
+                "lunch": "Republic of Chicken, Washington; Cost: 91",
+                "dinner": "Good Foods, Washington; Cost: 65",
+                "attraction": "Smith Tower, Washington;Space Needle, Washington;",
+                "accommodation": "Cozy One Bedroom Near Fort Tryon Park, Washington; Cost: 988 per night (~4940)"
+            },
+            {
+                "days": 3,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "Biryani Point, Washington; Cost: 46",
+                "lunch": "The Hangar, Washington; Cost: 74",
+                "dinner": "Keventers, Washington; Cost: 46",
+                "attraction": "Space Needle, Washington;The Gum Wall, Washington;",
+                "accommodation": "Huge 2 Bedroom, Great Location, Express Metro, Washington; Cost: 745 per night (~3725)"
+            },
+            {
+                "days": 4,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "Domino's Pizza, Washington; Cost: 94",
+                "lunch": "Bikaner Sweet House, Washington; Cost: 61",
+                "dinner": "Moradabadi Biryani, Washington; Cost: 12",
+                "attraction": "The Gum Wall, Washington;The Seattle Great Wheel, Washington;",
+                "accommodation": "Huge 2 Bedroom, Great Location, Express Metro, Washington; Cost: 745 per night (~3725)"
+            },
+            {
+                "days": 5,
+                "current_city": "Washington",
+                "transportation": "Flight from Washington to Denver",
+                "breakfast": "Hemingway's Island Grill, Washington; Cost: 57",
+                "lunch": "Chidya Ghar - Roseate House, Washington; Cost: 70",
+                "dinner": "Thaaliwala, Washington; Cost: 88",
+                "attraction": "The Seattle Great Wheel, Washington;Washington Park Arboretum, Washington;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Santa Ana to Houston\", \"transportation\": \"Flight Number: F0520656, from Santa Ana to Houston, Departure Time: 10:32, Arrival Time: 15:35, Price: 334\", \"breakfast\": \"Earthen Spices, Houston; Cost: 28\", \"lunch\": \"Sultan Food, Houston; Cost: 55\", \"dinner\": \"Khanna's Hot Pizza, Houston; Cost: 80\", \"attraction\": \"The Museum of Fine Arts, Houston, Houston;Water Wall, Houston;\", \"accommodation\": \"Sunny and Airy near Manhattan, Houston; Cost: 499 per night (~1497)\"}, {\"days\": 2, \"current_city\": \"Houston\", \"transportation\": \"Taxi in Houston; Cost: 50\", \"breakfast\": \"Hurry Curry Express, Houston; Cost: 78\", \"lunch\": \"Taj Cafe, Houston; Cost: 18\", \"dinner\": \"Royal Mart, Houston; Cost: 40\", \"attraction\": \"Water Wall, Houston;American Statesmanship Park, Houston;\", \"accommodation\": \"Sunny and Airy near Manhattan, Houston; Cost: 499 per night (~1497)\"}, {\"days\": 3, \"current_city\": \"Houston\", \"transportation\": \"Flight from Houston to Santa Ana\", \"breakfast\": \"KSG, Houston; Cost: 73\", \"lunch\": \"Truth Coffee, Houston; Cost: 29\", \"dinner\": \"Subway, Houston; Cost: 51\", \"attraction\": \"American Statesmanship Park, Houston;Bayou Bend Collection and Gardens, Museum of Fine Arts, Houston, Houston;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Santa Ana to Houston",
+                "transportation": "Flight Number: F0520656, from Santa Ana to Houston, Departure Time: 10:32, Arrival Time: 15:35, Price: 334",
+                "breakfast": "Earthen Spices, Houston; Cost: 28",
+                "lunch": "Sultan Food, Houston; Cost: 55",
+                "dinner": "Khanna's Hot Pizza, Houston; Cost: 80",
+                "attraction": "The Museum of Fine Arts, Houston, Houston;Water Wall, Houston;",
+                "accommodation": "Sunny and Airy near Manhattan, Houston; Cost: 499 per night (~1497)"
+            },
+            {
+                "days": 2,
+                "current_city": "Houston",
+                "transportation": "Taxi in Houston; Cost: 50",
+                "breakfast": "Hurry Curry Express, Houston; Cost: 78",
+                "lunch": "Taj Cafe, Houston; Cost: 18",
+                "dinner": "Royal Mart, Houston; Cost: 40",
+                "attraction": "Water Wall, Houston;American Statesmanship Park, Houston;",
+                "accommodation": "Sunny and Airy near Manhattan, Houston; Cost: 499 per night (~1497)"
+            },
+            {
+                "days": 3,
+                "current_city": "Houston",
+                "transportation": "Flight from Houston to Santa Ana",
+                "breakfast": "KSG, Houston; Cost: 73",
+                "lunch": "Truth Coffee, Houston; Cost: 29",
+                "dinner": "Subway, Houston; Cost: 51",
+                "attraction": "American Statesmanship Park, Houston;Bayou Bend Collection and Gardens, Museum of Fine Arts, Houston, Houston;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

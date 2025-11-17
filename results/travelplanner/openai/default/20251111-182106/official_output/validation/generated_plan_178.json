@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Key West to Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 2, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 3, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 4, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Ager House, Eau Claire;Agingan Point, Saipan;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 5, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Agingan Point, Saipan;Agua Caliente Cultural Museum, Palm Springs;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 6, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 7, \"current_city\": \"Texas\", \"transportation\": \"Flight from Texas to Key West\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Agua Caliente Tahquitz Visitor Center, Palm Springs;Ah-Nab-Awen Park, Grand Rapids;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Key West to Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 2,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 3,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 4,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Ager House, Eau Claire;Agingan Point, Saipan;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 5,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Agingan Point, Saipan;Agua Caliente Cultural Museum, Palm Springs;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 6,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 7,
+                "current_city": "Texas",
+                "transportation": "Flight from Texas to Key West",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Agua Caliente Tahquitz Visitor Center, Palm Springs;Ah-Nab-Awen Park, Grand Rapids;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

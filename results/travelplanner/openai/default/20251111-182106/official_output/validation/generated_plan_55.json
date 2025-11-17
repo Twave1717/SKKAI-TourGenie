@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Washington to Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 2, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 3, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 4, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Ace of Clubs House, Texarkana;Acid Ball, Bellingham;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 5, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Acid Ball, Bellingham;Acropolis, Helena;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 6, \"current_city\": \"Minnesota\", \"transportation\": \"Taxi in Minnesota; Cost: 50\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Acropolis, Helena;Action City, Eau Claire;\", \"accommodation\": \"Accommodation, Minnesota\"}, {\"days\": 7, \"current_city\": \"Minnesota\", \"transportation\": \"Flight from Minnesota to Washington\", \"breakfast\": \"Restaurant, Minnesota\", \"lunch\": \"Restaurant, Minnesota\", \"dinner\": \"Restaurant, Minnesota\", \"attraction\": \"Action City, Eau Claire;Action Stations, Portsmouth;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 2,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 3,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 4,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Ace of Clubs House, Texarkana;Acid Ball, Bellingham;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 5,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Acid Ball, Bellingham;Acropolis, Helena;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 6,
+                "current_city": "Minnesota",
+                "transportation": "Taxi in Minnesota; Cost: 50",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Acropolis, Helena;Action City, Eau Claire;",
+                "accommodation": "Accommodation, Minnesota"
+            },
+            {
+                "days": 7,
+                "current_city": "Minnesota",
+                "transportation": "Flight from Minnesota to Washington",
+                "breakfast": "Restaurant, Minnesota",
+                "lunch": "Restaurant, Minnesota",
+                "dinner": "Restaurant, Minnesota",
+                "attraction": "Action City, Eau Claire;Action Stations, Portsmouth;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Myrtle Beach to Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 2, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 3, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 4, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 5, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 6, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 7, \"current_city\": \"Michigan\", \"transportation\": \"Flight from Michigan to Myrtle Beach\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Myrtle Beach to Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 2,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 3,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 4,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 5,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 6,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 7,
+                "current_city": "Michigan",
+                "transportation": "Flight from Michigan to Myrtle Beach",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

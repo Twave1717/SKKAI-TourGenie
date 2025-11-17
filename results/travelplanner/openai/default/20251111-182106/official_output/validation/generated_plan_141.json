@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Las Vegas to Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 2, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 3, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 4, \"current_city\": \"Texas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 5, \"current_city\": \"Texas\", \"transportation\": \"Flight from Texas to Las Vegas\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Las Vegas to Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 2,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 3,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 4,
+                "current_city": "Texas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 5,
+                "current_city": "Texas",
+                "transportation": "Flight from Texas to Las Vegas",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Houston\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"-, Juneau;1000 Steps Beach, Santa Barbara;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 2, \"current_city\": \"Houston\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 3, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"11th &11th Park, Minot;12th Armored Division Memorial, Abilene;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 4, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 5, \"current_city\": \"Dallas\", \"transportation\": \"Flight from Texas to Little Rock\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Houston",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 2,
+                "current_city": "Houston",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 3,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 4,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 5,
+                "current_city": "Dallas",
+                "transportation": "Flight from Texas to Little Rock",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

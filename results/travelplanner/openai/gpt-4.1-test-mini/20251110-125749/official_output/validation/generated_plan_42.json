@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Miami\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 2, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 3, \"current_city\": \"Dallas to Houston\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 4, \"current_city\": \"Houston\", \"transportation\": \"Taxi in Texas; Cost: 50\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;\", \"accommodation\": \"Accommodation, Texas\"}, {\"days\": 5, \"current_city\": \"Houston to Miami\", \"transportation\": \"Flight from Texas to Miami\", \"breakfast\": \"Restaurant, Texas\", \"lunch\": \"Restaurant, Texas\", \"dinner\": \"Restaurant, Texas\", \"attraction\": \"Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Miami",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 3,
+                "current_city": "Dallas to Houston",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 4,
+                "current_city": "Houston",
+                "transportation": "Taxi in Texas; Cost: 50",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+                "accommodation": "Accommodation, Texas"
+            },
+            {
+                "days": 5,
+                "current_city": "Houston to Miami",
+                "transportation": "Flight from Texas to Miami",
+                "breakfast": "Restaurant, Texas",
+                "lunch": "Restaurant, Texas",
+                "dinner": "Restaurant, Texas",
+                "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

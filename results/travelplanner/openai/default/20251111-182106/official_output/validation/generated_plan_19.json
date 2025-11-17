@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Seattle to San Francisco\", \"transportation\": \"Flight Number: F0241749, from Seattle to San Francisco, Departure Time: 18:45, Arrival Time: 20:44, Price: 191\", \"breakfast\": \"Sudarshan, San Francisco; Cost: 53\", \"lunch\": \"Chauhan Vatika, San Francisco; Cost: 45\", \"dinner\": \"Zaika, San Francisco; Cost: 57\", \"attraction\": \"de Young Museum, San Francisco;Alcatraz Island, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco; Cost: 79 per night (~237)\"}, {\"days\": 2, \"current_city\": \"San Francisco\", \"transportation\": \"Taxi in San Francisco; Cost: 50\", \"breakfast\": \"The Chic, San Francisco; Cost: 92\", \"lunch\": \"Dilli 6, San Francisco; Cost: 63\", \"dinner\": \"Anupam Eating Point, San Francisco; Cost: 10\", \"attraction\": \"Alcatraz Island, San Francisco;Aquarium of the Bay, San Francisco;\", \"accommodation\": \"Spacious 1 bedroom in Woodlawn NYC, San Francisco; Cost: 163 per night (~489)\"}, {\"days\": 3, \"current_city\": \"San Francisco\", \"transportation\": \"Flight from San Francisco to Seattle\", \"breakfast\": \"Ustad Moinuddin Kebab, San Francisco; Cost: 50\", \"lunch\": \"Green Chick Chop, San Francisco; Cost: 39\", \"dinner\": \"Cafe All-Inn, San Francisco; Cost: 81\", \"attraction\": \"Aquarium of the Bay, San Francisco;California Academy of Sciences, San Francisco;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Seattle to San Francisco",
+                "transportation": "Flight Number: F0241749, from Seattle to San Francisco, Departure Time: 18:45, Arrival Time: 20:44, Price: 191",
+                "breakfast": "Sudarshan, San Francisco; Cost: 53",
+                "lunch": "Chauhan Vatika, San Francisco; Cost: 45",
+                "dinner": "Zaika, San Francisco; Cost: 57",
+                "attraction": "de Young Museum, San Francisco;Alcatraz Island, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco; Cost: 79 per night (~237)"
+            },
+            {
+                "days": 2,
+                "current_city": "San Francisco",
+                "transportation": "Taxi in San Francisco; Cost: 50",
+                "breakfast": "The Chic, San Francisco; Cost: 92",
+                "lunch": "Dilli 6, San Francisco; Cost: 63",
+                "dinner": "Anupam Eating Point, San Francisco; Cost: 10",
+                "attraction": "Alcatraz Island, San Francisco;Aquarium of the Bay, San Francisco;",
+                "accommodation": "Spacious 1 bedroom in Woodlawn NYC, San Francisco; Cost: 163 per night (~489)"
+            },
+            {
+                "days": 3,
+                "current_city": "San Francisco",
+                "transportation": "Flight from San Francisco to Seattle",
+                "breakfast": "Ustad Moinuddin Kebab, San Francisco; Cost: 50",
+                "lunch": "Green Chick Chop, San Francisco; Cost: 39",
+                "dinner": "Cafe All-Inn, San Francisco; Cost: 81",
+                "attraction": "Aquarium of the Bay, San Francisco;California Academy of Sciences, San Francisco;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

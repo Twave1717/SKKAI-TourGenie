@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Los Angeles to Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"ABQ BioPark Aquarium, Albuquerque;AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;AJ Mine Gastineau Mill Tours, Juneau;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"Flight from Colorado to Los Angeles\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"AJ Mine Gastineau Mill Tours, Juneau;AREA15, Las Vegas;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Los Angeles to Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "ABQ BioPark Aquarium, Albuquerque;AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;AJ Mine Gastineau Mill Tours, Juneau;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "Flight from Colorado to Los Angeles",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "AJ Mine Gastineau Mill Tours, Juneau;AREA15, Las Vegas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

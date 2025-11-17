@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Baton Rouge to Dallas\", \"transportation\": \"Flight Number: F0448025, from Baton Rouge to Dallas, Departure Time: 12:24, Arrival Time: 14:24, Price: 132\", \"breakfast\": \"Belfrance Luxury Chocolates, Dallas; Cost: 96\", \"lunch\": \"Dem Karak韄y, Dallas; Cost: 44\", \"dinner\": \"Cafe Hera Pheri, Dallas; Cost: 18\", \"attraction\": \"John F. Kennedy Memorial Plaza, Dallas;Klyde Warren Park, Dallas;\", \"accommodation\": \"Take it now you won't find better, Dallas; Cost: 609 per night (~1827)\"}, {\"days\": 2, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Dallas; Cost: 50\", \"breakfast\": \"Cafe Coffee Day, Dallas; Cost: 22\", \"lunch\": \"Firefly India, Dallas; Cost: 87\", \"dinner\": \"Chanana Ice Cream Parlour, Dallas; Cost: 77\", \"attraction\": \"Klyde Warren Park, Dallas;Leonhardt Lagoon Nature Walk, Dallas;\", \"accommodation\": \"Upper east side duplex, Dallas; Cost: 819 per night (~2457)\"}, {\"days\": 3, \"current_city\": \"Dallas\", \"transportation\": \"Flight from Dallas to Baton Rouge\", \"breakfast\": \"Cafe Hawkers, Dallas; Cost: 72\", \"lunch\": \"Food Weavers, Dallas; Cost: 71\", \"dinner\": \"Delhicacy, Dallas; Cost: 67\", \"attraction\": \"Leonhardt Lagoon Nature Walk, Dallas;Nasher Sculpture Center, Dallas;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Baton Rouge to Dallas",
+                "transportation": "Flight Number: F0448025, from Baton Rouge to Dallas, Departure Time: 12:24, Arrival Time: 14:24, Price: 132",
+                "breakfast": "Belfrance Luxury Chocolates, Dallas; Cost: 96",
+                "lunch": "Dem Karak韄y, Dallas; Cost: 44",
+                "dinner": "Cafe Hera Pheri, Dallas; Cost: 18",
+                "attraction": "John F. Kennedy Memorial Plaza, Dallas;Klyde Warren Park, Dallas;",
+                "accommodation": "Take it now you won't find better, Dallas; Cost: 609 per night (~1827)"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Dallas; Cost: 50",
+                "breakfast": "Cafe Coffee Day, Dallas; Cost: 22",
+                "lunch": "Firefly India, Dallas; Cost: 87",
+                "dinner": "Chanana Ice Cream Parlour, Dallas; Cost: 77",
+                "attraction": "Klyde Warren Park, Dallas;Leonhardt Lagoon Nature Walk, Dallas;",
+                "accommodation": "Upper east side duplex, Dallas; Cost: 819 per night (~2457)"
+            },
+            {
+                "days": 3,
+                "current_city": "Dallas",
+                "transportation": "Flight from Dallas to Baton Rouge",
+                "breakfast": "Cafe Hawkers, Dallas; Cost: 72",
+                "lunch": "Food Weavers, Dallas; Cost: 71",
+                "dinner": "Delhicacy, Dallas; Cost: 67",
+                "attraction": "Leonhardt Lagoon Nature Walk, Dallas;Nasher Sculpture Center, Dallas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

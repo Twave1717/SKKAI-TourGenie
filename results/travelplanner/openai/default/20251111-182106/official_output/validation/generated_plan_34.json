@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Charlotte to New Jersey\", \"transportation\": \"Taxi in New Jersey; Cost: 50\", \"breakfast\": \"Restaurant, New Jersey\", \"lunch\": \"Restaurant, New Jersey\", \"dinner\": \"Restaurant, New Jersey\", \"attraction\": \"A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;\", \"accommodation\": \"Accommodation, New Jersey\"}, {\"days\": 2, \"current_city\": \"New Jersey\", \"transportation\": \"Taxi in New Jersey; Cost: 50\", \"breakfast\": \"Restaurant, New Jersey\", \"lunch\": \"Restaurant, New Jersey\", \"dinner\": \"Restaurant, New Jersey\", \"attraction\": \"A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;\", \"accommodation\": \"Accommodation, New Jersey\"}, {\"days\": 3, \"current_city\": \"New Jersey\", \"transportation\": \"Taxi in New Jersey; Cost: 50\", \"breakfast\": \"Restaurant, New Jersey\", \"lunch\": \"Restaurant, New Jersey\", \"dinner\": \"Restaurant, New Jersey\", \"attraction\": \"ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;\", \"accommodation\": \"Accommodation, New Jersey\"}, {\"days\": 4, \"current_city\": \"New Jersey\", \"transportation\": \"Taxi in New Jersey; Cost: 50\", \"breakfast\": \"Restaurant, New Jersey\", \"lunch\": \"Restaurant, New Jersey\", \"dinner\": \"Restaurant, New Jersey\", \"attraction\": \"ABQ BioPark Aquarium, Albuquerque;AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;\", \"accommodation\": \"Accommodation, New Jersey\"}, {\"days\": 5, \"current_city\": \"New Jersey\", \"transportation\": \"Flight from New Jersey to Charlotte\", \"breakfast\": \"Restaurant, New Jersey\", \"lunch\": \"Restaurant, New Jersey\", \"dinner\": \"Restaurant, New Jersey\", \"attraction\": \"AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Charlotte to New Jersey",
+                "transportation": "Taxi in New Jersey; Cost: 50",
+                "breakfast": "Restaurant, New Jersey",
+                "lunch": "Restaurant, New Jersey",
+                "dinner": "Restaurant, New Jersey",
+                "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+                "accommodation": "Accommodation, New Jersey"
+            },
+            {
+                "days": 2,
+                "current_city": "New Jersey",
+                "transportation": "Taxi in New Jersey; Cost: 50",
+                "breakfast": "Restaurant, New Jersey",
+                "lunch": "Restaurant, New Jersey",
+                "dinner": "Restaurant, New Jersey",
+                "attraction": "A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;",
+                "accommodation": "Accommodation, New Jersey"
+            },
+            {
+                "days": 3,
+                "current_city": "New Jersey",
+                "transportation": "Taxi in New Jersey; Cost: 50",
+                "breakfast": "Restaurant, New Jersey",
+                "lunch": "Restaurant, New Jersey",
+                "dinner": "Restaurant, New Jersey",
+                "attraction": "ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;",
+                "accommodation": "Accommodation, New Jersey"
+            },
+            {
+                "days": 4,
+                "current_city": "New Jersey",
+                "transportation": "Taxi in New Jersey; Cost: 50",
+                "breakfast": "Restaurant, New Jersey",
+                "lunch": "Restaurant, New Jersey",
+                "dinner": "Restaurant, New Jersey",
+                "attraction": "ABQ BioPark Aquarium, Albuquerque;AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;",
+                "accommodation": "Accommodation, New Jersey"
+            },
+            {
+                "days": 5,
+                "current_city": "New Jersey",
+                "transportation": "Flight from New Jersey to Charlotte",
+                "breakfast": "Restaurant, New Jersey",
+                "lunch": "Restaurant, New Jersey",
+                "dinner": "Restaurant, New Jersey",
+                "attraction": "AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

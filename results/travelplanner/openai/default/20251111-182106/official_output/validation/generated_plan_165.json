@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventure Hilton Head, Hilton Head;Adventure Island, Tampa;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 2, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 3, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 4, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 5, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 6, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 7, \"current_city\": \"California\", \"transportation\": \"Flight from California to Salt Lake City\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventure Hilton Head, Hilton Head;Adventure Island, Tampa;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 2,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 3,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 4,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 5,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 6,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 7,
+                "current_city": "California",
+                "transportation": "Flight from California to Salt Lake City",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

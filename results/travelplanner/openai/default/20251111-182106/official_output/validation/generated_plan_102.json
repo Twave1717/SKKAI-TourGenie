@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Punta Gorda to Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'Good Night Dinosaur' Statue, Abilene;'Sanderson Mansnoozie' Statue, Abilene;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 2, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'Sanderson Mansnoozie' Statue, Abilene;'Sconset Bluff Walk, Nantucket;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 3, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'Sconset Bluff Walk, Nantucket;'Stuart Little' Statue, Abilene;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 4, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'Stuart Little' Statue, Abilene;'The Lorax' Statue, Abilene;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 5, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'The Lorax' Statue, Abilene;'The Three Little Pigs' Statue, Abilene;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 6, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'The Three Little Pigs' Statue, Abilene;'Toothiana' Statue, Abilene;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 7, \"current_city\": \"Michigan\", \"transportation\": \"Flight from Michigan to Punta Gorda\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Punta Gorda to Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'Good Night Dinosaur' Statue, Abilene;'Sanderson Mansnoozie' Statue, Abilene;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 2,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'Sanderson Mansnoozie' Statue, Abilene;'Sconset Bluff Walk, Nantucket;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 3,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'Sconset Bluff Walk, Nantucket;'Stuart Little' Statue, Abilene;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 4,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'Stuart Little' Statue, Abilene;'The Lorax' Statue, Abilene;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 5,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'The Lorax' Statue, Abilene;'The Three Little Pigs' Statue, Abilene;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 6,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'The Three Little Pigs' Statue, Abilene;'Toothiana' Statue, Abilene;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 7,
+                "current_city": "Michigan",
+                "transportation": "Flight from Michigan to Punta Gorda",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

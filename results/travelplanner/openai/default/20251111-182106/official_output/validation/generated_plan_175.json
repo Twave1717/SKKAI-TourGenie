@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Minneapolis to Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 2, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 3, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 4, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 5, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 6, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 7, \"current_city\": \"Illinois\", \"transportation\": \"Flight from Illinois to Minneapolis\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Ager House, Eau Claire;Agingan Point, Saipan;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Minneapolis to Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 2,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 3,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 4,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 5,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 6,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 7,
+                "current_city": "Illinois",
+                "transportation": "Flight from Illinois to Minneapolis",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Ager House, Eau Claire;Agingan Point, Saipan;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

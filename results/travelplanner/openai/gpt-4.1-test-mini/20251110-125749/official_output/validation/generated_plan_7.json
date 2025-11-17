@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Missoula → Dallas\", \"transportation\": \"Flight Number: F0185336, from Missoula to Dallas, Departure Time: 13:27, Arrival Time: 17:56, Price: 544\", \"breakfast\": \"Castle 9, Dallas; Cost: 32\", \"lunch\": \"Chanana Ice Cream Parlour, Dallas; Cost: 77\", \"dinner\": \"Delhi Biryani Hut, Dallas; Cost: 90\", \"attraction\": \"John F. Kennedy Memorial Plaza, Dallas;Klyde Warren Park, Dallas;\", \"accommodation\": \"Chic Union Square One Bedroom, Dallas; Cost: 1096 per night (~3288)\"}, {\"days\": 2, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Dallas; Cost: 50\", \"breakfast\": \"Delhi Biryani Hut, Dallas; Cost: 90\", \"lunch\": \"Delhicacy, Dallas; Cost: 67\", \"dinner\": \"Dilli Darbar, Dallas; Cost: 64\", \"attraction\": \"Klyde Warren Park, Dallas;Leonhardt Lagoon Nature Walk, Dallas;\", \"accommodation\": \"Chic Union Square One Bedroom, Dallas; Cost: 1096 per night (~3288)\"}, {\"days\": 3, \"current_city\": \"Dallas → Missoula\", \"transportation\": \"Flight from Dallas to Missoula\", \"breakfast\": \"Dilli Darbar, Dallas; Cost: 64\", \"lunch\": \"Drifters Cafe, Dallas; Cost: 21\", \"dinner\": \"Flames of Tandoor, Dallas; Cost: 57\", \"attraction\": \"Leonhardt Lagoon Nature Walk, Dallas;Nasher Sculpture Center, Dallas;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Missoula → Dallas",
+                "transportation": "Flight Number: F0185336, from Missoula to Dallas, Departure Time: 13:27, Arrival Time: 17:56, Price: 544",
+                "breakfast": "Castle 9, Dallas; Cost: 32",
+                "lunch": "Chanana Ice Cream Parlour, Dallas; Cost: 77",
+                "dinner": "Delhi Biryani Hut, Dallas; Cost: 90",
+                "attraction": "John F. Kennedy Memorial Plaza, Dallas;Klyde Warren Park, Dallas;",
+                "accommodation": "Chic Union Square One Bedroom, Dallas; Cost: 1096 per night (~3288)"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Dallas; Cost: 50",
+                "breakfast": "Delhi Biryani Hut, Dallas; Cost: 90",
+                "lunch": "Delhicacy, Dallas; Cost: 67",
+                "dinner": "Dilli Darbar, Dallas; Cost: 64",
+                "attraction": "Klyde Warren Park, Dallas;Leonhardt Lagoon Nature Walk, Dallas;",
+                "accommodation": "Chic Union Square One Bedroom, Dallas; Cost: 1096 per night (~3288)"
+            },
+            {
+                "days": 3,
+                "current_city": "Dallas → Missoula",
+                "transportation": "Flight from Dallas to Missoula",
+                "breakfast": "Dilli Darbar, Dallas; Cost: 64",
+                "lunch": "Drifters Cafe, Dallas; Cost: 21",
+                "dinner": "Flames of Tandoor, Dallas; Cost: 57",
+                "attraction": "Leonhardt Lagoon Nature Walk, Dallas;Nasher Sculpture Center, Dallas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

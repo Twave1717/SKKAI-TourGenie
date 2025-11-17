@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Chicago to Albany\", \"transportation\": \"Flight Number: F0050104, from Chicago to Albany, Departure Time: 22:15, Arrival Time: 00:55, Price: 193\", \"breakfast\": \"PiccoLicko, Albany; Cost: 22\", \"lunch\": \"Just Parkash, Albany; Cost: 63\", \"dinner\": \"BK's The Juice Bar, Albany; Cost: 91\", \"attraction\": \"Jim DiNapoli Park, Albany;Lincoln Park, Albany;\", \"accommodation\": \"Best Apartment Alphabet City Luxury & Comfort !!, Albany; Cost: 874 per night (~2622)\"}, {\"days\": 2, \"current_city\": \"Albany\", \"transportation\": \"Taxi in Albany; Cost: 50\", \"breakfast\": \"TFK - The Flaming Kick, Albany; Cost: 95\", \"lunch\": \"PiccoLicko, Albany; Cost: 22\", \"dinner\": \"Cafe Coffee Day The Square, Albany; Cost: 25\", \"attraction\": \"Lincoln Park, Albany;New York State Capitol, Albany;\", \"accommodation\": \"Best Apartment Alphabet City Luxury & Comfort !!, Albany; Cost: 874 per night (~2622)\"}, {\"days\": 3, \"current_city\": \"Albany\", \"transportation\": \"Flight from Albany to Chicago\", \"breakfast\": \"Aggarwal Sweets & Bakers, Albany; Cost: 62\", \"lunch\": \"TFK - The Flaming Kick, Albany; Cost: 95\", \"dinner\": \"Jahangeer Foods, Albany; Cost: 59\", \"attraction\": \"New York State Capitol, Albany;New York State Museum, Albany;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chicago to Albany",
+                "transportation": "Flight Number: F0050104, from Chicago to Albany, Departure Time: 22:15, Arrival Time: 00:55, Price: 193",
+                "breakfast": "PiccoLicko, Albany; Cost: 22",
+                "lunch": "Just Parkash, Albany; Cost: 63",
+                "dinner": "BK's The Juice Bar, Albany; Cost: 91",
+                "attraction": "Jim DiNapoli Park, Albany;Lincoln Park, Albany;",
+                "accommodation": "Best Apartment Alphabet City Luxury & Comfort !!, Albany; Cost: 874 per night (~2622)"
+            },
+            {
+                "days": 2,
+                "current_city": "Albany",
+                "transportation": "Taxi in Albany; Cost: 50",
+                "breakfast": "TFK - The Flaming Kick, Albany; Cost: 95",
+                "lunch": "PiccoLicko, Albany; Cost: 22",
+                "dinner": "Cafe Coffee Day The Square, Albany; Cost: 25",
+                "attraction": "Lincoln Park, Albany;New York State Capitol, Albany;",
+                "accommodation": "Best Apartment Alphabet City Luxury & Comfort !!, Albany; Cost: 874 per night (~2622)"
+            },
+            {
+                "days": 3,
+                "current_city": "Albany",
+                "transportation": "Flight from Albany to Chicago",
+                "breakfast": "Aggarwal Sweets & Bakers, Albany; Cost: 62",
+                "lunch": "TFK - The Flaming Kick, Albany; Cost: 95",
+                "dinner": "Jahangeer Foods, Albany; Cost: 59",
+                "attraction": "New York State Capitol, Albany;New York State Museum, Albany;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

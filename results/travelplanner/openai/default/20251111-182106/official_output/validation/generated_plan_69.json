@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Panama City to Nashville\", \"transportation\": \"Flight Number: F0647080, from Panama City to Nashville, Departure Time: 07:20, Arrival Time: 08:32, Price: 163\", \"breakfast\": \"1911 Bar - The Imperial, Nashville; Cost: 76\", \"lunch\": \"Meenakshi Bhawan, Nashville; Cost: 24\", \"dinner\": \"GoGourmet, Nashville; Cost: 34\", \"attraction\": \"Honky Tonk Highway, Nashville;Johnny Cash Museum, Nashville;\", \"accommodation\": \"FiDi Cozy room overlooking East River, Nashville; Cost: 870 per night (~2610)\"}, {\"days\": 2, \"current_city\": \"Nashville\", \"transportation\": \"Taxi in Nashville; Cost: 50\", \"breakfast\": \"Chicago Pizza, Nashville; Cost: 20\", \"lunch\": \"Sagar Dhaba, Nashville; Cost: 55\", \"dinner\": \"Kettle & Kegs, Nashville; Cost: 60\", \"attraction\": \"Johnny Cash Museum, Nashville;Lane Motor Museum, Nashville;\", \"accommodation\": \"Huge 2 Bedroom, Great Location, Express Metro, Nashville; Cost: 745 per night (~2980)\"}, {\"days\": 3, \"current_city\": \"Nashville\", \"transportation\": \"Flight from Nashville to Panama City\", \"breakfast\": \"Full Dabba, Nashville; Cost: 77\", \"lunch\": \"Town Hall, Nashville; Cost: 55\", \"dinner\": \"Malhotra Restaurant, Nashville; Cost: 76\", \"attraction\": \"Lane Motor Museum, Nashville;Musicians Hall of Fame and Museum, Nashville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Panama City to Nashville",
+                "transportation": "Flight Number: F0647080, from Panama City to Nashville, Departure Time: 07:20, Arrival Time: 08:32, Price: 163",
+                "breakfast": "1911 Bar - The Imperial, Nashville; Cost: 76",
+                "lunch": "Meenakshi Bhawan, Nashville; Cost: 24",
+                "dinner": "GoGourmet, Nashville; Cost: 34",
+                "attraction": "Honky Tonk Highway, Nashville;Johnny Cash Museum, Nashville;",
+                "accommodation": "FiDi Cozy room overlooking East River, Nashville; Cost: 870 per night (~2610)"
+            },
+            {
+                "days": 2,
+                "current_city": "Nashville",
+                "transportation": "Taxi in Nashville; Cost: 50",
+                "breakfast": "Chicago Pizza, Nashville; Cost: 20",
+                "lunch": "Sagar Dhaba, Nashville; Cost: 55",
+                "dinner": "Kettle & Kegs, Nashville; Cost: 60",
+                "attraction": "Johnny Cash Museum, Nashville;Lane Motor Museum, Nashville;",
+                "accommodation": "Huge 2 Bedroom, Great Location, Express Metro, Nashville; Cost: 745 per night (~2980)"
+            },
+            {
+                "days": 3,
+                "current_city": "Nashville",
+                "transportation": "Flight from Nashville to Panama City",
+                "breakfast": "Full Dabba, Nashville; Cost: 77",
+                "lunch": "Town Hall, Nashville; Cost: 55",
+                "dinner": "Malhotra Restaurant, Nashville; Cost: 76",
+                "attraction": "Lane Motor Museum, Nashville;Musicians Hall of Fame and Museum, Nashville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

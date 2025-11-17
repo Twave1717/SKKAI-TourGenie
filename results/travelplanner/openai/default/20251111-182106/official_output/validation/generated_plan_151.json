@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Washington to New York\", \"transportation\": \"Flight Number: F0109388, from Washington to New York, Departure Time: 12:30, Arrival Time: 13:29, Price: 107\", \"breakfast\": \"Goosebumps, New York; Cost: 94\", \"lunch\": \"The Best, New York; Cost: 79\", \"dinner\": \"QD's Restaurant, New York; Cost: 93\", \"attraction\": \"The Battery, New York;The Channel Gardens, New York;\", \"accommodation\": \"Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Gurgaon Hights, New York; Cost: 46\", \"lunch\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17\", \"dinner\": \"Shree Rathnam, New York; Cost: 91\", \"attraction\": \"The Channel Gardens, New York;The High Line, New York;\", \"accommodation\": \"Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)\"}, {\"days\": 3, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Lord of the Drinks Forum, New York; Cost: 71\", \"lunch\": \"G Dot, New York; Cost: 75\", \"dinner\": \"Sugary Affairs, New York; Cost: 55\", \"attraction\": \"The High Line, New York;Tiffany Street Clock, New York;\", \"accommodation\": \"Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)\"}, {\"days\": 4, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Seasons 52 Fresh Grill, New York; Cost: 30\", \"lunch\": \"Goosebumps, New York; Cost: 94\", \"dinner\": \"Amchur, New York; Cost: 67\", \"attraction\": \"Tiffany Street Clock, New York;Times Square, New York;\", \"accommodation\": \"Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)\"}, {\"days\": 5, \"current_city\": \"New York\", \"transportation\": \"Flight from New York to Washington\", \"breakfast\": \"Sugar Rush, New York; Cost: 89\", \"lunch\": \"Gurgaon Hights, New York; Cost: 46\", \"dinner\": \"Domino's Pizza, New York; Cost: 86\", \"attraction\": \"Times Square, New York;Top of The Rock, New York;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to New York",
+                "transportation": "Flight Number: F0109388, from Washington to New York, Departure Time: 12:30, Arrival Time: 13:29, Price: 107",
+                "breakfast": "Goosebumps, New York; Cost: 94",
+                "lunch": "The Best, New York; Cost: 79",
+                "dinner": "QD's Restaurant, New York; Cost: 93",
+                "attraction": "The Battery, New York;The Channel Gardens, New York;",
+                "accommodation": "Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Gurgaon Hights, New York; Cost: 46",
+                "lunch": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+                "dinner": "Shree Rathnam, New York; Cost: 91",
+                "attraction": "The Channel Gardens, New York;The High Line, New York;",
+                "accommodation": "Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Lord of the Drinks Forum, New York; Cost: 71",
+                "lunch": "G Dot, New York; Cost: 75",
+                "dinner": "Sugary Affairs, New York; Cost: 55",
+                "attraction": "The High Line, New York;Tiffany Street Clock, New York;",
+                "accommodation": "Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)"
+            },
+            {
+                "days": 4,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Seasons 52 Fresh Grill, New York; Cost: 30",
+                "lunch": "Goosebumps, New York; Cost: 94",
+                "dinner": "Amchur, New York; Cost: 67",
+                "attraction": "Tiffany Street Clock, New York;Times Square, New York;",
+                "accommodation": "Charming Bright Room in Bed Stuy Brownstone, New York; Cost: 1064 per night (~31920)"
+            },
+            {
+                "days": 5,
+                "current_city": "New York",
+                "transportation": "Flight from New York to Washington",
+                "breakfast": "Sugar Rush, New York; Cost: 89",
+                "lunch": "Gurgaon Hights, New York; Cost: 46",
+                "dinner": "Domino's Pizza, New York; Cost: 86",
+                "attraction": "Times Square, New York;Top of The Rock, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Houston to Wichita\", \"transportation\": \"Flight Number: F0616185, from Houston to Wichita, Departure Time: 09:34, Arrival Time: 11:28, Price: 225\", \"breakfast\": \"The B.A.W.A, Wichita; Cost: 23\", \"lunch\": \"Chawla's Tandoori Junction, Wichita; Cost: 57\", \"dinner\": \"Yummy Chinese Food, Wichita; Cost: 25\", \"attraction\": \"Steampunk Village, Wichita;The Kansas African American Museum (TKAAM), Wichita;\", \"accommodation\": \"Clean and bright with a comfortable atmosphere, Wichita; Cost: 546 per night (~2184)\"}, {\"days\": 2, \"current_city\": \"Wichita\", \"transportation\": \"Taxi in Wichita; Cost: 50\", \"breakfast\": \"The Grill Cafe, Wichita; Cost: 66\", \"lunch\": \"Coral - InterContinental Doha, Wichita; Cost: 67\", \"dinner\": \"Cafe Coffee Day, Wichita; Cost: 99\", \"attraction\": \"The Kansas African American Museum (TKAAM), Wichita;The Keeper of the Plains, Wichita;\", \"accommodation\": \"Clean and bright with a comfortable atmosphere, Wichita; Cost: 546 per night (~2184)\"}, {\"days\": 3, \"current_city\": \"Wichita\", \"transportation\": \"Flight from Wichita to Houston\", \"breakfast\": \"Veer Jee Restaurant, Wichita; Cost: 33\", \"lunch\": \"Flavors Of London, Wichita; Cost: 57\", \"dinner\": \"Carbon Bistro, Wichita; Cost: 19\", \"attraction\": \"The Keeper of the Plains, Wichita;Ulrich Museum of Art, Wichita;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Houston to Wichita",
+                "transportation": "Flight Number: F0616185, from Houston to Wichita, Departure Time: 09:34, Arrival Time: 11:28, Price: 225",
+                "breakfast": "The B.A.W.A, Wichita; Cost: 23",
+                "lunch": "Chawla's Tandoori Junction, Wichita; Cost: 57",
+                "dinner": "Yummy Chinese Food, Wichita; Cost: 25",
+                "attraction": "Steampunk Village, Wichita;The Kansas African American Museum (TKAAM), Wichita;",
+                "accommodation": "Clean and bright with a comfortable atmosphere, Wichita; Cost: 546 per night (~2184)"
+            },
+            {
+                "days": 2,
+                "current_city": "Wichita",
+                "transportation": "Taxi in Wichita; Cost: 50",
+                "breakfast": "The Grill Cafe, Wichita; Cost: 66",
+                "lunch": "Coral - InterContinental Doha, Wichita; Cost: 67",
+                "dinner": "Cafe Coffee Day, Wichita; Cost: 99",
+                "attraction": "The Kansas African American Museum (TKAAM), Wichita;The Keeper of the Plains, Wichita;",
+                "accommodation": "Clean and bright with a comfortable atmosphere, Wichita; Cost: 546 per night (~2184)"
+            },
+            {
+                "days": 3,
+                "current_city": "Wichita",
+                "transportation": "Flight from Wichita to Houston",
+                "breakfast": "Veer Jee Restaurant, Wichita; Cost: 33",
+                "lunch": "Flavors Of London, Wichita; Cost: 57",
+                "dinner": "Carbon Bistro, Wichita; Cost: 19",
+                "attraction": "The Keeper of the Plains, Wichita;Ulrich Museum of Art, Wichita;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

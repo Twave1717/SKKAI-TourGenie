@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Bozeman\", \"transportation\": \"Flight Number: F0065822, from Denver to Bozeman, Departure Time: 15:52, Arrival Time: 17:32, Price: 115\", \"breakfast\": \"Indo Chinese, Bozeman; Cost: 66\", \"lunch\": \"Snack Junction, Bozeman; Cost: 98\", \"dinner\": \"Oh Buoy, Bozeman; Cost: 79\", \"attraction\": \"College 'M', Bozeman;Cooper Park, Bozeman;\", \"accommodation\": \"Greenpoint, BK 1 Bedroom, Couple/Solo Traveler, Bozeman; Cost: 574 per night (~1722)\"}, {\"days\": 2, \"current_city\": \"Bozeman\", \"transportation\": \"Taxi in Bozeman; Cost: 50\", \"breakfast\": \"Keventers, Bozeman; Cost: 39\", \"lunch\": \"Today Pizza, Bozeman; Cost: 27\", \"dinner\": \"Shalimar Food, Bozeman; Cost: 81\", \"attraction\": \"Cooper Park, Bozeman;Dinosaur Park, Bozeman;\", \"accommodation\": \"Greenpoint, BK 1 Bedroom, Couple/Solo Traveler, Bozeman; Cost: 574 per night (~1722)\"}, {\"days\": 3, \"current_city\": \"Bozeman\", \"transportation\": \"Flight from Bozeman to Denver\", \"breakfast\": \"Mukesh Chic-Inn Hot & Spice, Bozeman; Cost: 71\", \"lunch\": \"Adyar Ananda Bhavan, Bozeman; Cost: 22\", \"dinner\": \"Side Wok, Bozeman; Cost: 14\", \"attraction\": \"Dinosaur Park, Bozeman;Gallatin County Regional Park, Bozeman;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Bozeman",
+                "transportation": "Flight Number: F0065822, from Denver to Bozeman, Departure Time: 15:52, Arrival Time: 17:32, Price: 115",
+                "breakfast": "Indo Chinese, Bozeman; Cost: 66",
+                "lunch": "Snack Junction, Bozeman; Cost: 98",
+                "dinner": "Oh Buoy, Bozeman; Cost: 79",
+                "attraction": "College 'M', Bozeman;Cooper Park, Bozeman;",
+                "accommodation": "Greenpoint, BK 1 Bedroom, Couple/Solo Traveler, Bozeman; Cost: 574 per night (~1722)"
+            },
+            {
+                "days": 2,
+                "current_city": "Bozeman",
+                "transportation": "Taxi in Bozeman; Cost: 50",
+                "breakfast": "Keventers, Bozeman; Cost: 39",
+                "lunch": "Today Pizza, Bozeman; Cost: 27",
+                "dinner": "Shalimar Food, Bozeman; Cost: 81",
+                "attraction": "Cooper Park, Bozeman;Dinosaur Park, Bozeman;",
+                "accommodation": "Greenpoint, BK 1 Bedroom, Couple/Solo Traveler, Bozeman; Cost: 574 per night (~1722)"
+            },
+            {
+                "days": 3,
+                "current_city": "Bozeman",
+                "transportation": "Flight from Bozeman to Denver",
+                "breakfast": "Mukesh Chic-Inn Hot & Spice, Bozeman; Cost: 71",
+                "lunch": "Adyar Ananda Bhavan, Bozeman; Cost: 22",
+                "dinner": "Side Wok, Bozeman; Cost: 14",
+                "attraction": "Dinosaur Park, Bozeman;Gallatin County Regional Park, Bozeman;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

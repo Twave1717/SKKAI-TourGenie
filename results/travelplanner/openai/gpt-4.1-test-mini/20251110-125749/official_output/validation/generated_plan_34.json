@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Salt Lake City → Burbank\", \"transportation\": \"Flight Number: F0476861, from Salt Lake City to Burbank, Departure Time: 11:16, Arrival Time: 12:13, Price: 265\", \"breakfast\": \"Desi Galli, Burbank; Cost: 92\", \"lunch\": \"Flavors of London, Burbank; Cost: 49\", \"dinner\": \"Hot Pot Snacks, Burbank; Cost: 57\", \"attraction\": \"Universal Studios Hollywood, Burbank;Vickroy Park, Burbank;\", \"accommodation\": \"Sunny Room w/ Private Bath in Williamsburg!, Burbank; Cost: 507 per night (~1521)\"}, {\"days\": 2, \"current_city\": \"Burbank\", \"transportation\": \"Taxi in Burbank; Cost: 50\", \"breakfast\": \"Hot Pot Snacks, Burbank; Cost: 57\", \"lunch\": \"Jai Hind Dairy, Burbank; Cost: 59\", \"dinner\": \"KC Bakers, Burbank; Cost: 100\", \"attraction\": \"Vickroy Park, Burbank;Visit Burbank, Burbank;\", \"accommodation\": \"Sunny Room w/ Private Bath in Williamsburg!, Burbank; Cost: 507 per night (~1521)\"}, {\"days\": 3, \"current_city\": \"Burbank → Salt Lake City\", \"transportation\": \"Flight from Burbank to Salt Lake City\", \"breakfast\": \"KC Bakers, Burbank; Cost: 100\", \"lunch\": \"Katwalk Lounge, Burbank; Cost: 90\", \"dinner\": \"Mellow Mushroom, Burbank; Cost: 69\", \"attraction\": \"Visit Burbank, Burbank;Warner Bros. Studio Tour Hollywood, Burbank;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Salt Lake City → Burbank",
+                "transportation": "Flight Number: F0476861, from Salt Lake City to Burbank, Departure Time: 11:16, Arrival Time: 12:13, Price: 265",
+                "breakfast": "Desi Galli, Burbank; Cost: 92",
+                "lunch": "Flavors of London, Burbank; Cost: 49",
+                "dinner": "Hot Pot Snacks, Burbank; Cost: 57",
+                "attraction": "Universal Studios Hollywood, Burbank;Vickroy Park, Burbank;",
+                "accommodation": "Sunny Room w/ Private Bath in Williamsburg!, Burbank; Cost: 507 per night (~1521)"
+            },
+            {
+                "days": 2,
+                "current_city": "Burbank",
+                "transportation": "Taxi in Burbank; Cost: 50",
+                "breakfast": "Hot Pot Snacks, Burbank; Cost: 57",
+                "lunch": "Jai Hind Dairy, Burbank; Cost: 59",
+                "dinner": "KC Bakers, Burbank; Cost: 100",
+                "attraction": "Vickroy Park, Burbank;Visit Burbank, Burbank;",
+                "accommodation": "Sunny Room w/ Private Bath in Williamsburg!, Burbank; Cost: 507 per night (~1521)"
+            },
+            {
+                "days": 3,
+                "current_city": "Burbank → Salt Lake City",
+                "transportation": "Flight from Burbank to Salt Lake City",
+                "breakfast": "KC Bakers, Burbank; Cost: 100",
+                "lunch": "Katwalk Lounge, Burbank; Cost: 90",
+                "dinner": "Mellow Mushroom, Burbank; Cost: 69",
+                "attraction": "Visit Burbank, Burbank;Warner Bros. Studio Tour Hollywood, Burbank;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

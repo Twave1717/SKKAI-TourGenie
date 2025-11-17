@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Akron to Tampa\", \"transportation\": \"Flight Number: F0933904, from Akron to Tampa, Departure Time: 11:08, Arrival Time: 13:20, Price: 291\", \"breakfast\": \"Alvi's Food Spot, Tampa; Cost: 22\", \"lunch\": \"Ghar Ka Khana, Tampa; Cost: 31\", \"dinner\": \"Chinese Delights, Tampa; Cost: 33\", \"attraction\": \"Sulphur Springs Water Tower, Tampa;Tampa Bay History Center, Tampa;\", \"accommodation\": \"Bright duplex apartment, Tampa; Cost: 164 per night (~492)\"}, {\"days\": 2, \"current_city\": \"Tampa\", \"transportation\": \"Taxi in Tampa; Cost: 50\", \"breakfast\": \"Brown Town, Tampa; Cost: 23\", \"lunch\": \"Gulati, Tampa; Cost: 12\", \"dinner\": \"Fat Lulu's, Tampa; Cost: 96\", \"attraction\": \"Tampa Bay History Center, Tampa;Tampa History Center Dock #3, Tampa;\", \"accommodation\": \"Bright duplex apartment, Tampa; Cost: 164 per night (~492)\"}, {\"days\": 3, \"current_city\": \"Tampa\", \"transportation\": \"Flight from Tampa to Akron\", \"breakfast\": \"Chaayos, Tampa; Cost: 66\", \"lunch\": \"New Pishori Chicken Kabab, Tampa; Cost: 74\", \"dinner\": \"Gallery Caf愆 - Hyatt Place, Tampa; Cost: 42\", \"attraction\": \"Tampa History Center Dock #3, Tampa;Tampa Museum of Art, Tampa;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Akron to Tampa",
+                "transportation": "Flight Number: F0933904, from Akron to Tampa, Departure Time: 11:08, Arrival Time: 13:20, Price: 291",
+                "breakfast": "Alvi's Food Spot, Tampa; Cost: 22",
+                "lunch": "Ghar Ka Khana, Tampa; Cost: 31",
+                "dinner": "Chinese Delights, Tampa; Cost: 33",
+                "attraction": "Sulphur Springs Water Tower, Tampa;Tampa Bay History Center, Tampa;",
+                "accommodation": "Bright duplex apartment, Tampa; Cost: 164 per night (~492)"
+            },
+            {
+                "days": 2,
+                "current_city": "Tampa",
+                "transportation": "Taxi in Tampa; Cost: 50",
+                "breakfast": "Brown Town, Tampa; Cost: 23",
+                "lunch": "Gulati, Tampa; Cost: 12",
+                "dinner": "Fat Lulu's, Tampa; Cost: 96",
+                "attraction": "Tampa Bay History Center, Tampa;Tampa History Center Dock #3, Tampa;",
+                "accommodation": "Bright duplex apartment, Tampa; Cost: 164 per night (~492)"
+            },
+            {
+                "days": 3,
+                "current_city": "Tampa",
+                "transportation": "Flight from Tampa to Akron",
+                "breakfast": "Chaayos, Tampa; Cost: 66",
+                "lunch": "New Pishori Chicken Kabab, Tampa; Cost: 74",
+                "dinner": "Gallery Caf愆 - Hyatt Place, Tampa; Cost: 42",
+                "attraction": "Tampa History Center Dock #3, Tampa;Tampa Museum of Art, Tampa;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

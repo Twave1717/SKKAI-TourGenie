@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from North Platte to Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 6, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 7, \"current_city\": \"Colorado\", \"transportation\": \"Flight from Colorado to North Platte\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from North Platte to Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 6,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 7,
+                "current_city": "Colorado",
+                "transportation": "Flight from Colorado to North Platte",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

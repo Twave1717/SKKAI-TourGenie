@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Cedar Rapids to Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"Flight from Colorado to Cedar Rapids\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Cedar Rapids to Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "A Carousel for Missoula, Missoula;A Christmas Story House, Cleveland;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "A Christmas Story House, Cleveland;A Haunting Experience Tours, Prescott;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "A Haunting Experience Tours, Prescott;A Taste of Victoria Food Tours, Victoria;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "A Taste of Victoria Food Tours, Victoria;A.C. Williams Granite Creek Park, Prescott;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "Flight from Colorado to Cedar Rapids",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

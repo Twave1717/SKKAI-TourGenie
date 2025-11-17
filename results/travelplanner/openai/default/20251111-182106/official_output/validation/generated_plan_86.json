@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Newark to Wisconsin\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 2, \"current_city\": \"Wisconsin\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Agua Caliente Tahquitz Visitor Center, Palm Springs;Ah-Nab-Awen Park, Grand Rapids;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 3, \"current_city\": \"Wisconsin\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Ah-Nab-Awen Park, Grand Rapids;Ahukini Recreational Pier State Park, Lihue;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 4, \"current_city\": \"Wisconsin\", \"transportation\": \"Taxi in Wisconsin; Cost: 50\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;\", \"accommodation\": \"Accommodation, Wisconsin\"}, {\"days\": 5, \"current_city\": \"Wisconsin\", \"transportation\": \"Flight from Wisconsin to Newark\", \"breakfast\": \"Restaurant, Wisconsin\", \"lunch\": \"Restaurant, Wisconsin\", \"dinner\": \"Restaurant, Wisconsin\", \"attraction\": \"Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Newark to Wisconsin",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 2,
+                "current_city": "Wisconsin",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Agua Caliente Tahquitz Visitor Center, Palm Springs;Ah-Nab-Awen Park, Grand Rapids;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 3,
+                "current_city": "Wisconsin",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Ah-Nab-Awen Park, Grand Rapids;Ahukini Recreational Pier State Park, Lihue;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 4,
+                "current_city": "Wisconsin",
+                "transportation": "Taxi in Wisconsin; Cost: 50",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;",
+                "accommodation": "Accommodation, Wisconsin"
+            },
+            {
+                "days": 5,
+                "current_city": "Wisconsin",
+                "transportation": "Flight from Wisconsin to Newark",
+                "breakfast": "Restaurant, Wisconsin",
+                "lunch": "Restaurant, Wisconsin",
+                "dinner": "Restaurant, Wisconsin",
+                "attraction": "Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Louis to Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 2, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 3, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"360 CHICAGO, Chicago;406 Adventures, Kalispell;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 4, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 5, \"current_city\": \"Florida\", \"transportation\": \"Flight from Florida to St. Louis\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Louis to Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 2,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 3,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 4,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 5,
+                "current_city": "Florida",
+                "transportation": "Flight from Florida to St. Louis",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

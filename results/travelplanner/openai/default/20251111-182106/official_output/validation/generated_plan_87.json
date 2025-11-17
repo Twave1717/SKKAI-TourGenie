@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Omaha to Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Agua Caliente Tahquitz Visitor Center, Palm Springs;Ah-Nab-Awen Park, Grand Rapids;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Ah-Nab-Awen Park, Grand Rapids;Ahukini Recreational Pier State Park, Lihue;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"Flight from Colorado to Omaha\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Omaha to Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Agua Caliente Tahquitz Visitor Center, Palm Springs;Ah-Nab-Awen Park, Grand Rapids;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Ah-Nab-Awen Park, Grand Rapids;Ahukini Recreational Pier State Park, Lihue;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Ahukini Recreational Pier State Park, Lihue;Aiken-Rhett House Museum, Charleston;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "Flight from Colorado to Omaha",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

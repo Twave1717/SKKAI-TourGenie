@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Santa Ana to Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 6, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;\", \"accommodation\": \"Accommodation, Colorado\"}, {\"days\": 7, \"current_city\": \"Colorado\", \"transportation\": \"Flight from Colorado to Santa Ana\", \"breakfast\": \"Restaurant, Colorado\", \"lunch\": \"Restaurant, Colorado\", \"dinner\": \"Restaurant, Colorado\", \"attraction\": \"Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Santa Ana to Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 6,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;",
+                "accommodation": "Accommodation, Colorado"
+            },
+            {
+                "days": 7,
+                "current_city": "Colorado",
+                "transportation": "Flight from Colorado to Santa Ana",
+                "breakfast": "Restaurant, Colorado",
+                "lunch": "Restaurant, Colorado",
+                "dinner": "Restaurant, Colorado",
+                "attraction": "Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

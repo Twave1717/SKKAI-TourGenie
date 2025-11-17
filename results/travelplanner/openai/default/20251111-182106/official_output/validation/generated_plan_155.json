@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Boston to New York\", \"transportation\": \"Flight Number: F0129621, from Boston to New York, Departure Time: 16:59, Arrival Time: 18:03, Price: 87\", \"breakfast\": \"Hungry Ullu, New York; Cost: 94\", \"lunch\": \"Baltazar, New York; Cost: 46\", \"dinner\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"attraction\": \"Times Square, New York;Top of The Rock, New York;\", \"accommodation\": \"Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"QD's Restaurant, New York; Cost: 93\", \"lunch\": \"Garam Masala Food Corner, New York; Cost: 40\", \"dinner\": \"The Best, New York; Cost: 79\", \"attraction\": \"Top of The Rock, New York;9/11 Memorial & Museum, New York;\", \"accommodation\": \"Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)\"}, {\"days\": 3, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Shree Rathnam, New York; Cost: 91\", \"lunch\": \"Green Chick Chop, New York; Cost: 26\", \"dinner\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17\", \"attraction\": \"9/11 Memorial & Museum, New York;Brooklyn Bridge, New York;\", \"accommodation\": \"Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)\"}, {\"days\": 4, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Sugary Affairs, New York; Cost: 55\", \"lunch\": \"Hungry Ullu, New York; Cost: 94\", \"dinner\": \"G Dot, New York; Cost: 75\", \"attraction\": \"Brooklyn Bridge, New York;Central Park, New York;\", \"accommodation\": \"Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)\"}, {\"days\": 5, \"current_city\": \"New York\", \"transportation\": \"Flight from New York to Boston\", \"breakfast\": \"Amchur, New York; Cost: 67\", \"lunch\": \"QD's Restaurant, New York; Cost: 93\", \"dinner\": \"Goosebumps, New York; Cost: 94\", \"attraction\": \"Central Park, New York;Empire State Building, New York;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Boston to New York",
+                "transportation": "Flight Number: F0129621, from Boston to New York, Departure Time: 16:59, Arrival Time: 18:03, Price: 87",
+                "breakfast": "Hungry Ullu, New York; Cost: 94",
+                "lunch": "Baltazar, New York; Cost: 46",
+                "dinner": "Sir John Bakery Cafe, New York; Cost: 78",
+                "attraction": "Times Square, New York;Top of The Rock, New York;",
+                "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "QD's Restaurant, New York; Cost: 93",
+                "lunch": "Garam Masala Food Corner, New York; Cost: 40",
+                "dinner": "The Best, New York; Cost: 79",
+                "attraction": "Top of The Rock, New York;9/11 Memorial & Museum, New York;",
+                "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Shree Rathnam, New York; Cost: 91",
+                "lunch": "Green Chick Chop, New York; Cost: 26",
+                "dinner": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+                "attraction": "9/11 Memorial & Museum, New York;Brooklyn Bridge, New York;",
+                "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)"
+            },
+            {
+                "days": 4,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Sugary Affairs, New York; Cost: 55",
+                "lunch": "Hungry Ullu, New York; Cost: 94",
+                "dinner": "G Dot, New York; Cost: 75",
+                "attraction": "Brooklyn Bridge, New York;Central Park, New York;",
+                "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~945)"
+            },
+            {
+                "days": 5,
+                "current_city": "New York",
+                "transportation": "Flight from New York to Boston",
+                "breakfast": "Amchur, New York; Cost: 67",
+                "lunch": "QD's Restaurant, New York; Cost: 93",
+                "dinner": "Goosebumps, New York; Cost: 94",
+                "attraction": "Central Park, New York;Empire State Building, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Milwaukee to New York\", \"transportation\": \"Flight Number: F0156972, from Milwaukee to New York, Departure Time: 08:51, Arrival Time: 11:59, Price: 367\", \"breakfast\": \"Rambhog, New York; Cost: 95\", \"lunch\": \"Golooji's Chat Waat, New York; Cost: 53\", \"dinner\": \"736 A.D., New York; Cost: 99\", \"attraction\": \"Central Park, New York;Empire State Building, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~327)\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"lunch\": \"Green Restaurant, New York; Cost: 74\", \"dinner\": \"Baltazar, New York; Cost: 46\", \"attraction\": \"Empire State Building, New York;Flatiron Building, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~327)\"}, {\"days\": 3, \"current_city\": \"New York\", \"transportation\": \"Flight from New York to Milwaukee\", \"breakfast\": \"The Best, New York; Cost: 79\", \"lunch\": \"Kamal Chat Bhandar, New York; Cost: 36\", \"dinner\": \"Garam Masala Food Corner, New York; Cost: 40\", \"attraction\": \"Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Milwaukee to New York",
+                "transportation": "Flight Number: F0156972, from Milwaukee to New York, Departure Time: 08:51, Arrival Time: 11:59, Price: 367",
+                "breakfast": "Rambhog, New York; Cost: 95",
+                "lunch": "Golooji's Chat Waat, New York; Cost: 53",
+                "dinner": "736 A.D., New York; Cost: 99",
+                "attraction": "Central Park, New York;Empire State Building, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~327)"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Sir John Bakery Cafe, New York; Cost: 78",
+                "lunch": "Green Restaurant, New York; Cost: 74",
+                "dinner": "Baltazar, New York; Cost: 46",
+                "attraction": "Empire State Building, New York;Flatiron Building, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~327)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York",
+                "transportation": "Flight from New York to Milwaukee",
+                "breakfast": "The Best, New York; Cost: 79",
+                "lunch": "Kamal Chat Bhandar, New York; Cost: 36",
+                "dinner": "Garam Masala Food Corner, New York; Cost: 40",
+                "attraction": "Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

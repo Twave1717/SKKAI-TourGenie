@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Orlando\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 2, \"current_city\": \"Orlando\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 3, \"current_city\": \"Orlando to Miami\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 4, \"current_city\": \"Miami\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 5, \"current_city\": \"Miami\", \"transportation\": \"Flight from Florida to Knoxville\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Orlando",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 2,
+                "current_city": "Orlando",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 3,
+                "current_city": "Orlando to Miami",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AWOL Adventure Sports At Centennial Park, Twin Falls;Abandoned Pacific Barrier Radar III, Saipan;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 4,
+                "current_city": "Miami",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Abandoned Pacific Barrier Radar III, Saipan;Abbe Picquet Walking Trail, Ogdensburg;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 5,
+                "current_city": "Miami",
+                "transportation": "Flight from Florida to Knoxville",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
