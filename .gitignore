@@ -26,6 +26,7 @@ data/
 benchmarks/travelplanner/official/database/
 external/
 github_download/
+tmp_opensource/
 
 # Editors
 .vscode/

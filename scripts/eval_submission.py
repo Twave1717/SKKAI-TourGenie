@@ -2,13 +2,14 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import typer
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
 
-
+from enum import Enum
 
 from benchmarks.travelplanner.eval_runner import (
     ensure_results_dir,
@@ -24,6 +25,11 @@ from benchmarks.travelplanner.leaderboard import (
     update_leaderboard,
 )
 from benchmarks.travelplanner.official.evaluation import eval_score as official_eval_score
+from benchmarks.tripcraft.evaluator import run_tripcraft_eval
+from benchmarks.tripcraft.leaderboard import (
+    TRIPCRAFT_METRIC_KEYS,
+    update_tripcraft_leaderboard,
+)
 
 
 app = typer.Typer(help="Evaluate offline TravelPlanner submissions and update the leaderboard.")
@@ -32,6 +38,10 @@ DEFAULT_DATASET = Path("data/travelplanner/validation.jsonl")
 DEFAULT_LEADERBOARD = Path("leaderboards/TravelPlanner/main.md")
 MINI_LEADERBOARD = Path("leaderboards/TravelPlanner/mini.md")
 MINI_HEADER = build_header(DEFAULT_METRIC_KEYS, title="# TravelPlanner Mini Leaderboard")
+
+class Benchmark(str, Enum):
+    TRAVELPLANNER = "travelplanner"
+    TRIPCRAFT = "tripcraft"
 
 
 class DayPlan(BaseModel):
@@ -98,6 +108,57 @@ def _dump_json(path: Path, payload: Any) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def ensure_tripcraft_results_dir(provider: str, model: str, workflow: Optional[str]) -> Path:
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    model_slug = sanitize_model_slug(model)
+    if workflow:
+        model_slug = f"{model_slug}-{sanitize_model_slug(workflow)}"
+    run_dir = Path("results") / "tripcraft" / provider / model_slug / timestamp
+    run_dir.mkdir(parents=True, exist_ok=True)
+    return run_dir
+
+
+def _evaluate_tripcraft_submission(
+    *,
+    submission: Path,
+    set_type: str,
+    provider: Optional[str],
+    model: Optional[str],
+    workflow: Optional[str],
+    result_label: Optional[str],
+    skip_leaderboard: bool,
+) -> None:
+    if provider is None or model is None:
+        typer.echo("[error] --tripcraft-provider 와 --tripcraft-model 옵션을 지정해야 합니다.")
+        raise typer.Exit(code=1)
+
+    submission_path = submission.resolve()
+    if not submission_path.exists():
+        typer.echo(f"[error] Submission file not found: {submission_path}")
+        raise typer.Exit(code=1)
+
+    scores, details = run_tripcraft_eval(set_type, submission_path)
+    metrics = {key: scores.get(key) for key in TRIPCRAFT_METRIC_KEYS}
+
+    run_dir = ensure_tripcraft_results_dir(provider, model, workflow)
+    _dump_json(run_dir / "metrics.json", metrics)
+    _dump_json(run_dir / "tripcraft_eval.json", {"scores": scores, "details": details})
+
+    typer.echo("[tripcraft-eval] 주요 지표:")
+    typer.echo(json.dumps(scores, indent=2, ensure_ascii=False))
+
+    if skip_leaderboard:
+        return
+
+    update_tripcraft_leaderboard(
+        provider=provider,
+        model=model,
+        metrics=metrics,
+        results_path=str(run_dir / "metrics.json"),
+        result_label=result_label or set_type,
+    )
+
+
 @app.command()
 def main(
     submission: Path = typer.Argument(..., exists=True, readable=True, help="팀이 생성한 JSON 결과 파일"),
@@ -123,8 +184,41 @@ def main(
         "--skip-leaderboard/--update-leaderboard",
         help="평가만 수행하고 리더보드 업데이트는 건너뜁니다.",
     ),
+    benchmark: Benchmark = typer.Option(
+        Benchmark.TRAVELPLANNER,
+        "--benchmark",
+        help="평가할 벤치마크 종류 (travelplanner 또는 tripcraft)",
+    ),
+    tripcraft_set_type: str = typer.Option(
+        "3d",
+        help="TripCraft 평가 시 사용할 set_type (3d/5d/7d)",
+    ),
+    tripcraft_provider: Optional[str] = typer.Option(
+        None,
+        help="TripCraft 제출의 Provider 컬럼 값 (--benchmark tripcraft 일 때 필수)",
+    ),
+    tripcraft_model: Optional[str] = typer.Option(
+        None,
+        help="TripCraft 제출의 Model 컬럼 값 (--benchmark tripcraft 일 때 필수)",
+    ),
+    tripcraft_workflow: Optional[str] = typer.Option(
+        None,
+        help="TripCraft 워크플로 이름 (선택). 결과 디렉터리 구분에 사용됩니다.",
+    ),
 ) -> None:
     """Validate a submission JSON, run the official evaluator, and update the leaderboard."""
+
+    if benchmark == Benchmark.TRIPCRAFT:
+        _evaluate_tripcraft_submission(
+            submission=submission,
+            set_type=tripcraft_set_type,
+            provider=tripcraft_provider,
+            model=tripcraft_model,
+            workflow=tripcraft_workflow,
+            result_label=result_label,
+            skip_leaderboard=skip_leaderboard,
+        )
+        return
 
     try:
         payload = SubmissionPayload.model_validate_json(submission.read_text(encoding="utf-8"))
