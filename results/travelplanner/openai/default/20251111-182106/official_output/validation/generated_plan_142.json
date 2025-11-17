@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Washington to California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 2, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 3, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 4, \"current_city\": \"California\", \"transportation\": \"Taxi in California; Cost: 50\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;\", \"accommodation\": \"Accommodation, California\"}, {\"days\": 5, \"current_city\": \"California\", \"transportation\": \"Flight from California to Washington\", \"breakfast\": \"Restaurant, California\", \"lunch\": \"Restaurant, California\", \"dinner\": \"Restaurant, California\", \"attraction\": \"Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Abbe Picquet Walking Trail, Ogdensburg;Abby Aldrich Rockefeller Folk Art Museum, Jamestown;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 2,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Abby Aldrich Rockefeller Folk Art Museum, Jamestown;Aberdeen Maritime Museum, Aberdeen;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 3,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Aberdeen Maritime Museum, Aberdeen;Aberdeen Science Centre, Aberdeen;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 4,
+                "current_city": "California",
+                "transportation": "Taxi in California; Cost: 50",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Aberdeen Science Centre, Aberdeen;Aberdeen South Harbour, Aberdeen;",
+                "accommodation": "Accommodation, California"
+            },
+            {
+                "days": 5,
+                "current_city": "California",
+                "transportation": "Flight from California to Washington",
+                "breakfast": "Restaurant, California",
+                "lunch": "Restaurant, California",
+                "dinner": "Restaurant, California",
+                "attraction": "Aberdeen South Harbour, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Gainesville to North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 2, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 3, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"ABQ BioPark Aquarium, Albuquerque;AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 4, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 5, \"current_city\": \"North Carolina\", \"transportation\": \"Flight from North Carolina to Gainesville\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;AJ Mine Gastineau Mill Tours, Juneau;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Gainesville to North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "A.C. Williams Granite Creek Park, Prescott;ABQ BioPark - Botanic Garden, Albuquerque;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 2,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "ABQ BioPark - Botanic Garden, Albuquerque;ABQ BioPark Aquarium, Albuquerque;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 3,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "ABQ BioPark Aquarium, Albuquerque;AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 4,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 5,
+                "current_city": "North Carolina",
+                "transportation": "Flight from North Carolina to Gainesville",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;AJ Mine Gastineau Mill Tours, Juneau;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

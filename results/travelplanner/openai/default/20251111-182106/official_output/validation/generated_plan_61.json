@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from New York to Reno\", \"transportation\": \"Flight Number: F1541201, from New York to Reno, Departure Time: 20:04, Arrival Time: 22:52, Price: 1056\", \"breakfast\": \"Parashar's, Reno; Cost: 97\", \"lunch\": \"Cafe Cook, Reno; Cost: 100\", \"dinner\": \"Top Burger, Reno; Cost: 80\", \"attraction\": \"Bartley Ranch Regional Park, Reno;Believe sculpture, Reno;\", \"accommodation\": \"A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)\"}, {\"days\": 2, \"current_city\": \"Reno\", \"transportation\": \"Taxi in Reno; Cost: 50\", \"breakfast\": \"Rajwana Foods, Reno; Cost: 37\", \"lunch\": \"Indian Gourmet, Reno; Cost: 16\", \"dinner\": \"Backstreet Kitchen, Reno; Cost: 35\", \"attraction\": \"Believe sculpture, Reno;Dorostkar Park, Reno;\", \"accommodation\": \"A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)\"}, {\"days\": 3, \"current_city\": \"Reno\", \"transportation\": \"Flight from Reno to New York\", \"breakfast\": \"Sugar Ruffles, Reno; Cost: 12\", \"lunch\": \"Kanha Sweets, Reno; Cost: 28\", \"dinner\": \"Brooklyn Brothers, Reno; Cost: 30\", \"attraction\": \"Dorostkar Park, Reno;Dragon Lights Reno, Reno;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Reno",
+                "transportation": "Flight Number: F1541201, from New York to Reno, Departure Time: 20:04, Arrival Time: 22:52, Price: 1056",
+                "breakfast": "Parashar's, Reno; Cost: 97",
+                "lunch": "Cafe Cook, Reno; Cost: 100",
+                "dinner": "Top Burger, Reno; Cost: 80",
+                "attraction": "Bartley Ranch Regional Park, Reno;Believe sculpture, Reno;",
+                "accommodation": "A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)"
+            },
+            {
+                "days": 2,
+                "current_city": "Reno",
+                "transportation": "Taxi in Reno; Cost: 50",
+                "breakfast": "Rajwana Foods, Reno; Cost: 37",
+                "lunch": "Indian Gourmet, Reno; Cost: 16",
+                "dinner": "Backstreet Kitchen, Reno; Cost: 35",
+                "attraction": "Believe sculpture, Reno;Dorostkar Park, Reno;",
+                "accommodation": "A bright, beautiful treehouse, Reno; Cost: 361 per night (~1083)"
+            },
+            {
+                "days": 3,
+                "current_city": "Reno",
+                "transportation": "Flight from Reno to New York",
+                "breakfast": "Sugar Ruffles, Reno; Cost: 12",
+                "lunch": "Kanha Sweets, Reno; Cost: 28",
+                "dinner": "Brooklyn Brothers, Reno; Cost: 30",
+                "attraction": "Dorostkar Park, Reno;Dragon Lights Reno, Reno;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

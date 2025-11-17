@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Birmingham to Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 2, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;AJ Mine Gastineau Mill Tours, Juneau;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 3, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AJ Mine Gastineau Mill Tours, Juneau;AREA15, Las Vegas;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 4, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 5, \"current_city\": \"Florida\", \"transportation\": \"Flight from Florida to Birmingham\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Birmingham to Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AGFC Janet Huckabee Arkansas River Valley Nature Center, Fort Smith;AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 2,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AGFC Witt Stephens Jr. Central Arkansas Nature Center, Little Rock;AJ Mine Gastineau Mill Tours, Juneau;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 3,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AJ Mine Gastineau Mill Tours, Juneau;AREA15, Las Vegas;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 4,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "AREA15, Las Vegas;ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 5,
+                "current_city": "Florida",
+                "transportation": "Flight from Florida to Birmingham",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "ARKANSAS CIVIL RIGHTS HERITAGE TRAIL, Little Rock;AWOL Adventure Sports At Centennial Park, Twin Falls;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

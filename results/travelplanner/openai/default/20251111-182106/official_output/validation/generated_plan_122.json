@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Ithaca to Newark\", \"transportation\": \"Flight Number: F0572571, from Ithaca to Newark, Departure Time: 18:25, Arrival Time: 19:54, Price: 43\", \"breakfast\": \"New Garden Hut, Newark; Cost: 12\", \"lunch\": \"Angeethi Restaurant, Newark; Cost: 12\", \"dinner\": \"Tunday Kababi, Newark; Cost: 10\", \"attraction\": \"Ex-Casa do Paulo Landim II, Newark;Jesse Allen Park, Newark;\", \"accommodation\": \"Rustic Modern Brooklyn Apartment, Newark; Cost: 294 per night (~8820)\"}, {\"days\": 2, \"current_city\": \"Newark\", \"transportation\": \"Taxi in Newark; Cost: 50\", \"breakfast\": \"Sangeeta Dhaba, Newark; Cost: 47\", \"lunch\": \"Baskin Robbins, Newark; Cost: 77\", \"dinner\": \"Ahmed's, Newark; Cost: 36\", \"attraction\": \"Jesse Allen Park, Newark;Military Park, Newark;\", \"accommodation\": \"Rustic Modern Brooklyn Apartment, Newark; Cost: 294 per night (~8820)\"}, {\"days\": 3, \"current_city\": \"Newark\", \"transportation\": \"Flight from Newark to Ithaca\", \"breakfast\": \"Suruchee, Newark; Cost: 44\", \"lunch\": \"Chokoreto - The Cake Design Studio, Newark; Cost: 96\", \"dinner\": \"Anaicha's Food Joint, Newark; Cost: 43\", \"attraction\": \"Military Park, Newark;New Jersey Historical Society, Newark;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Ithaca to Newark",
+                "transportation": "Flight Number: F0572571, from Ithaca to Newark, Departure Time: 18:25, Arrival Time: 19:54, Price: 43",
+                "breakfast": "New Garden Hut, Newark; Cost: 12",
+                "lunch": "Angeethi Restaurant, Newark; Cost: 12",
+                "dinner": "Tunday Kababi, Newark; Cost: 10",
+                "attraction": "Ex-Casa do Paulo Landim II, Newark;Jesse Allen Park, Newark;",
+                "accommodation": "Rustic Modern Brooklyn Apartment, Newark; Cost: 294 per night (~8820)"
+            },
+            {
+                "days": 2,
+                "current_city": "Newark",
+                "transportation": "Taxi in Newark; Cost: 50",
+                "breakfast": "Sangeeta Dhaba, Newark; Cost: 47",
+                "lunch": "Baskin Robbins, Newark; Cost: 77",
+                "dinner": "Ahmed's, Newark; Cost: 36",
+                "attraction": "Jesse Allen Park, Newark;Military Park, Newark;",
+                "accommodation": "Rustic Modern Brooklyn Apartment, Newark; Cost: 294 per night (~8820)"
+            },
+            {
+                "days": 3,
+                "current_city": "Newark",
+                "transportation": "Flight from Newark to Ithaca",
+                "breakfast": "Suruchee, Newark; Cost: 44",
+                "lunch": "Chokoreto - The Cake Design Studio, Newark; Cost: 96",
+                "dinner": "Anaicha's Food Joint, Newark; Cost: 43",
+                "attraction": "Military Park, Newark;New Jersey Historical Society, Newark;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

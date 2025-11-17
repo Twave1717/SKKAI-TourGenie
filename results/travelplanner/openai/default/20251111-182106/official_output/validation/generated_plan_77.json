@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Cleveland to Baltimore\", \"transportation\": \"Flight Number: F0668230, from Cleveland to Baltimore, Departure Time: 05:29, Arrival Time: 06:55, Price: 99\", \"breakfast\": \"The Punjabiis Restro Bar, Baltimore; Cost: 85\", \"lunch\": \"Bhukkhar, Baltimore; Cost: 46\", \"dinner\": \"Tresind - Nassima Royal Hotel, Baltimore; Cost: 67\", \"attraction\": \"The Maryland Zoo in Baltimore, Baltimore;The Walters Art Museum, Baltimore;\", \"accommodation\": \"Cute Family Friendly Vintage Brownstone Living!!, Baltimore; Cost: 920 per night (~2760)\"}, {\"days\": 2, \"current_city\": \"Baltimore\", \"transportation\": \"Taxi in Baltimore; Cost: 50\", \"breakfast\": \"The Thai Bowl, Baltimore; Cost: 66\", \"lunch\": \"Chatore, Baltimore; Cost: 59\", \"dinner\": \"Aggarwal Bikaner Sweets Corner, Baltimore; Cost: 25\", \"attraction\": \"The Walters Art Museum, Baltimore;Top of the World Observation Level, Baltimore;\", \"accommodation\": \"Cute Family Friendly Vintage Brownstone Living!!, Baltimore; Cost: 920 per night (~2760)\"}, {\"days\": 3, \"current_city\": \"Baltimore\", \"transportation\": \"Flight from Baltimore to Cleveland\", \"breakfast\": \"Tibb's Frankie, Baltimore; Cost: 24\", \"lunch\": \"Farzi Cafe, Baltimore; Cost: 96\", \"dinner\": \"Berco's, Baltimore; Cost: 21\", \"attraction\": \"Top of the World Observation Level, Baltimore;American Visionary Art Museum, Baltimore;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Cleveland to Baltimore",
+                "transportation": "Flight Number: F0668230, from Cleveland to Baltimore, Departure Time: 05:29, Arrival Time: 06:55, Price: 99",
+                "breakfast": "The Punjabiis Restro Bar, Baltimore; Cost: 85",
+                "lunch": "Bhukkhar, Baltimore; Cost: 46",
+                "dinner": "Tresind - Nassima Royal Hotel, Baltimore; Cost: 67",
+                "attraction": "The Maryland Zoo in Baltimore, Baltimore;The Walters Art Museum, Baltimore;",
+                "accommodation": "Cute Family Friendly Vintage Brownstone Living!!, Baltimore; Cost: 920 per night (~2760)"
+            },
+            {
+                "days": 2,
+                "current_city": "Baltimore",
+                "transportation": "Taxi in Baltimore; Cost: 50",
+                "breakfast": "The Thai Bowl, Baltimore; Cost: 66",
+                "lunch": "Chatore, Baltimore; Cost: 59",
+                "dinner": "Aggarwal Bikaner Sweets Corner, Baltimore; Cost: 25",
+                "attraction": "The Walters Art Museum, Baltimore;Top of the World Observation Level, Baltimore;",
+                "accommodation": "Cute Family Friendly Vintage Brownstone Living!!, Baltimore; Cost: 920 per night (~2760)"
+            },
+            {
+                "days": 3,
+                "current_city": "Baltimore",
+                "transportation": "Flight from Baltimore to Cleveland",
+                "breakfast": "Tibb's Frankie, Baltimore; Cost: 24",
+                "lunch": "Farzi Cafe, Baltimore; Cost: 96",
+                "dinner": "Berco's, Baltimore; Cost: 21",
+                "attraction": "Top of the World Observation Level, Baltimore;American Visionary Art Museum, Baltimore;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

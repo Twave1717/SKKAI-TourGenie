@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Fort Wayne to Charlotte\", \"transportation\": \"Flight Number: F0235467, from Fort Wayne to Charlotte, Departure Time: 06:22, Arrival Time: 08:04, Price: 161\", \"breakfast\": \"Dial a Cake, Charlotte; Cost: 25\", \"lunch\": \"Shree Hari Vaishnav Dhaba, Charlotte; Cost: 97\", \"dinner\": \"Lotes Bakes, Charlotte; Cost: 29\", \"attraction\": \"Books Monument, Charlotte;Discovery Place Science, Charlotte;\", \"accommodation\": \"1 Bedroom in 2 bedroom Apartment, Charlotte; Cost: 286 per night (~8580)\"}, {\"days\": 2, \"current_city\": \"Charlotte\", \"transportation\": \"Taxi in Charlotte; Cost: 50\", \"breakfast\": \"Kylin Skybar, Charlotte; Cost: 44\", \"lunch\": \"Unplugged Courtyard, Charlotte; Cost: 54\", \"dinner\": \"Olive Tree Cafe, Charlotte; Cost: 23\", \"attraction\": \"Discovery Place Science, Charlotte;First Ward Park, Charlotte;\", \"accommodation\": \"1 Bedroom in 2 bedroom Apartment, Charlotte; Cost: 286 per night (~8580)\"}, {\"days\": 3, \"current_city\": \"Charlotte\", \"transportation\": \"Flight from Charlotte to Fort Wayne\", \"breakfast\": \"Life Grand Cafe, Charlotte; Cost: 25\", \"lunch\": \"Ali Baba Caves, Charlotte; Cost: 41\", \"dinner\": \"Scorpio Cafe, Charlotte; Cost: 89\", \"attraction\": \"First Ward Park, Charlotte;Fourth Ward Park, Charlotte;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Fort Wayne to Charlotte",
+                "transportation": "Flight Number: F0235467, from Fort Wayne to Charlotte, Departure Time: 06:22, Arrival Time: 08:04, Price: 161",
+                "breakfast": "Dial a Cake, Charlotte; Cost: 25",
+                "lunch": "Shree Hari Vaishnav Dhaba, Charlotte; Cost: 97",
+                "dinner": "Lotes Bakes, Charlotte; Cost: 29",
+                "attraction": "Books Monument, Charlotte;Discovery Place Science, Charlotte;",
+                "accommodation": "1 Bedroom in 2 bedroom Apartment, Charlotte; Cost: 286 per night (~8580)"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "Taxi in Charlotte; Cost: 50",
+                "breakfast": "Kylin Skybar, Charlotte; Cost: 44",
+                "lunch": "Unplugged Courtyard, Charlotte; Cost: 54",
+                "dinner": "Olive Tree Cafe, Charlotte; Cost: 23",
+                "attraction": "Discovery Place Science, Charlotte;First Ward Park, Charlotte;",
+                "accommodation": "1 Bedroom in 2 bedroom Apartment, Charlotte; Cost: 286 per night (~8580)"
+            },
+            {
+                "days": 3,
+                "current_city": "Charlotte",
+                "transportation": "Flight from Charlotte to Fort Wayne",
+                "breakfast": "Life Grand Cafe, Charlotte; Cost: 25",
+                "lunch": "Ali Baba Caves, Charlotte; Cost: 41",
+                "dinner": "Scorpio Cafe, Charlotte; Cost: 89",
+                "attraction": "First Ward Park, Charlotte;Fourth Ward Park, Charlotte;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

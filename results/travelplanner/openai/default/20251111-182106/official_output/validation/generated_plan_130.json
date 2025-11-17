@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from South Bend to Atlanta\", \"transportation\": \"Flight Number: F0148416, from South Bend to Atlanta, Departure Time: 05:59, Arrival Time: 07:49, Price: 119\", \"breakfast\": \"Shri Ram Restaurant, Atlanta; Cost: 55\", \"lunch\": \"Bengali Sweet House, Atlanta; Cost: 39\", \"dinner\": \"Ahata, Atlanta; Cost: 17\", \"attraction\": \"Original Selfie Museum | Atlanta, Atlanta;Piedmont Park, Atlanta;\", \"accommodation\": \"1bd in a sunny 2 bd Ft. Greene Apt, Atlanta; Cost: 1056 per night (~3168)\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Taste of Vishal, Atlanta; Cost: 13\", \"lunch\": \"Caboose X Cafe & Lounge, Atlanta; Cost: 23\", \"dinner\": \"Asian Bistro, Atlanta; Cost: 27\", \"attraction\": \"Piedmont Park, Atlanta;SkyView Atlanta, Atlanta;\", \"accommodation\": \"Bright central designer's apt - steps to train!, Atlanta; Cost: 1019 per night (~5095)\"}, {\"days\": 3, \"current_city\": \"Atlanta\", \"transportation\": \"Flight from Atlanta to South Bend\", \"breakfast\": \"Adda, Atlanta; Cost: 22\", \"lunch\": \"Chawla Snacks, Atlanta; Cost: 48\", \"dinner\": \"Beliram Degchiwala, Atlanta; Cost: 14\", \"attraction\": \"SkyView Atlanta, Atlanta;Tiny Doors ATL, Atlanta;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from South Bend to Atlanta",
+                "transportation": "Flight Number: F0148416, from South Bend to Atlanta, Departure Time: 05:59, Arrival Time: 07:49, Price: 119",
+                "breakfast": "Shri Ram Restaurant, Atlanta; Cost: 55",
+                "lunch": "Bengali Sweet House, Atlanta; Cost: 39",
+                "dinner": "Ahata, Atlanta; Cost: 17",
+                "attraction": "Original Selfie Museum | Atlanta, Atlanta;Piedmont Park, Atlanta;",
+                "accommodation": "1bd in a sunny 2 bd Ft. Greene Apt, Atlanta; Cost: 1056 per night (~3168)"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Taste of Vishal, Atlanta; Cost: 13",
+                "lunch": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+                "dinner": "Asian Bistro, Atlanta; Cost: 27",
+                "attraction": "Piedmont Park, Atlanta;SkyView Atlanta, Atlanta;",
+                "accommodation": "Bright central designer's apt - steps to train!, Atlanta; Cost: 1019 per night (~5095)"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta",
+                "transportation": "Flight from Atlanta to South Bend",
+                "breakfast": "Adda, Atlanta; Cost: 22",
+                "lunch": "Chawla Snacks, Atlanta; Cost: 48",
+                "dinner": "Beliram Degchiwala, Atlanta; Cost: 14",
+                "attraction": "SkyView Atlanta, Atlanta;Tiny Doors ATL, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Eau Claire to Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 2, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 3, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 4, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 5, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 6, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 7, \"current_city\": \"Illinois\", \"transportation\": \"Flight from Illinois to Eau Claire\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Eau Claire to Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 2,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 3,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 4,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 5,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 6,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 7,
+                "current_city": "Illinois",
+                "transportation": "Flight from Illinois to Eau Claire",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

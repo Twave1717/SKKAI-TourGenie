@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Myrtle Beach to Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 2, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 3, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 4, \"current_city\": \"Massachusetts\", \"transportation\": \"Taxi in Massachusetts; Cost: 50\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"Accommodation, Massachusetts\"}, {\"days\": 5, \"current_city\": \"Massachusetts\", \"transportation\": \"Flight from Massachusetts to Myrtle Beach\", \"breakfast\": \"Restaurant, Massachusetts\", \"lunch\": \"Restaurant, Massachusetts\", \"dinner\": \"Restaurant, Massachusetts\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Myrtle Beach to Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 2,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 3,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 4,
+                "current_city": "Massachusetts",
+                "transportation": "Taxi in Massachusetts; Cost: 50",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "Accommodation, Massachusetts"
+            },
+            {
+                "days": 5,
+                "current_city": "Massachusetts",
+                "transportation": "Flight from Massachusetts to Myrtle Beach",
+                "breakfast": "Restaurant, Massachusetts",
+                "lunch": "Restaurant, Massachusetts",
+                "dinner": "Restaurant, Massachusetts",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

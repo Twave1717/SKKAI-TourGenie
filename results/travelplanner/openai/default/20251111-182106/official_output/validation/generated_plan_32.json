@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Omaha to Washington\", \"transportation\": \"Flight Number: F0130008, from Omaha to Washington, Departure Time: 11:27, Arrival Time: 14:43, Price: 402\", \"breakfast\": \"Republic of Chicken, Washington; Cost: 91\", \"lunch\": \"Keventers, Washington; Cost: 46\", \"dinner\": \"Biryani Point, Washington; Cost: 46\", \"attraction\": \"Seattle Aquarium, Washington;Sky View Observatory - Columbia Center, Washington;\", \"accommodation\": \"Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)\"}, {\"days\": 2, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"The Hangar, Washington; Cost: 74\", \"lunch\": \"Moradabadi Biryani, Washington; Cost: 12\", \"dinner\": \"Domino's Pizza, Washington; Cost: 94\", \"attraction\": \"Sky View Observatory - Columbia Center, Washington;Smith Tower, Washington;\", \"accommodation\": \"Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)\"}, {\"days\": 3, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"Bikaner Sweet House, Washington; Cost: 61\", \"lunch\": \"Thaaliwala, Washington; Cost: 88\", \"dinner\": \"Hemingway's Island Grill, Washington; Cost: 57\", \"attraction\": \"Smith Tower, Washington;Space Needle, Washington;\", \"accommodation\": \"Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)\"}, {\"days\": 4, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"Chidya Ghar - Roseate House, Washington; Cost: 70\", \"lunch\": \"Baskin Robbins, Washington; Cost: 87\", \"dinner\": \"Manna Java World Cafe, Washington; Cost: 59\", \"attraction\": \"Space Needle, Washington;The Gum Wall, Washington;\", \"accommodation\": \"Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)\"}, {\"days\": 5, \"current_city\": \"Washington\", \"transportation\": \"Flight from Washington to Omaha\", \"breakfast\": \"Hearken Caf愆, Washington; Cost: 30\", \"lunch\": \"Cafe Coffee Day, Washington; Cost: 53\", \"dinner\": \"Shiv Dhaba, Washington; Cost: 61\", \"attraction\": \"The Gum Wall, Washington;The Seattle Great Wheel, Washington;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Omaha to Washington",
+                "transportation": "Flight Number: F0130008, from Omaha to Washington, Departure Time: 11:27, Arrival Time: 14:43, Price: 402",
+                "breakfast": "Republic of Chicken, Washington; Cost: 91",
+                "lunch": "Keventers, Washington; Cost: 46",
+                "dinner": "Biryani Point, Washington; Cost: 46",
+                "attraction": "Seattle Aquarium, Washington;Sky View Observatory - Columbia Center, Washington;",
+                "accommodation": "Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)"
+            },
+            {
+                "days": 2,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "The Hangar, Washington; Cost: 74",
+                "lunch": "Moradabadi Biryani, Washington; Cost: 12",
+                "dinner": "Domino's Pizza, Washington; Cost: 94",
+                "attraction": "Sky View Observatory - Columbia Center, Washington;Smith Tower, Washington;",
+                "accommodation": "Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)"
+            },
+            {
+                "days": 3,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "Bikaner Sweet House, Washington; Cost: 61",
+                "lunch": "Thaaliwala, Washington; Cost: 88",
+                "dinner": "Hemingway's Island Grill, Washington; Cost: 57",
+                "attraction": "Smith Tower, Washington;Space Needle, Washington;",
+                "accommodation": "Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)"
+            },
+            {
+                "days": 4,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "Chidya Ghar - Roseate House, Washington; Cost: 70",
+                "lunch": "Baskin Robbins, Washington; Cost: 87",
+                "dinner": "Manna Java World Cafe, Washington; Cost: 59",
+                "attraction": "Space Needle, Washington;The Gum Wall, Washington;",
+                "accommodation": "Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)"
+            },
+            {
+                "days": 5,
+                "current_city": "Washington",
+                "transportation": "Flight from Washington to Omaha",
+                "breakfast": "Hearken Caf愆, Washington; Cost: 30",
+                "lunch": "Cafe Coffee Day, Washington; Cost: 53",
+                "dinner": "Shiv Dhaba, Washington; Cost: 61",
+                "attraction": "The Gum Wall, Washington;The Seattle Great Wheel, Washington;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

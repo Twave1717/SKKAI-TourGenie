@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Las Vegas to Idaho\", \"transportation\": \"Taxi in Idaho; Cost: 50\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;\", \"accommodation\": \"Accommodation, Idaho\"}, {\"days\": 2, \"current_city\": \"Idaho\", \"transportation\": \"Taxi in Idaho; Cost: 50\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;\", \"accommodation\": \"Accommodation, Idaho\"}, {\"days\": 3, \"current_city\": \"Idaho\", \"transportation\": \"Taxi in Idaho; Cost: 50\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;\", \"accommodation\": \"Accommodation, Idaho\"}, {\"days\": 4, \"current_city\": \"Idaho\", \"transportation\": \"Taxi in Idaho; Cost: 50\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;\", \"accommodation\": \"Accommodation, Idaho\"}, {\"days\": 5, \"current_city\": \"Idaho\", \"transportation\": \"Taxi in Idaho; Cost: 50\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"Accommodation, Idaho\"}, {\"days\": 6, \"current_city\": \"Idaho\", \"transportation\": \"Taxi in Idaho; Cost: 50\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;\", \"accommodation\": \"Accommodation, Idaho\"}, {\"days\": 7, \"current_city\": \"Idaho\", \"transportation\": \"Flight from Idaho to Las Vegas\", \"breakfast\": \"Restaurant, Idaho\", \"lunch\": \"Restaurant, Idaho\", \"dinner\": \"Restaurant, Idaho\", \"attraction\": \"Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Las Vegas to Idaho",
+                "transportation": "Taxi in Idaho; Cost: 50",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;",
+                "accommodation": "Accommodation, Idaho"
+            },
+            {
+                "days": 2,
+                "current_city": "Idaho",
+                "transportation": "Taxi in Idaho; Cost: 50",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;",
+                "accommodation": "Accommodation, Idaho"
+            },
+            {
+                "days": 3,
+                "current_city": "Idaho",
+                "transportation": "Taxi in Idaho; Cost: 50",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;",
+                "accommodation": "Accommodation, Idaho"
+            },
+            {
+                "days": 4,
+                "current_city": "Idaho",
+                "transportation": "Taxi in Idaho; Cost: 50",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;",
+                "accommodation": "Accommodation, Idaho"
+            },
+            {
+                "days": 5,
+                "current_city": "Idaho",
+                "transportation": "Taxi in Idaho; Cost: 50",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "Accommodation, Idaho"
+            },
+            {
+                "days": 6,
+                "current_city": "Idaho",
+                "transportation": "Taxi in Idaho; Cost: 50",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;",
+                "accommodation": "Accommodation, Idaho"
+            },
+            {
+                "days": 7,
+                "current_city": "Idaho",
+                "transportation": "Flight from Idaho to Las Vegas",
+                "breakfast": "Restaurant, Idaho",
+                "lunch": "Restaurant, Idaho",
+                "dinner": "Restaurant, Idaho",
+                "attraction": "Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

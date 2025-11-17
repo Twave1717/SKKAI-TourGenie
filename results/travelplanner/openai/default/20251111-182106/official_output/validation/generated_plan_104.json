@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Tulsa to Missouri\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"'Sconset Bluff Walk, Nantucket;'Stuart Little' Statue, Abilene;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 2, \"current_city\": \"Missouri\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"'Stuart Little' Statue, Abilene;'The Lorax' Statue, Abilene;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 3, \"current_city\": \"Missouri\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"'The Lorax' Statue, Abilene;'The Three Little Pigs' Statue, Abilene;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 4, \"current_city\": \"Missouri\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"'The Three Little Pigs' Statue, Abilene;'Toothiana' Statue, Abilene;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 5, \"current_city\": \"Missouri\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 6, \"current_city\": \"Missouri\", \"transportation\": \"Taxi in Missouri; Cost: 50\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"'Yertle the Turtle' Statue, Abilene;-, Juneau;\", \"accommodation\": \"Accommodation, Missouri\"}, {\"days\": 7, \"current_city\": \"Missouri\", \"transportation\": \"Flight from Missouri to Tulsa\", \"breakfast\": \"Restaurant, Missouri\", \"lunch\": \"Restaurant, Missouri\", \"dinner\": \"Restaurant, Missouri\", \"attraction\": \"-, Juneau;1000 Steps Beach, Santa Barbara;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Tulsa to Missouri",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "'Sconset Bluff Walk, Nantucket;'Stuart Little' Statue, Abilene;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 2,
+                "current_city": "Missouri",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "'Stuart Little' Statue, Abilene;'The Lorax' Statue, Abilene;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 3,
+                "current_city": "Missouri",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "'The Lorax' Statue, Abilene;'The Three Little Pigs' Statue, Abilene;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 4,
+                "current_city": "Missouri",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "'The Three Little Pigs' Statue, Abilene;'Toothiana' Statue, Abilene;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 5,
+                "current_city": "Missouri",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 6,
+                "current_city": "Missouri",
+                "transportation": "Taxi in Missouri; Cost: 50",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "'Yertle the Turtle' Statue, Abilene;-, Juneau;",
+                "accommodation": "Accommodation, Missouri"
+            },
+            {
+                "days": 7,
+                "current_city": "Missouri",
+                "transportation": "Flight from Missouri to Tulsa",
+                "breakfast": "Restaurant, Missouri",
+                "lunch": "Restaurant, Missouri",
+                "dinner": "Restaurant, Missouri",
+                "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

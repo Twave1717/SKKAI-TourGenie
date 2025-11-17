@@ -1,0 +1,39 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Milwaukee → New York\", \"transportation\": \"Flight Number: F0152476, from Milwaukee to New York, Departure Time: 17:47, Arrival Time: 20:49, Price: 224\", \"breakfast\": \"Rambhog, New York; Cost: 95\", \"lunch\": \"Seasons 52 Fresh Grill, New York; Cost: 30\", \"dinner\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"attraction\": \"Statue of Liberty, New York;Tenement Museum, New York;\", \"accommodation\": \"Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~756)\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"lunch\": \"Sugar Rush, New York; Cost: 89\", \"dinner\": \"The Best, New York; Cost: 79\", \"attraction\": \"Tenement Museum, New York;The Battery, New York;\", \"accommodation\": \"Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~756)\"}, {\"days\": 3, \"current_city\": \"New York → Milwaukee\", \"transportation\": \"Flight from New York to Milwaukee\", \"breakfast\": \"The Best, New York; Cost: 79\", \"lunch\": \"736 A.D., New York; Cost: 99\", \"dinner\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17\", \"attraction\": \"The Battery, New York;The Channel Gardens, New York;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Milwaukee → New York",
+                "transportation": "Flight Number: F0152476, from Milwaukee to New York, Departure Time: 17:47, Arrival Time: 20:49, Price: 224",
+                "breakfast": "Rambhog, New York; Cost: 95",
+                "lunch": "Seasons 52 Fresh Grill, New York; Cost: 30",
+                "dinner": "Sir John Bakery Cafe, New York; Cost: 78",
+                "attraction": "Statue of Liberty, New York;Tenement Museum, New York;",
+                "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~756)"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Sir John Bakery Cafe, New York; Cost: 78",
+                "lunch": "Sugar Rush, New York; Cost: 89",
+                "dinner": "The Best, New York; Cost: 79",
+                "attraction": "Tenement Museum, New York;The Battery, New York;",
+                "accommodation": "Magical rowhouse and garden in Williamsburg, New York; Cost: 189 per night (~756)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York → Milwaukee",
+                "transportation": "Flight from New York to Milwaukee",
+                "breakfast": "The Best, New York; Cost: 79",
+                "lunch": "736 A.D., New York; Cost: 99",
+                "dinner": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+                "attraction": "The Battery, New York;The Channel Gardens, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

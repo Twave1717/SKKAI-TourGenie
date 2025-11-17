@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Manchester to Charlotte\", \"transportation\": \"Flight Number: F0949538, from Manchester to Charlotte, Departure Time: 14:17, Arrival Time: 17:36, Price: 368\", \"breakfast\": \"Bombay Vada Pav, Charlotte; Cost: 33\", \"lunch\": \"Mithla Dhabha, Charlotte; Cost: 71\", \"dinner\": \"Grover's - The Baker Shop, Charlotte; Cost: 30\", \"attraction\": \"Freedom Park, Charlotte;Levine Museum of the New South, Charlotte;\", \"accommodation\": \"Nice apartment 4 Springbreak in NY, Charlotte; Cost: 391 per night (~1173)\"}, {\"days\": 2, \"current_city\": \"Charlotte\", \"transportation\": \"Taxi in Charlotte; Cost: 50\", \"breakfast\": \"Central Perk 7, Charlotte; Cost: 87\", \"lunch\": \"Pind Balluchi, Charlotte; Cost: 42\", \"dinner\": \"Le Club, Charlotte; Cost: 64\", \"attraction\": \"Levine Museum of the New South, Charlotte;Marshall Park, Charlotte;\", \"accommodation\": \"Nice apartment 4 Springbreak in NY, Charlotte; Cost: 391 per night (~1173)\"}, {\"days\": 3, \"current_city\": \"Charlotte\", \"transportation\": \"Flight from Charlotte to Manchester\", \"breakfast\": \"Dial a Cake, Charlotte; Cost: 25\", \"lunch\": \"Shree Hari Vaishnav Dhaba, Charlotte; Cost: 97\", \"dinner\": \"Lotes Bakes, Charlotte; Cost: 29\", \"attraction\": \"Marshall Park, Charlotte;Midtown Park, Charlotte;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Manchester to Charlotte",
+                "transportation": "Flight Number: F0949538, from Manchester to Charlotte, Departure Time: 14:17, Arrival Time: 17:36, Price: 368",
+                "breakfast": "Bombay Vada Pav, Charlotte; Cost: 33",
+                "lunch": "Mithla Dhabha, Charlotte; Cost: 71",
+                "dinner": "Grover's - The Baker Shop, Charlotte; Cost: 30",
+                "attraction": "Freedom Park, Charlotte;Levine Museum of the New South, Charlotte;",
+                "accommodation": "Nice apartment 4 Springbreak in NY, Charlotte; Cost: 391 per night (~1173)"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "Taxi in Charlotte; Cost: 50",
+                "breakfast": "Central Perk 7, Charlotte; Cost: 87",
+                "lunch": "Pind Balluchi, Charlotte; Cost: 42",
+                "dinner": "Le Club, Charlotte; Cost: 64",
+                "attraction": "Levine Museum of the New South, Charlotte;Marshall Park, Charlotte;",
+                "accommodation": "Nice apartment 4 Springbreak in NY, Charlotte; Cost: 391 per night (~1173)"
+            },
+            {
+                "days": 3,
+                "current_city": "Charlotte",
+                "transportation": "Flight from Charlotte to Manchester",
+                "breakfast": "Dial a Cake, Charlotte; Cost: 25",
+                "lunch": "Shree Hari Vaishnav Dhaba, Charlotte; Cost: 97",
+                "dinner": "Lotes Bakes, Charlotte; Cost: 29",
+                "attraction": "Marshall Park, Charlotte;Midtown Park, Charlotte;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

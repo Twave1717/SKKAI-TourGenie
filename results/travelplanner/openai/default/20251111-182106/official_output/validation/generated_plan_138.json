@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Elmira to Detroit\", \"transportation\": \"Flight Number: F0504236, from Elmira to Detroit, Departure Time: 15:32, Arrival Time: 16:47, Price: 152\", \"breakfast\": \"Knights Chaska, Detroit; Cost: 29\", \"lunch\": \"Zabardast Indian Kitchen, Detroit; Cost: 76\", \"dinner\": \"Sagar Ratna, Detroit; Cost: 55\", \"attraction\": \"Belle Isle Aquarium, Detroit;Campus Martius Park, Detroit;\", \"accommodation\": \"Nice Room in Manhattan, Detroit; Cost: 300 per night (~900)\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"N. Iqbal Restaurant, Detroit; Cost: 11\", \"lunch\": \"Aapki Rasoi, Detroit; Cost: 21\", \"dinner\": \"The Dosa King, Detroit; Cost: 69\", \"attraction\": \"Campus Martius Park, Detroit;Charles H. Wright Museum of African American History, Detroit;\", \"accommodation\": \"Romantic Top Floor Brownstone in Crown Heights, Detroit; Cost: 1077 per night (~3231)\"}, {\"days\": 3, \"current_city\": \"Detroit\", \"transportation\": \"Flight from Detroit to Elmira\", \"breakfast\": \"Rehmatullah's Hotel, Detroit; Cost: 28\", \"lunch\": \"Cafe 6, Detroit; Cost: 27\", \"dinner\": \"Vapour Pub & Brewery, Detroit; Cost: 80\", \"attraction\": \"Charles H. Wright Museum of African American History, Detroit;Comerica Park, Detroit;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Elmira to Detroit",
+                "transportation": "Flight Number: F0504236, from Elmira to Detroit, Departure Time: 15:32, Arrival Time: 16:47, Price: 152",
+                "breakfast": "Knights Chaska, Detroit; Cost: 29",
+                "lunch": "Zabardast Indian Kitchen, Detroit; Cost: 76",
+                "dinner": "Sagar Ratna, Detroit; Cost: 55",
+                "attraction": "Belle Isle Aquarium, Detroit;Campus Martius Park, Detroit;",
+                "accommodation": "Nice Room in Manhattan, Detroit; Cost: 300 per night (~900)"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "N. Iqbal Restaurant, Detroit; Cost: 11",
+                "lunch": "Aapki Rasoi, Detroit; Cost: 21",
+                "dinner": "The Dosa King, Detroit; Cost: 69",
+                "attraction": "Campus Martius Park, Detroit;Charles H. Wright Museum of African American History, Detroit;",
+                "accommodation": "Romantic Top Floor Brownstone in Crown Heights, Detroit; Cost: 1077 per night (~3231)"
+            },
+            {
+                "days": 3,
+                "current_city": "Detroit",
+                "transportation": "Flight from Detroit to Elmira",
+                "breakfast": "Rehmatullah's Hotel, Detroit; Cost: 28",
+                "lunch": "Cafe 6, Detroit; Cost: 27",
+                "dinner": "Vapour Pub & Brewery, Detroit; Cost: 80",
+                "attraction": "Charles H. Wright Museum of African American History, Detroit;Comerica Park, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

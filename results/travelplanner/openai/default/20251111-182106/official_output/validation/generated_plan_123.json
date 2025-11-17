@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Nashville to Detroit\", \"transportation\": \"Flight Number: F0048323, from Nashville to Detroit, Departure Time: 19:21, Arrival Time: 21:47, Price: 172\", \"breakfast\": \"Vapour Pub & Brewery, Detroit; Cost: 80\", \"lunch\": \"Frequent Bakes, Detroit; Cost: 50\", \"dinner\": \"Cafe 6, Detroit; Cost: 27\", \"attraction\": \"Detroit Institute of Arts, Detroit;Detroit Riverfront Conservancy, Detroit;\", \"accommodation\": \"Fashion Designer Studio - Entire Apartment, Detroit; Cost: 934 per night (~28020)\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"A Dong Restaurant, Detroit; Cost: 40\", \"lunch\": \"Mitalis Kitchen, Detroit; Cost: 28\", \"dinner\": \"DV's Chinese Kitchen, Detroit; Cost: 91\", \"attraction\": \"Detroit Riverfront Conservancy, Detroit;Detroit Riverwalk, Detroit;\", \"accommodation\": \"Fashion Designer Studio - Entire Apartment, Detroit; Cost: 934 per night (~28020)\"}, {\"days\": 3, \"current_city\": \"Detroit\", \"transportation\": \"Flight from Detroit to Nashville\", \"breakfast\": \"Bistro Flamme Bois, Detroit; Cost: 100\", \"lunch\": \"Old Kheer Shop, Detroit; Cost: 54\", \"dinner\": \"Flavours of Punjab, Detroit; Cost: 28\", \"attraction\": \"Detroit Riverwalk, Detroit;Detroit Segway Tours & Rides, Detroit;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Nashville to Detroit",
+                "transportation": "Flight Number: F0048323, from Nashville to Detroit, Departure Time: 19:21, Arrival Time: 21:47, Price: 172",
+                "breakfast": "Vapour Pub & Brewery, Detroit; Cost: 80",
+                "lunch": "Frequent Bakes, Detroit; Cost: 50",
+                "dinner": "Cafe 6, Detroit; Cost: 27",
+                "attraction": "Detroit Institute of Arts, Detroit;Detroit Riverfront Conservancy, Detroit;",
+                "accommodation": "Fashion Designer Studio - Entire Apartment, Detroit; Cost: 934 per night (~28020)"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "A Dong Restaurant, Detroit; Cost: 40",
+                "lunch": "Mitalis Kitchen, Detroit; Cost: 28",
+                "dinner": "DV's Chinese Kitchen, Detroit; Cost: 91",
+                "attraction": "Detroit Riverfront Conservancy, Detroit;Detroit Riverwalk, Detroit;",
+                "accommodation": "Fashion Designer Studio - Entire Apartment, Detroit; Cost: 934 per night (~28020)"
+            },
+            {
+                "days": 3,
+                "current_city": "Detroit",
+                "transportation": "Flight from Detroit to Nashville",
+                "breakfast": "Bistro Flamme Bois, Detroit; Cost: 100",
+                "lunch": "Old Kheer Shop, Detroit; Cost: 54",
+                "dinner": "Flavours of Punjab, Detroit; Cost: 28",
+                "attraction": "Detroit Riverwalk, Detroit;Detroit Segway Tours & Rides, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

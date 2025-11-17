@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Houston to Pensacola\", \"transportation\": \"Flight Number: F0107041, from Houston to Pensacola, Departure Time: 14:21, Arrival Time: 15:57, Price: 188\", \"breakfast\": \"The Midnight Hub - C, Pensacola; Cost: 32\", \"lunch\": \"Hunger's Hub, Pensacola; Cost: 76\", \"dinner\": \"De Fontein Belgian Beer Cafe, Pensacola; Cost: 89\", \"attraction\": \"Splash City Adventures, Pensacola;The Graffiti Bridge, Pensacola;\", \"accommodation\": \"1D  Private Rm  in Guesthouse Manhattan, Pensacola; Cost: 378 per night (~1134)\"}, {\"days\": 2, \"current_city\": \"Pensacola\", \"transportation\": \"Taxi in Pensacola; Cost: 50\", \"breakfast\": \"Berry Patch Restaurant, Pensacola; Cost: 13\", \"lunch\": \"Jyoti Dhaba, Pensacola; Cost: 11\", \"dinner\": \"Fresh Meat CO, Pensacola; Cost: 82\", \"attraction\": \"The Graffiti Bridge, Pensacola;The Quina House Museum, Pensacola;\", \"accommodation\": \"AMAZING  2BR Apartment Elev/laundry!, Pensacola; Cost: 56 per night (~1680)\"}, {\"days\": 3, \"current_city\": \"Pensacola\", \"transportation\": \"Flight from Pensacola to Houston\", \"breakfast\": \"Code, Pensacola; Cost: 29\", \"lunch\": \"Keventer's South Indian & Chinese Food, Pensacola; Cost: 32\", \"dinner\": \"Gaga Manjero, Pensacola; Cost: 17\", \"attraction\": \"The Quina House Museum, Pensacola;The Twin Bluffs, Pensacola;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Houston to Pensacola",
+                "transportation": "Flight Number: F0107041, from Houston to Pensacola, Departure Time: 14:21, Arrival Time: 15:57, Price: 188",
+                "breakfast": "The Midnight Hub - C, Pensacola; Cost: 32",
+                "lunch": "Hunger's Hub, Pensacola; Cost: 76",
+                "dinner": "De Fontein Belgian Beer Cafe, Pensacola; Cost: 89",
+                "attraction": "Splash City Adventures, Pensacola;The Graffiti Bridge, Pensacola;",
+                "accommodation": "1D  Private Rm  in Guesthouse Manhattan, Pensacola; Cost: 378 per night (~1134)"
+            },
+            {
+                "days": 2,
+                "current_city": "Pensacola",
+                "transportation": "Taxi in Pensacola; Cost: 50",
+                "breakfast": "Berry Patch Restaurant, Pensacola; Cost: 13",
+                "lunch": "Jyoti Dhaba, Pensacola; Cost: 11",
+                "dinner": "Fresh Meat CO, Pensacola; Cost: 82",
+                "attraction": "The Graffiti Bridge, Pensacola;The Quina House Museum, Pensacola;",
+                "accommodation": "AMAZING  2BR Apartment Elev/laundry!, Pensacola; Cost: 56 per night (~1680)"
+            },
+            {
+                "days": 3,
+                "current_city": "Pensacola",
+                "transportation": "Flight from Pensacola to Houston",
+                "breakfast": "Code, Pensacola; Cost: 29",
+                "lunch": "Keventer's South Indian & Chinese Food, Pensacola; Cost: 32",
+                "dinner": "Gaga Manjero, Pensacola; Cost: 17",
+                "attraction": "The Quina House Museum, Pensacola;The Twin Bluffs, Pensacola;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Louis to Washington\", \"transportation\": \"Flight Number: F0016702, from St. Louis to Washington, Departure Time: 15:42, Arrival Time: 18:44, Price: 244\", \"breakfast\": \"The Hangar, Washington; Cost: 74\", \"lunch\": \"Moradabadi Biryani, Washington; Cost: 12\", \"dinner\": \"Domino's Pizza, Washington; Cost: 94\", \"attraction\": \"The Seattle Great Wheel, Washington;Washington Park Arboretum, Washington;\", \"accommodation\": \"Comfortable bed, lighting, fresh linens, workspace, Washington; Cost: 518 per night (~1554)\"}, {\"days\": 2, \"current_city\": \"Washington\", \"transportation\": \"Taxi in Washington; Cost: 50\", \"breakfast\": \"Bikaner Sweet House, Washington; Cost: 61\", \"lunch\": \"Thaaliwala, Washington; Cost: 88\", \"dinner\": \"Hemingway's Island Grill, Washington; Cost: 57\", \"attraction\": \"Washington Park Arboretum, Washington;Wings Over Washington, Washington;\", \"accommodation\": \"Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)\"}, {\"days\": 3, \"current_city\": \"Washington\", \"transportation\": \"Flight from Washington to St. Louis\", \"breakfast\": \"Chidya Ghar - Roseate House, Washington; Cost: 70\", \"lunch\": \"Baskin Robbins, Washington; Cost: 87\", \"dinner\": \"Manna Java World Cafe, Washington; Cost: 59\", \"attraction\": \"Wings Over Washington, Washington;Beneath the Streets, Washington;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Louis to Washington",
+                "transportation": "Flight Number: F0016702, from St. Louis to Washington, Departure Time: 15:42, Arrival Time: 18:44, Price: 244",
+                "breakfast": "The Hangar, Washington; Cost: 74",
+                "lunch": "Moradabadi Biryani, Washington; Cost: 12",
+                "dinner": "Domino's Pizza, Washington; Cost: 94",
+                "attraction": "The Seattle Great Wheel, Washington;Washington Park Arboretum, Washington;",
+                "accommodation": "Comfortable bed, lighting, fresh linens, workspace, Washington; Cost: 518 per night (~1554)"
+            },
+            {
+                "days": 2,
+                "current_city": "Washington",
+                "transportation": "Taxi in Washington; Cost: 50",
+                "breakfast": "Bikaner Sweet House, Washington; Cost: 61",
+                "lunch": "Thaaliwala, Washington; Cost: 88",
+                "dinner": "Hemingway's Island Grill, Washington; Cost: 57",
+                "attraction": "Washington Park Arboretum, Washington;Wings Over Washington, Washington;",
+                "accommodation": "Cozy LIC Loft-Style Apt- Minutes to Manhattan, Washington; Cost: 1063 per night (~21260)"
+            },
+            {
+                "days": 3,
+                "current_city": "Washington",
+                "transportation": "Flight from Washington to St. Louis",
+                "breakfast": "Chidya Ghar - Roseate House, Washington; Cost: 70",
+                "lunch": "Baskin Robbins, Washington; Cost: 87",
+                "dinner": "Manna Java World Cafe, Washington; Cost: 59",
+                "attraction": "Wings Over Washington, Washington;Beneath the Streets, Washington;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

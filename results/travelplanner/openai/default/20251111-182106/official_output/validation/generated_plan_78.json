@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Chicago to Albuquerque\", \"transportation\": \"Flight Number: F0484249, from Chicago to Albuquerque, Departure Time: 10:06, Arrival Time: 12:33, Price: 249\", \"breakfast\": \"#InstaFreeze, Albuquerque; Cost: 75\", \"lunch\": \"D'Casa, Albuquerque; Cost: 30\", \"dinner\": \"Bread'D Bites, Albuquerque; Cost: 76\", \"attraction\": \"Turquoise Museum, Albuquerque;Winter Wonderland NM, Albuquerque;\", \"accommodation\": \"Private Bedroom Living Room w/Exposed Brick, Albuquerque; Cost: 713 per night (~2139)\"}, {\"days\": 2, \"current_city\": \"Albuquerque\", \"transportation\": \"Taxi in Albuquerque; Cost: 50\", \"breakfast\": \"Ammi's Kitchen, Albuquerque; Cost: 70\", \"lunch\": \"Genghis Grill, Albuquerque; Cost: 24\", \"dinner\": \"Choco House, Albuquerque; Cost: 12\", \"attraction\": \"Winter Wonderland NM, Albuquerque;#AbqTours - History & GHOST Tours of Old Town, Albuquerque;\", \"accommodation\": \"Sweet Historic Greenpoint Duplex, Albuquerque; Cost: 753 per night (~2259)\"}, {\"days\": 3, \"current_city\": \"Albuquerque\", \"transportation\": \"Flight from Albuquerque to Chicago\", \"breakfast\": \"Bread & More, Albuquerque; Cost: 79\", \"lunch\": \"Hunger Tales, Albuquerque; Cost: 99\", \"dinner\": \"Cigar Lounge - The Oberoi, Albuquerque; Cost: 69\", \"attraction\": \"#AbqTours - History & GHOST Tours of Old Town, Albuquerque;ABQ BioPark - Botanic Garden, Albuquerque;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chicago to Albuquerque",
+                "transportation": "Flight Number: F0484249, from Chicago to Albuquerque, Departure Time: 10:06, Arrival Time: 12:33, Price: 249",
+                "breakfast": "#InstaFreeze, Albuquerque; Cost: 75",
+                "lunch": "D'Casa, Albuquerque; Cost: 30",
+                "dinner": "Bread'D Bites, Albuquerque; Cost: 76",
+                "attraction": "Turquoise Museum, Albuquerque;Winter Wonderland NM, Albuquerque;",
+                "accommodation": "Private Bedroom Living Room w/Exposed Brick, Albuquerque; Cost: 713 per night (~2139)"
+            },
+            {
+                "days": 2,
+                "current_city": "Albuquerque",
+                "transportation": "Taxi in Albuquerque; Cost: 50",
+                "breakfast": "Ammi's Kitchen, Albuquerque; Cost: 70",
+                "lunch": "Genghis Grill, Albuquerque; Cost: 24",
+                "dinner": "Choco House, Albuquerque; Cost: 12",
+                "attraction": "Winter Wonderland NM, Albuquerque;#AbqTours - History & GHOST Tours of Old Town, Albuquerque;",
+                "accommodation": "Sweet Historic Greenpoint Duplex, Albuquerque; Cost: 753 per night (~2259)"
+            },
+            {
+                "days": 3,
+                "current_city": "Albuquerque",
+                "transportation": "Flight from Albuquerque to Chicago",
+                "breakfast": "Bread & More, Albuquerque; Cost: 79",
+                "lunch": "Hunger Tales, Albuquerque; Cost: 99",
+                "dinner": "Cigar Lounge - The Oberoi, Albuquerque; Cost: 69",
+                "attraction": "#AbqTours - History & GHOST Tours of Old Town, Albuquerque;ABQ BioPark - Botanic Garden, Albuquerque;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

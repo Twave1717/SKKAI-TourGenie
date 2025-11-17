@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to New York\", \"transportation\": \"Flight Number: F0081655, from Denver to New York, Departure Time: 06:00, Arrival Time: 11:17, Price: 420\", \"breakfast\": \"Lord of the Drinks Forum, New York; Cost: 71\", \"lunch\": \"G Dot, New York; Cost: 75\", \"dinner\": \"Sugary Affairs, New York; Cost: 55\", \"attraction\": \"Empire State Building, New York;Flatiron Building, New York;\", \"accommodation\": \"Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Seasons 52 Fresh Grill, New York; Cost: 30\", \"lunch\": \"Goosebumps, New York; Cost: 94\", \"dinner\": \"Amchur, New York; Cost: 67\", \"attraction\": \"Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;\", \"accommodation\": \"Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)\"}, {\"days\": 3, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Sugar Rush, New York; Cost: 89\", \"lunch\": \"Gurgaon Hights, New York; Cost: 46\", \"dinner\": \"Domino's Pizza, New York; Cost: 86\", \"attraction\": \"MUSEUM OF ICE CREAM, New York;One World Observatory, New York;\", \"accommodation\": \"Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)\"}, {\"days\": 4, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"736 A.D., New York; Cost: 99\", \"lunch\": \"Lord of the Drinks Forum, New York; Cost: 71\", \"dinner\": \"Golooji's Chat Waat, New York; Cost: 53\", \"attraction\": \"One World Observatory, New York;Pier 46 at Hudson River Park, New York;\", \"accommodation\": \"Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)\"}, {\"days\": 5, \"current_city\": \"New York\", \"transportation\": \"Flight from New York to Denver\", \"breakfast\": \"Baltazar, New York; Cost: 46\", \"lunch\": \"Seasons 52 Fresh Grill, New York; Cost: 30\", \"dinner\": \"Green Restaurant, New York; Cost: 74\", \"attraction\": \"Pier 46 at Hudson River Park, New York;Radio City Music Hall, New York;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to New York",
+                "transportation": "Flight Number: F0081655, from Denver to New York, Departure Time: 06:00, Arrival Time: 11:17, Price: 420",
+                "breakfast": "Lord of the Drinks Forum, New York; Cost: 71",
+                "lunch": "G Dot, New York; Cost: 75",
+                "dinner": "Sugary Affairs, New York; Cost: 55",
+                "attraction": "Empire State Building, New York;Flatiron Building, New York;",
+                "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Seasons 52 Fresh Grill, New York; Cost: 30",
+                "lunch": "Goosebumps, New York; Cost: 94",
+                "dinner": "Amchur, New York; Cost: 67",
+                "attraction": "Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;",
+                "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Sugar Rush, New York; Cost: 89",
+                "lunch": "Gurgaon Hights, New York; Cost: 46",
+                "dinner": "Domino's Pizza, New York; Cost: 86",
+                "attraction": "MUSEUM OF ICE CREAM, New York;One World Observatory, New York;",
+                "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+            },
+            {
+                "days": 4,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "736 A.D., New York; Cost: 99",
+                "lunch": "Lord of the Drinks Forum, New York; Cost: 71",
+                "dinner": "Golooji's Chat Waat, New York; Cost: 53",
+                "attraction": "One World Observatory, New York;Pier 46 at Hudson River Park, New York;",
+                "accommodation": "Large Bed-Stuy Apartment, New York; Cost: 132 per night (~792)"
+            },
+            {
+                "days": 5,
+                "current_city": "New York",
+                "transportation": "Flight from New York to Denver",
+                "breakfast": "Baltazar, New York; Cost: 46",
+                "lunch": "Seasons 52 Fresh Grill, New York; Cost: 30",
+                "dinner": "Green Restaurant, New York; Cost: 74",
+                "attraction": "Pier 46 at Hudson River Park, New York;Radio City Music Hall, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Myrtle Beach to Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"'Dino Bob' Statue, Abilene;'E. Aster Bunnymund' Statue, Abilene;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 2, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"'E. Aster Bunnymund' Statue, Abilene;'Good Night Dinosaur' Statue, Abilene;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 3, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"'Good Night Dinosaur' Statue, Abilene;'Sanderson Mansnoozie' Statue, Abilene;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 4, \"current_city\": \"Tennessee\", \"transportation\": \"Taxi in Tennessee; Cost: 50\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"'Sanderson Mansnoozie' Statue, Abilene;'Sconset Bluff Walk, Nantucket;\", \"accommodation\": \"Accommodation, Tennessee\"}, {\"days\": 5, \"current_city\": \"Tennessee\", \"transportation\": \"Flight from Tennessee to Myrtle Beach\", \"breakfast\": \"Restaurant, Tennessee\", \"lunch\": \"Restaurant, Tennessee\", \"dinner\": \"Restaurant, Tennessee\", \"attraction\": \"'Sconset Bluff Walk, Nantucket;'Stuart Little' Statue, Abilene;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Myrtle Beach to Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "'Dino Bob' Statue, Abilene;'E. Aster Bunnymund' Statue, Abilene;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 2,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "'E. Aster Bunnymund' Statue, Abilene;'Good Night Dinosaur' Statue, Abilene;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 3,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "'Good Night Dinosaur' Statue, Abilene;'Sanderson Mansnoozie' Statue, Abilene;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 4,
+                "current_city": "Tennessee",
+                "transportation": "Taxi in Tennessee; Cost: 50",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "'Sanderson Mansnoozie' Statue, Abilene;'Sconset Bluff Walk, Nantucket;",
+                "accommodation": "Accommodation, Tennessee"
+            },
+            {
+                "days": 5,
+                "current_city": "Tennessee",
+                "transportation": "Flight from Tennessee to Myrtle Beach",
+                "breakfast": "Restaurant, Tennessee",
+                "lunch": "Restaurant, Tennessee",
+                "dinner": "Restaurant, Tennessee",
+                "attraction": "'Sconset Bluff Walk, Nantucket;'Stuart Little' Statue, Abilene;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

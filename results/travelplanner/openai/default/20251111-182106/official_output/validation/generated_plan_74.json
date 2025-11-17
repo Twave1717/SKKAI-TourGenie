@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Charlotte to Hilton Head\", \"transportation\": \"Flight Number: F1017652, from Charlotte to Hilton Head, Departure Time: 13:10, Arrival Time: 14:51, Price: 49\", \"breakfast\": \"Lazeez Rasoi, Hilton Head; Cost: 95\", \"lunch\": \"Tikka Town, Hilton Head; Cost: 72\", \"dinner\": \"Royal Bakery, Hilton Head; Cost: 18\", \"attraction\": \"Pirates of Hilton Head, Hilton Head;Sea Pines Forest Preserve, Hilton Head;\", \"accommodation\": \"Spacious Bright Top Floor Apt w/ Balcony in LIC 1, Hilton Head; Cost: 246 per night (~738)\"}, {\"days\": 2, \"current_city\": \"Hilton Head\", \"transportation\": \"Taxi in Hilton Head; Cost: 50\", \"breakfast\": \"Mr. Brown, Hilton Head; Cost: 23\", \"lunch\": \"Wrapster, Hilton Head; Cost: 18\", \"dinner\": \"Sikkim Fast Food, Hilton Head; Cost: 90\", \"attraction\": \"Sea Pines Forest Preserve, Hilton Head;Shelter Cove Community Park, Hilton Head;\", \"accommodation\": \"Spacious Bright Top Floor Apt w/ Balcony in LIC 1, Hilton Head; Cost: 246 per night (~738)\"}, {\"days\": 3, \"current_city\": \"Hilton Head\", \"transportation\": \"Flight from Hilton Head to Charlotte\", \"breakfast\": \"Pappu Ka Dhaba, Hilton Head; Cost: 67\", \"lunch\": \"Anand Ji Restaurant, Hilton Head; Cost: 20\", \"dinner\": \"The Salad Bowl, Hilton Head; Cost: 70\", \"attraction\": \"Shelter Cove Community Park, Hilton Head;Stoney Baynard Ruins, Hilton Head;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Charlotte to Hilton Head",
+                "transportation": "Flight Number: F1017652, from Charlotte to Hilton Head, Departure Time: 13:10, Arrival Time: 14:51, Price: 49",
+                "breakfast": "Lazeez Rasoi, Hilton Head; Cost: 95",
+                "lunch": "Tikka Town, Hilton Head; Cost: 72",
+                "dinner": "Royal Bakery, Hilton Head; Cost: 18",
+                "attraction": "Pirates of Hilton Head, Hilton Head;Sea Pines Forest Preserve, Hilton Head;",
+                "accommodation": "Spacious Bright Top Floor Apt w/ Balcony in LIC 1, Hilton Head; Cost: 246 per night (~738)"
+            },
+            {
+                "days": 2,
+                "current_city": "Hilton Head",
+                "transportation": "Taxi in Hilton Head; Cost: 50",
+                "breakfast": "Mr. Brown, Hilton Head; Cost: 23",
+                "lunch": "Wrapster, Hilton Head; Cost: 18",
+                "dinner": "Sikkim Fast Food, Hilton Head; Cost: 90",
+                "attraction": "Sea Pines Forest Preserve, Hilton Head;Shelter Cove Community Park, Hilton Head;",
+                "accommodation": "Spacious Bright Top Floor Apt w/ Balcony in LIC 1, Hilton Head; Cost: 246 per night (~738)"
+            },
+            {
+                "days": 3,
+                "current_city": "Hilton Head",
+                "transportation": "Flight from Hilton Head to Charlotte",
+                "breakfast": "Pappu Ka Dhaba, Hilton Head; Cost: 67",
+                "lunch": "Anand Ji Restaurant, Hilton Head; Cost: 20",
+                "dinner": "The Salad Bowl, Hilton Head; Cost: 70",
+                "attraction": "Shelter Cove Community Park, Hilton Head;Stoney Baynard Ruins, Hilton Head;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

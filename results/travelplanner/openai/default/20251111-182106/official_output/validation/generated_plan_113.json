@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Marquette to Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 2, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 3, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 4, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 5, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 6, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 7, \"current_city\": \"Michigan\", \"transportation\": \"Flight from Michigan to Marquette\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Marquette to Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 2,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 3,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "1897 Poe House, Fayetteville;1898 Memorial Park, Wilmington;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 4,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "1898 Memorial Park, Wilmington;1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 5,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "1903 Courthouse Museum (also known as Pulaski County Museum), Fort Leonard Wood;20th Century Veterans Memorial, North Platte;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 6,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "20th Century Veterans Memorial, North Platte;2nd Amendment Cowboy, Amarillo;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 7,
+                "current_city": "Michigan",
+                "transportation": "Flight from Michigan to Marquette",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

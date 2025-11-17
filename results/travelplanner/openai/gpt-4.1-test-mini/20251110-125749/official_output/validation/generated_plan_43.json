@@ -1,0 +1,59 @@
+[
+    {
+        "gpt-4.1_two-stage_results": "[{\"days\": 1, \"current_city\": \"Buffalo\", \"transportation\": \"Flight Number: F0040757, from Denver to New York, Departure Time: 16:38, Arrival Time: 22:05, Price: 776\", \"breakfast\": \"Domino's Pizza, New York; Cost: 86\", \"lunch\": \"G Dot, New York; Cost: 75\", \"dinner\": \"Golooji's Chat Waat, New York; Cost: 53\", \"attraction\": \"Empire State Building, New York;Flatiron Building, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 2, \"current_city\": \"Buffalo\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Golooji's Chat Waat, New York; Cost: 53\", \"lunch\": \"Goosebumps, New York; Cost: 94\", \"dinner\": \"Green Restaurant, New York; Cost: 74\", \"attraction\": \"Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 3, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Green Restaurant, New York; Cost: 74\", \"lunch\": \"Gurgaon Hights, New York; Cost: 46\", \"dinner\": \"Kamal Chat Bhandar, New York; Cost: 36\", \"attraction\": \"MUSEUM OF ICE CREAM, New York;One World Observatory, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 4, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Kamal Chat Bhandar, New York; Cost: 36\", \"lunch\": \"Lord of the Drinks Forum, New York; Cost: 71\", \"dinner\": \"Rambhog, New York; Cost: 95\", \"attraction\": \"One World Observatory, New York;Pier 46 at Hudson River Park, New York;\", \"accommodation\": \"IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)\"}, {\"days\": 5, \"current_city\": \"New York\", \"transportation\": \"Flight from New York to Denver\", \"breakfast\": \"Rambhog, New York; Cost: 95\", \"lunch\": \"Seasons 52 Fresh Grill, New York; Cost: 30\", \"dinner\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"attraction\": \"Pier 46 at Hudson River Park, New York;Radio City Music Hall, New York;\", \"accommodation\": \"-\"}]",
+        "gpt-4.1_two-stage_results_logs": null,
+        "gpt-4.1_two-stage_action_logs": [],
+        "gpt-4.1_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Buffalo",
+                "transportation": "Flight Number: F0040757, from Denver to New York, Departure Time: 16:38, Arrival Time: 22:05, Price: 776",
+                "breakfast": "Domino's Pizza, New York; Cost: 86",
+                "lunch": "G Dot, New York; Cost: 75",
+                "dinner": "Golooji's Chat Waat, New York; Cost: 53",
+                "attraction": "Empire State Building, New York;Flatiron Building, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 2,
+                "current_city": "Buffalo",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Golooji's Chat Waat, New York; Cost: 53",
+                "lunch": "Goosebumps, New York; Cost: 94",
+                "dinner": "Green Restaurant, New York; Cost: 74",
+                "attraction": "Flatiron Building, New York;MUSEUM OF ICE CREAM, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Green Restaurant, New York; Cost: 74",
+                "lunch": "Gurgaon Hights, New York; Cost: 46",
+                "dinner": "Kamal Chat Bhandar, New York; Cost: 36",
+                "attraction": "MUSEUM OF ICE CREAM, New York;One World Observatory, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 4,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Kamal Chat Bhandar, New York; Cost: 36",
+                "lunch": "Lord of the Drinks Forum, New York; Cost: 71",
+                "dinner": "Rambhog, New York; Cost: 95",
+                "attraction": "One World Observatory, New York;Pier 46 at Hudson River Park, New York;",
+                "accommodation": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION, New York; Cost: 297 per night (~8910)"
+            },
+            {
+                "days": 5,
+                "current_city": "New York",
+                "transportation": "Flight from New York to Denver",
+                "breakfast": "Rambhog, New York; Cost: 95",
+                "lunch": "Seasons 52 Fresh Grill, New York; Cost: 30",
+                "dinner": "Sir John Bakery Cafe, New York; Cost: 78",
+                "attraction": "Pier 46 at Hudson River Park, New York;Radio City Music Hall, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

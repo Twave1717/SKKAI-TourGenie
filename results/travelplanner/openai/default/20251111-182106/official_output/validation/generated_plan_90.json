@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Austin to Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 2, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 3, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 4, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"Air Zoo Aerospace & Science Museum, Kalamazoo;AirMaxx Trampoline Park & Warrior Course, St. Cloud;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 5, \"current_city\": \"Michigan\", \"transportation\": \"Flight from Michigan to Austin\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"AirMaxx Trampoline Park & Warrior Course, St. Cloud;Airborne & Special Operations Museum Foundation, Fayetteville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Austin to Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Aiken-Rhett House Museum, Charleston;Air Maui Helicopter Tours, Kahului;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 2,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Air Maui Helicopter Tours, Kahului;Air U Trampoline Park, Longview;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 3,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Air U Trampoline Park, Longview;Air Zoo Aerospace & Science Museum, Kalamazoo;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 4,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "Air Zoo Aerospace & Science Museum, Kalamazoo;AirMaxx Trampoline Park & Warrior Course, St. Cloud;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 5,
+                "current_city": "Michigan",
+                "transportation": "Flight from Michigan to Austin",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "AirMaxx Trampoline Park & Warrior Course, St. Cloud;Airborne & Special Operations Museum Foundation, Fayetteville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

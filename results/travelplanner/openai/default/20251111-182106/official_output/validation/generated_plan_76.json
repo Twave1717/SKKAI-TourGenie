@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Appleton to Charlotte\", \"transportation\": \"Flight Number: F3796723, from Appleton to Charlotte, Departure Time: 07:07, Arrival Time: 10:22, Price: 290\", \"breakfast\": \"Le Club, Charlotte; Cost: 64\", \"lunch\": \"Aditya Da Vaishno Dhaba, Charlotte; Cost: 70\", \"dinner\": \"Pind Balluchi, Charlotte; Cost: 42\", \"attraction\": \"The Mint Museum, Charlotte;The Mural House, Charlotte;\", \"accommodation\": \"Elegant Studio Apt in Prospect Heights, Charlotte; Cost: 640 per night (~1920)\"}, {\"days\": 2, \"current_city\": \"Charlotte\", \"transportation\": \"Taxi in Charlotte; Cost: 50\", \"breakfast\": \"Lotes Bakes, Charlotte; Cost: 29\", \"lunch\": \"Bansi Vihar, Charlotte; Cost: 45\", \"dinner\": \"Shree Hari Vaishnav Dhaba, Charlotte; Cost: 97\", \"attraction\": \"The Mural House, Charlotte;Trail of History, Charlotte;\", \"accommodation\": \"Elegant Studio Apt in Prospect Heights, Charlotte; Cost: 640 per night (~1920)\"}, {\"days\": 3, \"current_city\": \"Charlotte\", \"transportation\": \"Flight from Charlotte to Appleton\", \"breakfast\": \"Olive Tree Cafe, Charlotte; Cost: 23\", \"lunch\": \"Bombay Vada Pav, Charlotte; Cost: 33\", \"dinner\": \"Unplugged Courtyard, Charlotte; Cost: 54\", \"attraction\": \"Trail of History, Charlotte;UNC Charlotte Botanical Gardens, Charlotte;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Appleton to Charlotte",
+                "transportation": "Flight Number: F3796723, from Appleton to Charlotte, Departure Time: 07:07, Arrival Time: 10:22, Price: 290",
+                "breakfast": "Le Club, Charlotte; Cost: 64",
+                "lunch": "Aditya Da Vaishno Dhaba, Charlotte; Cost: 70",
+                "dinner": "Pind Balluchi, Charlotte; Cost: 42",
+                "attraction": "The Mint Museum, Charlotte;The Mural House, Charlotte;",
+                "accommodation": "Elegant Studio Apt in Prospect Heights, Charlotte; Cost: 640 per night (~1920)"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "Taxi in Charlotte; Cost: 50",
+                "breakfast": "Lotes Bakes, Charlotte; Cost: 29",
+                "lunch": "Bansi Vihar, Charlotte; Cost: 45",
+                "dinner": "Shree Hari Vaishnav Dhaba, Charlotte; Cost: 97",
+                "attraction": "The Mural House, Charlotte;Trail of History, Charlotte;",
+                "accommodation": "Elegant Studio Apt in Prospect Heights, Charlotte; Cost: 640 per night (~1920)"
+            },
+            {
+                "days": 3,
+                "current_city": "Charlotte",
+                "transportation": "Flight from Charlotte to Appleton",
+                "breakfast": "Olive Tree Cafe, Charlotte; Cost: 23",
+                "lunch": "Bombay Vada Pav, Charlotte; Cost: 33",
+                "dinner": "Unplugged Courtyard, Charlotte; Cost: 54",
+                "attraction": "Trail of History, Charlotte;UNC Charlotte Botanical Gardens, Charlotte;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

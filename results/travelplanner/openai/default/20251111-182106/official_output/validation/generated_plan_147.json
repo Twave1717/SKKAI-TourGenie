@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Grand Junction to Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 2, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 3, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 4, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 5, \"current_city\": \"Arizona\", \"transportation\": \"Flight from Arizona to Grand Junction\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Grand Junction to Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "Aberdeen beach, Aberdeen;Aberdeen beach, Aberdeen;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 2,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 3,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 4,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 5,
+                "current_city": "Arizona",
+                "transportation": "Flight from Arizona to Grand Junction",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

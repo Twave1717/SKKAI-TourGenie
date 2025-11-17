@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Eugene to Los Angeles\", \"transportation\": \"Flight Number: F0589466, from Eugene to Los Angeles, Departure Time: 19:42, Arrival Time: 21:52, Price: 339\", \"breakfast\": \"Saikutir Food, Los Angeles; Cost: 96\", \"lunch\": \"Domino's Pizza, Los Angeles; Cost: 80\", \"dinner\": \"Village - The House of Food, Los Angeles; Cost: 87\", \"attraction\": \"You Are The Star, Los Angeles;Bronson Caves, Los Angeles;\", \"accommodation\": \"Private Room with Private Bath Upper East Side, Los Angeles; Cost: 359 per night (~1077)\"}, {\"days\": 2, \"current_city\": \"Los Angeles\", \"transportation\": \"Taxi in Los Angeles; Cost: 50\", \"breakfast\": \"Tandoori Junction, Los Angeles; Cost: 75\", \"lunch\": \"Heat - Edsa Shangri-La, Los Angeles; Cost: 148\", \"dinner\": \"Cafe Coffee Day, Los Angeles; Cost: 71\", \"attraction\": \"Bronson Caves, Los Angeles;Crossroads of the World, Los Angeles;\", \"accommodation\": \"Room in Queens, NY, near LGA., Los Angeles; Cost: 982 per night (~2946)\"}, {\"days\": 3, \"current_city\": \"Los Angeles\", \"transportation\": \"Flight from Los Angeles to Eugene\", \"breakfast\": \"The Hangout by 1861, Los Angeles; Cost: 64\", \"lunch\": \"Mulligan Cafe, Los Angeles; Cost: 100\", \"dinner\": \"Choco Kraft, Los Angeles; Cost: 20\", \"attraction\": \"Crossroads of the World, Los Angeles;Griffith Observatory, Los Angeles;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Eugene to Los Angeles",
+                "transportation": "Flight Number: F0589466, from Eugene to Los Angeles, Departure Time: 19:42, Arrival Time: 21:52, Price: 339",
+                "breakfast": "Saikutir Food, Los Angeles; Cost: 96",
+                "lunch": "Domino's Pizza, Los Angeles; Cost: 80",
+                "dinner": "Village - The House of Food, Los Angeles; Cost: 87",
+                "attraction": "You Are The Star, Los Angeles;Bronson Caves, Los Angeles;",
+                "accommodation": "Private Room with Private Bath Upper East Side, Los Angeles; Cost: 359 per night (~1077)"
+            },
+            {
+                "days": 2,
+                "current_city": "Los Angeles",
+                "transportation": "Taxi in Los Angeles; Cost: 50",
+                "breakfast": "Tandoori Junction, Los Angeles; Cost: 75",
+                "lunch": "Heat - Edsa Shangri-La, Los Angeles; Cost: 148",
+                "dinner": "Cafe Coffee Day, Los Angeles; Cost: 71",
+                "attraction": "Bronson Caves, Los Angeles;Crossroads of the World, Los Angeles;",
+                "accommodation": "Room in Queens, NY, near LGA., Los Angeles; Cost: 982 per night (~2946)"
+            },
+            {
+                "days": 3,
+                "current_city": "Los Angeles",
+                "transportation": "Flight from Los Angeles to Eugene",
+                "breakfast": "The Hangout by 1861, Los Angeles; Cost: 64",
+                "lunch": "Mulligan Cafe, Los Angeles; Cost: 100",
+                "dinner": "Choco Kraft, Los Angeles; Cost: 20",
+                "attraction": "Crossroads of the World, Los Angeles;Griffith Observatory, Los Angeles;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

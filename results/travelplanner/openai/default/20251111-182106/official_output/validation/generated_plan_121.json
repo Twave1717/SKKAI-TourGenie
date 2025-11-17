@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Asheville to Minneapolis\", \"transportation\": \"Flight Number: F1346031, from Asheville to Minneapolis, Departure Time: 12:06, Arrival Time: 13:33, Price: 391\", \"breakfast\": \"Puri Bakers, Minneapolis; Cost: 85\", \"lunch\": \"Al Saad Foods, Minneapolis; Cost: 44\", \"dinner\": \"Texas Roadhouse, Minneapolis; Cost: 22\", \"attraction\": \"Foshay Museum and Observation Deck, Minneapolis;Gold Medal Park, Minneapolis;\", \"accommodation\": \"ENTIRE PLACE! near Columbia-sleeps up to 8 guests!, Minneapolis; Cost: 663 per night (~1989)\"}, {\"days\": 2, \"current_city\": \"Minneapolis\", \"transportation\": \"Taxi in Minneapolis; Cost: 50\", \"breakfast\": \"Sahni Veg & Non Veg, Minneapolis; Cost: 97\", \"lunch\": \"Bawa Chicken, Minneapolis; Cost: 47\", \"dinner\": \"Troll Tavern, Minneapolis; Cost: 71\", \"attraction\": \"Gold Medal Park, Minneapolis;Mall of America®, Minneapolis;\", \"accommodation\": \"Elegant Stu Suite in  Midtown East  -21, Minneapolis; Cost: 981 per night (~29430)\"}, {\"days\": 3, \"current_city\": \"Minneapolis\", \"transportation\": \"Flight from Minneapolis to Asheville\", \"breakfast\": \"Surprise - Bakers & Bites, Minneapolis; Cost: 22\", \"lunch\": \"Cheffron Bakery, Minneapolis; Cost: 31\", \"dinner\": \"Agent Jack's Bar, Minneapolis; Cost: 93\", \"attraction\": \"Mall of America®, Minneapolis;Mill City Museum, Minneapolis;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Asheville to Minneapolis",
+                "transportation": "Flight Number: F1346031, from Asheville to Minneapolis, Departure Time: 12:06, Arrival Time: 13:33, Price: 391",
+                "breakfast": "Puri Bakers, Minneapolis; Cost: 85",
+                "lunch": "Al Saad Foods, Minneapolis; Cost: 44",
+                "dinner": "Texas Roadhouse, Minneapolis; Cost: 22",
+                "attraction": "Foshay Museum and Observation Deck, Minneapolis;Gold Medal Park, Minneapolis;",
+                "accommodation": "ENTIRE PLACE! near Columbia-sleeps up to 8 guests!, Minneapolis; Cost: 663 per night (~1989)"
+            },
+            {
+                "days": 2,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi in Minneapolis; Cost: 50",
+                "breakfast": "Sahni Veg & Non Veg, Minneapolis; Cost: 97",
+                "lunch": "Bawa Chicken, Minneapolis; Cost: 47",
+                "dinner": "Troll Tavern, Minneapolis; Cost: 71",
+                "attraction": "Gold Medal Park, Minneapolis;Mall of America®, Minneapolis;",
+                "accommodation": "Elegant Stu Suite in  Midtown East  -21, Minneapolis; Cost: 981 per night (~29430)"
+            },
+            {
+                "days": 3,
+                "current_city": "Minneapolis",
+                "transportation": "Flight from Minneapolis to Asheville",
+                "breakfast": "Surprise - Bakers & Bites, Minneapolis; Cost: 22",
+                "lunch": "Cheffron Bakery, Minneapolis; Cost: 31",
+                "dinner": "Agent Jack's Bar, Minneapolis; Cost: 93",
+                "attraction": "Mall of America®, Minneapolis;Mill City Museum, Minneapolis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

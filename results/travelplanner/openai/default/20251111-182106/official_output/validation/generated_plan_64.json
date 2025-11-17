@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Burbank\", \"transportation\": \"Flight Number: F0481568, from Salt Lake City to Burbank, Departure Time: 11:22, Arrival Time: 12:20, Price: 129\", \"breakfast\": \"Cafe Desire, Burbank; Cost: 52\", \"lunch\": \"KC Bakers, Burbank; Cost: 100\", \"dinner\": \"Deepak Vaishno Dhaba, Burbank; Cost: 32\", \"attraction\": \"Burbank Christmas Tree, Burbank;Gordon R Howard Museum, Burbank;\", \"accommodation\": \"Clean & quiet home on quiet block, Burbank; Cost: 1143 per night (~3429)\"}, {\"days\": 2, \"current_city\": \"Burbank\", \"transportation\": \"Taxi in Burbank; Cost: 50\", \"breakfast\": \"Chicago Pizza, Burbank; Cost: 48\", \"lunch\": \"Mellow Mushroom, Burbank; Cost: 69\", \"dinner\": \"Hard Rock Cafe, Burbank; Cost: 33\", \"attraction\": \"Gordon R Howard Museum, Burbank;Johnny Carson Park, Burbank;\", \"accommodation\": \"Clean & quiet home on quiet block, Burbank; Cost: 1143 per night (~3429)\"}, {\"days\": 3, \"current_city\": \"Burbank\", \"transportation\": \"Flight from Burbank to Salt Lake City\", \"breakfast\": \"Dee The Baker, Burbank; Cost: 18\", \"lunch\": \"Sab Ke Khatir, Burbank; Cost: 76\", \"dinner\": \"KB's Kulfi & Icecream, Burbank; Cost: 10\", \"attraction\": \"Johnny Carson Park, Burbank;K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities, Burbank;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Burbank",
+                "transportation": "Flight Number: F0481568, from Salt Lake City to Burbank, Departure Time: 11:22, Arrival Time: 12:20, Price: 129",
+                "breakfast": "Cafe Desire, Burbank; Cost: 52",
+                "lunch": "KC Bakers, Burbank; Cost: 100",
+                "dinner": "Deepak Vaishno Dhaba, Burbank; Cost: 32",
+                "attraction": "Burbank Christmas Tree, Burbank;Gordon R Howard Museum, Burbank;",
+                "accommodation": "Clean & quiet home on quiet block, Burbank; Cost: 1143 per night (~3429)"
+            },
+            {
+                "days": 2,
+                "current_city": "Burbank",
+                "transportation": "Taxi in Burbank; Cost: 50",
+                "breakfast": "Chicago Pizza, Burbank; Cost: 48",
+                "lunch": "Mellow Mushroom, Burbank; Cost: 69",
+                "dinner": "Hard Rock Cafe, Burbank; Cost: 33",
+                "attraction": "Gordon R Howard Museum, Burbank;Johnny Carson Park, Burbank;",
+                "accommodation": "Clean & quiet home on quiet block, Burbank; Cost: 1143 per night (~3429)"
+            },
+            {
+                "days": 3,
+                "current_city": "Burbank",
+                "transportation": "Flight from Burbank to Salt Lake City",
+                "breakfast": "Dee The Baker, Burbank; Cost: 18",
+                "lunch": "Sab Ke Khatir, Burbank; Cost: 76",
+                "dinner": "KB's Kulfi & Icecream, Burbank; Cost: 10",
+                "attraction": "Johnny Carson Park, Burbank;K1 Speed - Indoor Go Karts, Corporate Event Venue, Team Building Activities, Burbank;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Seattle to Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 2, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 3, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 4, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 5, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 6, \"current_city\": \"Florida\", \"transportation\": \"Taxi in Florida; Cost: 50\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;\", \"accommodation\": \"Accommodation, Florida\"}, {\"days\": 7, \"current_city\": \"Florida\", \"transportation\": \"Flight from Florida to Seattle\", \"breakfast\": \"Restaurant, Florida\", \"lunch\": \"Restaurant, Florida\", \"dinner\": \"Restaurant, Florida\", \"attraction\": \"African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Seattle to Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 2,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Adventureland Resort, Des Moines;Adventureland Theme Park, Dothan;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 3,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Adventureland Theme Park, Dothan;Adventures In Kodiak, Kodiak;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 4,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Adventures In Kodiak, Kodiak;Adventures Out West, Colorado Springs;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 5,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Adventures Out West, Colorado Springs;Aerial Lift Bridge, Duluth;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 6,
+                "current_city": "Florida",
+                "transportation": "Taxi in Florida; Cost: 50",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "Aerial Lift Bridge, Duluth;African / African American Historical Society Museum, Fort Wayne;",
+                "accommodation": "Accommodation, Florida"
+            },
+            {
+                "days": 7,
+                "current_city": "Florida",
+                "transportation": "Flight from Florida to Seattle",
+                "breakfast": "Restaurant, Florida",
+                "lunch": "Restaurant, Florida",
+                "dinner": "Restaurant, Florida",
+                "attraction": "African / African American Historical Society Museum, Fort Wayne;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

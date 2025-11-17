@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Petersburg to Appleton\", \"transportation\": \"Flight Number: F0378658, from St. Petersburg to Appleton, Departure Time: 22:06, Arrival Time: 00:03, Price: 251\", \"breakfast\": \"Green Chick Chop, Appleton; Cost: 60\", \"lunch\": \"Shiv Shakti Restaurant, Appleton; Cost: 34\", \"dinner\": \"New Bakers Shoppee, Appleton; Cost: 15\", \"attraction\": \"Patriot Park, Appleton;Peabody Park, Appleton;\", \"accommodation\": \"Stylish, convenient, renovated- 2 min to subway -, Appleton; Cost: 64 per night (~192)\"}, {\"days\": 2, \"current_city\": \"Appleton\", \"transportation\": \"Taxi in Appleton; Cost: 50\", \"breakfast\": \"I-Kandy - Le Meridien Gurgaon, Appleton; Cost: 62\", \"lunch\": \"Subway, Appleton; Cost: 62\", \"dinner\": \"Punjabi Chaska, Appleton; Cost: 45\", \"attraction\": \"Peabody Park, Appleton;Pierce Park, Appleton;\", \"accommodation\": \"Thoughtful UWS Studio w/ Gym near Central Park by Blueground, Appleton; Cost: 1105 per night (~33150)\"}, {\"days\": 3, \"current_city\": \"Appleton\", \"transportation\": \"Flight from Appleton to St. Petersburg\", \"breakfast\": \"Muradabadi Chicken Corner, Appleton; Cost: 97\", \"lunch\": \"The Millionaire Express, Appleton; Cost: 56\", \"dinner\": \"Shanghai Moon, Appleton; Cost: 28\", \"attraction\": \"Pierce Park, Appleton;Plamann Park, Appleton;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Petersburg to Appleton",
+                "transportation": "Flight Number: F0378658, from St. Petersburg to Appleton, Departure Time: 22:06, Arrival Time: 00:03, Price: 251",
+                "breakfast": "Green Chick Chop, Appleton; Cost: 60",
+                "lunch": "Shiv Shakti Restaurant, Appleton; Cost: 34",
+                "dinner": "New Bakers Shoppee, Appleton; Cost: 15",
+                "attraction": "Patriot Park, Appleton;Peabody Park, Appleton;",
+                "accommodation": "Stylish, convenient, renovated- 2 min to subway -, Appleton; Cost: 64 per night (~192)"
+            },
+            {
+                "days": 2,
+                "current_city": "Appleton",
+                "transportation": "Taxi in Appleton; Cost: 50",
+                "breakfast": "I-Kandy - Le Meridien Gurgaon, Appleton; Cost: 62",
+                "lunch": "Subway, Appleton; Cost: 62",
+                "dinner": "Punjabi Chaska, Appleton; Cost: 45",
+                "attraction": "Peabody Park, Appleton;Pierce Park, Appleton;",
+                "accommodation": "Thoughtful UWS Studio w/ Gym near Central Park by Blueground, Appleton; Cost: 1105 per night (~33150)"
+            },
+            {
+                "days": 3,
+                "current_city": "Appleton",
+                "transportation": "Flight from Appleton to St. Petersburg",
+                "breakfast": "Muradabadi Chicken Corner, Appleton; Cost: 97",
+                "lunch": "The Millionaire Express, Appleton; Cost: 56",
+                "dinner": "Shanghai Moon, Appleton; Cost: 28",
+                "attraction": "Pierce Park, Appleton;Plamann Park, Appleton;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

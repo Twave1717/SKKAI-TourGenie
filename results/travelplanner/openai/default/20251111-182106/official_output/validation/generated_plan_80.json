@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Atlanta to Chicago\", \"transportation\": \"Flight Number: F0074440, from Atlanta to Chicago, Departure Time: 06:19, Arrival Time: 07:04, Price: 247\", \"breakfast\": \"Pizza Hut, Chicago; Cost: 99\", \"lunch\": \"Urban Palate, Chicago; Cost: 21\", \"dinner\": \"Somethings Sweet, Chicago; Cost: 68\", \"attraction\": \"360 CHICAGO, Chicago;Buckingham Fountain, Chicago;\", \"accommodation\": \"Beautiful 1 BR by Prospect Park, Chicago; Cost: 328 per night (~1640)\"}, {\"days\": 2, \"current_city\": \"Chicago\", \"transportation\": \"Taxi in Chicago; Cost: 50\", \"breakfast\": \"Republic of Chicken, Chicago; Cost: 91\", \"lunch\": \"Bro's Kitchenette, Chicago; Cost: 38\", \"dinner\": \"Subway, Chicago; Cost: 10\", \"attraction\": \"Buckingham Fountain, Chicago;Chicago Children's Museum, Chicago;\", \"accommodation\": \"Beautiful 1 BR by Prospect Park, Chicago; Cost: 328 per night (~1640)\"}, {\"days\": 3, \"current_city\": \"Chicago\", \"transportation\": \"Flight from Chicago to Atlanta\", \"breakfast\": \"Shahi Muradabadi, Chicago; Cost: 67\", \"lunch\": \"Gyan Vaishnav, Chicago; Cost: 14\", \"dinner\": \"The Village Caf愆, Chicago; Cost: 57\", \"attraction\": \"Chicago Children's Museum, Chicago;Chicago Cultural Center, Chicago;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Atlanta to Chicago",
+                "transportation": "Flight Number: F0074440, from Atlanta to Chicago, Departure Time: 06:19, Arrival Time: 07:04, Price: 247",
+                "breakfast": "Pizza Hut, Chicago; Cost: 99",
+                "lunch": "Urban Palate, Chicago; Cost: 21",
+                "dinner": "Somethings Sweet, Chicago; Cost: 68",
+                "attraction": "360 CHICAGO, Chicago;Buckingham Fountain, Chicago;",
+                "accommodation": "Beautiful 1 BR by Prospect Park, Chicago; Cost: 328 per night (~1640)"
+            },
+            {
+                "days": 2,
+                "current_city": "Chicago",
+                "transportation": "Taxi in Chicago; Cost: 50",
+                "breakfast": "Republic of Chicken, Chicago; Cost: 91",
+                "lunch": "Bro's Kitchenette, Chicago; Cost: 38",
+                "dinner": "Subway, Chicago; Cost: 10",
+                "attraction": "Buckingham Fountain, Chicago;Chicago Children's Museum, Chicago;",
+                "accommodation": "Beautiful 1 BR by Prospect Park, Chicago; Cost: 328 per night (~1640)"
+            },
+            {
+                "days": 3,
+                "current_city": "Chicago",
+                "transportation": "Flight from Chicago to Atlanta",
+                "breakfast": "Shahi Muradabadi, Chicago; Cost: 67",
+                "lunch": "Gyan Vaishnav, Chicago; Cost: 14",
+                "dinner": "The Village Caf愆, Chicago; Cost: 57",
+                "attraction": "Chicago Children's Museum, Chicago;Chicago Cultural Center, Chicago;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

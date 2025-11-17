@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Indianapolis to North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 2, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Abilene Zoo, Abilene;Abkhazi Garden, Victoria;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 3, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 4, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 5, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 6, \"current_city\": \"North Carolina\", \"transportation\": \"Taxi in North Carolina; Cost: 50\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;\", \"accommodation\": \"Accommodation, North Carolina\"}, {\"days\": 7, \"current_city\": \"North Carolina\", \"transportation\": \"Flight from North Carolina to Indianapolis\", \"breakfast\": \"Restaurant, North Carolina\", \"lunch\": \"Restaurant, North Carolina\", \"dinner\": \"Restaurant, North Carolina\", \"attraction\": \"Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Indianapolis to North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Aberdeen beach, Aberdeen;Abilene Zoo, Abilene;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 2,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Abilene Zoo, Abilene;Abkhazi Garden, Victoria;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 3,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Abkhazi Garden, Victoria;Abraham Lincoln Memorial Monument, Laramie;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 4,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Abraham Lincoln Memorial Monument, Laramie;Abraham Lincoln Park, Burbank;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 5,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Abraham Lincoln Park, Burbank;Abraham Lincoln Statue, Manchester;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 6,
+                "current_city": "North Carolina",
+                "transportation": "Taxi in North Carolina; Cost: 50",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Abraham Lincoln Statue, Manchester;Absecon Lighthouse, Atlantic City;",
+                "accommodation": "Accommodation, North Carolina"
+            },
+            {
+                "days": 7,
+                "current_city": "North Carolina",
+                "transportation": "Flight from North Carolina to Indianapolis",
+                "breakfast": "Restaurant, North Carolina",
+                "lunch": "Restaurant, North Carolina",
+                "dinner": "Restaurant, North Carolina",
+                "attraction": "Absecon Lighthouse, Atlantic City;Ace of Clubs House, Texarkana;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

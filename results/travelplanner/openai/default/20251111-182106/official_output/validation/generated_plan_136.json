@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from West Palm Beach to White Plains\", \"transportation\": \"Flight Number: F0262191, from West Palm Beach to White Plains, Departure Time: 06:05, Arrival Time: 08:49, Price: 458\", \"breakfast\": \"El Cazador, White Plains; Cost: 90\", \"lunch\": \"Saffron Mantra, White Plains; Cost: 43\", \"dinner\": \"Le Marche Sugar & Spice Cafe, White Plains; Cost: 30\", \"attraction\": \"White Plains Park, White Plains;Battle Hill Park, White Plains;\", \"accommodation\": \"PERFECT LONG TERM RENTAL~1 BR- EAST 60TH STREET, White Plains; Cost: 515 per night (~15450)\"}, {\"days\": 2, \"current_city\": \"White Plains\", \"transportation\": \"Taxi in White Plains; Cost: 50\", \"breakfast\": \"Happy Hakka, White Plains; Cost: 37\", \"lunch\": \"Shooters Lounge and Bar, White Plains; Cost: 15\", \"dinner\": \"Mosaic - SK Premium Park, White Plains; Cost: 38\", \"attraction\": \"Battle Hill Park, White Plains;Battle of White Plains Park, White Plains;\", \"accommodation\": \"PERFECT LONG TERM RENTAL~1 BR- EAST 60TH STREET, White Plains; Cost: 515 per night (~15450)\"}, {\"days\": 3, \"current_city\": \"White Plains\", \"transportation\": \"Flight from White Plains to West Palm Beach\", \"breakfast\": \"Kinoshita, White Plains; Cost: 42\", \"lunch\": \"The California Boulevard, White Plains; Cost: 56\", \"dinner\": \"Sadhana Restaurant, White Plains; Cost: 84\", \"attraction\": \"Battle of White Plains Park, White Plains;Delfino Park, White Plains;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from West Palm Beach to White Plains",
+                "transportation": "Flight Number: F0262191, from West Palm Beach to White Plains, Departure Time: 06:05, Arrival Time: 08:49, Price: 458",
+                "breakfast": "El Cazador, White Plains; Cost: 90",
+                "lunch": "Saffron Mantra, White Plains; Cost: 43",
+                "dinner": "Le Marche Sugar & Spice Cafe, White Plains; Cost: 30",
+                "attraction": "White Plains Park, White Plains;Battle Hill Park, White Plains;",
+                "accommodation": "PERFECT LONG TERM RENTAL~1 BR- EAST 60TH STREET, White Plains; Cost: 515 per night (~15450)"
+            },
+            {
+                "days": 2,
+                "current_city": "White Plains",
+                "transportation": "Taxi in White Plains; Cost: 50",
+                "breakfast": "Happy Hakka, White Plains; Cost: 37",
+                "lunch": "Shooters Lounge and Bar, White Plains; Cost: 15",
+                "dinner": "Mosaic - SK Premium Park, White Plains; Cost: 38",
+                "attraction": "Battle Hill Park, White Plains;Battle of White Plains Park, White Plains;",
+                "accommodation": "PERFECT LONG TERM RENTAL~1 BR- EAST 60TH STREET, White Plains; Cost: 515 per night (~15450)"
+            },
+            {
+                "days": 3,
+                "current_city": "White Plains",
+                "transportation": "Flight from White Plains to West Palm Beach",
+                "breakfast": "Kinoshita, White Plains; Cost: 42",
+                "lunch": "The California Boulevard, White Plains; Cost: 56",
+                "dinner": "Sadhana Restaurant, White Plains; Cost: 84",
+                "attraction": "Battle of White Plains Park, White Plains;Delfino Park, White Plains;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

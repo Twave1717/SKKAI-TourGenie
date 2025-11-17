@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Montana\", \"transportation\": \"Taxi in Montana; Cost: 50\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;\", \"accommodation\": \"Accommodation, Montana\"}, {\"days\": 2, \"current_city\": \"Montana\", \"transportation\": \"Taxi in Montana; Cost: 50\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;\", \"accommodation\": \"Accommodation, Montana\"}, {\"days\": 3, \"current_city\": \"Montana\", \"transportation\": \"Taxi in Montana; Cost: 50\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;\", \"accommodation\": \"Accommodation, Montana\"}, {\"days\": 4, \"current_city\": \"Montana\", \"transportation\": \"Taxi in Montana; Cost: 50\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;\", \"accommodation\": \"Accommodation, Montana\"}, {\"days\": 5, \"current_city\": \"Montana\", \"transportation\": \"Taxi in Montana; Cost: 50\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"Ager House, Eau Claire;Agingan Point, Saipan;\", \"accommodation\": \"Accommodation, Montana\"}, {\"days\": 6, \"current_city\": \"Montana\", \"transportation\": \"Taxi in Montana; Cost: 50\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"Agingan Point, Saipan;Agua Caliente Cultural Museum, Palm Springs;\", \"accommodation\": \"Accommodation, Montana\"}, {\"days\": 7, \"current_city\": \"Montana\", \"transportation\": \"Flight from Montana to Salt Lake City\", \"breakfast\": \"Restaurant, Montana\", \"lunch\": \"Restaurant, Montana\", \"dinner\": \"Restaurant, Montana\", \"attraction\": \"Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Montana",
+                "transportation": "Taxi in Montana; Cost: 50",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "African American Museum in Philadelphia, Philadelphia;African American Museum of Dallas, Dallas;",
+                "accommodation": "Accommodation, Montana"
+            },
+            {
+                "days": 2,
+                "current_city": "Montana",
+                "transportation": "Taxi in Montana; Cost: 50",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "African American Museum of Dallas, Dallas;African World Museum and Resource Center, Lansing;",
+                "accommodation": "Accommodation, Montana"
+            },
+            {
+                "days": 3,
+                "current_city": "Montana",
+                "transportation": "Taxi in Montana; Cost: 50",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "African World Museum and Resource Center, Lansing;Agecroft Hall & Gardens, Richmond;",
+                "accommodation": "Accommodation, Montana"
+            },
+            {
+                "days": 4,
+                "current_city": "Montana",
+                "transportation": "Taxi in Montana; Cost: 50",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "Agecroft Hall & Gardens, Richmond;Ager House, Eau Claire;",
+                "accommodation": "Accommodation, Montana"
+            },
+            {
+                "days": 5,
+                "current_city": "Montana",
+                "transportation": "Taxi in Montana; Cost: 50",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "Ager House, Eau Claire;Agingan Point, Saipan;",
+                "accommodation": "Accommodation, Montana"
+            },
+            {
+                "days": 6,
+                "current_city": "Montana",
+                "transportation": "Taxi in Montana; Cost: 50",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "Agingan Point, Saipan;Agua Caliente Cultural Museum, Palm Springs;",
+                "accommodation": "Accommodation, Montana"
+            },
+            {
+                "days": 7,
+                "current_city": "Montana",
+                "transportation": "Flight from Montana to Salt Lake City",
+                "breakfast": "Restaurant, Montana",
+                "lunch": "Restaurant, Montana",
+                "dinner": "Restaurant, Montana",
+                "attraction": "Agua Caliente Cultural Museum, Palm Springs;Agua Caliente Tahquitz Visitor Center, Palm Springs;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

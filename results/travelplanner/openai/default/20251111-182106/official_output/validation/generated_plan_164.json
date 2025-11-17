@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from La Crosse to Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure City, Santa Ana;Adventure Hilton Head, Hilton Head;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 2, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure Hilton Head, Hilton Head;Adventure Island, Tampa;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 3, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 4, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 5, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 6, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 7, \"current_city\": \"Illinois\", \"transportation\": \"Flight from Illinois to La Crosse\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from La Crosse to Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure City, Santa Ana;Adventure Hilton Head, Hilton Head;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 2,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure Hilton Head, Hilton Head;Adventure Island, Tampa;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 3,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure Island, Tampa;Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 4,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure Rooms Canada | Escape Rooms Kitchener, Waterloo;Adventure Safaris Dinosaur Warehouse, Santa Maria;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 5,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure Safaris Dinosaur Warehouse, Santa Maria;Adventure Science Center, Nashville;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 6,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure Science Center, Nashville;Adventure! Children's Museum, Eugene;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 7,
+                "current_city": "Illinois",
+                "transportation": "Flight from Illinois to La Crosse",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "Adventure! Children's Museum, Eugene;Adventureland Resort, Des Moines;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Colorado Springs to Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 2, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"360 CHICAGO, Chicago;406 Adventures, Kalispell;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 3, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 4, \"current_city\": \"Illinois\", \"transportation\": \"Taxi in Illinois; Cost: 50\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;\", \"accommodation\": \"Accommodation, Illinois\"}, {\"days\": 5, \"current_city\": \"Illinois\", \"transportation\": \"Flight from Illinois to Colorado Springs\", \"breakfast\": \"Restaurant, Illinois\", \"lunch\": \"Restaurant, Illinois\", \"dinner\": \"Restaurant, Illinois\", \"attraction\": \"77 Steps, Fort Wayne;9/11 Memorial, Erie;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Colorado Springs to Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "2nd Amendment Cowboy, Amarillo;360 CHICAGO, Chicago;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 2,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "360 CHICAGO, Chicago;406 Adventures, Kalispell;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 3,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "406 Adventures, Kalispell;5 Wits Syracuse, Syracuse;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 4,
+                "current_city": "Illinois",
+                "transportation": "Taxi in Illinois; Cost: 50",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+                "accommodation": "Accommodation, Illinois"
+            },
+            {
+                "days": 5,
+                "current_city": "Illinois",
+                "transportation": "Flight from Illinois to Colorado Springs",
+                "breakfast": "Restaurant, Illinois",
+                "lunch": "Restaurant, Illinois",
+                "dinner": "Restaurant, Illinois",
+                "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

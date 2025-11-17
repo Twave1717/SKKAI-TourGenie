@@ -1,0 +1,39 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Ontario to Honolulu\", \"transportation\": \"Flight Number: F0380970, from Ontario to Honolulu, Departure Time: 09:27, Arrival Time: 12:29, Price: 1067\", \"breakfast\": \"Cafe Beverly, Honolulu; Cost: 43\", \"lunch\": \"Momo Milk, Honolulu; Cost: 57\", \"dinner\": \"Dunkin' Donuts, Honolulu; Cost: 97\", \"attraction\": \"Duke Paoa Kahanamoku Statue, Honolulu;Fort DeRussy Beach Park, Honolulu;\", \"accommodation\": \"Central Williamsburg Fab Large Room, Honolulu; Cost: 764 per night (~2292)\"}, {\"days\": 2, \"current_city\": \"Honolulu\", \"transportation\": \"Taxi in Honolulu; Cost: 50\", \"breakfast\": \"Chinese Hut Fast Food, Honolulu; Cost: 55\", \"lunch\": \"Pind Balluchi, Honolulu; Cost: 92\", \"dinner\": \"FNV, Honolulu; Cost: 90\", \"attraction\": \"Fort DeRussy Beach Park, Honolulu;Foster Botanical Garden, Honolulu;\", \"accommodation\": \"Cozy and home feeling, 1-bedroom apt near subway, Honolulu; Cost: 969 per night (~2907)\"}, {\"days\": 3, \"current_city\": \"Honolulu\", \"transportation\": \"Flight from Honolulu to Ontario\", \"breakfast\": \"Dishoom, Honolulu; Cost: 63\", \"lunch\": \"Stop My Starvation, Honolulu; Cost: 64\", \"dinner\": \"Mama's Chinese Kitchen, Honolulu; Cost: 13\", \"attraction\": \"Foster Botanical Garden, Honolulu;Honolulu Museum of Art (HoMA), Honolulu;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Ontario to Honolulu",
+                "transportation": "Flight Number: F0380970, from Ontario to Honolulu, Departure Time: 09:27, Arrival Time: 12:29, Price: 1067",
+                "breakfast": "Cafe Beverly, Honolulu; Cost: 43",
+                "lunch": "Momo Milk, Honolulu; Cost: 57",
+                "dinner": "Dunkin' Donuts, Honolulu; Cost: 97",
+                "attraction": "Duke Paoa Kahanamoku Statue, Honolulu;Fort DeRussy Beach Park, Honolulu;",
+                "accommodation": "Central Williamsburg Fab Large Room, Honolulu; Cost: 764 per night (~2292)"
+            },
+            {
+                "days": 2,
+                "current_city": "Honolulu",
+                "transportation": "Taxi in Honolulu; Cost: 50",
+                "breakfast": "Chinese Hut Fast Food, Honolulu; Cost: 55",
+                "lunch": "Pind Balluchi, Honolulu; Cost: 92",
+                "dinner": "FNV, Honolulu; Cost: 90",
+                "attraction": "Fort DeRussy Beach Park, Honolulu;Foster Botanical Garden, Honolulu;",
+                "accommodation": "Cozy and home feeling, 1-bedroom apt near subway, Honolulu; Cost: 969 per night (~2907)"
+            },
+            {
+                "days": 3,
+                "current_city": "Honolulu",
+                "transportation": "Flight from Honolulu to Ontario",
+                "breakfast": "Dishoom, Honolulu; Cost: 63",
+                "lunch": "Stop My Starvation, Honolulu; Cost: 64",
+                "dinner": "Mama's Chinese Kitchen, Honolulu; Cost: 13",
+                "attraction": "Foster Botanical Garden, Honolulu;Honolulu Museum of Art (HoMA), Honolulu;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

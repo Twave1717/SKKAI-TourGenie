@@ -1,0 +1,79 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Billings to Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 2, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"'Yertle the Turtle' Statue, Abilene;-, Juneau;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 3, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"-, Juneau;1000 Steps Beach, Santa Barbara;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 4, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 5, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"11th &11th Park, Minot;12th Armored Division Memorial, Abilene;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 6, \"current_city\": \"Arizona\", \"transportation\": \"Taxi in Arizona; Cost: 50\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;\", \"accommodation\": \"Accommodation, Arizona\"}, {\"days\": 7, \"current_city\": \"Arizona\", \"transportation\": \"Flight from Arizona to Billings\", \"breakfast\": \"Restaurant, Arizona\", \"lunch\": \"Restaurant, Arizona\", \"dinner\": \"Restaurant, Arizona\", \"attraction\": \"1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Billings to Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "'Toothiana' Statue, Abilene;'Yertle the Turtle' Statue, Abilene;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 2,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "'Yertle the Turtle' Statue, Abilene;-, Juneau;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 3,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "-, Juneau;1000 Steps Beach, Santa Barbara;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 4,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "1000 Steps Beach, Santa Barbara;11th &11th Park, Minot;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 5,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "11th &11th Park, Minot;12th Armored Division Memorial, Abilene;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 6,
+                "current_city": "Arizona",
+                "transportation": "Taxi in Arizona; Cost: 50",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "12th Armored Division Memorial, Abilene;1719 William Trent House Museum, Trenton;",
+                "accommodation": "Accommodation, Arizona"
+            },
+            {
+                "days": 7,
+                "current_city": "Arizona",
+                "transportation": "Flight from Arizona to Billings",
+                "breakfast": "Restaurant, Arizona",
+                "lunch": "Restaurant, Arizona",
+                "dinner": "Restaurant, Arizona",
+                "attraction": "1719 William Trent House Museum, Trenton;1897 Poe House, Fayetteville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

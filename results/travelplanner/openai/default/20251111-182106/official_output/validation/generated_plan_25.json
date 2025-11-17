@@ -1,0 +1,59 @@
+[
+    {
+        "baseline_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Jacksonville to Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 2, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"77 Steps, Fort Wayne;9/11 Memorial, Erie;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 3, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"9/11 Memorial, Erie;9/11 Memorial & Museum, New York;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 4, \"current_city\": \"Michigan\", \"transportation\": \"Taxi in Michigan; Cost: 50\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;\", \"accommodation\": \"Accommodation, Michigan\"}, {\"days\": 5, \"current_city\": \"Michigan\", \"transportation\": \"Flight from Michigan to Jacksonville\", \"breakfast\": \"Restaurant, Michigan\", \"lunch\": \"Restaurant, Michigan\", \"dinner\": \"Restaurant, Michigan\", \"attraction\": \"99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;\", \"accommodation\": \"-\"}]",
+        "baseline_two-stage_results_logs": null,
+        "baseline_two-stage_action_logs": [],
+        "baseline_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Jacksonville to Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "5 Wits Syracuse, Syracuse;77 Steps, Fort Wayne;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 2,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "77 Steps, Fort Wayne;9/11 Memorial, Erie;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 3,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "9/11 Memorial, Erie;9/11 Memorial & Museum, New York;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 4,
+                "current_city": "Michigan",
+                "transportation": "Taxi in Michigan; Cost: 50",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "9/11 Memorial & Museum, New York;99 Steps, Charlotte Amalie;",
+                "accommodation": "Accommodation, Michigan"
+            },
+            {
+                "days": 5,
+                "current_city": "Michigan",
+                "transportation": "Flight from Michigan to Jacksonville",
+                "breakfast": "Restaurant, Michigan",
+                "lunch": "Restaurant, Michigan",
+                "dinner": "Restaurant, Michigan",
+                "attraction": "99 Steps, Charlotte Amalie;A C Steere Park, Shreveport;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
