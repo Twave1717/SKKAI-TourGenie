@@ -6,6 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../..")))
 
 # Now you can safely import the necessary modules
 import re
+import warnings
 import json
 import time
 import argparse
@@ -15,9 +16,12 @@ from tqdm import tqdm
 from langchain_community.callbacks.manager import get_openai_callback
 from tools.planner.apis import Planner
 import openai
+from langchain_core._api.deprecation import LangChainDeprecationWarning
 
 # Change the working directory if needed
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+warnings.filterwarnings("ignore", category=LangChainDeprecationWarning)
 
 from agents.prompts import planner_agent_prompt_direct_og, planner_agent_prompt_direct_param
 
@@ -72,8 +76,21 @@ if __name__ == "__main__":
     )
 
     # Iterate over data and generate results
+    disable_tqdm = os.environ.get("TRIPCRAFT_DISABLE_TQDM", "").lower() in {"1", "true", "yes"}
+    tqdm_position = int(os.environ.get("TRIPCRAFT_TQDM_POSITION", "0"))
+
+    progress_desc = f"Processing {args.day} data"
+
     with get_openai_callback() as cb:
-        for number, query_data in enumerate(tqdm(query_data_list, desc="Processing data")):
+        for number, query_data in enumerate(
+            tqdm(
+                query_data_list,
+                desc=progress_desc,
+                disable=disable_tqdm,
+                position=tqdm_position,
+                leave=False,
+            )
+        ):
             if args.day == '3day':
                 reference_information = query_data['reference_information']
             elif args.day == '5day':
@@ -90,8 +107,6 @@ if __name__ == "__main__":
                 time.sleep(8)
                 if planner_results is not None:
                     break
-            print(planner_results)
-
             # Ensure the directory exists
             output_dir = os.path.join(args.output_dir, args.set_type)
             os.makedirs(output_dir, exist_ok=True)

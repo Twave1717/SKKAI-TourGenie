@@ -14,7 +14,15 @@ export SET_TYPE="${SET_TYPE:-3day_gpt4o_orig}"
 export STRATEGY="${STRATEGY:-direct_og}"                            # direct_og / direct_param
 export CSV_FILE="${CSV_FILE:-$REPO_DIR/tripcraft/tripcraft_3day.csv}"
 
+# Normalize OUTPUT_DIR and CSV_FILE to absolute paths (relative paths resolved from repo root)
+OUTPUT_DIR="$(python3 -c 'import os,sys; print(os.path.abspath(sys.argv[1]))' "$OUTPUT_DIR")"
+CSV_FILE="$(python3 -c 'import os,sys; print(os.path.abspath(sys.argv[1]))' "$CSV_FILE")"
+
 mkdir -p "$OUTPUT_DIR"
+
+echo "[TripCraft run.sh] MODEL_NAME=${MODEL_NAME}, STRATEGY=${STRATEGY}, DAY=${DAY}, SET_TYPE=${SET_TYPE}"
+echo "[TripCraft run.sh] CSV_FILE=${CSV_FILE}"
+echo "[TripCraft run.sh] OUTPUT_DIR=${OUTPUT_DIR}"
 
 cd "$REPO_DIR/tools/planner"
 
