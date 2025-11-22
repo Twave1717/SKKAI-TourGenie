@@ -1,0 +1,12 @@
+{
+  "tripcraft_3day_mini.csv:0": {
+    "file": "tripcraft_3day_mini.csv",
+    "row_index": 0,
+    "org": "Savannah",
+    "dest": "Baltimore",
+    "incomplete": true,
+    "description": "점심/저녁 후 이동 시간이 촘촘하고 교통수단 안내가 없음. 마지막 날 숙소/짐 보관 안내도 필요해 보입니다.",
+    "updated_at": "2025-01-10T12:00:00Z",
+    "llm_review": "- 항공편 외 도시 내 이동 수단 미기재\n- 식사/관광 시간이 촘촘해 이동 여유 부족 가능\n- 체크아웃 이후 짐 보관/휴식 장소 누락"
+  }
+}
