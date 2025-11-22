@@ -1,0 +1,13 @@
+name: tripcraft-viewer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit==1.40.0
+      - requests>=2.32.3
+      - python-dotenv>=1.2.1
+      - pandas>=2.3.3
+      - openai>=1.0.0
+      - tqdm>=4.67.1

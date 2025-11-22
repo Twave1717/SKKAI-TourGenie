@@ -27,6 +27,7 @@ benchmarks/travelplanner/official/database/
 external/
 benchmarks/TripCraft/TripCraft_database
 benchmarks/TripCraft/tripcraft
+KY/viewer/cache
 
 # Editors
 .vscode/
