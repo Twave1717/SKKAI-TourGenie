@@ -12,8 +12,10 @@ pyenv local 3.11
 poetry shell # 또는 poetry env activate
 poetry install
 
-# 2) 환경 변수 템플릿 복사 후 API 키 입력
+# 2) 환경 변수 템플릿 복사 후 API 키/경로 입력
 cp .env.example .env
+# 필요 시 모든 쉘에서 공유되도록 source
+set -a && source .env && set +a
 
 # 3) TravelPlanner DB(항공/숙소/식당 등) 수동 다운로드
 # Google Drive: https://drive.google.com/file/d/1pF1Sw6pBmq2sFkJvm-LzJOqrmfWoQgxE/view (database.zip)
@@ -249,6 +251,72 @@ poetry run python benchmarks/travelplanner/eval_runner.py \
 ## 리더보드 자동 갱신
 
 `eval_runner.py` 실행이 끝나면 최신 공식 메트릭이 `leaderboards/TravelPlanner/main.md`에 자동 반영됩니다. `--test-mini` 결과는 `leaderboards/TravelPlanner/mini.md`에 모델명 그대로 기록되며, `Results` 링크 끝의 `(test-mini)` 표기로 정식 기록과 구분됩니다. 두 파일의 내용은 항상 `leaderboards/TravelPlanner/README.md`에 통합되어 노출됩니다.
+
+## TripCraft Benchmark
+
+TripCraft는 TripPlanner보다 시간·공간 제약이 더 강한 3/5/7일 일정 벤치마크입니다. 원본 저장소 전체를 `benchmarks/TripCraft`에 포함했으며, 아래 스텝만 추가로 수행하면 동일한 워크플로 안에서 실행할 수 있습니다. TripCraft를 실행하기 전에 `set -a && source .env && set +a` 명령으로 공용 환경 변수를 불러오면 `OPENAI_API_KEY`, `TRIPCRAFT_DB_ROOT`, `TRIPCRAFT_OUTPUT_DIR` 값을 따로 export 하지 않아도 됩니다.
+
+### 1. 데이터베이스 준비
+
+TripCraft는 30GB가 넘는 오프라인 DB(항공편/숙소/식당/관광지/이벤트)를 요구합니다. 공식 릴리스에서 `TripCraft_database.zip` 을 내려받은 뒤 다음 스크립트로 압축을 풀어 두세요.
+
+```bash
+# TripCraft_database.zip 이 프로젝트 루트 또는 benchmarks/TripCraft 밑에 있으면 자동 탐색됩니다.
+poetry run python scripts/fetch_tripcraft.py \
+  --archive /path/to/TripCraft_database.zip \
+  --dest benchmarks/TripCraft/TripCraft_database
+```
+
+압축 해제 위치를 바꾸고 싶다면 `--dest` 경로를 조정하거나, 실행 시 `TRIPCRAFT_DB_ROOT` 환경변수를 덮어쓰면 됩니다.
+
+### 2. TripCraft 플래너 실행
+
+`benchmarks/tripcraft/eval_runner.py` 는 TravelPlanner 러너와 비슷한 CLI를 제공하며, 내부적으로 `benchmarks/TripCraft/run.sh` 를 호출합니다. 최소 실행 예시는 다음과 같습니다.
+
+```bash
+export OPENAI_API_KEY=sk-...
+poetry run python benchmarks/tripcraft/eval_runner.py run \
+  --model-name gpt-4.1-mini \
+  --day 3day \
+  --set-type 3day_gpt4o_orig \
+  --strategy direct_og \
+  --csv-file benchmarks/TripCraft/tripcraft/tripcraft_3day.csv \
+  --output-dir benchmarks/TripCraft/output
+```
+
+- `--day` 는 3day/5day/7day 중 하나를 선택합니다. 별도 지정이 없으면 `tripcraft/tripcraft_{day}.csv` 를 자동으로 사용합니다.
+- `--set-type` 은 TripCraft 원본 스크립트에서 폴더명을 구분하는 용도로 사용됩니다. (예: `3day_gpt4o_orig`)
+- `--strategy` 는 `agents/prompts.py` 에 정의된 프롬프트를 선택합니다. (`direct_og`, `direct_param` 등)
+- TripCraft 실행 시 `OPENAI_API_KEY` 가 반드시 설정되어 있어야 하며, 추가 도구는 필요 없습니다.
+
+### 3. Postprocess & 평가
+
+TripCraft는 자연어 플랜을 JSON으로 변환한 뒤 평가합니다. 전 과정은 TripCraft 전용 conda 환경에서 해결할 수 있도록 `scripts/tripcraft_postprocess.py` 와 `scripts/tripcraft_eval.py` 를 제공합니다.
+
+```bash
+# TripCraft conda env (e.g., `conda activate tripcraft`)에서 실행
+python scripts/tripcraft_postprocess.py \
+  --input-root results/tripcraft/gpt41mini_test_mini \
+  --output-jsonl results/tripcraft/gpt41mini_test_mini.jsonl \
+  --csv-3day benchmarks/TripCraft/tripcraft/tripcraft_3day.csv \
+  --csv-5day benchmarks/TripCraft/tripcraft/tripcraft_5day.csv \
+  --csv-7day benchmarks/TripCraft/tripcraft/tripcraft_7day.csv \
+  --openai-model gpt-4.1-mini
+```
+
+위 스크립트가 TripCraft 자연어 출력을 `postprocess/sample_evaluation_format.jsonl` 스키마로 변환합니다. 이어서 TripCraft 전용 평가/리더보드 스크립트를 실행하세요.
+
+```bash
+python scripts/tripcraft_eval.py \
+  --submission results/tripcraft/gpt41mini_test_mini.jsonl \
+  --provider openai \
+  --model gpt-4.1-mini \
+  --workflow test-mini \
+  --result-label gpt41mini_test_mini
+```
+
+- `tripcraft_eval.py` 는 TripCraft evaluator를 호출해 Delivery Rate/Commonsense/Hard/Final Pass Rate 등을 계산하고, 결과를 `results/tripcraft/<result-label>/metrics.json` 에 저장한 뒤 `leaderboards/TripCraft/main.md` 를 업데이트합니다.
+- TravelPlanner용 Poetry 환경이 필요하지 않으며 TripCraft conda 환경 하나만으로 “생성 → 후처리 → 평가 → 리더보드” 전체 파이프라인을 반복 실행할 수 있습니다.
 
 ## 다음 단계
 

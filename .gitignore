@@ -25,7 +25,8 @@ __pycache__/
 data/
 benchmarks/travelplanner/official/database/
 external/
-github_download/
+benchmarks/TripCraft/TripCraft_database
+benchmarks/TripCraft/tripcraft
 
 # Editors
 .vscode/
