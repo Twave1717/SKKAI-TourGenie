@@ -6,7 +6,24 @@ from typing import Any, Dict, List, Optional
 import pandas as pd
 
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
+# Resolve project root dynamically relative to execution/cwd or file location.
+def find_project_root() -> Path:
+    """
+    Find project root dynamically:
+    - prefer a directory that contains KY/viewer
+    - else a directory that contains pyproject.toml
+    - else fallback two-levels up from this file
+    """
+    candidates = [Path.cwd()] + list(Path(__file__).resolve().parents)
+    for base in candidates:
+        if (base / "KY" / "viewer").exists():
+            return base
+        if (base / "pyproject.toml").exists():
+            return base
+    return Path(__file__).resolve().parents[2]
+
+
+ROOT_DIR = find_project_root()
 DATA_DIR = ROOT_DIR / "benchmarks" / "TripCraft" / "tripcraft"
 
 
@@ -94,6 +111,7 @@ def itinerary_table(plan: Any) -> Optional[pd.DataFrame]:
 __all__ = [
     "DATA_DIR",
     "ROOT_DIR",
+    "find_project_root",
     "build_plan_text",
     "itinerary_table",
     "list_csv_files",
