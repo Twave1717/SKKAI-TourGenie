@@ -10,12 +10,12 @@ import streamlit as st
 from dotenv import load_dotenv
 
 # Allow imports when running via `streamlit run KY/viewer/app.py`
-APP_DIR = Path(__file__).resolve().parent
+APP_DIR = Path(__file__).parent
 if str(APP_DIR) not in sys.path:
     sys.path.append(str(APP_DIR))
 
 # Cache paths for formatted Markdown
-CACHE_DIR = APP_DIR / "cache"
+CACHE_DIR = Path("KY/viewer/cache")
 FORMATTED_CACHE_PATH = CACHE_DIR / "formatted_plans.json"
 FORMATTED_TRANS_PATH = CACHE_DIR / "formatted_plans_translated.json"
 FORMATTED_META_PATH = CACHE_DIR / "formatted_meta.json"
@@ -26,6 +26,7 @@ try:
     from data_loader import (
         DATA_DIR,
         build_plan_text,
+        find_project_root,
         itinerary_table,
         list_csv_files,
         load_rows,
@@ -39,6 +40,7 @@ except Exception:  # pragma: no cover - fallback for package imports
     from .data_loader import (
         DATA_DIR,
         build_plan_text,
+        find_project_root,
         itinerary_table,
         list_csv_files,
         load_rows,
@@ -50,14 +52,19 @@ except Exception:  # pragma: no cover - fallback for package imports
     )
 
 
+PROJECT_ROOT = find_project_root()
+APP_DIR = PROJECT_ROOT / "KY" / "viewer"
+CACHE_DIR = APP_DIR / "cache"
+FORMATTED_CACHE_PATH = CACHE_DIR / "formatted_plans.json"
+FORMATTED_TRANS_PATH = CACHE_DIR / "formatted_plans_translated.json"
+FORMATTED_META_PATH = CACHE_DIR / "formatted_meta.json"
 LABEL_DIR = APP_DIR / "labels"
 
 LABEL_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # Env
-ROOT_DIR = Path(__file__).resolve().parents[2]
-load_dotenv(ROOT_DIR / ".env", override=False)
+load_dotenv(PROJECT_ROOT / ".env", override=False)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
@@ -195,10 +202,10 @@ def main() -> None:
     formatted_ko_cache = cached_json(FORMATTED_TRANS_PATH, file_mtime(FORMATTED_TRANS_PATH))
     cache_key = label_key(selected_name, row_index)
     # 영문: 원본 포맷 캐시
-    formatted_en_text = formatted_en_cache.get(cache_key, plan_text)
+    formatted_en_text = formatted_en_cache.get(cache_key, "")
     # 한글: 번역 포맷 캐시 (translated_ 접두어 키 우선)
     cache_key_ko = f"translated_{cache_key}"
-    formatted_ko_text = formatted_ko_cache.get(cache_key_ko) or formatted_ko_cache.get(cache_key, plan_text)
+    formatted_ko_text = formatted_ko_cache.get(cache_key_ko) or formatted_ko_cache.get(cache_key, "")
     meta_text = formatted_meta_cache.get(cache_key, "")
 
     labels_path = LABEL_DIR / f"{selected_name}_labels.json"
