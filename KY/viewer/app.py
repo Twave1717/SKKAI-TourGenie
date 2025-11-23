@@ -19,6 +19,8 @@ CACHE_DIR = APP_DIR / "cache"
 FORMATTED_CACHE_PATH = CACHE_DIR / "formatted_plans.json"
 FORMATTED_TRANS_PATH = CACHE_DIR / "formatted_plans_translated.json"
 FORMATTED_META_PATH = CACHE_DIR / "formatted_meta.json"
+TRANSLATION_CACHE_PATH = CACHE_DIR / "translations.json"
+LLM_REVIEW_CACHE_PATH = CACHE_DIR / "llm_reviews.json"
 
 try:
     from data_loader import (
@@ -68,24 +70,31 @@ def load_json_cache(path: Path) -> Dict[str, Any]:
     return {}
 
 
+def file_mtime(path: Path) -> float:
+    try:
+        return path.stat().st_mtime
+    except FileNotFoundError:
+        return 0.0
+
+
 # Streamlit caches to speed up "다음" 전환
 @st.cache_data(show_spinner=False)
-def cached_rows(path: Path) -> List[Dict[str, Any]]:
+def cached_rows(path: Path, version: float) -> List[Dict[str, Any]]:
     return load_rows(path)
 
 
 @st.cache_data(show_spinner=False)
-def cached_json(path: Path) -> Dict[str, Any]:
+def cached_json(path: Path, version: float) -> Dict[str, Any]:
     return load_json_cache(path)
 
 
 @st.cache_data(show_spinner=False)
-def cached_translation_cache() -> Dict[str, str]:
+def cached_translation_cache(version: float) -> Dict[str, str]:
     return load_translation_cache()
 
 
 @st.cache_data(show_spinner=False)
-def cached_review_cache() -> Dict[str, str]:
+def cached_review_cache(version: float) -> Dict[str, str]:
     return load_review_cache()
 def load_labels(path: Path) -> Dict[str, Any]:
     if path.exists():
@@ -163,7 +172,7 @@ def main() -> None:
 
     selected_name = st.sidebar.selectbox("CSV 파일 선택", file_names, index=default_idx)
     selected_path = DATA_DIR / selected_name
-    trips = cached_rows(selected_path)
+    trips = cached_rows(selected_path, file_mtime(selected_path))
     st.sidebar.write(f"총 {len(trips)}개 여행 계획")
 
     if st.session_state.get("active_file") != selected_name:
@@ -179,11 +188,11 @@ def main() -> None:
 
     row = trips[row_index]
     plan_text = build_plan_text(row)
-    review_cache = cached_review_cache()
+    review_cache = cached_review_cache(file_mtime(LLM_REVIEW_CACHE_PATH))
 
-    formatted_en_cache = cached_json(FORMATTED_CACHE_PATH)
-    formatted_meta_cache = cached_json(FORMATTED_META_PATH)
-    formatted_ko_cache = cached_json(FORMATTED_TRANS_PATH)
+    formatted_en_cache = cached_json(FORMATTED_CACHE_PATH, file_mtime(FORMATTED_CACHE_PATH))
+    formatted_meta_cache = cached_json(FORMATTED_META_PATH, file_mtime(FORMATTED_META_PATH))
+    formatted_ko_cache = cached_json(FORMATTED_TRANS_PATH, file_mtime(FORMATTED_TRANS_PATH))
     cache_key = label_key(selected_name, row_index)
     # 영문: 원본 포맷 캐시
     formatted_en_text = formatted_en_cache.get(cache_key, plan_text)
@@ -288,6 +297,12 @@ def main() -> None:
         st.markdown("우측: 휴먼 라벨 + GPT-4.1 검토")
         st.markdown("라벨은 `KY/viewer/labels` 폴더에 저장됩니다.")
         st.markdown("---")
+        if st.button("캐시 새로고침", use_container_width=True):
+            cached_rows.clear()
+            cached_json.clear()
+            cached_translation_cache.clear()
+            cached_review_cache.clear()
+            st.rerun()
         st.markdown("**이동**")
         if st.button("◀ 이전", disabled=row_index == 0, use_container_width=True):
             st.session_state["row_index"] = max(0, row_index - 1)
