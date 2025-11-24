@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Bozeman\", \"transportation\": \"Taxi in Bozeman; Cost: 50\", \"breakfast\": \"Jiquitaia, Bozeman; Cost: 36\", \"lunch\": \"Today Pizza, Bozeman; Cost: 27\", \"dinner\": \"Adyar Ananda Bhavan, Bozeman; Cost: 22\", \"attraction\": \"The Story Mansion and Story Park, Bozeman; College 'M', Bozeman;\", \"accommodation\": \"Sun-Filled Artist Loft in Private Townhouse, Bozeman; Cost: 214 per night (~428)\"}, {\"days\": 2, \"current_city\": \"Bozeman\", \"transportation\": \"Taxi in Bozeman; Cost: 50\", \"breakfast\": \"Behrouz Biryani, Bozeman; Cost: 27\", \"lunch\": \"Italize, Bozeman; Cost: 24\", \"dinner\": \"Keventers, Bozeman; Cost: 39\", \"attraction\": \"Dinosaur Park, Bozeman; Bogert Park, Bozeman;\", \"accommodation\": \"Sun-Filled Artist Loft in Private Townhouse, Bozeman; Cost: 214 per night (~428)\"}, {\"days\": 3, \"current_city\": \"Bozeman\", \"transportation\": \"Taxi in Bozeman; Cost: 50\", \"breakfast\": \"Side Wok, Bozeman; Cost: 14\", \"lunch\": \"Dietwholic, Bozeman; Cost: 12\", \"dinner\": \"Saravana Bhavan, Bozeman; Cost: 38\", \"attraction\": \"Glen Lake Rotary Park, Bozeman; Bozeman Welcome Sign, Bozeman;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Bozeman",
+                "transportation": "Taxi in Bozeman; Cost: 50",
+                "breakfast": "Jiquitaia, Bozeman; Cost: 36",
+                "lunch": "Today Pizza, Bozeman; Cost: 27",
+                "dinner": "Adyar Ananda Bhavan, Bozeman; Cost: 22",
+                "attraction": "The Story Mansion and Story Park, Bozeman; College 'M', Bozeman;",
+                "accommodation": "Sun-Filled Artist Loft in Private Townhouse, Bozeman; Cost: 214 per night (~428)"
+            },
+            {
+                "days": 2,
+                "current_city": "Bozeman",
+                "transportation": "Taxi in Bozeman; Cost: 50",
+                "breakfast": "Behrouz Biryani, Bozeman; Cost: 27",
+                "lunch": "Italize, Bozeman; Cost: 24",
+                "dinner": "Keventers, Bozeman; Cost: 39",
+                "attraction": "Dinosaur Park, Bozeman; Bogert Park, Bozeman;",
+                "accommodation": "Sun-Filled Artist Loft in Private Townhouse, Bozeman; Cost: 214 per night (~428)"
+            },
+            {
+                "days": 3,
+                "current_city": "Bozeman",
+                "transportation": "Taxi in Bozeman; Cost: 50",
+                "breakfast": "Side Wok, Bozeman; Cost: 14",
+                "lunch": "Dietwholic, Bozeman; Cost: 12",
+                "dinner": "Saravana Bhavan, Bozeman; Cost: 38",
+                "attraction": "Glen Lake Rotary Park, Bozeman; Bozeman Welcome Sign, Bozeman;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Devils Lake to Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 6, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 7, \"current_city\": \"Colorado\", \"transportation\": \"Taxi in Colorado; Cost: 50\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Devils Lake to Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 6,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 7,
+                "current_city": "Colorado",
+                "transportation": "Taxi in Colorado; Cost: 50",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Buffalo to Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Adda, Atlanta; Cost: 22\", \"lunch\": \"Taste of Vishal, Atlanta; Cost: 13\", \"dinner\": \"Bimbos, Atlanta; Cost: 13\", \"attraction\": \"Piedmont Park, Atlanta; High Museum of Art, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta; Cost: 144 per night (~288)\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"China Hot, Atlanta; Cost: 13\", \"lunch\": \"Beliram Degchiwala, Atlanta; Cost: 14\", \"dinner\": \"Daawat-e-Kashmir, Atlanta; Cost: 19\", \"attraction\": \"Georgia Aquarium, Atlanta; Martin Luther King, Jr. National Historical Park, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta; Cost: 144 per night (~288)\"}, {\"days\": 3, \"current_city\": \"Atlanta\", \"transportation\": \"Taxi in Atlanta; Cost: 50\", \"breakfast\": \"Caboose X Cafe & Lounge, Atlanta; Cost: 23\", \"lunch\": \"Sethi's Restaurant & Barbeque, Atlanta; Cost: 19\", \"dinner\": \"Ahata, Atlanta; Cost: 17\", \"attraction\": \"Atlanta Botanical Garden, Atlanta; World of Coca-Cola, Atlanta;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Buffalo to Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Adda, Atlanta; Cost: 22",
+                "lunch": "Taste of Vishal, Atlanta; Cost: 13",
+                "dinner": "Bimbos, Atlanta; Cost: 13",
+                "attraction": "Piedmont Park, Atlanta; High Museum of Art, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta; Cost: 144 per night (~288)"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "China Hot, Atlanta; Cost: 13",
+                "lunch": "Beliram Degchiwala, Atlanta; Cost: 14",
+                "dinner": "Daawat-e-Kashmir, Atlanta; Cost: 19",
+                "attraction": "Georgia Aquarium, Atlanta; Martin Luther King, Jr. National Historical Park, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta; Cost: 144 per night (~288)"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlanta",
+                "transportation": "Taxi in Atlanta; Cost: 50",
+                "breakfast": "Caboose X Cafe & Lounge, Atlanta; Cost: 23",
+                "lunch": "Sethi's Restaurant & Barbeque, Atlanta; Cost: 19",
+                "dinner": "Ahata, Atlanta; Cost: 17",
+                "attraction": "Atlanta Botanical Garden, Atlanta; World of Coca-Cola, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

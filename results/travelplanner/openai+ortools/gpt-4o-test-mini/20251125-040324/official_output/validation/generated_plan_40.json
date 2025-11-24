@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from New York to Charleston\", \"transportation\": \"Taxi in Charleston; Cost: 50\", \"breakfast\": \"Frosted Heaven, Charleston; Cost: 11\", \"lunch\": \"McDonald's, Charleston; Cost: 15\", \"dinner\": \"Dunkin' Donuts, Charleston; Cost: 20\", \"attraction\": \"Joe Riley Waterfront Park, Charleston; Drayton Hall, Charleston;\", \"accommodation\": \"Lincoln Center Luxury Sunny & Modern Br, Charleston; Cost: 225 per night (~450)\"}, {\"days\": 2, \"current_city\": \"Charleston\", \"transportation\": \"Taxi in Charleston; Cost: 50\", \"breakfast\": \"Nagpal's, Charleston; Cost: 10\", \"lunch\": \"Spinns Resto-Bar, Charleston; Cost: 16\", \"dinner\": \"Chaayos, Charleston; Cost: 16\", \"attraction\": \"Rainbow Row, Charleston; Charles Towne Landing State Historic Site, Charleston;\", \"accommodation\": \"Lincoln Center Luxury Sunny & Modern Br, Charleston; Cost: 225 per night (~450)\"}, {\"days\": 3, \"current_city\": \"Charleston\", \"transportation\": \"Taxi in Charleston; Cost: 50\", \"breakfast\": \"Genuine Broaster Chicken, Charleston; Cost: 18\", \"lunch\": \"Mocha, Charleston; Cost: 17\", \"dinner\": \"Aggarwal Sweets Corner, Charleston; Cost: 21\", \"attraction\": \"Charleston Pirate Tours, Charleston; Old Slave Mart Museum, Charleston;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Charleston",
+                "transportation": "Taxi in Charleston; Cost: 50",
+                "breakfast": "Frosted Heaven, Charleston; Cost: 11",
+                "lunch": "McDonald's, Charleston; Cost: 15",
+                "dinner": "Dunkin' Donuts, Charleston; Cost: 20",
+                "attraction": "Joe Riley Waterfront Park, Charleston; Drayton Hall, Charleston;",
+                "accommodation": "Lincoln Center Luxury Sunny & Modern Br, Charleston; Cost: 225 per night (~450)"
+            },
+            {
+                "days": 2,
+                "current_city": "Charleston",
+                "transportation": "Taxi in Charleston; Cost: 50",
+                "breakfast": "Nagpal's, Charleston; Cost: 10",
+                "lunch": "Spinns Resto-Bar, Charleston; Cost: 16",
+                "dinner": "Chaayos, Charleston; Cost: 16",
+                "attraction": "Rainbow Row, Charleston; Charles Towne Landing State Historic Site, Charleston;",
+                "accommodation": "Lincoln Center Luxury Sunny & Modern Br, Charleston; Cost: 225 per night (~450)"
+            },
+            {
+                "days": 3,
+                "current_city": "Charleston",
+                "transportation": "Taxi in Charleston; Cost: 50",
+                "breakfast": "Genuine Broaster Chicken, Charleston; Cost: 18",
+                "lunch": "Mocha, Charleston; Cost: 17",
+                "dinner": "Aggarwal Sweets Corner, Charleston; Cost: 21",
+                "attraction": "Charleston Pirate Tours, Charleston; Old Slave Mart Museum, Charleston;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

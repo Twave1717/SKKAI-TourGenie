@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Ontario to Honolulu\", \"transportation\": \"Taxi in Honolulu; Cost: 50\", \"breakfast\": \"Bait El Khetyar, Honolulu; Cost: 28\", \"lunch\": \"Mama's Chinese Kitchen, Honolulu; Cost: 13\", \"dinner\": \"Evergreen Sweet House, Honolulu; Cost: 18\", \"attraction\": \"Waikiki Aquarium, Honolulu; Foster Botanical Garden, Honolulu;\", \"accommodation\": \"Bushwick, Spacious Private Room with Balcony, Honolulu; Cost: 311 per night (~622)\"}, {\"days\": 2, \"current_city\": \"Honolulu\", \"transportation\": \"Taxi in Honolulu; Cost: 50\", \"breakfast\": \"Nimtho, Honolulu; Cost: 31\", \"lunch\": \"Taj Sweets, Honolulu; Cost: 23\", \"dinner\": \"Angelena Restaurant, Honolulu; Cost: 38\", \"attraction\": \"Aloha Tower, Honolulu; Kūhiō Beach, Honolulu;\", \"accommodation\": \"Bushwick, Spacious Private Room with Balcony, Honolulu; Cost: 311 per night (~622)\"}, {\"days\": 3, \"current_city\": \"Honolulu\", \"transportation\": \"Taxi in Honolulu; Cost: 50\", \"breakfast\": \"Shere Hind Chicken Corner, Honolulu; Cost: 38\", \"lunch\": \"Viva Hyderabad, Honolulu; Cost: 29\", \"dinner\": \"Take Away, Honolulu; Cost: 21\", \"attraction\": \"Duke Paoa Kahanamoku Statue, Honolulu; Tantalus Lookout - Puu Ualakaa State Park, Honolulu;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Ontario to Honolulu",
+                "transportation": "Taxi in Honolulu; Cost: 50",
+                "breakfast": "Bait El Khetyar, Honolulu; Cost: 28",
+                "lunch": "Mama's Chinese Kitchen, Honolulu; Cost: 13",
+                "dinner": "Evergreen Sweet House, Honolulu; Cost: 18",
+                "attraction": "Waikiki Aquarium, Honolulu; Foster Botanical Garden, Honolulu;",
+                "accommodation": "Bushwick, Spacious Private Room with Balcony, Honolulu; Cost: 311 per night (~622)"
+            },
+            {
+                "days": 2,
+                "current_city": "Honolulu",
+                "transportation": "Taxi in Honolulu; Cost: 50",
+                "breakfast": "Nimtho, Honolulu; Cost: 31",
+                "lunch": "Taj Sweets, Honolulu; Cost: 23",
+                "dinner": "Angelena Restaurant, Honolulu; Cost: 38",
+                "attraction": "Aloha Tower, Honolulu; Kūhiō Beach, Honolulu;",
+                "accommodation": "Bushwick, Spacious Private Room with Balcony, Honolulu; Cost: 311 per night (~622)"
+            },
+            {
+                "days": 3,
+                "current_city": "Honolulu",
+                "transportation": "Taxi in Honolulu; Cost: 50",
+                "breakfast": "Shere Hind Chicken Corner, Honolulu; Cost: 38",
+                "lunch": "Viva Hyderabad, Honolulu; Cost: 29",
+                "dinner": "Take Away, Honolulu; Cost: 21",
+                "attraction": "Duke Paoa Kahanamoku Statue, Honolulu; Tantalus Lookout - Puu Ualakaa State Park, Honolulu;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

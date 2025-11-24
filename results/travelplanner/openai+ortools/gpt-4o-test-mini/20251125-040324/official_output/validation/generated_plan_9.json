@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Sarasota to Philadelphia\", \"transportation\": \"Taxi in Philadelphia; Cost: 50\", \"breakfast\": \"Pind Balluchi, Philadelphia; Cost: 44\", \"lunch\": \"Arabian & Turkish Caf愆, Philadelphia; Cost: 37\", \"dinner\": \"Red Mesa Cantina, Philadelphia; Cost: 36\", \"attraction\": \"Liberty Bell, Philadelphia; Museum of the American Revolution, Philadelphia;\", \"accommodation\": \"Industrial Loft Living in NYC, Philadelphia; Cost: 178 per night (~356)\"}, {\"days\": 2, \"current_city\": \"Philadelphia\", \"transportation\": \"Taxi in Philadelphia; Cost: 50\", \"breakfast\": \"Asian Chopstick, Philadelphia; Cost: 10\", \"lunch\": \"Bangla Sweet Corner, Philadelphia; Cost: 14\", \"dinner\": \"Gurdas Ram Jalebi Wala, Philadelphia; Cost: 20\", \"attraction\": \"Philadelphia's Magic Gardens, Philadelphia; Benjamin Franklin Museum, Philadelphia;\", \"accommodation\": \"Industrial Loft Living in NYC, Philadelphia; Cost: 178 per night (~356)\"}, {\"days\": 3, \"current_city\": \"Philadelphia\", \"transportation\": \"Taxi in Philadelphia; Cost: 50\", \"breakfast\": \"Mini Mughal, Philadelphia; Cost: 30\", \"lunch\": \"Muncheezz, Philadelphia; Cost: 17\", \"dinner\": \"Momozone, Philadelphia; Cost: 17\", \"attraction\": \"Elfreth's Alley Museum, Philadelphia; African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Sarasota to Philadelphia",
+                "transportation": "Taxi in Philadelphia; Cost: 50",
+                "breakfast": "Pind Balluchi, Philadelphia; Cost: 44",
+                "lunch": "Arabian & Turkish Caf愆, Philadelphia; Cost: 37",
+                "dinner": "Red Mesa Cantina, Philadelphia; Cost: 36",
+                "attraction": "Liberty Bell, Philadelphia; Museum of the American Revolution, Philadelphia;",
+                "accommodation": "Industrial Loft Living in NYC, Philadelphia; Cost: 178 per night (~356)"
+            },
+            {
+                "days": 2,
+                "current_city": "Philadelphia",
+                "transportation": "Taxi in Philadelphia; Cost: 50",
+                "breakfast": "Asian Chopstick, Philadelphia; Cost: 10",
+                "lunch": "Bangla Sweet Corner, Philadelphia; Cost: 14",
+                "dinner": "Gurdas Ram Jalebi Wala, Philadelphia; Cost: 20",
+                "attraction": "Philadelphia's Magic Gardens, Philadelphia; Benjamin Franklin Museum, Philadelphia;",
+                "accommodation": "Industrial Loft Living in NYC, Philadelphia; Cost: 178 per night (~356)"
+            },
+            {
+                "days": 3,
+                "current_city": "Philadelphia",
+                "transportation": "Taxi in Philadelphia; Cost: 50",
+                "breakfast": "Mini Mughal, Philadelphia; Cost: 30",
+                "lunch": "Muncheezz, Philadelphia; Cost: 17",
+                "dinner": "Momozone, Philadelphia; Cost: 17",
+                "attraction": "Elfreth's Alley Museum, Philadelphia; African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

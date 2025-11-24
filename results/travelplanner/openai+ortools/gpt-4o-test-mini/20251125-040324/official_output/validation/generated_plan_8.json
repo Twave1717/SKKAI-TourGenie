@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Boston to San Juan\", \"transportation\": \"Taxi in San Juan; Cost: 50\", \"breakfast\": \"Hoka-Hoka Japanese Steak & Sushi, San Juan; Cost: 27\", \"lunch\": \"Tea Trails, San Juan; Cost: 29\", \"dinner\": \"Shree Bhagatram, San Juan; Cost: 11\", \"attraction\": \"Castillo San Cristóbal, San Juan; San Juan National Historic Site, San Juan;\", \"accommodation\": \"BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan; Cost: 50 per night (~100)\"}, {\"days\": 2, \"current_city\": \"San Juan\", \"transportation\": \"Taxi in San Juan; Cost: 50\", \"breakfast\": \"Mandrain, San Juan; Cost: 27\", \"lunch\": \"Gopal's 56, San Juan; Cost: 10\", \"dinner\": \"Swad, San Juan; Cost: 34\", \"attraction\": \"Parque de las Palomas, San Juan; Casa Blanca, San Juan;\", \"accommodation\": \"BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan; Cost: 50 per night (~100)\"}, {\"days\": 3, \"current_city\": \"San Juan\", \"transportation\": \"Taxi in San Juan; Cost: 50\", \"breakfast\": \"Coldpress Company, San Juan; Cost: 11\", \"lunch\": \"Frontier, San Juan; Cost: 16\", \"dinner\": \"Oh My!, San Juan; Cost: 18\", \"attraction\": \"Castillo San Felipe del Morro, San Juan; Paseo de La Princesa, San Juan;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Boston to San Juan",
+                "transportation": "Taxi in San Juan; Cost: 50",
+                "breakfast": "Hoka-Hoka Japanese Steak & Sushi, San Juan; Cost: 27",
+                "lunch": "Tea Trails, San Juan; Cost: 29",
+                "dinner": "Shree Bhagatram, San Juan; Cost: 11",
+                "attraction": "Castillo San Cristóbal, San Juan; San Juan National Historic Site, San Juan;",
+                "accommodation": "BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan; Cost: 50 per night (~100)"
+            },
+            {
+                "days": 2,
+                "current_city": "San Juan",
+                "transportation": "Taxi in San Juan; Cost: 50",
+                "breakfast": "Mandrain, San Juan; Cost: 27",
+                "lunch": "Gopal's 56, San Juan; Cost: 10",
+                "dinner": "Swad, San Juan; Cost: 34",
+                "attraction": "Parque de las Palomas, San Juan; Casa Blanca, San Juan;",
+                "accommodation": "BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan; Cost: 50 per night (~100)"
+            },
+            {
+                "days": 3,
+                "current_city": "San Juan",
+                "transportation": "Taxi in San Juan; Cost: 50",
+                "breakfast": "Coldpress Company, San Juan; Cost: 11",
+                "lunch": "Frontier, San Juan; Cost: 16",
+                "dinner": "Oh My!, San Juan; Cost: 18",
+                "attraction": "Castillo San Felipe del Morro, San Juan; Paseo de La Princesa, San Juan;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

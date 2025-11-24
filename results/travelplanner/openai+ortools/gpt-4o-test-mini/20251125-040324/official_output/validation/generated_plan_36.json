@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Asheville to Minneapolis\", \"transportation\": \"Taxi in Minneapolis; Cost: 50\", \"breakfast\": \"The Cafe, Minneapolis; Cost: 14\", \"lunch\": \"Giani, Minneapolis; Cost: 17\", \"dinner\": \"Court Avenue Brewing Company, Minneapolis; Cost: 31\", \"attraction\": \"Minneapolis Sculpture Garden, Minneapolis; St. Anthony Falls Visitor Center, Minneapolis;\", \"accommodation\": \"#1 Rated 3br Park Slope Apt (1700sqf+Renovated!), Minneapolis; Cost: 169 per night (~338)\"}, {\"days\": 2, \"current_city\": \"Minneapolis\", \"transportation\": \"Taxi in Minneapolis; Cost: 50\", \"breakfast\": \"Texas Roadhouse, Minneapolis; Cost: 22\", \"lunch\": \"Surprise - Bakers & Bites, Minneapolis; Cost: 22\", \"dinner\": \"Tony's, Minneapolis; Cost: 27\", \"attraction\": \"Central Mississippi Riverfront Regional Park, Minneapolis; Minnehaha Regional Park, Minneapolis;\", \"accommodation\": \"#1 Rated 3br Park Slope Apt (1700sqf+Renovated!), Minneapolis; Cost: 169 per night (~338)\"}, {\"days\": 3, \"current_city\": \"Minneapolis\", \"transportation\": \"Taxi in Minneapolis; Cost: 50\", \"breakfast\": \"Haveliram, Minneapolis; Cost: 19\", \"lunch\": \"Cheffron Bakery, Minneapolis; Cost: 31\", \"dinner\": \"Uncle's Punjabi Rasoi, Minneapolis; Cost: 40\", \"attraction\": \"Mall of America®, Minneapolis; Boom Island Park, Minneapolis;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Asheville to Minneapolis",
+                "transportation": "Taxi in Minneapolis; Cost: 50",
+                "breakfast": "The Cafe, Minneapolis; Cost: 14",
+                "lunch": "Giani, Minneapolis; Cost: 17",
+                "dinner": "Court Avenue Brewing Company, Minneapolis; Cost: 31",
+                "attraction": "Minneapolis Sculpture Garden, Minneapolis; St. Anthony Falls Visitor Center, Minneapolis;",
+                "accommodation": "#1 Rated 3br Park Slope Apt (1700sqf+Renovated!), Minneapolis; Cost: 169 per night (~338)"
+            },
+            {
+                "days": 2,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi in Minneapolis; Cost: 50",
+                "breakfast": "Texas Roadhouse, Minneapolis; Cost: 22",
+                "lunch": "Surprise - Bakers & Bites, Minneapolis; Cost: 22",
+                "dinner": "Tony's, Minneapolis; Cost: 27",
+                "attraction": "Central Mississippi Riverfront Regional Park, Minneapolis; Minnehaha Regional Park, Minneapolis;",
+                "accommodation": "#1 Rated 3br Park Slope Apt (1700sqf+Renovated!), Minneapolis; Cost: 169 per night (~338)"
+            },
+            {
+                "days": 3,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi in Minneapolis; Cost: 50",
+                "breakfast": "Haveliram, Minneapolis; Cost: 19",
+                "lunch": "Cheffron Bakery, Minneapolis; Cost: 31",
+                "dinner": "Uncle's Punjabi Rasoi, Minneapolis; Cost: 40",
+                "attraction": "Mall of America®, Minneapolis; Boom Island Park, Minneapolis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from New York to Reno\", \"transportation\": \"Taxi in Reno; Cost: 50\", \"breakfast\": \"Khaao Peeyo, Reno; Cost: 24\", \"lunch\": \"Maharashtra Food Stall, Reno; Cost: 12\", \"dinner\": \"Kanha Sweets, Reno; Cost: 28\", \"attraction\": \"Raymond L Smith Truckee River Walk, Reno; Rancho San Rafael Nature Trail, Reno;\", \"accommodation\": \"Cozy 1 bedroom + air mattress, 2 cats, sleeps 3, Reno; Cost: 786 per night (~1572)\"}, {\"days\": 2, \"current_city\": \"Reno\", \"transportation\": \"Taxi in Reno; Cost: 50\", \"breakfast\": \"Indian Gourmet, Reno; Cost: 16\", \"lunch\": \"Sugar Ruffles, Reno; Cost: 12\", \"dinner\": \"Uncle Xpress, Reno; Cost: 17\", \"attraction\": \"The Discovery, Reno; Indian Head, Reno;\", \"accommodation\": \"Cozy 1 bedroom + air mattress, 2 cats, sleeps 3, Reno; Cost: 786 per night (~1572)\"}, {\"days\": 3, \"current_city\": \"Reno\", \"transportation\": \"Taxi in Reno; Cost: 50\", \"breakfast\": \"Adarsh Kulfi, Reno; Cost: 21\", \"lunch\": \"Nusr-Et, Reno; Cost: 17\", \"dinner\": \"Foodies Joint, Reno; Cost: 19\", \"attraction\": \"National Automobile Museum, Reno; Animal Ark, Reno;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Reno",
+                "transportation": "Taxi in Reno; Cost: 50",
+                "breakfast": "Khaao Peeyo, Reno; Cost: 24",
+                "lunch": "Maharashtra Food Stall, Reno; Cost: 12",
+                "dinner": "Kanha Sweets, Reno; Cost: 28",
+                "attraction": "Raymond L Smith Truckee River Walk, Reno; Rancho San Rafael Nature Trail, Reno;",
+                "accommodation": "Cozy 1 bedroom + air mattress, 2 cats, sleeps 3, Reno; Cost: 786 per night (~1572)"
+            },
+            {
+                "days": 2,
+                "current_city": "Reno",
+                "transportation": "Taxi in Reno; Cost: 50",
+                "breakfast": "Indian Gourmet, Reno; Cost: 16",
+                "lunch": "Sugar Ruffles, Reno; Cost: 12",
+                "dinner": "Uncle Xpress, Reno; Cost: 17",
+                "attraction": "The Discovery, Reno; Indian Head, Reno;",
+                "accommodation": "Cozy 1 bedroom + air mattress, 2 cats, sleeps 3, Reno; Cost: 786 per night (~1572)"
+            },
+            {
+                "days": 3,
+                "current_city": "Reno",
+                "transportation": "Taxi in Reno; Cost: 50",
+                "breakfast": "Adarsh Kulfi, Reno; Cost: 21",
+                "lunch": "Nusr-Et, Reno; Cost: 17",
+                "dinner": "Foodies Joint, Reno; Cost: 19",
+                "attraction": "National Automobile Museum, Reno; Animal Ark, Reno;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

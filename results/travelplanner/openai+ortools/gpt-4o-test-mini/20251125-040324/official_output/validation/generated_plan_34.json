@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Burbank\", \"transportation\": \"Taxi in Burbank; Cost: 50\", \"breakfast\": \"Chawnsan Chef, Burbank; Cost: 20\", \"lunch\": \"Hard Rock Cafe, Burbank; Cost: 33\", \"dinner\": \"KB's Kulfi & Icecream, Burbank; Cost: 10\", \"attraction\": \"The Mystic Museum, Burbank; Burbank Christmas Tree, Burbank;\", \"accommodation\": \"Cozy Junior 1BR in inwood., Burbank; Cost: 192 per night (~384)\"}, {\"days\": 2, \"current_city\": \"Burbank\", \"transportation\": \"Taxi in Burbank; Cost: 50\", \"breakfast\": \"Zouk Tea Bar & Grill, Burbank; Cost: 36\", \"lunch\": \"Cafe Coffee Day, Burbank; Cost: 34\", \"dinner\": \"Dee The Baker, Burbank; Cost: 18\", \"attraction\": \"Warner Bros. Studio Tour Hollywood, Burbank; Universal Studios Hollywood, Burbank;\", \"accommodation\": \"Cozy Junior 1BR in inwood., Burbank; Cost: 192 per night (~384)\"}, {\"days\": 3, \"current_city\": \"Burbank\", \"transportation\": \"Taxi in Burbank; Cost: 50\", \"breakfast\": \"Tpot, Burbank; Cost: 34\", \"lunch\": \"Deepak Vaishno Dhaba, Burbank; Cost: 32\", \"dinner\": \"Caffe Tonino, Burbank; Cost: 28\", \"attraction\": \"Brace Canyon Park, Burbank; Stough Canyon Nature Center, Burbank;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Burbank",
+                "transportation": "Taxi in Burbank; Cost: 50",
+                "breakfast": "Chawnsan Chef, Burbank; Cost: 20",
+                "lunch": "Hard Rock Cafe, Burbank; Cost: 33",
+                "dinner": "KB's Kulfi & Icecream, Burbank; Cost: 10",
+                "attraction": "The Mystic Museum, Burbank; Burbank Christmas Tree, Burbank;",
+                "accommodation": "Cozy Junior 1BR in inwood., Burbank; Cost: 192 per night (~384)"
+            },
+            {
+                "days": 2,
+                "current_city": "Burbank",
+                "transportation": "Taxi in Burbank; Cost: 50",
+                "breakfast": "Zouk Tea Bar & Grill, Burbank; Cost: 36",
+                "lunch": "Cafe Coffee Day, Burbank; Cost: 34",
+                "dinner": "Dee The Baker, Burbank; Cost: 18",
+                "attraction": "Warner Bros. Studio Tour Hollywood, Burbank; Universal Studios Hollywood, Burbank;",
+                "accommodation": "Cozy Junior 1BR in inwood., Burbank; Cost: 192 per night (~384)"
+            },
+            {
+                "days": 3,
+                "current_city": "Burbank",
+                "transportation": "Taxi in Burbank; Cost: 50",
+                "breakfast": "Tpot, Burbank; Cost: 34",
+                "lunch": "Deepak Vaishno Dhaba, Burbank; Cost: 32",
+                "dinner": "Caffe Tonino, Burbank; Cost: 28",
+                "attraction": "Brace Canyon Park, Burbank; Stough Canyon Nature Center, Burbank;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

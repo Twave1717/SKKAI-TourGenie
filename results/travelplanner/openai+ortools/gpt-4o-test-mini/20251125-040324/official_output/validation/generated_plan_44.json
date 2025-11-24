@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Greer to New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Seasons 52 Fresh Grill, New York; Cost: 30\", \"lunch\": \"Green Restaurant, New York; Cost: 74\", \"dinner\": \"The Best, New York; Cost: 79\", \"attraction\": \"Times Square, New York; Central Park, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Gurgaon Hights, New York; Cost: 46\", \"lunch\": \"Green Chick Chop, New York; Cost: 26\", \"dinner\": \"Sir John Bakery Cafe, New York; Cost: 78\", \"attraction\": \"9/11 Memorial & Museum, New York; Tenement Museum, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)\"}, {\"days\": 3, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"G Dot, New York; Cost: 75\", \"lunch\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17\", \"dinner\": \"Kamal Chat Bhandar, New York; Cost: 36\", \"attraction\": \"One World Observatory, New York; Radio City Music Hall, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)\"}, {\"days\": 4, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Golooji's Chat Waat, New York; Cost: 53\", \"lunch\": \"Amchur, New York; Cost: 67\", \"dinner\": \"Lord of the Drinks Forum, New York; Cost: 71\", \"attraction\": \"Rockefeller Center, New York; Flatiron Building, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)\"}, {\"days\": 5, \"current_city\": \"New York\", \"transportation\": \"Taxi in New York; Cost: 50\", \"breakfast\": \"Garam Masala Food Corner, New York; Cost: 40\", \"lunch\": \"Sugary Affairs, New York; Cost: 55\", \"dinner\": \"Baltazar, New York; Cost: 46\", \"attraction\": \"SUMMIT One Vanderbilt, New York; Empire State Building, New York;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Greer to New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Seasons 52 Fresh Grill, New York; Cost: 30",
+                "lunch": "Green Restaurant, New York; Cost: 74",
+                "dinner": "The Best, New York; Cost: 79",
+                "attraction": "Times Square, New York; Central Park, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Gurgaon Hights, New York; Cost: 46",
+                "lunch": "Green Chick Chop, New York; Cost: 26",
+                "dinner": "Sir John Bakery Cafe, New York; Cost: 78",
+                "attraction": "9/11 Memorial & Museum, New York; Tenement Museum, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)"
+            },
+            {
+                "days": 3,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "G Dot, New York; Cost: 75",
+                "lunch": "Aryan's Rajasthani Pyaz Ki Kachori, New York; Cost: 17",
+                "dinner": "Kamal Chat Bhandar, New York; Cost: 36",
+                "attraction": "One World Observatory, New York; Radio City Music Hall, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)"
+            },
+            {
+                "days": 4,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Golooji's Chat Waat, New York; Cost: 53",
+                "lunch": "Amchur, New York; Cost: 67",
+                "dinner": "Lord of the Drinks Forum, New York; Cost: 71",
+                "attraction": "Rockefeller Center, New York; Flatiron Building, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York; Cost: 109 per night (~436)"
+            },
+            {
+                "days": 5,
+                "current_city": "New York",
+                "transportation": "Taxi in New York; Cost: 50",
+                "breakfast": "Garam Masala Food Corner, New York; Cost: 40",
+                "lunch": "Sugary Affairs, New York; Cost: 55",
+                "dinner": "Baltazar, New York; Cost: 46",
+                "attraction": "SUMMIT One Vanderbilt, New York; Empire State Building, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
