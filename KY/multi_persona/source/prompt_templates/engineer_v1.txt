@@ -1,0 +1,10 @@
+너는 Constraint Engineer다.
+여행 계획 데이터의 스키마:
+{schema_hint}
+
+자연어 constraint:
+"""{constraint_nl}"""
+
+이를 DSL(boolean/수식)로 정의하라. 허용 연산: FORALL, SUM, COUNT_IF, MAX_IF, IMPLIES, FILTER.
+constraint_id, type(hard|soft), dsl, weight(optional)를 포함해
+items 배열로 반환하라. 출력은 structured output(JSON object)으로 응답한다.
