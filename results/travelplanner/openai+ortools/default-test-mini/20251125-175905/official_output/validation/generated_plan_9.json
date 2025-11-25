@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Sarasota to Philadelphia\", \"transportation\": \"Flight Number: F2806095, from Sarasota to Philadelphia\", \"breakfast\": \"Bharawan Da Dhaba, Sarasota\", \"lunch\": \"Arabian & Turkish Caf愆, Philadelphia\", \"dinner\": \"Bangla Sweet Corner, Philadelphia\", \"attraction\": \"Liberty Bell, Philadelphia;Museum of the American Revolution, Philadelphia;\", \"accommodation\": \"Industrial Loft Living in NYC, Philadelphia\"}, {\"days\": 2, \"current_city\": \"Philadelphia\", \"transportation\": \"-\", \"breakfast\": \"Momozone, Philadelphia\", \"lunch\": \"Red Mesa Cantina, Philadelphia\", \"dinner\": \"Asian Chopstick, Philadelphia\", \"attraction\": \"Rodin Museum, Philadelphia;Benjamin Franklin Museum, Philadelphia;\", \"accommodation\": \"Industrial Loft Living in NYC, Philadelphia\"}, {\"days\": 3, \"current_city\": \"from Philadelphia to Sarasota\", \"transportation\": \"Flight Number: F0961509, from Philadelphia to Sarasota\", \"breakfast\": \"Muncheezz, Philadelphia\", \"lunch\": \"Gurdas Ram Jalebi Wala, Philadelphia\", \"dinner\": \"Mini Mughal, Philadelphia\", \"attraction\": \"Rocky Statue, Philadelphia;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Sarasota to Philadelphia",
+                "transportation": "Flight Number: F2806095, from Sarasota to Philadelphia",
+                "breakfast": "Bharawan Da Dhaba, Sarasota",
+                "lunch": "Arabian & Turkish Caf愆, Philadelphia",
+                "dinner": "Bangla Sweet Corner, Philadelphia",
+                "attraction": "Liberty Bell, Philadelphia;Museum of the American Revolution, Philadelphia;",
+                "accommodation": "Industrial Loft Living in NYC, Philadelphia"
+            },
+            {
+                "days": 2,
+                "current_city": "Philadelphia",
+                "transportation": "-",
+                "breakfast": "Momozone, Philadelphia",
+                "lunch": "Red Mesa Cantina, Philadelphia",
+                "dinner": "Asian Chopstick, Philadelphia",
+                "attraction": "Rodin Museum, Philadelphia;Benjamin Franklin Museum, Philadelphia;",
+                "accommodation": "Industrial Loft Living in NYC, Philadelphia"
+            },
+            {
+                "days": 3,
+                "current_city": "from Philadelphia to Sarasota",
+                "transportation": "Flight Number: F0961509, from Philadelphia to Sarasota",
+                "breakfast": "Muncheezz, Philadelphia",
+                "lunch": "Gurdas Ram Jalebi Wala, Philadelphia",
+                "dinner": "Mini Mughal, Philadelphia",
+                "attraction": "Rocky Statue, Philadelphia;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

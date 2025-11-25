@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Detroit to San Diego\", \"transportation\": \"Flight Number: F2964427, from Detroit to San Diego\", \"breakfast\": \"N. Iqbal Restaurant, Detroit\", \"lunch\": \"Chaudhary Di Hatti, San Diego\", \"dinner\": \"Dabas Ke Special Chole Bhature, San Diego\", \"attraction\": \"The San Diego Museum of Art, San Diego;Old Town San Diego State Park, San Diego;\", \"accommodation\": \"Harlem Garden Oasis in  New York City Brownstone, San Diego\"}, {\"days\": 2, \"current_city\": \"San Diego\", \"transportation\": \"-\", \"breakfast\": \"Open Yard, San Diego\", \"lunch\": \"Burger King, San Diego\", \"dinner\": \"Bikaner Sweets, San Diego\", \"attraction\": \"Seaport Village, San Diego;Balboa Park Carousel, San Diego;\", \"accommodation\": \"Harlem Garden Oasis in  New York City Brownstone, San Diego\"}, {\"days\": 3, \"current_city\": \"from San Diego to Detroit\", \"transportation\": \"Flight Number: F2155363, from San Diego to Detroit\", \"breakfast\": \"Armaan's Restaurant, San Diego\", \"lunch\": \"Jetha Lal Ka Dhabha, San Diego\", \"dinner\": \"Aamantran Bangla, San Diego\", \"attraction\": \"La Jolla Shores Park, San Diego;Whaley House Museum, San Diego;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Detroit to San Diego",
+                "transportation": "Flight Number: F2964427, from Detroit to San Diego",
+                "breakfast": "N. Iqbal Restaurant, Detroit",
+                "lunch": "Chaudhary Di Hatti, San Diego",
+                "dinner": "Dabas Ke Special Chole Bhature, San Diego",
+                "attraction": "The San Diego Museum of Art, San Diego;Old Town San Diego State Park, San Diego;",
+                "accommodation": "Harlem Garden Oasis in  New York City Brownstone, San Diego"
+            },
+            {
+                "days": 2,
+                "current_city": "San Diego",
+                "transportation": "-",
+                "breakfast": "Open Yard, San Diego",
+                "lunch": "Burger King, San Diego",
+                "dinner": "Bikaner Sweets, San Diego",
+                "attraction": "Seaport Village, San Diego;Balboa Park Carousel, San Diego;",
+                "accommodation": "Harlem Garden Oasis in  New York City Brownstone, San Diego"
+            },
+            {
+                "days": 3,
+                "current_city": "from San Diego to Detroit",
+                "transportation": "Flight Number: F2155363, from San Diego to Detroit",
+                "breakfast": "Armaan's Restaurant, San Diego",
+                "lunch": "Jetha Lal Ka Dhabha, San Diego",
+                "dinner": "Aamantran Bangla, San Diego",
+                "attraction": "La Jolla Shores Park, San Diego;Whaley House Museum, San Diego;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

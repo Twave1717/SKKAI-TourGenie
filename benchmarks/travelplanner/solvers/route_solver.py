@@ -50,6 +50,7 @@ class TravelRouteSolver:
         self.flights = candidates.get('flights', [])
         self.hotels = candidates.get('hotels', [])
         self.restaurants = candidates.get('restaurants', [])
+        self.origin_restaurants = candidates.get('origin_restaurants', [])  # Day 1 breakfast
         self.attractions = candidates.get('attractions', [])
         
         # Extract constraints
@@ -90,15 +91,24 @@ class TravelRouteSolver:
         
         # Restaurant variables: x_meal[day][meal_type][i] = 1 if restaurant i is selected
         # meal_type: 'breakfast', 'lunch', 'dinner'
+        # Day 1 breakfast uses origin_restaurants, all others use dest restaurants
         self.vars['meals'] = {}
         meal_types = ['breakfast', 'lunch', 'dinner']
         for day in range(self.trip_days):
             self.vars['meals'][day] = {}
             for meal_type in meal_types:
                 self.vars['meals'][day][meal_type] = {}
-                for i, restaurant in enumerate(self.restaurants):
-                    var_name = f"meal_d{day}_{meal_type}_{i}_{restaurant['id']}"
-                    self.vars['meals'][day][meal_type][i] = self.model.NewBoolVar(var_name)
+                
+                # Day 1 breakfast: use origin city restaurants
+                if day == 0 and meal_type == 'breakfast' and self.origin_restaurants:
+                    for i, restaurant in enumerate(self.origin_restaurants):
+                        var_name = f"meal_d{day}_{meal_type}_origin_{i}_{restaurant['id']}"
+                        self.vars['meals'][day][meal_type][i] = self.model.NewBoolVar(var_name)
+                else:
+                    # All other meals: use destination city restaurants
+                    for i, restaurant in enumerate(self.restaurants):
+                        var_name = f"meal_d{day}_{meal_type}_{i}_{restaurant['id']}"
+                        self.vars['meals'][day][meal_type][i] = self.model.NewBoolVar(var_name)
         
         # Attraction variables: x_attr[day][i] = 1 if attraction i is selected on day
         self.vars['attractions'] = {}
@@ -286,13 +296,20 @@ class TravelRouteSolver:
         # Restaurants: +10 points if preferred, +1 otherwise
         for day in range(self.trip_days):
             for meal_type in ['breakfast', 'lunch', 'dinner']:
-                for i, restaurant in enumerate(self.restaurants):
-                    category = restaurant.get('category', '')
-                    if category in self.preferred_categories:
-                        score = self.PREFERENCE_BONUS
-                    else:
-                        score = self.BASE_VISIT_SCORE
-                    preference_terms.append(self.vars['meals'][day][meal_type][i] * score)
+                # Day 1 breakfast uses origin restaurants
+                if day == 0 and meal_type == 'breakfast' and self.origin_restaurants:
+                    for i, restaurant in enumerate(self.origin_restaurants):
+                        if i in self.vars['meals'][day][meal_type]:
+                            category = restaurant.get('category', '')
+                            score = self.PREFERENCE_BONUS if category in self.preferred_categories else self.BASE_VISIT_SCORE
+                            preference_terms.append(self.vars['meals'][day][meal_type][i] * score)
+                else:
+                    # All other meals use destination restaurants
+                    for i, restaurant in enumerate(self.restaurants):
+                        if i in self.vars['meals'][day][meal_type]:
+                            category = restaurant.get('category', '')
+                            score = self.PREFERENCE_BONUS if category in self.preferred_categories else self.BASE_VISIT_SCORE
+                            preference_terms.append(self.vars['meals'][day][meal_type][i] * score)
         
         # Attractions: +10 points if preferred, +1 otherwise
         for day in range(self.trip_days):
@@ -329,9 +346,18 @@ class TravelRouteSolver:
         # Restaurant costs
         for day in range(self.trip_days):
             for meal_type in ['breakfast', 'lunch', 'dinner']:
-                for i, restaurant in enumerate(self.restaurants):
-                    cost = int(restaurant.get('price', 0) * 100)
-                    cost_terms.append(self.vars['meals'][day][meal_type][i] * cost)
+                # Day 1 breakfast uses origin restaurants
+                if day == 0 and meal_type == 'breakfast' and self.origin_restaurants:
+                    for i, restaurant in enumerate(self.origin_restaurants):
+                        if i in self.vars['meals'][day][meal_type]:
+                            cost = int(restaurant.get('price', 0) * 100)
+                            cost_terms.append(self.vars['meals'][day][meal_type][i] * cost)
+                else:
+                    # All other meals use destination restaurants
+                    for i, restaurant in enumerate(self.restaurants):
+                        if i in self.vars['meals'][day][meal_type]:
+                            cost = int(restaurant.get('price', 0) * 100)
+                            cost_terms.append(self.vars['meals'][day][meal_type][i] * cost)
         
         # Attraction costs
         for day in range(self.trip_days):
@@ -411,19 +437,36 @@ class TravelRouteSolver:
             
             # Extract meals
             for meal_type in ['breakfast', 'lunch', 'dinner']:
-                for i, restaurant in enumerate(self.restaurants):
-                    if solver.Value(self.vars['meals'][day][meal_type][i]) == 1:
-                        meal_info = {
-                            'id': restaurant['id'],
-                            'category': restaurant.get('category', ''),
-                            'price': restaurant['price'],
-                            'time_cost': restaurant['time_cost']
-                        }
-                        day_plan['meals'][meal_type] = meal_info
-                        day_plan['daily_cost'] += restaurant['price']
-                        day_plan['daily_time'] += restaurant['time_cost']
-                        itinerary['total_cost'] += restaurant['price']
-                        break
+                # Day 1 breakfast uses origin restaurants
+                if day == 0 and meal_type == 'breakfast' and self.origin_restaurants:
+                    for i, restaurant in enumerate(self.origin_restaurants):
+                        if i in self.vars['meals'][day][meal_type] and solver.Value(self.vars['meals'][day][meal_type][i]) == 1:
+                            meal_info = {
+                                'id': restaurant['id'],
+                                'category': restaurant.get('category', ''),
+                                'price': restaurant['price'],
+                                'time_cost': restaurant['time_cost']
+                            }
+                            day_plan['meals'][meal_type] = meal_info
+                            day_plan['daily_cost'] += restaurant['price']
+                            day_plan['daily_time'] += restaurant['time_cost']
+                            itinerary['total_cost'] += restaurant['price']
+                            break
+                else:
+                    # All other meals use destination restaurants
+                    for i, restaurant in enumerate(self.restaurants):
+                        if i in self.vars['meals'][day][meal_type] and solver.Value(self.vars['meals'][day][meal_type][i]) == 1:
+                            meal_info = {
+                                'id': restaurant['id'],
+                                'category': restaurant.get('category', ''),
+                                'price': restaurant['price'],
+                                'time_cost': restaurant['time_cost']
+                            }
+                            day_plan['meals'][meal_type] = meal_info
+                            day_plan['daily_cost'] += restaurant['price']
+                            day_plan['daily_time'] += restaurant['time_cost']
+                            itinerary['total_cost'] += restaurant['price']
+                            break
             
             # Extract attractions
             for i, attraction in enumerate(self.attractions):

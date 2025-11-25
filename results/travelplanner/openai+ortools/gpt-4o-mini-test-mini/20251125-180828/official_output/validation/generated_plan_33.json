@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Twin Falls\", \"transportation\": \"Flight Number: F3850368, from Salt Lake City to Twin Falls\", \"breakfast\": \"Mamma Mia - Mayfair Lagoon, Salt Lake City\", \"lunch\": \"Sri Balaji, Twin Falls\", \"dinner\": \"The Amazing Buger's, Twin Falls\", \"attraction\": \"Dierkes Lake Park, Twin Falls;Shoshone Falls Park, Twin Falls;\", \"accommodation\": \"NYC Private room with everything included !!, Twin Falls\"}, {\"days\": 2, \"current_city\": \"Twin Falls\", \"transportation\": \"-\", \"breakfast\": \"Haldiram's, Twin Falls\", \"lunch\": \"Yummy Rasoi, Twin Falls\", \"dinner\": \"Sagar Bar-Be Que, Twin Falls\", \"attraction\": \"Evel Knievel Snake River Canyon Jump Site, Twin Falls;Herrett Center, Twin Falls;\", \"accommodation\": \"NYC Private room with everything included !!, Twin Falls\"}, {\"days\": 3, \"current_city\": \"from Twin Falls to Salt Lake City\", \"transportation\": \"Flight Number: F1781179, from Twin Falls to Salt Lake City\", \"breakfast\": \"The Bake Studio, Twin Falls\", \"lunch\": \"Kaushik Bakery, Twin Falls\", \"dinner\": \"New Sethi's, Twin Falls\", \"attraction\": \"Snake River Canyon Rim Trail, Twin Falls;Twin Falls City Park, Twin Falls;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Twin Falls",
+                "transportation": "Flight Number: F3850368, from Salt Lake City to Twin Falls",
+                "breakfast": "Mamma Mia - Mayfair Lagoon, Salt Lake City",
+                "lunch": "Sri Balaji, Twin Falls",
+                "dinner": "The Amazing Buger's, Twin Falls",
+                "attraction": "Dierkes Lake Park, Twin Falls;Shoshone Falls Park, Twin Falls;",
+                "accommodation": "NYC Private room with everything included !!, Twin Falls"
+            },
+            {
+                "days": 2,
+                "current_city": "Twin Falls",
+                "transportation": "-",
+                "breakfast": "Haldiram's, Twin Falls",
+                "lunch": "Yummy Rasoi, Twin Falls",
+                "dinner": "Sagar Bar-Be Que, Twin Falls",
+                "attraction": "Evel Knievel Snake River Canyon Jump Site, Twin Falls;Herrett Center, Twin Falls;",
+                "accommodation": "NYC Private room with everything included !!, Twin Falls"
+            },
+            {
+                "days": 3,
+                "current_city": "from Twin Falls to Salt Lake City",
+                "transportation": "Flight Number: F1781179, from Twin Falls to Salt Lake City",
+                "breakfast": "The Bake Studio, Twin Falls",
+                "lunch": "Kaushik Bakery, Twin Falls",
+                "dinner": "New Sethi's, Twin Falls",
+                "attraction": "Snake River Canyon Rim Trail, Twin Falls;Twin Falls City Park, Twin Falls;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

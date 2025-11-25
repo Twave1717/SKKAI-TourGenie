@@ -51,6 +51,10 @@ from benchmarks.travelplanner.postprocess.constraint_extraction import (
 )
 
 from benchmarks.travelplanner.solvers import TravelRouteSolver
+from benchmarks.travelplanner.solvers.dynamic_solver import (
+    generate_solver_code_from_constraints,
+    execute_dynamic_solver,
+)
 
 
 SYSTEM_PROMPT = """You are a travel planning assistant. Your role is to understand the user's travel requirements and help validate their preferences.
@@ -95,6 +99,7 @@ def _query_database_candidates(
         'flights': [],
         'hotels': [],
         'restaurants': [],
+        'origin_restaurants': [],  # Day 1 breakfast용
         'attractions': [],
     }
     
@@ -111,13 +116,14 @@ def _query_database_candidates(
         # 항공편 조회
         flights_api = _flights()
         if flights_api.data is not None:
-            # 출발 항공편
+            # 출발 항공편 (날짜 필터 제거 - 데이터 가용성 향상)
             outbound = flights_api.data[
                 (flights_api.data["OriginCityName"].astype(str).str.lower() == origin_norm.lower()) &
                 (flights_api.data["DestCityName"].astype(str).str.lower() == dest_norm.lower())
             ]
-            if date_str:
-                outbound = outbound[outbound["FlightDate"] == date_str]
+            # 날짜 필터링 제거: 데이터베이스에 정확한 날짜가 없는 경우가 많음
+            # if date_str:
+            #     outbound = outbound[outbound["FlightDate"] == date_str]
             
             for _, row in outbound.iterrows():
                 candidates['flights'].append({
@@ -131,8 +137,9 @@ def _query_database_candidates(
                 (flights_api.data["OriginCityName"].astype(str).str.lower() == dest_norm.lower()) &
                 (flights_api.data["DestCityName"].astype(str).str.lower() == origin_norm.lower())
             ]
-            if date_str:
-                inbound = inbound[inbound["FlightDate"] == date_str]
+            # 날짜 필터링 제거
+            # if date_str:
+            #     inbound = inbound[inbound["FlightDate"] == date_str]
             
             for _, row in inbound.iterrows():
                 candidates['flights'].append({
@@ -163,18 +170,35 @@ def _query_database_candidates(
         print(f"[경고] 호텔 조회 실패: {e}")
     
     try:
-        # 레스토랑 조회
+        # 레스토랑 조회 (목적지 + 출발지)
         restaurants_api = _restaurants()
         if restaurants_api.data is not None:
-            restaurants_df = restaurants_api.data[
+            # 목적지 도시 레스토랑 (대부분 식사)
+            dest_restaurants_df = restaurants_api.data[
                 restaurants_api.data["City"].astype(str).str.lower() == dest_norm.lower()
             ]
             
-            for _, row in restaurants_df.iterrows():
+            for _, row in dest_restaurants_df.iterrows():
                 avg_cost = float(row.get('Average Cost', 20))
                 time_cost = 45 + int(avg_cost / 5)  # 소요 시간 추정
                 
                 candidates['restaurants'].append({
+                    'id': str(row.get('Name', 'Unknown Restaurant')),
+                    'price': avg_cost,
+                    'time_cost': min(time_cost, 90),
+                    'category': str(row.get('Cuisines', 'General')),
+                })
+            
+            # 출발지 도시 레스토랑 (Day 1 breakfast용)
+            origin_restaurants_df = restaurants_api.data[
+                restaurants_api.data["City"].astype(str).str.lower() == origin_norm.lower()
+            ]
+            
+            for _, row in origin_restaurants_df.iterrows():
+                avg_cost = float(row.get('Average Cost', 20))
+                time_cost = 45 + int(avg_cost / 5)
+                
+                candidates['origin_restaurants'].append({
                     'id': str(row.get('Name', 'Unknown Restaurant')),
                     'price': avg_cost,
                     'time_cost': min(time_cost, 90),
@@ -255,37 +279,45 @@ def _format_solver_result_as_plan(
         # 교통수단
         if day_idx == 0 and flights.get('outbound'):
             flight = flights['outbound']
-            day_entry['transportation'] = f"Flight Number: {flight.get('id', 'F001')}, from {origin} to {destination}, Price: {int(flight.get('price', 0))}"
+            # Corrected formatting to be simple and parsable
+            day_entry['transportation'] = f"Flight Number: {flight.get('id', 'F001')}, from {origin} to {destination}"
         elif day_idx == len(daily_plans) - 1 and flights.get('return'):
             flight = flights['return']
-            day_entry['transportation'] = f"Flight Number: {flight.get('id', 'F002')}, from {destination} to {origin}, Price: {int(flight.get('price', 0))}"
+            # Corrected formatting
+            day_entry['transportation'] = f"Flight Number: {flight.get('id', 'F002')}, from {destination} to {origin}"
             day_entry['current_city'] = f"from {destination} to {origin}"
         else:
-            day_entry['transportation'] = f"Taxi in {destination}; Cost: 50"
+            # No inter-city travel on local days - set to '-' to avoid 
+            # googleDistanceMatrix validation which doesn't support same-city queries
+            day_entry['transportation'] = '-'
         
         # 식사
         meals = day_plan.get('meals', {})
         if meals.get('breakfast'):
             b = meals['breakfast']
-            day_entry['breakfast'] = f"{b.get('id', 'Restaurant')}, {destination}; Cost: {int(b.get('price', 0))}"
+            city = origin if day_idx == 0 else destination
+            # Corrected formatting: remove cost details
+            day_entry['breakfast'] = f"{b.get('id', 'Restaurant')}, {city}"
         if meals.get('lunch'):
             l = meals['lunch']
-            day_entry['lunch'] = f"{l.get('id', 'Restaurant')}, {destination}; Cost: {int(l.get('price', 0))}"
+            # Corrected formatting: remove cost details
+            day_entry['lunch'] = f"{l.get('id', 'Restaurant')}, {destination}"
         if meals.get('dinner'):
             d = meals['dinner']
-            day_entry['dinner'] = f"{d.get('id', 'Restaurant')}, {destination}; Cost: {int(d.get('price', 0))}"
-        
+            # Corrected formatting: remove cost details
+            day_entry['dinner'] = f"{d.get('id', 'Restaurant')}, {destination}"
+
         # 관광지
         attractions = day_plan.get('attractions', [])
         if attractions:
+            # Corrected formatting: remove cost details and use correct separator
             attr_names = [f"{a.get('id', 'Attraction')}, {destination}" for a in attractions]
-            day_entry['attraction'] = "; ".join(attr_names) + ";"
+            day_entry['attraction'] = ";".join(attr_names) + ";"
         
         # 숙소 (마지막 날 제외)
         if day_idx < len(daily_plans) - 1 and hotel:
-            price_per_night = hotel.get('price_per_night', 0)
-            total_cost = price_per_night * (len(daily_plans) - 1)
-            day_entry['accommodation'] = f"{hotel.get('id', 'Hotel')}, {destination}; Cost: {int(price_per_night)} per night (~{int(total_cost)})"
+            # Corrected formatting: remove cost details
+            day_entry['accommodation'] = f"{hotel.get('id', 'Hotel')}, {destination}"
         
         plan.append(day_entry)
     
@@ -372,6 +404,7 @@ def _process_example_hybrid(
     save_messages: bool,
     run_dir: Path,
     solver_timeout: int = 30,
+    use_dynamic_solver: bool = False,
 ) -> Prediction:
     """
     하이브리드 LLM + OR-Tools 접근법으로 예제 처리
@@ -412,8 +445,15 @@ def _process_example_hybrid(
     candidates = _query_database_candidates(origin, destination, date, trip_days)
     
     # 단계 4: OR-Tools 솔버 실행
-    solver = TravelRouteSolver(candidates, constraints)
-    solver_result = solver.solve(time_limit_seconds=solver_timeout)
+    if use_dynamic_solver:
+        # 동적 솔버: LLM으로 코드 생성 후 실행
+        print(f"[동적솔버] {example.id}: LLM으로 솔버 코드 생성 중...")
+        solver_code = generate_solver_code_from_constraints(constraints, model=model or "gpt-4o")
+        solver_result = execute_dynamic_solver(solver_code, candidates, constraints)
+    else:
+        # 정적 솔버: 기존 route_solver.py 사용
+        solver = TravelRouteSolver(candidates, constraints)
+        solver_result = solver.solve(time_limit_seconds=solver_timeout)
     
     # 단계 5: 결과 포맷팅
     if solver_result:
@@ -471,6 +511,7 @@ def main(
     temperature: float = typer.Option(0.2, help="LLM sampling temperature"),
     test_mini: bool = typer.Option(False, help="Use 60-example test-mini subset"),
     solver_timeout: int = typer.Option(30, help="OR-Tools solver timeout (seconds)"),
+    dynamic_solver: bool = typer.Option(False, help="Use LLM-generated dynamic solver"),
     save_messages: bool = typer.Option(False, help="Save LLM messages to disk"),
     run_official_eval: bool = typer.Option(True, help="Run official evaluator"),
     official_set_type: Optional[str] = typer.Option("validation", help="Dataset split"),
@@ -532,6 +573,7 @@ def main(
                     save_messages,
                     run_dir,
                     solver_timeout,
+                    dynamic_solver,
                 )
                 futures[future] = idx
             

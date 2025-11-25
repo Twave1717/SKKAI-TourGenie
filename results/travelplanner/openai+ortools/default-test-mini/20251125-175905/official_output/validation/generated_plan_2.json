@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Oakland to Tucson\", \"transportation\": \"Flight Number: F3946121, from Oakland to Tucson\", \"breakfast\": \"Kake Da Dhaba, Oakland\", \"lunch\": \"Punjabi Zaika, Tucson\", \"dinner\": \"Magic Spice Wok, Tucson\", \"attraction\": \"The Mini Time Machine Museum of Miniatures, Tucson;Old Tucson, Tucson;\", \"accommodation\": \"Private room with private bathroom, Tucson\"}, {\"days\": 2, \"current_city\": \"Tucson\", \"transportation\": \"-\", \"breakfast\": \"Selfie Lounge Restro & Bar, Tucson\", \"lunch\": \"Canteen Till I Die, Tucson\", \"dinner\": \"Uraki, Tucson\", \"attraction\": \"Flandrau Science Center and Planetarium, Tucson;Tucson Rodeo Parade Museum, Tucson;\", \"accommodation\": \"Private room with private bathroom, Tucson\"}, {\"days\": 3, \"current_city\": \"from Tucson to Oakland\", \"transportation\": \"Flight Number: F0683082, from Tucson to Oakland\", \"breakfast\": \"Delhi Foods, Tucson\", \"lunch\": \"Pizza Street, Tucson\", \"dinner\": \"Mood 4 Food, Tucson\", \"attraction\": \"Tumamoc Hill, Tucson;Tucson Museum Of Art, Tucson;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Oakland to Tucson",
+                "transportation": "Flight Number: F3946121, from Oakland to Tucson",
+                "breakfast": "Kake Da Dhaba, Oakland",
+                "lunch": "Punjabi Zaika, Tucson",
+                "dinner": "Magic Spice Wok, Tucson",
+                "attraction": "The Mini Time Machine Museum of Miniatures, Tucson;Old Tucson, Tucson;",
+                "accommodation": "Private room with private bathroom, Tucson"
+            },
+            {
+                "days": 2,
+                "current_city": "Tucson",
+                "transportation": "-",
+                "breakfast": "Selfie Lounge Restro & Bar, Tucson",
+                "lunch": "Canteen Till I Die, Tucson",
+                "dinner": "Uraki, Tucson",
+                "attraction": "Flandrau Science Center and Planetarium, Tucson;Tucson Rodeo Parade Museum, Tucson;",
+                "accommodation": "Private room with private bathroom, Tucson"
+            },
+            {
+                "days": 3,
+                "current_city": "from Tucson to Oakland",
+                "transportation": "Flight Number: F0683082, from Tucson to Oakland",
+                "breakfast": "Delhi Foods, Tucson",
+                "lunch": "Pizza Street, Tucson",
+                "dinner": "Mood 4 Food, Tucson",
+                "attraction": "Tumamoc Hill, Tucson;Tucson Museum Of Art, Tucson;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

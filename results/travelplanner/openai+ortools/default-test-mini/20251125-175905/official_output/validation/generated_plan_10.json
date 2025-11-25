@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Minneapolis to St. Louis\", \"transportation\": \"Flight Number: F1781014, from Minneapolis to St. Louis\", \"breakfast\": \"The Cafe, Minneapolis\", \"lunch\": \"Keventers, St. Louis\", \"dinner\": \"Balaji Eating Point, St. Louis\", \"attraction\": \"Saint Louis Art Museum, St. Louis;Citygarden Sculpture Park, St. Louis;\", \"accommodation\": \"Peaceful room in Bushwick, St. Louis\"}, {\"days\": 2, \"current_city\": \"St. Louis\", \"transportation\": \"-\", \"breakfast\": \"Burger King, St. Louis\", \"lunch\": \"The Latitude - Radisson Blu, St. Louis\", \"dinner\": \"IndoCheen, St. Louis\", \"attraction\": \"Forest Park, St. Louis;Missouri Botanical Garden, St. Louis;\", \"accommodation\": \"Peaceful room in Bushwick, St. Louis\"}, {\"days\": 3, \"current_city\": \"from St. Louis to Minneapolis\", \"transportation\": \"Flight Number: F3360916, from St. Louis to Minneapolis\", \"breakfast\": \"Tingling Pepper, St. Louis\", \"lunch\": \"Om Sweets, St. Louis\", \"dinner\": \"Cafe Coffee Day, St. Louis\", \"attraction\": \"Saint Louis Zoo, St. Louis;City Museum, St. Louis;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Minneapolis to St. Louis",
+                "transportation": "Flight Number: F1781014, from Minneapolis to St. Louis",
+                "breakfast": "The Cafe, Minneapolis",
+                "lunch": "Keventers, St. Louis",
+                "dinner": "Balaji Eating Point, St. Louis",
+                "attraction": "Saint Louis Art Museum, St. Louis;Citygarden Sculpture Park, St. Louis;",
+                "accommodation": "Peaceful room in Bushwick, St. Louis"
+            },
+            {
+                "days": 2,
+                "current_city": "St. Louis",
+                "transportation": "-",
+                "breakfast": "Burger King, St. Louis",
+                "lunch": "The Latitude - Radisson Blu, St. Louis",
+                "dinner": "IndoCheen, St. Louis",
+                "attraction": "Forest Park, St. Louis;Missouri Botanical Garden, St. Louis;",
+                "accommodation": "Peaceful room in Bushwick, St. Louis"
+            },
+            {
+                "days": 3,
+                "current_city": "from St. Louis to Minneapolis",
+                "transportation": "Flight Number: F3360916, from St. Louis to Minneapolis",
+                "breakfast": "Tingling Pepper, St. Louis",
+                "lunch": "Om Sweets, St. Louis",
+                "dinner": "Cafe Coffee Day, St. Louis",
+                "attraction": "Saint Louis Zoo, St. Louis;City Museum, St. Louis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
