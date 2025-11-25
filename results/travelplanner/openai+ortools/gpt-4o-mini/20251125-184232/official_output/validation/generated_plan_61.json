@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from New York to Reno\", \"transportation\": \"Flight Number: F2007464, from New York to Reno\", \"breakfast\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York\", \"lunch\": \"Khaao Peeyo, Reno\", \"dinner\": \"Uncle Xpress, Reno\", \"attraction\": \"Rancho San Rafael Regional Park, Reno;Wilbur D. May Center, Reno;\", \"accommodation\": \"Sunny and large bedroom in Williamsburg Apartment, Reno\"}, {\"days\": 2, \"current_city\": \"Reno\", \"transportation\": \"-\", \"breakfast\": \"Adarsh Kulfi, Reno\", \"lunch\": \"Indian Gourmet, Reno\", \"dinner\": \"Sugar Ruffles, Reno\", \"attraction\": \"National Automobile Museum, Reno;Fleischmann Planetarium, Reno;\", \"accommodation\": \"Sunny and large bedroom in Williamsburg Apartment, Reno\"}, {\"days\": 3, \"current_city\": \"from Reno to New York\", \"transportation\": \"Flight Number: F3771991, from Reno to New York\", \"breakfast\": \"Maharashtra Food Stall, Reno\", \"lunch\": \"Nusr-Et, Reno\", \"dinner\": \"Foodies Joint, Reno\", \"attraction\": \"Nevada Museum of Art, Reno;The Discovery, Reno;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from New York to Reno",
+                "transportation": "Flight Number: F2007464, from New York to Reno",
+                "breakfast": "Aryan's Rajasthani Pyaz Ki Kachori, New York",
+                "lunch": "Khaao Peeyo, Reno",
+                "dinner": "Uncle Xpress, Reno",
+                "attraction": "Rancho San Rafael Regional Park, Reno;Wilbur D. May Center, Reno;",
+                "accommodation": "Sunny and large bedroom in Williamsburg Apartment, Reno"
+            },
+            {
+                "days": 2,
+                "current_city": "Reno",
+                "transportation": "-",
+                "breakfast": "Adarsh Kulfi, Reno",
+                "lunch": "Indian Gourmet, Reno",
+                "dinner": "Sugar Ruffles, Reno",
+                "attraction": "National Automobile Museum, Reno;Fleischmann Planetarium, Reno;",
+                "accommodation": "Sunny and large bedroom in Williamsburg Apartment, Reno"
+            },
+            {
+                "days": 3,
+                "current_city": "from Reno to New York",
+                "transportation": "Flight Number: F3771991, from Reno to New York",
+                "breakfast": "Maharashtra Food Stall, Reno",
+                "lunch": "Nusr-Et, Reno",
+                "dinner": "Foodies Joint, Reno",
+                "attraction": "Nevada Museum of Art, Reno;The Discovery, Reno;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

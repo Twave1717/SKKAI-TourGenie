@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Louis to Las Vegas\", \"transportation\": \"Flight Number: F4003634, from St. Louis to Las Vegas\", \"breakfast\": \"IndoCheen, St. Louis\", \"lunch\": \"Letz Roll, Las Vegas\", \"dinner\": \"Ethos Vegan Kitchen, Las Vegas\", \"attraction\": \"Gondola Rides at the Venetian, Las Vegas;Eiffel Tower Viewing Deck, Las Vegas;\", \"accommodation\": \"Cozy modern stay, Las Vegas\"}, {\"days\": 2, \"current_city\": \"Las Vegas\", \"transportation\": \"-\", \"breakfast\": \"Bake Your Dreamz, Las Vegas\", \"lunch\": \"Johnny Rockets, Las Vegas\", \"dinner\": \"Sindh Snacks, Las Vegas\", \"attraction\": \"SlotZilla Zipline Las Vegas, Las Vegas;Vegas Vic - Famous Neon Cowboy Sign, Las Vegas;\", \"accommodation\": \"Cozy modern stay, Las Vegas\"}, {\"days\": 3, \"current_city\": \"from Las Vegas to St. Louis\", \"transportation\": \"Flight Number: F3570281, from Las Vegas to St. Louis\", \"breakfast\": \"Papa Pizza, Las Vegas\", \"lunch\": \"Gulati Ki Rasoi, Las Vegas\", \"dinner\": \"Big Brewsky, Las Vegas\", \"attraction\": \"Lake of Dreams, Las Vegas;Shark Reef Aquarium at Mandalay Bay, Las Vegas;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Louis to Las Vegas",
+                "transportation": "Flight Number: F4003634, from St. Louis to Las Vegas",
+                "breakfast": "IndoCheen, St. Louis",
+                "lunch": "Letz Roll, Las Vegas",
+                "dinner": "Ethos Vegan Kitchen, Las Vegas",
+                "attraction": "Gondola Rides at the Venetian, Las Vegas;Eiffel Tower Viewing Deck, Las Vegas;",
+                "accommodation": "Cozy modern stay, Las Vegas"
+            },
+            {
+                "days": 2,
+                "current_city": "Las Vegas",
+                "transportation": "-",
+                "breakfast": "Bake Your Dreamz, Las Vegas",
+                "lunch": "Johnny Rockets, Las Vegas",
+                "dinner": "Sindh Snacks, Las Vegas",
+                "attraction": "SlotZilla Zipline Las Vegas, Las Vegas;Vegas Vic - Famous Neon Cowboy Sign, Las Vegas;",
+                "accommodation": "Cozy modern stay, Las Vegas"
+            },
+            {
+                "days": 3,
+                "current_city": "from Las Vegas to St. Louis",
+                "transportation": "Flight Number: F3570281, from Las Vegas to St. Louis",
+                "breakfast": "Papa Pizza, Las Vegas",
+                "lunch": "Gulati Ki Rasoi, Las Vegas",
+                "dinner": "Big Brewsky, Las Vegas",
+                "attraction": "Lake of Dreams, Las Vegas;Shark Reef Aquarium at Mandalay Bay, Las Vegas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Islip to Pennsylvania\", \"transportation\": \"-\", \"breakfast\": \"Smoke House BBQ and Catering, Islip\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 2, \"current_city\": \"Pennsylvania\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 3, \"current_city\": \"Pennsylvania\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 4, \"current_city\": \"Pennsylvania\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 5, \"current_city\": \"Pennsylvania\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Islip to Pennsylvania",
+                "transportation": "-",
+                "breakfast": "Smoke House BBQ and Catering, Islip",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 2,
+                "current_city": "Pennsylvania",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 3,
+                "current_city": "Pennsylvania",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 4,
+                "current_city": "Pennsylvania",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 5,
+                "current_city": "Pennsylvania",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

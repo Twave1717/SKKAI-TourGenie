@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Chicago to Albuquerque\", \"transportation\": \"Flight Number: F0614569, from Chicago to Albuquerque\", \"breakfast\": \"Subway, Chicago\", \"lunch\": \"Genghis Grill, Albuquerque\", \"dinner\": \"Choco House, Albuquerque\", \"attraction\": \"Explora Science Center and Children's Museum of Albuquerque, Albuquerque;Petroglyph National Monument, Albuquerque;\", \"accommodation\": \"Harlem apartment, Albuquerque\"}, {\"days\": 2, \"current_city\": \"Albuquerque\", \"transportation\": \"-\", \"breakfast\": \"La Parada, Albuquerque\", \"lunch\": \"Alley's Urbane Cafe, Albuquerque\", \"dinner\": \"Punjabi Shahi Chicken Soup, Albuquerque\", \"attraction\": \"Winter Wonderland NM, Albuquerque;Glass Gardens, Albuquerque;\", \"accommodation\": \"Harlem apartment, Albuquerque\"}, {\"days\": 3, \"current_city\": \"from Albuquerque to Chicago\", \"transportation\": \"Flight Number: F2682239, from Albuquerque to Chicago\", \"breakfast\": \"Puja Sandwich House, Albuquerque\", \"lunch\": \"Punjab Grill, Albuquerque\", \"dinner\": \"Hawkers, Albuquerque\", \"attraction\": \"Sandia Peak Tramway, Albuquerque;Madonna Of The Trail, Albuquerque;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chicago to Albuquerque",
+                "transportation": "Flight Number: F0614569, from Chicago to Albuquerque",
+                "breakfast": "Subway, Chicago",
+                "lunch": "Genghis Grill, Albuquerque",
+                "dinner": "Choco House, Albuquerque",
+                "attraction": "Explora Science Center and Children's Museum of Albuquerque, Albuquerque;Petroglyph National Monument, Albuquerque;",
+                "accommodation": "Harlem apartment, Albuquerque"
+            },
+            {
+                "days": 2,
+                "current_city": "Albuquerque",
+                "transportation": "-",
+                "breakfast": "La Parada, Albuquerque",
+                "lunch": "Alley's Urbane Cafe, Albuquerque",
+                "dinner": "Punjabi Shahi Chicken Soup, Albuquerque",
+                "attraction": "Winter Wonderland NM, Albuquerque;Glass Gardens, Albuquerque;",
+                "accommodation": "Harlem apartment, Albuquerque"
+            },
+            {
+                "days": 3,
+                "current_city": "from Albuquerque to Chicago",
+                "transportation": "Flight Number: F2682239, from Albuquerque to Chicago",
+                "breakfast": "Puja Sandwich House, Albuquerque",
+                "lunch": "Punjab Grill, Albuquerque",
+                "dinner": "Hawkers, Albuquerque",
+                "attraction": "Sandia Peak Tramway, Albuquerque;Madonna Of The Trail, Albuquerque;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

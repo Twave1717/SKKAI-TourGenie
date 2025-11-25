@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Eugene to Los Angeles\", \"transportation\": \"Flight Number: F2109916, from Eugene to Los Angeles\", \"breakfast\": \"Punjabi Tadka, Eugene\", \"lunch\": \"Niti Shake & Ice Cream Hub, Los Angeles\", \"dinner\": \"Rajdhani Restaurant, Los Angeles\", \"attraction\": \"Hollywood Sign, Los Angeles;Universal Studios Hollywood, Los Angeles;\", \"accommodation\": \"Lovely studio, Los Angeles\"}, {\"days\": 2, \"current_city\": \"Los Angeles\", \"transportation\": \"-\", \"breakfast\": \"Palmshore, Los Angeles\", \"lunch\": \"Onokabe, Los Angeles\", \"dinner\": \"Chicken Minar, Los Angeles\", \"attraction\": \"Los Angeles County Museum of Art, Los Angeles;Old Los Angeles Zoo, Los Angeles;\", \"accommodation\": \"Lovely studio, Los Angeles\"}, {\"days\": 3, \"current_city\": \"from Los Angeles to Eugene\", \"transportation\": \"Flight Number: F2368806, from Los Angeles to Eugene\", \"breakfast\": \"Choco Kraft, Los Angeles\", \"lunch\": \"Barista, Los Angeles\", \"dinner\": \"Shree Manakamna Fast Food, Los Angeles\", \"attraction\": \"Paramount Pictures Studio Tour, Los Angeles;Hollywood Wax Museum, Los Angeles;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Eugene to Los Angeles",
+                "transportation": "Flight Number: F2109916, from Eugene to Los Angeles",
+                "breakfast": "Punjabi Tadka, Eugene",
+                "lunch": "Niti Shake & Ice Cream Hub, Los Angeles",
+                "dinner": "Rajdhani Restaurant, Los Angeles",
+                "attraction": "Hollywood Sign, Los Angeles;Universal Studios Hollywood, Los Angeles;",
+                "accommodation": "Lovely studio, Los Angeles"
+            },
+            {
+                "days": 2,
+                "current_city": "Los Angeles",
+                "transportation": "-",
+                "breakfast": "Palmshore, Los Angeles",
+                "lunch": "Onokabe, Los Angeles",
+                "dinner": "Chicken Minar, Los Angeles",
+                "attraction": "Los Angeles County Museum of Art, Los Angeles;Old Los Angeles Zoo, Los Angeles;",
+                "accommodation": "Lovely studio, Los Angeles"
+            },
+            {
+                "days": 3,
+                "current_city": "from Los Angeles to Eugene",
+                "transportation": "Flight Number: F2368806, from Los Angeles to Eugene",
+                "breakfast": "Choco Kraft, Los Angeles",
+                "lunch": "Barista, Los Angeles",
+                "dinner": "Shree Manakamna Fast Food, Los Angeles",
+                "attraction": "Paramount Pictures Studio Tour, Los Angeles;Hollywood Wax Museum, Los Angeles;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

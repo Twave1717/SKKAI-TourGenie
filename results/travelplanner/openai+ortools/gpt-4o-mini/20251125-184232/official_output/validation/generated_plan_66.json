@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Manchester to Charlotte\", \"transportation\": \"Flight Number: F1719859, from Manchester to Charlotte\", \"breakfast\": \"NCR Cafe , Manchester\", \"lunch\": \"Dial a Cake, Charlotte\", \"dinner\": \"Life Grand Cafe, Charlotte\", \"attraction\": \"Discovery Place Science, Charlotte;The Mint Museum, Charlotte;\", \"accommodation\": \"Luxury 2 bdr/2 bath prime Williamburg, Charlotte\"}, {\"days\": 2, \"current_city\": \"Charlotte\", \"transportation\": \"-\", \"breakfast\": \"Olive Tree Cafe, Charlotte\", \"lunch\": \"Burger King, Charlotte\", \"dinner\": \"China Garden, Charlotte\", \"attraction\": \"Reedy Creek Nature Center, Charlotte;Books Monument, Charlotte;\", \"accommodation\": \"Luxury 2 bdr/2 bath prime Williamburg, Charlotte\"}, {\"days\": 3, \"current_city\": \"from Charlotte to Manchester\", \"transportation\": \"Flight Number: F3786309, from Charlotte to Manchester\", \"breakfast\": \"Prince Snacks & Momo's Point, Charlotte\", \"lunch\": \"Behrouz Biryani, Charlotte\", \"dinner\": \"Chicken Inn, Charlotte\", \"attraction\": \"Billy Graham Library, Charlotte;Romare Bearden Park, Charlotte;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Manchester to Charlotte",
+                "transportation": "Flight Number: F1719859, from Manchester to Charlotte",
+                "breakfast": "NCR Cafe , Manchester",
+                "lunch": "Dial a Cake, Charlotte",
+                "dinner": "Life Grand Cafe, Charlotte",
+                "attraction": "Discovery Place Science, Charlotte;The Mint Museum, Charlotte;",
+                "accommodation": "Luxury 2 bdr/2 bath prime Williamburg, Charlotte"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "-",
+                "breakfast": "Olive Tree Cafe, Charlotte",
+                "lunch": "Burger King, Charlotte",
+                "dinner": "China Garden, Charlotte",
+                "attraction": "Reedy Creek Nature Center, Charlotte;Books Monument, Charlotte;",
+                "accommodation": "Luxury 2 bdr/2 bath prime Williamburg, Charlotte"
+            },
+            {
+                "days": 3,
+                "current_city": "from Charlotte to Manchester",
+                "transportation": "Flight Number: F3786309, from Charlotte to Manchester",
+                "breakfast": "Prince Snacks & Momo's Point, Charlotte",
+                "lunch": "Behrouz Biryani, Charlotte",
+                "dinner": "Chicken Inn, Charlotte",
+                "attraction": "Billy Graham Library, Charlotte;Romare Bearden Park, Charlotte;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

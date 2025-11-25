@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Milwaukee to New York\", \"transportation\": \"Flight Number: F3218022, from Milwaukee to New York\", \"breakfast\": \"Frontier, Milwaukee\", \"lunch\": \"Seasons 52 Fresh Grill, New York\", \"dinner\": \"Kamal Chat Bhandar, New York\", \"attraction\": \"Top of The Rock, New York;Tenement Museum, New York;\", \"accommodation\": \"A Contemporary Homelike Stay in the Best of BK, New York\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"-\", \"breakfast\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York\", \"lunch\": \"Gurgaon Hights, New York\", \"dinner\": \"Garam Masala Food Corner, New York\", \"attraction\": \"Statue of Liberty, New York;The Channel Gardens, New York;\", \"accommodation\": \"A Contemporary Homelike Stay in the Best of BK, New York\"}, {\"days\": 3, \"current_city\": \"from New York to Milwaukee\", \"transportation\": \"Flight Number: F2781569, from New York to Milwaukee\", \"breakfast\": \"Green Chick Chop, New York\", \"lunch\": \"Baltazar, New York\", \"dinner\": \"Golooji's Chat Waat, New York\", \"attraction\": \"Flatiron Building, New York;Tiffany Street Clock, New York;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Milwaukee to New York",
+                "transportation": "Flight Number: F3218022, from Milwaukee to New York",
+                "breakfast": "Frontier, Milwaukee",
+                "lunch": "Seasons 52 Fresh Grill, New York",
+                "dinner": "Kamal Chat Bhandar, New York",
+                "attraction": "Top of The Rock, New York;Tenement Museum, New York;",
+                "accommodation": "A Contemporary Homelike Stay in the Best of BK, New York"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "-",
+                "breakfast": "Aryan's Rajasthani Pyaz Ki Kachori, New York",
+                "lunch": "Gurgaon Hights, New York",
+                "dinner": "Garam Masala Food Corner, New York",
+                "attraction": "Statue of Liberty, New York;The Channel Gardens, New York;",
+                "accommodation": "A Contemporary Homelike Stay in the Best of BK, New York"
+            },
+            {
+                "days": 3,
+                "current_city": "from New York to Milwaukee",
+                "transportation": "Flight Number: F2781569, from New York to Milwaukee",
+                "breakfast": "Green Chick Chop, New York",
+                "lunch": "Baltazar, New York",
+                "dinner": "Golooji's Chat Waat, New York",
+                "attraction": "Flatiron Building, New York;Tiffany Street Clock, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

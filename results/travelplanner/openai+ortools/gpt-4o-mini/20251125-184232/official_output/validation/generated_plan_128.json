@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Houston to Pensacola\", \"transportation\": \"Flight Number: F1680309, from Houston to Pensacola\", \"breakfast\": \"Vinayaka Mylari, Houston\", \"lunch\": \"Berry Patch Restaurant, Pensacola\", \"dinner\": \"Jyoti Dhaba, Pensacola\", \"attraction\": \"The Graffiti Bridge, Pensacola;Pensacola Children's Museum, Pensacola;\", \"accommodation\": \"1D  Private Rm  in Guesthouse Manhattan, Pensacola\"}, {\"days\": 2, \"current_city\": \"Pensacola\", \"transportation\": \"-\", \"breakfast\": \"Frog Hollow Tavern, Pensacola\", \"lunch\": \"Bailey's Bar-B-Que, Pensacola\", \"dinner\": \"Watershed Cafe, Pensacola\", \"attraction\": \"Palafox Street Downtown Pensacola, Pensacola;Plaza De Luna Memorial Monument, Pensacola;\", \"accommodation\": \"1D  Private Rm  in Guesthouse Manhattan, Pensacola\"}, {\"days\": 3, \"current_city\": \"from Pensacola to Houston\", \"transportation\": \"Flight Number: F3856217, from Pensacola to Houston\", \"breakfast\": \"Gaga Manjero, Pensacola\", \"lunch\": \"Eggspectation - Jaypee Siddharth, Pensacola\", \"dinner\": \"Code, Pensacola\", \"attraction\": \"Historic Pensacola Village, Pensacola;Pensacola Museum of Art, Pensacola;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Houston to Pensacola",
+                "transportation": "Flight Number: F1680309, from Houston to Pensacola",
+                "breakfast": "Vinayaka Mylari, Houston",
+                "lunch": "Berry Patch Restaurant, Pensacola",
+                "dinner": "Jyoti Dhaba, Pensacola",
+                "attraction": "The Graffiti Bridge, Pensacola;Pensacola Children's Museum, Pensacola;",
+                "accommodation": "1D  Private Rm  in Guesthouse Manhattan, Pensacola"
+            },
+            {
+                "days": 2,
+                "current_city": "Pensacola",
+                "transportation": "-",
+                "breakfast": "Frog Hollow Tavern, Pensacola",
+                "lunch": "Bailey's Bar-B-Que, Pensacola",
+                "dinner": "Watershed Cafe, Pensacola",
+                "attraction": "Palafox Street Downtown Pensacola, Pensacola;Plaza De Luna Memorial Monument, Pensacola;",
+                "accommodation": "1D  Private Rm  in Guesthouse Manhattan, Pensacola"
+            },
+            {
+                "days": 3,
+                "current_city": "from Pensacola to Houston",
+                "transportation": "Flight Number: F3856217, from Pensacola to Houston",
+                "breakfast": "Gaga Manjero, Pensacola",
+                "lunch": "Eggspectation - Jaypee Siddharth, Pensacola",
+                "dinner": "Code, Pensacola",
+                "attraction": "Historic Pensacola Village, Pensacola;Pensacola Museum of Art, Pensacola;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

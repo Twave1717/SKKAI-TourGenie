@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Nashville to Detroit\", \"transportation\": \"Flight Number: F3499119, from Nashville to Detroit\", \"breakfast\": \"Kitchen King, Nashville\", \"lunch\": \"Desi Spice, Detroit\", \"dinner\": \"Cafe 6, Detroit\", \"attraction\": \"Campus Martius Park, Detroit;Detroit Zoo, Detroit;\", \"accommodation\": \"Lovely, charming and clean bedroom in Manhattan., Detroit\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"-\", \"breakfast\": \"Southern Bliss Bakery, Detroit\", \"lunch\": \"52 Food Express, Detroit\", \"dinner\": \"N. Iqbal Restaurant, Detroit\", \"attraction\": \"Historic Fort Wayne, Detroit;Grand Circus Park, Detroit;\", \"accommodation\": \"Lovely, charming and clean bedroom in Manhattan., Detroit\"}, {\"days\": 3, \"current_city\": \"from Detroit to Nashville\", \"transportation\": \"Flight Number: F3522878, from Detroit to Nashville\", \"breakfast\": \"Mitalis Kitchen, Detroit\", \"lunch\": \"Aapki Rasoi, Detroit\", \"dinner\": \"BMG - All Day Dining, Detroit\", \"attraction\": \"Detroit Riverfront Conservancy, Detroit;Detroit Riverwalk, Detroit;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Nashville to Detroit",
+                "transportation": "Flight Number: F3499119, from Nashville to Detroit",
+                "breakfast": "Kitchen King, Nashville",
+                "lunch": "Desi Spice, Detroit",
+                "dinner": "Cafe 6, Detroit",
+                "attraction": "Campus Martius Park, Detroit;Detroit Zoo, Detroit;",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "-",
+                "breakfast": "Southern Bliss Bakery, Detroit",
+                "lunch": "52 Food Express, Detroit",
+                "dinner": "N. Iqbal Restaurant, Detroit",
+                "attraction": "Historic Fort Wayne, Detroit;Grand Circus Park, Detroit;",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit"
+            },
+            {
+                "days": 3,
+                "current_city": "from Detroit to Nashville",
+                "transportation": "Flight Number: F3522878, from Detroit to Nashville",
+                "breakfast": "Mitalis Kitchen, Detroit",
+                "lunch": "Aapki Rasoi, Detroit",
+                "dinner": "BMG - All Day Dining, Detroit",
+                "attraction": "Detroit Riverfront Conservancy, Detroit;Detroit Riverwalk, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

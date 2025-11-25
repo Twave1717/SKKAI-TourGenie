@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Houston to Wichita\", \"transportation\": \"Flight Number: F3917896, from Houston to Wichita\", \"breakfast\": \"Vinayaka Mylari, Houston\", \"lunch\": \"Jahanpanah, Wichita\", \"dinner\": \"Chimney - The Takeaway, Wichita\", \"attraction\": \"Museum of World Treasures, Wichita;Wichita Art Museum, Wichita;\", \"accommodation\": \"LL2, Wichita\"}, {\"days\": 2, \"current_city\": \"Wichita\", \"transportation\": \"-\", \"breakfast\": \"I:ba Cafe & Restaurant, Wichita\", \"lunch\": \"Carbon Bistro, Wichita\", \"dinner\": \"Yummy Chinese Food, Wichita\", \"attraction\": \"All Star Adventures, Wichita;Wichita Toy Train Club & Museum, Wichita;\", \"accommodation\": \"LL2, Wichita\"}, {\"days\": 3, \"current_city\": \"from Wichita to Houston\", \"transportation\": \"Flight Number: F3933688, from Wichita to Houston\", \"breakfast\": \"The Cake Affairs, Wichita\", \"lunch\": \"Dinesh Ka Mithila Dhaba, Wichita\", \"dinner\": \"The B.A.W.A, Wichita\", \"attraction\": \"Mid-America All-Indian Museum, Wichita;Ulrich Museum of Art, Wichita;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Houston to Wichita",
+                "transportation": "Flight Number: F3917896, from Houston to Wichita",
+                "breakfast": "Vinayaka Mylari, Houston",
+                "lunch": "Jahanpanah, Wichita",
+                "dinner": "Chimney - The Takeaway, Wichita",
+                "attraction": "Museum of World Treasures, Wichita;Wichita Art Museum, Wichita;",
+                "accommodation": "LL2, Wichita"
+            },
+            {
+                "days": 2,
+                "current_city": "Wichita",
+                "transportation": "-",
+                "breakfast": "I:ba Cafe & Restaurant, Wichita",
+                "lunch": "Carbon Bistro, Wichita",
+                "dinner": "Yummy Chinese Food, Wichita",
+                "attraction": "All Star Adventures, Wichita;Wichita Toy Train Club & Museum, Wichita;",
+                "accommodation": "LL2, Wichita"
+            },
+            {
+                "days": 3,
+                "current_city": "from Wichita to Houston",
+                "transportation": "Flight Number: F3933688, from Wichita to Houston",
+                "breakfast": "The Cake Affairs, Wichita",
+                "lunch": "Dinesh Ka Mithila Dhaba, Wichita",
+                "dinner": "The B.A.W.A, Wichita",
+                "attraction": "Mid-America All-Indian Museum, Wichita;Ulrich Museum of Art, Wichita;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

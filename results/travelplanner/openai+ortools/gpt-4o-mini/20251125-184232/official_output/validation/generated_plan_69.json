@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Panama City to Nashville\", \"transportation\": \"Flight Number: F3971446, from Panama City to Nashville\", \"breakfast\": \"Chinese Express, Panama City\", \"lunch\": \"Chicago Pizza, Nashville\", \"dinner\": \"Kitchen King, Nashville\", \"attraction\": \"Centennial Park, Nashville;Grand Ole Opry, Nashville;\", \"accommodation\": \"Lovely room in heart of Williamsburg, Nashville\"}, {\"days\": 2, \"current_city\": \"Nashville\", \"transportation\": \"-\", \"breakfast\": \"Meenakshi Bhawan, Nashville\", \"lunch\": \"Twigly, Nashville\", \"dinner\": \"Govinda's Confectionery, Nashville\", \"attraction\": \"Belle Meade Historic Site & Winery, Nashville;Johnny Cash Museum, Nashville;\", \"accommodation\": \"Lovely room in heart of Williamsburg, Nashville\"}, {\"days\": 3, \"current_city\": \"from Nashville to Panama City\", \"transportation\": \"Flight Number: F3122601, from Nashville to Panama City\", \"breakfast\": \"Bablu Fast Food, Nashville\", \"lunch\": \"Veg Hut, Nashville\", \"dinner\": \"GoGourmet, Nashville\", \"attraction\": \"Country Music Hall of Fame and Museum, Nashville;Nashville Zoo at Grassmere, Nashville;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Panama City to Nashville",
+                "transportation": "Flight Number: F3971446, from Panama City to Nashville",
+                "breakfast": "Chinese Express, Panama City",
+                "lunch": "Chicago Pizza, Nashville",
+                "dinner": "Kitchen King, Nashville",
+                "attraction": "Centennial Park, Nashville;Grand Ole Opry, Nashville;",
+                "accommodation": "Lovely room in heart of Williamsburg, Nashville"
+            },
+            {
+                "days": 2,
+                "current_city": "Nashville",
+                "transportation": "-",
+                "breakfast": "Meenakshi Bhawan, Nashville",
+                "lunch": "Twigly, Nashville",
+                "dinner": "Govinda's Confectionery, Nashville",
+                "attraction": "Belle Meade Historic Site & Winery, Nashville;Johnny Cash Museum, Nashville;",
+                "accommodation": "Lovely room in heart of Williamsburg, Nashville"
+            },
+            {
+                "days": 3,
+                "current_city": "from Nashville to Panama City",
+                "transportation": "Flight Number: F3122601, from Nashville to Panama City",
+                "breakfast": "Bablu Fast Food, Nashville",
+                "lunch": "Veg Hut, Nashville",
+                "dinner": "GoGourmet, Nashville",
+                "attraction": "Country Music Hall of Fame and Museum, Nashville;Nashville Zoo at Grassmere, Nashville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

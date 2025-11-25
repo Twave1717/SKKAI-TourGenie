@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Chicago to Albany\", \"transportation\": \"Flight Number: F0647852, from Chicago to Albany\", \"breakfast\": \"Subway, Chicago\", \"lunch\": \"Bansiwala Restaurant, Albany\", \"dinner\": \"Abdullah Biryani Centre, Albany\", \"attraction\": \"Hear about Here, Albany;Discover Albany Visitors Center, Albany;\", \"accommodation\": \"Stylish Room w/ 2 Twin Beds in Times Square, Albany\"}, {\"days\": 2, \"current_city\": \"Albany\", \"transportation\": \"-\", \"breakfast\": \"Laalwala's, Albany\", \"lunch\": \"Desi Villa, Albany\", \"dinner\": \"Jahangeer Foods, Albany\", \"attraction\": \"Schuyler Mansion State Historic Site, Albany;Albany Pine Bush Preserve, Albany;\", \"accommodation\": \"Stylish Room w/ 2 Twin Beds in Times Square, Albany\"}, {\"days\": 3, \"current_city\": \"from Albany to Chicago\", \"transportation\": \"Flight Number: F4072315, from Albany to Chicago\", \"breakfast\": \"Cafe Coffee Day The Square, Albany\", \"lunch\": \"PiccoLicko, Albany\", \"dinner\": \"Starvin' Marvin, Albany\", \"attraction\": \"Albany Institute of History & Art, Albany;New York State Museum, Albany;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Chicago to Albany",
+                "transportation": "Flight Number: F0647852, from Chicago to Albany",
+                "breakfast": "Subway, Chicago",
+                "lunch": "Bansiwala Restaurant, Albany",
+                "dinner": "Abdullah Biryani Centre, Albany",
+                "attraction": "Hear about Here, Albany;Discover Albany Visitors Center, Albany;",
+                "accommodation": "Stylish Room w/ 2 Twin Beds in Times Square, Albany"
+            },
+            {
+                "days": 2,
+                "current_city": "Albany",
+                "transportation": "-",
+                "breakfast": "Laalwala's, Albany",
+                "lunch": "Desi Villa, Albany",
+                "dinner": "Jahangeer Foods, Albany",
+                "attraction": "Schuyler Mansion State Historic Site, Albany;Albany Pine Bush Preserve, Albany;",
+                "accommodation": "Stylish Room w/ 2 Twin Beds in Times Square, Albany"
+            },
+            {
+                "days": 3,
+                "current_city": "from Albany to Chicago",
+                "transportation": "Flight Number: F4072315, from Albany to Chicago",
+                "breakfast": "Cafe Coffee Day The Square, Albany",
+                "lunch": "PiccoLicko, Albany",
+                "dinner": "Starvin' Marvin, Albany",
+                "attraction": "Albany Institute of History & Art, Albany;New York State Museum, Albany;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

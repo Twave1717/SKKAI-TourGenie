@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Cincinnati to Philadelphia\", \"transportation\": \"Flight Number: F1963254, from Cincinnati to Philadelphia\", \"breakfast\": \"Daily Belly, Cincinnati\", \"lunch\": \"Mini Mughal, Philadelphia\", \"dinner\": \"Arabian & Turkish Caf愆, Philadelphia\", \"attraction\": \"Philadelphia's Magic Gardens, Philadelphia;Liberty Bell, Philadelphia;\", \"accommodation\": \"Brooklyn Room in Hip Neighborhood - Close to Train, Philadelphia\"}, {\"days\": 2, \"current_city\": \"Philadelphia\", \"transportation\": \"-\", \"breakfast\": \"Bangla Sweet Corner, Philadelphia\", \"lunch\": \"Red Mesa Cantina, Philadelphia\", \"dinner\": \"Momozone, Philadelphia\", \"attraction\": \"Museum of the American Revolution, Philadelphia;Benjamin Franklin Museum, Philadelphia;\", \"accommodation\": \"Brooklyn Room in Hip Neighborhood - Close to Train, Philadelphia\"}, {\"days\": 3, \"current_city\": \"from Philadelphia to Cincinnati\", \"transportation\": \"Flight Number: F3786640, from Philadelphia to Cincinnati\", \"breakfast\": \"Muncheezz, Philadelphia\", \"lunch\": \"Gurdas Ram Jalebi Wala, Philadelphia\", \"dinner\": \"Asian Chopstick, Philadelphia\", \"attraction\": \"Elfreth's Alley Museum, Philadelphia;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Cincinnati to Philadelphia",
+                "transportation": "Flight Number: F1963254, from Cincinnati to Philadelphia",
+                "breakfast": "Daily Belly, Cincinnati",
+                "lunch": "Mini Mughal, Philadelphia",
+                "dinner": "Arabian & Turkish Caf愆, Philadelphia",
+                "attraction": "Philadelphia's Magic Gardens, Philadelphia;Liberty Bell, Philadelphia;",
+                "accommodation": "Brooklyn Room in Hip Neighborhood - Close to Train, Philadelphia"
+            },
+            {
+                "days": 2,
+                "current_city": "Philadelphia",
+                "transportation": "-",
+                "breakfast": "Bangla Sweet Corner, Philadelphia",
+                "lunch": "Red Mesa Cantina, Philadelphia",
+                "dinner": "Momozone, Philadelphia",
+                "attraction": "Museum of the American Revolution, Philadelphia;Benjamin Franklin Museum, Philadelphia;",
+                "accommodation": "Brooklyn Room in Hip Neighborhood - Close to Train, Philadelphia"
+            },
+            {
+                "days": 3,
+                "current_city": "from Philadelphia to Cincinnati",
+                "transportation": "Flight Number: F3786640, from Philadelphia to Cincinnati",
+                "breakfast": "Muncheezz, Philadelphia",
+                "lunch": "Gurdas Ram Jalebi Wala, Philadelphia",
+                "dinner": "Asian Chopstick, Philadelphia",
+                "attraction": "Elfreth's Alley Museum, Philadelphia;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

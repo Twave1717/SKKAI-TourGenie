@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Spokane to San Francisco\", \"transportation\": \"Flight Number: F3841838, from Spokane to San Francisco\", \"breakfast\": \"Radhey Foodz, Spokane\", \"lunch\": \"Tokyo Sushi, San Francisco\", \"dinner\": \"Gupta's Rasoi, San Francisco\", \"attraction\": \"San Francisco Botanical Garden, San Francisco;San Francisco Museum of Modern Art, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco\"}, {\"days\": 2, \"current_city\": \"San Francisco\", \"transportation\": \"-\", \"breakfast\": \"Coffee & Chai Co., San Francisco\", \"lunch\": \"Aggarwal Sweet and Restaurant, San Francisco\", \"dinner\": \"Empress, San Francisco\", \"attraction\": \"California Academy of Sciences, San Francisco;The Walt Disney Family Museum, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco\"}, {\"days\": 3, \"current_city\": \"from San Francisco to Spokane\", \"transportation\": \"Flight Number: F2377877, from San Francisco to Spokane\", \"breakfast\": \"Bonne Bouche, San Francisco\", \"lunch\": \"Anupam Eating Point, San Francisco\", \"dinner\": \"Green Chick Chop, San Francisco\", \"attraction\": \"Golden Gate Park, San Francisco;Alcatraz Island, San Francisco;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Spokane to San Francisco",
+                "transportation": "Flight Number: F3841838, from Spokane to San Francisco",
+                "breakfast": "Radhey Foodz, Spokane",
+                "lunch": "Tokyo Sushi, San Francisco",
+                "dinner": "Gupta's Rasoi, San Francisco",
+                "attraction": "San Francisco Botanical Garden, San Francisco;San Francisco Museum of Modern Art, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 2,
+                "current_city": "San Francisco",
+                "transportation": "-",
+                "breakfast": "Coffee & Chai Co., San Francisco",
+                "lunch": "Aggarwal Sweet and Restaurant, San Francisco",
+                "dinner": "Empress, San Francisco",
+                "attraction": "California Academy of Sciences, San Francisco;The Walt Disney Family Museum, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 3,
+                "current_city": "from San Francisco to Spokane",
+                "transportation": "Flight Number: F2377877, from San Francisco to Spokane",
+                "breakfast": "Bonne Bouche, San Francisco",
+                "lunch": "Anupam Eating Point, San Francisco",
+                "dinner": "Green Chick Chop, San Francisco",
+                "attraction": "Golden Gate Park, San Francisco;Alcatraz Island, San Francisco;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

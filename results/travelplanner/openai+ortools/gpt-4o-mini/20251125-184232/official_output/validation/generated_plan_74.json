@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Charlotte to Hilton Head\", \"transportation\": \"Flight Number: F4055085, from Charlotte to Hilton Head\", \"breakfast\": \"Prince Snacks & Momo's Point, Charlotte\", \"lunch\": \"MR.D - Deliciousness Delivered, Hilton Head\", \"dinner\": \"ANF Kitchen Express, Hilton Head\", \"attraction\": \"Driessen Beach Park, Hilton Head;Historic Mitchelville Freedom Park, Hilton Head;\", \"accommodation\": \"2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head\"}, {\"days\": 2, \"current_city\": \"Hilton Head\", \"transportation\": \"-\", \"breakfast\": \"Royal Bakery, Hilton Head\", \"lunch\": \"Anand Ji Restaurant, Hilton Head\", \"dinner\": \"Tpot, Hilton Head\", \"attraction\": \"Coligny Beach Park, Hilton Head;Folly Field Beach Park, Hilton Head;\", \"accommodation\": \"2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head\"}, {\"days\": 3, \"current_city\": \"from Hilton Head to Charlotte\", \"transportation\": \"Flight Number: F3348124, from Hilton Head to Charlotte\", \"breakfast\": \"Bittoo Murge Wala, Hilton Head\", \"lunch\": \"Mr. Brown, Hilton Head\", \"dinner\": \"Wrapster, Hilton Head\", \"attraction\": \"Coastal Discovery Museum, Hilton Head;Harbour Town Lighthouse, Hilton Head;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Charlotte to Hilton Head",
+                "transportation": "Flight Number: F4055085, from Charlotte to Hilton Head",
+                "breakfast": "Prince Snacks & Momo's Point, Charlotte",
+                "lunch": "MR.D - Deliciousness Delivered, Hilton Head",
+                "dinner": "ANF Kitchen Express, Hilton Head",
+                "attraction": "Driessen Beach Park, Hilton Head;Historic Mitchelville Freedom Park, Hilton Head;",
+                "accommodation": "2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head"
+            },
+            {
+                "days": 2,
+                "current_city": "Hilton Head",
+                "transportation": "-",
+                "breakfast": "Royal Bakery, Hilton Head",
+                "lunch": "Anand Ji Restaurant, Hilton Head",
+                "dinner": "Tpot, Hilton Head",
+                "attraction": "Coligny Beach Park, Hilton Head;Folly Field Beach Park, Hilton Head;",
+                "accommodation": "2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head"
+            },
+            {
+                "days": 3,
+                "current_city": "from Hilton Head to Charlotte",
+                "transportation": "Flight Number: F3348124, from Hilton Head to Charlotte",
+                "breakfast": "Bittoo Murge Wala, Hilton Head",
+                "lunch": "Mr. Brown, Hilton Head",
+                "dinner": "Wrapster, Hilton Head",
+                "attraction": "Coastal Discovery Museum, Hilton Head;Harbour Town Lighthouse, Hilton Head;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

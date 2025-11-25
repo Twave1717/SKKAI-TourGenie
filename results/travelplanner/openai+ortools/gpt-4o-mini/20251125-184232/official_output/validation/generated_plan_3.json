@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Buffalo to Atlanta\", \"transportation\": \"Flight Number: F2495127, from Buffalo to Atlanta\", \"breakfast\": \"Lutyens Cocktail House, Buffalo\", \"lunch\": \"Taste of Vishal, Atlanta\", \"dinner\": \"Beliram Degchiwala, Atlanta\", \"attraction\": \"SkyView Atlanta, Atlanta;Centennial Olympic Park, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"-\", \"breakfast\": \"Sethi's Restaurant & Barbeque, Atlanta\", \"lunch\": \"Bimbos, Atlanta\", \"dinner\": \"Adda, Atlanta\", \"attraction\": \"Krog Street Tunnel, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 3, \"current_city\": \"from Atlanta to Buffalo\", \"transportation\": \"Flight Number: F2030296, from Atlanta to Buffalo\", \"breakfast\": \"China Hot, Atlanta\", \"lunch\": \"Ahata, Atlanta\", \"dinner\": \"Daawat-e-Kashmir, Atlanta\", \"attraction\": \"World of Coca-Cola, Atlanta;Fox Theatre, Atlanta;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Buffalo to Atlanta",
+                "transportation": "Flight Number: F2495127, from Buffalo to Atlanta",
+                "breakfast": "Lutyens Cocktail House, Buffalo",
+                "lunch": "Taste of Vishal, Atlanta",
+                "dinner": "Beliram Degchiwala, Atlanta",
+                "attraction": "SkyView Atlanta, Atlanta;Centennial Olympic Park, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Sethi's Restaurant & Barbeque, Atlanta",
+                "lunch": "Bimbos, Atlanta",
+                "dinner": "Adda, Atlanta",
+                "attraction": "Krog Street Tunnel, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "from Atlanta to Buffalo",
+                "transportation": "Flight Number: F2030296, from Atlanta to Buffalo",
+                "breakfast": "China Hot, Atlanta",
+                "lunch": "Ahata, Atlanta",
+                "dinner": "Daawat-e-Kashmir, Atlanta",
+                "attraction": "World of Coca-Cola, Atlanta;Fox Theatre, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

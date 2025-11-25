@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Seattle to San Francisco\", \"transportation\": \"Flight Number: F3315412, from Seattle to San Francisco\", \"breakfast\": \"The Golden Dragon, Seattle\", \"lunch\": \"Tokyo Sushi, San Francisco\", \"dinner\": \"Aggarwal Sweet and Restaurant, San Francisco\", \"attraction\": \"Union Square, San Francisco;Exploratorium, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco\"}, {\"days\": 2, \"current_city\": \"San Francisco\", \"transportation\": \"-\", \"breakfast\": \"Anupam Eating Point, San Francisco\", \"lunch\": \"Bonne Bouche, San Francisco\", \"dinner\": \"Green Chick Chop, San Francisco\", \"attraction\": \"PIER 39, San Francisco;Coit Tower, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco\"}, {\"days\": 3, \"current_city\": \"from San Francisco to Seattle\", \"transportation\": \"Flight Number: F3895980, from San Francisco to Seattle\", \"breakfast\": \"Coffee & Chai Co., San Francisco\", \"lunch\": \"Gupta's Rasoi, San Francisco\", \"dinner\": \"Empress, San Francisco\", \"attraction\": \"Golden Gate Bridge, San Francisco;Golden Gate Park, San Francisco;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Seattle to San Francisco",
+                "transportation": "Flight Number: F3315412, from Seattle to San Francisco",
+                "breakfast": "The Golden Dragon, Seattle",
+                "lunch": "Tokyo Sushi, San Francisco",
+                "dinner": "Aggarwal Sweet and Restaurant, San Francisco",
+                "attraction": "Union Square, San Francisco;Exploratorium, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 2,
+                "current_city": "San Francisco",
+                "transportation": "-",
+                "breakfast": "Anupam Eating Point, San Francisco",
+                "lunch": "Bonne Bouche, San Francisco",
+                "dinner": "Green Chick Chop, San Francisco",
+                "attraction": "PIER 39, San Francisco;Coit Tower, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 3,
+                "current_city": "from San Francisco to Seattle",
+                "transportation": "Flight Number: F3895980, from San Francisco to Seattle",
+                "breakfast": "Coffee & Chai Co., San Francisco",
+                "lunch": "Gupta's Rasoi, San Francisco",
+                "dinner": "Empress, San Francisco",
+                "attraction": "Golden Gate Bridge, San Francisco;Golden Gate Park, San Francisco;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

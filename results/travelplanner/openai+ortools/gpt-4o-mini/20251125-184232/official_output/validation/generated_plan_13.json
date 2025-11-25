@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Pittsburgh to Baltimore\", \"transportation\": \"Flight Number: F3975898, from Pittsburgh to Baltimore\", \"breakfast\": \"Gian Ji Punjabi Dhaba, Pittsburgh\", \"lunch\": \"Aggarwal Restaurant, Baltimore\", \"dinner\": \"The Retriever, Baltimore\", \"attraction\": \"Historic Ships in Baltimore, Baltimore;The Maryland Zoo in Baltimore, Baltimore;\", \"accommodation\": \"Contemporary Home Away from Home, Entire house, Baltimore\"}, {\"days\": 2, \"current_city\": \"Baltimore\", \"transportation\": \"-\", \"breakfast\": \"Rajshree, Baltimore\", \"lunch\": \"Amalfi, Baltimore\", \"dinner\": \"Green Chick Chop, Baltimore\", \"attraction\": \"The Walters Art Museum, Baltimore;Baltimore Museum of Industry, Baltimore;\", \"accommodation\": \"Contemporary Home Away from Home, Entire house, Baltimore\"}, {\"days\": 3, \"current_city\": \"from Baltimore to Pittsburgh\", \"transportation\": \"Flight Number: F3944256, from Baltimore to Pittsburgh\", \"breakfast\": \"RollsKing, Baltimore\", \"lunch\": \"Giani, Baltimore\", \"dinner\": \"Berco's, Baltimore\", \"attraction\": \"National Aquarium, Baltimore;Fort McHenry National Monument and Historic Shrine, Baltimore;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Pittsburgh to Baltimore",
+                "transportation": "Flight Number: F3975898, from Pittsburgh to Baltimore",
+                "breakfast": "Gian Ji Punjabi Dhaba, Pittsburgh",
+                "lunch": "Aggarwal Restaurant, Baltimore",
+                "dinner": "The Retriever, Baltimore",
+                "attraction": "Historic Ships in Baltimore, Baltimore;The Maryland Zoo in Baltimore, Baltimore;",
+                "accommodation": "Contemporary Home Away from Home, Entire house, Baltimore"
+            },
+            {
+                "days": 2,
+                "current_city": "Baltimore",
+                "transportation": "-",
+                "breakfast": "Rajshree, Baltimore",
+                "lunch": "Amalfi, Baltimore",
+                "dinner": "Green Chick Chop, Baltimore",
+                "attraction": "The Walters Art Museum, Baltimore;Baltimore Museum of Industry, Baltimore;",
+                "accommodation": "Contemporary Home Away from Home, Entire house, Baltimore"
+            },
+            {
+                "days": 3,
+                "current_city": "from Baltimore to Pittsburgh",
+                "transportation": "Flight Number: F3944256, from Baltimore to Pittsburgh",
+                "breakfast": "RollsKing, Baltimore",
+                "lunch": "Giani, Baltimore",
+                "dinner": "Berco's, Baltimore",
+                "attraction": "National Aquarium, Baltimore;Fort McHenry National Monument and Historic Shrine, Baltimore;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

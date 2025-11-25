@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from West Palm Beach to White Plains\", \"transportation\": \"Flight Number: F2895921, from West Palm Beach to White Plains\", \"breakfast\": \"Aggarwal Bikaner Wala, West Palm Beach\", \"lunch\": \"Tulsi Ram Chinese Hut, White Plains\", \"dinner\": \"Dewan Sweets, White Plains\", \"attraction\": \"Battle of White Plains Park, White Plains;White Plains Park, White Plains;\", \"accommodation\": \"Private Theatre District Bedroom, White Plains\"}, {\"days\": 2, \"current_city\": \"White Plains\", \"transportation\": \"-\", \"breakfast\": \"Maa Vaishno Shudh Bhojnalaya, White Plains\", \"lunch\": \"Mikky Peshawari, White Plains\", \"dinner\": \"Chicken Chilli Corner, White Plains\", \"attraction\": \"The Puzzle Parlour, White Plains;Delfino Park, White Plains;\", \"accommodation\": \"Private Theatre District Bedroom, White Plains\"}, {\"days\": 3, \"current_city\": \"from White Plains to West Palm Beach\", \"transportation\": \"Flight Number: F2909143, from White Plains to West Palm Beach\", \"breakfast\": \"Chaudhary Burfi Wala, White Plains\", \"lunch\": \"Hunter's Kitchen, White Plains\", \"dinner\": \"Shooters Lounge and Bar, White Plains\", \"attraction\": \"LEGOLAND Discovery Center Westchester, White Plains;Neuberger Museum of Art, White Plains;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from West Palm Beach to White Plains",
+                "transportation": "Flight Number: F2895921, from West Palm Beach to White Plains",
+                "breakfast": "Aggarwal Bikaner Wala, West Palm Beach",
+                "lunch": "Tulsi Ram Chinese Hut, White Plains",
+                "dinner": "Dewan Sweets, White Plains",
+                "attraction": "Battle of White Plains Park, White Plains;White Plains Park, White Plains;",
+                "accommodation": "Private Theatre District Bedroom, White Plains"
+            },
+            {
+                "days": 2,
+                "current_city": "White Plains",
+                "transportation": "-",
+                "breakfast": "Maa Vaishno Shudh Bhojnalaya, White Plains",
+                "lunch": "Mikky Peshawari, White Plains",
+                "dinner": "Chicken Chilli Corner, White Plains",
+                "attraction": "The Puzzle Parlour, White Plains;Delfino Park, White Plains;",
+                "accommodation": "Private Theatre District Bedroom, White Plains"
+            },
+            {
+                "days": 3,
+                "current_city": "from White Plains to West Palm Beach",
+                "transportation": "Flight Number: F2909143, from White Plains to West Palm Beach",
+                "breakfast": "Chaudhary Burfi Wala, White Plains",
+                "lunch": "Hunter's Kitchen, White Plains",
+                "dinner": "Shooters Lounge and Bar, White Plains",
+                "attraction": "LEGOLAND Discovery Center Westchester, White Plains;Neuberger Museum of Art, White Plains;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
