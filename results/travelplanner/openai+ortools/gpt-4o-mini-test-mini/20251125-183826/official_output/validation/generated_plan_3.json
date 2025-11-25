@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Buffalo to Atlanta\", \"transportation\": \"Flight Number: F2495127, from Buffalo to Atlanta\", \"breakfast\": \"Lutyens Cocktail House, Buffalo\", \"lunch\": \"Taste of Vishal, Atlanta\", \"dinner\": \"Sethi's Restaurant & Barbeque, Atlanta\", \"attraction\": \"Piedmont Park, Atlanta;High Museum of Art, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"-\", \"breakfast\": \"Bimbos, Atlanta\", \"lunch\": \"Beliram Degchiwala, Atlanta\", \"dinner\": \"Daawat-e-Kashmir, Atlanta\", \"attraction\": \"Georgia Aquarium, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 3, \"current_city\": \"from Atlanta to Buffalo\", \"transportation\": \"Flight Number: F2030296, from Atlanta to Buffalo\", \"breakfast\": \"China Hot, Atlanta\", \"lunch\": \"Ahata, Atlanta\", \"dinner\": \"Adda, Atlanta\", \"attraction\": \"Atlanta Botanical Garden, Atlanta;World of Coca-Cola, Atlanta;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Buffalo to Atlanta",
+                "transportation": "Flight Number: F2495127, from Buffalo to Atlanta",
+                "breakfast": "Lutyens Cocktail House, Buffalo",
+                "lunch": "Taste of Vishal, Atlanta",
+                "dinner": "Sethi's Restaurant & Barbeque, Atlanta",
+                "attraction": "Piedmont Park, Atlanta;High Museum of Art, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Bimbos, Atlanta",
+                "lunch": "Beliram Degchiwala, Atlanta",
+                "dinner": "Daawat-e-Kashmir, Atlanta",
+                "attraction": "Georgia Aquarium, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "from Atlanta to Buffalo",
+                "transportation": "Flight Number: F2030296, from Atlanta to Buffalo",
+                "breakfast": "China Hot, Atlanta",
+                "lunch": "Ahata, Atlanta",
+                "dinner": "Adda, Atlanta",
+                "attraction": "Atlanta Botanical Garden, Atlanta;World of Coca-Cola, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

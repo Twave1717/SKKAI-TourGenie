@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Boston to San Juan\", \"transportation\": \"Flight Number: F1550961, from Boston to San Juan\", \"breakfast\": \"Syall Kotian Da Dhaba, Boston\", \"lunch\": \"Tea Trails, San Juan\", \"dinner\": \"Mandrain, San Juan\", \"attraction\": \"Paseo de La Princesa, San Juan;Museo del Mar, San Juan;\", \"accommodation\": \"BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan\"}, {\"days\": 2, \"current_city\": \"San Juan\", \"transportation\": \"-\", \"breakfast\": \"Hoka-Hoka Japanese Steak & Sushi, San Juan\", \"lunch\": \"Shree Bhagatram, San Juan\", \"dinner\": \"Coldpress Company, San Juan\", \"attraction\": \"Parque de las Palomas, San Juan;Jerrys Adventures llc., San Juan;\", \"accommodation\": \"BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan\"}, {\"days\": 3, \"current_city\": \"from San Juan to Boston\", \"transportation\": \"Flight Number: F0830716, from San Juan to Boston\", \"breakfast\": \"Frontier, San Juan\", \"lunch\": \"Gopal's 56, San Juan\", \"dinner\": \"Oh My!, San Juan\", \"attraction\": \"Museo de Arte de Puerto Rico, San Juan;Balneario El Escambrón, San Juan;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Boston to San Juan",
+                "transportation": "Flight Number: F1550961, from Boston to San Juan",
+                "breakfast": "Syall Kotian Da Dhaba, Boston",
+                "lunch": "Tea Trails, San Juan",
+                "dinner": "Mandrain, San Juan",
+                "attraction": "Paseo de La Princesa, San Juan;Museo del Mar, San Juan;",
+                "accommodation": "BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan"
+            },
+            {
+                "days": 2,
+                "current_city": "San Juan",
+                "transportation": "-",
+                "breakfast": "Hoka-Hoka Japanese Steak & Sushi, San Juan",
+                "lunch": "Shree Bhagatram, San Juan",
+                "dinner": "Coldpress Company, San Juan",
+                "attraction": "Parque de las Palomas, San Juan;Jerrys Adventures llc., San Juan;",
+                "accommodation": "BK's Finest SHARED ROOM 1 BED AVAILABLE, San Juan"
+            },
+            {
+                "days": 3,
+                "current_city": "from San Juan to Boston",
+                "transportation": "Flight Number: F0830716, from San Juan to Boston",
+                "breakfast": "Frontier, San Juan",
+                "lunch": "Gopal's 56, San Juan",
+                "dinner": "Oh My!, San Juan",
+                "attraction": "Museo de Arte de Puerto Rico, San Juan;Balneario El Escambrón, San Juan;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

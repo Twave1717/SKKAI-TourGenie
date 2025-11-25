@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Las Vegas to Santa Maria\", \"transportation\": \"Flight Number: F0369126, from Las Vegas to Santa Maria\", \"breakfast\": \"Gulati Ki Rasoi, Las Vegas\", \"lunch\": \"PappaRich, Santa Maria\", \"dinner\": \"The Belly Giggles, Santa Maria\", \"attraction\": \"Russell Park, Santa Maria;Jim May Park, Santa Maria;\", \"accommodation\": \"Large Bedroom on upper west/columbia, Santa Maria\"}, {\"days\": 2, \"current_city\": \"Santa Maria\", \"transportation\": \"-\", \"breakfast\": \"Halal Pizza Fun, Santa Maria\", \"lunch\": \"Chinese Food Corner, Santa Maria\", \"dinner\": \"Nariyal Cafe, Santa Maria\", \"attraction\": \"Santa Maria Historical Museum, Santa Maria;Natural History Museum, Santa Maria;\", \"accommodation\": \"Large Bedroom on upper west/columbia, Santa Maria\"}, {\"days\": 3, \"current_city\": \"from Santa Maria to Las Vegas\", \"transportation\": \"Flight Number: F2560278, from Santa Maria to Las Vegas\", \"breakfast\": \"#45, Santa Maria\", \"lunch\": \"Nashta, Santa Maria\", \"dinner\": \"Punjabi Rasoi, Santa Maria\", \"attraction\": \"Santa Maria Valley Discovery Museum, Santa Maria;Santa Maria Museum of Flight, Santa Maria;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Las Vegas to Santa Maria",
+                "transportation": "Flight Number: F0369126, from Las Vegas to Santa Maria",
+                "breakfast": "Gulati Ki Rasoi, Las Vegas",
+                "lunch": "PappaRich, Santa Maria",
+                "dinner": "The Belly Giggles, Santa Maria",
+                "attraction": "Russell Park, Santa Maria;Jim May Park, Santa Maria;",
+                "accommodation": "Large Bedroom on upper west/columbia, Santa Maria"
+            },
+            {
+                "days": 2,
+                "current_city": "Santa Maria",
+                "transportation": "-",
+                "breakfast": "Halal Pizza Fun, Santa Maria",
+                "lunch": "Chinese Food Corner, Santa Maria",
+                "dinner": "Nariyal Cafe, Santa Maria",
+                "attraction": "Santa Maria Historical Museum, Santa Maria;Natural History Museum, Santa Maria;",
+                "accommodation": "Large Bedroom on upper west/columbia, Santa Maria"
+            },
+            {
+                "days": 3,
+                "current_city": "from Santa Maria to Las Vegas",
+                "transportation": "Flight Number: F2560278, from Santa Maria to Las Vegas",
+                "breakfast": "#45, Santa Maria",
+                "lunch": "Nashta, Santa Maria",
+                "dinner": "Punjabi Rasoi, Santa Maria",
+                "attraction": "Santa Maria Valley Discovery Museum, Santa Maria;Santa Maria Museum of Flight, Santa Maria;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

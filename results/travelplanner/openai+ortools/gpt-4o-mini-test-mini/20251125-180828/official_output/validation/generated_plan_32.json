@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Milwaukee to New York\", \"transportation\": \"Flight Number: F3218022, from Milwaukee to New York\", \"breakfast\": \"Frontier, Milwaukee\", \"lunch\": \"Golooji's Chat Waat, New York\", \"dinner\": \"Gurgaon Hights, New York\", \"attraction\": \"Statue of Liberty, New York;The High Line, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York\"}, {\"days\": 2, \"current_city\": \"New York\", \"transportation\": \"-\", \"breakfast\": \"Seasons 52 Fresh Grill, New York\", \"lunch\": \"Kamal Chat Bhandar, New York\", \"dinner\": \"Garam Masala Food Corner, New York\", \"attraction\": \"SUMMIT One Vanderbilt, New York;Rockefeller Center, New York;\", \"accommodation\": \"Sunny + Spacious Master Bedroom with Outdoor Deck, New York\"}, {\"days\": 3, \"current_city\": \"from New York to Milwaukee\", \"transportation\": \"Flight Number: F2781569, from New York to Milwaukee\", \"breakfast\": \"Green Chick Chop, New York\", \"lunch\": \"Baltazar, New York\", \"dinner\": \"Aryan's Rajasthani Pyaz Ki Kachori, New York\", \"attraction\": \"Top of The Rock, New York;One World Observatory, New York;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Milwaukee to New York",
+                "transportation": "Flight Number: F3218022, from Milwaukee to New York",
+                "breakfast": "Frontier, Milwaukee",
+                "lunch": "Golooji's Chat Waat, New York",
+                "dinner": "Gurgaon Hights, New York",
+                "attraction": "Statue of Liberty, New York;The High Line, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York"
+            },
+            {
+                "days": 2,
+                "current_city": "New York",
+                "transportation": "-",
+                "breakfast": "Seasons 52 Fresh Grill, New York",
+                "lunch": "Kamal Chat Bhandar, New York",
+                "dinner": "Garam Masala Food Corner, New York",
+                "attraction": "SUMMIT One Vanderbilt, New York;Rockefeller Center, New York;",
+                "accommodation": "Sunny + Spacious Master Bedroom with Outdoor Deck, New York"
+            },
+            {
+                "days": 3,
+                "current_city": "from New York to Milwaukee",
+                "transportation": "Flight Number: F2781569, from New York to Milwaukee",
+                "breakfast": "Green Chick Chop, New York",
+                "lunch": "Baltazar, New York",
+                "dinner": "Aryan's Rajasthani Pyaz Ki Kachori, New York",
+                "attraction": "Top of The Rock, New York;One World Observatory, New York;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Santa Ana to Colorado\", \"transportation\": \"-\", \"breakfast\": \"The Bee's Knees, Santa Ana\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 2, \"current_city\": \"Colorado\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 3, \"current_city\": \"Colorado\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 4, \"current_city\": \"Colorado\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 5, \"current_city\": \"Colorado\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 6, \"current_city\": \"Colorado\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 7, \"current_city\": \"Colorado\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Santa Ana to Colorado",
+                "transportation": "-",
+                "breakfast": "The Bee's Knees, Santa Ana",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 2,
+                "current_city": "Colorado",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 6,
+                "current_city": "Colorado",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 7,
+                "current_city": "Colorado",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

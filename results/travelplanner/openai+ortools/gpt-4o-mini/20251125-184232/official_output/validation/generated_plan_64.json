@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Burbank\", \"transportation\": \"Flight Number: F3848490, from Salt Lake City to Burbank\", \"breakfast\": \"Al-Sameer, Salt Lake City\", \"lunch\": \"Tpot, Burbank\", \"dinner\": \"Caffe Tonino, Burbank\", \"attraction\": \"Warner Bros. Studio Tour Hollywood, Burbank;The Mystic Museum, Burbank;\", \"accommodation\": \"Cozy Junior 1BR in inwood., Burbank\"}, {\"days\": 2, \"current_city\": \"Burbank\", \"transportation\": \"-\", \"breakfast\": \"KB's Kulfi & Icecream, Burbank\", \"lunch\": \"Chawnsan Chef, Burbank\", \"dinner\": \"Hard Rock Cafe, Burbank\", \"attraction\": \"Burbank Christmas Tree, Burbank;Universal Studios Hollywood, Burbank;\", \"accommodation\": \"Cozy Junior 1BR in inwood., Burbank\"}, {\"days\": 3, \"current_city\": \"from Burbank to Salt Lake City\", \"transportation\": \"Flight Number: F1778117, from Burbank to Salt Lake City\", \"breakfast\": \"Cafe Coffee Day, Burbank\", \"lunch\": \"Deepak Vaishno Dhaba, Burbank\", \"dinner\": \"Dee The Baker, Burbank\", \"attraction\": \"Visit Burbank, Burbank;Stough Canyon Nature Center, Burbank;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Burbank",
+                "transportation": "Flight Number: F3848490, from Salt Lake City to Burbank",
+                "breakfast": "Al-Sameer, Salt Lake City",
+                "lunch": "Tpot, Burbank",
+                "dinner": "Caffe Tonino, Burbank",
+                "attraction": "Warner Bros. Studio Tour Hollywood, Burbank;The Mystic Museum, Burbank;",
+                "accommodation": "Cozy Junior 1BR in inwood., Burbank"
+            },
+            {
+                "days": 2,
+                "current_city": "Burbank",
+                "transportation": "-",
+                "breakfast": "KB's Kulfi & Icecream, Burbank",
+                "lunch": "Chawnsan Chef, Burbank",
+                "dinner": "Hard Rock Cafe, Burbank",
+                "attraction": "Burbank Christmas Tree, Burbank;Universal Studios Hollywood, Burbank;",
+                "accommodation": "Cozy Junior 1BR in inwood., Burbank"
+            },
+            {
+                "days": 3,
+                "current_city": "from Burbank to Salt Lake City",
+                "transportation": "Flight Number: F1778117, from Burbank to Salt Lake City",
+                "breakfast": "Cafe Coffee Day, Burbank",
+                "lunch": "Deepak Vaishno Dhaba, Burbank",
+                "dinner": "Dee The Baker, Burbank",
+                "attraction": "Visit Burbank, Burbank;Stough Canyon Nature Center, Burbank;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

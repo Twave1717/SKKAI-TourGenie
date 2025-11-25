@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Akron to Tampa\", \"transportation\": \"Flight Number: F3620342, from Akron to Tampa\", \"breakfast\": \"Kitchen Mantra, Akron\", \"lunch\": \"12212, Tampa\", \"dinner\": \"Brown Town, Tampa\", \"attraction\": \"Adventure Island, Tampa;Museum of Science & Industry, Tampa;\", \"accommodation\": \"Bright duplex apartment, Tampa\"}, {\"days\": 2, \"current_city\": \"Tampa\", \"transportation\": \"-\", \"breakfast\": \"Lalit Kathi Rolls Momos, Tampa\", \"lunch\": \"Pind Balluchi, Tampa\", \"dinner\": \"D.A.A., Tampa\", \"attraction\": \"Tampa History Center Dock #3, Tampa;Ballast Point Park, Tampa;\", \"accommodation\": \"Bright duplex apartment, Tampa\"}, {\"days\": 3, \"current_city\": \"from Tampa to Akron\", \"transportation\": \"Flight Number: F3046225, from Tampa to Akron\", \"breakfast\": \"Gulati, Tampa\", \"lunch\": \"Alvi's Food Spot, Tampa\", \"dinner\": \"Giani's, Tampa\", \"attraction\": \"Falcon's Fury, Tampa;Tampa Theatre, Tampa;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Akron to Tampa",
+                "transportation": "Flight Number: F3620342, from Akron to Tampa",
+                "breakfast": "Kitchen Mantra, Akron",
+                "lunch": "12212, Tampa",
+                "dinner": "Brown Town, Tampa",
+                "attraction": "Adventure Island, Tampa;Museum of Science & Industry, Tampa;",
+                "accommodation": "Bright duplex apartment, Tampa"
+            },
+            {
+                "days": 2,
+                "current_city": "Tampa",
+                "transportation": "-",
+                "breakfast": "Lalit Kathi Rolls Momos, Tampa",
+                "lunch": "Pind Balluchi, Tampa",
+                "dinner": "D.A.A., Tampa",
+                "attraction": "Tampa History Center Dock #3, Tampa;Ballast Point Park, Tampa;",
+                "accommodation": "Bright duplex apartment, Tampa"
+            },
+            {
+                "days": 3,
+                "current_city": "from Tampa to Akron",
+                "transportation": "Flight Number: F3046225, from Tampa to Akron",
+                "breakfast": "Gulati, Tampa",
+                "lunch": "Alvi's Food Spot, Tampa",
+                "dinner": "Giani's, Tampa",
+                "attraction": "Falcon's Fury, Tampa;Tampa Theatre, Tampa;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+{
+  "Delivery Rate": 0.5,
+  "Commonsense Constraint Micro Pass Rate": 0.475,
+  "Commonsense Constraint Macro Pass Rate": 0.3,
+  "Hard Constraint Micro Pass Rate": 0.5,
+  "Hard Constraint Macro Pass Rate": 0.5,
+  "Final Pass Rate": 0.3
+}

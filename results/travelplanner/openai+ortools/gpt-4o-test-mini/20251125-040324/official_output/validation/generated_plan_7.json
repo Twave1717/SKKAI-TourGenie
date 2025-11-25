@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Missoula to Dallas\", \"transportation\": \"Taxi in Dallas; Cost: 50\", \"breakfast\": \"Lodhi Knights, Dallas; Cost: 18\", \"lunch\": \"Drifters Cafe, Dallas; Cost: 21\", \"dinner\": \"Cafe Hera Pheri, Dallas; Cost: 18\", \"attraction\": \"Klyde Warren Park, Dallas; John F. Kennedy Memorial Plaza, Dallas;\", \"accommodation\": \"Huge Private Room Near Prospect Park, Dallas; Cost: 73 per night (~146)\"}, {\"days\": 2, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Dallas; Cost: 50\", \"breakfast\": \"Cafe Gatherings, Dallas; Cost: 17\", \"lunch\": \"Cafe Coffee Day, Dallas; Cost: 22\", \"dinner\": \"Kolkata Biryani House, Dallas; Cost: 11\", \"attraction\": \"Reunion Tower, Dallas; Pioneer Plaza, Dallas;\", \"accommodation\": \"Huge Private Room Near Prospect Park, Dallas; Cost: 73 per night (~146)\"}, {\"days\": 3, \"current_city\": \"Dallas\", \"transportation\": \"Taxi in Dallas; Cost: 50\", \"breakfast\": \"Food N Shakes, Dallas; Cost: 23\", \"lunch\": \"The Kahuna, Dallas; Cost: 23\", \"dinner\": \"Bikaner Sweets, Dallas; Cost: 23\", \"attraction\": \"Frontiers of Flight Museum, Dallas; George W. Bush Presidential Center, Dallas;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Missoula to Dallas",
+                "transportation": "Taxi in Dallas; Cost: 50",
+                "breakfast": "Lodhi Knights, Dallas; Cost: 18",
+                "lunch": "Drifters Cafe, Dallas; Cost: 21",
+                "dinner": "Cafe Hera Pheri, Dallas; Cost: 18",
+                "attraction": "Klyde Warren Park, Dallas; John F. Kennedy Memorial Plaza, Dallas;",
+                "accommodation": "Huge Private Room Near Prospect Park, Dallas; Cost: 73 per night (~146)"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Dallas; Cost: 50",
+                "breakfast": "Cafe Gatherings, Dallas; Cost: 17",
+                "lunch": "Cafe Coffee Day, Dallas; Cost: 22",
+                "dinner": "Kolkata Biryani House, Dallas; Cost: 11",
+                "attraction": "Reunion Tower, Dallas; Pioneer Plaza, Dallas;",
+                "accommodation": "Huge Private Room Near Prospect Park, Dallas; Cost: 73 per night (~146)"
+            },
+            {
+                "days": 3,
+                "current_city": "Dallas",
+                "transportation": "Taxi in Dallas; Cost: 50",
+                "breakfast": "Food N Shakes, Dallas; Cost: 23",
+                "lunch": "The Kahuna, Dallas; Cost: 23",
+                "dinner": "Bikaner Sweets, Dallas; Cost: 23",
+                "attraction": "Frontiers of Flight Museum, Dallas; George W. Bush Presidential Center, Dallas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

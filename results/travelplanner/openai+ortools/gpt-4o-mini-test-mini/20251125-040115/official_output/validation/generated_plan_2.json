@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Oakland to Tucson\", \"transportation\": \"Taxi in Tucson; Cost: 50\", \"breakfast\": \"Villa Tevere, Tucson; Cost: 37\", \"lunch\": \"Delhi Foods, Tucson; Cost: 25\", \"dinner\": \"Magic Spice Wok, Tucson; Cost: 31\", \"attraction\": \"Old Tucson, Tucson; Trail Dust Town, Tucson;\", \"accommodation\": \"Private room with private bathroom, Tucson; Cost: 58 per night (~116)\"}, {\"days\": 2, \"current_city\": \"Tucson\", \"transportation\": \"Taxi in Tucson; Cost: 50\", \"breakfast\": \"Uraki, Tucson; Cost: 12\", \"lunch\": \"Mood 4 Food, Tucson; Cost: 20\", \"dinner\": \"Pizza Street, Tucson; Cost: 22\", \"attraction\": \"Arizona State Museum, Tucson; Valley of the Moon, Tucson;\", \"accommodation\": \"Private room with private bathroom, Tucson; Cost: 58 per night (~116)\"}, {\"days\": 3, \"current_city\": \"Tucson\", \"transportation\": \"Taxi in Tucson; Cost: 50\", \"breakfast\": \"Punjabi Zaika, Tucson; Cost: 34\", \"lunch\": \"Canteen Till I Die, Tucson; Cost: 24\", \"dinner\": \"Selfie Lounge Restro & Bar, Tucson; Cost: 32\", \"attraction\": \"Tucson Botanical Gardens, Tucson; Children's Museum Tucson, Tucson;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Oakland to Tucson",
+                "transportation": "Taxi in Tucson; Cost: 50",
+                "breakfast": "Villa Tevere, Tucson; Cost: 37",
+                "lunch": "Delhi Foods, Tucson; Cost: 25",
+                "dinner": "Magic Spice Wok, Tucson; Cost: 31",
+                "attraction": "Old Tucson, Tucson; Trail Dust Town, Tucson;",
+                "accommodation": "Private room with private bathroom, Tucson; Cost: 58 per night (~116)"
+            },
+            {
+                "days": 2,
+                "current_city": "Tucson",
+                "transportation": "Taxi in Tucson; Cost: 50",
+                "breakfast": "Uraki, Tucson; Cost: 12",
+                "lunch": "Mood 4 Food, Tucson; Cost: 20",
+                "dinner": "Pizza Street, Tucson; Cost: 22",
+                "attraction": "Arizona State Museum, Tucson; Valley of the Moon, Tucson;",
+                "accommodation": "Private room with private bathroom, Tucson; Cost: 58 per night (~116)"
+            },
+            {
+                "days": 3,
+                "current_city": "Tucson",
+                "transportation": "Taxi in Tucson; Cost: 50",
+                "breakfast": "Punjabi Zaika, Tucson; Cost: 34",
+                "lunch": "Canteen Till I Die, Tucson; Cost: 24",
+                "dinner": "Selfie Lounge Restro & Bar, Tucson; Cost: 32",
+                "attraction": "Tucson Botanical Gardens, Tucson; Children's Museum Tucson, Tucson;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

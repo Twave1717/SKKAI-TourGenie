@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Bozeman\", \"transportation\": \"Flight Number: F0697198, from Denver to Bozeman\", \"breakfast\": \"Nathu's Sweets, Denver\", \"lunch\": \"Side Wok, Bozeman\", \"dinner\": \"Dietwholic, Bozeman\", \"attraction\": \"The Story Mansion and Story Park, Bozeman;Montana Science Center, Bozeman;\", \"accommodation\": \"Sun-Filled Artist Loft in Private Townhouse, Bozeman\"}, {\"days\": 2, \"current_city\": \"Bozeman\", \"transportation\": \"-\", \"breakfast\": \"Jiquitaia, Bozeman\", \"lunch\": \"Today Pizza, Bozeman\", \"dinner\": \"Italize, Bozeman\", \"attraction\": \"American Computer & Robotics Museum, Bozeman;Bozeman Sculpture Park, Bozeman;\", \"accommodation\": \"Sun-Filled Artist Loft in Private Townhouse, Bozeman\"}, {\"days\": 3, \"current_city\": \"from Bozeman to Denver\", \"transportation\": \"Flight Number: F2364028, from Bozeman to Denver\", \"breakfast\": \"Behrouz Biryani, Bozeman\", \"lunch\": \"Saravana Bhavan, Bozeman\", \"dinner\": \"Adyar Ananda Bhavan, Bozeman\", \"attraction\": \"Museum of the Rockies, Bozeman;Gallatin History Museum, Bozeman;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Bozeman",
+                "transportation": "Flight Number: F0697198, from Denver to Bozeman",
+                "breakfast": "Nathu's Sweets, Denver",
+                "lunch": "Side Wok, Bozeman",
+                "dinner": "Dietwholic, Bozeman",
+                "attraction": "The Story Mansion and Story Park, Bozeman;Montana Science Center, Bozeman;",
+                "accommodation": "Sun-Filled Artist Loft in Private Townhouse, Bozeman"
+            },
+            {
+                "days": 2,
+                "current_city": "Bozeman",
+                "transportation": "-",
+                "breakfast": "Jiquitaia, Bozeman",
+                "lunch": "Today Pizza, Bozeman",
+                "dinner": "Italize, Bozeman",
+                "attraction": "American Computer & Robotics Museum, Bozeman;Bozeman Sculpture Park, Bozeman;",
+                "accommodation": "Sun-Filled Artist Loft in Private Townhouse, Bozeman"
+            },
+            {
+                "days": 3,
+                "current_city": "from Bozeman to Denver",
+                "transportation": "Flight Number: F2364028, from Bozeman to Denver",
+                "breakfast": "Behrouz Biryani, Bozeman",
+                "lunch": "Saravana Bhavan, Bozeman",
+                "dinner": "Adyar Ananda Bhavan, Bozeman",
+                "attraction": "Museum of the Rockies, Bozeman;Gallatin History Museum, Bozeman;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

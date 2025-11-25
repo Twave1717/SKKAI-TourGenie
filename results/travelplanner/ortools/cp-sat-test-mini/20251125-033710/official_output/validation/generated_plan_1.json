@@ -1,0 +1,39 @@
+[
+    {
+        "ortools-cpsat_two-stage_results": "[{\"days\": 1, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"First Eat, $21.0\", \"lunch\": \"Catfish Charlie's, $14.0\", \"dinner\": \"La Pino'z Pizza, $14.0\", \"attraction\": \"Ripley's Aquarium of Myrtle Beach; Dinopark\", \"accommodation\": \"Adorable Prospect Heights 1 Bedroom, $107.0/night\"}, {\"days\": 2, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"The Night Owl, $12.0\", \"lunch\": \"d' Curry House, $33.0\", \"dinner\": \"Nagai, $19.0\", \"attraction\": \"Family Kingdom Amusement Park; The Pavilion Parks\", \"accommodation\": \"Adorable Prospect Heights 1 Bedroom, $107.0/night\"}, {\"days\": 3, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"Turning Point Fast Food, $32.0\", \"lunch\": \"Admission Lounge, $32.0\", \"dinner\": \"Nizam's Kathi Kabab, $32.0\", \"attraction\": \"Myrtle Beach Boardwalk and Promenade; Hannah's Maze of Mirrors\", \"accommodation\": \"-\"}]",
+        "ortools-cpsat_two-stage_results_logs": null,
+        "ortools-cpsat_two-stage_action_logs": [],
+        "ortools-cpsat_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "First Eat, $21.0",
+                "lunch": "Catfish Charlie's, $14.0",
+                "dinner": "La Pino'z Pizza, $14.0",
+                "attraction": "Ripley's Aquarium of Myrtle Beach; Dinopark",
+                "accommodation": "Adorable Prospect Heights 1 Bedroom, $107.0/night"
+            },
+            {
+                "days": 2,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "The Night Owl, $12.0",
+                "lunch": "d' Curry House, $33.0",
+                "dinner": "Nagai, $19.0",
+                "attraction": "Family Kingdom Amusement Park; The Pavilion Parks",
+                "accommodation": "Adorable Prospect Heights 1 Bedroom, $107.0/night"
+            },
+            {
+                "days": 3,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "Turning Point Fast Food, $32.0",
+                "lunch": "Admission Lounge, $32.0",
+                "dinner": "Nizam's Kathi Kabab, $32.0",
+                "attraction": "Myrtle Beach Boardwalk and Promenade; Hannah's Maze of Mirrors",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

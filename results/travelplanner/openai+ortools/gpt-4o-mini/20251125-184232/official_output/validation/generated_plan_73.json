@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Dallas to Huntsville\", \"transportation\": \"Flight Number: F0469962, from Dallas to Huntsville\", \"breakfast\": \"Kolkata Biryani House, Dallas\", \"lunch\": \"Nishaj Chicken Corner, Huntsville\", \"dinner\": \"Lots of Food, Huntsville\", \"attraction\": \"Huntsville Botanical Garden, Huntsville;Burritt on the Mountain, Huntsville;\", \"accommodation\": \"Perfect SOHO/NOLITA location, CLEAN and cozy home, Huntsville\"}, {\"days\": 2, \"current_city\": \"Huntsville\", \"transportation\": \"-\", \"breakfast\": \"Rainbows, Huntsville\", \"lunch\": \"Dosa Village, Huntsville\", \"dinner\": \"Cherry Comet, Huntsville\", \"attraction\": \"Garden Railway, Huntsville;Land Trust of North Alabama: Monte Sano Nature Preserve, Huntsville;\", \"accommodation\": \"Perfect SOHO/NOLITA location, CLEAN and cozy home, Huntsville\"}, {\"days\": 3, \"current_city\": \"from Huntsville to Dallas\", \"transportation\": \"Flight Number: F1130119, from Huntsville to Dallas\", \"breakfast\": \"Ikko, Huntsville\", \"lunch\": \"Hunger Strike, Huntsville\", \"dinner\": \"Hungry Minister, Huntsville\", \"attraction\": \"Monte Sano State Park, Huntsville;J.D. & Annie S. Hays Nature Preserve, Huntsville;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Dallas to Huntsville",
+                "transportation": "Flight Number: F0469962, from Dallas to Huntsville",
+                "breakfast": "Kolkata Biryani House, Dallas",
+                "lunch": "Nishaj Chicken Corner, Huntsville",
+                "dinner": "Lots of Food, Huntsville",
+                "attraction": "Huntsville Botanical Garden, Huntsville;Burritt on the Mountain, Huntsville;",
+                "accommodation": "Perfect SOHO/NOLITA location, CLEAN and cozy home, Huntsville"
+            },
+            {
+                "days": 2,
+                "current_city": "Huntsville",
+                "transportation": "-",
+                "breakfast": "Rainbows, Huntsville",
+                "lunch": "Dosa Village, Huntsville",
+                "dinner": "Cherry Comet, Huntsville",
+                "attraction": "Garden Railway, Huntsville;Land Trust of North Alabama: Monte Sano Nature Preserve, Huntsville;",
+                "accommodation": "Perfect SOHO/NOLITA location, CLEAN and cozy home, Huntsville"
+            },
+            {
+                "days": 3,
+                "current_city": "from Huntsville to Dallas",
+                "transportation": "Flight Number: F1130119, from Huntsville to Dallas",
+                "breakfast": "Ikko, Huntsville",
+                "lunch": "Hunger Strike, Huntsville",
+                "dinner": "Hungry Minister, Huntsville",
+                "attraction": "Monte Sano State Park, Huntsville;J.D. & Annie S. Hays Nature Preserve, Huntsville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

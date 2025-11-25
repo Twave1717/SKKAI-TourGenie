@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Nashville to Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"Southern Bliss Bakery, Detroit; Cost: 28\", \"lunch\": \"N. Iqbal Restaurant, Detroit; Cost: 11\", \"dinner\": \"52 Food Express, Detroit; Cost: 20\", \"attraction\": \"Detroit Zoo, Detroit; Michigan Science Center, Detroit;\", \"accommodation\": \"Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~138)\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"Aapki Rasoi, Detroit; Cost: 21\", \"lunch\": \"Rehmatullah's Hotel, Detroit; Cost: 28\", \"dinner\": \"Flavours of Punjab, Detroit; Cost: 28\", \"attraction\": \"Campus Martius Park, Detroit; Motown Museum, Detroit;\", \"accommodation\": \"Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~138)\"}, {\"days\": 3, \"current_city\": \"Detroit\", \"transportation\": \"Taxi in Detroit; Cost: 50\", \"breakfast\": \"Desi Spice, Detroit; Cost: 16\", \"lunch\": \"Cafe 6, Detroit; Cost: 27\", \"dinner\": \"BMG - All Day Dining, Detroit; Cost: 15\", \"attraction\": \"Detroit Institute of Arts, Detroit; Detroit Historical Museum, Detroit;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Nashville to Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "Southern Bliss Bakery, Detroit; Cost: 28",
+                "lunch": "N. Iqbal Restaurant, Detroit; Cost: 11",
+                "dinner": "52 Food Express, Detroit; Cost: 20",
+                "attraction": "Detroit Zoo, Detroit; Michigan Science Center, Detroit;",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~138)"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "Aapki Rasoi, Detroit; Cost: 21",
+                "lunch": "Rehmatullah's Hotel, Detroit; Cost: 28",
+                "dinner": "Flavours of Punjab, Detroit; Cost: 28",
+                "attraction": "Campus Martius Park, Detroit; Motown Museum, Detroit;",
+                "accommodation": "Lovely, charming and clean bedroom in Manhattan., Detroit; Cost: 69 per night (~138)"
+            },
+            {
+                "days": 3,
+                "current_city": "Detroit",
+                "transportation": "Taxi in Detroit; Cost: 50",
+                "breakfast": "Desi Spice, Detroit; Cost: 16",
+                "lunch": "Cafe 6, Detroit; Cost: 27",
+                "dinner": "BMG - All Day Dining, Detroit; Cost: 15",
+                "attraction": "Detroit Institute of Arts, Detroit; Detroit Historical Museum, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

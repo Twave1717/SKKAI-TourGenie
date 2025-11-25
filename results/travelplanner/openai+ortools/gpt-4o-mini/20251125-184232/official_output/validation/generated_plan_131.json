@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Los Angeles to Detroit\", \"transportation\": \"Flight Number: F1290106, from Los Angeles to Detroit\", \"breakfast\": \"Onokabe, Los Angeles\", \"lunch\": \"Cafe 6, Detroit\", \"dinner\": \"BMG - All Day Dining, Detroit\", \"attraction\": \"Campus Martius Park, Detroit;Detroit Zoo, Detroit;\", \"accommodation\": \"Nice Room in Manhattan, Detroit\"}, {\"days\": 2, \"current_city\": \"Detroit\", \"transportation\": \"-\", \"breakfast\": \"Southern Bliss Bakery, Detroit\", \"lunch\": \"Flavours of Punjab, Detroit\", \"dinner\": \"N. Iqbal Restaurant, Detroit\", \"attraction\": \"Historic Fort Wayne, Detroit;Grand Circus Park, Detroit;\", \"accommodation\": \"Nice Room in Manhattan, Detroit\"}, {\"days\": 3, \"current_city\": \"from Detroit to Los Angeles\", \"transportation\": \"Flight Number: F2075536, from Detroit to Los Angeles\", \"breakfast\": \"52 Food Express, Detroit\", \"lunch\": \"Aapki Rasoi, Detroit\", \"dinner\": \"Desi Spice, Detroit\", \"attraction\": \"Detroit Riverfront Conservancy, Detroit;Detroit Riverwalk, Detroit;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Los Angeles to Detroit",
+                "transportation": "Flight Number: F1290106, from Los Angeles to Detroit",
+                "breakfast": "Onokabe, Los Angeles",
+                "lunch": "Cafe 6, Detroit",
+                "dinner": "BMG - All Day Dining, Detroit",
+                "attraction": "Campus Martius Park, Detroit;Detroit Zoo, Detroit;",
+                "accommodation": "Nice Room in Manhattan, Detroit"
+            },
+            {
+                "days": 2,
+                "current_city": "Detroit",
+                "transportation": "-",
+                "breakfast": "Southern Bliss Bakery, Detroit",
+                "lunch": "Flavours of Punjab, Detroit",
+                "dinner": "N. Iqbal Restaurant, Detroit",
+                "attraction": "Historic Fort Wayne, Detroit;Grand Circus Park, Detroit;",
+                "accommodation": "Nice Room in Manhattan, Detroit"
+            },
+            {
+                "days": 3,
+                "current_city": "from Detroit to Los Angeles",
+                "transportation": "Flight Number: F2075536, from Detroit to Los Angeles",
+                "breakfast": "52 Food Express, Detroit",
+                "lunch": "Aapki Rasoi, Detroit",
+                "dinner": "Desi Spice, Detroit",
+                "attraction": "Detroit Riverfront Conservancy, Detroit;Detroit Riverwalk, Detroit;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

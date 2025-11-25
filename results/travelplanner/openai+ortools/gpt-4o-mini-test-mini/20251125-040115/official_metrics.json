@@ -1,0 +1,87 @@
+{
+  "scores": {
+    "Delivery Rate": 1.0,
+    "Commonsense Constraint Micro Pass Rate": 0.625,
+    "Commonsense Constraint Macro Pass Rate": 0.0,
+    "Hard Constraint Micro Pass Rate": 0.0,
+    "Hard Constraint Macro Pass Rate": 0.0,
+    "Final Pass Rate": 0.0
+  },
+  "details": {
+    "Commonsense Constraint": {
+      "easy": {
+        "3": {
+          "Reasonable City Route": {
+            "true": 0,
+            "false": 5,
+            "total": 5
+          },
+          "Diverse Restaurants": {
+            "true": 5,
+            "false": 0,
+            "total": 5
+          },
+          "Diverse Attractions": {
+            "true": 5,
+            "false": 0,
+            "total": 5
+          },
+          "Minimum Nights Stay": {
+            "true": 5,
+            "false": 0,
+            "total": 5
+          },
+          "Non-conf. Transportation": {
+            "true": 5,
+            "false": 0,
+            "total": 5
+          },
+          "Within Current City": {
+            "true": 0,
+            "false": 5,
+            "total": 5
+          },
+          "Within Sandbox": {
+            "true": 0,
+            "false": 5,
+            "total": 5
+          },
+          "Complete Information": {
+            "true": 5,
+            "false": 0,
+            "total": 5
+          }
+        },
+        "5": {},
+        "7": {}
+      },
+      "medium": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {},
+        "5": {},
+        "7": {}
+      }
+    },
+    "Hard Constraint": {
+      "easy": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "medium": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {},
+        "5": {},
+        "7": {}
+      }
+    }
+  }
+}

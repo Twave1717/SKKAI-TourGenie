@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Cleveland to Baltimore\", \"transportation\": \"Flight Number: F0708487, from Cleveland to Baltimore\", \"breakfast\": \"Bikanerwala, Cleveland\", \"lunch\": \"Green Chick Chop, Baltimore\", \"dinner\": \"Berco's, Baltimore\", \"attraction\": \"The Walters Art Museum, Baltimore;Historic Ships in Baltimore, Baltimore;\", \"accommodation\": \"Contemporary Home Away from Home, Entire house, Baltimore\"}, {\"days\": 2, \"current_city\": \"Baltimore\", \"transportation\": \"-\", \"breakfast\": \"Aggarwal Restaurant, Baltimore\", \"lunch\": \"Giani, Baltimore\", \"dinner\": \"RollsKing, Baltimore\", \"attraction\": \"Baltimore Harbor, Baltimore;Federal Hill Park, Baltimore;\", \"accommodation\": \"Contemporary Home Away from Home, Entire house, Baltimore\"}, {\"days\": 3, \"current_city\": \"from Baltimore to Cleveland\", \"transportation\": \"Flight Number: F3960327, from Baltimore to Cleveland\", \"breakfast\": \"Amalfi, Baltimore\", \"lunch\": \"The Retriever, Baltimore\", \"dinner\": \"Rajshree, Baltimore\", \"attraction\": \"Fell's Point, Baltimore;Pierce's Park, Baltimore;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Cleveland to Baltimore",
+                "transportation": "Flight Number: F0708487, from Cleveland to Baltimore",
+                "breakfast": "Bikanerwala, Cleveland",
+                "lunch": "Green Chick Chop, Baltimore",
+                "dinner": "Berco's, Baltimore",
+                "attraction": "The Walters Art Museum, Baltimore;Historic Ships in Baltimore, Baltimore;",
+                "accommodation": "Contemporary Home Away from Home, Entire house, Baltimore"
+            },
+            {
+                "days": 2,
+                "current_city": "Baltimore",
+                "transportation": "-",
+                "breakfast": "Aggarwal Restaurant, Baltimore",
+                "lunch": "Giani, Baltimore",
+                "dinner": "RollsKing, Baltimore",
+                "attraction": "Baltimore Harbor, Baltimore;Federal Hill Park, Baltimore;",
+                "accommodation": "Contemporary Home Away from Home, Entire house, Baltimore"
+            },
+            {
+                "days": 3,
+                "current_city": "from Baltimore to Cleveland",
+                "transportation": "Flight Number: F3960327, from Baltimore to Cleveland",
+                "breakfast": "Amalfi, Baltimore",
+                "lunch": "The Retriever, Baltimore",
+                "dinner": "Rajshree, Baltimore",
+                "attraction": "Fell's Point, Baltimore;Pierce's Park, Baltimore;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

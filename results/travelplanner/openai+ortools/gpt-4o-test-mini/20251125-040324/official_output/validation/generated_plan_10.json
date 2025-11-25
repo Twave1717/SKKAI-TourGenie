@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Minneapolis to St. Louis\", \"transportation\": \"Taxi in St. Louis; Cost: 50\", \"breakfast\": \"The Latitude - Radisson Blu, St. Louis; Cost: 18\", \"lunch\": \"Keventers, St. Louis; Cost: 23\", \"dinner\": \"Startup Cafe, St. Louis; Cost: 31\", \"attraction\": \"City Museum, St. Louis; The St. Louis Wheel, St. Louis;\", \"accommodation\": \"Peaceful room in Bushwick, St. Louis; Cost: 79 per night (~158)\"}, {\"days\": 2, \"current_city\": \"St. Louis\", \"transportation\": \"Taxi in St. Louis; Cost: 50\", \"breakfast\": \"Cafe Coffee Day, St. Louis; Cost: 29\", \"lunch\": \"Om Sweets, St. Louis; Cost: 24\", \"dinner\": \"Balaji Eating Point, St. Louis; Cost: 28\", \"attraction\": \"Forest Park, St. Louis; St. Louis Riverfront, St. Louis;\", \"accommodation\": \"Peaceful room in Bushwick, St. Louis; Cost: 79 per night (~158)\"}, {\"days\": 3, \"current_city\": \"St. Louis\", \"transportation\": \"Taxi in St. Louis; Cost: 50\", \"breakfast\": \"IndoCheen, St. Louis; Cost: 16\", \"lunch\": \"Burger King, St. Louis; Cost: 21\", \"dinner\": \"Tingling Pepper, St. Louis; Cost: 26\", \"attraction\": \"Gateway Arch National Park, St. Louis; Missouri History Museum, St. Louis;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Minneapolis to St. Louis",
+                "transportation": "Taxi in St. Louis; Cost: 50",
+                "breakfast": "The Latitude - Radisson Blu, St. Louis; Cost: 18",
+                "lunch": "Keventers, St. Louis; Cost: 23",
+                "dinner": "Startup Cafe, St. Louis; Cost: 31",
+                "attraction": "City Museum, St. Louis; The St. Louis Wheel, St. Louis;",
+                "accommodation": "Peaceful room in Bushwick, St. Louis; Cost: 79 per night (~158)"
+            },
+            {
+                "days": 2,
+                "current_city": "St. Louis",
+                "transportation": "Taxi in St. Louis; Cost: 50",
+                "breakfast": "Cafe Coffee Day, St. Louis; Cost: 29",
+                "lunch": "Om Sweets, St. Louis; Cost: 24",
+                "dinner": "Balaji Eating Point, St. Louis; Cost: 28",
+                "attraction": "Forest Park, St. Louis; St. Louis Riverfront, St. Louis;",
+                "accommodation": "Peaceful room in Bushwick, St. Louis; Cost: 79 per night (~158)"
+            },
+            {
+                "days": 3,
+                "current_city": "St. Louis",
+                "transportation": "Taxi in St. Louis; Cost: 50",
+                "breakfast": "IndoCheen, St. Louis; Cost: 16",
+                "lunch": "Burger King, St. Louis; Cost: 21",
+                "dinner": "Tingling Pepper, St. Louis; Cost: 26",
+                "attraction": "Gateway Arch National Park, St. Louis; Missouri History Museum, St. Louis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

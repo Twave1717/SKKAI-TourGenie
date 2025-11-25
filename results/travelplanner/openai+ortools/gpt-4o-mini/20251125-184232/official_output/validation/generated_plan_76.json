@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Appleton to Charlotte\", \"transportation\": \"Flight Number: F3796729, from Appleton to Charlotte\", \"breakfast\": \"Mathew's Cafe, Appleton\", \"lunch\": \"Prince Snacks & Momo's Point, Charlotte\", \"dinner\": \"China Garden, Charlotte\", \"attraction\": \"The Mint Museum, Charlotte;Bechtler Museum of Modern Art, Charlotte;\", \"accommodation\": \"Affordable Spacious Refurbished Room in Bushwick!, Charlotte\"}, {\"days\": 2, \"current_city\": \"Charlotte\", \"transportation\": \"-\", \"breakfast\": \"Olive Tree Cafe, Charlotte\", \"lunch\": \"Behrouz Biryani, Charlotte\", \"dinner\": \"Burger King, Charlotte\", \"attraction\": \"Discovery Place Science, Charlotte;NASCAR Hall of Fame, Charlotte;\", \"accommodation\": \"Affordable Spacious Refurbished Room in Bushwick!, Charlotte\"}, {\"days\": 3, \"current_city\": \"from Charlotte to Appleton\", \"transportation\": \"Flight Number: F3073877, from Charlotte to Appleton\", \"breakfast\": \"Dial a Cake, Charlotte\", \"lunch\": \"Life Grand Cafe, Charlotte\", \"dinner\": \"Chicken Inn, Charlotte\", \"attraction\": \"Freedom Park, Charlotte;Levine Museum of the New South, Charlotte;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Appleton to Charlotte",
+                "transportation": "Flight Number: F3796729, from Appleton to Charlotte",
+                "breakfast": "Mathew's Cafe, Appleton",
+                "lunch": "Prince Snacks & Momo's Point, Charlotte",
+                "dinner": "China Garden, Charlotte",
+                "attraction": "The Mint Museum, Charlotte;Bechtler Museum of Modern Art, Charlotte;",
+                "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "-",
+                "breakfast": "Olive Tree Cafe, Charlotte",
+                "lunch": "Behrouz Biryani, Charlotte",
+                "dinner": "Burger King, Charlotte",
+                "attraction": "Discovery Place Science, Charlotte;NASCAR Hall of Fame, Charlotte;",
+                "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte"
+            },
+            {
+                "days": 3,
+                "current_city": "from Charlotte to Appleton",
+                "transportation": "Flight Number: F3073877, from Charlotte to Appleton",
+                "breakfast": "Dial a Cake, Charlotte",
+                "lunch": "Life Grand Cafe, Charlotte",
+                "dinner": "Chicken Inn, Charlotte",
+                "attraction": "Freedom Park, Charlotte;Levine Museum of the New South, Charlotte;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

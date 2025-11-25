@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Detroit to San Diego\", \"transportation\": \"Taxi in San Diego; Cost: 50\", \"breakfast\": \"Open Yard, San Diego; Cost: 33\", \"lunch\": \"Bikaner Sweets, San Diego; Cost: 37\", \"dinner\": \"Armaan's Restaurant, San Diego; Cost: 29\", \"attraction\": \"Old Town San Diego, San Diego; Balboa Park, San Diego;\", \"accommodation\": \"Harlem Garden Oasis in  New York City Brownstone, San Diego; Cost: 368 per night (~736)\"}, {\"days\": 2, \"current_city\": \"San Diego\", \"transportation\": \"Taxi in San Diego; Cost: 50\", \"breakfast\": \"Jetha Lal Ka Dhabha, San Diego; Cost: 22\", \"lunch\": \"Chaudhary Di Hatti, San Diego; Cost: 30\", \"dinner\": \"Aamantran Bangla, San Diego; Cost: 33\", \"attraction\": \"California Tower, San Diego; SeaWorld San Diego, San Diego;\", \"accommodation\": \"Harlem Garden Oasis in  New York City Brownstone, San Diego; Cost: 368 per night (~736)\"}, {\"days\": 3, \"current_city\": \"San Diego\", \"transportation\": \"Taxi in San Diego; Cost: 50\", \"breakfast\": \"Baskin Robbins, San Diego; Cost: 48\", \"lunch\": \"Dabas Ke Special Chole Bhature, San Diego; Cost: 35\", \"dinner\": \"Burger King, San Diego; Cost: 20\", \"attraction\": \"Cabrillo National Monument, San Diego; La Jolla Shores Park, San Diego;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Detroit to San Diego",
+                "transportation": "Taxi in San Diego; Cost: 50",
+                "breakfast": "Open Yard, San Diego; Cost: 33",
+                "lunch": "Bikaner Sweets, San Diego; Cost: 37",
+                "dinner": "Armaan's Restaurant, San Diego; Cost: 29",
+                "attraction": "Old Town San Diego, San Diego; Balboa Park, San Diego;",
+                "accommodation": "Harlem Garden Oasis in  New York City Brownstone, San Diego; Cost: 368 per night (~736)"
+            },
+            {
+                "days": 2,
+                "current_city": "San Diego",
+                "transportation": "Taxi in San Diego; Cost: 50",
+                "breakfast": "Jetha Lal Ka Dhabha, San Diego; Cost: 22",
+                "lunch": "Chaudhary Di Hatti, San Diego; Cost: 30",
+                "dinner": "Aamantran Bangla, San Diego; Cost: 33",
+                "attraction": "California Tower, San Diego; SeaWorld San Diego, San Diego;",
+                "accommodation": "Harlem Garden Oasis in  New York City Brownstone, San Diego; Cost: 368 per night (~736)"
+            },
+            {
+                "days": 3,
+                "current_city": "San Diego",
+                "transportation": "Taxi in San Diego; Cost: 50",
+                "breakfast": "Baskin Robbins, San Diego; Cost: 48",
+                "lunch": "Dabas Ke Special Chole Bhature, San Diego; Cost: 35",
+                "dinner": "Burger King, San Diego; Cost: 20",
+                "attraction": "Cabrillo National Monument, San Diego; La Jolla Shores Park, San Diego;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "ortools-cpsat_two-stage_results": "[{\"days\": 1, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 2, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 3, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}]",
+        "ortools-cpsat_two-stage_results_logs": null,
+        "ortools-cpsat_two-stage_action_logs": [],
+        "ortools-cpsat_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 2,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 3,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

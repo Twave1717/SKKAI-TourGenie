@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Santa Ana to Houston\", \"transportation\": \"Flight Number: F1846738, from Santa Ana to Houston\", \"breakfast\": \"The Bee's Knees, Santa Ana\", \"lunch\": \"Tasty Bite, Houston\", \"dinner\": \"Truth Coffee, Houston\", \"attraction\": \"Houston Zoo, Houston;The Museum of Fine Arts, Houston, Houston;\", \"accommodation\": \"Spacious room in front of prospect park, Houston\"}, {\"days\": 2, \"current_city\": \"Houston\", \"transportation\": \"-\", \"breakfast\": \"Istanbul Restaurant, Houston\", \"lunch\": \"Taj Cafe, Houston\", \"dinner\": \"Zaika, Houston\", \"attraction\": \"Water Wall, Houston;Houston Museum of Natural Science, Houston;\", \"accommodation\": \"Spacious room in front of prospect park, Houston\"}, {\"days\": 3, \"current_city\": \"from Houston to Santa Ana\", \"transportation\": \"Flight Number: F1808157, from Houston to Santa Ana\", \"breakfast\": \"Chawla's宊, Houston\", \"lunch\": \"Earthen Spices, Houston\", \"dinner\": \"Vinayaka Mylari, Houston\", \"attraction\": \"Downtown Aquarium, Houston;Space Center Houston, Houston;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Santa Ana to Houston",
+                "transportation": "Flight Number: F1846738, from Santa Ana to Houston",
+                "breakfast": "The Bee's Knees, Santa Ana",
+                "lunch": "Tasty Bite, Houston",
+                "dinner": "Truth Coffee, Houston",
+                "attraction": "Houston Zoo, Houston;The Museum of Fine Arts, Houston, Houston;",
+                "accommodation": "Spacious room in front of prospect park, Houston"
+            },
+            {
+                "days": 2,
+                "current_city": "Houston",
+                "transportation": "-",
+                "breakfast": "Istanbul Restaurant, Houston",
+                "lunch": "Taj Cafe, Houston",
+                "dinner": "Zaika, Houston",
+                "attraction": "Water Wall, Houston;Houston Museum of Natural Science, Houston;",
+                "accommodation": "Spacious room in front of prospect park, Houston"
+            },
+            {
+                "days": 3,
+                "current_city": "from Houston to Santa Ana",
+                "transportation": "Flight Number: F1808157, from Houston to Santa Ana",
+                "breakfast": "Chawla's宊, Houston",
+                "lunch": "Earthen Spices, Houston",
+                "dinner": "Vinayaka Mylari, Houston",
+                "attraction": "Downtown Aquarium, Houston;Space Center Houston, Houston;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

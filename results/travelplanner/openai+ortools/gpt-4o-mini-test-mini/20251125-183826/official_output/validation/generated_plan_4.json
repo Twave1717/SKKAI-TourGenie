@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Ontario to Honolulu\", \"transportation\": \"Flight Number: F2566949, from Ontario to Honolulu\", \"breakfast\": \"Bibi, Ontario\", \"lunch\": \"Bait El Khetyar, Honolulu\", \"dinner\": \"Shere Hind Chicken Corner, Honolulu\", \"attraction\": \"Aloha Tower, Honolulu;Waikiki Aquarium, Honolulu;\", \"accommodation\": \"BEAUTIFUL NEW Renovated Apt!!, Honolulu\"}, {\"days\": 2, \"current_city\": \"Honolulu\", \"transportation\": \"-\", \"breakfast\": \"Evergreen Sweet House, Honolulu\", \"lunch\": \"Taj Sweets, Honolulu\", \"dinner\": \"Nimtho, Honolulu\", \"attraction\": \"Foster Botanical Garden, Honolulu;Kūhiō Beach, Honolulu;\", \"accommodation\": \"BEAUTIFUL NEW Renovated Apt!!, Honolulu\"}, {\"days\": 3, \"current_city\": \"from Honolulu to Ontario\", \"transportation\": \"Flight Number: F3011722, from Honolulu to Ontario\", \"breakfast\": \"Take Away, Honolulu\", \"lunch\": \"Mama's Chinese Kitchen, Honolulu\", \"dinner\": \"Viva Hyderabad, Honolulu\", \"attraction\": \"Pearl Harbor National Memorial, Honolulu;Tantalus Lookout - Puu Ualakaa State Park, Honolulu;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Ontario to Honolulu",
+                "transportation": "Flight Number: F2566949, from Ontario to Honolulu",
+                "breakfast": "Bibi, Ontario",
+                "lunch": "Bait El Khetyar, Honolulu",
+                "dinner": "Shere Hind Chicken Corner, Honolulu",
+                "attraction": "Aloha Tower, Honolulu;Waikiki Aquarium, Honolulu;",
+                "accommodation": "BEAUTIFUL NEW Renovated Apt!!, Honolulu"
+            },
+            {
+                "days": 2,
+                "current_city": "Honolulu",
+                "transportation": "-",
+                "breakfast": "Evergreen Sweet House, Honolulu",
+                "lunch": "Taj Sweets, Honolulu",
+                "dinner": "Nimtho, Honolulu",
+                "attraction": "Foster Botanical Garden, Honolulu;Kūhiō Beach, Honolulu;",
+                "accommodation": "BEAUTIFUL NEW Renovated Apt!!, Honolulu"
+            },
+            {
+                "days": 3,
+                "current_city": "from Honolulu to Ontario",
+                "transportation": "Flight Number: F3011722, from Honolulu to Ontario",
+                "breakfast": "Take Away, Honolulu",
+                "lunch": "Mama's Chinese Kitchen, Honolulu",
+                "dinner": "Viva Hyderabad, Honolulu",
+                "attraction": "Pearl Harbor National Memorial, Honolulu;Tantalus Lookout - Puu Ualakaa State Park, Honolulu;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

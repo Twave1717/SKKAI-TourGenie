@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Salt Lake City to Twin Falls\", \"transportation\": \"Taxi in Twin Falls; Cost: 50\", \"breakfast\": \"Sagar Bar-Be Que, Twin Falls; Cost: 14\", \"lunch\": \"Sri Balaji, Twin Falls; Cost: 12\", \"dinner\": \"The Bake Studio, Twin Falls; Cost: 23\", \"attraction\": \"Dierkes Lake Park, Twin Falls; Base jump the bridge, Twin Falls;\", \"accommodation\": \"NYC Private room with everything included !!, Twin Falls; Cost: 177 per night (~354)\"}, {\"days\": 2, \"current_city\": \"Twin Falls\", \"transportation\": \"Taxi in Twin Falls; Cost: 50\", \"breakfast\": \"Harichatni.com, Twin Falls; Cost: 58\", \"lunch\": \"Yummy Rasoi, Twin Falls; Cost: 29\", \"dinner\": \"Kaushik Bakery, Twin Falls; Cost: 29\", \"attraction\": \"Evel Knievel Snake River Canyon Jump Site, Twin Falls; Evel Knievel Jump Monument, Twin Falls;\", \"accommodation\": \"NYC Private room with everything included !!, Twin Falls; Cost: 177 per night (~354)\"}, {\"days\": 3, \"current_city\": \"Twin Falls\", \"transportation\": \"Taxi in Twin Falls; Cost: 50\", \"breakfast\": \"Haldiram's, Twin Falls; Cost: 23\", \"lunch\": \"New Sethi's, Twin Falls; Cost: 10\", \"dinner\": \"The Amazing Buger's, Twin Falls; Cost: 22\", \"attraction\": \"Bridge View Point, Twin Falls; Drury Park, Twin Falls;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Salt Lake City to Twin Falls",
+                "transportation": "Taxi in Twin Falls; Cost: 50",
+                "breakfast": "Sagar Bar-Be Que, Twin Falls; Cost: 14",
+                "lunch": "Sri Balaji, Twin Falls; Cost: 12",
+                "dinner": "The Bake Studio, Twin Falls; Cost: 23",
+                "attraction": "Dierkes Lake Park, Twin Falls; Base jump the bridge, Twin Falls;",
+                "accommodation": "NYC Private room with everything included !!, Twin Falls; Cost: 177 per night (~354)"
+            },
+            {
+                "days": 2,
+                "current_city": "Twin Falls",
+                "transportation": "Taxi in Twin Falls; Cost: 50",
+                "breakfast": "Harichatni.com, Twin Falls; Cost: 58",
+                "lunch": "Yummy Rasoi, Twin Falls; Cost: 29",
+                "dinner": "Kaushik Bakery, Twin Falls; Cost: 29",
+                "attraction": "Evel Knievel Snake River Canyon Jump Site, Twin Falls; Evel Knievel Jump Monument, Twin Falls;",
+                "accommodation": "NYC Private room with everything included !!, Twin Falls; Cost: 177 per night (~354)"
+            },
+            {
+                "days": 3,
+                "current_city": "Twin Falls",
+                "transportation": "Taxi in Twin Falls; Cost: 50",
+                "breakfast": "Haldiram's, Twin Falls; Cost: 23",
+                "lunch": "New Sethi's, Twin Falls; Cost: 10",
+                "dinner": "The Amazing Buger's, Twin Falls; Cost: 22",
+                "attraction": "Bridge View Point, Twin Falls; Drury Park, Twin Falls;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

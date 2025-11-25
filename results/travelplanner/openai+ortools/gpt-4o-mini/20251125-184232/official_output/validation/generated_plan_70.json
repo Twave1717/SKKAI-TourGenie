@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Valparaiso to Belleville\", \"transportation\": \"Flight Number: F1350130, from Valparaiso to Belleville\", \"breakfast\": \"Shillong View, Valparaiso\", \"lunch\": \"Tummyy Tull, Belleville\", \"dinner\": \"Chocolate Temptation, Belleville\", \"attraction\": \"Old Brewery District Mural, Belleville;Belleville In Swing Mural, Belleville;\", \"accommodation\": \"Near Yankee Stadium, Belleville\"}, {\"days\": 2, \"current_city\": \"Belleville\", \"transportation\": \"-\", \"breakfast\": \"SnacksWale.com, Belleville\", \"lunch\": \"Romi da Dhaba, Belleville\", \"dinner\": \"Best Biryani, Belleville\", \"attraction\": \"Sierra Park, Belleville;Schranz Memorial Park, Belleville;\", \"accommodation\": \"Near Yankee Stadium, Belleville\"}, {\"days\": 3, \"current_city\": \"from Belleville to Valparaiso\", \"transportation\": \"Flight Number: F3572017, from Belleville to Valparaiso\", \"breakfast\": \"Cafe Amaretto, Belleville\", \"lunch\": \"RollsKing, Belleville\", \"dinner\": \"Kylin Experience, Belleville\", \"attraction\": \"Laderman Park, Belleville;Loop Creek Park, Belleville;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Valparaiso to Belleville",
+                "transportation": "Flight Number: F1350130, from Valparaiso to Belleville",
+                "breakfast": "Shillong View, Valparaiso",
+                "lunch": "Tummyy Tull, Belleville",
+                "dinner": "Chocolate Temptation, Belleville",
+                "attraction": "Old Brewery District Mural, Belleville;Belleville In Swing Mural, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 2,
+                "current_city": "Belleville",
+                "transportation": "-",
+                "breakfast": "SnacksWale.com, Belleville",
+                "lunch": "Romi da Dhaba, Belleville",
+                "dinner": "Best Biryani, Belleville",
+                "attraction": "Sierra Park, Belleville;Schranz Memorial Park, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 3,
+                "current_city": "from Belleville to Valparaiso",
+                "transportation": "Flight Number: F3572017, from Belleville to Valparaiso",
+                "breakfast": "Cafe Amaretto, Belleville",
+                "lunch": "RollsKing, Belleville",
+                "dinner": "Kylin Experience, Belleville",
+                "attraction": "Laderman Park, Belleville;Loop Creek Park, Belleville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

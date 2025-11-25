@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Baton Rouge to Dallas\", \"transportation\": \"Flight Number: F3595197, from Baton Rouge to Dallas\", \"breakfast\": \"Fifth Street Bagelry, Baton Rouge\", \"lunch\": \"Kolkata Biryani House, Dallas\", \"dinner\": \"Cafe Gatherings, Dallas\", \"attraction\": \"Reunion Tower, Dallas;The Dallas Arboretum and Botanical Garden, Dallas;\", \"accommodation\": \"*Fresh Budget Room, Dallas\"}, {\"days\": 2, \"current_city\": \"Dallas\", \"transportation\": \"-\", \"breakfast\": \"Food N Shakes, Dallas\", \"lunch\": \"Bikaner Sweets, Dallas\", \"dinner\": \"Drifters Cafe, Dallas\", \"attraction\": \"Frontiers of Flight Museum, Dallas;Leonhardt Lagoon Nature Walk, Dallas;\", \"accommodation\": \"*Fresh Budget Room, Dallas\"}, {\"days\": 3, \"current_city\": \"from Dallas to Baton Rouge\", \"transportation\": \"Flight Number: F3608512, from Dallas to Baton Rouge\", \"breakfast\": \"Lodhi Knights, Dallas\", \"lunch\": \"Cafe Hera Pheri, Dallas\", \"dinner\": \"Cafe Coffee Day, Dallas\", \"attraction\": \"John F. Kennedy Memorial Plaza, Dallas;Dealey Plaza, Dallas;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Baton Rouge to Dallas",
+                "transportation": "Flight Number: F3595197, from Baton Rouge to Dallas",
+                "breakfast": "Fifth Street Bagelry, Baton Rouge",
+                "lunch": "Kolkata Biryani House, Dallas",
+                "dinner": "Cafe Gatherings, Dallas",
+                "attraction": "Reunion Tower, Dallas;The Dallas Arboretum and Botanical Garden, Dallas;",
+                "accommodation": "*Fresh Budget Room, Dallas"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "-",
+                "breakfast": "Food N Shakes, Dallas",
+                "lunch": "Bikaner Sweets, Dallas",
+                "dinner": "Drifters Cafe, Dallas",
+                "attraction": "Frontiers of Flight Museum, Dallas;Leonhardt Lagoon Nature Walk, Dallas;",
+                "accommodation": "*Fresh Budget Room, Dallas"
+            },
+            {
+                "days": 3,
+                "current_city": "from Dallas to Baton Rouge",
+                "transportation": "Flight Number: F3608512, from Dallas to Baton Rouge",
+                "breakfast": "Lodhi Knights, Dallas",
+                "lunch": "Cafe Hera Pheri, Dallas",
+                "dinner": "Cafe Coffee Day, Dallas",
+                "attraction": "John F. Kennedy Memorial Plaza, Dallas;Dealey Plaza, Dallas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

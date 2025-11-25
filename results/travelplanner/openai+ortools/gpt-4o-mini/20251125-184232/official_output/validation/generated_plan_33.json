@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Washington\", \"transportation\": \"Flight Number: F1230684, from Denver to Washington\", \"breakfast\": \"Nathu's Sweets, Denver\", \"lunch\": \"The Hangar, Washington\", \"dinner\": \"Keventers, Washington\", \"attraction\": \"The Seattle Great Wheel, Washington;Olympic Sculpture Park, Washington;\", \"accommodation\": \"Stunning 2Bed/2BA + 300sqft deck by the river!, Washington\"}, {\"days\": 2, \"current_city\": \"Washington\", \"transportation\": \"-\", \"breakfast\": \"Los Aztecas, Washington\", \"lunch\": \"Baskin Robbins, Washington\", \"dinner\": \"Hearken Caf愆, Washington\", \"attraction\": \"International Fountain, Washington;Pier 55, Washington;\", \"accommodation\": \"Stunning 2Bed/2BA + 300sqft deck by the river!, Washington\"}, {\"days\": 3, \"current_city\": \"Washington\", \"transportation\": \"-\", \"breakfast\": \"Manna Java World Cafe, Washington\", \"lunch\": \"Chidya Ghar - Roseate House, Washington\", \"dinner\": \"Biryani Point, Washington\", \"attraction\": \"Discovery Park, Washington;Washington Park Arboretum, Washington;\", \"accommodation\": \"Stunning 2Bed/2BA + 300sqft deck by the river!, Washington\"}, {\"days\": 4, \"current_city\": \"Washington\", \"transportation\": \"-\", \"breakfast\": \"Bikaner Sweet House, Washington\", \"lunch\": \"Cafe Coffee Day, Washington\", \"dinner\": \"Shiv Dhaba, Washington\", \"attraction\": \"The Gum Wall, Washington;Wings Over Washington, Washington;\", \"accommodation\": \"Stunning 2Bed/2BA + 300sqft deck by the river!, Washington\"}, {\"days\": 5, \"current_city\": \"from Washington to Denver\", \"transportation\": \"Flight Number: F2435502, from Washington to Denver\", \"breakfast\": \"Good Foods, Washington\", \"lunch\": \"Hemingway's Island Grill, Washington\", \"dinner\": \"Moradabadi Biryani, Washington\", \"attraction\": \"Seattle Aquarium, Washington;Beneath the Streets, Washington;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Washington",
+                "transportation": "Flight Number: F1230684, from Denver to Washington",
+                "breakfast": "Nathu's Sweets, Denver",
+                "lunch": "The Hangar, Washington",
+                "dinner": "Keventers, Washington",
+                "attraction": "The Seattle Great Wheel, Washington;Olympic Sculpture Park, Washington;",
+                "accommodation": "Stunning 2Bed/2BA + 300sqft deck by the river!, Washington"
+            },
+            {
+                "days": 2,
+                "current_city": "Washington",
+                "transportation": "-",
+                "breakfast": "Los Aztecas, Washington",
+                "lunch": "Baskin Robbins, Washington",
+                "dinner": "Hearken Caf愆, Washington",
+                "attraction": "International Fountain, Washington;Pier 55, Washington;",
+                "accommodation": "Stunning 2Bed/2BA + 300sqft deck by the river!, Washington"
+            },
+            {
+                "days": 3,
+                "current_city": "Washington",
+                "transportation": "-",
+                "breakfast": "Manna Java World Cafe, Washington",
+                "lunch": "Chidya Ghar - Roseate House, Washington",
+                "dinner": "Biryani Point, Washington",
+                "attraction": "Discovery Park, Washington;Washington Park Arboretum, Washington;",
+                "accommodation": "Stunning 2Bed/2BA + 300sqft deck by the river!, Washington"
+            },
+            {
+                "days": 4,
+                "current_city": "Washington",
+                "transportation": "-",
+                "breakfast": "Bikaner Sweet House, Washington",
+                "lunch": "Cafe Coffee Day, Washington",
+                "dinner": "Shiv Dhaba, Washington",
+                "attraction": "The Gum Wall, Washington;Wings Over Washington, Washington;",
+                "accommodation": "Stunning 2Bed/2BA + 300sqft deck by the river!, Washington"
+            },
+            {
+                "days": 5,
+                "current_city": "from Washington to Denver",
+                "transportation": "Flight Number: F2435502, from Washington to Denver",
+                "breakfast": "Good Foods, Washington",
+                "lunch": "Hemingway's Island Grill, Washington",
+                "dinner": "Moradabadi Biryani, Washington",
+                "attraction": "Seattle Aquarium, Washington;Beneath the Streets, Washington;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Oakland to Tucson\", \"transportation\": \"Flight Number: F3946121, from Oakland to Tucson\", \"breakfast\": \"Kake Da Dhaba, Oakland\", \"lunch\": \"Uraki, Tucson\", \"dinner\": \"Pizza Street, Tucson\", \"attraction\": \"Old Tucson, Tucson;San Xavier del Bac Mission, Tucson;\", \"accommodation\": \"Private room with private bathroom, Tucson\"}, {\"days\": 2, \"current_city\": \"Tucson\", \"transportation\": \"-\", \"breakfast\": \"Mood 4 Food, Tucson\", \"lunch\": \"Magic Spice Wok, Tucson\", \"dinner\": \"Canteen Till I Die, Tucson\", \"attraction\": \"The Mini Time Machine Museum of Miniatures, Tucson;Tucson Botanical Gardens, Tucson;\", \"accommodation\": \"Private room with private bathroom, Tucson\"}, {\"days\": 3, \"current_city\": \"from Tucson to Oakland\", \"transportation\": \"Flight Number: F0683082, from Tucson to Oakland\", \"breakfast\": \"Selfie Lounge Restro & Bar, Tucson\", \"lunch\": \"Delhi Foods, Tucson\", \"dinner\": \"Punjabi Zaika, Tucson\", \"attraction\": \"Pima Air & Space Museum, Tucson;Reid Park Zoo, Tucson;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Oakland to Tucson",
+                "transportation": "Flight Number: F3946121, from Oakland to Tucson",
+                "breakfast": "Kake Da Dhaba, Oakland",
+                "lunch": "Uraki, Tucson",
+                "dinner": "Pizza Street, Tucson",
+                "attraction": "Old Tucson, Tucson;San Xavier del Bac Mission, Tucson;",
+                "accommodation": "Private room with private bathroom, Tucson"
+            },
+            {
+                "days": 2,
+                "current_city": "Tucson",
+                "transportation": "-",
+                "breakfast": "Mood 4 Food, Tucson",
+                "lunch": "Magic Spice Wok, Tucson",
+                "dinner": "Canteen Till I Die, Tucson",
+                "attraction": "The Mini Time Machine Museum of Miniatures, Tucson;Tucson Botanical Gardens, Tucson;",
+                "accommodation": "Private room with private bathroom, Tucson"
+            },
+            {
+                "days": 3,
+                "current_city": "from Tucson to Oakland",
+                "transportation": "Flight Number: F0683082, from Tucson to Oakland",
+                "breakfast": "Selfie Lounge Restro & Bar, Tucson",
+                "lunch": "Delhi Foods, Tucson",
+                "dinner": "Punjabi Zaika, Tucson",
+                "attraction": "Pima Air & Space Museum, Tucson;Reid Park Zoo, Tucson;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

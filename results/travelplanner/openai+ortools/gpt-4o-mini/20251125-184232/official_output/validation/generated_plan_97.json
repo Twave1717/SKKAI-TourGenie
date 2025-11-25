@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Manhattan to Texas\", \"transportation\": \"-\", \"breakfast\": \"Bake N Shake, Manhattan\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 2, \"current_city\": \"Texas\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 3, \"current_city\": \"Texas\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 4, \"current_city\": \"Texas\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}, {\"days\": 5, \"current_city\": \"Texas\", \"transportation\": \"-\", \"breakfast\": \"-\", \"lunch\": \"-\", \"dinner\": \"-\", \"attraction\": \"-\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Manhattan to Texas",
+                "transportation": "-",
+                "breakfast": "Bake N Shake, Manhattan",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 2,
+                "current_city": "Texas",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 3,
+                "current_city": "Texas",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 4,
+                "current_city": "Texas",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            },
+            {
+                "days": 5,
+                "current_city": "Texas",
+                "transportation": "-",
+                "breakfast": "-",
+                "lunch": "-",
+                "dinner": "-",
+                "attraction": "-",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

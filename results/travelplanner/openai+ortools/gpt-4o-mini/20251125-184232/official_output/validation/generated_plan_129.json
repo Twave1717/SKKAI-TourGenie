@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Newark to Savannah\", \"transportation\": \"Flight Number: F3183881, from Newark to Savannah\", \"breakfast\": \"Tunday Kababi, Newark\", \"lunch\": \"Pizza Day, Savannah\", \"dinner\": \"Manohar Dairy And Restaurant, Savannah\", \"attraction\": \"Mercer-Williams House Museum, Savannah;Savannah's Waterfront, Savannah;\", \"accommodation\": \"Cosy Inwood apartment, Savannah\"}, {\"days\": 2, \"current_city\": \"Savannah\", \"transportation\": \"-\", \"breakfast\": \"Bake Cuddle, Savannah\", \"lunch\": \"Dhaba On Wheels, Savannah\", \"dinner\": \"Brown House Cafe, Savannah\", \"attraction\": \"Andrew Low House, Savannah;Tricentennial Park, Savannah;\", \"accommodation\": \"Cosy Inwood apartment, Savannah\"}, {\"days\": 3, \"current_city\": \"from Savannah to Newark\", \"transportation\": \"Flight Number: F2307151, from Savannah to Newark\", \"breakfast\": \"Hwealthcafe, Savannah\", \"lunch\": \"The Mad Teapot/The Wishing Chair, Savannah\", \"dinner\": \"New Raj Kachori Bhandar, Savannah\", \"attraction\": \"Ralph Mark Gilbert Civil Rights Museum, Savannah;#1 Ghost Tour, Savannah;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Newark to Savannah",
+                "transportation": "Flight Number: F3183881, from Newark to Savannah",
+                "breakfast": "Tunday Kababi, Newark",
+                "lunch": "Pizza Day, Savannah",
+                "dinner": "Manohar Dairy And Restaurant, Savannah",
+                "attraction": "Mercer-Williams House Museum, Savannah;Savannah's Waterfront, Savannah;",
+                "accommodation": "Cosy Inwood apartment, Savannah"
+            },
+            {
+                "days": 2,
+                "current_city": "Savannah",
+                "transportation": "-",
+                "breakfast": "Bake Cuddle, Savannah",
+                "lunch": "Dhaba On Wheels, Savannah",
+                "dinner": "Brown House Cafe, Savannah",
+                "attraction": "Andrew Low House, Savannah;Tricentennial Park, Savannah;",
+                "accommodation": "Cosy Inwood apartment, Savannah"
+            },
+            {
+                "days": 3,
+                "current_city": "from Savannah to Newark",
+                "transportation": "Flight Number: F2307151, from Savannah to Newark",
+                "breakfast": "Hwealthcafe, Savannah",
+                "lunch": "The Mad Teapot/The Wishing Chair, Savannah",
+                "dinner": "New Raj Kachori Bhandar, Savannah",
+                "attraction": "Ralph Mark Gilbert Civil Rights Museum, Savannah;#1 Ghost Tour, Savannah;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
