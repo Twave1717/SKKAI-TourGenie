@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from West Palm Beach to Atlanta\", \"transportation\": \"Flight Number: F2990151, from West Palm Beach to Atlanta\", \"breakfast\": \"Aggarwal Bikaner Wala, West Palm Beach\", \"lunch\": \"Taste of Vishal, Atlanta\", \"dinner\": \"Beliram Degchiwala, Atlanta\", \"attraction\": \"SkyView Atlanta, Atlanta;Centennial Olympic Park, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"-\", \"breakfast\": \"Sethi's Restaurant & Barbeque, Atlanta\", \"lunch\": \"Bimbos, Atlanta\", \"dinner\": \"Adda, Atlanta\", \"attraction\": \"Krog Street Tunnel, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 3, \"current_city\": \"from Atlanta to West Palm Beach\", \"transportation\": \"Flight Number: F3535986, from Atlanta to West Palm Beach\", \"breakfast\": \"China Hot, Atlanta\", \"lunch\": \"Ahata, Atlanta\", \"dinner\": \"Daawat-e-Kashmir, Atlanta\", \"attraction\": \"World of Coca-Cola, Atlanta;Fox Theatre, Atlanta;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from West Palm Beach to Atlanta",
+                "transportation": "Flight Number: F2990151, from West Palm Beach to Atlanta",
+                "breakfast": "Aggarwal Bikaner Wala, West Palm Beach",
+                "lunch": "Taste of Vishal, Atlanta",
+                "dinner": "Beliram Degchiwala, Atlanta",
+                "attraction": "SkyView Atlanta, Atlanta;Centennial Olympic Park, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Sethi's Restaurant & Barbeque, Atlanta",
+                "lunch": "Bimbos, Atlanta",
+                "dinner": "Adda, Atlanta",
+                "attraction": "Krog Street Tunnel, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "from Atlanta to West Palm Beach",
+                "transportation": "Flight Number: F3535986, from Atlanta to West Palm Beach",
+                "breakfast": "China Hot, Atlanta",
+                "lunch": "Ahata, Atlanta",
+                "dinner": "Daawat-e-Kashmir, Atlanta",
+                "attraction": "World of Coca-Cola, Atlanta;Fox Theatre, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,109 @@
+{
+  "scores": {
+    "Delivery Rate": 1.0,
+    "Commonsense Constraint Micro Pass Rate": 1.0,
+    "Commonsense Constraint Macro Pass Rate": 1.0,
+    "Hard Constraint Micro Pass Rate": 1.0,
+    "Hard Constraint Macro Pass Rate": 1.0,
+    "Final Pass Rate": 1.0
+  },
+  "details": {
+    "Commonsense Constraint": {
+      "easy": {
+        "3": {
+          "Reasonable City Route": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Diverse Restaurants": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Diverse Attractions": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Minimum Nights Stay": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Non-conf. Transportation": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Within Current City": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Within Sandbox": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          },
+          "Complete Information": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          }
+        },
+        "5": {},
+        "7": {}
+      },
+      "medium": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {},
+        "5": {},
+        "7": {}
+      }
+    },
+    "Hard Constraint": {
+      "easy": {
+        "3": {
+          "Cuisine": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Rule": {
+            "true": 0,
+            "false": 0
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Budget": {
+            "true": 10,
+            "false": 0,
+            "total": 10
+          }
+        },
+        "5": {},
+        "7": {}
+      },
+      "medium": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {},
+        "5": {},
+        "7": {}
+      }
+    }
+  }
+}
