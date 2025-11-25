@@ -1,0 +1,47 @@
+[
+  {
+    "constraint_id": "C-BUDGET-TOTAL",
+    "type": "hard",
+    "dsl": "총여비(항공, 숙박, 식비, 교통, 입장료 등 모든 비용)는 예산($1,500) 내로 분산하여 초과하지 않는다.",
+    "weight": null,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "C-ACCOM-OPTIMIZE",
+    "type": "hard",
+    "dsl": "숙소는 1인 여행에 적합하고, 평점이 높으며, 1박 $150 이하의 저렴한 대안(프라이빗룸, 스튜디오 등)으로 선택한다.",
+    "weight": null,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "C-MEAL-COST-DOWN",
+    "type": "hard",
+    "dsl": "하루 1끼 이상은 $15~$20대의 저렴한 식사(카페, 델리, 현지식 등)로 대체하여 식비를 분산한다.",
+    "weight": null,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "C-TRANSPORT-EFFICIENT",
+    "type": "hard",
+    "dsl": "식당·관광지 간 이동 동선을 최적화하고, 먼 거리는 가까운 대안으로 조정하거나 대중교통 패스/1일권 등으로 내부 교통비를 최소화한다.",
+    "weight": null,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "C-FLIGHT-LOWCOST",
+    "type": "hard",
+    "dsl": "항공권은 $115~$133 구간의 최저가로 선택하거나, 시간대 조정 등으로 항공비를 절감한다.",
+    "weight": null,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  }
+]
