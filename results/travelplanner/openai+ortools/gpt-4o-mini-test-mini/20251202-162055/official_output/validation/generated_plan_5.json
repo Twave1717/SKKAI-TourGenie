@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from West Palm Beach to Atlanta\", \"transportation\": \"Flight Number: F2990151, from West Palm Beach to Atlanta\", \"breakfast\": \"Krunchies, West Palm Beach\", \"lunch\": \"Daawat-e-Kashmir, Atlanta\", \"dinner\": \"Sethi's Restaurant & Barbeque, Atlanta\", \"attraction\": \"Piedmont Park, Atlanta;High Museum of Art, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 2, \"current_city\": \"Atlanta\", \"transportation\": \"-\", \"breakfast\": \"Adda, Atlanta\", \"lunch\": \"Taste of Vishal, Atlanta\", \"dinner\": \"China Hot, Atlanta\", \"attraction\": \"Georgia Aquarium, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;\", \"accommodation\": \"Spacious private room close St. Barnabas Hospital, Atlanta\"}, {\"days\": 3, \"current_city\": \"from Atlanta to West Palm Beach\", \"transportation\": \"Flight Number: F3535986, from Atlanta to West Palm Beach\", \"breakfast\": \"Beliram Degchiwala, Atlanta\", \"lunch\": \"Ahata, Atlanta\", \"dinner\": \"Bimbos, Atlanta\", \"attraction\": \"Atlanta Botanical Garden, Atlanta;World of Coca-Cola, Atlanta;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from West Palm Beach to Atlanta",
+                "transportation": "Flight Number: F2990151, from West Palm Beach to Atlanta",
+                "breakfast": "Krunchies, West Palm Beach",
+                "lunch": "Daawat-e-Kashmir, Atlanta",
+                "dinner": "Sethi's Restaurant & Barbeque, Atlanta",
+                "attraction": "Piedmont Park, Atlanta;High Museum of Art, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlanta",
+                "transportation": "-",
+                "breakfast": "Adda, Atlanta",
+                "lunch": "Taste of Vishal, Atlanta",
+                "dinner": "China Hot, Atlanta",
+                "attraction": "Georgia Aquarium, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;",
+                "accommodation": "Spacious private room close St. Barnabas Hospital, Atlanta"
+            },
+            {
+                "days": 3,
+                "current_city": "from Atlanta to West Palm Beach",
+                "transportation": "Flight Number: F3535986, from Atlanta to West Palm Beach",
+                "breakfast": "Beliram Degchiwala, Atlanta",
+                "lunch": "Ahata, Atlanta",
+                "dinner": "Bimbos, Atlanta",
+                "attraction": "Atlanta Botanical Garden, Atlanta;World of Coca-Cola, Atlanta;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Fort Myers\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Rangrezz Restaurant, Birmingham\",\n    \"lunch\": \"Sardar A Pure Meat Shop, Fort Myers\",\n    \"dinner\": \"Enter The Dragon, Fort Myers\",\n    \"attraction\": \"Edison & Ford Winter Estates, Fort Myers;\",\n    \"accommodation\": \"Great room in Greenwich Village!, Fort Myers\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Gainesville\",\n    \"transportation\": \"Taxi from Fort Myers to Gainesville, Gainesville\",\n    \"breakfast\": \"Celeste, Gainesville\",\n    \"lunch\": \"Prince Chicken & Mutton Shop, Gainesville\",\n    \"dinner\": \"Paatra - Jaypee Vasant Continental, Gainesville\",\n    \"attraction\": \"Morningside Nature Center, Gainesville;\",\n    \"accommodation\": \"Private bedroom hideaway in East Village gem, Gainesville\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Gainesville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Americana Kitchen and Bar, Gainesville\",\n    \"lunch\": \"Tapri The Chai Books Cafe, Gainesville\",\n    \"dinner\": \"Student Corner, Gainesville\",\n    \"attraction\": \"Butterfly Rainforest at the Florida Museum of Natural History, Gainesville;\",\n    \"accommodation\": \"Private bedroom hideaway in East Village gem, Gainesville\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Gainesville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Pizza Hut, Gainesville\",\n    \"lunch\": \"Dilli Grillz, Gainesville\",\n    \"dinner\": \"Anwar Food Corner, Gainesville\",\n    \"attraction\": \"Visit Gainesville, Alachua County, FL, Gainesville;\",\n    \"accommodation\": \"Private bedroom hideaway in East Village gem, Gainesville\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Fort Myers\",\n    \"transportation\": \"Taxi from Gainesville to Fort Myers, Fort Myers\",\n    \"breakfast\": \"Al Mukhtar Bakery, Fort Myers\",\n    \"lunch\": \"Delicious Treasure, Fort Myers\",\n    \"dinner\": \"Puran Chand Ambala Wale Di Hatti, Fort Myers\",\n    \"attraction\": \"River District, Fort Myers;\",\n    \"accommodation\": \"Great room in Greenwich Village!, Fort Myers\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Fort Myers",
+                "transportation": "-",
+                "breakfast": "Rangrezz Restaurant, Birmingham",
+                "lunch": "Sardar A Pure Meat Shop, Fort Myers",
+                "dinner": "Enter The Dragon, Fort Myers",
+                "attraction": "Edison & Ford Winter Estates, Fort Myers;",
+                "accommodation": "Great room in Greenwich Village!, Fort Myers"
+            },
+            {
+                "days": 2,
+                "current_city": "Gainesville",
+                "transportation": "Taxi from Fort Myers to Gainesville, Gainesville",
+                "breakfast": "Celeste, Gainesville",
+                "lunch": "Prince Chicken & Mutton Shop, Gainesville",
+                "dinner": "Paatra - Jaypee Vasant Continental, Gainesville",
+                "attraction": "Morningside Nature Center, Gainesville;",
+                "accommodation": "Private bedroom hideaway in East Village gem, Gainesville"
+            },
+            {
+                "days": 3,
+                "current_city": "Gainesville",
+                "transportation": "-",
+                "breakfast": "Americana Kitchen and Bar, Gainesville",
+                "lunch": "Tapri The Chai Books Cafe, Gainesville",
+                "dinner": "Student Corner, Gainesville",
+                "attraction": "Butterfly Rainforest at the Florida Museum of Natural History, Gainesville;",
+                "accommodation": "Private bedroom hideaway in East Village gem, Gainesville"
+            },
+            {
+                "days": 4,
+                "current_city": "Gainesville",
+                "transportation": "-",
+                "breakfast": "Pizza Hut, Gainesville",
+                "lunch": "Dilli Grillz, Gainesville",
+                "dinner": "Anwar Food Corner, Gainesville",
+                "attraction": "Visit Gainesville, Alachua County, FL, Gainesville;",
+                "accommodation": "Private bedroom hideaway in East Village gem, Gainesville"
+            },
+            {
+                "days": 5,
+                "current_city": "Fort Myers",
+                "transportation": "Taxi from Gainesville to Fort Myers, Fort Myers",
+                "breakfast": "Al Mukhtar Bakery, Fort Myers",
+                "lunch": "Delicious Treasure, Fort Myers",
+                "dinner": "Puran Chand Ambala Wale Di Hatti, Fort Myers",
+                "attraction": "River District, Fort Myers;",
+                "accommodation": "Great room in Greenwich Village!, Fort Myers"
+            }
+        ]
+    }
+]

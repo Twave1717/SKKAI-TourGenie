@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Grand Junction\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Chiyang, Medford\",\n    \"lunch\": \"Baba Chicken Ludhiana Wale, Grand Junction\",\n    \"dinner\": \"Pizza Station, Grand Junction\",\n    \"attraction\": \"James M. Robb - Colorado River State Park Connected Lakes Section, Grand Junction;\",\n    \"accommodation\": \"Cool room Manhattan - Sleeps up to 3 guests, Grand Junction\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"Self-driving from Grand Junction to Durango, Durango\",\n    \"breakfast\": \"Yeoh, Durango\",\n    \"lunch\": \"Jason Bakery, Durango\",\n    \"dinner\": \"Burger King, Durango\",\n    \"attraction\": \"Discovery Museum At-Powerhouse, Durango;\",\n    \"accommodation\": \"Cherry Hill House - Blue Room, Durango\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Colorado Springs\",\n    \"transportation\": \"Self-driving from Durango to Colorado Springs, Colorado Springs\",\n    \"breakfast\": \"Nobu - One&Only, Colorado Springs\",\n    \"lunch\": \"New Raja Sweets, Colorado Springs\",\n    \"dinner\": \"PizzaExpress, Colorado Springs\",\n    \"attraction\": \"Cave of the Winds Mountain Park, Colorado Springs;\",\n    \"accommodation\": \"Large sunny park slope apartment, Colorado Springs\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Colorado Springs\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"South Cafe, Colorado Springs\",\n    \"lunch\": \"Wah Wah Chicken Corner, Colorado Springs\",\n    \"dinner\": \"Underdoggs Sports Bar & Grill, Colorado Springs\",\n    \"attraction\": \"Adventures Out West, Colorado Springs;\",\n    \"accommodation\": \"Large sunny park slope apartment, Colorado Springs\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Colorado Springs\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"#Dilliwaala6, Colorado Springs\",\n    \"lunch\": \"Chin Chow, Colorado Springs\",\n    \"dinner\": \"Mamu's Infusion, Colorado Springs\",\n    \"attraction\": \"Miramont Castle Museum and The Queen's Parlour Tea Room, Colorado Springs;\",\n    \"accommodation\": \"Large sunny park slope apartment, Colorado Springs\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Colorado Springs\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"R.I.P Cafe & Lounge, Colorado Springs\",\n    \"lunch\": \"Sushi Masa, Colorado Springs\",\n    \"dinner\": \"Kebab Xpress, Colorado Springs\",\n    \"attraction\": \"Will Rogers Shrine of the Sun, Colorado Springs;\",\n    \"accommodation\": \"Large sunny park slope apartment, Colorado Springs\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Grand Junction\",\n    \"transportation\": \"Self-driving from Colorado Springs to Grand Junction, Grand Junction\",\n    \"breakfast\": \"New Punjabi Khana, Grand Junction\",\n    \"lunch\": \"Austin's BBQ and Oyster Bar, Grand Junction\",\n    \"dinner\": \"Cha Bar, Grand Junction\",\n    \"attraction\": \"Museum of the West, Museums of Western Colorado, Grand Junction;\",\n    \"accommodation\": \"Cool room Manhattan - Sleeps up to 3 guests, Grand Junction\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Grand Junction",
+                "transportation": "-",
+                "breakfast": "Chiyang, Medford",
+                "lunch": "Baba Chicken Ludhiana Wale, Grand Junction",
+                "dinner": "Pizza Station, Grand Junction",
+                "attraction": "James M. Robb - Colorado River State Park Connected Lakes Section, Grand Junction;",
+                "accommodation": "Cool room Manhattan - Sleeps up to 3 guests, Grand Junction"
+            },
+            {
+                "days": 2,
+                "current_city": "Durango",
+                "transportation": "Self-driving from Grand Junction to Durango, Durango",
+                "breakfast": "Yeoh, Durango",
+                "lunch": "Jason Bakery, Durango",
+                "dinner": "Burger King, Durango",
+                "attraction": "Discovery Museum At-Powerhouse, Durango;",
+                "accommodation": "Cherry Hill House - Blue Room, Durango"
+            },
+            {
+                "days": 3,
+                "current_city": "Colorado Springs",
+                "transportation": "Self-driving from Durango to Colorado Springs, Colorado Springs",
+                "breakfast": "Nobu - One&Only, Colorado Springs",
+                "lunch": "New Raja Sweets, Colorado Springs",
+                "dinner": "PizzaExpress, Colorado Springs",
+                "attraction": "Cave of the Winds Mountain Park, Colorado Springs;",
+                "accommodation": "Large sunny park slope apartment, Colorado Springs"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado Springs",
+                "transportation": "-",
+                "breakfast": "South Cafe, Colorado Springs",
+                "lunch": "Wah Wah Chicken Corner, Colorado Springs",
+                "dinner": "Underdoggs Sports Bar & Grill, Colorado Springs",
+                "attraction": "Adventures Out West, Colorado Springs;",
+                "accommodation": "Large sunny park slope apartment, Colorado Springs"
+            },
+            {
+                "days": 5,
+                "current_city": "Colorado Springs",
+                "transportation": "-",
+                "breakfast": "#Dilliwaala6, Colorado Springs",
+                "lunch": "Chin Chow, Colorado Springs",
+                "dinner": "Mamu's Infusion, Colorado Springs",
+                "attraction": "Miramont Castle Museum and The Queen's Parlour Tea Room, Colorado Springs;",
+                "accommodation": "Large sunny park slope apartment, Colorado Springs"
+            },
+            {
+                "days": 6,
+                "current_city": "Colorado Springs",
+                "transportation": "-",
+                "breakfast": "R.I.P Cafe & Lounge, Colorado Springs",
+                "lunch": "Sushi Masa, Colorado Springs",
+                "dinner": "Kebab Xpress, Colorado Springs",
+                "attraction": "Will Rogers Shrine of the Sun, Colorado Springs;",
+                "accommodation": "Large sunny park slope apartment, Colorado Springs"
+            },
+            {
+                "days": 7,
+                "current_city": "Grand Junction",
+                "transportation": "Self-driving from Colorado Springs to Grand Junction, Grand Junction",
+                "breakfast": "New Punjabi Khana, Grand Junction",
+                "lunch": "Austin's BBQ and Oyster Bar, Grand Junction",
+                "dinner": "Cha Bar, Grand Junction",
+                "attraction": "Museum of the West, Museums of Western Colorado, Grand Junction;",
+                "accommodation": "Cool room Manhattan - Sleeps up to 3 guests, Grand Junction"
+            }
+        ]
+    }
+]

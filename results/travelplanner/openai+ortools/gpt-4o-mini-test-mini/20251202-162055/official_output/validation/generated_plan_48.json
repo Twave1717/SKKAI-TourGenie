@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Asian Chopstick, Philadelphia\",\n    \"lunch\": \"Shagun, Lynchburg\",\n    \"dinner\": \"Eat n Joy, Lynchburg\",\n    \"attraction\": \"Amazement Square, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Richmond\",\n    \"transportation\": \"Taxi from Lynchburg to Richmond, Richmond\",\n    \"breakfast\": \"Defence Bakery, Richmond\",\n    \"lunch\": \"Chakna, Richmond\",\n    \"dinner\": \"Muffins, Richmond\",\n    \"attraction\": \"Haunts of Richmond - Shadows of Shockoe Tour, Richmond;\",\n    \"accommodation\": \"Luxury NYC 1 Bed w/Gorgeous Views + Pool, Richmond\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"Taxi from Richmond to Lynchburg, Lynchburg\",\n    \"breakfast\": \"Mehak Food Corner, Lynchburg\",\n    \"lunch\": \"Uptown Vietnam cuisine, Lynchburg\",\n    \"dinner\": \"Subway, Lynchburg\",\n    \"attraction\": \"Percival's Island Natural Area, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Richmond\",\n    \"transportation\": \"Taxi from Lynchburg to Richmond, Richmond\",\n    \"breakfast\": \"Shahi Muradabadi Chicken Biryani, Richmond\",\n    \"lunch\": \"Noida Cakes Online, Richmond\",\n    \"dinner\": \"Chidambaram's New Madras Hotel, Richmond\",\n    \"attraction\": \"The John Marshall House, Richmond;\",\n    \"accommodation\": \"Luxury NYC 1 Bed w/Gorgeous Views + Pool, Richmond\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Petersburg\",\n    \"transportation\": \"Taxi from Richmond to Petersburg, Petersburg\",\n    \"breakfast\": \"Mr. Gold, Petersburg\",\n    \"lunch\": \"Tea'se Me - Rooftop Tea Boutique, Petersburg\",\n    \"dinner\": \"Chick N Grills, Petersburg\",\n    \"attraction\": \"The Exchange Building and Petersburg Visitors Center, Petersburg;\",\n    \"accommodation\": \"Modern & Artsy  Awesome Location, Petersburg\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Richmond\",\n    \"transportation\": \"Taxi from Petersburg to Richmond, Richmond\",\n    \"breakfast\": \"Kwality Bengali Sweets, Richmond\",\n    \"lunch\": \"Annapurna Food Point, Richmond\",\n    \"dinner\": \"Sandpiper Restaurant & Lounge, Richmond\",\n    \"attraction\": \"Maggie L Walker National Historic Site, Richmond;\",\n    \"accommodation\": \"Luxury NYC 1 Bed w/Gorgeous Views + Pool, Richmond\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"Taxi from Richmond to Lynchburg, Lynchburg\",\n    \"breakfast\": \"Shree Jee Rasoi, Lynchburg\",\n    \"lunch\": \"Shivam Corner, Lynchburg\",\n    \"dinner\": \"Haldiram's, Lynchburg\",\n    \"attraction\": \"Lower Bluff Walk, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Lynchburg",
+                "transportation": "-",
+                "breakfast": "Asian Chopstick, Philadelphia",
+                "lunch": "Shagun, Lynchburg",
+                "dinner": "Eat n Joy, Lynchburg",
+                "attraction": "Amazement Square, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            },
+            {
+                "days": 2,
+                "current_city": "Richmond",
+                "transportation": "Taxi from Lynchburg to Richmond, Richmond",
+                "breakfast": "Defence Bakery, Richmond",
+                "lunch": "Chakna, Richmond",
+                "dinner": "Muffins, Richmond",
+                "attraction": "Haunts of Richmond - Shadows of Shockoe Tour, Richmond;",
+                "accommodation": "Luxury NYC 1 Bed w/Gorgeous Views + Pool, Richmond"
+            },
+            {
+                "days": 3,
+                "current_city": "Lynchburg",
+                "transportation": "Taxi from Richmond to Lynchburg, Lynchburg",
+                "breakfast": "Mehak Food Corner, Lynchburg",
+                "lunch": "Uptown Vietnam cuisine, Lynchburg",
+                "dinner": "Subway, Lynchburg",
+                "attraction": "Percival's Island Natural Area, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            },
+            {
+                "days": 4,
+                "current_city": "Richmond",
+                "transportation": "Taxi from Lynchburg to Richmond, Richmond",
+                "breakfast": "Shahi Muradabadi Chicken Biryani, Richmond",
+                "lunch": "Noida Cakes Online, Richmond",
+                "dinner": "Chidambaram's New Madras Hotel, Richmond",
+                "attraction": "The John Marshall House, Richmond;",
+                "accommodation": "Luxury NYC 1 Bed w/Gorgeous Views + Pool, Richmond"
+            },
+            {
+                "days": 5,
+                "current_city": "Petersburg",
+                "transportation": "Taxi from Richmond to Petersburg, Petersburg",
+                "breakfast": "Mr. Gold, Petersburg",
+                "lunch": "Tea'se Me - Rooftop Tea Boutique, Petersburg",
+                "dinner": "Chick N Grills, Petersburg",
+                "attraction": "The Exchange Building and Petersburg Visitors Center, Petersburg;",
+                "accommodation": "Modern & Artsy  Awesome Location, Petersburg"
+            },
+            {
+                "days": 6,
+                "current_city": "Richmond",
+                "transportation": "Taxi from Petersburg to Richmond, Richmond",
+                "breakfast": "Kwality Bengali Sweets, Richmond",
+                "lunch": "Annapurna Food Point, Richmond",
+                "dinner": "Sandpiper Restaurant & Lounge, Richmond",
+                "attraction": "Maggie L Walker National Historic Site, Richmond;",
+                "accommodation": "Luxury NYC 1 Bed w/Gorgeous Views + Pool, Richmond"
+            },
+            {
+                "days": 7,
+                "current_city": "Lynchburg",
+                "transportation": "Taxi from Richmond to Lynchburg, Lynchburg",
+                "breakfast": "Shree Jee Rasoi, Lynchburg",
+                "lunch": "Shivam Corner, Lynchburg",
+                "dinner": "Haldiram's, Lynchburg",
+                "attraction": "Lower Bluff Walk, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            }
+        ]
+    }
+]

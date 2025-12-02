@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Pellston\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Ashoka Restaurant, Jacksonville\",\n    \"lunch\": \"TCW Chaat Point, Pellston\",\n    \"dinner\": \"Sikandrabadi Biryani, Pellston\",\n    \"attraction\": \"Pellston Historical Society Museum, Pellston;\",\n    \"accommodation\": \"Designer's Beautiful 2BR Apartment in NOLITA/SOHO, Pellston\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Traverse City\",\n    \"transportation\": \"Taxi from Pellston to Traverse City, Traverse City\",\n    \"breakfast\": \"Arigato Sushi, Traverse City\",\n    \"lunch\": \"Babu Bhai Kabab Wale, Traverse City\",\n    \"dinner\": \"Eden Noodles Cafe 蝊_螄漘唭_唭_潰, Traverse City\",\n    \"attraction\": \"Mission Point Lighthouse, Traverse City;\",\n    \"accommodation\": \"One bedroom apartment in NoLita, Traverse City\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Traverse City\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Daily Eats, Traverse City\",\n    \"lunch\": \"Wow! Momo, Traverse City\",\n    \"dinner\": \"Kents Fast Food, Traverse City\",\n    \"attraction\": \"Family friendly beach, Traverse City;\",\n    \"accommodation\": \"One bedroom apartment in NoLita, Traverse City\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Traverse City\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Standard Sweets & Confectioners, Traverse City\",\n    \"lunch\": \"India on my Plate - Fortune Select Excalibur, Traverse City\",\n    \"dinner\": \"Famous Dave's, Traverse City\",\n    \"attraction\": \"World's Largest Cherry Pie Pan, Traverse City;\",\n    \"accommodation\": \"One bedroom apartment in NoLita, Traverse City\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Pellston\",\n    \"transportation\": \"Taxi from Traverse City to Pellston, Pellston\",\n    \"breakfast\": \"Standard Sweets, Pellston\",\n    \"lunch\": \"The Great Kabab Factory - Park Plaza, Pellston\",\n    \"dinner\": \"New Madras Cafe, Pellston\",\n    \"attraction\": \"BlissFest, Pellston;\",\n    \"accommodation\": \"Designer's Beautiful 2BR Apartment in NOLITA/SOHO, Pellston\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Pellston",
+                "transportation": "-",
+                "breakfast": "Ashoka Restaurant, Jacksonville",
+                "lunch": "TCW Chaat Point, Pellston",
+                "dinner": "Sikandrabadi Biryani, Pellston",
+                "attraction": "Pellston Historical Society Museum, Pellston;",
+                "accommodation": "Designer's Beautiful 2BR Apartment in NOLITA/SOHO, Pellston"
+            },
+            {
+                "days": 2,
+                "current_city": "Traverse City",
+                "transportation": "Taxi from Pellston to Traverse City, Traverse City",
+                "breakfast": "Arigato Sushi, Traverse City",
+                "lunch": "Babu Bhai Kabab Wale, Traverse City",
+                "dinner": "Eden Noodles Cafe 蝊_螄漘唭_唭_潰, Traverse City",
+                "attraction": "Mission Point Lighthouse, Traverse City;",
+                "accommodation": "One bedroom apartment in NoLita, Traverse City"
+            },
+            {
+                "days": 3,
+                "current_city": "Traverse City",
+                "transportation": "-",
+                "breakfast": "Daily Eats, Traverse City",
+                "lunch": "Wow! Momo, Traverse City",
+                "dinner": "Kents Fast Food, Traverse City",
+                "attraction": "Family friendly beach, Traverse City;",
+                "accommodation": "One bedroom apartment in NoLita, Traverse City"
+            },
+            {
+                "days": 4,
+                "current_city": "Traverse City",
+                "transportation": "-",
+                "breakfast": "Standard Sweets & Confectioners, Traverse City",
+                "lunch": "India on my Plate - Fortune Select Excalibur, Traverse City",
+                "dinner": "Famous Dave's, Traverse City",
+                "attraction": "World's Largest Cherry Pie Pan, Traverse City;",
+                "accommodation": "One bedroom apartment in NoLita, Traverse City"
+            },
+            {
+                "days": 5,
+                "current_city": "Pellston",
+                "transportation": "Taxi from Traverse City to Pellston, Pellston",
+                "breakfast": "Standard Sweets, Pellston",
+                "lunch": "The Great Kabab Factory - Park Plaza, Pellston",
+                "dinner": "New Madras Cafe, Pellston",
+                "attraction": "BlissFest, Pellston;",
+                "accommodation": "Designer's Beautiful 2BR Apartment in NOLITA/SOHO, Pellston"
+            }
+        ]
+    }
+]

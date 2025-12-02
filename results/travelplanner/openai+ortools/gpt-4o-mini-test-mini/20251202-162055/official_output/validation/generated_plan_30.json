@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Evansville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Chick Chicken Barbeque, Key West\",\n    \"lunch\": \"Twenty Four Seven, Evansville\",\n    \"dinner\": \"Big Chill, Evansville\",\n    \"attraction\": \"Howell Park, Evansville;\",\n    \"accommodation\": \"3-BDRM/2 BATH Apartment AMAZING LOCATION on UWS!, Evansville\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Evansville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Brother's Snacks and Shakes, Evansville\",\n    \"lunch\": \"Al-Karim, Evansville\",\n    \"dinner\": \"The Daily, Evansville\",\n    \"attraction\": \"Reitz Home Museum, Evansville;\",\n    \"accommodation\": \"3-BDRM/2 BATH Apartment AMAZING LOCATION on UWS!, Evansville\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"South Bend\",\n    \"transportation\": \"Taxi from Evansville to South Bend, South Bend\",\n    \"breakfast\": \"Cheers Lounge Bar, South Bend\",\n    \"lunch\": \"Yo! China, South Bend\",\n    \"dinner\": \"Stop My Starvation, South Bend\",\n    \"attraction\": \"Snite Research Center in the Visual Arts, South Bend;\",\n    \"accommodation\": \"Private room/bathroom on the Upper West Side, South Bend\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"South Bend\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Voda Bar, South Bend\",\n    \"lunch\": \"Chocofairies, South Bend\",\n    \"dinner\": \"Cafe Coffee Day, South Bend\",\n    \"attraction\": \"Seitz Park, South Bend;\",\n    \"accommodation\": \"Private room/bathroom on the Upper West Side, South Bend\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Evansville\",\n    \"transportation\": \"Taxi from South Bend to Evansville, Evansville\",\n    \"breakfast\": \"La Piazza - Hyatt Regency, Evansville\",\n    \"lunch\": \"Cake Point, Evansville\",\n    \"dinner\": \"Baby Got Bacon, Evansville\",\n    \"attraction\": \"Mesker Park Zoo, Evansville;\",\n    \"accommodation\": \"3-BDRM/2 BATH Apartment AMAZING LOCATION on UWS!, Evansville\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Evansville",
+                "transportation": "-",
+                "breakfast": "Chick Chicken Barbeque, Key West",
+                "lunch": "Twenty Four Seven, Evansville",
+                "dinner": "Big Chill, Evansville",
+                "attraction": "Howell Park, Evansville;",
+                "accommodation": "3-BDRM/2 BATH Apartment AMAZING LOCATION on UWS!, Evansville"
+            },
+            {
+                "days": 2,
+                "current_city": "Evansville",
+                "transportation": "-",
+                "breakfast": "Brother's Snacks and Shakes, Evansville",
+                "lunch": "Al-Karim, Evansville",
+                "dinner": "The Daily, Evansville",
+                "attraction": "Reitz Home Museum, Evansville;",
+                "accommodation": "3-BDRM/2 BATH Apartment AMAZING LOCATION on UWS!, Evansville"
+            },
+            {
+                "days": 3,
+                "current_city": "South Bend",
+                "transportation": "Taxi from Evansville to South Bend, South Bend",
+                "breakfast": "Cheers Lounge Bar, South Bend",
+                "lunch": "Yo! China, South Bend",
+                "dinner": "Stop My Starvation, South Bend",
+                "attraction": "Snite Research Center in the Visual Arts, South Bend;",
+                "accommodation": "Private room/bathroom on the Upper West Side, South Bend"
+            },
+            {
+                "days": 4,
+                "current_city": "South Bend",
+                "transportation": "-",
+                "breakfast": "Voda Bar, South Bend",
+                "lunch": "Chocofairies, South Bend",
+                "dinner": "Cafe Coffee Day, South Bend",
+                "attraction": "Seitz Park, South Bend;",
+                "accommodation": "Private room/bathroom on the Upper West Side, South Bend"
+            },
+            {
+                "days": 5,
+                "current_city": "Evansville",
+                "transportation": "Taxi from South Bend to Evansville, Evansville",
+                "breakfast": "La Piazza - Hyatt Regency, Evansville",
+                "lunch": "Cake Point, Evansville",
+                "dinner": "Baby Got Bacon, Evansville",
+                "attraction": "Mesker Park Zoo, Evansville;",
+                "accommodation": "3-BDRM/2 BATH Apartment AMAZING LOCATION on UWS!, Evansville"
+            }
+        ]
+    }
+]

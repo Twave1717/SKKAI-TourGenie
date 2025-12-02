@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Louis to Washington\", \"transportation\": \"Flight Number: F3468802, from St. Louis to Washington\", \"breakfast\": \"IndoCheen, St. Louis\", \"lunch\": \"Biryani Point, Washington\", \"dinner\": \"Moradabadi Biryani, Washington\", \"attraction\": \"Discovery Park, Washington;Washington Park Arboretum, Washington;\", \"accommodation\": \"Stunning 2Bed/2BA + 300sqft deck by the river!, Washington\"}, {\"days\": 2, \"current_city\": \"Washington\", \"transportation\": \"-\", \"breakfast\": \"Los Aztecas, Washington\", \"lunch\": \"Manna Java World Cafe, Washington\", \"dinner\": \"Keventers, Washington\", \"attraction\": \"The Gum Wall, Washington;Wings Over Washington, Washington;\", \"accommodation\": \"Stunning 2Bed/2BA + 300sqft deck by the river!, Washington\"}, {\"days\": 3, \"current_city\": \"from Washington to St. Louis\", \"transportation\": \"Flight Number: F3930879, from Washington to St. Louis\", \"breakfast\": \"Hearken Caf愆, Washington\", \"lunch\": \"Cafe Coffee Day, Washington\", \"dinner\": \"Hemingway's Island Grill, Washington\", \"attraction\": \"Seattle Aquarium, Washington;Beneath the Streets, Washington;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Louis to Washington",
+                "transportation": "Flight Number: F3468802, from St. Louis to Washington",
+                "breakfast": "IndoCheen, St. Louis",
+                "lunch": "Biryani Point, Washington",
+                "dinner": "Moradabadi Biryani, Washington",
+                "attraction": "Discovery Park, Washington;Washington Park Arboretum, Washington;",
+                "accommodation": "Stunning 2Bed/2BA + 300sqft deck by the river!, Washington"
+            },
+            {
+                "days": 2,
+                "current_city": "Washington",
+                "transportation": "-",
+                "breakfast": "Los Aztecas, Washington",
+                "lunch": "Manna Java World Cafe, Washington",
+                "dinner": "Keventers, Washington",
+                "attraction": "The Gum Wall, Washington;Wings Over Washington, Washington;",
+                "accommodation": "Stunning 2Bed/2BA + 300sqft deck by the river!, Washington"
+            },
+            {
+                "days": 3,
+                "current_city": "from Washington to St. Louis",
+                "transportation": "Flight Number: F3930879, from Washington to St. Louis",
+                "breakfast": "Hearken Caf愆, Washington",
+                "lunch": "Cafe Coffee Day, Washington",
+                "dinner": "Hemingway's Island Grill, Washington",
+                "attraction": "Seattle Aquarium, Washington;Beneath the Streets, Washington;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

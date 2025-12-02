@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Newark\",\n    \"transportation\": \"Flight Number: F2815732, from Charlotte to Newark\",\n    \"breakfast\": \"Prince Snacks & Momo's Point, Charlotte\",\n    \"lunch\": \"Dilli Darbar Chicken Point, Newark\",\n    \"dinner\": \"Harmann Restaurant, Newark\",\n    \"attraction\": \"Riverbank Park, Newark;\",\n    \"accommodation\": \"1 Bedroom in UWS Manhattan, Newark\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Atlantic City\",\n    \"transportation\": \"Taxi from Newark to Atlantic City, Atlantic City\",\n    \"breakfast\": \"The Yummy Chilli, Atlantic City\",\n    \"lunch\": \"Jolly Tandoori Zaika, Atlantic City\",\n    \"dinner\": \"Uttrakhand Dhaba, Atlantic City\",\n    \"attraction\": \"Atlantic City Aquarium, Atlantic City;\",\n    \"accommodation\": \"Bedroom (KING) & private bath - Brand New & Modern, Atlantic City\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Atlantic City\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Sona Bridge Hotel, Atlantic City\",\n    \"lunch\": \"Burma Burma, Atlantic City\",\n    \"dinner\": \"Tossin Pizza, Atlantic City\",\n    \"attraction\": \"Central Pier Arcade, Atlantic City;\",\n    \"accommodation\": \"Bedroom (KING) & private bath - Brand New & Modern, Atlantic City\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Atlantic City\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Fresh Meat CO, Atlantic City\",\n    \"lunch\": \"Lassilo, Atlantic City\",\n    \"dinner\": \"Agarwal Sweets, Atlantic City\",\n    \"attraction\": \"DO|AC - Spot, Atlantic City;\",\n    \"accommodation\": \"Bedroom (KING) & private bath - Brand New & Modern, Atlantic City\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Newark\",\n    \"transportation\": \"Flight Number: F4077085, from Newark to Charlotte\",\n    \"breakfast\": \"Republic of Chicken, Newark\",\n    \"lunch\": \"Apni Rasoi, Newark\",\n    \"dinner\": \"Chokoreto - The Cake Design Studio, Newark\",\n    \"attraction\": \"Cherry Blossom Welcome Center, Newark;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Newark",
+                "transportation": "Flight Number: F2815732, from Charlotte to Newark",
+                "breakfast": "Prince Snacks & Momo's Point, Charlotte",
+                "lunch": "Dilli Darbar Chicken Point, Newark",
+                "dinner": "Harmann Restaurant, Newark",
+                "attraction": "Riverbank Park, Newark;",
+                "accommodation": "1 Bedroom in UWS Manhattan, Newark"
+            },
+            {
+                "days": 2,
+                "current_city": "Atlantic City",
+                "transportation": "Taxi from Newark to Atlantic City, Atlantic City",
+                "breakfast": "The Yummy Chilli, Atlantic City",
+                "lunch": "Jolly Tandoori Zaika, Atlantic City",
+                "dinner": "Uttrakhand Dhaba, Atlantic City",
+                "attraction": "Atlantic City Aquarium, Atlantic City;",
+                "accommodation": "Bedroom (KING) & private bath - Brand New & Modern, Atlantic City"
+            },
+            {
+                "days": 3,
+                "current_city": "Atlantic City",
+                "transportation": "-",
+                "breakfast": "Sona Bridge Hotel, Atlantic City",
+                "lunch": "Burma Burma, Atlantic City",
+                "dinner": "Tossin Pizza, Atlantic City",
+                "attraction": "Central Pier Arcade, Atlantic City;",
+                "accommodation": "Bedroom (KING) & private bath - Brand New & Modern, Atlantic City"
+            },
+            {
+                "days": 4,
+                "current_city": "Atlantic City",
+                "transportation": "-",
+                "breakfast": "Fresh Meat CO, Atlantic City",
+                "lunch": "Lassilo, Atlantic City",
+                "dinner": "Agarwal Sweets, Atlantic City",
+                "attraction": "DO|AC - Spot, Atlantic City;",
+                "accommodation": "Bedroom (KING) & private bath - Brand New & Modern, Atlantic City"
+            },
+            {
+                "days": 5,
+                "current_city": "Newark",
+                "transportation": "Flight Number: F4077085, from Newark to Charlotte",
+                "breakfast": "Republic of Chicken, Newark",
+                "lunch": "Apni Rasoi, Newark",
+                "dinner": "Chokoreto - The Cake Design Studio, Newark",
+                "attraction": "Cherry Blossom Welcome Center, Newark;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

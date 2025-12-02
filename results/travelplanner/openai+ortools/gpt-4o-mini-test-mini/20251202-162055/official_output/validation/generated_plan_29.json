@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Nashville\",\n    \"transportation\": \"Flight Number: F2101111, from Richmond to Nashville\",\n    \"breakfast\": \"The Spot, Richmond\",\n    \"lunch\": \"Bablu Fast Food, Nashville\",\n    \"dinner\": \"1911 Bar - The Imperial, Nashville\",\n    \"attraction\": \"Grand Ole Opry, Nashville;\",\n    \"accommodation\": \"Lovely room in heart of Williamsburg, Nashville\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Nashville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Malhotra Restaurant, Nashville\",\n    \"lunch\": \"Oh! Calcutta, Nashville\",\n    \"dinner\": \"Kitchen King, Nashville\",\n    \"attraction\": \"Country Music Hall of Fame and Museum, Nashville;\",\n    \"accommodation\": \"Lovely room in heart of Williamsburg, Nashville\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Nashville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Town Hall, Nashville\",\n    \"lunch\": \"Sagar Dhaba, Nashville\",\n    \"dinner\": \"GoGourmet, Nashville\",\n    \"attraction\": \"Honky Tonk Highway, Nashville;\",\n    \"accommodation\": \"Lovely room in heart of Williamsburg, Nashville\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Knoxville\",\n    \"transportation\": \"Taxi from Nashville to Knoxville, Knoxville\",\n    \"breakfast\": \"Les 3 Brasseurs, Knoxville\",\n    \"lunch\": \"Cafe Arabelle, Knoxville\",\n    \"dinner\": \"Coalition Cafe, Knoxville\",\n    \"attraction\": \"Ijams Nature Center, Knoxville;\",\n    \"accommodation\": \"Beautiful & Private Manhattan Room, Knoxville\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Nashville\",\n    \"transportation\": \"Flight Number: F2554131, from Nashville to Richmond\",\n    \"breakfast\": \"Kargo, Nashville\",\n    \"lunch\": \"Meenakshi Bhawan, Nashville\",\n    \"dinner\": \"Madras Cafe, Nashville\",\n    \"attraction\": \"Lane Motor Museum, Nashville;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Nashville",
+                "transportation": "Flight Number: F2101111, from Richmond to Nashville",
+                "breakfast": "The Spot, Richmond",
+                "lunch": "Bablu Fast Food, Nashville",
+                "dinner": "1911 Bar - The Imperial, Nashville",
+                "attraction": "Grand Ole Opry, Nashville;",
+                "accommodation": "Lovely room in heart of Williamsburg, Nashville"
+            },
+            {
+                "days": 2,
+                "current_city": "Nashville",
+                "transportation": "-",
+                "breakfast": "Malhotra Restaurant, Nashville",
+                "lunch": "Oh! Calcutta, Nashville",
+                "dinner": "Kitchen King, Nashville",
+                "attraction": "Country Music Hall of Fame and Museum, Nashville;",
+                "accommodation": "Lovely room in heart of Williamsburg, Nashville"
+            },
+            {
+                "days": 3,
+                "current_city": "Nashville",
+                "transportation": "-",
+                "breakfast": "Town Hall, Nashville",
+                "lunch": "Sagar Dhaba, Nashville",
+                "dinner": "GoGourmet, Nashville",
+                "attraction": "Honky Tonk Highway, Nashville;",
+                "accommodation": "Lovely room in heart of Williamsburg, Nashville"
+            },
+            {
+                "days": 4,
+                "current_city": "Knoxville",
+                "transportation": "Taxi from Nashville to Knoxville, Knoxville",
+                "breakfast": "Les 3 Brasseurs, Knoxville",
+                "lunch": "Cafe Arabelle, Knoxville",
+                "dinner": "Coalition Cafe, Knoxville",
+                "attraction": "Ijams Nature Center, Knoxville;",
+                "accommodation": "Beautiful & Private Manhattan Room, Knoxville"
+            },
+            {
+                "days": 5,
+                "current_city": "Nashville",
+                "transportation": "Flight Number: F2554131, from Nashville to Richmond",
+                "breakfast": "Kargo, Nashville",
+                "lunch": "Meenakshi Bhawan, Nashville",
+                "dinner": "Madras Cafe, Nashville",
+                "attraction": "Lane Motor Museum, Nashville;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Denver to Appleton\", \"transportation\": \"Flight Number: F1341370, from Denver to Appleton\", \"breakfast\": \"Nathu's Sweets, Denver\", \"lunch\": \"Shanghai Moon, Appleton\", \"dinner\": \"The Kathis, Appleton\", \"attraction\": \"Atlas Science Center Center, Appleton;Plamann Park, Appleton;\", \"accommodation\": \"Stylish, convenient, renovated- 2 min to subway -, Appleton\"}, {\"days\": 2, \"current_city\": \"Appleton\", \"transportation\": \"-\", \"breakfast\": \"Yaadgaar, Appleton\", \"lunch\": \"Fire n Ice, Appleton\", \"dinner\": \"Fat Lulu's, Appleton\", \"attraction\": \"Lutz Park, Appleton;Appleton Memorial Park Gardens, Appleton;\", \"accommodation\": \"Stylish, convenient, renovated- 2 min to subway -, Appleton\"}, {\"days\": 3, \"current_city\": \"from Appleton to Denver\", \"transportation\": \"Flight Number: F1349099, from Appleton to Denver\", \"breakfast\": \"New Bakers Shoppee, Appleton\", \"lunch\": \"Side Wok, Appleton\", \"dinner\": \"Mathew's Cafe, Appleton\", \"attraction\": \"City Park, Appleton;Telulah Park, Appleton;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Denver to Appleton",
+                "transportation": "Flight Number: F1341370, from Denver to Appleton",
+                "breakfast": "Nathu's Sweets, Denver",
+                "lunch": "Shanghai Moon, Appleton",
+                "dinner": "The Kathis, Appleton",
+                "attraction": "Atlas Science Center Center, Appleton;Plamann Park, Appleton;",
+                "accommodation": "Stylish, convenient, renovated- 2 min to subway -, Appleton"
+            },
+            {
+                "days": 2,
+                "current_city": "Appleton",
+                "transportation": "-",
+                "breakfast": "Yaadgaar, Appleton",
+                "lunch": "Fire n Ice, Appleton",
+                "dinner": "Fat Lulu's, Appleton",
+                "attraction": "Lutz Park, Appleton;Appleton Memorial Park Gardens, Appleton;",
+                "accommodation": "Stylish, convenient, renovated- 2 min to subway -, Appleton"
+            },
+            {
+                "days": 3,
+                "current_city": "from Appleton to Denver",
+                "transportation": "Flight Number: F1349099, from Appleton to Denver",
+                "breakfast": "New Bakers Shoppee, Appleton",
+                "lunch": "Side Wok, Appleton",
+                "dinner": "Mathew's Cafe, Appleton",
+                "attraction": "City Park, Appleton;Telulah Park, Appleton;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

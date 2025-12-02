@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Seattle to San Francisco\", \"transportation\": \"Flight Number: F3315412, from Seattle to San Francisco\", \"breakfast\": \"The Golden Dragon, Seattle\", \"lunch\": \"Green Chick Chop, San Francisco\", \"dinner\": \"Gupta's Rasoi, San Francisco\", \"attraction\": \"San Francisco Botanical Garden, San Francisco;San Francisco Museum of Modern Art, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco\"}, {\"days\": 2, \"current_city\": \"San Francisco\", \"transportation\": \"-\", \"breakfast\": \"Tokyo Sushi, San Francisco\", \"lunch\": \"Anupam Eating Point, San Francisco\", \"dinner\": \"Aggarwal Sweet and Restaurant, San Francisco\", \"attraction\": \"California Academy of Sciences, San Francisco;The Walt Disney Family Museum, San Francisco;\", \"accommodation\": \"Room in Down town Brooklyn Parkslop, San Francisco\"}, {\"days\": 3, \"current_city\": \"from San Francisco to Seattle\", \"transportation\": \"Flight Number: F3895980, from San Francisco to Seattle\", \"breakfast\": \"Empress, San Francisco\", \"lunch\": \"Coffee & Chai Co., San Francisco\", \"dinner\": \"Bonne Bouche, San Francisco\", \"attraction\": \"Golden Gate Park, San Francisco;Alcatraz Island, San Francisco;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Seattle to San Francisco",
+                "transportation": "Flight Number: F3315412, from Seattle to San Francisco",
+                "breakfast": "The Golden Dragon, Seattle",
+                "lunch": "Green Chick Chop, San Francisco",
+                "dinner": "Gupta's Rasoi, San Francisco",
+                "attraction": "San Francisco Botanical Garden, San Francisco;San Francisco Museum of Modern Art, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 2,
+                "current_city": "San Francisco",
+                "transportation": "-",
+                "breakfast": "Tokyo Sushi, San Francisco",
+                "lunch": "Anupam Eating Point, San Francisco",
+                "dinner": "Aggarwal Sweet and Restaurant, San Francisco",
+                "attraction": "California Academy of Sciences, San Francisco;The Walt Disney Family Museum, San Francisco;",
+                "accommodation": "Room in Down town Brooklyn Parkslop, San Francisco"
+            },
+            {
+                "days": 3,
+                "current_city": "from San Francisco to Seattle",
+                "transportation": "Flight Number: F3895980, from San Francisco to Seattle",
+                "breakfast": "Empress, San Francisco",
+                "lunch": "Coffee & Chai Co., San Francisco",
+                "dinner": "Bonne Bouche, San Francisco",
+                "attraction": "Golden Gate Park, San Francisco;Alcatraz Island, San Francisco;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

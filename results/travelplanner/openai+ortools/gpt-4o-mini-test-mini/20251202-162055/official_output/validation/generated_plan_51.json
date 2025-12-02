@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"FoodByMom, Indianapolis\",\n    \"lunch\": \"ToLoveFromLove, Wilmington\",\n    \"dinner\": \"Welcome Food Point, Wilmington\",\n    \"attraction\": \"Wilmington Railroad Museum, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Charlotte\",\n    \"transportation\": \"Taxi from Wilmington to Charlotte, Charlotte\",\n    \"breakfast\": \"Unplugged Courtyard, Charlotte\",\n    \"lunch\": \"Hong Kong Express, Charlotte\",\n    \"dinner\": \"Dial a Cake, Charlotte\",\n    \"attraction\": \"Fourth Ward Park, Charlotte;\",\n    \"accommodation\": \"Luxury 2 bdr/2 bath prime Williamburg, Charlotte\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"Taxi from Charlotte to Wilmington, Wilmington\",\n    \"breakfast\": \"Bandit Burrito, Wilmington\",\n    \"lunch\": \"The Yellow Chef, Wilmington\",\n    \"dinner\": \"Chaska By Taste, Wilmington\",\n    \"attraction\": \"One Tree Hill: The Bridge, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Karim's, Wilmington\",\n    \"lunch\": \"Wangchuk's Ladakhi Kitchen, Wilmington\",\n    \"dinner\": \"P2 Tandoori Momos Station, Wilmington\",\n    \"attraction\": \"Jungle Rapids Family Fun Park, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Concord\",\n    \"transportation\": \"Self-driving from Wilmington to Concord, Concord\",\n    \"breakfast\": \"R1 Lounge, Concord\",\n    \"lunch\": \"Twenty Four Seven, Concord\",\n    \"dinner\": \"Chin Chin, Concord\",\n    \"attraction\": \"Frank Liske Park, Concord;\",\n    \"accommodation\": \"Standard New York girls room, Concord\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Charlotte\",\n    \"transportation\": \"Self-driving from Concord to Charlotte, Charlotte\",\n    \"breakfast\": \"Burger King, Charlotte\",\n    \"lunch\": \"Kylin Skybar, Charlotte\",\n    \"dinner\": \"Lotes Bakes, Charlotte\",\n    \"attraction\": \"Levine Museum of the New South, Charlotte;\",\n    \"accommodation\": \"Luxury 2 bdr/2 bath prime Williamburg, Charlotte\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"Taxi from Charlotte to Wilmington, Wilmington\",\n    \"breakfast\": \"Taco Bus, Wilmington\",\n    \"lunch\": \"Kebabish, Wilmington\",\n    \"dinner\": \"Moonie's Texas Barbecue, Wilmington\",\n    \"attraction\": \"Battleship Park, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Wilmington",
+                "transportation": "-",
+                "breakfast": "FoodByMom, Indianapolis",
+                "lunch": "ToLoveFromLove, Wilmington",
+                "dinner": "Welcome Food Point, Wilmington",
+                "attraction": "Wilmington Railroad Museum, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "Taxi from Wilmington to Charlotte, Charlotte",
+                "breakfast": "Unplugged Courtyard, Charlotte",
+                "lunch": "Hong Kong Express, Charlotte",
+                "dinner": "Dial a Cake, Charlotte",
+                "attraction": "Fourth Ward Park, Charlotte;",
+                "accommodation": "Luxury 2 bdr/2 bath prime Williamburg, Charlotte"
+            },
+            {
+                "days": 3,
+                "current_city": "Wilmington",
+                "transportation": "Taxi from Charlotte to Wilmington, Wilmington",
+                "breakfast": "Bandit Burrito, Wilmington",
+                "lunch": "The Yellow Chef, Wilmington",
+                "dinner": "Chaska By Taste, Wilmington",
+                "attraction": "One Tree Hill: The Bridge, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            },
+            {
+                "days": 4,
+                "current_city": "Wilmington",
+                "transportation": "-",
+                "breakfast": "Karim's, Wilmington",
+                "lunch": "Wangchuk's Ladakhi Kitchen, Wilmington",
+                "dinner": "P2 Tandoori Momos Station, Wilmington",
+                "attraction": "Jungle Rapids Family Fun Park, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            },
+            {
+                "days": 5,
+                "current_city": "Concord",
+                "transportation": "Self-driving from Wilmington to Concord, Concord",
+                "breakfast": "R1 Lounge, Concord",
+                "lunch": "Twenty Four Seven, Concord",
+                "dinner": "Chin Chin, Concord",
+                "attraction": "Frank Liske Park, Concord;",
+                "accommodation": "Standard New York girls room, Concord"
+            },
+            {
+                "days": 6,
+                "current_city": "Charlotte",
+                "transportation": "Self-driving from Concord to Charlotte, Charlotte",
+                "breakfast": "Burger King, Charlotte",
+                "lunch": "Kylin Skybar, Charlotte",
+                "dinner": "Lotes Bakes, Charlotte",
+                "attraction": "Levine Museum of the New South, Charlotte;",
+                "accommodation": "Luxury 2 bdr/2 bath prime Williamburg, Charlotte"
+            },
+            {
+                "days": 7,
+                "current_city": "Wilmington",
+                "transportation": "Taxi from Charlotte to Wilmington, Wilmington",
+                "breakfast": "Taco Bus, Wilmington",
+                "lunch": "Kebabish, Wilmington",
+                "dinner": "Moonie's Texas Barbecue, Wilmington",
+                "attraction": "Battleship Park, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            }
+        ]
+    }
+]

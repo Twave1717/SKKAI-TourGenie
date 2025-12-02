@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Fort Myers\",\n    \"transportation\": \"Flight Number: F0411528, from Louisville to Fort Myers\",\n    \"breakfast\": \"Zaffran, Louisville\",\n    \"lunch\": \"Cafe Turtle, Fort Myers\",\n    \"dinner\": \"Orient Express - Taj Palace Hotel, Fort Myers\",\n    \"attraction\": \"Sky Zone Trampoline Park, Fort Myers;\",\n    \"accommodation\": \"Great room in Greenwich Village!, Fort Myers\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Gainesville\",\n    \"transportation\": \"Taxi from Fort Myers to Gainesville, Gainesville\",\n    \"breakfast\": \"Riyaz Biryani Corner, Gainesville\",\n    \"lunch\": \"Al Haj Bakery, Gainesville\",\n    \"dinner\": \"The Machine Shed Restaurant, Gainesville\",\n    \"attraction\": \"Kanapaha Botanical Gardens, Gainesville;\",\n    \"accommodation\": \"Private bedroom hideaway in East Village gem, Gainesville\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Gainesville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Tapri The Chai Books Cafe, Gainesville\",\n    \"lunch\": \"Cafe Coffee Day, Gainesville\",\n    \"dinner\": \"CHA, Gainesville\",\n    \"attraction\": \"Alfred A. Ring Park, Gainesville;\",\n    \"accommodation\": \"Private bedroom hideaway in East Village gem, Gainesville\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"St. Petersburg\",\n    \"transportation\": \"Self-driving from Gainesville to St. Petersburg, St. Petersburg\",\n    \"breakfast\": \"Kitchen At 95 - Hyatt Regency, St. Petersburg\",\n    \"lunch\": \"Just My Bakes, St. Petersburg\",\n    \"dinner\": \"Tamasha, St. Petersburg\",\n    \"attraction\": \"St. Petersburg Museum of History, St. Petersburg;\",\n    \"accommodation\": \"HugeTropical Bedrm near Ferry, St. Petersburg\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Gainesville\",\n    \"transportation\": \"Self-driving from St. Petersburg to Gainesville, Gainesville\",\n    \"breakfast\": \"Student Corner, Gainesville\",\n    \"lunch\": \"Parker's, Gainesville\",\n    \"dinner\": \"Anwar Food Corner, Gainesville\",\n    \"attraction\": \"Florida Museum of Natural History-Exhibits, Gainesville;\",\n    \"accommodation\": \"Private bedroom hideaway in East Village gem, Gainesville\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"St. Petersburg\",\n    \"transportation\": \"Self-driving from Gainesville to St. Petersburg, St. Petersburg\",\n    \"breakfast\": \"Keventers, St. Petersburg\",\n    \"lunch\": \"Sethi's Restaurant, St. Petersburg\",\n    \"dinner\": \"Republic Of Food Lovers, St. Petersburg\",\n    \"attraction\": \"Boyd Hill Nature Preserve, St. Petersburg;\",\n    \"accommodation\": \"HugeTropical Bedrm near Ferry, St. Petersburg\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Fort Myers\",\n    \"transportation\": \"Flight Number: F3999357, from Fort Myers to Louisville\",\n    \"breakfast\": \"Delicious Treasure, Fort Myers\",\n    \"lunch\": \"Eggers Madhouse, Fort Myers\",\n    \"dinner\": \"Maachh Bhaat, Fort Myers\",\n    \"attraction\": \"Manatee Park, Fort Myers;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Fort Myers",
+                "transportation": "Flight Number: F0411528, from Louisville to Fort Myers",
+                "breakfast": "Zaffran, Louisville",
+                "lunch": "Cafe Turtle, Fort Myers",
+                "dinner": "Orient Express - Taj Palace Hotel, Fort Myers",
+                "attraction": "Sky Zone Trampoline Park, Fort Myers;",
+                "accommodation": "Great room in Greenwich Village!, Fort Myers"
+            },
+            {
+                "days": 2,
+                "current_city": "Gainesville",
+                "transportation": "Taxi from Fort Myers to Gainesville, Gainesville",
+                "breakfast": "Riyaz Biryani Corner, Gainesville",
+                "lunch": "Al Haj Bakery, Gainesville",
+                "dinner": "The Machine Shed Restaurant, Gainesville",
+                "attraction": "Kanapaha Botanical Gardens, Gainesville;",
+                "accommodation": "Private bedroom hideaway in East Village gem, Gainesville"
+            },
+            {
+                "days": 3,
+                "current_city": "Gainesville",
+                "transportation": "-",
+                "breakfast": "Tapri The Chai Books Cafe, Gainesville",
+                "lunch": "Cafe Coffee Day, Gainesville",
+                "dinner": "CHA, Gainesville",
+                "attraction": "Alfred A. Ring Park, Gainesville;",
+                "accommodation": "Private bedroom hideaway in East Village gem, Gainesville"
+            },
+            {
+                "days": 4,
+                "current_city": "St. Petersburg",
+                "transportation": "Self-driving from Gainesville to St. Petersburg, St. Petersburg",
+                "breakfast": "Kitchen At 95 - Hyatt Regency, St. Petersburg",
+                "lunch": "Just My Bakes, St. Petersburg",
+                "dinner": "Tamasha, St. Petersburg",
+                "attraction": "St. Petersburg Museum of History, St. Petersburg;",
+                "accommodation": "HugeTropical Bedrm near Ferry, St. Petersburg"
+            },
+            {
+                "days": 5,
+                "current_city": "Gainesville",
+                "transportation": "Self-driving from St. Petersburg to Gainesville, Gainesville",
+                "breakfast": "Student Corner, Gainesville",
+                "lunch": "Parker's, Gainesville",
+                "dinner": "Anwar Food Corner, Gainesville",
+                "attraction": "Florida Museum of Natural History-Exhibits, Gainesville;",
+                "accommodation": "Private bedroom hideaway in East Village gem, Gainesville"
+            },
+            {
+                "days": 6,
+                "current_city": "St. Petersburg",
+                "transportation": "Self-driving from Gainesville to St. Petersburg, St. Petersburg",
+                "breakfast": "Keventers, St. Petersburg",
+                "lunch": "Sethi's Restaurant, St. Petersburg",
+                "dinner": "Republic Of Food Lovers, St. Petersburg",
+                "attraction": "Boyd Hill Nature Preserve, St. Petersburg;",
+                "accommodation": "HugeTropical Bedrm near Ferry, St. Petersburg"
+            },
+            {
+                "days": 7,
+                "current_city": "Fort Myers",
+                "transportation": "Flight Number: F3999357, from Fort Myers to Louisville",
+                "breakfast": "Delicious Treasure, Fort Myers",
+                "lunch": "Eggers Madhouse, Fort Myers",
+                "dinner": "Maachh Bhaat, Fort Myers",
+                "attraction": "Manatee Park, Fort Myers;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

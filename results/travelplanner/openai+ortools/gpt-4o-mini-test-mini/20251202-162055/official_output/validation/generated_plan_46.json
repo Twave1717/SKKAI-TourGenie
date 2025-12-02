@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"State College\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Prince Snacks & Momo's Point, Charlotte\",\n    \"lunch\": \"Qureshi's Kabab Corner, State College\",\n    \"dinner\": \"Gopala, State College\",\n    \"attraction\": \"The Nittany Lion Shrine, State College;\",\n    \"accommodation\": \"Small and Cozy room on Upper West Side, State College\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Erie\",\n    \"transportation\": \"Taxi from State College to Erie, Erie\",\n    \"breakfast\": \"Kedgy Bite, Erie\",\n    \"lunch\": \"Meet You There, Erie\",\n    \"dinner\": \"Svaruchi Bhoj, Erie\",\n    \"attraction\": \"Lake Erie Arboretum at Frontier, Erie;\",\n    \"accommodation\": \"INCREDIBLE TOWNHOUSE 4 STORIES 5 BEDROOMS 3 BATH, Erie\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Harrisburg\",\n    \"transportation\": \"Taxi from Erie to Harrisburg, Harrisburg\",\n    \"breakfast\": \"Karak韄y G韄ll韄o埕lu, Harrisburg\",\n    \"lunch\": \"Art of Spices, Harrisburg\",\n    \"dinner\": \"Sweet Nothings By Avanti Mathur, Harrisburg\",\n    \"attraction\": \"The National Civil War Museum, Harrisburg;\",\n    \"accommodation\": \"Cozy Nolita Apartment, Harrisburg\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Harrisburg\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Masala Fusion, Harrisburg\",\n    \"lunch\": \"Square - Sayaji Hotel, Harrisburg\",\n    \"dinner\": \"Alag Khana Khazana, Harrisburg\",\n    \"attraction\": \"Historical Society of Dauphin County, Harrisburg;\",\n    \"accommodation\": \"Cozy Nolita Apartment, Harrisburg\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Harrisburg\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Standard Burfee, Harrisburg\",\n    \"lunch\": \"Jagadeesh Kharodewala, Harrisburg\",\n    \"dinner\": \"Kabul Delhi, Harrisburg\",\n    \"attraction\": \"Five Senses Gardens, Harrisburg;\",\n    \"accommodation\": \"Cozy Nolita Apartment, Harrisburg\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Erie\",\n    \"transportation\": \"Taxi from Harrisburg to Erie, Erie\",\n    \"breakfast\": \"Chatto Chapati, Erie\",\n    \"lunch\": \"Adish, Erie\",\n    \"dinner\": \"Cafe 5H By The Kitchen Connect, Erie\",\n    \"attraction\": \"Erie Art Museum, Erie;\",\n    \"accommodation\": \"INCREDIBLE TOWNHOUSE 4 STORIES 5 BEDROOMS 3 BATH, Erie\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"State College\",\n    \"transportation\": \"Taxi from Erie to State College, State College\",\n    \"breakfast\": \"Kumar Pav Bhaji Corner, State College\",\n    \"lunch\": \"South Indian Cafe, State College\",\n    \"dinner\": \"Amici Cafe, State College\",\n    \"attraction\": \"The Arboretum at Penn State, State College;\",\n    \"accommodation\": \"Small and Cozy room on Upper West Side, State College\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "State College",
+                "transportation": "-",
+                "breakfast": "Prince Snacks & Momo's Point, Charlotte",
+                "lunch": "Qureshi's Kabab Corner, State College",
+                "dinner": "Gopala, State College",
+                "attraction": "The Nittany Lion Shrine, State College;",
+                "accommodation": "Small and Cozy room on Upper West Side, State College"
+            },
+            {
+                "days": 2,
+                "current_city": "Erie",
+                "transportation": "Taxi from State College to Erie, Erie",
+                "breakfast": "Kedgy Bite, Erie",
+                "lunch": "Meet You There, Erie",
+                "dinner": "Svaruchi Bhoj, Erie",
+                "attraction": "Lake Erie Arboretum at Frontier, Erie;",
+                "accommodation": "INCREDIBLE TOWNHOUSE 4 STORIES 5 BEDROOMS 3 BATH, Erie"
+            },
+            {
+                "days": 3,
+                "current_city": "Harrisburg",
+                "transportation": "Taxi from Erie to Harrisburg, Harrisburg",
+                "breakfast": "Karak韄y G韄ll韄o埕lu, Harrisburg",
+                "lunch": "Art of Spices, Harrisburg",
+                "dinner": "Sweet Nothings By Avanti Mathur, Harrisburg",
+                "attraction": "The National Civil War Museum, Harrisburg;",
+                "accommodation": "Cozy Nolita Apartment, Harrisburg"
+            },
+            {
+                "days": 4,
+                "current_city": "Harrisburg",
+                "transportation": "-",
+                "breakfast": "Masala Fusion, Harrisburg",
+                "lunch": "Square - Sayaji Hotel, Harrisburg",
+                "dinner": "Alag Khana Khazana, Harrisburg",
+                "attraction": "Historical Society of Dauphin County, Harrisburg;",
+                "accommodation": "Cozy Nolita Apartment, Harrisburg"
+            },
+            {
+                "days": 5,
+                "current_city": "Harrisburg",
+                "transportation": "-",
+                "breakfast": "Standard Burfee, Harrisburg",
+                "lunch": "Jagadeesh Kharodewala, Harrisburg",
+                "dinner": "Kabul Delhi, Harrisburg",
+                "attraction": "Five Senses Gardens, Harrisburg;",
+                "accommodation": "Cozy Nolita Apartment, Harrisburg"
+            },
+            {
+                "days": 6,
+                "current_city": "Erie",
+                "transportation": "Taxi from Harrisburg to Erie, Erie",
+                "breakfast": "Chatto Chapati, Erie",
+                "lunch": "Adish, Erie",
+                "dinner": "Cafe 5H By The Kitchen Connect, Erie",
+                "attraction": "Erie Art Museum, Erie;",
+                "accommodation": "INCREDIBLE TOWNHOUSE 4 STORIES 5 BEDROOMS 3 BATH, Erie"
+            },
+            {
+                "days": 7,
+                "current_city": "State College",
+                "transportation": "Taxi from Erie to State College, State College",
+                "breakfast": "Kumar Pav Bhaji Corner, State College",
+                "lunch": "South Indian Cafe, State College",
+                "dinner": "Amici Cafe, State College",
+                "attraction": "The Arboretum at Penn State, State College;",
+                "accommodation": "Small and Cozy room on Upper West Side, State College"
+            }
+        ]
+    }
+]

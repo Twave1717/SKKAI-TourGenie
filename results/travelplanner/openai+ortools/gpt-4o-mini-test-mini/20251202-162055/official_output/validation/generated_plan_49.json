@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Omaha\",\n    \"transportation\": \"Flight Number: F2825872, from Dallas to Omaha\",\n    \"breakfast\": \"Kolkata Biryani House, Dallas\",\n    \"lunch\": \"The Junkyard Cafe, Omaha\",\n    \"dinner\": \"Muradabadi Chicken Biryani Corner, Omaha\",\n    \"attraction\": \"Turner Park, Omaha;\",\n    \"accommodation\": \"Spacious Room in Bushwick with a back yard., Omaha\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"North Platte\",\n    \"transportation\": \"Taxi from Omaha to North Platte, North Platte\",\n    \"breakfast\": \"BTW, North Platte\",\n    \"lunch\": \"Shan E Dilli, North Platte\",\n    \"dinner\": \"Raja Chinese Foods & Snacks, North Platte\",\n    \"attraction\": \"North Platte Visitor Center, North Platte;\",\n    \"accommodation\": \"Cozy Private Rm #2C Two Beds Near JFK and J Train, North Platte\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Grand Island\",\n    \"transportation\": \"Taxi from North Platte to Grand Island, Grand Island\",\n    \"breakfast\": \"Alkakori, Grand Island\",\n    \"lunch\": \"Locos Grill & Pub, Grand Island\",\n    \"dinner\": \"Chicken Bytes, Grand Island\",\n    \"attraction\": \"Stuhr Museum, Grand Island;\",\n    \"accommodation\": \"Big apartment  comfy - calm bedroom, Grand Island\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Grand Island\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Chai Garam, Grand Island\",\n    \"lunch\": \"Kith N Kin Cafeteria, Grand Island\",\n    \"dinner\": \"New Royal Blue Dhaba, Grand Island\",\n    \"attraction\": \"Hall County Park, Grand Island;\",\n    \"accommodation\": \"Big apartment  comfy - calm bedroom, Grand Island\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Grand Island\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"The Mirch Masala, Grand Island\",\n    \"lunch\": \"Dosa Plaza, Grand Island\",\n    \"dinner\": \"Chilli Chinese, Grand Island\",\n    \"attraction\": \"Splash park, Grand Island;\",\n    \"accommodation\": \"Big apartment  comfy - calm bedroom, Grand Island\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Grand Island\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Freezy, Grand Island\",\n    \"lunch\": \"Nikku Hotel, Grand Island\",\n    \"dinner\": \"Madurai Meenakshi Bhawan, Grand Island\",\n    \"attraction\": \"Grand Island Arboretum, Grand Island;\",\n    \"accommodation\": \"Big apartment  comfy - calm bedroom, Grand Island\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Omaha\",\n    \"transportation\": \"Flight Number: F3603813, from Omaha to Dallas\",\n    \"breakfast\": \"Vikram Ji Snacks, Omaha\",\n    \"lunch\": \"Aapki Rasoi, Omaha\",\n    \"dinner\": \"Bhoj Restaurant, Omaha\",\n    \"attraction\": \"Joslyn Castle & Gardens, Omaha;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Omaha",
+                "transportation": "Flight Number: F2825872, from Dallas to Omaha",
+                "breakfast": "Kolkata Biryani House, Dallas",
+                "lunch": "The Junkyard Cafe, Omaha",
+                "dinner": "Muradabadi Chicken Biryani Corner, Omaha",
+                "attraction": "Turner Park, Omaha;",
+                "accommodation": "Spacious Room in Bushwick with a back yard., Omaha"
+            },
+            {
+                "days": 2,
+                "current_city": "North Platte",
+                "transportation": "Taxi from Omaha to North Platte, North Platte",
+                "breakfast": "BTW, North Platte",
+                "lunch": "Shan E Dilli, North Platte",
+                "dinner": "Raja Chinese Foods & Snacks, North Platte",
+                "attraction": "North Platte Visitor Center, North Platte;",
+                "accommodation": "Cozy Private Rm #2C Two Beds Near JFK and J Train, North Platte"
+            },
+            {
+                "days": 3,
+                "current_city": "Grand Island",
+                "transportation": "Taxi from North Platte to Grand Island, Grand Island",
+                "breakfast": "Alkakori, Grand Island",
+                "lunch": "Locos Grill & Pub, Grand Island",
+                "dinner": "Chicken Bytes, Grand Island",
+                "attraction": "Stuhr Museum, Grand Island;",
+                "accommodation": "Big apartment  comfy - calm bedroom, Grand Island"
+            },
+            {
+                "days": 4,
+                "current_city": "Grand Island",
+                "transportation": "-",
+                "breakfast": "Chai Garam, Grand Island",
+                "lunch": "Kith N Kin Cafeteria, Grand Island",
+                "dinner": "New Royal Blue Dhaba, Grand Island",
+                "attraction": "Hall County Park, Grand Island;",
+                "accommodation": "Big apartment  comfy - calm bedroom, Grand Island"
+            },
+            {
+                "days": 5,
+                "current_city": "Grand Island",
+                "transportation": "-",
+                "breakfast": "The Mirch Masala, Grand Island",
+                "lunch": "Dosa Plaza, Grand Island",
+                "dinner": "Chilli Chinese, Grand Island",
+                "attraction": "Splash park, Grand Island;",
+                "accommodation": "Big apartment  comfy - calm bedroom, Grand Island"
+            },
+            {
+                "days": 6,
+                "current_city": "Grand Island",
+                "transportation": "-",
+                "breakfast": "Freezy, Grand Island",
+                "lunch": "Nikku Hotel, Grand Island",
+                "dinner": "Madurai Meenakshi Bhawan, Grand Island",
+                "attraction": "Grand Island Arboretum, Grand Island;",
+                "accommodation": "Big apartment  comfy - calm bedroom, Grand Island"
+            },
+            {
+                "days": 7,
+                "current_city": "Omaha",
+                "transportation": "Flight Number: F3603813, from Omaha to Dallas",
+                "breakfast": "Vikram Ji Snacks, Omaha",
+                "lunch": "Aapki Rasoi, Omaha",
+                "dinner": "Bhoj Restaurant, Omaha",
+                "attraction": "Joslyn Castle & Gardens, Omaha;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

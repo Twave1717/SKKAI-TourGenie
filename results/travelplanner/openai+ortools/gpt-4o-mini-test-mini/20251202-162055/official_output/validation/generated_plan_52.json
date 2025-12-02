@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Grand Junction\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Dinesh Ka Mithila Dhaba, Wichita\",\n    \"lunch\": \"Austin's BBQ and Oyster Bar, Grand Junction\",\n    \"dinner\": \"Baba Chicken Ludhiana Wale, Grand Junction\",\n    \"attraction\": \"Museum of the West, Museums of Western Colorado, Grand Junction;\",\n    \"accommodation\": \"Cool room Manhattan - Sleeps up to 3 guests, Grand Junction\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"Taxi from Grand Junction to Durango, Durango\",\n    \"breakfast\": \"Muradabadi Chicken Biryani & Dhaba, Durango\",\n    \"lunch\": \"Jason Bakery, Durango\",\n    \"dinner\": \"Drool Waffles, Durango\",\n    \"attraction\": \"Durango Wildlife Museum, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Hook Up, Durango\",\n    \"lunch\": \"Dub's High on the Hog, Durango\",\n    \"dinner\": \"Hot Pot, Durango\",\n    \"attraction\": \"Animas City Park, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Colorado Springs\",\n    \"transportation\": \"Taxi from Durango to Colorado Springs, Colorado Springs\",\n    \"breakfast\": \"Kebab Xpress, Colorado Springs\",\n    \"lunch\": \"Magic Masala, Colorado Springs\",\n    \"dinner\": \"Chin Chow, Colorado Springs\",\n    \"attraction\": \"Penrose Heritage Museum, Colorado Springs;\",\n    \"accommodation\": \"Large sunny park slope apartment, Colorado Springs\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"Taxi from Colorado Springs to Durango, Durango\",\n    \"breakfast\": \"Gopala, Durango\",\n    \"lunch\": \"King Bikaneri, Durango\",\n    \"dinner\": \"Standard Chicken Point, Durango\",\n    \"attraction\": \"Lions Den, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Berco's, Durango\",\n    \"lunch\": \"Chickenette, Durango\",\n    \"dinner\": \"Cake Plaza, Durango\",\n    \"attraction\": \"Grizzly Brown carving, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Grand Junction\",\n    \"transportation\": \"Taxi from Durango to Grand Junction, Grand Junction\",\n    \"breakfast\": \"Shanghai Bar & Lounge - The Bristol Hotel, Grand Junction\",\n    \"lunch\": \"Coffee Culture, Grand Junction\",\n    \"dinner\": \"Nukkadwala, Grand Junction\",\n    \"attraction\": \"Eagle Rim Park, Grand Junction;\",\n    \"accommodation\": \"Cool room Manhattan - Sleeps up to 3 guests, Grand Junction\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Grand Junction",
+                "transportation": "-",
+                "breakfast": "Dinesh Ka Mithila Dhaba, Wichita",
+                "lunch": "Austin's BBQ and Oyster Bar, Grand Junction",
+                "dinner": "Baba Chicken Ludhiana Wale, Grand Junction",
+                "attraction": "Museum of the West, Museums of Western Colorado, Grand Junction;",
+                "accommodation": "Cool room Manhattan - Sleeps up to 3 guests, Grand Junction"
+            },
+            {
+                "days": 2,
+                "current_city": "Durango",
+                "transportation": "Taxi from Grand Junction to Durango, Durango",
+                "breakfast": "Muradabadi Chicken Biryani & Dhaba, Durango",
+                "lunch": "Jason Bakery, Durango",
+                "dinner": "Drool Waffles, Durango",
+                "attraction": "Durango Wildlife Museum, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 3,
+                "current_city": "Durango",
+                "transportation": "-",
+                "breakfast": "Hook Up, Durango",
+                "lunch": "Dub's High on the Hog, Durango",
+                "dinner": "Hot Pot, Durango",
+                "attraction": "Animas City Park, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 4,
+                "current_city": "Colorado Springs",
+                "transportation": "Taxi from Durango to Colorado Springs, Colorado Springs",
+                "breakfast": "Kebab Xpress, Colorado Springs",
+                "lunch": "Magic Masala, Colorado Springs",
+                "dinner": "Chin Chow, Colorado Springs",
+                "attraction": "Penrose Heritage Museum, Colorado Springs;",
+                "accommodation": "Large sunny park slope apartment, Colorado Springs"
+            },
+            {
+                "days": 5,
+                "current_city": "Durango",
+                "transportation": "Taxi from Colorado Springs to Durango, Durango",
+                "breakfast": "Gopala, Durango",
+                "lunch": "King Bikaneri, Durango",
+                "dinner": "Standard Chicken Point, Durango",
+                "attraction": "Lions Den, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 6,
+                "current_city": "Durango",
+                "transportation": "-",
+                "breakfast": "Berco's, Durango",
+                "lunch": "Chickenette, Durango",
+                "dinner": "Cake Plaza, Durango",
+                "attraction": "Grizzly Brown carving, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 7,
+                "current_city": "Grand Junction",
+                "transportation": "Taxi from Durango to Grand Junction, Grand Junction",
+                "breakfast": "Shanghai Bar & Lounge - The Bristol Hotel, Grand Junction",
+                "lunch": "Coffee Culture, Grand Junction",
+                "dinner": "Nukkadwala, Grand Junction",
+                "attraction": "Eagle Rim Park, Grand Junction;",
+                "accommodation": "Cool room Manhattan - Sleeps up to 3 guests, Grand Junction"
+            }
+        ]
+    }
+]

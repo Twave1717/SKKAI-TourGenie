@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"La Parada, Albuquerque\",\n    \"lunch\": \"Biryani Express, Abilene\",\n    \"dinner\": \"Cakes Degree, Abilene\",\n    \"attraction\": \"12th Armored Division Memorial, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Crispy Crust, Abilene\",\n    \"lunch\": \"Scrummy Bites, Abilene\",\n    \"dinner\": \"Gelato Vinto, Abilene\",\n    \"attraction\": \"Giant Buffalo Skull, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Thai Garden, Abilene\",\n    \"lunch\": \"Tomato's, Abilene\",\n    \"dinner\": \"Dilli Darbar, Abilene\",\n    \"attraction\": \"'E. Aster Bunnymund' Statue, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Amarillo\",\n    \"transportation\": \"Self-driving from Abilene to Amarillo, Amarillo\",\n    \"breakfast\": \"Guru Om Vanna, Amarillo\",\n    \"lunch\": \"Wood Box Cafe, Amarillo\",\n    \"dinner\": \"Lucknow Wale Kwality Kabab, Amarillo\",\n    \"attraction\": \"Amarillo Route66, Amarillo;\",\n    \"accommodation\": \"Private Master Bedroom w/Garden 14 min to Union Sq, Amarillo\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"Self-driving from Amarillo to Abilene, Abilene\",\n    \"breakfast\": \"Barista, Abilene\",\n    \"lunch\": \"Sindhi Kulfi, Abilene\",\n    \"dinner\": \"Lotus Kitchen, Abilene\",\n    \"attraction\": \"The Grace Museum, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "La Parada, Albuquerque",
+                "lunch": "Biryani Express, Abilene",
+                "dinner": "Cakes Degree, Abilene",
+                "attraction": "12th Armored Division Memorial, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 2,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Crispy Crust, Abilene",
+                "lunch": "Scrummy Bites, Abilene",
+                "dinner": "Gelato Vinto, Abilene",
+                "attraction": "Giant Buffalo Skull, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 3,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Thai Garden, Abilene",
+                "lunch": "Tomato's, Abilene",
+                "dinner": "Dilli Darbar, Abilene",
+                "attraction": "'E. Aster Bunnymund' Statue, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 4,
+                "current_city": "Amarillo",
+                "transportation": "Self-driving from Abilene to Amarillo, Amarillo",
+                "breakfast": "Guru Om Vanna, Amarillo",
+                "lunch": "Wood Box Cafe, Amarillo",
+                "dinner": "Lucknow Wale Kwality Kabab, Amarillo",
+                "attraction": "Amarillo Route66, Amarillo;",
+                "accommodation": "Private Master Bedroom w/Garden 14 min to Union Sq, Amarillo"
+            },
+            {
+                "days": 5,
+                "current_city": "Abilene",
+                "transportation": "Self-driving from Amarillo to Abilene, Abilene",
+                "breakfast": "Barista, Abilene",
+                "lunch": "Sindhi Kulfi, Abilene",
+                "dinner": "Lotus Kitchen, Abilene",
+                "attraction": "The Grace Museum, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            }
+        ]
+    }
+]

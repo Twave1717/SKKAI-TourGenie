@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Washington to Myrtle Beach\", \"transportation\": \"Flight Number: F0566695, from Washington to Myrtle Beach\", \"breakfast\": \"Moradabadi Biryani, Washington\", \"lunch\": \"Admission Lounge, Myrtle Beach\", \"dinner\": \"Nizam's Kathi Kabab, Myrtle Beach\", \"attraction\": \"Ripley's Aquarium of Myrtle Beach, Myrtle Beach;Broadway at the Beach, Myrtle Beach;\", \"accommodation\": \"Yellow submarine, Myrtle Beach\"}, {\"days\": 2, \"current_city\": \"Myrtle Beach\", \"transportation\": \"-\", \"breakfast\": \"La Pino'z Pizza, Myrtle Beach\", \"lunch\": \"The Night Owl, Myrtle Beach\", \"dinner\": \"Turning Point Fast Food, Myrtle Beach\", \"attraction\": \"Family Kingdom Amusement Park, Myrtle Beach;Hollywood Wax Museum, Myrtle Beach;\", \"accommodation\": \"Yellow submarine, Myrtle Beach\"}, {\"days\": 3, \"current_city\": \"from Myrtle Beach to Washington\", \"transportation\": \"Flight Number: F3929842, from Myrtle Beach to Washington\", \"breakfast\": \"Nagai, Myrtle Beach\", \"lunch\": \"First Eat, Myrtle Beach\", \"dinner\": \"Catfish Charlie's, Myrtle Beach\", \"attraction\": \"SkyWheel Myrtle Beach, Myrtle Beach;WonderWorks Myrtle Beach, Myrtle Beach;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Washington to Myrtle Beach",
+                "transportation": "Flight Number: F0566695, from Washington to Myrtle Beach",
+                "breakfast": "Moradabadi Biryani, Washington",
+                "lunch": "Admission Lounge, Myrtle Beach",
+                "dinner": "Nizam's Kathi Kabab, Myrtle Beach",
+                "attraction": "Ripley's Aquarium of Myrtle Beach, Myrtle Beach;Broadway at the Beach, Myrtle Beach;",
+                "accommodation": "Yellow submarine, Myrtle Beach"
+            },
+            {
+                "days": 2,
+                "current_city": "Myrtle Beach",
+                "transportation": "-",
+                "breakfast": "La Pino'z Pizza, Myrtle Beach",
+                "lunch": "The Night Owl, Myrtle Beach",
+                "dinner": "Turning Point Fast Food, Myrtle Beach",
+                "attraction": "Family Kingdom Amusement Park, Myrtle Beach;Hollywood Wax Museum, Myrtle Beach;",
+                "accommodation": "Yellow submarine, Myrtle Beach"
+            },
+            {
+                "days": 3,
+                "current_city": "from Myrtle Beach to Washington",
+                "transportation": "Flight Number: F3929842, from Myrtle Beach to Washington",
+                "breakfast": "Nagai, Myrtle Beach",
+                "lunch": "First Eat, Myrtle Beach",
+                "dinner": "Catfish Charlie's, Myrtle Beach",
+                "attraction": "SkyWheel Myrtle Beach, Myrtle Beach;WonderWorks Myrtle Beach, Myrtle Beach;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

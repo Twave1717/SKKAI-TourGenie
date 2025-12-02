@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Faaso's, Killeen\",\n    \"lunch\": \"Subway, Abilene\",\n    \"dinner\": \"Cakes Degree, Abilene\",\n    \"attraction\": \"12th Armored Division Memorial, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Amarillo\",\n    \"transportation\": \"Taxi from Abilene to Amarillo, Amarillo\",\n    \"breakfast\": \"ADM Foodi, Amarillo\",\n    \"lunch\": \"Mehfil Tawa Tandoor, Amarillo\",\n    \"dinner\": \"Lucknow Wale Kwality Kabab, Amarillo\",\n    \"attraction\": \"Amarillo Route66, Amarillo;\",\n    \"accommodation\": \"Private Master Bedroom w/Garden 14 min to Union Sq, Amarillo\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Amarillo\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Biryani Sons & Co., Amarillo\",\n    \"lunch\": \"The Cinnamon Kitchen, Amarillo\",\n    \"dinner\": \"Matrix - Jaypee Greens, Amarillo\",\n    \"attraction\": \"Cadillac Ranch, Amarillo;\",\n    \"accommodation\": \"Private Master Bedroom w/Garden 14 min to Union Sq, Amarillo\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"Taxi from Amarillo to Abilene, Abilene\",\n    \"breakfast\": \"Finger Licious, Abilene\",\n    \"lunch\": \"Aggarwal Sweet & Bakers, Abilene\",\n    \"dinner\": \"Vanshika Indian, Chinese, & Parantha Corner, Abilene\",\n    \"attraction\": \"Abilene Zoo, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Pawan Foods, Abilene\",\n    \"lunch\": \"Bhikharam's, Abilene\",\n    \"dinner\": \"Lotus Kitchen, Abilene\",\n    \"attraction\": \"The Grace Museum, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Faaso's, Killeen",
+                "lunch": "Subway, Abilene",
+                "dinner": "Cakes Degree, Abilene",
+                "attraction": "12th Armored Division Memorial, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 2,
+                "current_city": "Amarillo",
+                "transportation": "Taxi from Abilene to Amarillo, Amarillo",
+                "breakfast": "ADM Foodi, Amarillo",
+                "lunch": "Mehfil Tawa Tandoor, Amarillo",
+                "dinner": "Lucknow Wale Kwality Kabab, Amarillo",
+                "attraction": "Amarillo Route66, Amarillo;",
+                "accommodation": "Private Master Bedroom w/Garden 14 min to Union Sq, Amarillo"
+            },
+            {
+                "days": 3,
+                "current_city": "Amarillo",
+                "transportation": "-",
+                "breakfast": "Biryani Sons & Co., Amarillo",
+                "lunch": "The Cinnamon Kitchen, Amarillo",
+                "dinner": "Matrix - Jaypee Greens, Amarillo",
+                "attraction": "Cadillac Ranch, Amarillo;",
+                "accommodation": "Private Master Bedroom w/Garden 14 min to Union Sq, Amarillo"
+            },
+            {
+                "days": 4,
+                "current_city": "Abilene",
+                "transportation": "Taxi from Amarillo to Abilene, Abilene",
+                "breakfast": "Finger Licious, Abilene",
+                "lunch": "Aggarwal Sweet & Bakers, Abilene",
+                "dinner": "Vanshika Indian, Chinese, & Parantha Corner, Abilene",
+                "attraction": "Abilene Zoo, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 5,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Pawan Foods, Abilene",
+                "lunch": "Bhikharam's, Abilene",
+                "dinner": "Lotus Kitchen, Abilene",
+                "attraction": "The Grace Museum, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            }
+        ]
+    }
+]

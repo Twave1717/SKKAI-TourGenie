@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Pittsburgh to Baltimore\", \"transportation\": \"Flight Number: F3975898, from Pittsburgh to Baltimore\", \"breakfast\": \"Costa Coffee, Pittsburgh\", \"lunch\": \"Aggarwal Restaurant, Baltimore\", \"dinner\": \"Berco's, Baltimore\", \"attraction\": \"The Walters Art Museum, Baltimore;Historic Ships in Baltimore, Baltimore;\", \"accommodation\": \"Contemporary Home Away from Home, Entire house, Baltimore\"}, {\"days\": 2, \"current_city\": \"Baltimore\", \"transportation\": \"-\", \"breakfast\": \"The Retriever, Baltimore\", \"lunch\": \"RollsKing, Baltimore\", \"dinner\": \"Amalfi, Baltimore\", \"attraction\": \"Baltimore Harbor, Baltimore;Federal Hill Park, Baltimore;\", \"accommodation\": \"Contemporary Home Away from Home, Entire house, Baltimore\"}, {\"days\": 3, \"current_city\": \"from Baltimore to Pittsburgh\", \"transportation\": \"Flight Number: F3944256, from Baltimore to Pittsburgh\", \"breakfast\": \"Giani, Baltimore\", \"lunch\": \"Green Chick Chop, Baltimore\", \"dinner\": \"Rajshree, Baltimore\", \"attraction\": \"Fell's Point, Baltimore;Pierce's Park, Baltimore;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Pittsburgh to Baltimore",
+                "transportation": "Flight Number: F3975898, from Pittsburgh to Baltimore",
+                "breakfast": "Costa Coffee, Pittsburgh",
+                "lunch": "Aggarwal Restaurant, Baltimore",
+                "dinner": "Berco's, Baltimore",
+                "attraction": "The Walters Art Museum, Baltimore;Historic Ships in Baltimore, Baltimore;",
+                "accommodation": "Contemporary Home Away from Home, Entire house, Baltimore"
+            },
+            {
+                "days": 2,
+                "current_city": "Baltimore",
+                "transportation": "-",
+                "breakfast": "The Retriever, Baltimore",
+                "lunch": "RollsKing, Baltimore",
+                "dinner": "Amalfi, Baltimore",
+                "attraction": "Baltimore Harbor, Baltimore;Federal Hill Park, Baltimore;",
+                "accommodation": "Contemporary Home Away from Home, Entire house, Baltimore"
+            },
+            {
+                "days": 3,
+                "current_city": "from Baltimore to Pittsburgh",
+                "transportation": "Flight Number: F3944256, from Baltimore to Pittsburgh",
+                "breakfast": "Giani, Baltimore",
+                "lunch": "Green Chick Chop, Baltimore",
+                "dinner": "Rajshree, Baltimore",
+                "attraction": "Fell's Point, Baltimore;Pierce's Park, Baltimore;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Sarasota to Philadelphia\", \"transportation\": \"Flight Number: F2806095, from Sarasota to Philadelphia\", \"breakfast\": \"Bharawan Da Dhaba, Sarasota\", \"lunch\": \"Momozone, Philadelphia\", \"dinner\": \"Red Mesa Cantina, Philadelphia\", \"attraction\": \"Philadelphia's Magic Gardens, Philadelphia;Liberty Bell, Philadelphia;\", \"accommodation\": \"Top floor of an amazing duplex, Philadelphia\"}, {\"days\": 2, \"current_city\": \"Philadelphia\", \"transportation\": \"-\", \"breakfast\": \"Muncheezz, Philadelphia\", \"lunch\": \"Bangla Sweet Corner, Philadelphia\", \"dinner\": \"Asian Chopstick, Philadelphia\", \"attraction\": \"Museum of the American Revolution, Philadelphia;Benjamin Franklin Museum, Philadelphia;\", \"accommodation\": \"Top floor of an amazing duplex, Philadelphia\"}, {\"days\": 3, \"current_city\": \"from Philadelphia to Sarasota\", \"transportation\": \"Flight Number: F0961509, from Philadelphia to Sarasota\", \"breakfast\": \"Arabian & Turkish Caf愆, Philadelphia\", \"lunch\": \"Gurdas Ram Jalebi Wala, Philadelphia\", \"dinner\": \"Mini Mughal, Philadelphia\", \"attraction\": \"Elfreth's Alley Museum, Philadelphia;African American Museum in Philadelphia, Philadelphia;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Sarasota to Philadelphia",
+                "transportation": "Flight Number: F2806095, from Sarasota to Philadelphia",
+                "breakfast": "Bharawan Da Dhaba, Sarasota",
+                "lunch": "Momozone, Philadelphia",
+                "dinner": "Red Mesa Cantina, Philadelphia",
+                "attraction": "Philadelphia's Magic Gardens, Philadelphia;Liberty Bell, Philadelphia;",
+                "accommodation": "Top floor of an amazing duplex, Philadelphia"
+            },
+            {
+                "days": 2,
+                "current_city": "Philadelphia",
+                "transportation": "-",
+                "breakfast": "Muncheezz, Philadelphia",
+                "lunch": "Bangla Sweet Corner, Philadelphia",
+                "dinner": "Asian Chopstick, Philadelphia",
+                "attraction": "Museum of the American Revolution, Philadelphia;Benjamin Franklin Museum, Philadelphia;",
+                "accommodation": "Top floor of an amazing duplex, Philadelphia"
+            },
+            {
+                "days": 3,
+                "current_city": "from Philadelphia to Sarasota",
+                "transportation": "Flight Number: F0961509, from Philadelphia to Sarasota",
+                "breakfast": "Arabian & Turkish Caf愆, Philadelphia",
+                "lunch": "Gurdas Ram Jalebi Wala, Philadelphia",
+                "dinner": "Mini Mughal, Philadelphia",
+                "attraction": "Elfreth's Alley Museum, Philadelphia;African American Museum in Philadelphia, Philadelphia;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

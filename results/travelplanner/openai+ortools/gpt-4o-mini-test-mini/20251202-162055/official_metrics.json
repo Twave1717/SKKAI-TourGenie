@@ -1,0 +1,235 @@
+{
+  "scores": {
+    "Delivery Rate": 0.95,
+    "Commonsense Constraint Micro Pass Rate": 0.9375,
+    "Commonsense Constraint Macro Pass Rate": 0.81666666666666665,
+    "Hard Constraint Micro Pass Rate": 0.8833333333333334,
+    "Hard Constraint Macro Pass Rate": 0.71666666666666665,
+    "Final Pass Rate": 0.71666666666666665
+  },
+  "details": {
+    "Commonsense Constraint": {
+      "easy": {
+        "3": {
+          "Reasonable City Route": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Diverse Restaurants": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Diverse Attractions": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Minimum Nights Stay": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Non-conf. Transportation": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Within Current City": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Within Sandbox": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          },
+          "Complete Information": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          }
+        },
+        "5": {
+          "Reasonable City Route": {
+            "true": 11,
+            "false": 9,
+            "total": 20
+          },
+          "Diverse Restaurants": {
+            "true": 20,
+            "false": 0,
+            "total": 20
+          },
+          "Diverse Attractions": {
+            "true": 20,
+            "false": 0,
+            "total": 20
+          },
+          "Minimum Nights Stay": {
+            "true": 5,
+            "false": 15,
+            "total": 20
+          },
+          "Non-conf. Transportation": {
+            "true": 7,
+            "false": 13,
+            "total": 20
+          },
+          "Within Current City": {
+            "true": 20,
+            "false": 0,
+            "total": 20
+          },
+          "Within Sandbox": {
+            "true": 16,
+            "false": 4,
+            "total": 20
+          },
+          "Complete Information": {
+            "true": 20,
+            "false": 0,
+            "total": 20
+          }
+        },
+        "7": {
+          "Reasonable City Route": {
+            "true": 0,
+            "false": 19,
+            "total": 20
+          },
+          "Diverse Restaurants": {
+            "true": 19,
+            "false": 0,
+            "total": 20
+          },
+          "Diverse Attractions": {
+            "true": 19,
+            "false": 0,
+            "total": 20
+          },
+          "Minimum Nights Stay": {
+            "true": 2,
+            "false": 17,
+            "total": 20
+          },
+          "Non-conf. Transportation": {
+            "true": 2,
+            "false": 17,
+            "total": 20
+          },
+          "Within Current City": {
+            "true": 19,
+            "false": 0,
+            "total": 20
+          },
+          "Within Sandbox": {
+            "true": 11,
+            "false": 8,
+            "total": 20
+          },
+          "Complete Information": {
+            "true": 19,
+            "false": 0,
+            "total": 20
+          }
+        }
+      },
+      "medium": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {},
+        "5": {},
+        "7": {}
+      }
+    },
+    "Hard Constraint": {
+      "easy": {
+        "3": {
+          "Cuisine": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Rule": {
+            "true": 0,
+            "false": 0
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Budget": {
+            "true": 18,
+            "false": 0,
+            "total": 20
+          }
+        },
+        "5": {
+          "Cuisine": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Rule": {
+            "true": 0,
+            "false": 0
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Budget": {
+            "true": 11,
+            "false": 5,
+            "total": 20
+          }
+        },
+        "7": {
+          "Cuisine": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Rule": {
+            "true": 0,
+            "false": 0
+          },
+          "Transportation": {
+            "true": 0,
+            "false": 0
+          },
+          "Room Type": {
+            "true": 0,
+            "false": 0
+          },
+          "Budget": {
+            "true": 6,
+            "false": 5,
+            "total": 20
+          }
+        }
+      },
+      "medium": {
+        "3": {},
+        "5": {},
+        "7": {}
+      },
+      "hard": {
+        "3": {},
+        "5": {},
+        "7": {}
+      }
+    }
+  }
+}

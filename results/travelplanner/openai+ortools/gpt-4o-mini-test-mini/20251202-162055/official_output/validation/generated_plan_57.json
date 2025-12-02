@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Kayasthas Food Junction, Kona\",\n    \"lunch\": \"Bloomsbury's Boutique Cafe and Artisan Bakery, Redding\",\n    \"dinner\": \"Cakebak, Redding\",\n    \"attraction\": \"Minder Park, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Fresno\",\n    \"transportation\": \"Self-driving from Redding to Fresno, Fresno\",\n    \"breakfast\": \"McDonald's, Fresno\",\n    \"lunch\": \"Darjeeling Momos, Fresno\",\n    \"dinner\": \"Foodaholic, Fresno\",\n    \"attraction\": \"FAC Water Tower, Fresno;\",\n    \"accommodation\": \"HUGE East Village 2 Bd w/Priv Yard, Fresno\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Fresno\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Mark's City Grille, Fresno\",\n    \"lunch\": \"Ziya, Fresno\",\n    \"dinner\": \"Indian Curry House, Fresno\",\n    \"attraction\": \"Blackbeard's Family Entertainment, Fresno;\",\n    \"accommodation\": \"HUGE East Village 2 Bd w/Priv Yard, Fresno\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"Self-driving from Fresno to Redding, Redding\",\n    \"breakfast\": \"Falafel Lovers, Redding\",\n    \"lunch\": \"Joost Juice Bar, Redding\",\n    \"dinner\": \"The Junction, Redding\",\n    \"attraction\": \"Kids' Kingdom, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Sacramento\",\n    \"transportation\": \"Taxi from Redding to Sacramento, Sacramento\",\n    \"breakfast\": \"Al Fanoos, Sacramento\",\n    \"lunch\": \"Pakiza Restaurant, Sacramento\",\n    \"dinner\": \"Braseiro da G礴vea, Sacramento\",\n    \"attraction\": \"California State Capitol Museum, Sacramento;\",\n    \"accommodation\": \"HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Fresno\",\n    \"transportation\": \"Taxi from Sacramento to Fresno, Fresno\",\n    \"breakfast\": \"Slice of Italy, Fresno\",\n    \"lunch\": \"Mairu's, Fresno\",\n    \"dinner\": \"Kitchen199, Fresno\",\n    \"attraction\": \"Alley Mural, Fresno;\",\n    \"accommodation\": \"HUGE East Village 2 Bd w/Priv Yard, Fresno\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"Self-driving from Fresno to Redding, Redding\",\n    \"breakfast\": \"Anna Ka Dosa, Redding\",\n    \"lunch\": \"Connexions Bar - Crowne Plaza, Redding\",\n    \"dinner\": \"Casa Bake, Redding\",\n    \"attraction\": \"Chamise Peak, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Redding",
+                "transportation": "-",
+                "breakfast": "Kayasthas Food Junction, Kona",
+                "lunch": "Bloomsbury's Boutique Cafe and Artisan Bakery, Redding",
+                "dinner": "Cakebak, Redding",
+                "attraction": "Minder Park, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            },
+            {
+                "days": 2,
+                "current_city": "Fresno",
+                "transportation": "Self-driving from Redding to Fresno, Fresno",
+                "breakfast": "McDonald's, Fresno",
+                "lunch": "Darjeeling Momos, Fresno",
+                "dinner": "Foodaholic, Fresno",
+                "attraction": "FAC Water Tower, Fresno;",
+                "accommodation": "HUGE East Village 2 Bd w/Priv Yard, Fresno"
+            },
+            {
+                "days": 3,
+                "current_city": "Fresno",
+                "transportation": "-",
+                "breakfast": "Mark's City Grille, Fresno",
+                "lunch": "Ziya, Fresno",
+                "dinner": "Indian Curry House, Fresno",
+                "attraction": "Blackbeard's Family Entertainment, Fresno;",
+                "accommodation": "HUGE East Village 2 Bd w/Priv Yard, Fresno"
+            },
+            {
+                "days": 4,
+                "current_city": "Redding",
+                "transportation": "Self-driving from Fresno to Redding, Redding",
+                "breakfast": "Falafel Lovers, Redding",
+                "lunch": "Joost Juice Bar, Redding",
+                "dinner": "The Junction, Redding",
+                "attraction": "Kids' Kingdom, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            },
+            {
+                "days": 5,
+                "current_city": "Sacramento",
+                "transportation": "Taxi from Redding to Sacramento, Sacramento",
+                "breakfast": "Al Fanoos, Sacramento",
+                "lunch": "Pakiza Restaurant, Sacramento",
+                "dinner": "Braseiro da G礴vea, Sacramento",
+                "attraction": "California State Capitol Museum, Sacramento;",
+                "accommodation": "HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento"
+            },
+            {
+                "days": 6,
+                "current_city": "Fresno",
+                "transportation": "Taxi from Sacramento to Fresno, Fresno",
+                "breakfast": "Slice of Italy, Fresno",
+                "lunch": "Mairu's, Fresno",
+                "dinner": "Kitchen199, Fresno",
+                "attraction": "Alley Mural, Fresno;",
+                "accommodation": "HUGE East Village 2 Bd w/Priv Yard, Fresno"
+            },
+            {
+                "days": 7,
+                "current_city": "Redding",
+                "transportation": "Self-driving from Fresno to Redding, Redding",
+                "breakfast": "Anna Ka Dosa, Redding",
+                "lunch": "Connexions Bar - Crowne Plaza, Redding",
+                "dinner": "Casa Bake, Redding",
+                "attraction": "Chamise Peak, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            }
+        ]
+    }
+]

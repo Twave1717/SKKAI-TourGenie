@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from St. Petersburg to Appleton\", \"transportation\": \"Flight Number: F1344851, from St. Petersburg to Appleton\", \"breakfast\": \"Kitchen At 95 - Hyatt Regency, St. Petersburg\", \"lunch\": \"Shanghai Moon, Appleton\", \"dinner\": \"New Bakers Shoppee, Appleton\", \"attraction\": \"Atlas Science Center Center, Appleton;Plamann Park, Appleton;\", \"accommodation\": \"Stylish, convenient, renovated- 2 min to subway -, Appleton\"}, {\"days\": 2, \"current_city\": \"Appleton\", \"transportation\": \"-\", \"breakfast\": \"Fat Lulu's, Appleton\", \"lunch\": \"Yaadgaar, Appleton\", \"dinner\": \"Mathew's Cafe, Appleton\", \"attraction\": \"Lutz Park, Appleton;Appleton Memorial Park Gardens, Appleton;\", \"accommodation\": \"Stylish, convenient, renovated- 2 min to subway -, Appleton\"}, {\"days\": 3, \"current_city\": \"from Appleton to St. Petersburg\", \"transportation\": \"Flight Number: F0377983, from Appleton to St. Petersburg\", \"breakfast\": \"The Kathis, Appleton\", \"lunch\": \"Fire n Ice, Appleton\", \"dinner\": \"Side Wok, Appleton\", \"attraction\": \"City Park, Appleton;Telulah Park, Appleton;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from St. Petersburg to Appleton",
+                "transportation": "Flight Number: F1344851, from St. Petersburg to Appleton",
+                "breakfast": "Kitchen At 95 - Hyatt Regency, St. Petersburg",
+                "lunch": "Shanghai Moon, Appleton",
+                "dinner": "New Bakers Shoppee, Appleton",
+                "attraction": "Atlas Science Center Center, Appleton;Plamann Park, Appleton;",
+                "accommodation": "Stylish, convenient, renovated- 2 min to subway -, Appleton"
+            },
+            {
+                "days": 2,
+                "current_city": "Appleton",
+                "transportation": "-",
+                "breakfast": "Fat Lulu's, Appleton",
+                "lunch": "Yaadgaar, Appleton",
+                "dinner": "Mathew's Cafe, Appleton",
+                "attraction": "Lutz Park, Appleton;Appleton Memorial Park Gardens, Appleton;",
+                "accommodation": "Stylish, convenient, renovated- 2 min to subway -, Appleton"
+            },
+            {
+                "days": 3,
+                "current_city": "from Appleton to St. Petersburg",
+                "transportation": "Flight Number: F0377983, from Appleton to St. Petersburg",
+                "breakfast": "The Kathis, Appleton",
+                "lunch": "Fire n Ice, Appleton",
+                "dinner": "Side Wok, Appleton",
+                "attraction": "City Park, Appleton;Telulah Park, Appleton;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Grand Junction\",\n    \"transportation\": \"Flight Number: F1349117, from Los Angeles to Grand Junction\",\n    \"breakfast\": \"Onokabe, Los Angeles\",\n    \"lunch\": \"Facebook Fast Food, Grand Junction\",\n    \"dinner\": \"Flavors Of London, Grand Junction\",\n    \"attraction\": \"Red Canyon Overlook, Grand Junction;\",\n    \"accommodation\": \"Private  studio 79REVIEWS-CHECK PROFILEManhattan, Grand Junction\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"Taxi from Grand Junction to Durango, Durango\",\n    \"breakfast\": \"Burger King, Durango\",\n    \"lunch\": \"Twenty Four Seven, Durango\",\n    \"dinner\": \"The Claridges Garden -The Claridges, Durango\",\n    \"attraction\": \"Durango train ride, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Muradabadi Chicken Biryani & Dhaba, Durango\",\n    \"lunch\": \"Jason Bakery, Durango\",\n    \"dinner\": \"Drool Waffles, Durango\",\n    \"attraction\": \"Dallabetta Park, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Durango\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Kansar Gujarati Thali, Durango\",\n    \"lunch\": \"Samurai Japanese Cuisine & Sushi Bar, Durango\",\n    \"dinner\": \"Standard Chicken Point, Durango\",\n    \"attraction\": \"Durango Adventures and Zipline Tours, Durango;\",\n    \"accommodation\": \"CROWN HEIGHTS GUEST HOUSE 2L2R, Durango\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Grand Junction\",\n    \"transportation\": \"Flight Number: F1342103, from Grand Junction to Los Angeles\",\n    \"breakfast\": \"Vedanta's, Grand Junction\",\n    \"lunch\": \"Food Daddy, Grand Junction\",\n    \"dinner\": \"2 Dog, Grand Junction\",\n    \"attraction\": \"Walter Walker State Wildlife Area, Grand Junction;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Grand Junction",
+                "transportation": "Flight Number: F1349117, from Los Angeles to Grand Junction",
+                "breakfast": "Onokabe, Los Angeles",
+                "lunch": "Facebook Fast Food, Grand Junction",
+                "dinner": "Flavors Of London, Grand Junction",
+                "attraction": "Red Canyon Overlook, Grand Junction;",
+                "accommodation": "Private  studio 79REVIEWS-CHECK PROFILEManhattan, Grand Junction"
+            },
+            {
+                "days": 2,
+                "current_city": "Durango",
+                "transportation": "Taxi from Grand Junction to Durango, Durango",
+                "breakfast": "Burger King, Durango",
+                "lunch": "Twenty Four Seven, Durango",
+                "dinner": "The Claridges Garden -The Claridges, Durango",
+                "attraction": "Durango train ride, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 3,
+                "current_city": "Durango",
+                "transportation": "-",
+                "breakfast": "Muradabadi Chicken Biryani & Dhaba, Durango",
+                "lunch": "Jason Bakery, Durango",
+                "dinner": "Drool Waffles, Durango",
+                "attraction": "Dallabetta Park, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 4,
+                "current_city": "Durango",
+                "transportation": "-",
+                "breakfast": "Kansar Gujarati Thali, Durango",
+                "lunch": "Samurai Japanese Cuisine & Sushi Bar, Durango",
+                "dinner": "Standard Chicken Point, Durango",
+                "attraction": "Durango Adventures and Zipline Tours, Durango;",
+                "accommodation": "CROWN HEIGHTS GUEST HOUSE 2L2R, Durango"
+            },
+            {
+                "days": 5,
+                "current_city": "Grand Junction",
+                "transportation": "Flight Number: F1342103, from Grand Junction to Los Angeles",
+                "breakfast": "Vedanta's, Grand Junction",
+                "lunch": "Food Daddy, Grand Junction",
+                "dinner": "2 Dog, Grand Junction",
+                "attraction": "Walter Walker State Wildlife Area, Grand Junction;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Flight Number: F1323879, from Billings to Minneapolis\",\n    \"breakfast\": \"Aggarwal Confectionary, Billings\",\n    \"lunch\": \"Playboy Cafe, Minneapolis\",\n    \"dinner\": \"Fomads, Minneapolis\",\n    \"attraction\": \"Mall of America®, Minneapolis;\",\n    \"accommodation\": \"ROOM  TWO, Minneapolis\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Duluth\",\n    \"transportation\": \"Taxi from Minneapolis to Duluth, Duluth\",\n    \"breakfast\": \"The Gaming Vegas, Duluth\",\n    \"lunch\": \"Urban Gala, Duluth\",\n    \"dinner\": \"Chinese K. Food, Duluth\",\n    \"attraction\": \"Hartley Nature Center, Duluth;\",\n    \"accommodation\": \"Stylish Large 2 Bedroom  Perfect Location, Duluth\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Duluth\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Food Factory, Duluth\",\n    \"lunch\": \"Bawarchi, Duluth\",\n    \"dinner\": \"China Hot Pot, Duluth\",\n    \"attraction\": \"Spirit Mountain Recreation Area, Duluth;\",\n    \"accommodation\": \"Stylish Large 2 Bedroom  Perfect Location, Duluth\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Taxi from Duluth to Minneapolis, Minneapolis\",\n    \"breakfast\": \"Texas Roadhouse, Minneapolis\",\n    \"lunch\": \"Agent Jack's Bar, Minneapolis\",\n    \"dinner\": \"Nukkadwala, Minneapolis\",\n    \"attraction\": \"Central Mississippi Riverfront Regional Park, Minneapolis;\",\n    \"accommodation\": \"ROOM  TWO, Minneapolis\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Flight Number: F3388435, from Minneapolis to Billings\",\n    \"breakfast\": \"Lajawab Chicken & Fish Fry, Minneapolis\",\n    \"lunch\": \"Purani Dilli's Al Karam Kebab House, Minneapolis\",\n    \"dinner\": \"Cheffron Bakery, Minneapolis\",\n    \"attraction\": \"Walker Art Center, Minneapolis;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Minneapolis",
+                "transportation": "Flight Number: F1323879, from Billings to Minneapolis",
+                "breakfast": "Aggarwal Confectionary, Billings",
+                "lunch": "Playboy Cafe, Minneapolis",
+                "dinner": "Fomads, Minneapolis",
+                "attraction": "Mall of America®, Minneapolis;",
+                "accommodation": "ROOM  TWO, Minneapolis"
+            },
+            {
+                "days": 2,
+                "current_city": "Duluth",
+                "transportation": "Taxi from Minneapolis to Duluth, Duluth",
+                "breakfast": "The Gaming Vegas, Duluth",
+                "lunch": "Urban Gala, Duluth",
+                "dinner": "Chinese K. Food, Duluth",
+                "attraction": "Hartley Nature Center, Duluth;",
+                "accommodation": "Stylish Large 2 Bedroom  Perfect Location, Duluth"
+            },
+            {
+                "days": 3,
+                "current_city": "Duluth",
+                "transportation": "-",
+                "breakfast": "Food Factory, Duluth",
+                "lunch": "Bawarchi, Duluth",
+                "dinner": "China Hot Pot, Duluth",
+                "attraction": "Spirit Mountain Recreation Area, Duluth;",
+                "accommodation": "Stylish Large 2 Bedroom  Perfect Location, Duluth"
+            },
+            {
+                "days": 4,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi from Duluth to Minneapolis, Minneapolis",
+                "breakfast": "Texas Roadhouse, Minneapolis",
+                "lunch": "Agent Jack's Bar, Minneapolis",
+                "dinner": "Nukkadwala, Minneapolis",
+                "attraction": "Central Mississippi Riverfront Regional Park, Minneapolis;",
+                "accommodation": "ROOM  TWO, Minneapolis"
+            },
+            {
+                "days": 5,
+                "current_city": "Minneapolis",
+                "transportation": "Flight Number: F3388435, from Minneapolis to Billings",
+                "breakfast": "Lajawab Chicken & Fish Fry, Minneapolis",
+                "lunch": "Purani Dilli's Al Karam Kebab House, Minneapolis",
+                "dinner": "Cheffron Bakery, Minneapolis",
+                "attraction": "Walker Art Center, Minneapolis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

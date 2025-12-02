@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Kayasthas Food Junction, Kona\",\n    \"lunch\": \"Elma's Bakery, Bar, and Kitchen, Redding\",\n    \"dinner\": \"Cakebak, Redding\",\n    \"attraction\": \"Minder Park, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Fresno\",\n    \"transportation\": \"Taxi from Redding to Fresno, Fresno\",\n    \"breakfast\": \"Sugar Rush By Saiba, Fresno\",\n    \"lunch\": \"Kwality, Fresno\",\n    \"dinner\": \"McDonald's, Fresno\",\n    \"attraction\": \"Forestiere Underground Gardens, Fresno;\",\n    \"accommodation\": \"HUGE East Village 2 Bd w/Priv Yard, Fresno\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Sacramento\",\n    \"transportation\": \"Taxi from Fresno to Sacramento, Sacramento\",\n    \"breakfast\": \"The Pint Room, Sacramento\",\n    \"lunch\": \"Pasta Hut, Sacramento\",\n    \"dinner\": \"Arabian Nites, Sacramento\",\n    \"attraction\": \"Crocker Art Museum, Sacramento;\",\n    \"accommodation\": \"HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Sacramento\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Domino's Pizza, Sacramento\",\n    \"lunch\": \"The Dragon Hucks, Sacramento\",\n    \"dinner\": \"Biryani House, Sacramento\",\n    \"attraction\": \"Scavenger Hunt Walking Tours - Old Sacramento, Sacramento;\",\n    \"accommodation\": \"HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Fresno\",\n    \"transportation\": \"Taxi from Sacramento to Fresno, Fresno\",\n    \"breakfast\": \"Indian Curry House, Fresno\",\n    \"lunch\": \"DomDom Biryani, Fresno\",\n    \"dinner\": \"Giani, Fresno\",\n    \"attraction\": \"Walker Maze, Fresno;\",\n    \"accommodation\": \"HUGE East Village 2 Bd w/Priv Yard, Fresno\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Fresno\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Foodaholic, Fresno\",\n    \"lunch\": \"Dunkin Donuts, Fresno\",\n    \"dinner\": \"Palji Corner, Fresno\",\n    \"attraction\": \"Fresno County Blossom Trail, Fresno;\",\n    \"accommodation\": \"HUGE East Village 2 Bd w/Priv Yard, Fresno\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"Taxi from Fresno to Redding, Redding\",\n    \"breakfast\": \"Connexions Bar - Crowne Plaza, Redding\",\n    \"lunch\": \"Mosaic - Country Inn & Suites, Redding\",\n    \"dinner\": \"Curry Capital - Hotel Classic Diplomat, Redding\",\n    \"attraction\": \"Fantasy Fountain, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Redding",
+                "transportation": "-",
+                "breakfast": "Kayasthas Food Junction, Kona",
+                "lunch": "Elma's Bakery, Bar, and Kitchen, Redding",
+                "dinner": "Cakebak, Redding",
+                "attraction": "Minder Park, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            },
+            {
+                "days": 2,
+                "current_city": "Fresno",
+                "transportation": "Taxi from Redding to Fresno, Fresno",
+                "breakfast": "Sugar Rush By Saiba, Fresno",
+                "lunch": "Kwality, Fresno",
+                "dinner": "McDonald's, Fresno",
+                "attraction": "Forestiere Underground Gardens, Fresno;",
+                "accommodation": "HUGE East Village 2 Bd w/Priv Yard, Fresno"
+            },
+            {
+                "days": 3,
+                "current_city": "Sacramento",
+                "transportation": "Taxi from Fresno to Sacramento, Sacramento",
+                "breakfast": "The Pint Room, Sacramento",
+                "lunch": "Pasta Hut, Sacramento",
+                "dinner": "Arabian Nites, Sacramento",
+                "attraction": "Crocker Art Museum, Sacramento;",
+                "accommodation": "HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento"
+            },
+            {
+                "days": 4,
+                "current_city": "Sacramento",
+                "transportation": "-",
+                "breakfast": "Domino's Pizza, Sacramento",
+                "lunch": "The Dragon Hucks, Sacramento",
+                "dinner": "Biryani House, Sacramento",
+                "attraction": "Scavenger Hunt Walking Tours - Old Sacramento, Sacramento;",
+                "accommodation": "HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento"
+            },
+            {
+                "days": 5,
+                "current_city": "Fresno",
+                "transportation": "Taxi from Sacramento to Fresno, Fresno",
+                "breakfast": "Indian Curry House, Fresno",
+                "lunch": "DomDom Biryani, Fresno",
+                "dinner": "Giani, Fresno",
+                "attraction": "Walker Maze, Fresno;",
+                "accommodation": "HUGE East Village 2 Bd w/Priv Yard, Fresno"
+            },
+            {
+                "days": 6,
+                "current_city": "Fresno",
+                "transportation": "-",
+                "breakfast": "Foodaholic, Fresno",
+                "lunch": "Dunkin Donuts, Fresno",
+                "dinner": "Palji Corner, Fresno",
+                "attraction": "Fresno County Blossom Trail, Fresno;",
+                "accommodation": "HUGE East Village 2 Bd w/Priv Yard, Fresno"
+            },
+            {
+                "days": 7,
+                "current_city": "Redding",
+                "transportation": "Taxi from Fresno to Redding, Redding",
+                "breakfast": "Connexions Bar - Crowne Plaza, Redding",
+                "lunch": "Mosaic - Country Inn & Suites, Redding",
+                "dinner": "Curry Capital - Hotel Classic Diplomat, Redding",
+                "attraction": "Fantasy Fountain, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            }
+        ]
+    }
+]

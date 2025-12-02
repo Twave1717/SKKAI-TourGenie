@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Moline\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Chin Chow, Colorado Springs\",\n    \"lunch\": \"Nathu's Sweets, Moline\",\n    \"dinner\": \"Pinch Of China, Moline\",\n    \"attraction\": \"Schwiebert Riverfront Park, Moline;\",\n    \"accommodation\": \"Sunny duplex near Central Park, Moline\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Belleville\",\n    \"transportation\": \"Self-driving from Moline to Belleville, Belleville\",\n    \"breakfast\": \"Vaishno Bhojnalaya, Belleville\",\n    \"lunch\": \"Cafe Amaretto, Belleville\",\n    \"dinner\": \"Kylin Experience, Belleville\",\n    \"attraction\": \"Centennial Park, Belleville;\",\n    \"accommodation\": \"Near Yankee Stadium, Belleville\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Belleville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"deliKitchen, Belleville\",\n    \"lunch\": \"Romi da Dhaba, Belleville\",\n    \"dinner\": \"Fuji Japanese Steak House, Belleville\",\n    \"attraction\": \"Citizens Park, Belleville;\",\n    \"accommodation\": \"Near Yankee Stadium, Belleville\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Belleville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Best Biryani, Belleville\",\n    \"lunch\": \"Chocolate Temptation, Belleville\",\n    \"dinner\": \"Moti Mahal Delux, Belleville\",\n    \"attraction\": \"Belleville Square, Belleville;\",\n    \"accommodation\": \"Near Yankee Stadium, Belleville\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Moline\",\n    \"transportation\": \"Self-driving from Belleville to Moline, Moline\",\n    \"breakfast\": \"Mummy's Kitchen, Moline\",\n    \"lunch\": \"Lovecrumbs Bakery, Moline\",\n    \"dinner\": \"Ano Tai - Jaypee Vasant Continental, Moline\",\n    \"attraction\": \"Black Hawk State Historic Site, Moline;\",\n    \"accommodation\": \"Sunny duplex near Central Park, Moline\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Moline",
+                "transportation": "-",
+                "breakfast": "Chin Chow, Colorado Springs",
+                "lunch": "Nathu's Sweets, Moline",
+                "dinner": "Pinch Of China, Moline",
+                "attraction": "Schwiebert Riverfront Park, Moline;",
+                "accommodation": "Sunny duplex near Central Park, Moline"
+            },
+            {
+                "days": 2,
+                "current_city": "Belleville",
+                "transportation": "Self-driving from Moline to Belleville, Belleville",
+                "breakfast": "Vaishno Bhojnalaya, Belleville",
+                "lunch": "Cafe Amaretto, Belleville",
+                "dinner": "Kylin Experience, Belleville",
+                "attraction": "Centennial Park, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 3,
+                "current_city": "Belleville",
+                "transportation": "-",
+                "breakfast": "deliKitchen, Belleville",
+                "lunch": "Romi da Dhaba, Belleville",
+                "dinner": "Fuji Japanese Steak House, Belleville",
+                "attraction": "Citizens Park, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 4,
+                "current_city": "Belleville",
+                "transportation": "-",
+                "breakfast": "Best Biryani, Belleville",
+                "lunch": "Chocolate Temptation, Belleville",
+                "dinner": "Moti Mahal Delux, Belleville",
+                "attraction": "Belleville Square, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 5,
+                "current_city": "Moline",
+                "transportation": "Self-driving from Belleville to Moline, Moline",
+                "breakfast": "Mummy's Kitchen, Moline",
+                "lunch": "Lovecrumbs Bakery, Moline",
+                "dinner": "Ano Tai - Jaypee Vasant Continental, Moline",
+                "attraction": "Black Hawk State Historic Site, Moline;",
+                "accommodation": "Sunny duplex near Central Park, Moline"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Momo-Cha, Sun Valley\",\n    \"lunch\": \"Krishna Di Kulfi, Redding\",\n    \"dinner\": \"Bloomsbury's Boutique Cafe and Artisan Bakery, Redding\",\n    \"attraction\": \"Caldwell Park, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Sacramento\",\n    \"transportation\": \"Taxi from Redding to Sacramento, Sacramento\",\n    \"breakfast\": \"Vadapav Junction, Sacramento\",\n    \"lunch\": \"Azam's Mughlai, Sacramento\",\n    \"dinner\": \"The Warehouse Cafe, Sacramento\",\n    \"attraction\": \"Old Sacramento Waterfront, Sacramento;\",\n    \"accommodation\": \"HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Sacramento\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"The Dragon Hucks, Sacramento\",\n    \"lunch\": \"Braseiro da G礴vea, Sacramento\",\n    \"dinner\": \"Domino's Pizza, Sacramento\",\n    \"attraction\": \"California Automobile Museum, Sacramento;\",\n    \"accommodation\": \"HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Sacramento\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Chinese Fast Food, Sacramento\",\n    \"lunch\": \"Sumo Sushi, Sacramento\",\n    \"dinner\": \"Kerala Hotel, Sacramento\",\n    \"attraction\": \"Underground Tours, Sacramento;\",\n    \"accommodation\": \"HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Redding\",\n    \"transportation\": \"Taxi from Sacramento to Redding, Redding\",\n    \"breakfast\": \"New Yorker Deli & Pizzeria, Redding\",\n    \"lunch\": \"Cafe 55 - Park Inn, Redding\",\n    \"dinner\": \"Aromas of Pind, Redding\",\n    \"attraction\": \"Rivercrest Park, Redding;\",\n    \"accommodation\": \"Premier room in Downtown NY  Two Bridges Chinatown, Redding\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Redding",
+                "transportation": "-",
+                "breakfast": "Momo-Cha, Sun Valley",
+                "lunch": "Krishna Di Kulfi, Redding",
+                "dinner": "Bloomsbury's Boutique Cafe and Artisan Bakery, Redding",
+                "attraction": "Caldwell Park, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            },
+            {
+                "days": 2,
+                "current_city": "Sacramento",
+                "transportation": "Taxi from Redding to Sacramento, Sacramento",
+                "breakfast": "Vadapav Junction, Sacramento",
+                "lunch": "Azam's Mughlai, Sacramento",
+                "dinner": "The Warehouse Cafe, Sacramento",
+                "attraction": "Old Sacramento Waterfront, Sacramento;",
+                "accommodation": "HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento"
+            },
+            {
+                "days": 3,
+                "current_city": "Sacramento",
+                "transportation": "-",
+                "breakfast": "The Dragon Hucks, Sacramento",
+                "lunch": "Braseiro da G礴vea, Sacramento",
+                "dinner": "Domino's Pizza, Sacramento",
+                "attraction": "California Automobile Museum, Sacramento;",
+                "accommodation": "HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento"
+            },
+            {
+                "days": 4,
+                "current_city": "Sacramento",
+                "transportation": "-",
+                "breakfast": "Chinese Fast Food, Sacramento",
+                "lunch": "Sumo Sushi, Sacramento",
+                "dinner": "Kerala Hotel, Sacramento",
+                "attraction": "Underground Tours, Sacramento;",
+                "accommodation": "HUGE SPACE  HEART OF BROOKLYN  1 BLOCK FROM SUBWAY, Sacramento"
+            },
+            {
+                "days": 5,
+                "current_city": "Redding",
+                "transportation": "Taxi from Sacramento to Redding, Redding",
+                "breakfast": "New Yorker Deli & Pizzeria, Redding",
+                "lunch": "Cafe 55 - Park Inn, Redding",
+                "dinner": "Aromas of Pind, Redding",
+                "attraction": "Rivercrest Park, Redding;",
+                "accommodation": "Premier room in Downtown NY  Two Bridges Chinatown, Redding"
+            }
+        ]
+    }
+]

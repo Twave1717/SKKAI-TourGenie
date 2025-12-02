@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Charleston\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Cafe 27, Latrobe\",\n    \"lunch\": \"Shivam Fast Food, Charleston\",\n    \"dinner\": \"Singh's Kitchen, Charleston\",\n    \"attraction\": \"Joe Riley Waterfront Park, Charleston;\",\n    \"accommodation\": \"Bronx Roon, Charleston\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Hilton Head\",\n    \"transportation\": \"Taxi from Charleston to Hilton Head, Hilton Head\",\n    \"breakfast\": \"Sikkim Fast Food, Hilton Head\",\n    \"lunch\": \"Mr. Brown, Hilton Head\",\n    \"dinner\": \"Tikka Town, Hilton Head\",\n    \"attraction\": \"Stoney Baynard Ruins, Hilton Head;\",\n    \"accommodation\": \"2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Hilton Head\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Pappu Ka Dhaba, Hilton Head\",\n    \"lunch\": \"MR.D - Deliciousness Delivered, Hilton Head\",\n    \"dinner\": \"Satnaam Foods, Hilton Head\",\n    \"attraction\": \"Driessen Beach Park, Hilton Head;\",\n    \"accommodation\": \"2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Hilton Head\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"XLNC Bakers, Hilton Head\",\n    \"lunch\": \"Cafe Coffee Day, Hilton Head\",\n    \"dinner\": \"Salato Salad Studio, Hilton Head\",\n    \"attraction\": \"Sea Pines Forest Preserve, Hilton Head;\",\n    \"accommodation\": \"2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Charleston\",\n    \"transportation\": \"Taxi from Hilton Head to Charleston, Charleston\",\n    \"breakfast\": \"Pebble Street, Charleston\",\n    \"lunch\": \"Burger King, Charleston\",\n    \"dinner\": \"Cafe Coffee Day, Charleston\",\n    \"attraction\": \"Old Exchange and Provost Dungeon, Charleston;\",\n    \"accommodation\": \"Bronx Roon, Charleston\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Charleston",
+                "transportation": "-",
+                "breakfast": "Cafe 27, Latrobe",
+                "lunch": "Shivam Fast Food, Charleston",
+                "dinner": "Singh's Kitchen, Charleston",
+                "attraction": "Joe Riley Waterfront Park, Charleston;",
+                "accommodation": "Bronx Roon, Charleston"
+            },
+            {
+                "days": 2,
+                "current_city": "Hilton Head",
+                "transportation": "Taxi from Charleston to Hilton Head, Hilton Head",
+                "breakfast": "Sikkim Fast Food, Hilton Head",
+                "lunch": "Mr. Brown, Hilton Head",
+                "dinner": "Tikka Town, Hilton Head",
+                "attraction": "Stoney Baynard Ruins, Hilton Head;",
+                "accommodation": "2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head"
+            },
+            {
+                "days": 3,
+                "current_city": "Hilton Head",
+                "transportation": "-",
+                "breakfast": "Pappu Ka Dhaba, Hilton Head",
+                "lunch": "MR.D - Deliciousness Delivered, Hilton Head",
+                "dinner": "Satnaam Foods, Hilton Head",
+                "attraction": "Driessen Beach Park, Hilton Head;",
+                "accommodation": "2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head"
+            },
+            {
+                "days": 4,
+                "current_city": "Hilton Head",
+                "transportation": "-",
+                "breakfast": "XLNC Bakers, Hilton Head",
+                "lunch": "Cafe Coffee Day, Hilton Head",
+                "dinner": "Salato Salad Studio, Hilton Head",
+                "attraction": "Sea Pines Forest Preserve, Hilton Head;",
+                "accommodation": "2. Private 1BR Suite in Shared Marine Park Apt., Hilton Head"
+            },
+            {
+                "days": 5,
+                "current_city": "Charleston",
+                "transportation": "Taxi from Hilton Head to Charleston, Charleston",
+                "breakfast": "Pebble Street, Charleston",
+                "lunch": "Burger King, Charleston",
+                "dinner": "Cafe Coffee Day, Charleston",
+                "attraction": "Old Exchange and Provost Dungeon, Charleston;",
+                "accommodation": "Bronx Roon, Charleston"
+            }
+        ]
+    }
+]

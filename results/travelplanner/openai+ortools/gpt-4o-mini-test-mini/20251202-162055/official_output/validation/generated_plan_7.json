@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Missoula to Dallas\", \"transportation\": \"Flight Number: F2836191, from Missoula to Dallas\", \"breakfast\": \"Kwality wall's swirl's, Missoula\", \"lunch\": \"Cafe Hera Pheri, Dallas\", \"dinner\": \"Kolkata Biryani House, Dallas\", \"attraction\": \"Reunion Tower, Dallas;The Dallas Arboretum and Botanical Garden, Dallas;\", \"accommodation\": \"Private room close to the center of Williamburg, Dallas\"}, {\"days\": 2, \"current_city\": \"Dallas\", \"transportation\": \"-\", \"breakfast\": \"The Kahuna, Dallas\", \"lunch\": \"Drifters Cafe, Dallas\", \"dinner\": \"Bikaner Sweets, Dallas\", \"attraction\": \"Frontiers of Flight Museum, Dallas;Leonhardt Lagoon Nature Walk, Dallas;\", \"accommodation\": \"Private room close to the center of Williamburg, Dallas\"}, {\"days\": 3, \"current_city\": \"from Dallas to Missoula\", \"transportation\": \"Flight Number: F1930339, from Dallas to Missoula\", \"breakfast\": \"Cafe Coffee Day, Dallas\", \"lunch\": \"Cafe Gatherings, Dallas\", \"dinner\": \"Lodhi Knights, Dallas\", \"attraction\": \"John F. Kennedy Memorial Plaza, Dallas;Dealey Plaza, Dallas;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Missoula to Dallas",
+                "transportation": "Flight Number: F2836191, from Missoula to Dallas",
+                "breakfast": "Kwality wall's swirl's, Missoula",
+                "lunch": "Cafe Hera Pheri, Dallas",
+                "dinner": "Kolkata Biryani House, Dallas",
+                "attraction": "Reunion Tower, Dallas;The Dallas Arboretum and Botanical Garden, Dallas;",
+                "accommodation": "Private room close to the center of Williamburg, Dallas"
+            },
+            {
+                "days": 2,
+                "current_city": "Dallas",
+                "transportation": "-",
+                "breakfast": "The Kahuna, Dallas",
+                "lunch": "Drifters Cafe, Dallas",
+                "dinner": "Bikaner Sweets, Dallas",
+                "attraction": "Frontiers of Flight Museum, Dallas;Leonhardt Lagoon Nature Walk, Dallas;",
+                "accommodation": "Private room close to the center of Williamburg, Dallas"
+            },
+            {
+                "days": 3,
+                "current_city": "from Dallas to Missoula",
+                "transportation": "Flight Number: F1930339, from Dallas to Missoula",
+                "breakfast": "Cafe Coffee Day, Dallas",
+                "lunch": "Cafe Gatherings, Dallas",
+                "dinner": "Lodhi Knights, Dallas",
+                "attraction": "John F. Kennedy Memorial Plaza, Dallas;Dealey Plaza, Dallas;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

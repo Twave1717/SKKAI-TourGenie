@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Martha's Vineyard\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Ashoka Restaurant, Jacksonville\",\n    \"lunch\": \"Friends Forever, Martha's Vineyard\",\n    \"dinner\": \"Costa Coffee, Martha's Vineyard\",\n    \"attraction\": \"Ocean Park, Martha's Vineyard;\",\n    \"accommodation\": \"Bright and Chill Room in Bushwick for two friends!, Martha's Vineyard\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Boston\",\n    \"transportation\": \"Taxi from Martha's Vineyard to Boston, Boston\",\n    \"breakfast\": \"InnerChef, Boston\",\n    \"lunch\": \"Delicious Cake, Boston\",\n    \"dinner\": \"Club Cubana, Boston\",\n    \"attraction\": \"Boston Tea Party Ships & Museum, Boston;\",\n    \"accommodation\": \"New York City!! Times Square Home!!!, Boston\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Hyannis\",\n    \"transportation\": \"Taxi from Boston to Hyannis, Hyannis\",\n    \"breakfast\": \"YOLO 21, Hyannis\",\n    \"lunch\": \"Chinar Junction, Hyannis\",\n    \"dinner\": \"The Cheesecake Factory, Hyannis\",\n    \"attraction\": \"Cape Cod Museum Of Natural History, Hyannis;\",\n    \"accommodation\": \"Manhattan Club Penthouse Suite, Hyannis\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Boston\",\n    \"transportation\": \"Taxi from Hyannis to Boston, Boston\",\n    \"breakfast\": \"Divya Hotal, Boston\",\n    \"lunch\": \"Cake Factory, Boston\",\n    \"dinner\": \"Tripti Foods, Boston\",\n    \"attraction\": \"View Boston, Boston;\",\n    \"accommodation\": \"New York City!! Times Square Home!!!, Boston\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Boston\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Shudh Vaishno Bhojanalaya, Boston\",\n    \"lunch\": \"Irish Democrat, Boston\",\n    \"dinner\": \"New Punjabi Dhaba and Caterers, Boston\",\n    \"attraction\": \"John F. Kennedy Presidential Library and Museum, Boston;\",\n    \"accommodation\": \"New York City!! Times Square Home!!!, Boston\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Boston\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Icy Curls, Boston\",\n    \"lunch\": \"The Big Scoop, Boston\",\n    \"dinner\": \"Syall Kotian Da Dhaba, Boston\",\n    \"attraction\": \"Bunker Hill Monument, Boston;\",\n    \"accommodation\": \"New York City!! Times Square Home!!!, Boston\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Martha's Vineyard\",\n    \"transportation\": \"Taxi from Boston to Martha's Vineyard, Martha's Vineyard\",\n    \"breakfast\": \"34, Chowringhee Lane, Martha's Vineyard\",\n    \"lunch\": \"SPL Food Corner, Martha's Vineyard\",\n    \"dinner\": \"Domino's Pizza, Martha's Vineyard\",\n    \"attraction\": \"Flying Horses Carousel a Vineyard Preservation Trust Property, Martha's Vineyard;\",\n    \"accommodation\": \"Bright and Chill Room in Bushwick for two friends!, Martha's Vineyard\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Martha's Vineyard",
+                "transportation": "-",
+                "breakfast": "Ashoka Restaurant, Jacksonville",
+                "lunch": "Friends Forever, Martha's Vineyard",
+                "dinner": "Costa Coffee, Martha's Vineyard",
+                "attraction": "Ocean Park, Martha's Vineyard;",
+                "accommodation": "Bright and Chill Room in Bushwick for two friends!, Martha's Vineyard"
+            },
+            {
+                "days": 2,
+                "current_city": "Boston",
+                "transportation": "Taxi from Martha's Vineyard to Boston, Boston",
+                "breakfast": "InnerChef, Boston",
+                "lunch": "Delicious Cake, Boston",
+                "dinner": "Club Cubana, Boston",
+                "attraction": "Boston Tea Party Ships & Museum, Boston;",
+                "accommodation": "New York City!! Times Square Home!!!, Boston"
+            },
+            {
+                "days": 3,
+                "current_city": "Hyannis",
+                "transportation": "Taxi from Boston to Hyannis, Hyannis",
+                "breakfast": "YOLO 21, Hyannis",
+                "lunch": "Chinar Junction, Hyannis",
+                "dinner": "The Cheesecake Factory, Hyannis",
+                "attraction": "Cape Cod Museum Of Natural History, Hyannis;",
+                "accommodation": "Manhattan Club Penthouse Suite, Hyannis"
+            },
+            {
+                "days": 4,
+                "current_city": "Boston",
+                "transportation": "Taxi from Hyannis to Boston, Boston",
+                "breakfast": "Divya Hotal, Boston",
+                "lunch": "Cake Factory, Boston",
+                "dinner": "Tripti Foods, Boston",
+                "attraction": "View Boston, Boston;",
+                "accommodation": "New York City!! Times Square Home!!!, Boston"
+            },
+            {
+                "days": 5,
+                "current_city": "Boston",
+                "transportation": "-",
+                "breakfast": "Shudh Vaishno Bhojanalaya, Boston",
+                "lunch": "Irish Democrat, Boston",
+                "dinner": "New Punjabi Dhaba and Caterers, Boston",
+                "attraction": "John F. Kennedy Presidential Library and Museum, Boston;",
+                "accommodation": "New York City!! Times Square Home!!!, Boston"
+            },
+            {
+                "days": 6,
+                "current_city": "Boston",
+                "transportation": "-",
+                "breakfast": "Icy Curls, Boston",
+                "lunch": "The Big Scoop, Boston",
+                "dinner": "Syall Kotian Da Dhaba, Boston",
+                "attraction": "Bunker Hill Monument, Boston;",
+                "accommodation": "New York City!! Times Square Home!!!, Boston"
+            },
+            {
+                "days": 7,
+                "current_city": "Martha's Vineyard",
+                "transportation": "Taxi from Boston to Martha's Vineyard, Martha's Vineyard",
+                "breakfast": "34, Chowringhee Lane, Martha's Vineyard",
+                "lunch": "SPL Food Corner, Martha's Vineyard",
+                "dinner": "Domino's Pizza, Martha's Vineyard",
+                "attraction": "Flying Horses Carousel a Vineyard Preservation Trust Property, Martha's Vineyard;",
+                "accommodation": "Bright and Chill Room in Bushwick for two friends!, Martha's Vineyard"
+            }
+        ]
+    }
+]

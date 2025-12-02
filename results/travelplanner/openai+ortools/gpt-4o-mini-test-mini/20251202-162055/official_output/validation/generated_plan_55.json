@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Flight Number: F4042039, from Washington to Minneapolis\",\n    \"breakfast\": \"Moradabadi Biryani, Washington\",\n    \"lunch\": \"Jeet Pizza, Minneapolis\",\n    \"dinner\": \"Bobby Tikki Wala, Minneapolis\",\n    \"attraction\": \"Minneapolis Lookout, Minneapolis;\",\n    \"accommodation\": \"ROOM  TWO, Minneapolis\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Rosart愆 Chocolate, Minneapolis\",\n    \"lunch\": \"The Cafe, Minneapolis\",\n    \"dinner\": \"Tony's, Minneapolis\",\n    \"attraction\": \"Water Power Park, Minneapolis;\",\n    \"accommodation\": \"ROOM  TWO, Minneapolis\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Duluth\",\n    \"transportation\": \"Taxi from Minneapolis to Duluth, Duluth\",\n    \"breakfast\": \"Bawarchi, Duluth\",\n    \"lunch\": \"Liquid Lounge, Duluth\",\n    \"dinner\": \"The Gaming Vegas, Duluth\",\n    \"attraction\": \"Hartley Nature Center, Duluth;\",\n    \"accommodation\": \"Modern loft in Cobble Hill  BK, Duluth\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Taxi from Duluth to Minneapolis, Minneapolis\",\n    \"breakfast\": \"Fomads, Minneapolis\",\n    \"lunch\": \"Bablu Chic-Inn, Minneapolis\",\n    \"dinner\": \"Puri Bakers, Minneapolis\",\n    \"attraction\": \"Minnehaha Regional Park, Minneapolis;\",\n    \"accommodation\": \"ROOM  TWO, Minneapolis\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"St. Cloud\",\n    \"transportation\": \"Taxi from Minneapolis to St. Cloud, St. Cloud\",\n    \"breakfast\": \"Restaurant Mosaic @ The Orient, St. Cloud\",\n    \"lunch\": \"House of Commons, St. Cloud\",\n    \"dinner\": \"The Creamery, St. Cloud\",\n    \"attraction\": \"Beaver Island Trail South, St. Cloud;\",\n    \"accommodation\": \"Minimalist Vegan Room in Columbus Circle, St. Cloud\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Taxi from St. Cloud to Minneapolis, Minneapolis\",\n    \"breakfast\": \"Lajawab Chicken & Fish Fry, Minneapolis\",\n    \"lunch\": \"Troll Tavern, Minneapolis\",\n    \"dinner\": \"Al Saad Foods, Minneapolis\",\n    \"attraction\": \"Mill City Museum, Minneapolis;\",\n    \"accommodation\": \"ROOM  TWO, Minneapolis\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Minneapolis\",\n    \"transportation\": \"Flight Number: F1148377, from Minneapolis to Washington\",\n    \"breakfast\": \"Soni Bakers, Minneapolis\",\n    \"lunch\": \"Cheffron Bakery, Minneapolis\",\n    \"dinner\": \"Court Avenue Brewing Company, Minneapolis\",\n    \"attraction\": \"Central Mississippi Riverfront Regional Park, Minneapolis;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Minneapolis",
+                "transportation": "Flight Number: F4042039, from Washington to Minneapolis",
+                "breakfast": "Moradabadi Biryani, Washington",
+                "lunch": "Jeet Pizza, Minneapolis",
+                "dinner": "Bobby Tikki Wala, Minneapolis",
+                "attraction": "Minneapolis Lookout, Minneapolis;",
+                "accommodation": "ROOM  TWO, Minneapolis"
+            },
+            {
+                "days": 2,
+                "current_city": "Minneapolis",
+                "transportation": "-",
+                "breakfast": "Rosart愆 Chocolate, Minneapolis",
+                "lunch": "The Cafe, Minneapolis",
+                "dinner": "Tony's, Minneapolis",
+                "attraction": "Water Power Park, Minneapolis;",
+                "accommodation": "ROOM  TWO, Minneapolis"
+            },
+            {
+                "days": 3,
+                "current_city": "Duluth",
+                "transportation": "Taxi from Minneapolis to Duluth, Duluth",
+                "breakfast": "Bawarchi, Duluth",
+                "lunch": "Liquid Lounge, Duluth",
+                "dinner": "The Gaming Vegas, Duluth",
+                "attraction": "Hartley Nature Center, Duluth;",
+                "accommodation": "Modern loft in Cobble Hill  BK, Duluth"
+            },
+            {
+                "days": 4,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi from Duluth to Minneapolis, Minneapolis",
+                "breakfast": "Fomads, Minneapolis",
+                "lunch": "Bablu Chic-Inn, Minneapolis",
+                "dinner": "Puri Bakers, Minneapolis",
+                "attraction": "Minnehaha Regional Park, Minneapolis;",
+                "accommodation": "ROOM  TWO, Minneapolis"
+            },
+            {
+                "days": 5,
+                "current_city": "St. Cloud",
+                "transportation": "Taxi from Minneapolis to St. Cloud, St. Cloud",
+                "breakfast": "Restaurant Mosaic @ The Orient, St. Cloud",
+                "lunch": "House of Commons, St. Cloud",
+                "dinner": "The Creamery, St. Cloud",
+                "attraction": "Beaver Island Trail South, St. Cloud;",
+                "accommodation": "Minimalist Vegan Room in Columbus Circle, St. Cloud"
+            },
+            {
+                "days": 6,
+                "current_city": "Minneapolis",
+                "transportation": "Taxi from St. Cloud to Minneapolis, Minneapolis",
+                "breakfast": "Lajawab Chicken & Fish Fry, Minneapolis",
+                "lunch": "Troll Tavern, Minneapolis",
+                "dinner": "Al Saad Foods, Minneapolis",
+                "attraction": "Mill City Museum, Minneapolis;",
+                "accommodation": "ROOM  TWO, Minneapolis"
+            },
+            {
+                "days": 7,
+                "current_city": "Minneapolis",
+                "transportation": "Flight Number: F1148377, from Minneapolis to Washington",
+                "breakfast": "Soni Bakers, Minneapolis",
+                "lunch": "Cheffron Bakery, Minneapolis",
+                "dinner": "Court Avenue Brewing Company, Minneapolis",
+                "attraction": "Central Mississippi Riverfront Regional Park, Minneapolis;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

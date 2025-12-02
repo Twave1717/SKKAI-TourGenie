@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Moradabadi Biryani, Washington\",\n    \"lunch\": \"Pirates Of Grill, Lynchburg\",\n    \"dinner\": \"Barista, Lynchburg\",\n    \"attraction\": \"Lower Bluff Walk, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Ovenstory Pizza, Lynchburg\",\n    \"lunch\": \"Khan Chacha, Lynchburg\",\n    \"dinner\": \"Eat n Joy, Lynchburg\",\n    \"attraction\": \"Point of Honor, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Nutritious Nation, Lynchburg\",\n    \"lunch\": \"Mochamania, Lynchburg\",\n    \"dinner\": \"Haldiram's, Lynchburg\",\n    \"attraction\": \"One Way Out Lynchburg, VA Escape Room, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Richmond\",\n    \"transportation\": \"Self-driving from Lynchburg to Richmond, Richmond\",\n    \"breakfast\": \"Guang Zhou Chinese Restaurant, Richmond\",\n    \"lunch\": \"The Spot, Richmond\",\n    \"dinner\": \"Defence Bakery, Richmond\",\n    \"attraction\": \"The Valentine, Richmond;\",\n    \"accommodation\": \"Centrally  Located Beautiful Escape, Richmond\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Lynchburg\",\n    \"transportation\": \"Self-driving from Richmond to Lynchburg, Lynchburg\",\n    \"breakfast\": \"Diet Dabba, Lynchburg\",\n    \"lunch\": \"Kanshi Ram Chole Kulche Wala, Lynchburg\",\n    \"dinner\": \"Dunkin' Donuts, Lynchburg\",\n    \"attraction\": \"Hollins Mill Park, Lynchburg;\",\n    \"accommodation\": \"Blue House on the Hill, Lynchburg\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Lynchburg",
+                "transportation": "-",
+                "breakfast": "Moradabadi Biryani, Washington",
+                "lunch": "Pirates Of Grill, Lynchburg",
+                "dinner": "Barista, Lynchburg",
+                "attraction": "Lower Bluff Walk, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            },
+            {
+                "days": 2,
+                "current_city": "Lynchburg",
+                "transportation": "-",
+                "breakfast": "Ovenstory Pizza, Lynchburg",
+                "lunch": "Khan Chacha, Lynchburg",
+                "dinner": "Eat n Joy, Lynchburg",
+                "attraction": "Point of Honor, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            },
+            {
+                "days": 3,
+                "current_city": "Lynchburg",
+                "transportation": "-",
+                "breakfast": "Nutritious Nation, Lynchburg",
+                "lunch": "Mochamania, Lynchburg",
+                "dinner": "Haldiram's, Lynchburg",
+                "attraction": "One Way Out Lynchburg, VA Escape Room, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            },
+            {
+                "days": 4,
+                "current_city": "Richmond",
+                "transportation": "Self-driving from Lynchburg to Richmond, Richmond",
+                "breakfast": "Guang Zhou Chinese Restaurant, Richmond",
+                "lunch": "The Spot, Richmond",
+                "dinner": "Defence Bakery, Richmond",
+                "attraction": "The Valentine, Richmond;",
+                "accommodation": "Centrally  Located Beautiful Escape, Richmond"
+            },
+            {
+                "days": 5,
+                "current_city": "Lynchburg",
+                "transportation": "Self-driving from Richmond to Lynchburg, Lynchburg",
+                "breakfast": "Diet Dabba, Lynchburg",
+                "lunch": "Kanshi Ram Chole Kulche Wala, Lynchburg",
+                "dinner": "Dunkin' Donuts, Lynchburg",
+                "attraction": "Hollins Mill Park, Lynchburg;",
+                "accommodation": "Blue House on the Hill, Lynchburg"
+            }
+        ]
+    }
+]

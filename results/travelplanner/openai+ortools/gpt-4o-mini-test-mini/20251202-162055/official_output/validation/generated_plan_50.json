@@ -1,0 +1,79 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Karnataka Food Centre, Columbus\",\n    \"lunch\": \"Pawan Foods, Abilene\",\n    \"dinner\": \"Domino's Pizza, Abilene\",\n    \"attraction\": \"'Sanderson Mansnoozie' Statue, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Mx Corn, Abilene\",\n    \"lunch\": \"Inam Muradabadi, Abilene\",\n    \"dinner\": \"Sindhi Kulfi, Abilene\",\n    \"attraction\": \"'Yertle the Turtle' Statue, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Dilli Darbar, Abilene\",\n    \"lunch\": \"Tomato's, Abilene\",\n    \"dinner\": \"Piyu Fast Food, Abilene\",\n    \"attraction\": \"Adamson-Spalding Storybook Garden, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Corpus Christi\",\n    \"transportation\": \"Taxi from Abilene to Corpus Christi, Corpus Christi\",\n    \"breakfast\": \"Kaloreez, Corpus Christi\",\n    \"lunch\": \"Peninsular Kitchen, Corpus Christi\",\n    \"dinner\": \"Urbanologi, Corpus Christi\",\n    \"attraction\": \"The Art Museum of South Texas, Corpus Christi;\",\n    \"accommodation\": \"A Couch In East Williamsburg Near Train., Corpus Christi\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"Taxi from Corpus Christi to Abilene, Abilene\",\n    \"breakfast\": \"Mamagoto, Abilene\",\n    \"lunch\": \"Mediumwelldone, Abilene\",\n    \"dinner\": \"Madras Cafe, Abilene\",\n    \"attraction\": \"The Grace Museum, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  },\n  {\n    \"days\": 6,\n    \"current_city\": \"Amarillo\",\n    \"transportation\": \"Taxi from Abilene to Amarillo, Amarillo\",\n    \"breakfast\": \"Biryani Sons & Co., Amarillo\",\n    \"lunch\": \"The Whippet, Amarillo\",\n    \"dinner\": \"Taneja Bakery, Amarillo\",\n    \"attraction\": \"Harrington House Historic Home, Amarillo;\",\n    \"accommodation\": \"Trendy Brooklyn Room - 20mins from Manhattan, Amarillo\"\n  },\n  {\n    \"days\": 7,\n    \"current_city\": \"Abilene\",\n    \"transportation\": \"Taxi from Amarillo to Abilene, Abilene\",\n    \"breakfast\": \"Gelato Vinto, Abilene\",\n    \"lunch\": \"Otik Hotshop, Abilene\",\n    \"dinner\": \"Linx - Premier Inn, Abilene\",\n    \"attraction\": \"'The Three Little Pigs' Statue, Abilene;\",\n    \"accommodation\": \"Entire Home / Apt in Williamsburg + Rooftop, Abilene\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Karnataka Food Centre, Columbus",
+                "lunch": "Pawan Foods, Abilene",
+                "dinner": "Domino's Pizza, Abilene",
+                "attraction": "'Sanderson Mansnoozie' Statue, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 2,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Mx Corn, Abilene",
+                "lunch": "Inam Muradabadi, Abilene",
+                "dinner": "Sindhi Kulfi, Abilene",
+                "attraction": "'Yertle the Turtle' Statue, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 3,
+                "current_city": "Abilene",
+                "transportation": "-",
+                "breakfast": "Dilli Darbar, Abilene",
+                "lunch": "Tomato's, Abilene",
+                "dinner": "Piyu Fast Food, Abilene",
+                "attraction": "Adamson-Spalding Storybook Garden, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 4,
+                "current_city": "Corpus Christi",
+                "transportation": "Taxi from Abilene to Corpus Christi, Corpus Christi",
+                "breakfast": "Kaloreez, Corpus Christi",
+                "lunch": "Peninsular Kitchen, Corpus Christi",
+                "dinner": "Urbanologi, Corpus Christi",
+                "attraction": "The Art Museum of South Texas, Corpus Christi;",
+                "accommodation": "A Couch In East Williamsburg Near Train., Corpus Christi"
+            },
+            {
+                "days": 5,
+                "current_city": "Abilene",
+                "transportation": "Taxi from Corpus Christi to Abilene, Abilene",
+                "breakfast": "Mamagoto, Abilene",
+                "lunch": "Mediumwelldone, Abilene",
+                "dinner": "Madras Cafe, Abilene",
+                "attraction": "The Grace Museum, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            },
+            {
+                "days": 6,
+                "current_city": "Amarillo",
+                "transportation": "Taxi from Abilene to Amarillo, Amarillo",
+                "breakfast": "Biryani Sons & Co., Amarillo",
+                "lunch": "The Whippet, Amarillo",
+                "dinner": "Taneja Bakery, Amarillo",
+                "attraction": "Harrington House Historic Home, Amarillo;",
+                "accommodation": "Trendy Brooklyn Room - 20mins from Manhattan, Amarillo"
+            },
+            {
+                "days": 7,
+                "current_city": "Abilene",
+                "transportation": "Taxi from Amarillo to Abilene, Abilene",
+                "breakfast": "Gelato Vinto, Abilene",
+                "lunch": "Otik Hotshop, Abilene",
+                "dinner": "Linx - Premier Inn, Abilene",
+                "attraction": "'The Three Little Pigs' Statue, Abilene;",
+                "accommodation": "Entire Home / Apt in Williamsburg + Rooftop, Abilene"
+            }
+        ]
+    }
+]

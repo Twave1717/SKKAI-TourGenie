@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"iGNiTE, Gainesville\",\n    \"lunch\": \"Azteca, Wilmington\",\n    \"dinner\": \"Aggarwal Sweet Corner, Wilmington\",\n    \"attraction\": \"Cape Fear Museum of History and Science, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Charlotte\",\n    \"transportation\": \"Taxi from Wilmington to Charlotte, Charlotte\",\n    \"breakfast\": \"Shree Hari Vaishnav Dhaba, Charlotte\",\n    \"lunch\": \"Aggarwal Sweets, Charlotte\",\n    \"dinner\": \"Central Perk 7, Charlotte\",\n    \"attraction\": \"Mint Museum Uptown, Charlotte;\",\n    \"accommodation\": \"Luxury 2 bdr/2 bath prime Williamburg, Charlotte\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Charlotte\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Kylin Skybar, Charlotte\",\n    \"lunch\": \"Aditya Da Vaishno Dhaba, Charlotte\",\n    \"dinner\": \"Life Grand Cafe, Charlotte\",\n    \"attraction\": \"The Mint Museum, Charlotte;\",\n    \"accommodation\": \"Luxury 2 bdr/2 bath prime Williamburg, Charlotte\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"Taxi from Charlotte to Wilmington, Wilmington\",\n    \"breakfast\": \"Chaska By Taste, Wilmington\",\n    \"lunch\": \"Keventers, Wilmington\",\n    \"dinner\": \"Chaap Chaska, Wilmington\",\n    \"attraction\": \"Museum of the Bizarre, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Wilmington\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"The Yellow Chef, Wilmington\",\n    \"lunch\": \"Biryani Blues, Wilmington\",\n    \"dinner\": \"Kebabish, Wilmington\",\n    \"attraction\": \"Airlie Gardens, Wilmington;\",\n    \"accommodation\": \"Big and cozy room, Wilmington\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Wilmington",
+                "transportation": "-",
+                "breakfast": "iGNiTE, Gainesville",
+                "lunch": "Azteca, Wilmington",
+                "dinner": "Aggarwal Sweet Corner, Wilmington",
+                "attraction": "Cape Fear Museum of History and Science, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            },
+            {
+                "days": 2,
+                "current_city": "Charlotte",
+                "transportation": "Taxi from Wilmington to Charlotte, Charlotte",
+                "breakfast": "Shree Hari Vaishnav Dhaba, Charlotte",
+                "lunch": "Aggarwal Sweets, Charlotte",
+                "dinner": "Central Perk 7, Charlotte",
+                "attraction": "Mint Museum Uptown, Charlotte;",
+                "accommodation": "Luxury 2 bdr/2 bath prime Williamburg, Charlotte"
+            },
+            {
+                "days": 3,
+                "current_city": "Charlotte",
+                "transportation": "-",
+                "breakfast": "Kylin Skybar, Charlotte",
+                "lunch": "Aditya Da Vaishno Dhaba, Charlotte",
+                "dinner": "Life Grand Cafe, Charlotte",
+                "attraction": "The Mint Museum, Charlotte;",
+                "accommodation": "Luxury 2 bdr/2 bath prime Williamburg, Charlotte"
+            },
+            {
+                "days": 4,
+                "current_city": "Wilmington",
+                "transportation": "Taxi from Charlotte to Wilmington, Wilmington",
+                "breakfast": "Chaska By Taste, Wilmington",
+                "lunch": "Keventers, Wilmington",
+                "dinner": "Chaap Chaska, Wilmington",
+                "attraction": "Museum of the Bizarre, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            },
+            {
+                "days": 5,
+                "current_city": "Wilmington",
+                "transportation": "-",
+                "breakfast": "The Yellow Chef, Wilmington",
+                "lunch": "Biryani Blues, Wilmington",
+                "dinner": "Kebabish, Wilmington",
+                "attraction": "Airlie Gardens, Wilmington;",
+                "accommodation": "Big and cozy room, Wilmington"
+            }
+        ]
+    }
+]

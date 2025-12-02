@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Moline\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Domino's Pizza, Orlando\",\n    \"lunch\": \"Ashok Meat Wala, Moline\",\n    \"dinner\": \"Arabian Knights, Moline\",\n    \"attraction\": \"John Deere Pavilion, Moline;\",\n    \"accommodation\": \"Beautiful Sunlit Retreat in Manhattan, Moline\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Belleville\",\n    \"transportation\": \"Taxi from Moline to Belleville, Belleville\",\n    \"breakfast\": \"Twomato Foods, Belleville\",\n    \"lunch\": \"Chattisgarh Bhawan, Belleville\",\n    \"dinner\": \"Chocolate Temptation, Belleville\",\n    \"attraction\": \"Frank Holten Park, Belleville;\",\n    \"accommodation\": \"Near Yankee Stadium, Belleville\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Belleville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Asian Haus, Belleville\",\n    \"lunch\": \"Super Restaurant, Belleville\",\n    \"dinner\": \"Tummyy Tull, Belleville\",\n    \"attraction\": \"National Shrine of Our Lady of the Snows, Belleville;\",\n    \"accommodation\": \"Near Yankee Stadium, Belleville\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Belleville\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"Cafe Amaretto, Belleville\",\n    \"lunch\": \"SnacksWale.com, Belleville\",\n    \"dinner\": \"Vaishno Bhojnalaya, Belleville\",\n    \"attraction\": \"Centennial Park, Belleville;\",\n    \"accommodation\": \"Near Yankee Stadium, Belleville\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Moline\",\n    \"transportation\": \"Taxi from Belleville to Moline, Moline\",\n    \"breakfast\": \"New Punjabi Chaap Corner, Moline\",\n    \"lunch\": \"Hot Pot, Moline\",\n    \"dinner\": \"Mummy's Kitchen, Moline\",\n    \"attraction\": \"Riverside Park, Moline;\",\n    \"accommodation\": \"Beautiful Sunlit Retreat in Manhattan, Moline\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Moline",
+                "transportation": "-",
+                "breakfast": "Domino's Pizza, Orlando",
+                "lunch": "Ashok Meat Wala, Moline",
+                "dinner": "Arabian Knights, Moline",
+                "attraction": "John Deere Pavilion, Moline;",
+                "accommodation": "Beautiful Sunlit Retreat in Manhattan, Moline"
+            },
+            {
+                "days": 2,
+                "current_city": "Belleville",
+                "transportation": "Taxi from Moline to Belleville, Belleville",
+                "breakfast": "Twomato Foods, Belleville",
+                "lunch": "Chattisgarh Bhawan, Belleville",
+                "dinner": "Chocolate Temptation, Belleville",
+                "attraction": "Frank Holten Park, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 3,
+                "current_city": "Belleville",
+                "transportation": "-",
+                "breakfast": "Asian Haus, Belleville",
+                "lunch": "Super Restaurant, Belleville",
+                "dinner": "Tummyy Tull, Belleville",
+                "attraction": "National Shrine of Our Lady of the Snows, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 4,
+                "current_city": "Belleville",
+                "transportation": "-",
+                "breakfast": "Cafe Amaretto, Belleville",
+                "lunch": "SnacksWale.com, Belleville",
+                "dinner": "Vaishno Bhojnalaya, Belleville",
+                "attraction": "Centennial Park, Belleville;",
+                "accommodation": "Near Yankee Stadium, Belleville"
+            },
+            {
+                "days": 5,
+                "current_city": "Moline",
+                "transportation": "Taxi from Belleville to Moline, Moline",
+                "breakfast": "New Punjabi Chaap Corner, Moline",
+                "lunch": "Hot Pot, Moline",
+                "dinner": "Mummy's Kitchen, Moline",
+                "attraction": "Riverside Park, Moline;",
+                "accommodation": "Beautiful Sunlit Retreat in Manhattan, Moline"
+            }
+        ]
+    }
+]

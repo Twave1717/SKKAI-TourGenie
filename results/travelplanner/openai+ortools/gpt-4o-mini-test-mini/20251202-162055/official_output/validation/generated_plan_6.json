@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Detroit to San Diego\", \"transportation\": \"Flight Number: F2964427, from Detroit to San Diego\", \"breakfast\": \"N. Iqbal Restaurant, Detroit\", \"lunch\": \"Armaan's Restaurant, San Diego\", \"dinner\": \"Aamantran Bangla, San Diego\", \"attraction\": \"Old Town San Diego, San Diego;Balboa Park, San Diego;\", \"accommodation\": \"Conveniently located 2 BR Time Square Apartment, San Diego\"}, {\"days\": 2, \"current_city\": \"San Diego\", \"transportation\": \"-\", \"breakfast\": \"Open Yard, San Diego\", \"lunch\": \"Chaudhary Di Hatti, San Diego\", \"dinner\": \"Jetha Lal Ka Dhabha, San Diego\", \"attraction\": \"California Tower, San Diego;SeaWorld San Diego, San Diego;\", \"accommodation\": \"Conveniently located 2 BR Time Square Apartment, San Diego\"}, {\"days\": 3, \"current_city\": \"from San Diego to Detroit\", \"transportation\": \"Flight Number: F2155363, from San Diego to Detroit\", \"breakfast\": \"Burger King, San Diego\", \"lunch\": \"Bikaner Sweets, San Diego\", \"dinner\": \"Dabas Ke Special Chole Bhature, San Diego\", \"attraction\": \"Cabrillo National Monument, San Diego;La Jolla Shores Park, San Diego;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Detroit to San Diego",
+                "transportation": "Flight Number: F2964427, from Detroit to San Diego",
+                "breakfast": "N. Iqbal Restaurant, Detroit",
+                "lunch": "Armaan's Restaurant, San Diego",
+                "dinner": "Aamantran Bangla, San Diego",
+                "attraction": "Old Town San Diego, San Diego;Balboa Park, San Diego;",
+                "accommodation": "Conveniently located 2 BR Time Square Apartment, San Diego"
+            },
+            {
+                "days": 2,
+                "current_city": "San Diego",
+                "transportation": "-",
+                "breakfast": "Open Yard, San Diego",
+                "lunch": "Chaudhary Di Hatti, San Diego",
+                "dinner": "Jetha Lal Ka Dhabha, San Diego",
+                "attraction": "California Tower, San Diego;SeaWorld San Diego, San Diego;",
+                "accommodation": "Conveniently located 2 BR Time Square Apartment, San Diego"
+            },
+            {
+                "days": 3,
+                "current_city": "from San Diego to Detroit",
+                "transportation": "Flight Number: F2155363, from San Diego to Detroit",
+                "breakfast": "Burger King, San Diego",
+                "lunch": "Bikaner Sweets, San Diego",
+                "dinner": "Dabas Ke Special Chole Bhature, San Diego",
+                "attraction": "Cabrillo National Monument, San Diego;La Jolla Shores Park, San Diego;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

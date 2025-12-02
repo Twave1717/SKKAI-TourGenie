@@ -1,0 +1,59 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[\n  {\n    \"days\": 1,\n    \"current_city\": \"Seattle\",\n    \"transportation\": \"Flight Number: F0248071, from Omaha to Seattle\",\n    \"breakfast\": \"German Bakery Wunderbar, Omaha\",\n    \"lunch\": \"Teddy Choco Studio, Seattle\",\n    \"dinner\": \"Celebration Multi Cuisine Restaurant, Seattle\",\n    \"attraction\": \"Olympic Sculpture Park, Seattle;\",\n    \"accommodation\": \"New tidy  room attached by PRIVATE FULL BATH, Seattle\"\n  },\n  {\n    \"days\": 2,\n    \"current_city\": \"Wenatchee\",\n    \"transportation\": \"Taxi from Seattle to Wenatchee, Wenatchee\",\n    \"breakfast\": \"Mirchievous, Wenatchee\",\n    \"lunch\": \"Chinese Corner, Wenatchee\",\n    \"dinner\": \"Bengal Sweet Palace, Wenatchee\",\n    \"attraction\": \"Walla Walla Point Park, Wenatchee;\",\n    \"accommodation\": \"Nice 3Beds/2bedroom Apartment  5min TIME SQUARE., Wenatchee\"\n  },\n  {\n    \"days\": 3,\n    \"current_city\": \"Seattle\",\n    \"transportation\": \"Taxi from Wenatchee to Seattle, Seattle\",\n    \"breakfast\": \"The Godinho's, Seattle\",\n    \"lunch\": \"Cafe Coffee Day, Seattle\",\n    \"dinner\": \"Delhi Darbar Dhaba, Seattle\",\n    \"attraction\": \"Washington Park Arboretum, Seattle;\",\n    \"accommodation\": \"New tidy  room attached by PRIVATE FULL BATH, Seattle\"\n  },\n  {\n    \"days\": 4,\n    \"current_city\": \"Seattle\",\n    \"transportation\": \"-\",\n    \"breakfast\": \"The Test, Seattle\",\n    \"lunch\": \"Caf愆 Burger BC, Seattle\",\n    \"dinner\": \"Mother Ringlet, Seattle\",\n    \"attraction\": \"Discovery Park, Seattle;\",\n    \"accommodation\": \"New tidy  room attached by PRIVATE FULL BATH, Seattle\"\n  },\n  {\n    \"days\": 5,\n    \"current_city\": \"Seattle\",\n    \"transportation\": \"Flight Number: F1523138, from Seattle to Omaha\",\n    \"breakfast\": \"Desi Kukkad, Seattle\",\n    \"lunch\": \"Keventers, Seattle\",\n    \"dinner\": \"The Sassy Spoon, Seattle\",\n    \"attraction\": \"Smith Tower, Seattle;\",\n    \"accommodation\": \"-\"\n  }\n]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "Seattle",
+                "transportation": "Flight Number: F0248071, from Omaha to Seattle",
+                "breakfast": "German Bakery Wunderbar, Omaha",
+                "lunch": "Teddy Choco Studio, Seattle",
+                "dinner": "Celebration Multi Cuisine Restaurant, Seattle",
+                "attraction": "Olympic Sculpture Park, Seattle;",
+                "accommodation": "New tidy  room attached by PRIVATE FULL BATH, Seattle"
+            },
+            {
+                "days": 2,
+                "current_city": "Wenatchee",
+                "transportation": "Taxi from Seattle to Wenatchee, Wenatchee",
+                "breakfast": "Mirchievous, Wenatchee",
+                "lunch": "Chinese Corner, Wenatchee",
+                "dinner": "Bengal Sweet Palace, Wenatchee",
+                "attraction": "Walla Walla Point Park, Wenatchee;",
+                "accommodation": "Nice 3Beds/2bedroom Apartment  5min TIME SQUARE., Wenatchee"
+            },
+            {
+                "days": 3,
+                "current_city": "Seattle",
+                "transportation": "Taxi from Wenatchee to Seattle, Seattle",
+                "breakfast": "The Godinho's, Seattle",
+                "lunch": "Cafe Coffee Day, Seattle",
+                "dinner": "Delhi Darbar Dhaba, Seattle",
+                "attraction": "Washington Park Arboretum, Seattle;",
+                "accommodation": "New tidy  room attached by PRIVATE FULL BATH, Seattle"
+            },
+            {
+                "days": 4,
+                "current_city": "Seattle",
+                "transportation": "-",
+                "breakfast": "The Test, Seattle",
+                "lunch": "Caf愆 Burger BC, Seattle",
+                "dinner": "Mother Ringlet, Seattle",
+                "attraction": "Discovery Park, Seattle;",
+                "accommodation": "New tidy  room attached by PRIVATE FULL BATH, Seattle"
+            },
+            {
+                "days": 5,
+                "current_city": "Seattle",
+                "transportation": "Flight Number: F1523138, from Seattle to Omaha",
+                "breakfast": "Desi Kukkad, Seattle",
+                "lunch": "Keventers, Seattle",
+                "dinner": "The Sassy Spoon, Seattle",
+                "attraction": "Smith Tower, Seattle;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]

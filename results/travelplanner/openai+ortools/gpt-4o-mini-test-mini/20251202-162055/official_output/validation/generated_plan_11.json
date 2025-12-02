@@ -1,0 +1,39 @@
+[
+    {
+        "openai-hybrid_two-stage_results": "[{\"days\": 1, \"current_city\": \"from Minneapolis to Seattle\", \"transportation\": \"Flight Number: F2969783, from Minneapolis to Seattle\", \"breakfast\": \"Surprise - Bakers & Bites, Minneapolis\", \"lunch\": \"Ting's Red Lantern, Seattle\", \"dinner\": \"The Golden Dragon, Seattle\", \"attraction\": \"The Gum Wall, Seattle;Seattle Center, Seattle;\", \"accommodation\": \"private spacious LES bedroom, Seattle\"}, {\"days\": 2, \"current_city\": \"Seattle\", \"transportation\": \"-\", \"breakfast\": \"wagamama, Seattle\", \"lunch\": \"Hot Chimney, Seattle\", \"dinner\": \"The Sassy Spoon, Seattle\", \"attraction\": \"Chihuly Garden and Glass, Seattle;Olympic Sculpture Park, Seattle;\", \"accommodation\": \"private spacious LES bedroom, Seattle\"}, {\"days\": 3, \"current_city\": \"from Seattle to Minneapolis\", \"transportation\": \"Flight Number: F2880475, from Seattle to Minneapolis\", \"breakfast\": \"Wow! Momo, Seattle\", \"lunch\": \"Goli Vada Pav No. 1, Seattle\", \"dinner\": \"The Test, Seattle\", \"attraction\": \"Seattle Aquarium, Seattle;The Seattle Great Wheel, Seattle;\", \"accommodation\": \"-\"}]",
+        "openai-hybrid_two-stage_results_logs": null,
+        "openai-hybrid_two-stage_action_logs": [],
+        "openai-hybrid_two-stage_parsed_results": [
+            {
+                "days": 1,
+                "current_city": "from Minneapolis to Seattle",
+                "transportation": "Flight Number: F2969783, from Minneapolis to Seattle",
+                "breakfast": "Surprise - Bakers & Bites, Minneapolis",
+                "lunch": "Ting's Red Lantern, Seattle",
+                "dinner": "The Golden Dragon, Seattle",
+                "attraction": "The Gum Wall, Seattle;Seattle Center, Seattle;",
+                "accommodation": "private spacious LES bedroom, Seattle"
+            },
+            {
+                "days": 2,
+                "current_city": "Seattle",
+                "transportation": "-",
+                "breakfast": "wagamama, Seattle",
+                "lunch": "Hot Chimney, Seattle",
+                "dinner": "The Sassy Spoon, Seattle",
+                "attraction": "Chihuly Garden and Glass, Seattle;Olympic Sculpture Park, Seattle;",
+                "accommodation": "private spacious LES bedroom, Seattle"
+            },
+            {
+                "days": 3,
+                "current_city": "from Seattle to Minneapolis",
+                "transportation": "Flight Number: F2880475, from Seattle to Minneapolis",
+                "breakfast": "Wow! Momo, Seattle",
+                "lunch": "Goli Vada Pav No. 1, Seattle",
+                "dinner": "The Test, Seattle",
+                "attraction": "Seattle Aquarium, Seattle;The Seattle Great Wheel, Seattle;",
+                "accommodation": "-"
+            }
+        ]
+    }
+]
