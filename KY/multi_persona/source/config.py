@@ -24,6 +24,8 @@ class MeetingConfig:
     top_constraints: int = 10
     aggregation_threshold: float = 0.0
     language: str = "ko"
+    aggregation_strategy: str = "llm"  # llm | rule
+    aggregation_policy: Dict | None = None
 
 
 @dataclass

@@ -7,3 +7,7 @@
 아래 여행 계획을 보고, 실제 사람이 느낄 "불편하거나 무리한 부분"을 최대 {max_issues}개 찾고,
 각 항목(issue_id, dimension, severity 1~5, description, proposed_constraint_nl, plan_reference)을 포함해
 items 배열로 반환하라. 출력은 structured output(JSON object)으로 응답한다.
+
+형식/중복 규칙:
+- 이미 발견한 제약 형식이 있으면 동일한 표현을 재사용해 일관되게 적는다(예: 예산 한도는 "총여비는 X 이하").
+- 비슷한 포인트를 여러 번 적지 말고, 하나의 issue로 합쳐 명확히 설명한다.

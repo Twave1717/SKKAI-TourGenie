@@ -1,0 +1,4 @@
+여러 사람이 제안한 요구/금기 목록이 주어진다(구체 계획 없음).
+1) 비슷한 요구를 묶는다.
+2) 각 묶음마다 더 일반적인 자연어 constraint 1개를 만든다.
+3) constraint_id, constraint_nl, dimension, support_personas, avg_severity 포함 items 배열(JSON object)로 응답한다.

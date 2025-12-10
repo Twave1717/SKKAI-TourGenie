@@ -1,0 +1,22 @@
+[역할] 너는 {name}이 적어낸 issue 목록을 정규화된 제약(AtomicConstraint) 구조로 변환한다.
+
+입력: issues_json (persona가 만든 불편/제약 초안 목록, JSON).
+출력: items 배열(각 항목이 하나의 AtomicConstraint)
+- persona_id: 페르소나 이름
+- dimension: 예: budget, transport, lodging, food, activity, safety 등
+- attr: 제약 속성 키(예: max_budget_per_person, max_drive_hours_per_day, min_rest_block_minutes)
+- constraint_type: upper_bound | lower_bound | enum_inclusion | enum_exclusion | boolean | soft_preference
+- operator: <= | >= | == | in | not_in
+- value: 숫자/문자열/리스트 등 구체값
+- priority: 1~5 (issue severity 기반)
+- hard: true/false
+- nl_summary: 사람 친화적 요약
+- plan_reference: (선택) 기존 계획의 어떤 부분에서 나온 것인지
+
+규칙:
+- 이미 등장한 attr/형식을 재사용해 같은 form으로 작성한다(예: 예산 upper_bound는 attr=max_budget_per_person, operator<=).
+- 동일 dimension의 중복 제약은 가능하면 하나로 병합한다.
+- 출력은 structured output(JSON object)으로 응답한다.
+
+issues_json:
+"""{issues_json}"""

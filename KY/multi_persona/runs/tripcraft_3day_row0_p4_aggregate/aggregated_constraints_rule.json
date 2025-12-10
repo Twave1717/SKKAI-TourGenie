@@ -1,0 +1,232 @@
+[
+  {
+    "constraint_id": "max_distance_between_stops_km-upper_bound",
+    "constraint_nl": "max_distance_between_stops_km <= 1",
+    "dimension": "transport",
+    "support_personas": [
+      "은채"
+    ],
+    "avg_severity": 5.0,
+    "importance_score": 5.0
+  },
+  {
+    "constraint_id": "max_num_activities_per_day-upper_bound",
+    "constraint_nl": "max_num_activities_per_day <= 3",
+    "dimension": "activity",
+    "support_personas": [
+      "은채"
+    ],
+    "avg_severity": 5.0,
+    "importance_score": 5.0
+  },
+  {
+    "constraint_id": "min_rest_block_minutes_per_day-lower_bound",
+    "constraint_nl": "min_rest_block_minutes_per_day >= 60",
+    "dimension": "rest",
+    "support_personas": [
+      "은채"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "include_breakfast_on_travel_days-boolean",
+    "constraint_nl": "include_breakfast_on_travel_days == 1.0",
+    "dimension": "food",
+    "support_personas": [
+      "은채"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "min_rest_after_long_transport_minutes-lower_bound",
+    "constraint_nl": "min_rest_after_long_transport_minutes >= 60",
+    "dimension": "rest",
+    "support_personas": [
+      "은채"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "max_walk_distance_from_transit_meters-upper_bound",
+    "constraint_nl": "max_walk_distance_from_transit_meters <= 800",
+    "dimension": "transport",
+    "support_personas": [
+      "현서"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "preferred_long_distance_transport_modes-enum_inclusion",
+    "constraint_nl": "preferred_long_distance_transport_modes in ['long_distance_bus', 'rail']",
+    "dimension": "transport",
+    "support_personas": [
+      "현서"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "restaurant_chain_type-enum_exclusion",
+    "constraint_nl": "restaurant_chain_type not_in ['national_chain']",
+    "dimension": "food",
+    "support_personas": [
+      "현서"
+    ],
+    "avg_severity": 2.0,
+    "importance_score": 2.0
+  },
+  {
+    "constraint_id": "eco_certified_lodging_required-boolean",
+    "constraint_nl": "eco_certified_lodging_required == 0.0",
+    "dimension": "lodging",
+    "support_personas": [
+      "현서"
+    ],
+    "avg_severity": 2.0,
+    "importance_score": 2.0
+  },
+  {
+    "constraint_id": "max_daily_route_dispersion_km-upper_bound",
+    "constraint_nl": "max_daily_route_dispersion_km <= 3",
+    "dimension": "activity",
+    "support_personas": [
+      "현서"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "max_walk_distance_between_poi_and_transit_stop_meters-upper_bound",
+    "constraint_nl": "max_walk_distance_between_poi_and_transit_stop_meters <= 500",
+    "dimension": "transport",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 5.0,
+    "importance_score": 5.0
+  },
+  {
+    "constraint_id": "max_walk_distance_lodging_to_transit_stop_meters-upper_bound",
+    "constraint_nl": "max_walk_distance_lodging_to_transit_stop_meters <= 500",
+    "dimension": "lodging",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "lodging_wheelchair_accessible-boolean",
+    "constraint_nl": "lodging_wheelchair_accessible == 1.0",
+    "dimension": "lodging",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "max_walk_distance_poi_to_transit_stop_meters-upper_bound",
+    "constraint_nl": "max_walk_distance_poi_to_transit_stop_meters <= 500",
+    "dimension": "poi_accessibility",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "poi_location_slope_type-enum_inclusion",
+    "constraint_nl": "poi_location_slope_type in ['flat', 'gentle_slope']",
+    "dimension": "poi_accessibility",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "poi_has_accessible_restroom-boolean",
+    "constraint_nl": "poi_has_accessible_restroom == 1.0",
+    "dimension": "facility_accessibility",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "min_rest_block_minutes_between_activities-lower_bound",
+    "constraint_nl": "min_rest_block_minutes_between_activities >= 60",
+    "dimension": "activity",
+    "support_personas": [
+      "세린"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "min_meals_per_day-lower_bound",
+    "constraint_nl": "min_meals_per_day >= 2",
+    "dimension": "food",
+    "support_personas": [
+      "지호"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "must_include_breakfast_on_travel_days-boolean",
+    "constraint_nl": "must_include_breakfast_on_travel_days == 1.0",
+    "dimension": "food",
+    "support_personas": [
+      "지호"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "must_include_dinner_on_travel_days-boolean",
+    "constraint_nl": "must_include_dinner_on_travel_days == 1.0",
+    "dimension": "food",
+    "support_personas": [
+      "지호"
+    ],
+    "avg_severity": 4.0,
+    "importance_score": 4.0
+  },
+  {
+    "constraint_id": "max_meal_interval_minutes-upper_bound",
+    "constraint_nl": "max_meal_interval_minutes <= 240",
+    "dimension": "food",
+    "support_personas": [
+      "지호"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "must_include_local_food_variety-boolean",
+    "constraint_nl": "must_include_local_food_variety == 1.0",
+    "dimension": "food",
+    "support_personas": [
+      "지호"
+    ],
+    "avg_severity": 3.0,
+    "importance_score": 3.0
+  },
+  {
+    "constraint_id": "max_distance_between_meal_and_attraction_meters-upper_bound",
+    "constraint_nl": "max_distance_between_meal_and_attraction_meters <= 1000",
+    "dimension": "activity",
+    "support_personas": [
+      "지호"
+    ],
+    "avg_severity": 2.0,
+    "importance_score": 2.0
+  }
+]

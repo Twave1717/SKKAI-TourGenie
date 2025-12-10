@@ -21,6 +21,15 @@ def persist_outcome(outcome: MeetingOutcome, sample_id: str, base_dir: str = "ru
     issues_path = base / "issues.json"
     issues_path.write_text(json.dumps([i.__dict__ for i in outcome.issues], ensure_ascii=False, indent=2))
     paths["issues"] = str(issues_path)
+    # atomic constraints (optional)
+    if outcome.atomic_constraints:
+        ac_path = base / "atomic_constraints.json"
+        ac_path.write_text(json.dumps([c.__dict__ for c in outcome.atomic_constraints], ensure_ascii=False, indent=2))
+        paths["atomic_constraints"] = str(ac_path)
+    if outcome.aggregated_constraints_rule:
+        agg_rule_path = base / "aggregated_constraints_rule.json"
+        agg_rule_path.write_text(json.dumps([c.__dict__ for c in outcome.aggregated_constraints_rule], ensure_ascii=False, indent=2))
+        paths["aggregated_constraints_rule"] = str(agg_rule_path)
     # natural constraints
     nc_path = base / "natural_constraints.json"
     nc_path.write_text(json.dumps([c.__dict__ for c in outcome.natural_constraints], ensure_ascii=False, indent=2))

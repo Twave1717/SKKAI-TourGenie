@@ -89,6 +89,7 @@ def build_runner(plan_path: str, participant_count: int, use_openai: bool = Fals
         moderator="Moderator",
         top_constraints=10,
         aggregation_threshold=0.0,
+        aggregation_strategy="llm",
     )
     bench_cfg = BenchmarkConfig(
         name="TripCraft",
@@ -99,8 +100,9 @@ def build_runner(plan_path: str, participant_count: int, use_openai: bool = Fals
     return MeetingRunner(meeting_cfg=meeting_cfg, bench_cfg=bench_cfg, llm=llm)
 
 
-def run_experiment(plan_path: str, row_index: int, participants: int, mode: str, use_openai: bool = False):
+def run_experiment(plan_path: str, row_index: int, participants: int, mode: str, use_openai: bool = False, aggregation: str = "llm"):
     runner = build_runner(plan_path, participant_count=participants, use_openai=use_openai)
+    runner.meeting_cfg.aggregation_strategy = aggregation
     plan_payload = load_tripcraft_plan(plan_path, row_index=row_index)
     sample_id = f"{Path(plan_path).stem}_row{row_index}_p{participants}_{mode}"
     plan_input = PlanInput(
@@ -121,17 +123,18 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="TripCraft 1건씩 페르소나 합의/불만 생성 실험")
     parser.add_argument("--files", nargs="*", help="특정 CSV 파일명 지정 (기본 tripcraft 디렉터리 전체)")
     parser.add_argument("--row-index", type=int, default=0, help="각 CSV에서 사용할 행(기본 0)")
-    parser.add_argument("--participants", type=int, default=None, help="사용할 페르소나 수(1~4)")
+    parser.add_argument("--participants", type=int, default=None, help="사용할 페르소나 수(1~8)")
     parser.add_argument("--mode", type=str, default="consensus", choices=["single", "aggregate", "consensus"], help="single=1인, aggregate=병합, consensus=토론")
     parser.add_argument("--use-openai", action="store_true", help="gpt-4.1 사용")
+    parser.add_argument("--aggregation", type=str, default="llm", choices=["llm", "rule"], help="제약 집계 방식(llm|rule)")
     args = parser.parse_args()
 
     # participants 기본값: single 모드면 1, 그 외 4
     participants = args.participants
     if participants is None:
         participants = 1 if args.mode == "single" else 4
-    if participants < 1 or participants > 4:
-        raise ValueError("participants는 1~4 사이여야 합니다.")
+    if participants < 1 or participants > 8:
+        raise ValueError("participants는 1~8 사이여야 합니다.")
 
     if args.files:
         targets = [DATA_DIR / name for name in args.files]
@@ -156,6 +159,7 @@ def main() -> None:
                 participants=participants,
                 mode=modes[args.mode],
                 use_openai=args.use_openai,
+                aggregation=args.aggregation,
             )
             bar.update(1)
             print(f"[DONE] {path.name} -> saved_files: {outcome.logs.get('saved_files')}")

@@ -25,9 +25,13 @@ def load_template(name: str) -> str:
 
 
 PERSONA_TEMPLATE = load_template("persona_v1.txt")
+PERSONA_STRUCT_TEMPLATE = load_template("persona_struct_v1.txt")
 AGGREGATOR_TEMPLATE = load_template("aggregator_v1.txt")
 ENGINEER_TEMPLATE = load_template("engineer_v1.txt")
 MODERATOR_TEMPLATE = load_template("moderator_v1.txt")
+PERSONA_PLANLESS_TEMPLATE = load_template("persona_planless_v1.txt")
+AGGREGATOR_PLANLESS_TEMPLATE = load_template("aggregator_planless_v1.txt")
+MODERATOR_PLANLESS_TEMPLATE = load_template("moderator_planless_v1.txt")
 
 
 def render_persona_prompt(
@@ -48,6 +52,13 @@ def render_persona_prompt(
     )
 
 
+def render_persona_struct_prompt(name: str, issues_json: str) -> str:
+    """
+    Issue 리스트를 AtomicConstraint 리스트로 구조화할 때 사용.
+    """
+    return PERSONA_STRUCT_TEMPLATE.format(name=name, issues_json=issues_json)
+
+
 def render_engineer_prompt(schema_hint: str, constraint_id: str, constraint_nl: str) -> str:
     return ENGINEER_TEMPLATE.format(
         schema_hint=schema_hint,
@@ -58,3 +69,29 @@ def render_engineer_prompt(schema_hint: str, constraint_id: str, constraint_nl: 
 
 def render_moderator_prompt() -> str:
     return MODERATOR_TEMPLATE
+
+
+def render_persona_planless_prompt(
+    name: str,
+    role: str,
+    values: Sequence[str],
+    focus_dimensions: Sequence[str],
+    profile: str,
+    max_issues: int = 5,
+) -> str:
+    return PERSONA_PLANLESS_TEMPLATE.format(
+        name=name,
+        role=role,
+        values=", ".join(values),
+        focus_dimensions=", ".join(focus_dimensions),
+        profile=profile,
+        max_issues=max_issues,
+    )
+
+
+def render_aggregator_planless_prompt() -> str:
+    return AGGREGATOR_PLANLESS_TEMPLATE
+
+
+def render_moderator_planless_prompt() -> str:
+    return MODERATOR_PLANLESS_TEMPLATE

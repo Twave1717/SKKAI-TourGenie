@@ -28,6 +28,8 @@ external/
 benchmarks/TripCraft/TripCraft_database
 benchmarks/TripCraft/tripcraft
 KY/viewer/cache
+KY/tripcraft_augmentation/ours_input_json
+KY/tripcraft_augmentation/tripcraft_augmentation_output
 
 # Editors
 .vscode/
