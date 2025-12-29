@@ -15,15 +15,18 @@ python -m run_experiment \
   --mode consensus \
   --participants 2 \
   --row-index 0 \
-  [--use-openai]
+  [--use-openai] \
+  [--aggregation llm|rule]
 ```
 - mode: `single`(1인), `aggregate`(병합), `consensus`(토론)
-- participants: 1~4명 사용
+- participants: 1~8명 사용 (preset 20명 내 무작위 샘플)
+- aggregation: `llm`(기존 LLM 집계) | `rule`(AtomicConstraint 기반 규칙 집계, 현재 프롬프트/LLM 추출 필요)
 - row-index: CSV에서 사용할 행(기본 0, 한 건만 사용)
 - files: 생략 시 tripcraft 디렉토리 모든 CSV
 - 결과: `runs/<stem>_row<idx>_p<participants>_<mode>/`
   - issues.json, natural_constraints.json, formal_constraints.json
   - plan.txt(입력 plan_payload, solver="none"), persona_raw.txt, aggregator_raw.txt, moderator_raw.txt(토론 모드)
+  - (rule) atomic_constraints.json, aggregated_constraints_rule.json
 
 ## 구성 요소
 - `source/meeting.py`: 페르소나 이슈 생성 → 병합 →(토론 시) 모더레이션 → NL→DSL 패스스루 → 로그 저장

@@ -12,8 +12,9 @@ from .config import BenchmarkConfig, MeetingConfig, PersonaConfig
 from .dsl import nl_to_dsl
 from .llm import LLMClient
 from .logger import persist_outcome
-from .prompts import AGGREGATOR_TEMPLATE, render_moderator_prompt, render_persona_prompt
-from .structures import FormalConstraint, Issue, MeetingOutcome, NaturalConstraint, PlanInput
+from .prompts import AGGREGATOR_TEMPLATE, render_moderator_prompt, render_persona_prompt, render_persona_struct_prompt
+from .rule_aggregator import AggregationPolicy, aggregate_atomic_constraints
+from .structures import AtomicConstraint, FormalConstraint, Issue, MeetingOutcome, NaturalConstraint, PlanInput
 
 
 class IssueModel(BaseModel):
@@ -40,6 +41,23 @@ class ConstraintModel(BaseModel):
 
 class ConstraintList(BaseModel):
     items: List[ConstraintModel]
+
+
+class AtomicConstraintModel(BaseModel):
+    persona_id: str
+    dimension: str
+    attr: str
+    constraint_type: str
+    operator: str
+    value: object
+    priority: int
+    hard: bool
+    nl_summary: str
+    plan_reference: str | None = None
+
+
+class AtomicConstraintList(BaseModel):
+    items: List[AtomicConstraintModel]
 
 
 def _plan_to_text(plan_payload) -> str:
@@ -111,6 +129,36 @@ def aggregate_issues(issues: Sequence[Issue], llm: LLMClient) -> Tuple[List[Natu
     return constraints, json.dumps(parsed.model_dump(), ensure_ascii=False)
 
 
+def extract_atomic_constraints(persona_name: str, issues: Sequence[Issue], llm: LLMClient) -> Tuple[List[AtomicConstraint], str]:
+    """
+    Issue 리스트를 AtomicConstraint 리스트로 구조화. 아직 실행 경로는 연결되지 않았으며, rule-based aggregation 준비용.
+    """
+    payload = [i.__dict__ for i in issues if i.persona == persona_name]
+    if not payload:
+        return [], ""
+    parsed = llm.generate_structured(
+        render_persona_struct_prompt(name=persona_name, issues_json=json.dumps(payload, ensure_ascii=False)),
+        schema=AtomicConstraintList,
+    )
+    atomic: List[AtomicConstraint] = []
+    for item in parsed.items:
+        atomic.append(
+            AtomicConstraint(
+                persona_id=item.persona_id,
+                dimension=item.dimension,
+                attr=item.attr,
+                constraint_type=item.constraint_type,
+                operator=item.operator,
+                value=item.value,
+                priority=item.priority,
+                hard=item.hard,
+                nl_summary=item.nl_summary,
+                plan_reference=item.plan_reference,
+            )
+        )
+    return atomic, json.dumps(parsed.model_dump(), ensure_ascii=False)
+
+
 def moderate_constraints(nl_constraints: Sequence[NaturalConstraint], llm: LLMClient) -> Tuple[List[NaturalConstraint], str]:
     payload = [c.__dict__ for c in nl_constraints]
     parsed = llm.generate_structured(
@@ -148,16 +196,30 @@ class MeetingRunner:
     def run_m2(self, plan_input: PlanInput, persona: PersonaConfig) -> MeetingOutcome:
         plan_text = _plan_to_text(plan_input.plan_payload or plan_input.plan_path)
         issues, raw_persona = collect_persona_issues(persona, plan_text, self.llm)
-        nl_constraints, raw_agg = aggregate_issues(issues, self.llm)
+        atomic: List[AtomicConstraint] = []
+        atomic_raw = {}
+        aggregated_rule: List[NaturalConstraint] | None = None
+        if self.meeting_cfg.aggregation_strategy == "rule":
+            extracted, raw_atomic = extract_atomic_constraints(persona.name, issues, self.llm)
+            atomic.extend(extracted)
+            if raw_atomic:
+                atomic_raw[persona.name] = raw_atomic
+            nl_constraints, raw_agg = aggregate_atomic_constraints(atomic, policy=self._get_aggregation_policy())
+            aggregated_rule = nl_constraints
+        else:
+            nl_constraints, raw_agg = aggregate_issues(issues, self.llm)
         formal = nl_to_dsl(nl_constraints, schema_hint=self.bench_cfg.schema_hint, llm=self.llm)
         outcome = MeetingOutcome(
             issues=issues,
+            atomic_constraints=atomic if atomic else None,
+            aggregated_constraints_rule=aggregated_rule,
             natural_constraints=nl_constraints,
             formal_constraints=formal,
             plan_variant_path=None,
             logs={
                 "plan": json.dumps({"plan_payload": plan_input.plan_payload, "solver": "none"}, ensure_ascii=False),
                 "persona_raw": json.dumps({persona.name: raw_persona}, ensure_ascii=False),
+                **({"atomic_raw": json.dumps(atomic_raw, ensure_ascii=False)} if atomic_raw else {}),
                 "aggregator_raw": raw_agg,
             },
         )
@@ -171,21 +233,36 @@ class MeetingRunner:
         plan_text = _plan_to_text(plan_input.plan_payload or plan_input.plan_path)
         all_issues: List[Issue] = []
         persona_raw = {}
+        atomic: List[AtomicConstraint] = []
+        aggregated_rule: List[NaturalConstraint] | None = None
+        atomic_raw = {}
         personas = self._select_personas(participant_count)
         for persona in personas:
             issues, raw = collect_persona_issues(persona, plan_text, self.llm)
             all_issues.extend(issues)
             persona_raw[persona.name] = raw
-        nl_constraints, raw_agg = aggregate_issues(all_issues, self.llm)
+            if self.meeting_cfg.aggregation_strategy == "rule":
+                extracted, raw_atomic = extract_atomic_constraints(persona.name, issues, self.llm)
+                atomic.extend(extracted)
+                if raw_atomic:
+                    atomic_raw[persona.name] = raw_atomic
+        if self.meeting_cfg.aggregation_strategy == "rule":
+            nl_constraints, raw_agg = aggregate_atomic_constraints(atomic, policy=self._get_aggregation_policy())
+            aggregated_rule = nl_constraints
+        else:
+            nl_constraints, raw_agg = aggregate_issues(all_issues, self.llm)
         formal = nl_to_dsl(nl_constraints, schema_hint=self.bench_cfg.schema_hint, llm=self.llm)
         outcome = MeetingOutcome(
             issues=all_issues,
+            atomic_constraints=atomic if atomic else None,
+            aggregated_constraints_rule=aggregated_rule if self.meeting_cfg.aggregation_strategy == "rule" else None,
             natural_constraints=nl_constraints,
             formal_constraints=formal,
             plan_variant_path=None,
             logs={
                 "plan": json.dumps({"plan_payload": plan_input.plan_payload, "solver": "none"}, ensure_ascii=False),
                 "persona_raw": json.dumps(persona_raw, ensure_ascii=False),
+                **({"atomic_raw": json.dumps(atomic_raw, ensure_ascii=False)} if atomic_raw else {}),
                 "aggregator_raw": raw_agg,
             },
         )
@@ -198,22 +275,37 @@ class MeetingRunner:
         plan_text = _plan_to_text(plan_input.plan_payload or plan_input.plan_path)
         issues: List[Issue] = []
         persona_raw = {}
+        atomic: List[AtomicConstraint] = []
+        atomic_raw = {}
         personas = self._select_personas(participant_count)
         for persona in personas:
             collected, raw = collect_persona_issues(persona, plan_text, self.llm)
             issues.extend(collected)
             persona_raw[persona.name] = raw
-        aggregated, raw_agg = aggregate_issues(issues, self.llm)
+            if self.meeting_cfg.aggregation_strategy == "rule":
+                extracted, raw_atomic = extract_atomic_constraints(persona.name, collected, self.llm)
+                atomic.extend(extracted)
+                if raw_atomic:
+                    atomic_raw[persona.name] = raw_atomic
+        aggregated_rule: List[NaturalConstraint] | None = None
+        if self.meeting_cfg.aggregation_strategy == "rule":
+            aggregated, raw_agg = aggregate_atomic_constraints(atomic, policy=self._get_aggregation_policy())
+            aggregated_rule = aggregated
+        else:
+            aggregated, raw_agg = aggregate_issues(issues, self.llm)
         moderated, raw_mod = moderate_constraints(aggregated, self.llm)
         formal = nl_to_dsl(moderated, schema_hint=self.bench_cfg.schema_hint, llm=self.llm)
         outcome = MeetingOutcome(
             issues=issues,
+            atomic_constraints=atomic if atomic else None,
+            aggregated_constraints_rule=aggregated_rule,
             natural_constraints=moderated,
             formal_constraints=formal,
             plan_variant_path=None,
             logs={
                 "plan": json.dumps({"plan_payload": plan_input.plan_payload, "solver": "none"}, ensure_ascii=False),
                 "persona_raw": json.dumps(persona_raw, ensure_ascii=False),
+                **({"atomic_raw": json.dumps(atomic_raw, ensure_ascii=False)} if atomic_raw else {}),
                 "aggregator_raw": raw_agg,
                 "moderator_raw": raw_mod,
             },
@@ -226,3 +318,8 @@ class MeetingRunner:
         if participant_count is None:
             return list(self.meeting_cfg.personas)
         return list(self.meeting_cfg.personas[:participant_count])
+
+    def _get_aggregation_policy(self) -> AggregationPolicy:
+        if not self.meeting_cfg.aggregation_policy:
+            return AggregationPolicy()
+        return AggregationPolicy(**self.meeting_cfg.aggregation_policy)

@@ -1,0 +1,32 @@
+Below is a multi-persona travel scenario. For each persona, produce DB-groundable constraints.
+
+[DB Schema Block]
+{schema_block}
+
+[DB Snapshot (optional hints)]
+{snapshot_block}
+
+[Initial Info]
+{initial_info_json}
+
+[Group Personas (compact)]
+{personas_json}
+
+Task
+For each persona_index i (0..N-1), output:
+- structured_requirement.hard_constraints: 2~6 items
+- structured_requirement.soft_constraints: 2~10 items
+
+Guidelines
+- Maximize diversity across personas and within each persona (use different fields and operators).
+- Prefer constraints that are plausibly satisfiable given the snapshot (if provided), but you may
+  still propose creative keyword-based proxies even if not guaranteed.
+- Keep thresholds realistic and unit-consistent:
+  - accommodation.price is per-night per listing (not total budget)
+  - flight.price is one-way per person
+  - restaurant.avg_cost is per-person per meal
+- Use `between` rather than duplicating two constraints (>= and <=) when you are expressing a range.
+- Provide `description` (1 sentence) for EVERY constraint, because Stage3 uses it as the main natural-language handle.
+- Use DISCRETE alpha levels (see system rubric) and set beta ≈ 1 - alpha.
+
+Return ONLY the JSON object.

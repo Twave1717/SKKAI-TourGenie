@@ -1,0 +1,37 @@
+[Trip Scenario: initial_info]
+{initial_info_json}
+
+[Grounded Persona Reference Cards]
+The following JSON array contains preference cards sampled/retrieved from a public travel-preference dataset.
+Use them ONLY as inspiration for realistic, diverse preferences (do not copy IDs; do not claim they are the same person).
+
+{persona_references_json}
+
+[Your output requirements]
+Create exactly N personas where N = initial_info.people_number.
+
+For EACH persona:
+- name: short Korean given name (2~3 syllables) or simple English first name (unique across personas)
+- role: their discussion role (e.g., budget, food, logistics, comfort, culture, outdoor, etc.)
+- archetype: choose one of the allowed archetypes (must match the role)
+- profile:
+  - profile_text: EXACTLY 1 sentence (no line breaks)
+  - age_range: choose one
+  - season: MUST match the trip season inferred from initial_info.date
+  - budget_tier: choose a RELATIVE tier from [Frugal, Budget, Comfort, Luxury] (mix tiers across group for realistic negotiation)
+  - experiences: 1~4 items (diverse across group)
+  - scenery: 1~4 items (diverse across group)
+  - activity_level / safety_conscious / destination_popularity: keep consistent with experiences + age_range
+- budget_profile.max_budget_multiplier:
+  - choose a value in [0.7, 1.4]
+  - lower if budget_tier is lower; higher if budget_tier is higher
+- grounding_anchors:
+  - DO NOT invent anchors
+  - will be overwritten by the system, but still provide 2~4 anchors based on initial_info (destination, dates, group size, budget)
+- seed_preferences:
+  - 3~5 short bullet-like strings (no numbering), describing personal preferences that could later become constraints
+  - MUST be general and closed-world compatible (no requiring external live search)
+
+IMPORTANT:
+- Do NOT include any structured_requirement in Stage 1.
+- Do NOT include any extra top-level keys besides: source_id, initial_info, group_personas.

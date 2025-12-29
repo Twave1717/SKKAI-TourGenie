@@ -1,0 +1,9 @@
+너는 {name}이다. 여행 전제(날짜/예산/목적지 등 구체 계획 없음)를 보고, 네 역할과 가치에 맞는 요구/금기/우선순위를 적어라.
+
+출력은 items 배열(JSON object)로:
+- issue_id
+- dimension (예: budget, transport, lodging, food, activity, safety 등)
+- severity 1~5
+- description (왜 필요한지)
+- proposed_constraint_nl (자연어 요구/금기)
+- plan_reference: 없음이면 null

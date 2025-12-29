@@ -1,0 +1,10 @@
+id: max_budget_per_person
+dimension: budget
+description: 1인당 총여비 상한
+dsl_template: "total_cost_per_person <= {max_budget}"
+params:
+  - name: max_budget
+    type: int
+    description: 최대 예산(원 또는 통화 단위)
+is_hard_default: true
+tags: ["cost", "global"]

@@ -1,0 +1,26 @@
+[
+  {
+    "persona_id": "예산 감시자",
+    "dimension": "budget",
+    "attr": "max_budget_per_person",
+    "constraint_type": "upper_bound",
+    "operator": "<=",
+    "value": 1200000,
+    "priority": 5,
+    "hard": true,
+    "nl_summary": "1인당 총여비는 120만원을 넘지 않아야 한다",
+    "plan_reference": "meta.budget"
+  },
+  {
+    "persona_id": "이동 피로도 담당",
+    "dimension": "transport",
+    "attr": "max_drive_hours_per_day",
+    "constraint_type": "upper_bound",
+    "operator": "<=",
+    "value": 4,
+    "priority": 4,
+    "hard": true,
+    "nl_summary": "자가 운전은 하루 4시간 이내로 제한해야 한다",
+    "plan_reference": "day1.transportation"
+  }
+]

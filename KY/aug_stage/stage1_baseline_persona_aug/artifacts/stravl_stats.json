@@ -1,0 +1,194 @@
+{
+  "rows": 80301,
+  "missing": {
+    "FORM_B": 80301,
+    "FORM_C": 80301,
+    "FORM_H": 80301,
+    "FORM_I": 80301,
+    "FORM_J": 80301,
+    "FORM_G": 1294,
+    "FORM_F": 457
+  },
+  "single_choice": {
+    "budget_pppn": [],
+    "season": [],
+    "activity_level": [],
+    "safety_conscious": [],
+    "destination_popularity": []
+  },
+  "multi_choice": {
+    "experiences": [
+      {
+        "key": "Cuisine",
+        "count": 49770,
+        "pct": 0.18072551654017938
+      },
+      {
+        "key": "Culture",
+        "count": 45962,
+        "pct": 0.16689785395257634
+      },
+      {
+        "key": "Nature",
+        "count": 44435,
+        "pct": 0.16135299030465886
+      },
+      {
+        "key": "History",
+        "count": 37502,
+        "pct": 0.13617778423326918
+      },
+      {
+        "key": "Adventure",
+        "count": 35909,
+        "pct": 0.1303932604669741
+      },
+      {
+        "key": "Beach",
+        "count": 35277,
+        "pct": 0.12809833327281311
+      },
+      {
+        "key": "Nightlife",
+        "count": 13780,
+        "pct": 0.050038127746105526
+      },
+      {
+        "key": "Shopping",
+        "count": 12755,
+        "pct": 0.04631613348342351
+      }
+    ],
+    "scenery": [
+      {
+        "key": "Lake",
+        "count": 45909,
+        "pct": 0.1743501129825494
+      },
+      {
+        "key": "Sea",
+        "count": 45903,
+        "pct": 0.17432732658602815
+      },
+      {
+        "key": "Urban",
+        "count": 45581,
+        "pct": 0.17310445663938628
+      },
+      {
+        "key": "Mountain",
+        "count": 38518,
+        "pct": 0.14628107020108994
+      },
+      {
+        "key": "Rural",
+        "count": 37178,
+        "pct": 0.14119210831133813
+      },
+      {
+        "key": "Jungle",
+        "count": 27532,
+        "pct": 0.10455917817063214
+      },
+      {
+        "key": "Desert",
+        "count": 11818,
+        "pct": 0.0448816056814082
+      },
+      {
+        "key": "Plains",
+        "count": 10876,
+        "pct": 0.04130414142756774
+      }
+    ],
+    "n_selected_experiences": [
+      {
+        "key": 3,
+        "count": 20632,
+        "pct": 0.25840388758078253
+      },
+      {
+        "key": 4,
+        "count": 18621,
+        "pct": 0.23321727368368317
+      },
+      {
+        "key": 5,
+        "count": 11772,
+        "pct": 0.14743750313110565
+      },
+      {
+        "key": 1,
+        "count": 11266,
+        "pct": 0.14110014528330245
+      },
+      {
+        "key": 2,
+        "count": 9806,
+        "pct": 0.12281448825209158
+      },
+      {
+        "key": 6,
+        "count": 5522,
+        "pct": 0.06915986173037424
+      },
+      {
+        "key": 7,
+        "count": 1660,
+        "pct": 0.020790541556034266
+      },
+      {
+        "key": 8,
+        "count": 565,
+        "pct": 0.007076298782626121
+      }
+    ],
+    "n_selected_scenery": [
+      {
+        "key": 3,
+        "count": 17656,
+        "pct": 0.22347386940397687
+      },
+      {
+        "key": 4,
+        "count": 15483,
+        "pct": 0.19596997734377966
+      },
+      {
+        "key": 1,
+        "count": 13767,
+        "pct": 0.17425038287746655
+      },
+      {
+        "key": 2,
+        "count": 13385,
+        "pct": 0.16941536825850875
+      },
+      {
+        "key": 5,
+        "count": 9917,
+        "pct": 0.1255205234979179
+      },
+      {
+        "key": 6,
+        "count": 4989,
+        "pct": 0.06314630349209564
+      },
+      {
+        "key": 7,
+        "count": 2121,
+        "pct": 0.02684572253091498
+      },
+      {
+        "key": 8,
+        "count": 1689,
+        "pct": 0.021377852595339652
+      }
+    ]
+  },
+  "notes": {
+    "FORM_B": "Budget is per person per night (bucketed).",
+    "source": "Stravl Travel Preference Data",
+    "csv_path": "/Users/ky/AgenticAI/Challenge/KY/aug_stage/stage1_persona_aug/data/stravl/Stravl_Travel_Preference_Data.csv"
+  }
+}

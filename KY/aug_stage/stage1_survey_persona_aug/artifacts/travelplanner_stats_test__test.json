@@ -1,0 +1,50 @@
+{
+  "dataset": "osunlp/TravelPlanner",
+  "config": "test",
+  "split": "test",
+  "rows_seen": 1000,
+  "budgets": {
+    "count": 0,
+    "min": null,
+    "max": null,
+    "quantiles": {
+      "0.1": null,
+      "0.25": null,
+      "0.5": null,
+      "0.75": null,
+      "0.9": null
+    }
+  },
+  "per_person_per_night": {
+    "count": 0,
+    "min": null,
+    "max": null,
+    "quantiles": {
+      "0.1": null,
+      "0.25": null,
+      "0.5": null,
+      "0.75": null,
+      "0.9": null
+    }
+  },
+  "people_number": {},
+  "days": {
+    "3": 308,
+    "5": 351,
+    "7": 341
+  },
+  "level": {
+    "easy": 348,
+    "medium": 333,
+    "hard": 319
+  },
+  "notes": {
+    "loading": "Uses HF official load_dataset(path, config_name, split=...) and get_dataset_* helpers.",
+    "budget_unit": "TravelPlanner budget is a total trip budget (group-level), per dataset/paper.",
+    "pppn_unit": "Derived = budget / (people_number * days)",
+    "split_aliases": {
+      "val": "validation",
+      "dev": "validation"
+    }
+  }
+}

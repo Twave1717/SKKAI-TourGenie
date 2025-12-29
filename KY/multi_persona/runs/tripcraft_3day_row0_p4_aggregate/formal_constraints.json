@@ -1,0 +1,209 @@
+[
+  {
+    "constraint_id": "max_distance_between_stops_km-upper_bound",
+    "type": "hard",
+    "dsl": "max_distance_between_stops_km <= 1",
+    "weight": 5.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_num_activities_per_day-upper_bound",
+    "type": "hard",
+    "dsl": "max_num_activities_per_day <= 3",
+    "weight": 5.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "min_rest_block_minutes_per_day-lower_bound",
+    "type": "hard",
+    "dsl": "min_rest_block_minutes_per_day >= 60",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "include_breakfast_on_travel_days-boolean",
+    "type": "hard",
+    "dsl": "include_breakfast_on_travel_days == 1.0",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "min_rest_after_long_transport_minutes-lower_bound",
+    "type": "hard",
+    "dsl": "min_rest_after_long_transport_minutes >= 60",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_walk_distance_from_transit_meters-upper_bound",
+    "type": "hard",
+    "dsl": "max_walk_distance_from_transit_meters <= 800",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "preferred_long_distance_transport_modes-enum_inclusion",
+    "type": "hard",
+    "dsl": "preferred_long_distance_transport_modes in ['long_distance_bus', 'rail']",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "restaurant_chain_type-enum_exclusion",
+    "type": "hard",
+    "dsl": "restaurant_chain_type not_in ['national_chain']",
+    "weight": 2.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "eco_certified_lodging_required-boolean",
+    "type": "hard",
+    "dsl": "eco_certified_lodging_required == 0.0",
+    "weight": 2.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_daily_route_dispersion_km-upper_bound",
+    "type": "hard",
+    "dsl": "max_daily_route_dispersion_km <= 3",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_walk_distance_between_poi_and_transit_stop_meters-upper_bound",
+    "type": "hard",
+    "dsl": "max_walk_distance_between_poi_and_transit_stop_meters <= 500",
+    "weight": 5.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_walk_distance_lodging_to_transit_stop_meters-upper_bound",
+    "type": "hard",
+    "dsl": "max_walk_distance_lodging_to_transit_stop_meters <= 500",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "lodging_wheelchair_accessible-boolean",
+    "type": "hard",
+    "dsl": "lodging_wheelchair_accessible == 1.0",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_walk_distance_poi_to_transit_stop_meters-upper_bound",
+    "type": "hard",
+    "dsl": "max_walk_distance_poi_to_transit_stop_meters <= 500",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "poi_location_slope_type-enum_inclusion",
+    "type": "hard",
+    "dsl": "poi_location_slope_type in ['flat', 'gentle_slope']",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "poi_has_accessible_restroom-boolean",
+    "type": "hard",
+    "dsl": "poi_has_accessible_restroom == 1.0",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "min_rest_block_minutes_between_activities-lower_bound",
+    "type": "hard",
+    "dsl": "min_rest_block_minutes_between_activities >= 60",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "min_meals_per_day-lower_bound",
+    "type": "hard",
+    "dsl": "min_meals_per_day >= 2",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "must_include_breakfast_on_travel_days-boolean",
+    "type": "hard",
+    "dsl": "must_include_breakfast_on_travel_days == 1.0",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "must_include_dinner_on_travel_days-boolean",
+    "type": "hard",
+    "dsl": "must_include_dinner_on_travel_days == 1.0",
+    "weight": 4.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_meal_interval_minutes-upper_bound",
+    "type": "hard",
+    "dsl": "max_meal_interval_minutes <= 240",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "must_include_local_food_variety-boolean",
+    "type": "hard",
+    "dsl": "must_include_local_food_variety == 1.0",
+    "weight": 3.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  },
+  {
+    "constraint_id": "max_distance_between_meal_and_attraction_meters-upper_bound",
+    "type": "hard",
+    "dsl": "max_distance_between_meal_and_attraction_meters <= 1000",
+    "weight": 2.0,
+    "metadata": {
+      "note": "passthrough: NL kept as DSL"
+    }
+  }
+]

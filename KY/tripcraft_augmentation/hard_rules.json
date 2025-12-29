@@ -1,0 +1,9 @@
+{
+    "Budget": "The total budget of the trip.",
+    "Room Rule": "Room rules include “No parties”, “No smoking”, “No children under 10”, “No pets”, and “No visitors”.",
+    "Room Type": "Room types include “Entire Room”, “Private Room”, “Shared Room”, and “No Shared Room”.",
+    "Cuisine": "Cuisines include “Chinese”, “American”, “Italian”, “Mexican”, “Indian”, “Mediterranean”, and “French”.",
+    "Transportation": "Transportation options include “No flight” and “No self-driving”.",
+    "Event Types": "Event Types include four distinct categories—Sports, Arts & Theatre, Music, and Film.",
+    "Attraction Types": "Each attraction belongs to one or more of 15 predefined categories, ensuring a well-distributed selection of activities."
+}

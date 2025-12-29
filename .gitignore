@@ -28,6 +28,10 @@ external/
 benchmarks/TripCraft/TripCraft_database
 benchmarks/TripCraft/tripcraft
 KY/viewer/cache
+KY/tripcraft_augmentation/ours_input_json
+KY/tripcraft_augmentation/tripcraft_augmentation_output
+KY/aug_stage/stage1_baseline_persona_aug/outputs_stage1
+KY/aug_stage/stage2_baseline_constraint_gen/outputs_stage2
 
 # Editors
 .vscode/
